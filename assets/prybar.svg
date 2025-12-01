@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.999001"
+   height="99.999001"
+   viewBox="0 0 99.999 99.999001"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="prybar.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="6.7941176"
+     inkscape:cx="49.822511"
+     inkscape:cy="42.757576"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 99.999 42.2817 C 99.999 42.2817 99.988 27.9457 99.999 25.3247 C 100.052 12.6067 89.03 10.0627 82.246 16.8457 L 22.045 74.5037 C 18.403 78.0897 11.023 84.6787 0 85.5257 C 0 85.5257 15.82 90.9317 27.133 79.5897 L 86.487 22.7797 C 89.878 19.3887 93.342 21.4847 93.27 25.3237 L 93.27 42.2817 L 96.661 38.8897 Z"
+     id="path1"
+     style="fill:#000000" />
+</svg>

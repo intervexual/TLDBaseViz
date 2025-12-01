@@ -1,0 +1,156 @@
+{
+	"bases": {
+		"LowerMine": {
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["coal"],
+			"connections": {"east": "Quonset", "north": "UpperMine"}
+		},
+		"UpperMine": {
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["coal"],
+			"connections": {"south": "LowerMine"}
+		},
+		"Quonset": {
+			"customizable": true,
+			"loading": true,
+			"indoors": true,
+			"features": [
+				"bear,deer,wolf",
+				"workbench,Furniture,,BED,Bearbed,radio",
+				"Quality,Woodworking,Hacksaw,Hammer,Lantern",
+				"Curing,Curing,Curing,Curing,Cookpot,Cookpot",
+				"Curing,Curing,Curing,Curing,Skillet,Skillet",
+				"Trunk,Trunk,Trunk,Trunk,,Suitcase",
+				"Trunk,Trunk,Trunk,Trunk,,Suitcase"
+			],
+			"connections": {"south": "QMFishHut", "east":"LowerMine"}
+		},
+		"QMFishHut": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["potbelly,fish,Hammer"],
+			"connections": {"south": "Misanthrope", "north": "Quonset"}
+		},
+		"Misanthrope": {
+			"customizable": true,
+			"loading": true,
+			"indoors": true,
+			"features": ["bear,deer,wolf",
+						"salt,beachcombing",
+						"bed, trader, quality",
+						"Workbench, Furniture, Bearbed"
+			],
+			"connections": {"north": "QMFishHut","west": "JMFishHut","east": "CommuterCar"}
+		},
+		"JMFishHut": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["potbelly","fish","beachcombing"],
+			"connections": {"east": "Misanthrope", "west": "Jackrabbit"}
+		},
+		"Jackrabbit": {
+			"customizable": true,
+			"loading": true,
+			"indoors": true,
+			"features": ["rabbit,deer",
+						"salt,beachcombing",
+						"bed, quality",
+						"Workbench, Furniture, Bearbed"
+			],
+			"connections": {"east": "JMFishHut", "north": "JFFishHut"}
+		},
+		"JFFishHut": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["potbelly,fish"],
+			"connections": {"south": "Jackrabbit", "east": "MidFishHuts"}
+		},
+		"MidFishHuts": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["potbelly,fish"],
+			"connections": { "east": "QMFishHut", "south": "JMFishHut"}
+		},
+		"CommuterCar": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["deer"],
+			"connections": {"west": "Misanthrope", "east": "Harris", "north": "Quonset"}
+		},
+		"Harris": {
+			"customizable": true,
+			"loading": true,
+			"indoors": true,
+			"features": ["wolf"],
+			"connections": {"west": "CommuterCar", "east": "No3Mine"}
+		},
+		"No3Mine": {
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["coal,salt"],
+			"connections": {"west": "Harris", "east": "No5Mine"}
+		},
+		"No5Mine": {
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["coal,salt"],
+			"connections": {"west": "No3Mine", "east": "Hibernia"}
+		},
+		"Hibernia":{
+			"customizable": true,
+			"loading": true,
+			"indoors": true,
+			"features": ["salt,beachcombing",
+						"bed, quality, workbench",
+						"Furniture, Bearbed"
+			],
+			"connections": {"west": "No5Mine", "south": "Riken", "north": "BrokenBridge"}
+		},
+		"BrokenBridge":{
+			"customizable": false,
+			"loading": false,
+			"indoors": true,
+			"features": ["bear,salt"],
+			"connections": { "south": "Hibernia"}
+		},
+		"Riken":{
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["forge,bed", "Hammer,beachcombing"],
+			"connections": {"east": "LittleIsland", "north": "Hibernia"}
+		},
+		"LittleIsland": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["deer,rabbit","salt,beachcombing"],
+			"connections": {"west": "Riken"}
+		}
+	},
+  	"colours":{
+		"base":"oklch(0.4 0.06 150)",
+		"basebg":"oklch(0.9 0.02 150)",
+		"bring":"oklch(0.5 0.16 0)",
+		"todo":"oklch(0.6 0.2 30)",
+		"tinder":"oklch(0.4 0.06 50)",
+		"fir":"oklch(0.6 0.14 70)",
+		"cedar":"oklch(0.7 0.1 90)",
+		"cattail":"oklch(0.5 0.08 110)",
+		"take":"oklch(0.6 0.12 210)",
+		"clearpath":"oklch(0.7 0.18 250)",
+		"charcoal":"oklch(0.1 0.04 290)",
+		"mixed":"oklch(0.5 0.18 330)"
+	}
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.389"
+   height="18.389"
+   viewBox="0 0 18.389 18.389"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="cookpot.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="11.620915"
+     inkscape:cx="52.061305"
+     inkscape:cy="37.819741"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | "
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <path
+     d="M 16.0075 8.53262 L 2.38144 8.53262 C -0.793555 8.53262 -0.793555 13.1628 2.38144 13.1628 L 2.57988 13.1628 L 2.57988 16.4437 C 2.57988 17.2242 3.14874 17.793 3.92926 17.793 L 14.4597 17.793 C 15.2402 17.793 15.8091 17.2242 15.8091 16.4437 L 15.8091 13.1628 L 16.0075 13.1628 C 19.1825 13.1628 19.1825 8.53262 16.0075 8.53262 Z M 2.38144 11.8399 C 0.860091 11.8399 0.860091 9.85554 2.38144 9.85554 L 2.57988 9.85554 L 2.57988 11.8399 Z M 16.0075 11.8399 L 15.8091 11.8399 L 15.8091 9.85554 L 16.0075 9.85554 C 17.5288 9.85554 17.5288 11.8399 16.0075 11.8399 Z M 11.6683 0.59512 C 10.2263 3.26741 13.1103 4.53741 11.6683 7.2097 L 13.1103 7.2097 C 14.5523 4.53741 11.6683 3.26741 13.1103 0.59512 Z M 5.30509 0.59512 C 3.84988 3.26741 6.74707 4.53741 5.30509 7.2097 L 6.74707 7.2097 C 8.18905 4.53741 5.30509 3.26741 6.74707 0.59512 Z M 8.49332 0.59512 C 7.05134 3.26741 9.9353 4.53741 8.49332 7.2097 L 9.9353 7.2097 C 11.3773 4.53741 8.49332 3.26741 9.9353 0.59512 Z"
+     fill="#000000"
+     stroke="none"
+     stroke-dasharray="none"
+     stroke-linecap="inherit"
+     stroke-linejoin="inherit"
+     stroke-width="0.0132292"
+     id="path1"
+     style="fill:#000000" />
+</svg>
