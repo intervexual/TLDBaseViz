@@ -312,7 +312,7 @@
 			"customizable": true,
 			"loading":false,
 			"indoors": true,
-			"features": ["bed,grill,salt,beachcombing,prybar"],
+			"features": ["bed,grill,PRYBAR","salt,beachcombing"],
 			"connections": { "north": "CanneryTrailer", "west": "CanneryWorkshop"}
 		},
 		"CanneryWorkshop": {
@@ -489,7 +489,8 @@
 			"loading": true,
 			"indoors": true,
 			"features": ["bear,bear",
-						"workbench,bed"
+						"workbench,bed",
+						"Furniture,Bearbed"
 			],
 			"connections": {"south": "CaveToHRV", "east": "SketchyCave"}
 		},
@@ -628,21 +629,21 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["coal","wolf"],
+			"features": ["coal","poisonwolf"],
 			"connections": { "west": "VacantDepot", "east": "IdleCamp", "north": "ZOCConnectorCave"}
 		},
 		"IdleCamp": {
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["range","radio"],
+			"features": ["range,radio","bed,prybar"],
 			"connections": { "west": "WelkinsWindowCave", "east": "Concentrator"}
 		},
 		"Concentrator": {
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["prybar"],
+			"features": ["poisonwolf","prybar"],
 			"connections": { "north": "LangstonMine", "west": "IdleCamp"}
 		},
 		"LangstonMine": {
@@ -789,14 +790,14 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["bear"],
+			"features": ["bear,poisonwolf"],
 			"connections": { "east": "MinersFootpath", "south": "MineTrailer"}
 		},
 		"MineTrailer": {
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["wolf"],
+			"features": ["poisonwolf,bed"],
 			"connections": { "north": "SmokersCave","west": "ZOCConnectorCave"}
 		},
 		"ZOCConnectorCave": {
@@ -843,7 +844,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly","fish","beachcombing"],
+			"features": ["potbelly","fish","Prybar","beachcombing"],
 			"connections": {"east": "Misanthrope", "west": "Jackrabbit"}
 		},
 		"Jackrabbit": {
@@ -933,7 +934,7 @@
 			"indoors": true,
 			"features": [",,salt,beachcombing",
 						"workbench,furniture,,bearbed",
-						"quality, hacksaw,prybar",
+						"quality, hacksaw,PRYBAR",
 						"grill,,curing,curing"
 			],
 			"connections": {"west": "No5Mine", "south": "Riken", "north": "BrokenBridgeCave"}

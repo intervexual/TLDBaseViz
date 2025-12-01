@@ -23,6 +23,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
 * [Moose by pramana](https://thenounproject.com/icon/moose-7525270/)
 * [Quality Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
+* [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
 * [Pot Belly Stove by Andrejs Kirma](https://thenounproject.com/icon/brick-oven-754885/)
 * [Prybar by Ben Gilman](https://thenounproject.com/icon/crowbar-4068/)
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
@@ -38,3 +39,11 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Wolf by IronSV](https://thenounproject.com/icon/wolf-3063417/)
 * [Woodworking Tools by Berkah Icon](https://thenounproject.com/icon/saw-8128607/)
 * [Workbench by cdesign933](https://thenounproject.com/icon/desk-6717403/)
+
+
+## TODOs
+* Add posion wolf icon
+* Add legend
+* Verify # things to take == # things to bring
+* Fix discontinuities and other jank in the graph connections
+* Add all loot table POIs and make templates for interloper

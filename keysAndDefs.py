@@ -20,6 +20,7 @@ RABBIT = 'rabbit'
 PTARMIGAN = 'ptarmigan'
 DEER = 'deer'
 WOLF = 'wolf'
+POISON_WOLF = 'poisonwolf'
 TIMBERWOLF = 'timberwolf'
 BEAR = 'bear'
 MOOSE = 'moose'
@@ -78,12 +79,13 @@ ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           FURN_BENCH:'furnbench.svg', WORK_BENCH:'workbench.svg',
           TRUNK:'trunk.svg', CURING_BOX:'curing.svg',
           COOKPOT:'cookpot.svg', SKILLET:'skillet.svg',
-          POTBELLY:'potbelly.svg', GRILL:'grill.svg', RANGE:'range.svg', NOSTOVE:'nostove.svg',
+          POTBELLY:'potbelly.svg', GRILL:'grill.svg', RANGE:'range.svg',
           HACKSAW:'hacksaw.svg', QUALITY_TOOLS:'toolbox.svg', LANTERN:'lantern.svg', PRYBAR:'prybar.svg',
           WOODWORKING:'woodworking.svg', HAMMER:'hammer.svg',
           SUITCASE:'suitcase.svg',
           RADIO:'radio.svg', TRADER:'trader.svg',
-          BEAR:'bear.svg',WOLF:'wolf.svg',DEER:'deer.svg',RABBIT:'rabbit.svg',PTARMIGAN:'ptarmigan.svg',
+          BEAR:'bear.svg',WOLF:'wolf.svg',POISON_WOLF:"poisonwolf.svg",
+          DEER:'deer.svg',RABBIT:'rabbit.svg',PTARMIGAN:'ptarmigan.svg',
           MOOSE:'moose.svg',TIMBERWOLF:'timberwolf.svg',
           SALT:'salt.svg', BEACHCOMBING:'beachcombing.svg', COAL:'coal.svg', FISH:'fish.svg',
           BIRCH:'birch.svg',

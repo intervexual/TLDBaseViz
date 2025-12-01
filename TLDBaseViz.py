@@ -397,6 +397,8 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg', base_x=200, base_y
                     visited.append(connection_name)
 
             #print(b, dir, bob.box_width, bob.box_height, bob.connections)
+    draw_legend(d, x=arrow_size, y=0)
+
     d.save_svg(output)
 
     actual_height =  most_north - most_south
@@ -455,6 +457,51 @@ def count_features(bases):
                 if feature.status in [ACTUAL, TAKE, REMOVE]:
                     count[feature.name] += 1
     return count
+
+
+def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purple'):
+    """
+    Draw a legend
+    :param d:
+    :return:
+    >>> d = draw.Drawing(200, 36*25)
+    >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
+    >>> draw_legend(d)
+    >>> d.save_svg('tests/legend.svg')
+    """
+    margin_size = icon_size * margin_ratio
+    cell_size = icon_size + margin_size
+    icon_y = y + cell_size + margin_size * 2
+    icon_x = x + margin_size
+
+    ordering = {BED:BED, BEAR_BED:"bear hide bed",
+                WORK_BENCH:WORK_BENCH, FURN_BENCH:"furniture workbench", FORGE:FORGE, MILL_MACH:"milling machine",
+                RADIO:"trader radio", TRADER:"trade drop-box",
+                POTBELLY:"1-slot stove", GRILL:"2-slot stove", RANGE:"6-slot stove",
+                COOKPOT:COOKPOT, SKILLET:SKILLET,
+                LANTERN:LANTERN, QUALITY_TOOLS:"quality tools",
+                HACKSAW:HACKSAW, HAMMER:"heavy hammer", PRYBAR:PRYBAR, WOODWORKING:"woodworking tools",
+                TRUNK:"rustic trunk", SUITCASE:"suitcase",
+                CURING_BOX:"curing box",
+                SALT:"salt deposit",COAL:"coal",BEACHCOMBING:"beachcombing",BIRCH:"birch bark",
+                BEAR:BEAR, MOOSE:MOOSE, DEER:DEER, WOLF:WOLF, POISON_WOLF:'poisoned wolf', TIMBERWOLF:TIMBERWOLF, RABBIT:RABBIT, PTARMIGAN:PTARMIGAN, FISH:'fishing'
+    }
+    assert  len(ASSETS) - len(ordering) <= 1, len(ASSETS) - len(ordering)
+
+    legend_font_size = 10
+    d.append(draw.Text('LEGEND', legend_font_size,
+                       x=icon_x, y=icon_y + cell_size / 2,
+                       fill=legend_colour))
+    for i, a in enumerate(ordering):
+        filepath = 'assets/' + ASSETS[a]
+        icon_y += cell_size
+        import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
+                   hei=icon_size, fill=legend_colour)
+        d.append(draw.Text(ordering[a], legend_font_size,
+                           x=icon_x+cell_size, y=icon_y+cell_size/2,
+                           fill=legend_colour))
+
+
 
 if __name__ == '__main__':
     doctest.testmod()
