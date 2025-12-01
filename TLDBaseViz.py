@@ -101,10 +101,12 @@ class BaseLocation:
                     self.num_features += 1
             self.features.append(row_objects)
         # connections
-        self.connections = data[CONNECTIONS]
-
-
+        if CONNECTIONS in data:
+            self.connections = data[CONNECTIONS]
     def __repr__(self):
+        """
+        :return: Text representation for the base.
+        """
         sizer = 1
         liner = '-' * self.longest_row*sizer + '\n'
         s = liner
@@ -122,19 +124,67 @@ class BaseLocation:
         s += liner[:-1]
         return s
     def box_dimensions(self, icon_size, margin_ratio=1/8):
-        margin_size = icon_size * margin_ratio
-        cell_size = icon_size + margin_size
-        box_width = margin_size*3 + cell_size * self.longest_row
-        box_height = margin_size*3 + cell_size * (1 + len(self.features))
-        self.box_width = box_width
-        self.box_height = box_height
-        return box_width, box_height, cell_size, margin_size
+        """
+        Calculate and save dimensions for drawing the base, derived from a given icon height in pixels
+        :param icon_size: icon height in pixels (is square, so also its width)
+        :param margin_ratio: margin between icons as a fraction of icon size
+        :return: width of the box for the base, height, height of a given row in the box, margin size in pixels
+        >>> bases = process_input('tests/testinput.json')
+        >>> bases['Quonset'].box_dimensions(20)
+        (142.5, 187.5, 22.5, 2.5)
+        """
+        self.icon_size = icon_size
+        self.margin_size = icon_size * margin_ratio
+        self.cell_size = icon_size + self.margin_size
+        self.box_width = self.margin_size*3 + self.cell_size * self.longest_row
+        self.box_height = self.margin_size*3 + self.cell_size * (1 + len(self.features))
+        return self.box_width, self.box_height, self.cell_size, self.margin_size
+    def draw_base_box(self, d, x=0, y=0, fill='white', border='black'):
+        """
+        Draw just the box for the base.
+        :param d: drawing object
+        :param x: upper left corner of box on canvas
+        :param y: upper left corner of box on canvas
+        :param fill: box fill colour
+        :param border: box border colour
+        :return:
+        >>> bases = process_input('tests/testinput.json')
+        >>> w, h, c, m = bases['Quonset'].box_dimensions(20)
+        >>> d = draw.Drawing(w, h)
+        >>> bases['Quonset'].draw_base_box(d)
+        >>> d.save_svg('tests/quonset_box.svg')
+        """
+        self.box_x = x
+        self.box_y = y
+
+        if self.indoors:
+            rx = '0'
+            ry = rx
+        else:
+            rx = str(self.icon_size)
+            ry = rx
+
+        if self.loading:
+            stroke_dasharray = ''
+        else:
+            stroke_dasharray = '5,2'
+
+        if self.customizable:
+            stroke_opacity = 1
+        else:
+            stroke_opacity = .25
+
+        margin = self.margin_size/2
+        d.append( draw.Rectangle(self.box_x + margin, self.box_y + margin,
+                                 self.box_width-self.margin_size, self.box_height-self.margin_size,
+                                 rx=rx, ry=ry, stroke_dasharray=stroke_dasharray, stroke_opacity=stroke_opacity,
+                                 fill=fill, stroke_width=self.margin_size, stroke=border ) )
     def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black'):
         """
-
-        :param d:
-        :param icon_size:
-        :param margin_ratio:
+        Draw the base with drawsvg
+        :param d: Drawing object
+        :param icon_size: icon height in pixels (square)
+        :param margin_ratio: margin between icons, as a fraction of icon size
         :return:
         >>> bases = process_input('tests/testinput.json')
         >>> w, h, c, m = bases['Quonset'].box_dimensions(20)
@@ -147,35 +197,14 @@ class BaseLocation:
         >>> d.save_svg('tests/misanthrope.svg')
         """
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
-        self.box_x = x
-        self.box_y = y
-
-        if self.indoors:
-            rx = '0'
-            ry = rx
-        else:
-            rx = str(icon_size)
-            ry = rx
-        if self.loading:
-            stroke_dasharray = ''
-        else:
-            stroke_dasharray = '5,2'
-        if self.customizable:
-            stroke_opacity = 1
-        else:
-            stroke_opacity = .25
-
-        d.append( draw.Rectangle(self.box_x+margin_size/2, self.box_y+margin_size/2,
-                                 box_width-margin_size, box_height-margin_size,
-                                 rx=rx, ry=ry, stroke_dasharray=stroke_dasharray,
-                                 fill=fill, stroke_width=margin_size, stroke=border, stroke_opacity=stroke_opacity) )
-
+        self.draw_base_box(d, x=x, y=y, fill=fill, border=border)
 
         if self.indoors and self.customizable and self.num_features > 3:
             text_stroke = border
         else:
             text_stroke = 'none'
 
+        # the title
         font_size = box_width / 7
         text_x = x + box_width/2 #+ margin_size/2
         text_y = y + cell_size - margin_size * .5
@@ -184,16 +213,14 @@ class BaseLocation:
                             fill=border, dominant_baseline='hanging',
                             textLength=box_width-cell_size, lengthAdjust='spacing') )
 
+        # matrix of icons
         icon_y = y + cell_size + margin_size*2
         for i, row in enumerate(self.features):
             icon_x = x + margin_size*2
             for j, bob in enumerate(row):
                 import_svg(d, bob.filepath, x=icon_x, y=icon_y, wid=icon_size,
                            hei=icon_size, fill=bob.hex)
-
-                # increment
                 icon_x += cell_size
-                #print(i,j, bob)
             icon_y += cell_size
 
 
@@ -266,9 +293,9 @@ def parse_colours(colours):
 
 def process_input(filename='bases.json', to_print=False):
     """
-
-    :param filename:
-    :return:
+    Parse input JSON and then turn it into BaseLocation objects.
+    :param filename: input JSON filepath
+    :return: list of BaseLocation objects.
     >>> bases = process_input('tests/testinput.json', to_print=False)
     >>> bases['Misanthrope']
     ---
@@ -294,6 +321,16 @@ def process_input(filename='bases.json', to_print=False):
 
 
 def update_extremes(base_x, base_y, most_north, most_east, most_south, most_west):
+    """
+    Track the furthest dimensions that have been drawn thus far
+    :param base_x: latest x
+    :param base_y: latest y
+    :param most_north: smallest y seen so far
+    :param most_east: smallest x seen so far
+    :param most_south: largest y seen so far
+    :param most_west: largest x seen so far
+    :return: updated values
+    """
     most_south = min(most_south, base_y)
     most_north = max(most_north, base_y)
     most_west = min(most_west, base_x)
@@ -305,15 +342,12 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
                base_x=200, base_y=100, width=800, height=600,
                arrow_colour='black', add_legend=True):
     """
-
+    Draw all bases
     :param bases:
     :return:
     >>> bases = process_input('tests/testinput.json')
     >>> draw_bases(bases, add_legend=False)
     (557.5, 470.0)
-    >>> bases = process_input('mybases.json')
-    >>> draw_bases(bases, output='mybases.svg', width=2100, height=1400, base_x=1650, base_y=35)
-    (1795.0, 1195.0)
     """
     d = draw.Drawing(width, height)
     d.append(draw.Rectangle(0,0,d.width,d.height,fill='white'))
@@ -404,8 +438,9 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
                     visited.append(connection_name)
 
             #print(b, dir, bob.box_width, bob.box_height, bob.connections)
-    counts = count_features(bases)
-    draw_legend(d, x=arrow_size, y=0, counts=counts)
+    if add_legend:
+        counts = count_features(bases)
+        draw_legend(d, x=arrow_size, y=0, counts=counts)
 
     d.save_svg(output)
 
@@ -417,45 +452,31 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
 
 def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     """
-
-    :param bases:
-    :return:
+    For each feature (e.g. workbench, forge) count how many times it appears across the whole island.
+    :param bases: list of BaseLocation objects
+    :return: dictionary of counts, indexed by feature name (e.g. 'forge')
     >>> bases = process_input('tests/testinput.json')
     >>> count_features(bases)
-    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'empty': 3}
+    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
     >>> bases = process_input('mybases.json')
     >>> nums = count_features(bases)
-    >>> nums['forge']
-    4
-    >>> nums['milling']
-    2
-    >>> nums['hacksaw']
-    9
-    >>> nums['woodworking']
-    4
-    >>> nums['hammer']
-    7
-    >>> nums['prybar']
-    14
-    >>> nums['lantern']
-    6
-    >>> nums['skillet']
-    14
-    >>> nums['cookpot']
-    15
-    >>> nums['radio']
-    10
-    >>> nums['salt']
-    14
+    >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
+    [4, 2, 10, 1, 14, 7, 4]
     >>> nums['birch']
     15
-    >>> nums['range']
+    >>> nums['hacksaw']
+    9
+    >>> nums['hammer']
     7
+    >>> [nums['prybar'], nums['lantern']] # my notes are inconsistent on these two
+    [14, 6]
+    >>> nums['skillet']
+    14
+    >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
+    True
     >>> total_bears = 2+4+3+1+3+0+1+0+0+2+2+2+0+0+1+2+3+0+1+3+0+0+1
     >>> total_bears - nums['bear']
     0
-    >>> nums['moose'] >= 0
-    True
     """
     count = {}
     for a in ASSETS:
@@ -471,11 +492,12 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
 
 def verify_taking_numbers(bases):
     """
-
-    :param bases:
+    Verify that for each feature, the number of items flagged as to-take equals the number of items flagged as to-bring.
+    :param bases: list of BaseLocation objects
     :return:
     >>> bases = process_input('mybases.json')
     >>> verify_taking_numbers(bases)
+    True
     """
     to_take = count_features(bases, statuses_to_count=[TAKE])
     to_bring = count_features(bases, statuses_to_count=[BRING])
@@ -486,16 +508,18 @@ def verify_taking_numbers(bases):
                 print('key', 'to_bring', 'to_take', 'same?')
                 issues_found = True
             print(a, to_bring[a], to_take[a], to_bring[a] == to_take[a])
+    return not issues_found
 
 
 def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purple', counts=False):
     """
     Draw a legend
-    :param d:
-    :return:
+    :param d: drawing object
+    :return: y position of the bottom of the legend
     >>> d = draw.Drawing(200, 36*25)
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> draw_legend(d)
+    860.0
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
@@ -534,8 +558,18 @@ def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purp
             d.append(draw.Text(str(counts[a]), legend_font_size,
                                x=count_x, y=icon_y+cell_size/2,
                                fill=legend_colour))
-
+    return icon_y + cell_size
 
 
 if __name__ == '__main__':
     doctest.testmod()
+
+    if len(sys.argv) > 1:
+        fname = sys.argv[1]
+        print('Drawing', fname)
+        if fname.endswith('.json'):
+            outfile = fname.replace('.json', '.svg')
+            bases = process_input(fname)
+            draw_bases(bases, output=outfile, width=2100, height=1400, base_x=1650, base_y=35)
+        else:
+            print('To run: python3 TLDBaseViz.py mybases.json')

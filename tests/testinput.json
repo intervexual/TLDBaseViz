@@ -139,6 +139,27 @@
 			"connections": {"west": "Riken"}
 		}
 	},
+	"connections": [
+		["Hibernia", "north", "top,left", "BrokenBridge", "bottom,left", "road"],
+		["Hibernia", "south", "bottom,left", "Riken", "top,left", "charcoal"],
+		["Riken", "east", "top,right", "LittleIsland", "top,left", "charcoal"],
+		["No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road"],
+		["No5Mine", "east", "bottom,right", "Hibernia", "top,left", "road"],
+		["No3Mine", "east", "top,right", "No5Mine", "top,left", "path"],
+		["Harris", "east", "top,right", "No3Mine", "top,left", ""],
+		["CommuterCar", "east", "top,right", "Harris", "top,left", "road"],
+		["Misanthrope", "east", "top,right", "CommuterCar", "top,left", ""],
+		["JMFishHut", "east", "top,right", "Misanthrope", "top,left", ""],
+		["Jackrabbit", "east", "top,right", "JMFishHut", "top, left", ""],
+		["Jackrabbit", "north", "top,left", "JFFishHut", "bottom,left", ""],
+		["Jackrabbit", "north", "top,right", "MidFishHuts", "bottom,left", ""],
+		["JFFishHut", "east", "top,right", "MidFishHuts", "top,left", ""],
+		["MidFishHuts", "east", "top,right", "QMFishHut", "top,left", ""],
+		["Quonset", "south", "bottom,left", "QMFishHut", "top,left", ""],
+		["Quonset", "south", "bottom,right", "CommuterCar", "top,right", "road"],
+		["Quonset", "west", "top,left", "LowerMine", "top,right", "road"],
+		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"]
+	],
   	"colours":{
 		"base":"oklch(0.4 0.06 150)",
 		"basebg":"oklch(0.9 0.02 150)",
