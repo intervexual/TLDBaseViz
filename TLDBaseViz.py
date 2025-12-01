@@ -312,7 +312,7 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
     >>> draw_bases(bases, add_legend=False)
     (557.5, 470.0)
     >>> bases = process_input('mybases.json')
-    >>> draw_bases(bases, output='mybases.svg', width=2100, height=1400, base_x=1500, base_y=50)
+    >>> draw_bases(bases, output='mybases.svg', width=2100, height=1400, base_x=1650, base_y=35)
     (1795.0, 1195.0)
     """
     d = draw.Drawing(width, height)
@@ -448,7 +448,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums['salt']
     14
     >>> nums['birch']
-    14
+    15
     >>> nums['range']
     7
     >>> total_bears = 2+4+3+1+3+0+1+0+0+2+2+2+0+0+1+2+3+0+1+3+0+0+1
@@ -510,7 +510,7 @@ def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purp
                 COOKPOT:COOKPOT, SKILLET:SKILLET,
                 LANTERN:LANTERN, QUALITY_TOOLS:"quality tools",
                 HACKSAW:HACKSAW, HAMMER:"heavy hammer", PRYBAR:PRYBAR, WOODWORKING:"woodworking tools",
-                TRUNK:"rustic trunk", SUITCASE:"suitcase",
+                TRUNK:"rustic trunk", SUITCASE:"suitcase", ROCK_CACHE:"rock cache",
                 CURING_BOX:"curing box",
                 SALT:"salt deposit",COAL:"coal",BEACHCOMBING:"beachcombing",BIRCH:"birch bark",
                 BEAR:BEAR, MOOSE:MOOSE, DEER:DEER, WOLF:WOLF, POISON_WOLF:'poisoned wolf', TIMBERWOLF:TIMBERWOLF, RABBIT:RABBIT, PTARMIGAN:PTARMIGAN, FISH:'fishing'

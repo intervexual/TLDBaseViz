@@ -35,6 +35,7 @@ SKILLET = 'skillet'
 CURING_BOX = 'curing'
 TRUNK = 'trunk'
 SUITCASE = 'suitcase'
+ROCK_CACHE = 'rockcache'
 
 TOOLS = 'tools'
 WOODWORKING = 'woodworking'
@@ -89,7 +90,7 @@ ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           DEER:'deer.svg',RABBIT:'rabbit.svg',PTARMIGAN:'ptarmigan.svg',
           MOOSE:'moose.svg',TIMBERWOLF:'timberwolf.svg',
           SALT:'salt.svg', BEACHCOMBING:'beachcombing.svg', COAL:'coal.svg', FISH:'fish.svg',
-          BIRCH:'birch.svg',
+          BIRCH:'birch.svg', ROCK_CACHE:"rockcache.svg",
           EMPTY:'empty.svg'
           }
 

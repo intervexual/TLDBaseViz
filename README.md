@@ -30,6 +30,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Rabbit by Logisstudio](https://thenounproject.com/icon/rabbit-8111124/)
 * [Radio by NTT](https://thenounproject.com/icon/walkie-talkie-4532346/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
+* [Rock Cache by kusuma potter](thenounproject.com/icon/cannon-balls-7931465/)
 * [Salt by Muhammad Hilmi Fajri](https://thenounproject.com/icon/mineral-7867358/)
 * [Skillet by icelloid](https://thenounproject.com/icon/frying-pan-6855632/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
@@ -45,3 +46,4 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * Fix discontinuities and other jank in the graph connections
 * Add all loot table POIs and make templates for interloper
 * Figure out SVG vs PNG text weirdness
+* Automatic centring

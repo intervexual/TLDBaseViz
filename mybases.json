@@ -47,14 +47,28 @@
 			"loading": true,
 			"indoors": true,
 			"features": ["birch"],
-			"connections": {"north": "StoneShelfCave", "south":"Mountaineer", "west": "BehindSummit"}
+			"connections": {"north": "StoneShelfCave", "south":"TWMFishHut", "west": "BehindSummit"}
+		},
+		"TWMFishHut": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["potbelly,fish,Prybar"],
+			"connections": {"west":"Mountaineer", "east": "ForestCave", "north": "CaveToAC"}
+		},
+		"ForestCave": {
+			"customizable": false,
+			"loading": false,
+			"indoors": true,
+			"features": ["birch,ptarmigan"],
+			"connections": {"west":"TWMFishHut"}
 		},
 		"BitterMarshFishHut": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
 			"features": ["potbelly,fish,Prybar"],
-			"connections": {"north": "AnglersDen", "east": "Homesteader"}
+			"connections": {"north": "AnglersDen", "east": "Homesteader", "south": "ForestCave"}
 		},
 		"Homesteader": {
 			"customizable": true,
@@ -67,7 +81,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["bear"],
+			"features": ["bear,ptarmigan"],
 			"connections": {"east": "CaveToAC"}
 		},
 		"Mountaineer": {
@@ -76,15 +90,15 @@
 			"indoors": true,
 			"features": ["bear,bear,rabbit,,birch",
 						"workbench,furniture,Hacksaw,BED,Bearbed",
-						"grill,quality,lantern,woodworking,prybar",
+						"grill,quality,lantern,woodworking,PRYBAR,rockcache",
 						"trunk,trunk,Trunk,Trunk,Suitcase,Suitcase"],
-			"connections": {"south": "Joplin", "north": "CaveToAC", "west": "CaveToBRM"}
+			"connections": {"south": "Joplin", "east": "TWMFishHut", "west": "CaveToBRM"}
 		},
 		"Joplin": {
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["ptarmigan,rabbit,deer",
+			"features": ["ptarmigan,deer",
 						"workbench,bed"],
 			"connections": {"south": "EmptyBearCave", "north": "Mountaineer"}
 		},
@@ -167,7 +181,7 @@
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["timberwolf,milling,Hacksaw","Furniture,Workbench,Bearbed"],
+			"features": ["timberwolf","milling,Quality,Hacksaw","Furniture,Workbench,Bearbed"],
 			"connections": {"east": "LastProspect","south": "OldSubstation","north": "Barracks"}
 		},
 		"Barracks": {
@@ -181,14 +195,14 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["bear,timberwolf","workbench,bed","prybar,HACKSAW"],
+			"features": ["bear,timberwolf","workbench,bed","prybar,quality,HACKSAW"],
 			"connections": {"north": "PrisonWorkshop","south": "Foresters"}
 		},
 		"Foresters": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["rabbit"
+			"features": ["grill"
 			],
 			"connections": {"south": "KPIceCave", "north": "OldSubstation"}
 		},
@@ -212,7 +226,7 @@
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,PRYBAR"],
+			"features": ["coal,PRYBAR","rockcache,rockcache"],
 			"connections": {"south": "LowerMine", "north":"CaveByRoad"}
 		},
 		"LowerMine": {
@@ -240,21 +254,21 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["deer"],
+			"features": ["rockcache"],
 			"connections": {"east": "TrainUnloading","west": "EastRavine"}
 		},
 		"EastRavine": {
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["birch,rabbit"],
+			"features": ["birch,rabbit","rockcache"],
 			"connections": {"east": "CHRailTunnel","west": "WestRavine"}
 		},
 		"WestRavine": {
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["birch,deer"],
+			"features": ["birch,deer","rockcache"],
 			"connections": {"east": "EastRavine", "west": "Dam","south": "SouthRavine"}
 		},
 		"SouthRavine": {
@@ -278,7 +292,7 @@
 			"features": ["BED,grill,coal",
 						"Workbench,Furniture,Bearbed",
 						"Curing,Curing,Trunk",
-						"Skillet,Skillet"],
+						"Skillet,Skillet,Quality"],
 			"connections": {"north": "PensiveLookout", "west": "CRWFishHut", "east": "SaltBearCave", "south": "FallenLighthouse"}
 		},
 		"CRWFishHut": {
@@ -320,7 +334,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["timberwolf","milling,workbench,Hacksaw","Furniture,Bed"],
+			"features": ["timberwolf","milling,workbench,Hacksaw","Furniture,Bed,Quality"],
 			"connections": { "east": "CanneryKitchen", "south": "CanneryPier"}
 		},
 		"CanneryPier": {
@@ -334,7 +348,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["bed,bear"],
+			"features": ["bed,bear,timberwolf"],
 			"connections": {"east": "CanneryTrailer", "north": "SaltCave"}
 		},
 		"SaltCave": {
@@ -348,8 +362,8 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["ptarmigan,rabbit,deer",
-						"birch",
+			"features": ["ptarmigan,deer",
+						"birch,,rockcache",
 						"workbench, furniture,bearbed",
 						"quality,hacksaw,Prybar",
 						"grill,cookpot,cookpot"
@@ -400,7 +414,7 @@
 			"features": ["deer,radio,BED",
 						"workbench,Furniture,Bearbed",
 						"grill,cookpot,cookpot",
-						"Prybar"
+						"quality,Prybar"
 			],
 			"connections": {"east": "LakeOverlook", "west": "MLRailTunnel"}
 		},
@@ -408,7 +422,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["grill"],
+			"features": ["rockcache"],
 			"connections": {"east": "CampOffice", "north": "Trapper", "west": "Poacher"}
 		},
 		"Trapper": {
@@ -416,8 +430,8 @@
 			"loading": true,
 			"indoors": true,
 			"features": [
-				"bear,bear,,,birch",
-				"workbench,furniture,,,bearbed",
+				"bear,bear,moose,,birch",
+				"workbench,furniture,bearbed,rockcache,rockcache",
 				"quality,woodworking,,hammer,prybar",
 				"curing,curing,curing,Curing,skillet",
 				"curing,curing,Curing,Curing,skillet",
@@ -437,7 +451,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["range,bed",
+			"features": ["range,bed, QUALITY",
 						"workbench, furniture,PRYBAR",
 						"cookpot, COOKPOT, SKILLET"
 			],
@@ -456,7 +470,7 @@
 			"loading": true,
 			"indoors": true,
 			"features": ["ptarmigan,rabbit,deer",
-						"range,bed",
+						"range,bed, quality",
 						"workbench, furniture",
 						"cookpot, Cookpot, lantern",
 						"skillet, skillet, SKILLET"
@@ -515,14 +529,14 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["grill,bear,PRYBAR"],
+			"features": ["bear,grill","PRYBAR,rockcache,rockcache"],
 			"connections": { "east": "MLRailTunnel", "west": "WestFM"}
 		},
 		"WestFM": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["bear"],
+			"features": ["bear",""],
 			"connections": { "west": "BRRailTunnel", "east": "Poacher", "south": "Spence", "north": "MarshRidge"}
 		},
 		"MarshRidge": {
@@ -564,7 +578,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["grill"],
+			"features": ["rockcache"],
 			"connections": { "east": "WestFM", "west": "Maintenance"}
 		},
 		"Maintenance": {
@@ -575,8 +589,8 @@
 				"bear,ptarmigan,wolf,wolf",
 				"workbench,furniture,radio,forge,bearbed",
 				"quality,woodworking,hacksaw,hammer,prybar",
-				"curing,curing,Curing,,skillet",
-				"curing,Curing,Curing,,skillet",
+				"curing,curing,Curing,skillet,skillet",
+				"curing,Curing,Curing,,rockcache",
 				"trunk,trunk,trunk,Trunk,suitcase",
 				"trunk,trunk,trunk,Trunk,suitcase"
 			],
@@ -593,7 +607,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["wolf"],
+			"features": ["wolf","rockcache,rockcache"],
 			"connections": { "east": "Maintenance", "west": "RailOffice"}
 		},
 		"RailOffice": {
@@ -607,23 +621,24 @@
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,PRYBAR"],
+			"features": ["coal,PRYBAR","rockcache"],
 			"connections": {"east": "RailOffice", "west": "RemnantCave" }
 		},
 		"RemnantCave": {
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["rabbit,wolf"],
+			"features": ["rabbit,wolf","rockcache"],
 			"connections": { "east": "Platelayer", "north": "VacantDepot"}
 		},
 		"VacantDepot": {
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["ptarmigan,rabbit,,prybar",
+			"features": ["ptarmigan,rabbit",
 						"bed,furniture,radio,grill",
 						"skillet,skillet,cookpot,cookpot",
+						"prybar,QUALITY,rockcache,rockcache",
 						"suitcase,suitcase,SUITCASE,SUITCASE",
 						"Trunk,Trunk,Trunk,Trunk"],
 			"connections": { "south": "Platelayer", "west": "FAShortcut", "east": "WelkinsWindowCave"}
@@ -646,14 +661,14 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["poisonwolf","prybar"],
+			"features": ["poisonwolf","workbench,prybar"],
 			"connections": { "north": "LangstonMine", "west": "IdleCamp"}
 		},
 		"LangstonMine": {
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,prybar,lantern,bed"],
+			"features": ["coal,prybar,lantern,bed,rockcache"],
 			"connections": { "south": "Concentrator", "north": "MinersFootpath"}
 		},
 		"FAShortcut": {
@@ -667,7 +682,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["forge,hacksaw,hammer","bed,workbench"],
+			"features": ["forge,hacksaw,hammer","bed,workbench,Quality"],
 			"connections": { "south": "FAShortcut", "west": "Terminal", "east": "BunkerOmega"}
 		},
 		"BunkerOmega": {
@@ -744,7 +759,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["grill,bed"],
+			"features": ["grill,bed","workbench,deer"],
 			"connections": { "west": "UpperConnectorCave", "east": "CaveSystem"}
 		},
 		"CaveSystem": {
@@ -815,13 +830,13 @@
 			"loading": true,
 			"indoors": true,
 			"features": [
-				"bear,deer,wolf",
+				"bear,deer,wolf,,,QUALITY",
 				"workbench,furniture,,,bearbed,radio",
 				"quality,woodworking,HACKSAW,hammer,prybar,QUALITY",
 				"curing,curing,Curing,Curing,cookpot,cookpot",
 				"curing,curing,Curing,Curing,skillet,skillet",
-				"trunk,trunk,trunk,trunk,,suitcase",
-				"trunk,trunk,trunk,Trunk,,suitcase"
+				"trunk,trunk,trunk,trunk,rockcache,suitcase",
+				"trunk,trunk,trunk,Trunk,rockcache,suitcase"
 			],
 			"connections": {"south": "QMFishHut", "east":"LowerMine"}
 		},
@@ -837,7 +852,7 @@
 			"loading": true,
 			"indoors": true,
 			"features": ["bear,deer,salt",
-						"quality,,beachcombing",
+						"QUALITY,,beachcombing",
 						"trader, , bed",
 						"Workbench, Furniture, Bearbed"
 			],
@@ -845,6 +860,7 @@
 		},
 		"JMFishHut": {
 			"customizable": false,
+			"loading": false,
 			"loading": false,
 			"indoors": false,
 			"features": ["potbelly","fish","Prybar","beachcombing"],
@@ -855,7 +871,7 @@
 			"loading": true,
 			"indoors": true,
 			"features": ["rabbit,deer,salt",
-						"quality,,beachcombing",
+						"quality,rockcache,beachcombing",
 						"workbench, furniture, bearbed",
 						"curing, curing, trunk"
 			],
@@ -928,7 +944,7 @@
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,salt"],
+			"features": ["coal,salt","rockcache,rabbit","rockcache,wolf"],
 			"connections": {"west": "No3Mine", "east": "Hibernia"}
 		},
 		"Hibernia":{
