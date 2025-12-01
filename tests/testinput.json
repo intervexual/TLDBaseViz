@@ -149,7 +149,8 @@
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
 		"take":"oklch(0.6 0.12 210)",
-		"clearpath":"oklch(0.7 0.18 250)",
+		"destroy":"oklch(0.5 0.2 250)",
+		"clearpath":"oklch(0.7 0.18 270)",
 		"charcoal":"oklch(0.1 0.04 290)",
 		"mixed":"oklch(0.5 0.18 330)"
 	}

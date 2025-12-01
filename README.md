@@ -42,8 +42,6 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-* Add posion wolf icon
-* Add legend
-* Verify # things to take == # things to bring
 * Fix discontinuities and other jank in the graph connections
 * Add all loot table POIs and make templates for interloper
+* Figure out SVG vs PNG text weirdness

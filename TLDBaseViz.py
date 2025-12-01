@@ -10,11 +10,13 @@ class BaseFeature:
         >>> str(BaseFeature('trunk'))
         'trunk:base'
         >>> str(BaseFeature('TRUNK'))
-        'trunk:take'
+        'trunk:destroy'
         >>> str(BaseFeature('Workbench'))
         'workbench:cedar'
         >>> str(BaseFeature('Hammer'))
         'hammer:bring'
+        >>> str(BaseFeature('HAMMER'))
+        'hammer:take'
         >>> str(BaseFeature(''))
         'empty:base'
         """
@@ -33,7 +35,10 @@ class BaseFeature:
         if self.status == ACTUAL:
             self.material = BASE
         if self.status == REMOVE:
-            self.material = TAKE
+            if self.name in MOVABLES:
+                self.material = TAKE
+            else:
+                self.material = DESTROY
 
         # for drawing
         self.hex = '#000000'
@@ -59,7 +64,7 @@ class BaseLocation:
         Quonset (C, L)
         ------
         [bear:base, deer:base, wolf:base]
-        [workbench:base, furniture:cedar, empty:base, bed:take, bearbed:fir, radio:base]
+        [workbench:base, furniture:cedar, empty:base, bed:destroy, bearbed:fir, radio:base]
         [quality:bring, woodworking:bring, hacksaw:bring, hammer:bring, lantern:bring]
         [curing:fir, curing:fir, curing:fir, curing:fir, cookpot:bring, cookpot:bring]
         [curing:fir, curing:fir, curing:fir, curing:fir, skillet:bring, skillet:bring]
@@ -222,7 +227,7 @@ def parse_input(filename='bases.json'):
     :return: dictionaries for base info & colour scheme
     >>> b, c = parse_input('tests/testinput.json')
     >>> c
-    {'base': 'oklch(0.4 0.06 150)', 'basebg': 'oklch(0.9 0.02 150)', 'bring': 'oklch(0.5 0.16 0)', 'todo': 'oklch(0.6 0.2 30)', 'tinder': 'oklch(0.4 0.06 50)', 'fir': 'oklch(0.6 0.14 70)', 'cedar': 'oklch(0.7 0.1 90)', 'cattail': 'oklch(0.5 0.08 110)', 'take': 'oklch(0.6 0.12 210)', 'clearpath': 'oklch(0.7 0.18 250)', 'charcoal': 'oklch(0.1 0.04 290)', 'mixed': 'oklch(0.5 0.18 330)'}
+    {'base': 'oklch(0.4 0.06 150)', 'basebg': 'oklch(0.9 0.02 150)', 'bring': 'oklch(0.5 0.16 0)', 'todo': 'oklch(0.6 0.2 30)', 'tinder': 'oklch(0.4 0.06 50)', 'fir': 'oklch(0.6 0.14 70)', 'cedar': 'oklch(0.7 0.1 90)', 'cattail': 'oklch(0.5 0.08 110)', 'take': 'oklch(0.6 0.12 210)', 'destroy': 'oklch(0.5 0.2 250)', 'clearpath': 'oklch(0.7 0.18 270)', 'charcoal': 'oklch(0.1 0.04 290)', 'mixed': 'oklch(0.5 0.18 330)'}
     >>> b['Quonset']
     {'customizable': True, 'loading': True, 'indoors': True, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase'], 'connections': {'south': 'QMFishHut', 'east': 'LowerMine'}}
     """
@@ -240,7 +245,7 @@ def parse_colours(colours):
     :return: same mappings but everything is hex codes
     >>> b, c = parse_input('tests/testinput.json')
     >>> parse_colours(c)
-    {'base': '#2f5136', 'basebg': '#d5e2d7', 'bring': '#a62f5f', 'todo': '#de3e2d', 'tinder': '#623e29', 'fir': '#b17000', 'cedar': '#b79c51', 'cattail': '#66672d', 'take': '#0090a2', 'clearpath': '#3fa3ff', 'charcoal': '#04010f', 'mixed': '#982f93'}
+    {'base': '#2f5136', 'basebg': '#d5e2d7', 'bring': '#a62f5f', 'todo': '#de3e2d', 'tinder': '#623e29', 'fir': '#b17000', 'cedar': '#b79c51', 'cattail': '#66672d', 'take': '#0090a2', 'destroy': '#0065b0', 'clearpath': '#7997ff', 'charcoal': '#04010f', 'mixed': '#982f93'}
     """
     hexes = {}
     for c in colours:
@@ -296,17 +301,19 @@ def update_extremes(base_x, base_y, most_north, most_east, most_south, most_west
     return most_north, most_east, most_south, most_west
 
 
-def draw_bases(bases, icon_size=20, output='tests/bases.svg', base_x=200, base_y=100, width=800, height=600, arrow_colour='black'):
+def draw_bases(bases, icon_size=20, output='tests/bases.svg',
+               base_x=200, base_y=100, width=800, height=600,
+               arrow_colour='black', add_legend=True):
     """
 
     :param bases:
     :return:
     >>> bases = process_input('tests/testinput.json')
-    >>> draw_bases(bases)
+    >>> draw_bases(bases, add_legend=False)
     (557.5, 470.0)
     >>> bases = process_input('mybases.json')
-    >>> draw_bases(bases, output='mybases.svg', width=2100, height=1400, base_x=1450, base_y=50)
-    (1627.5, 1062.5)
+    >>> draw_bases(bases, output='mybases.svg', width=2100, height=1400, base_x=1500, base_y=50)
+    (1795.0, 1195.0)
     """
     d = draw.Drawing(width, height)
     d.append(draw.Rectangle(0,0,d.width,d.height,fill='white'))
@@ -397,7 +404,8 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg', base_x=200, base_y
                     visited.append(connection_name)
 
             #print(b, dir, bob.box_width, bob.box_height, bob.connections)
-    draw_legend(d, x=arrow_size, y=0)
+    counts = count_features(bases)
+    draw_legend(d, x=arrow_size, y=0, counts=counts)
 
     d.save_svg(output)
 
@@ -407,14 +415,14 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg', base_x=200, base_y
     return actual_width, actual_height
 
 
-def count_features(bases):
+def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     """
 
     :param bases:
     :return:
     >>> bases = process_input('tests/testinput.json')
     >>> count_features(bases)
-    {'coal': 4, 'bear': 3, 'deer': 5, 'wolf': 3, 'workbench': 2, 'furniture': 0, 'empty': 3, 'bed': 5, 'bearbed': 0, 'radio': 1, 'quality': 3, 'woodworking': 0, 'hacksaw': 0, 'hammer': 0, 'lantern': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'trunk': 0, 'suitcase': 0, 'potbelly': 4, 'fish': 4, 'salt': 7, 'beachcombing': 6, 'trader': 1, 'rabbit': 2, 'forge': 1}
+    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'empty': 3}
     >>> bases = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> nums['forge']
@@ -446,20 +454,41 @@ def count_features(bases):
     >>> total_bears = 2+4+3+1+3+0+1+0+0+2+2+2+0+0+1+2+3+0+1+3+0+0+1
     >>> total_bears - nums['bear']
     0
+    >>> nums['moose'] >= 0
+    True
     """
     count = {}
+    for a in ASSETS:
+        count[a] = 0
+
     for b in bases:
         for row in bases[b].features:
             for feature in row:
-                if feature.name not in count:
-                    count[feature.name] = 0
-
-                if feature.status in [ACTUAL, TAKE, REMOVE]:
+                if feature.status in statuses_to_count or feature.material in statuses_to_count:
                     count[feature.name] += 1
     return count
 
 
-def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purple'):
+def verify_taking_numbers(bases):
+    """
+
+    :param bases:
+    :return:
+    >>> bases = process_input('mybases.json')
+    >>> verify_taking_numbers(bases)
+    """
+    to_take = count_features(bases, statuses_to_count=[TAKE])
+    to_bring = count_features(bases, statuses_to_count=[BRING])
+    issues_found = False
+    for a in to_bring:
+        if to_bring[a] != to_take[a]:
+            if not issues_found:
+                print('key', 'to_bring', 'to_take', 'same?')
+                issues_found = True
+            print(a, to_bring[a], to_take[a], to_bring[a] == to_take[a])
+
+
+def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purple', counts=False):
     """
     Draw a legend
     :param d:
@@ -500,6 +529,11 @@ def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purp
         d.append(draw.Text(ordering[a], legend_font_size,
                            x=icon_x+cell_size, y=icon_y+cell_size/2,
                            fill=legend_colour))
+        if counts:
+            count_x = icon_x + 5*cell_size
+            d.append(draw.Text(str(counts[a]), legend_font_size,
+                               x=count_x, y=icon_y+cell_size/2,
+                               fill=legend_colour))
 
 
 
