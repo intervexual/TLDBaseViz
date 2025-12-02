@@ -349,6 +349,12 @@
 			"indoors": true,
 			"features": ["ptarmigan"]
 		},
+		"Derailment": {
+			"customizable": false,
+			"loading": false,
+			"indoors": false,
+			"features": ["wolf"]
+		},
 		"CampOffice": {
 			"customizable": true,
 			"loading": true,
@@ -961,8 +967,10 @@
 			["SaltCave", "west", "top,left", "BI2FMCave", "top,right", "todo"],
 			["BI2FMCave", "west", "top,left", "BIHuntersBlind", "top,right", "todo"],
 			"--------MysteryLake--------",
-			["Dam", "west", "top,left", "LakeOverlook", "top,right", "cattail"],
-			["LakeOverlook", "west", "top,left", "CampOffice", "top,right", "charcoal"],
+			["Dam", "west", "bottom,left", "LakeOverlook", "bottom,right", "cattail"],
+			["Dam", "west", "top,left", "Derailment", "top,right", "rail"],
+			["Derailment", "west", "top,left", "CampOffice", "top,right", "rail"],
+			["LakeOverlook", "west", "bottom,left", "CampOffice", "bottom,right", "charcoal"],
 			["CampOffice", "west", "top,left", "MLRailTunnel", "top,right", "rail"],
 			["MLRailTunnel", "north", "top,left", "Trapper", "bottom,left", "path"],
 			["Trapper", "north", "top,left", "CaveToMT", "bottom,left", "path"],

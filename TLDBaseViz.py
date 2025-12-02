@@ -379,7 +379,7 @@ class BaseLocation:
         g = draw.Group(id=self.name)
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
 
-        if self.indoors and self.customizable and self.num_features > 3:
+        if self.indoors and self.customizable and self.num_features > 6:
             text_stroke = border
         else:
             text_stroke = 'none'
