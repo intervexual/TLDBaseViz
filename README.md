@@ -43,12 +43,13 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-* Fix discontinuities and other jank in the graph connections
+* Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave
+* Legend: add colour scheme!
+* Add one-way directions like Cannery Workshop to Cannery Pier
+* Note the rope climbs
 * Add all loot table POIs and make templates for interloper
 * Figure out SVG vs PNG text weirdness
-* Automatic centring
+* Automatic centring and canvas sizing
+* Better organization of mybases.json
+* Write documentation for other people to use it
 
-
-Removed from testinput.json for the moment until support is added
-		["No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road"],
-		["Quonset", "south", "bottom,right", "CommuterCar", "top,right", "road"],
