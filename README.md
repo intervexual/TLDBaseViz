@@ -47,3 +47,8 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * Add all loot table POIs and make templates for interloper
 * Figure out SVG vs PNG text weirdness
 * Automatic centring
+
+
+Removed from testinput.json for the moment until support is added
+		["No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road"],
+		["Quonset", "south", "bottom,right", "CommuterCar", "top,right", "road"],

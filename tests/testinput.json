@@ -1,18 +1,16 @@
 {
 	"bases": {
-		"LowerMine": {
-			"customizable": false,
-			"loading": true,
-			"indoors": true,
-			"features": ["coal"],
-			"connections": {"east": "Quonset", "north": "UpperMine"}
-		},
 		"UpperMine": {
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal"],
-			"connections": {"south": "LowerMine"}
+			"features": ["coal"]
+		},
+		"LowerMine": {
+			"customizable": false,
+			"loading": true,
+			"indoors": true,
+			"features": ["coal"]
 		},
 		"Quonset": {
 			"customizable": true,
@@ -26,15 +24,13 @@
 				"Curing,Curing,Curing,Curing,Skillet,Skillet",
 				"Trunk,Trunk,Trunk,Trunk,,Suitcase",
 				"Trunk,Trunk,Trunk,Trunk,,Suitcase"
-			],
-			"connections": {"south": "QMFishHut", "east":"LowerMine"}
+			]
 		},
 		"QMFishHut": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly,fish,Hammer"],
-			"connections": {"south": "Misanthrope", "north": "Quonset"}
+			"features": ["potbelly,fish,Hammer"]
 		},
 		"Misanthrope": {
 			"customizable": true,
@@ -44,15 +40,13 @@
 						"salt,beachcombing",
 						"bed, trader, quality",
 						"Workbench, Furniture, Bearbed"
-			],
-			"connections": {"north": "QMFishHut","west": "JMFishHut","east": "CommuterCar"}
+			]
 		},
 		"JMFishHut": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly","fish","beachcombing"],
-			"connections": {"east": "Misanthrope", "west": "Jackrabbit"}
+			"features": ["potbelly","fish","beachcombing"]
 		},
 		"Jackrabbit": {
 			"customizable": true,
@@ -62,50 +56,43 @@
 						"salt,beachcombing",
 						"bed, quality",
 						"Workbench, Furniture, Bearbed"
-			],
-			"connections": {"east": "JMFishHut", "north": "JFFishHut"}
+			]
 		},
 		"JFFishHut": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly,fish"],
-			"connections": {"south": "Jackrabbit", "east": "MidFishHuts"}
+			"features": ["potbelly,fish"]
 		},
 		"MidFishHuts": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly,fish"],
-			"connections": { "east": "QMFishHut", "south": "JMFishHut"}
+			"features": ["potbelly,fish"]
 		},
 		"CommuterCar": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["deer"],
-			"connections": {"west": "Misanthrope", "east": "Harris", "north": "Quonset"}
+			"features": ["deer"]
 		},
 		"Harris": {
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["wolf"],
-			"connections": {"west": "CommuterCar", "east": "No3Mine"}
+			"features": ["wolf"]
 		},
 		"No3Mine": {
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,salt"],
-			"connections": {"west": "Harris", "east": "No5Mine"}
+			"features": ["coal,salt"]
 		},
 		"No5Mine": {
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,salt"],
-			"connections": {"west": "No3Mine", "east": "Hibernia"}
+			"features": ["coal,salt"]
 		},
 		"Hibernia":{
 			"customizable": true,
@@ -114,50 +101,45 @@
 			"features": ["salt,beachcombing",
 						"bed, quality, workbench",
 						"Furniture, Bearbed"
-			],
-			"connections": {"west": "No5Mine", "south": "Riken", "north": "BrokenBridge"}
+			]
 		},
 		"BrokenBridge":{
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["bear,salt"],
-			"connections": { "south": "Hibernia"}
+			"features": ["bear,salt"]
 		},
 		"Riken":{
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["forge,bed", "Hammer,beachcombing"],
-			"connections": {"east": "LittleIsland", "north": "Hibernia"}
+			"features": ["forge,bed", "Hammer,beachcombing"]
 		},
 		"LittleIsland": {
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["deer,rabbit","salt,beachcombing"],
-			"connections": {"west": "Riken"}
+			"features": ["deer,rabbit","salt,beachcombing"]
 		}
 	},
 	"connections": [
 		["Hibernia", "north", "top,left", "BrokenBridge", "bottom,left", "road"],
 		["Hibernia", "south", "bottom,left", "Riken", "top,left", "charcoal"],
 		["Riken", "east", "top,right", "LittleIsland", "top,left", "charcoal"],
-		["No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road"],
 		["No5Mine", "east", "bottom,right", "Hibernia", "top,left", "road"],
-		["No3Mine", "east", "top,right", "No5Mine", "top,left", "path"],
-		["Harris", "east", "top,right", "No3Mine", "top,left", ""],
+		["No3Mine", "east", "top,right", "No5Mine", "bottom,left", "path"],
+		["Harris", "east", "top,right", "No3Mine", "top,left", "todo"],
 		["CommuterCar", "east", "top,right", "Harris", "top,left", "road"],
-		["Misanthrope", "east", "top,right", "CommuterCar", "top,left", ""],
-		["JMFishHut", "east", "top,right", "Misanthrope", "top,left", ""],
-		["Jackrabbit", "east", "top,right", "JMFishHut", "top, left", ""],
-		["Jackrabbit", "north", "top,left", "JFFishHut", "bottom,left", ""],
-		["Jackrabbit", "north", "top,right", "MidFishHuts", "bottom,left", ""],
-		["JFFishHut", "east", "top,right", "MidFishHuts", "top,left", ""],
-		["MidFishHuts", "east", "top,right", "QMFishHut", "top,left", ""],
-		["Quonset", "south", "bottom,left", "QMFishHut", "top,left", ""],
-		["Quonset", "south", "bottom,right", "CommuterCar", "top,right", "road"],
-		["Quonset", "west", "top,left", "LowerMine", "top,right", "road"],
+		["Misanthrope", "east", "top,right", "CommuterCar", "top,left", "todo"],
+		["Misanthrope", "west", "top,left", "JMFishHut", "top,right", "todo"],
+		["Misanthrope", "north", "top,left", "QMFishHut", "bottom,left", "todo"],
+		["Jackrabbit", "east", "top,right", "JMFishHut", "top, left", "todo"],
+		["Jackrabbit", "north", "top,left", "JFFishHut", "bottom,left", "todo"],
+		["Jackrabbit", "north", "top,right", "MidFishHuts", "bottom,left", "todo"],
+		["JFFishHut", "east", "top,right", "MidFishHuts", "top,left", "todo"],
+		["MidFishHuts", "east", "top,right", "QMFishHut", "top,left", "todo"],
+		["Quonset", "south", "bottom,left", "QMFishHut", "top,left", "todo"],
+		["Quonset", "west", "top,left", "LowerMine", "bottom,right", "road"],
 		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"]
 	],
   	"colours":{
@@ -169,10 +151,13 @@
 		"fir":"oklch(0.6 0.14 70)",
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
+		"rail":"oklch(0.6 0.12 130)",
+		"path":"oklch(0.8 0.1 170)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 250)",
 		"clearpath":"oklch(0.7 0.18 270)",
-		"charcoal":"oklch(0.1 0.04 290)",
+		"charcoal":"oklch(0.2 0.04 290)",
+		"road":"oklch(0.5 0.06 310)",
 		"mixed":"oklch(0.5 0.18 330)"
 	}
 }

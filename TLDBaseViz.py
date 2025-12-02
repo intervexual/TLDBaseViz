@@ -49,13 +49,171 @@ class BaseFeature:
         return f'{self.name}:{self.material}'
 
 
+class BaseConnection:
+    def __init__(self, source, direction, source_corner, sink, sink_corner, kind, colours=False):
+        """
+        Create BaseConnection object, saving its destinations, corners, and kind of connection (road, rail, etc).
+        :param source: name of source base
+        :param direction: direction to sink (north, east, etc)
+        :param source_corner: corner of source base's box to draw from, formatted like "top,right"
+        :param sink: name of sink base
+        :param sink_corner: corner of sink base's box to draw to, formatted like "bottom,left"
+        :param kind: for styling the line (e.g. road, rail)
+        """
+        self.source = source
+        self.sink = sink
+        self.vertices = [source, sink]
+
+        self.source_corner = source_corner
+        self.sink_corner = sink_corner
+        self.corners = {}
+        self.corners[self.source] = source_corner.replace(' ','').split(',')
+        self.corners[self.sink] = sink_corner.replace(' ','').split(',')
+
+        self.direction = direction
+        self.reverse = REVERSE[direction]
+
+        self.kind = kind
+        self.colour = 'green'
+        self.dasharray = DASHSTYLE[kind]
+        if colours:
+            self.colour = colours[kind]
+    def invert(self, colours):
+        return BaseConnection(self.sink, self.reverse, self.sink_corner, self.source, self.source_corner, self.kind, colours)
+    def __repr__(self):
+        """
+        Textual representation of the connection
+        :return: representation as string
+        >>> b, e, c = parse_input('tests/testinput.json')
+        >>> edges = parse_edges(e)
+        >>> hibernia_to_bear = edges['Hibernia']['BrokenBridge']
+        >>> hibernia_to_bear
+        BrokenBridge
+        |
+        Hibernia
+        >>> edges['Hibernia']['Riken'] # reversing direction
+        Hibernia
+        |
+        Riken
+        >>> BaseConnection("Quonset", "south", "bottom,right", "CommuterCar", "top,right", "road") # right align
+            Quonset
+                  |
+        CommuterCar
+        >>> edges['MidFishHuts']['Jackrabbit'] # bottom (top,right) to top (bottom,left)
+                  MidFishHuts
+                 |
+        Jackrabbit
+        >>> edges['Riken']['LittleIsland']
+        R -- L
+        i    i
+        k    t
+        e    t
+        n    l
+             e
+             I
+             s
+             l
+             a
+             n
+             d
+        >>> edges['Misanthrope']['JMFishHut']
+        J -- M
+        M    i
+        F    s
+        i    a
+        s    n
+        h    t
+        H    h
+        u    r
+        t    o
+             p
+             e
+        >>> edges['Quonset']['LowerMine']
+        L
+        o
+        w
+        e
+        r
+        M
+        i
+        n
+        e -- Q
+             u
+             o
+             n
+             s
+             e
+             t
+        """
+        s = ''
+        if self.direction in [NORTH, SOUTH]:
+            top, bottom = self.sink, self.source
+            if self.direction == SOUTH:
+                bottom, top = self.sink, self.source
+
+            len_diff = 0
+            line_offset = 0
+            if self.corners[bottom][CORN_X] == RIGHT:
+                if self.corners[top][CORN_X] == RIGHT:
+                    if len(bottom) > len(top):
+                       len_diff = len(bottom) - len(top)
+                    line_offset = len(top) + len_diff - 1
+                if self.corners[top][CORN_X] == LEFT:
+                    len_diff = len(bottom)
+                    line_offset = len(bottom) - 1
+                s += ' ' * len_diff
+
+            s += top + '\n'
+            s += ' '*(line_offset)
+            s += '|\n'
+            s += bottom
+            return s
+
+        if self.direction in [EAST, WEST]:
+            left, right = self.sink, self.source
+            if self.direction == EAST:
+                right, left = self.sink, self.source
+
+            if self.corners[left][CORN_Y] == TOP and self.corners[right][CORN_Y] == TOP:
+                pad_left = left
+                pad_right = right
+                len_diff = len(right) - len(left)
+                if len_diff >= 0:
+                    pad_left = left + ' '*(abs(len_diff))
+                else:
+                    pad_right = right + ' '*(abs(len_diff))
+
+                assert len(pad_left) == len(pad_right), f'{pad_left}, {pad_right}, {len(pad_left)}, {len(pad_right)}'
+
+                for i in range(len(pad_left)):
+                    if i == 0:
+                        delim = ' -- '
+                    else:
+                        delim = ' '*4
+                    s += pad_left[i] + delim + pad_right[i] + '\n'
+                return s[:-1]
+
+            if self.corners[left][CORN_Y] == BOTTOM and self.corners[right][CORN_Y] == TOP:
+                for i in range((len(left))):
+                    if i == len(left) - 1:
+                        s += left[i] + ' -- ' + right[0] + '\n'
+                    else:
+                        s += left[i] + '\n'
+                for i in range(len(right)-1):
+                    s += ' '*5 + right[i+1] + '\n'
+
+                return s[:-1]
+            return f'{right}--{left}'
+
+
+
 class BaseLocation:
     def __init__(self, name, data, colours=()):
         """
         Set up a base as an object with a name, and a 2D list of BaseFeatures
         :param name: name of the base
         :param data: data from JSON file
-        >>> b, c = parse_input('tests/testinput.json')
+        >>> b, e, c = parse_input('tests/testinput.json')
         >>> b['Quonset'][FEATURES]
         ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']
         >>> quonset = BaseLocation('Quonset', b['Quonset'])
@@ -83,10 +241,13 @@ class BaseLocation:
         ---
         """
         self.name = name
+        self.is_drawn = False
+
         self.features = []
         self.customizable = data[CUSTOMIZABLE]
         self.loading = data[LOADING]
         self.indoors = data[INDOORS]
+
         self.num_features = 0
         assert FEATURES in data
         self.longest_row = 0
@@ -100,9 +261,25 @@ class BaseLocation:
                 if feature.strip() != EMPTY:
                     self.num_features += 1
             self.features.append(row_objects)
+
         # connections
+        self.connections = {}
+        self.edges = {}
+        self.edges_drawn = {}
         if CONNECTIONS in data:
-            self.connections = data[CONNECTIONS]
+            for dir in data[CONNECTIONS]:
+                sink_name = data[CONNECTIONS][dir]
+                self.connections[sink_name] = dir
+
+    def add_connection(self, boc):
+        """
+        Add connection/edge to/from this base
+        :param boc: BaseConnection object
+        :return:
+        """
+        self.connections[boc.sink] = boc.direction
+        self.edges[boc.sink] = boc
+        self.edges_drawn[boc.sink] = False
     def __repr__(self):
         """
         :return: Text representation for the base.
@@ -157,25 +334,27 @@ class BaseLocation:
         self.box_x = x
         self.box_y = y
 
-        if self.indoors:
-            rx = '0'
-            ry = rx
-        else:
+        rx = '0'
+        ry = rx
+        if not self.indoors:
             rx = str(self.icon_size)
             ry = rx
 
-        if self.loading:
-            stroke_dasharray = ''
-        else:
-            stroke_dasharray = '5,2'
+        stroke_dasharray = ''
+        #if not self.loading:
+        #    stroke_dasharray = '5,2'
 
-        if self.customizable:
-            stroke_opacity = 1
-        else:
+        stroke_opacity = 1
+        if not self.customizable:
             stroke_opacity = .25
 
         margin = self.margin_size/2
-        d.append( draw.Rectangle(self.box_x + margin, self.box_y + margin,
+        self.box_top = self.box_y + margin
+        self.box_left = self.box_x + margin
+        self.box_right = self.box_left + self.box_width-self.margin_size
+        self.box_bottom = self.box_top + self.box_height-self.margin_size
+
+        d.append( draw.Rectangle(self.box_left, self.box_top,
                                  self.box_width-self.margin_size, self.box_height-self.margin_size,
                                  rx=rx, ry=ry, stroke_dasharray=stroke_dasharray, stroke_opacity=stroke_opacity,
                                  fill=fill, stroke_width=self.margin_size, stroke=border ) )
@@ -197,7 +376,8 @@ class BaseLocation:
         >>> d.save_svg('tests/misanthrope.svg')
         """
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
-        self.draw_base_box(d, x=x, y=y, fill=fill, border=border)
+        g = draw.Group(id=self.name)
+        self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
 
         if self.indoors and self.customizable and self.num_features > 3:
             text_stroke = border
@@ -208,7 +388,7 @@ class BaseLocation:
         font_size = box_width / 7
         text_x = x + box_width/2 #+ margin_size/2
         text_y = y + cell_size - margin_size * .5
-        d.append( draw.Text(self.name, font_size, x=text_x, y=text_y,
+        g.append( draw.Text(self.name, font_size, x=text_x, y=text_y,
                             text_decoration='bold',  text_anchor='middle', font_family='Arial', stroke=text_stroke,
                             fill=border, dominant_baseline='hanging',
                             textLength=box_width-cell_size, lengthAdjust='spacing') )
@@ -218,11 +398,107 @@ class BaseLocation:
         for i, row in enumerate(self.features):
             icon_x = x + margin_size*2
             for j, bob in enumerate(row):
-                import_svg(d, bob.filepath, x=icon_x, y=icon_y, wid=icon_size,
+                import_svg(g, bob.filepath, x=icon_x, y=icon_y, wid=icon_size,
                            hei=icon_size, fill=bob.hex)
                 icon_x += cell_size
             icon_y += cell_size
+        d.append(g)
+        self.is_drawn = True
+    def draw_connection(self, d, neighbour, arrow_ratio=1.0):
+        """
+        Draw connection from self to neighbouring base
+        :param d: drawing object
+        :param neighbour: BaseLocation object
+        :return:
+        >>> b, e, colours = parse_input('tests/testinput.json')
+        >>> colours = parse_colours(colours)
+        >>> bases = process_input('tests/testinput.json')
+        >>> w, h, c, m = bases['Hibernia'].box_dimensions(20)
+        >>> d = draw.Drawing(w*3, h*3)
+        >>> bases['Hibernia'].draw(d, 20, y=h, x=w)
+        >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
+        [False, False]
+        >>> bases['Hibernia'].draw_connection(d, bases['Riken'])
+        >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
+        [True, True]
+        >>> [bases['Hibernia'].edges_drawn['BrokenBridge'], bases['BrokenBridge'].edges_drawn['Hibernia']]
+        [False, False]
+        >>> bases['Hibernia'].draw_connection(d, bases['BrokenBridge'])
+        >>> [bases['Hibernia'].edges_drawn['BrokenBridge'], bases['BrokenBridge'].edges_drawn['Hibernia']]
+        [True, True]
+        >>> bases['Hibernia'].draw_connection(d, bases['No5Mine'])
+        >>> bases['Riken'].draw_connection(d, bases['LittleIsland'])
+        >>> bases['No5Mine'].add_connection(BaseConnection("No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road", colours))
+        >>> bases['No5Mine'].draw_connection(d, bases['BrokenBridge'])
+        >>> bases['Hibernia'].add_connection(BaseConnection("Hibernia", "west", "bottom,left", "No3Mine", "top,right", "tinder", colours))
+        >>> bases['Hibernia'].draw_connection(d, bases['No3Mine'])
+        >>> d.save_svg('tests/hibernia.svg')
+        """
+        neigh_name = neighbour.name
+        arrow_size = self.cell_size*arrow_ratio
 
+        cob = self.edges[neigh_name]
+        assert cob.source == self.name
+
+        if not self.edges_drawn[neigh_name]:
+            p = draw.Path(stroke_width=self.margin_size, stroke=cob.colour, stroke_dasharray=cob.dasharray)
+
+            assert cob.corners[self.name][CORN_Y] in [BOTTOM, TOP]
+            if cob.corners[self.name][CORN_Y] == BOTTOM:
+                source_y = self.box_bottom #+ self.margin_size/2
+            else:
+                source_y = self.box_top #- self.margin_size/2
+
+            if cob.corners[self.name][CORN_X] == LEFT:
+                source_x = self.box_left# - self.margin_size
+            else:
+                source_x = self.box_right
+
+            p.M(source_x, source_y)
+
+            if not neighbour.is_drawn:
+                sink_x, sink_y = source_x, source_y
+                if cob.direction == SOUTH:
+                    sink_y += arrow_size
+                if cob.direction == NORTH:
+                    sink_y -= arrow_size
+                if cob.direction == EAST:
+                    sink_x += arrow_size
+                if cob.direction == WEST:
+                    sink_x -= arrow_size
+                p.L(sink_x, sink_y)
+                d.append(p)
+                self.edges_drawn[neigh_name] = True
+                neighbour.edges_drawn[self.name] = True
+
+                neigh_left, neigh_top = sink_x, sink_y
+                neighbour.box_dimensions(self.icon_size)
+                if cob.corners[neigh_name][CORN_X] == LEFT:
+                    neigh_left -=  self.margin_size/2
+                if cob.corners[neigh_name][CORN_X] == RIGHT:
+                    neigh_left -= neighbour.box_width
+                    neigh_left +=  self.margin_size/2
+                if cob.corners[neigh_name][CORN_Y] == BOTTOM:
+                    neigh_top -= neighbour.box_height
+                if cob.corners[neigh_name][CORN_Y] == TOP:
+                    neigh_top -= self.margin_size/2
+
+                #print('drawing child', self.name, neigh_name)
+                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top)
+            else:
+                if cob.corners[neigh_name][CORN_Y] == BOTTOM:
+                    sink_y = neighbour.box_bottom + self.margin_size/2
+                else:
+                    sink_y = neighbour.box_top - self.margin_size/2
+                if cob.corners[neigh_name][CORN_X] == LEFT:
+                    sink_x = neighbour.box_left
+                else:
+                    sink_x = neighbour.box_right
+                p.L(sink_x, sink_y)
+                d.append(p)
+                #print('interpolating child', self.name, neigh_name)
+                self.edges_drawn[neigh_name] = True
+                neighbour.edges_drawn[self.name] = True
 
 
 def status_from_capitalization(s):
@@ -252,17 +528,18 @@ def parse_input(filename='bases.json'):
     Load JSON into dictionary format
     :param filename: input filename
     :return: dictionaries for base info & colour scheme
-    >>> b, c = parse_input('tests/testinput.json')
-    >>> c
-    {'base': 'oklch(0.4 0.06 150)', 'basebg': 'oklch(0.9 0.02 150)', 'bring': 'oklch(0.5 0.16 0)', 'todo': 'oklch(0.6 0.2 30)', 'tinder': 'oklch(0.4 0.06 50)', 'fir': 'oklch(0.6 0.14 70)', 'cedar': 'oklch(0.7 0.1 90)', 'cattail': 'oklch(0.5 0.08 110)', 'take': 'oklch(0.6 0.12 210)', 'destroy': 'oklch(0.5 0.2 250)', 'clearpath': 'oklch(0.7 0.18 270)', 'charcoal': 'oklch(0.1 0.04 290)', 'mixed': 'oklch(0.5 0.18 330)'}
+    >>> b, e, c = parse_input('tests/testinput.json')
+    >>> c['base']
+    'oklch(0.4 0.06 150)'
     >>> b['Quonset']
-    {'customizable': True, 'loading': True, 'indoors': True, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase'], 'connections': {'south': 'QMFishHut', 'east': 'LowerMine'}}
+    {'customizable': True, 'loading': True, 'indoors': True, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
     """
     with open(filename, 'r') as f:
         data = json.load(f)
     bases = data[BASES]
     colours = data[COLOURS]
-    return bases, colours
+    edges = data[CONNECTIONS]
+    return bases, edges, colours
 
 
 def parse_colours(colours):
@@ -270,9 +547,9 @@ def parse_colours(colours):
     Convert strings in colours to hex strings in sRGB space
     :param colours: dict with name of colour, and colour probably formatted as oklch
     :return: same mappings but everything is hex codes
-    >>> b, c = parse_input('tests/testinput.json')
+    >>> b, e, c = parse_input('tests/testinput.json')
     >>> parse_colours(c)
-    {'base': '#2f5136', 'basebg': '#d5e2d7', 'bring': '#a62f5f', 'todo': '#de3e2d', 'tinder': '#623e29', 'fir': '#b17000', 'cedar': '#b79c51', 'cattail': '#66672d', 'take': '#0090a2', 'destroy': '#0065b0', 'clearpath': '#7997ff', 'charcoal': '#04010f', 'mixed': '#982f93'}
+    {'base': '#2f5136', 'basebg': '#d5e2d7', 'bring': '#a62f5f', 'todo': '#de3e2d', 'tinder': '#623e29', 'fir': '#b17000', 'cedar': '#b79c51', 'cattail': '#66672d', 'rail': '#688e3b', 'path': '#76d3b4', 'take': '#0090a2', 'destroy': '#0065b0', 'clearpath': '#7997ff', 'charcoal': '#161227', 'road': '#6e5a7d', 'mixed': '#982f93'}
     """
     hexes = {}
     for c in colours:
@@ -291,6 +568,50 @@ def parse_colours(colours):
     return hexes
 
 
+def parse_edges(edges, colours=False):
+    """
+    Convert the lists of edges from the JSON into BaseConnection objects.
+    :return: dictionary, indexed by base names, each with a list of BaseConnection objects that go to/from the base.
+    >>> b, e, c = parse_input('tests/testinput.json')
+    >>> edges = parse_edges(e)
+    >>> len(edges['Hibernia'])
+    3
+    >>> len(edges['Harris'])
+    2
+    >>> edges['LowerMine']['UpperMine']
+    UpperMine
+    |
+    LowerMine
+    >>> edges['UpperMine']['LowerMine']
+    UpperMine
+    |
+    LowerMine
+    >>> str(edges['No3Mine']['No5Mine']) == str(edges['No5Mine']['No3Mine'])
+    True
+    >>> edges['No3Mine']['No5Mine'] == edges['No5Mine']['No3Mine']
+    False
+    >>> parse_edges({})
+    {}
+    """
+    connections = {}
+    for e in edges:
+        if type(e) != str:
+            data = e
+            if colours:
+                data.append(colours)
+            lob = BaseConnection(*data)
+            rev_lob = lob.invert(colours)
+            assert str(lob) == str(rev_lob), lob
+            if lob.source not in connections:
+                connections[lob.source] = {}
+            connections[lob.source][lob.sink] = lob
+
+            if lob.sink not in connections:
+                connections[lob.sink] = {}
+            connections[lob.sink][lob.source] = rev_lob # reverse it
+    return connections
+
+
 def process_input(filename='bases.json', to_print=False):
     """
     Parse input JSON and then turn it into BaseLocation objects.
@@ -307,13 +628,19 @@ def process_input(filename='bases.json', to_print=False):
     [workbench:cedar, furniture:cedar, bearbed:fir]
     ---
     >>> bases.keys()
-    dict_keys(['LowerMine', 'UpperMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland'])
+    dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland'])
     """
-    bases, colours = parse_input(filename)
+    bases, edges, colours = parse_input(filename)
     colours = parse_colours(colours)
+    edges = parse_edges(edges, colours)
+    if len(edges) == 0:
+        print('No edges! Old system!')
     base_objects = {}
     for b in bases:
         bob = BaseLocation(b, bases[b], colours)
+        if b in edges:
+            for connection_to_b in edges[b]:
+                bob.add_connection(edges[b][connection_to_b])
         base_objects[b] = bob
         if to_print:
             print(bob)
@@ -339,7 +666,7 @@ def update_extremes(base_x, base_y, most_north, most_east, most_south, most_west
 
 
 def draw_bases(bases, icon_size=20, output='tests/bases.svg',
-               base_x=200, base_y=100, width=800, height=600,
+               base_x=200, base_y=50, width=800, height=700,
                arrow_colour='black', add_legend=True):
     """
     Draw all bases
@@ -358,14 +685,12 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
     most_south = d.height
     most_north = 0
 
-    connections_made = {}
-
     for b in bases:
         arrow_size = icon_size
         #print('\n', b, '*'*35)
         bob = bases[b]
         w, h, c, m = bob.box_dimensions(icon_size)
-        if b not in visited:
+        if not bob.is_drawn:
             g = draw.Group(id=b)
             bob.draw(g, icon_size, x=base_x, y=base_y)
             d.append(g)
@@ -373,74 +698,14 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
             visited.append(b)
             most_north, most_east, most_south, most_west = update_extremes(base_x, base_y, most_north, most_east, most_south, most_west)
 
-        if b not in connections_made:
-            connections_made[b] = []
-
         # then the neighbours
-        for dir in bob.connections:
-            connection_name = bob.connections[dir]
-            if connection_name not in connections_made[b]:
-                cob = bases[connection_name]
-                cob.box_dimensions(icon_size)
-                p = draw.Path(stroke_width=m, stroke=arrow_colour)
-                if dir == NORTH:
-                    base_x = bob.box_x
-                    line_x = base_x + m/2
-                    base_y = bob.box_y
-                    p.M(line_x, base_y)
-                    if connection_name in visited:
-                        arrow_size = bob.box_y - (cob.box_y + cob.box_height)
-                    base_y = bob.box_y - arrow_size
-                    p.L(line_x, base_y)
-                    base_y -= cob.box_height
-                    d.append(p)
-                if dir == SOUTH:
-                    base_x = bob.box_x
-                    line_x = base_x + m/2
-                    base_y = bob.box_y
-                    p.M(line_x, base_y+bob.box_height)
-                    if connection_name in visited:
-                        arrow_size = cob.box_y - (bob.box_y + bob.box_height) #+ arrow_size
-                    base_y += bob.box_height + arrow_size
-                    p.L(line_x, base_y)
-                    d.append(p)
-                if dir == WEST:
-                    base_y = bob.box_y
-                    line_y = base_y + m/2
-                    base_x = bob.box_x
-                    p.M(base_x, line_y)
-                    base_x -= arrow_size
-                    p.L(base_x, line_y)
-                    base_x -= cob.box_width
-                    d.append(p)
-                if dir == EAST:
-                    base_x = bob.box_x + bob.box_width
-                    base_y = bob.box_y
-                    line_y = base_y + m/2
-                    p.M(base_x, line_y)
-                    if connection_name in visited:
-                        arrow_size = cob.box_x - (bob.box_x + bob.box_width)
-                    base_x += arrow_size
-                    p.L(base_x, line_y)
-                    d.append(p)
-                connections_made[b].append(connection_name)
-                if connection_name not in connections_made:
-                    connections_made[connection_name] = []
-                connections_made[connection_name].append(b)
+        for connection_name in bob.connections:
+            dir = bob.connections[connection_name]
+            bases[b].draw_connection(d, bases[connection_name])
 
-                if connection_name not in visited:
-                    ng = draw.Group(id=connection_name)
-                    cob.draw(ng, icon_size, x=base_x, y=base_y)
-                    d.append(ng)
-                    #print('\tDrawing', connection_name)
-                    most_north, most_east, most_south, most_west = update_extremes(base_x, base_y, most_north,
-                                                                                   most_east, most_south, most_west)
-                    visited.append(connection_name)
-
-            #print(b, dir, bob.box_width, bob.box_height, bob.connections)
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, x=arrow_size, y=0, counts=counts)
+        draw_legend(d, x=1900, y=10, counts=counts)
 
     d.save_svg(output)
 
@@ -468,8 +733,8 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     9
     >>> nums['hammer']
     7
-    >>> [nums['prybar'], nums['lantern']] # my notes are inconsistent on these two
-    [14, 6]
+    >>> [nums['prybar'], nums['lantern']] # TODO I should have 14, 16 but notes are inconsistent
+    [17, 4]
     >>> nums['skillet']
     14
     >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
@@ -509,6 +774,40 @@ def verify_taking_numbers(bases):
                 issues_found = True
             print(a, to_bring[a], to_take[a], to_bring[a] == to_take[a])
     return not issues_found
+
+
+def convert_edge_info(bases):
+    """
+    Convert edge information formatting for JSON
+    :param bases: list of BaseLocation objects
+    :return:
+    >>> bases = process_input('mybases.json')
+    >>> #convert_edge_info(bases)
+    """
+    connecs = []
+
+    default_source = {NORTH:"top,left", SOUTH:"bottom,left", WEST:"top,left", EAST:"top,right"}
+    default_sink = {NORTH:"bottom,left", SOUTH:"top,left", WEST:"top,right", EAST:"top,left"}
+
+    for b in bases:
+        bob = bases[b]
+        for con in bob.connections:
+            key = f'{b}:{con}'
+
+            if key not in connecs:
+                dir = bob.connections[con]
+                data = [b, dir, default_source[dir], con, default_sink[dir], "todo"]
+                s = '['
+                for e in data:
+                    s += f'''"{e}", '''
+                s = s[:-2]  + '],'
+                print(s)
+
+                connecs.append(key)
+                rev = f'{con}:{b}'
+                connecs.append(rev)
+
+
 
 
 def draw_legend(d, x=0, y=0, icon_size=20, margin_ratio=1/8, legend_colour='purple', counts=False):
@@ -570,6 +869,7 @@ if __name__ == '__main__':
         if fname.endswith('.json'):
             outfile = fname.replace('.json', '.svg')
             bases = process_input(fname)
-            draw_bases(bases, output=outfile, width=2100, height=1400, base_x=1650, base_y=35)
+            # TODO automatically centre the base system rather than manually specifying
+            draw_bases(bases, output=outfile, width=2100, height=1400, base_x=1600, base_y=35)
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

@@ -64,6 +64,11 @@ SOUTH = 'south'
 NORTH = 'north'
 EAST = 'east'
 WEST = 'west'
+BOTTOM = 'bottom'
+TOP= 'top'
+LEFT = 'left'
+RIGHT = 'right'
+REVERSE = {SOUTH:NORTH, NORTH:SOUTH, EAST:WEST, WEST:EAST, BOTTOM:TOP, TOP:BOTTOM, LEFT:RIGHT, RIGHT:LEFT}
 
 # the colours provided
 COLOURS = 'colours'
@@ -102,3 +107,22 @@ TODO_TYPES = {WORK_BENCH:CEDAR, FURN_BENCH:CEDAR, BEAR_BED:FIR, BED:FIR,
               QUALITY_TOOLS:BRING, HAMMER:BRING, HACKSAW:BRING, LANTERN:BRING
               }
 
+CHARCOAL = 'charcoal'
+CATTAIL = 'cattail'
+TINDER = 'tinder'
+ROAD = 'road'
+RAIL = 'rail'
+PATH = 'path'
+TODO = 'todo'
+
+DASHSTYLE = {TODO:'1',
+             CHARCOAL:'1,1',
+             CATTAIL:'9,5',
+             TINDER:'5,2,3,2',
+             ROAD:'3,1',
+             RAIL:'4,1,2,1',
+             PATH : ''
+             }
+
+CORN_X = 1
+CORN_Y = 0
