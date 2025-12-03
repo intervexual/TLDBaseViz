@@ -49,7 +49,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * Note the rope climbs
 * Add all loot table POIs and make templates for interloper
 * Figure out SVG vs PNG text weirdness
-* Automatic centring and canvas sizing
+* Automatic centring and canvas sizing (two-stage drawing?)
 * Better organization of mybases.json
 * Write documentation for other people to use it
 

@@ -114,6 +114,7 @@ ROAD = 'road'
 RAIL = 'rail'
 PATH = 'path'
 TODO = 'todo'
+ONEWAY = 'oneway'
 
 DASHSTYLE = {TODO:'1',
              CHARCOAL:'1,1',
@@ -121,8 +122,10 @@ DASHSTYLE = {TODO:'1',
              TINDER:'5,2,3,2',
              ROAD:'3,1',
              RAIL:'4,1,2,1',
-             PATH : ''
+             PATH : '',
+             ONEWAY: '3,2,1',
              }
 
 CORN_X = 1
 CORN_Y = 0
+BIGNUM = 100000

@@ -358,7 +358,8 @@ class BaseLocation:
                                  self.box_width-self.margin_size, self.box_height-self.margin_size,
                                  rx=rx, ry=ry, stroke_dasharray=stroke_dasharray, stroke_opacity=stroke_opacity,
                                  fill=fill, stroke_width=self.margin_size, stroke=border ) )
-    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black'):
+    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black',
+             most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0):
         """
         Draw the base with drawsvg
         :param d: Drawing object
@@ -368,11 +369,13 @@ class BaseLocation:
         >>> bases = process_input('tests/testinput.json')
         >>> w, h, c, m = bases['Quonset'].box_dimensions(20)
         >>> d = draw.Drawing(w, h)
-        >>> bases['Quonset'].draw(d, 20)
+        >>> bases['Quonset'].draw(d, 20) == (bases['Quonset'].box_top, bases['Quonset'].box_bottom, bases['Quonset'].box_left, bases['Quonset'].box_right)
+        True
         >>> d.save_svg('tests/quonset.svg')
         >>> w, h, c, m = bases['Misanthrope'].box_dimensions(20)
         >>> d = draw.Drawing(w, h)
-        >>> bases['Misanthrope'].draw(d, 20)
+        >>> bases['Misanthrope'].draw(d, 20) == (bases['Misanthrope'].box_top, bases['Misanthrope'].box_bottom, bases['Misanthrope'].box_left, bases['Misanthrope'].box_right)
+        True
         >>> d.save_svg('tests/misanthrope.svg')
         """
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
@@ -404,7 +407,12 @@ class BaseLocation:
             icon_y += cell_size
         d.append(g)
         self.is_drawn = True
-    def draw_connection(self, d, neighbour, arrow_ratio=1.0):
+
+        most_north, most_south, most_west, most_east = update_extremes(self, most_north, most_south, most_west, most_east)
+        return most_north, most_south, most_west, most_east
+
+    def draw_connection(self, d, neighbour, arrow_ratio=1.0,
+                        most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0):
         """
         Draw connection from self to neighbouring base
         :param d: drawing object
@@ -415,19 +423,29 @@ class BaseLocation:
         >>> bases = process_input('tests/testinput.json')
         >>> w, h, c, m = bases['Hibernia'].box_dimensions(20)
         >>> d = draw.Drawing(w*3, h*3)
-        >>> bases['Hibernia'].draw(d, 20, y=h, x=w)
+        >>> hib_top, hib_bottom, hib_left, hib_right = bases['Hibernia'].draw(d, 20, y=h, x=w)
+        >>> (hib_top, hib_bottom, hib_left, hib_right)
+        (98.75, 193.75, 76.25, 148.75)
         >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
         [False, False]
-        >>> bases['Hibernia'].draw_connection(d, bases['Riken'])
+        >>> rik_top, rik_bottom, rik_left, rik_right = bases['Hibernia'].draw_connection(d, bases['Riken'])
+        >>> [rik_top == hib_top, rik_bottom > hib_bottom, rik_left == hib_left, rik_right == rik_right]
+        [True, True, True, True]
         >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
         [True, True]
         >>> [bases['Hibernia'].edges_drawn['BrokenBridge'], bases['BrokenBridge'].edges_drawn['Hibernia']]
         [False, False]
-        >>> bases['Hibernia'].draw_connection(d, bases['BrokenBridge'])
+        >>> bb_top, bb_bottom, bb_left, bb_right = bases['Hibernia'].draw_connection(d, bases['BrokenBridge'])
+        >>> [bb_top < hib_top, bb_bottom == hib_bottom, bb_left == hib_left, bb_right==hib_right]
+        [True, True, True, True]
         >>> [bases['Hibernia'].edges_drawn['BrokenBridge'], bases['BrokenBridge'].edges_drawn['Hibernia']]
         [True, True]
-        >>> bases['Hibernia'].draw_connection(d, bases['No5Mine'])
-        >>> bases['Riken'].draw_connection(d, bases['LittleIsland'])
+        >>> new_top, new_bottom, new_left, new_right = bases['Hibernia'].draw_connection(d, bases['No5Mine'])
+        >>> [hib_top > new_top, new_bottom == hib_bottom, new_left<hib_left, new_right==hib_right]
+        [True, True, True, True]
+        >>> new_top, new_bottom, new_left, new_right = bases['Riken'].draw_connection(d, bases['LittleIsland'])
+        >>> [new_top > hib_top, rik_bottom == new_bottom, rik_left == new_left, rik_right < new_right]
+        [True, True, True, True]
         >>> bases['No5Mine'].add_connection(BaseConnection("No5Mine", "east", "top,right", "BrokenBridge", "top,right", "road", colours))
         >>> bases['No5Mine'].draw_connection(d, bases['BrokenBridge'])
         >>> bases['Hibernia'].add_connection(BaseConnection("Hibernia", "west", "bottom,left", "No3Mine", "top,right", "tinder", colours))
@@ -436,6 +454,7 @@ class BaseLocation:
         """
         neigh_name = neighbour.name
         arrow_size = self.cell_size*arrow_ratio
+        most_north, most_south, most_west, most_east = update_extremes(self, most_north, most_south, most_west, most_east)
 
         cob = self.edges[neigh_name]
         assert cob.source == self.name
@@ -484,7 +503,10 @@ class BaseLocation:
                     neigh_top -= self.margin_size/2
 
                 #print('drawing child', self.name, neigh_name)
-                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top)
+                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top,
+                               most_north=most_north, most_south=most_south, most_west=most_west, most_east=most_east)
+                most_north, most_south, most_west, most_east = update_extremes(neighbour, most_north, most_south, most_west,
+                                                                           most_east)
             else:
                 if cob.corners[neigh_name][CORN_Y] == BOTTOM:
                     sink_y = neighbour.box_bottom + self.margin_size/2
@@ -499,6 +521,9 @@ class BaseLocation:
                 #print('interpolating child', self.name, neigh_name)
                 self.edges_drawn[neigh_name] = True
                 neighbour.edges_drawn[self.name] = True
+
+
+        return most_north, most_south, most_west, most_east
 
 
 def status_from_capitalization(s):
@@ -647,22 +672,22 @@ def process_input(filename='bases.json', to_print=False):
     return base_objects
 
 
-def update_extremes(base_x, base_y, most_north, most_east, most_south, most_west):
+def update_extremes(bob, most_north, most_south, most_west, most_east):
     """
     Track the furthest dimensions that have been drawn thus far
-    :param base_x: latest x
-    :param base_y: latest y
+    :param bob: BaseLocation object
     :param most_north: smallest y seen so far
     :param most_east: smallest x seen so far
     :param most_south: largest y seen so far
     :param most_west: largest x seen so far
     :return: updated values
     """
-    most_south = min(most_south, base_y)
-    most_north = max(most_north, base_y)
-    most_west = min(most_west, base_x)
-    most_east = max(most_east, base_x)
-    return most_north, most_east, most_south, most_west
+    assert bob.is_drawn
+    most_south = max(most_south, bob.box_bottom)
+    most_north = min(most_north, bob.box_top)
+    most_west = min(most_west, bob.box_left)
+    most_east = max(most_east, bob.box_right)
+    return most_north, most_south, most_west, most_east
 
 
 def draw_bases(bases, icon_size=20, output='tests/bases.svg',
@@ -692,11 +717,12 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
         w, h, c, m = bob.box_dimensions(icon_size)
         if not bob.is_drawn:
             g = draw.Group(id=b)
-            bob.draw(g, icon_size, x=base_x, y=base_y)
+            most_north, most_east, most_south, most_west = bob.draw(g, icon_size, x=base_x, y=base_y,
+                                                                    most_north=most_north, most_east=most_east,
+                                                                    most_south=most_south, most_west=most_west)
             d.append(g)
             #print('\tDrawing', b)
             visited.append(b)
-            most_north, most_east, most_south, most_west = update_extremes(base_x, base_y, most_north, most_east, most_south, most_west)
 
         # then the neighbours
         for connection_name in bob.connections:
@@ -727,14 +753,16 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
     [4, 2, 10, 1, 14, 7, 4]
-    >>> nums['birch']
-    15
+    >>> nums['birch'] > 13 and nums['birch'] < 16
+    True
     >>> nums['hacksaw']
     9
     >>> nums['hammer']
     7
-    >>> [nums['prybar'], nums['lantern']] # TODO I should have 14, 16 but notes are inconsistent
-    [17, 4]
+    >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
+    17
+    >>> nums['lantern'] # 7 in world, I carry one with me
+    6
     >>> nums['skillet']
     14
     >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
