@@ -555,8 +555,10 @@ def parse_colours(colours):
     :param colours: dict with name of colour, and colour probably formatted as oklch
     :return: same mappings but everything is hex codes
     >>> b, e, c = parse_input('tests/testinput.json')
-    >>> parse_colours(c)
-    {'base': '#2f5136', 'basebg': '#d5e2d7', 'bring': '#a62f5f', 'oneway': '#ee1300', 'paint': '#c85d00', 'tinder': '#623e29', 'fir': '#b17000', 'cedar': '#b79c51', 'cattail': '#66672d', 'path': '#76d3b4', 'take': '#0090a2', 'destroy': '#006d91', 'clearpath': '#3fa3ff', 'charcoal': '#0f1528', 'mixed': '#823bae', 'todo': '#8e4088'}
+    >>> parse_colours(c).keys()
+    dict_keys(['base', 'basebg', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'rock', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'todo'])
+    >>> parse_colours(c)[TINDER]
+    '#623e29'
     """
     hexes = {}
     for c in colours:
@@ -789,7 +791,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums['hammer']
     7
     >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
-    17
+    19
     >>> nums['lantern'] # 7 in world, I carry one with me
     6
     >>> nums['skillet']
@@ -872,11 +874,11 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     Draw a legend
     :param d: drawing object
     :return: y position of the bottom of the legend
-    >>> d = draw.Drawing(200, (36+10)*25)
+    >>> d = draw.Drawing(200, (36+12)*25)
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> bases, colours = process_input('mybases.json')
     >>> draw_legend(d, colours, icon_size=20)
-    860.0
+    1175.0
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
@@ -921,7 +923,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                                fill=legend_colour))
 
     colour_types = { BRING:"to bring to here", TAKE:'to take from here', DESTROY:'to destroy',
-                    FIR:"to make from fir", CEDAR:"to make from cedar"}
+                    FIR:"to make from fir", CEDAR:"to make from cedar", STONE:"to make from stones"}
     for j, a in enumerate(colour_types):
         icon_y += cell_size
         d.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
@@ -929,7 +931,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                            x=icon_x+cell_size, y=icon_y+cell_size/2,
                            fill=legend_colour))
 
-    path_types = {PATH:'road, rail, or other natural path',
+    path_types = {PATH:'road, rail, or other provided path',
                   TINDER:'tinder path', CATTAIL:'cattail head path', CHARCOAL:'charcoal path',
                   PAINT: 'spray paint path', MIXED: 'mixed marking path',
                   ONEWAY:"one-way route",
@@ -957,6 +959,6 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2100, height=1400, base_x=1600, base_y=35)
+            draw_bases(bases, colours, output=outfile, width=2100, height=1400, base_x=1625, base_y=35)
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

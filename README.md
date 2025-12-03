@@ -43,6 +43,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
+2. Add simple tools and make them distinct from quality tools
 3. Note the rope climbs?
 4. Write documentation for other people to use it
 5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 

@@ -153,6 +153,7 @@
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
 		"path":"oklch(0.8 0.1 170)",
+		"rock": "oklch(0.7 0.04 190)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
 		"clearpath":"oklch(0.7 0.18 250)",

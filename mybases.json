@@ -82,7 +82,7 @@
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["bear,bear,rabbit,birch,COOKPOT,COOKPOT",
+			"features": ["bear,bear,rabbit,birch,Cookpot,Cookpot",
 						"workbench,furniture,Hacksaw,BED,Bearbed",
 						"grill,quality,lantern,woodworking,PRYBAR,rockcache",
 						"trunk,trunk,Trunk,Trunk,Suitcase,Suitcase"]
@@ -159,7 +159,7 @@
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["bear,bear,timberwolf","workbench,grill,BED","Furniture,Bearbed"]
+			"features": ["bear,bear,timberwolf","workbench,grill,BED","Furniture,Bearbed,Prybar"]
 		},
 		"LastProspect": {
 			"customizable": false,
@@ -250,13 +250,14 @@
 			"loading": true,
 			"indoors": true,
 			"features": [
-				"bear,deer,wolf,,,QUALITY",
+				"bear,deer,wolf,,",
 				"workbench,furniture,,bearbed,radio,lantern",
-				"quality,woodworking,HACKSAW,hammer,prybar,QUALITY",
+				"quality,woodworking,HACKSAW,hammer,prybar",
 				"curing,curing,Curing,Curing,cookpot,cookpot",
 				"curing,curing,Curing,Curing,skillet,skillet",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"trunk,trunk,trunk,Trunk,rockcache,suitcase"
+				"trunk,trunk,trunk,Trunk,rockcache,suitcase",
+				"QUALITY,QUALITY,QUALITY"
 			]
 		},
 		"QMFishHut": {
@@ -356,7 +357,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["wolf","Furniture,Bed"]
+			"features": ["wolf,rockcache","Furniture,Bed"]
 		},
 		"No3Mine": {
 			"customizable": false,
@@ -376,8 +377,8 @@
 			"indoors": true,
 			"features": [",,salt,beachcombing",
 						"workbench,furniture,,bearbed",
-						"quality, hacksaw,PRYBAR",
-						"grill,,curing,curing"
+						"quality, hacksaw,prybar",
+						"grill,curing,curing,Suitcase"
 			]
 		},
 		"BrokenBridgeCave":{
@@ -434,7 +435,7 @@
 			"indoors": true,
 			"features": ["BED,grill,coal",
 						"Workbench,Furniture,Bearbed",
-						"Curing,Curing,Trunk",
+						"Curing,Curing,Trunk,Suitcase",
 						"Skillet,Skillet,Quality"]
 		},
 		"CRWFishHut": {
@@ -700,12 +701,13 @@
 			"indoors": true,
 			"features": [
 				"bear,ptarmigan,wolf,wolf",
-				"workbench,furniture,radio,forge,bearbed",
+				"workbench,furniture,radio,forge,bearbed,Workbench",
 				"quality,woodworking,hacksaw,hammer,prybar",
 				"curing,curing,Curing,skillet,skillet",
-				"curing,Curing,Curing,,rockcache",
-				"trunk,trunk,trunk,Trunk,suitcase",
-				"trunk,trunk,trunk,Trunk,suitcase"
+				"curing,Curing,Curing,COOKPOT,COOKPOT",
+				"trunk,trunk,trunk,Trunk,rockcache,suitcase",
+				"trunk,trunk,trunk,Trunk,,suitcase",
+				"PRYBAR,PRYBAR,PRYBAR,PRYBAR,SUITCASE,SUITCASE"
 			]
 		},
 		"HuntingLodge": {
@@ -718,34 +720,40 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["wolf","rockcache,rockcache"]
+			"features": ["wolf","rockcache","rockcache"]
 		},
 		"RailOffice": {
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["PRYBAR"]
+			"features": [""]
+		},
+		"SurfeitTrestle": {
+			"customizable": false,
+			"loading": false,
+			"indoors": true,
+			"features": ["Rockcache"]
 		},
 		"Platelayer": {
 			"customizable": false,
 			"loading": true,
 			"indoors": true,
-			"features": ["coal,PRYBAR","rockcache"]
+			"features": ["coal","rockcache","rockcache"]
 		},
 		"RemnantCave": {
 			"customizable": false,
 			"loading": false,
 			"indoors": true,
-			"features": ["rabbit,wolf","rockcache"]
+			"features": ["rabbit,wolf","rockcache,Rockcache"]
 		},
 		"VacantDepot": {
 			"customizable": true,
 			"loading": false,
 			"indoors": true,
-			"features": ["ptarmigan,rabbit,Cookpot,Cookpot",
+			"features": ["ptarmigan,rabbit",
 						"bed,furniture,radio,grill",
 						"skillet,skillet,cookpot,cookpot",
-						"prybar,QUALITY,rockcache,rockcache",
+						"prybar,quality,rockcache,rockcache",
 						"suitcase,suitcase,SUITCASE,SUITCASE",
 						"Trunk,Trunk,Trunk,Trunk"]
 		},
@@ -765,7 +773,7 @@
 			"customizable": true,
 			"loading": true,
 			"indoors": true,
-			"features": ["poisonwolf","workbench,prybar"]
+			"features": ["poisonwolf","workbench,PRYBAR"]
 		},
 		"LangstonMine": {
 			"customizable": false,
@@ -861,7 +869,7 @@
 			"customizable": false,
 			"loading": false,
 			"indoors": false,
-			"features": ["potbelly,fish"]
+			"features": ["potbelly,fish,Prybar"]
 		},
 		"IslandCottage": {
 			"customizable": true,
@@ -1012,7 +1020,7 @@
 			["Jackrabbit", "west", "top,left", "WestFishHut", "top,right", "todo"],
 			["WestFishHut", "north", "top,left", "RockfallCar", "bottom,left", "todo"],
 			["RockfallCar", "north", "top,left", "RabbitGrove", "bottom,right", "path"],
-			["RockfallCar", "east", "top,right", "FishingCamp", "top,left", "path"],
+			["RockfallCar", "east", "top,right", "FishingCamp", "bottom,left", "path"],
 			["RabbitGrove", "north", "top,left", "CHRailTunnel", "bottom,left", "path"],
 			["JFFishHut", "east", "top,right", "MidFishHuts", "top,left", "charcoal"],
 			["JFFishHut", "north", "top,left", "FishingCamp", "bottom,left", "todo"],
@@ -1093,7 +1101,8 @@
 			["Maintenance", "north", "top,left", "HuntingLodge", "bottom,left", "todo"],
 			"--------FarRangeAndTransferPass--------",
 			["BrokenBridgeCar", "west", "top,left", "RailOffice", "top,right", "path"],
-			["RailOffice", "west", "top,left", "Platelayer", "top,right", "path"],
+			["RailOffice", "west", "top,left", "SurfeitTrestle", "top,right", "path"],
+			["SurfeitTrestle", "west", "top,left", "Platelayer", "top,right", "path"],
 			["Platelayer", "west", "top,left", "RemnantCave", "top,right", "path"],
 			["RemnantCave", "north", "top,left", "VacantDepot", "bottom,left", "path"],
 			["VacantDepot", "east", "top,right", "WelkinsWindowCave", "top,left", "path"],
@@ -1150,6 +1159,7 @@
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
 		"path":"oklch(0.8 0.1 170)",
+		"rock": "oklch(0.7 0.04 190)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
 		"clearpath":"oklch(0.7 0.18 250)",

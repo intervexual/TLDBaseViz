@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="200" height="1150" viewBox="0 0 200 1150">
+     width="200" height="1200" viewBox="0 0 200 1200">
 <defs>
 </defs>
-<rect x="0" y="0" width="200" height="1150" fill="white" />
+<rect x="0" y="0" width="200" height="1200" fill="white" />
 <text x="2.5" y="38.75" font-size="10" font-family="Arial" fill="purple">LEGEND</text>
 <g id="import" transform="translate(2.5, 50.0) scale(0.7697636825494574)">
 <path d="M2.43402,10.4241 C2.43402,10.2654,2.30173,10.1066,2.11652,10.1066 L0.317357,10.1066 C0.158607,10.1066,-0.0001423,10.2389,-0.0001423,10.4241 L-0.0001423,23.9179 C-0.0001423,24.0766,0.132149,24.2354,0.317357,24.2354 L2.11652,24.2354 C2.27527,24.2354,2.43402,24.1031,2.43402,23.9179 L2.43402,21.272 L23.5477,21.272 L23.5477,23.9179 C23.5477,24.0766,23.68,24.2354,23.8652,24.2354 L25.6644,24.2354 C25.8232,24.2354,25.9819,24.1031,25.9819,23.9179 L25.9819,18.8643 L2.46048,18.8643 L2.46048,10.4241 Z" fill="purple" stroke="none" stroke-width="0" />
@@ -259,20 +259,22 @@
 <text x="25.0" y="938.75" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
 <rect x="2.5" y="950.0" width="20" height="20" fill="#b79c51" />
 <text x="25.0" y="961.25" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
-<path d="M2.5,983.75 L22.5,983.75" stroke="#76d3b4" stroke-width="2.5" stroke-dasharray="" />
-<text x="25.0" y="983.75" font-size="10" font-family="Arial" fill="purple">road, rail, or other natural path</text>
-<path d="M2.5,1006.25 L22.5,1006.25" stroke="#623e29" stroke-width="2.5" stroke-dasharray="4,2" />
-<text x="25.0" y="1006.25" font-size="10" font-family="Arial" fill="purple">tinder path</text>
-<path d="M2.5,1028.75 L22.5,1028.75" stroke="#66672d" stroke-width="2.5" stroke-dasharray="6,2" />
-<text x="25.0" y="1028.75" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
-<path d="M2.5,1051.25 L22.5,1051.25" stroke="#0f1528" stroke-width="2.5" stroke-dasharray="2,1" />
-<text x="25.0" y="1051.25" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
-<path d="M2.5,1073.75 L22.5,1073.75" stroke="#c85d00" stroke-width="2.5" stroke-dasharray="7,4" />
-<text x="25.0" y="1073.75" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
-<path d="M2.5,1096.25 L22.5,1096.25" stroke="#823bae" stroke-width="2.5" stroke-dasharray="4,2,2,2" />
-<text x="25.0" y="1096.25" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
-<path d="M2.5,1118.75 L22.5,1118.75" stroke="#ee1300" stroke-width="2.5" stroke-dasharray="1,1" />
-<text x="25.0" y="1118.75" font-size="10" font-family="Arial" fill="purple">one-way route</text>
-<path d="M2.5,1141.25 L22.5,1141.25" stroke="#8e4088" stroke-width="2.5" stroke-dasharray="1,2" />
-<text x="25.0" y="1141.25" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
+<rect x="2.5" y="972.5" width="20" height="20" fill="#82a7a4" />
+<text x="25.0" y="983.75" font-size="10" font-family="Arial" fill="purple">to make from stones</text>
+<path d="M2.5,1006.25 L22.5,1006.25" stroke="#76d3b4" stroke-width="2.5" stroke-dasharray="" />
+<text x="25.0" y="1006.25" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
+<path d="M2.5,1028.75 L22.5,1028.75" stroke="#623e29" stroke-width="2.5" stroke-dasharray="4,2" />
+<text x="25.0" y="1028.75" font-size="10" font-family="Arial" fill="purple">tinder path</text>
+<path d="M2.5,1051.25 L22.5,1051.25" stroke="#66672d" stroke-width="2.5" stroke-dasharray="6,2" />
+<text x="25.0" y="1051.25" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
+<path d="M2.5,1073.75 L22.5,1073.75" stroke="#0f1528" stroke-width="2.5" stroke-dasharray="2,1" />
+<text x="25.0" y="1073.75" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
+<path d="M2.5,1096.25 L22.5,1096.25" stroke="#c85d00" stroke-width="2.5" stroke-dasharray="7,4" />
+<text x="25.0" y="1096.25" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
+<path d="M2.5,1118.75 L22.5,1118.75" stroke="#823bae" stroke-width="2.5" stroke-dasharray="4,2,2,2" />
+<text x="25.0" y="1118.75" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
+<path d="M2.5,1141.25 L22.5,1141.25" stroke="#ee1300" stroke-width="2.5" stroke-dasharray="1,1" />
+<text x="25.0" y="1141.25" font-size="10" font-family="Arial" fill="purple">one-way route</text>
+<path d="M2.5,1163.75 L22.5,1163.75" stroke="#8e4088" stroke-width="2.5" stroke-dasharray="1,2" />
+<text x="25.0" y="1163.75" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
 </svg>
