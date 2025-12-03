@@ -43,9 +43,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-1. Figure out SVG vs PNG text weirdness
-2. Legend: add colour scheme!
-3. Note the rope climbs
+3. Note the rope climbs?
 4. Write documentation for other people to use it
 5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 
 6. Add all loot table POIs and make templates for interloper

@@ -114,17 +114,23 @@ ROAD = 'road'
 RAIL = 'rail'
 PATH = 'path'
 TODO = 'todo'
+PAINT = 'paint'
+MIXED = 'mixed'
 ONEWAY = 'oneway'
 
-DASHSTYLE = {TODO:'1',
-             CHARCOAL:'1,1',
-             CATTAIL:'9,5',
-             TINDER:'5,2,3,2',
-             ROAD:'3,1',
-             RAIL:'4,1,2,1',
+DASHSTYLE = {TODO:'1,2',
+             CHARCOAL:'2,1',
+             CATTAIL:'6,2',
+             TINDER:'4,2',
+             PAINT: '7,4',
+             MIXED: '4,2,2,2', # '1,3,2',
+             ROAD:'',
+             RAIL:'',
              PATH : '',
-             ONEWAY: '3,2,1',
+             ONEWAY: '1,1',
              }
+
+FONTFAM = 'Arial'
 
 CORN_X = 1
 CORN_Y = 0

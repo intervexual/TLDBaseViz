@@ -123,13 +123,13 @@
 		}
 	},
 	"connections": [
-		["Hibernia", "north", "top,left", "BrokenBridge", "bottom,left", "road"],
+		["Hibernia", "north", "top,left", "BrokenBridge", "bottom,left", "path"],
 		["Hibernia", "south", "bottom,left", "Riken", "top,left", "charcoal"],
 		["Riken", "east", "top,right", "LittleIsland", "top,left", "charcoal"],
-		["No5Mine", "east", "bottom,right", "Hibernia", "top,left", "road"],
+		["No5Mine", "east", "bottom,right", "Hibernia", "top,left", "path"],
 		["No3Mine", "east", "top,right", "No5Mine", "bottom,left", "path"],
 		["Harris", "east", "top,right", "No3Mine", "top,left", "todo"],
-		["CommuterCar", "east", "top,right", "Harris", "top,left", "road"],
+		["CommuterCar", "east", "top,right", "Harris", "top,left", "path"],
 		["Misanthrope", "east", "top,right", "CommuterCar", "top,left", "todo"],
 		["Misanthrope", "west", "top,left", "JMFishHut", "top,right", "todo"],
 		["Misanthrope", "north", "top,left", "QMFishHut", "bottom,left", "todo"],
@@ -139,25 +139,25 @@
 		["JFFishHut", "east", "top,right", "MidFishHuts", "top,left", "todo"],
 		["MidFishHuts", "east", "top,right", "QMFishHut", "top,left", "todo"],
 		["Quonset", "south", "bottom,left", "QMFishHut", "top,left", "todo"],
-		["Quonset", "west", "top,left", "LowerMine", "bottom,right", "road"],
+		["Quonset", "west", "top,left", "LowerMine", "bottom,right", "path"],
 		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"]
 	],
   	"colours":{
 		"base":"oklch(0.4 0.06 150)",
 		"basebg":"oklch(0.9 0.02 150)",
 		"bring":"oklch(0.5 0.16 0)",
-		"todo":"oklch(0.6 0.2 30)",
+		"oneway":"oklch(0.6 0.25 30)",
+		"paint":"oklch(0.6 0.2 50)",
 		"tinder":"oklch(0.4 0.06 50)",
 		"fir":"oklch(0.6 0.14 70)",
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
-		"rail":"oklch(0.6 0.12 130)",
 		"path":"oklch(0.8 0.1 170)",
 		"take":"oklch(0.6 0.12 210)",
-		"destroy":"oklch(0.5 0.2 250)",
-		"clearpath":"oklch(0.7 0.18 270)",
-		"charcoal":"oklch(0.2 0.04 290)",
-		"road":"oklch(0.5 0.06 310)",
-		"mixed":"oklch(0.5 0.18 330)"
+		"destroy":"oklch(0.5 0.2 230)",
+		"clearpath":"oklch(0.7 0.18 250)",
+		"charcoal":"oklch(0.2 0.04 270)",
+		"mixed":"oklch(0.5 0.18 310)",
+		"todo":"oklch(0.5 0.14 330)"
 	}
 }
