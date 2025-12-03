@@ -43,13 +43,11 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-* Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave
-* Legend: add colour scheme!
-* Add one-way directions like Cannery Workshop to Cannery Pier
-* Note the rope climbs
-* Add all loot table POIs and make templates for interloper
-* Figure out SVG vs PNG text weirdness
-* Automatic centring and canvas sizing (two-stage drawing?)
-* Better organization of mybases.json
-* Write documentation for other people to use it
+1. Figure out SVG vs PNG text weirdness
+2. Legend: add colour scheme!
+3. Note the rope climbs
+4. Write documentation for other people to use it
+5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 
+6. Add all loot table POIs and make templates for interloper
+7. Automatic centring and canvas sizing (two-stage drawing?)
 

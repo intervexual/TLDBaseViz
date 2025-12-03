@@ -270,7 +270,10 @@ class BaseLocation:
             for dir in data[CONNECTIONS]:
                 sink_name = data[CONNECTIONS][dir]
                 self.connections[sink_name] = dir
-
+    def reset_drawing(self):
+        self.is_drawn = False
+        for e in self.edges_drawn:
+            self.edges_drawn[e] = False
     def add_connection(self, boc):
         """
         Add connection/edge to/from this base
@@ -390,10 +393,8 @@ class BaseLocation:
         font_size = box_width / 7
         text_x = x + box_width/2 #+ margin_size/2
         text_y = y + cell_size - margin_size * .5
-        g.append( draw.Text(self.name, font_size, x=text_x, y=text_y,
-                            text_decoration='bold',  text_anchor='middle', font_family='Arial', stroke=text_stroke,
-                            fill=border, dominant_baseline='hanging',
-                            textLength=box_width-cell_size, lengthAdjust='spacing') )
+        g.append( draw.Text(self.name, font_size, x=text_x, y=text_y, text_anchor='middle',
+                             font_family='Arial', stroke=text_stroke, fill=border) )
 
         # matrix of icons
         icon_y = y + cell_size + margin_size*2
@@ -708,10 +709,21 @@ def redraw_bases(bases, icon_size=20, output='tests/rebases.svg', add_legend=Tru
     margin_size = icon_size
     new_width = actual_width + margin_size
     new_height = actual_height + margin_size
+
+    # initial node
+    parent = None
+    for i, b in enumerate(bases):
+        if i == 0:
+            parent = bases[b]
+    print(parent)
+    print(parent.box_left, parent.box_right, parent.box_top, parent.box_bottom)
+
     # reset the drawn flags
     for b in bases:
         bob = bases[b]
-        bob.is_drawn = False
+        bob.reset_drawing()
+    # TODO make use of the Use function for groups?
+    # TODO do I need to calculate distance from initial node?
     draw_bases(bases, icon_size=icon_size, output=output, width=new_width, height=new_height)
 
 
@@ -749,6 +761,7 @@ def draw_bases(bases, icon_size=20, output='tests/bases.svg',
             bases[b].draw_connection(gb, bases[connection_name])
 
     d.append(gb)
+    #d.append(draw.Use(gb, 0, 0))
 
     if add_legend:
         counts = count_features(bases)
