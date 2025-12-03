@@ -1085,7 +1085,7 @@
 			["WestFM", "west", "top,left", "BRRailTunnel", "top,right", "rail"],
 			["WestFM", "south", "bottom,left", "Spence", "top,left", "cattail"],
 			["WestFM", "north", "top,left", "MarshRidge", "bottom,left", "todo"],
-			["Spence", "east", "bottom,right", "MidSouthFMCave", "bottom,left", "todo"],
+			["Spence", "east", "top,right", "MidSouthFMCave", "top,left", "todo"],
 			["MidSouthFMCave", "east", "bottom,right", "BI2FMCave", "top,left", "todo"],
 			"--------BrokenRailroad--------",
 			["BRRailTunnel", "west", "top,left", "Maintenance", "top,right", "rail"],
@@ -1156,6 +1156,6 @@
 		"charcoal":"oklch(0.2 0.04 270)",
 		"road":"oklch(0.5 0.06 290)",
 		"mixed":"oklch(0.5 0.18 310)",
-		"todo":"oklch(0.5 0.18 330)"
+		"todo":"oklch(0.5 0.14 330)"
 	}
 }

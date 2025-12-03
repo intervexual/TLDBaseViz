@@ -696,7 +696,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
 
 def redraw_bases(bases, icon_size=20, output='tests/rebases.svg', add_legend=True):
     """
-
+    Redraw all the bases but nicely centred on the canvas. Not yet working.
     :param bases:
     :param icon_size:
     :param output:
