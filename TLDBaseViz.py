@@ -779,7 +779,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     :return: dictionary of counts, indexed by feature name (e.g. 'forge')
     >>> bases, colours = process_input('tests/testinput.json')
     >>> count_features(bases)
-    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
+    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'simple': 0, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
@@ -886,34 +886,22 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     icon_y = y + cell_size + margin_size * 2
     icon_x = x + margin_size
 
-    ordering = {BED:BED, BEAR_BED:"bear hide bed",
-                WORK_BENCH:WORK_BENCH, FURN_BENCH:"furniture workbench", FORGE:FORGE, MILL_MACH:"milling machine",
-                RADIO:"trader radio", TRADER:"trade drop-box",
-                POTBELLY:"1-slot stove", GRILL:"2-slot stove", RANGE:"6-slot stove",
-                COOKPOT:COOKPOT, SKILLET:SKILLET,
-                LANTERN:LANTERN, QUALITY_TOOLS:"quality tools",
-                HACKSAW:HACKSAW, HAMMER:"heavy hammer", PRYBAR:PRYBAR, WOODWORKING:"woodworking tools",
-                TRUNK:"rustic trunk", SUITCASE:"suitcase", ROCK_CACHE:"rock cache",
-                CURING_BOX:"curing box",
-                SALT:"salt deposit",COAL:"coal",BEACHCOMBING:"beachcombing",BIRCH:"birch bark",
-                BEAR:BEAR, MOOSE:MOOSE, DEER:DEER, WOLF:WOLF, POISON_WOLF:'poisoned wolf', TIMBERWOLF:TIMBERWOLF, RABBIT:RABBIT, PTARMIGAN:PTARMIGAN, FISH:'fishing'
-    }
-    assert  len(ASSETS) - len(ordering) <= 1, len(ASSETS) - len(ordering)
+    assert  len(ASSETS) - len(ORDERING) <= 1, len(ASSETS) - len(ORDERING)
 
     longest_name_len = 0
-    for k in ordering:
-        longest_name_len = max( len(ordering[k]), longest_name_len )
+    for k in ORDERING:
+        longest_name_len = max( len(ORDERING[k]), longest_name_len )
 
     legend_font_size = 10
     d.append(draw.Text('LEGEND', legend_font_size, font_family=FONTFAM,
                        x=icon_x, y=icon_y + cell_size / 2,
                        fill=legend_colour))
-    for i, a in enumerate(ordering):
+    for i, a in enumerate(ORDERING):
         filepath = 'assets/' + ASSETS[a]
         icon_y += cell_size
         import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
                    hei=icon_size, fill=legend_colour)
-        d.append(draw.Text(ordering[a], legend_font_size, font_family=FONTFAM,
+        d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
                            x=icon_x+cell_size, y=icon_y+cell_size/2,
                            fill=legend_colour))
         if counts:
@@ -959,6 +947,6 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2100, height=1400, base_x=1625, base_y=35)
+            draw_bases(bases, colours, output=outfile, width=2100, height=1500, base_x=1625, base_y=15)
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

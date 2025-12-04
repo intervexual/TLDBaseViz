@@ -22,16 +22,17 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
 * [Moose by pramana](https://thenounproject.com/icon/moose-7525270/)
-* [Quality Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
 * [Pot Belly Stove by Andrejs Kirma](https://thenounproject.com/icon/brick-oven-754885/)
 * [Prybar by Ben Gilman](https://thenounproject.com/icon/crowbar-4068/)
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
+* [Quality Tools by Asiah](https://thenounproject.com/icon/toolbox-7611362/)
 * [Rabbit by Logisstudio](https://thenounproject.com/icon/rabbit-8111124/)
 * [Radio by NTT](https://thenounproject.com/icon/walkie-talkie-4532346/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
 * [Rock Cache by kusuma potter](thenounproject.com/icon/cannon-balls-7931465/)
 * [Salt by Muhammad Hilmi Fajri](https://thenounproject.com/icon/mineral-7867358/)
+* [Simple Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
 * [Skillet by icelloid](https://thenounproject.com/icon/frying-pan-6855632/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
 * [Timberwolf by okja](https://thenounproject.com/icon/wolf-6260519/)
@@ -40,10 +41,10 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Wolf by IronSV](https://thenounproject.com/icon/wolf-3063417/)
 * [Woodworking Tools by Berkah Icon](https://thenounproject.com/icon/saw-8128607/)
 * [Workbench by cdesign933](https://thenounproject.com/icon/desk-6717403/)
+* [Workbench Vice by Melisa Lutfiani](https://thenounproject.com/icon/vice-6758814/)
 
 
 ## TODOs
-2. Add simple tools and make them distinct from quality tools
 3. Note the rope climbs?
 4. Write documentation for other people to use it
 5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 
