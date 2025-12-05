@@ -700,7 +700,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (607.5, 591.25, 106.25, 713.75, 51.25, 642.5)
+    (607.5, 592.5, 106.25, 713.75, 51.25, 643.75)
     """
     for b in bases:
         bob = bases[b]
@@ -824,10 +824,6 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> total_bears - nums['bear']
     0
     >>> total_workbenches = 3+5+(1)+2+3+2+1+(4)+1+2+6+(4)+1+0+2+8+3+0
-    >>> #I destroyed workbench in PV-CH connector mine, second bench in Quonset
-    >>> #also two workbenches in the dam (d85), then the lower dam bench (114)
-    >>> #and the workbench in the mine to PV
-    >>> # if I destroyed the workbench in the mine that is within DP I didn't log it!!!
     >>> total_workbenches - nums['workbench'] # three known vices that have not been made into workbenches yet
     3
     >>> cedar_counts = count_features(bases, [CEDAR])
@@ -1005,7 +1001,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=True)
+            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
