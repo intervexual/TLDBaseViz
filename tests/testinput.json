@@ -3,19 +3,25 @@
 		"UpperMine": {
 			"customizable": false,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["coal"]
 		},
 		"LowerMine": {
 			"customizable": false,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["coal"]
 		},
 		"Quonset": {
 			"customizable": true,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": [
 				"bear,deer,wolf",
 				"workbench,Furniture,,BED,Bearbed,radio",
@@ -29,13 +35,17 @@
 		"QMFishHut": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["potbelly,fish,Hammer"]
 		},
 		"Misanthrope": {
 			"customizable": true,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["bear,deer,wolf",
 						"salt,beachcombing",
 						"bed, trader, quality",
@@ -45,13 +55,17 @@
 		"JMFishHut": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["potbelly","fish","beachcombing"]
 		},
 		"Jackrabbit": {
 			"customizable": true,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["rabbit,deer",
 						"salt,beachcombing",
 						"bed, quality",
@@ -61,43 +75,57 @@
 		"JFFishHut": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["potbelly,fish"]
 		},
 		"MidFishHuts": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["potbelly,fish"]
 		},
 		"CommuterCar": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["deer"]
 		},
 		"Harris": {
 			"customizable": true,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["wolf"]
 		},
 		"No3Mine": {
 			"customizable": false,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["coal,salt"]
 		},
 		"No5Mine": {
 			"customizable": false,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["coal,salt"]
 		},
 		"Hibernia":{
 			"customizable": true,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["salt,beachcombing",
 						"bed, quality, workbench",
 						"Furniture, Bearbed"
@@ -106,19 +134,25 @@
 		"BrokenBridge":{
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["bear,salt"]
 		},
 		"Riken":{
 			"customizable": false,
 			"loading": true,
+			"cabinfeverrisk":true,
 			"indoors": true,
+			"explored":false,
 			"features": ["forge,bed", "Hammer,beachcombing"]
 		},
 		"LittleIsland": {
 			"customizable": false,
 			"loading": false,
+			"cabinfeverrisk":false,
 			"indoors": false,
+			"explored":false,
 			"features": ["deer,rabbit","salt,beachcombing"]
 		}
 	},

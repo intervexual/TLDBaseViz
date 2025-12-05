@@ -61,6 +61,8 @@ LOADING = 'loading'
 CONNECTIONS = 'connections'
 INDOORS = 'indoors'
 EMPTY = 'empty'
+EXPLORED = 'explored'
+CABINFEVERRISK = 'cabinfeverrisk'
 
 SOUTH = 'south'
 NORTH = 'north'
@@ -135,6 +137,7 @@ DASHSTYLE = {TODO:'1,2',
              ONEWAY: '1,1',
              }
 
+OUTDOOR_OPACITY = 0.25
 FONTFAM = 'Arial'
 
 CORN_X = 1

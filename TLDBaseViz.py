@@ -247,6 +247,10 @@ class BaseLocation:
         self.customizable = data[CUSTOMIZABLE]
         self.loading = data[LOADING]
         self.indoors = data[INDOORS]
+        self.explored = data[EXPLORED]
+        self.cabinfeverrisk = data[CABINFEVERRISK]
+        if self.loading:
+            assert self.cabinfeverrisk == True, f'{self.name} has loading screen and hence should have cabin fever risk'
 
         self.num_features = 0
         assert FEATURES in data
@@ -349,7 +353,7 @@ class BaseLocation:
 
         stroke_opacity = 1
         if not self.customizable:
-            stroke_opacity = .25
+            stroke_opacity = OUTDOOR_OPACITY
 
         margin = self.margin_size/2
         self.box_top = self.box_y + margin
@@ -361,7 +365,7 @@ class BaseLocation:
                                  self.box_width-self.margin_size, self.box_height-self.margin_size,
                                  rx=rx, ry=ry, stroke_dasharray=stroke_dasharray, stroke_opacity=stroke_opacity,
                                  fill=fill, stroke_width=self.margin_size, stroke=border ) )
-    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black'):
+    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black', unexplored='red'):
         """
         Draw the base with drawsvg
         :param d: Drawing object
@@ -384,17 +388,27 @@ class BaseLocation:
         g = draw.Group(id=self.name)
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
 
-        if self.indoors and self.customizable and self.num_features > 6:
-            text_stroke = border
+        text_colour = border
+        if not self.explored:
+            text_colour = unexplored
+        if self.indoors and self.customizable and self.num_features > 7:
+            text_stroke = text_colour
         else:
             text_stroke = 'none'
+        font_style = ''
+        if not self.loading:
+            font_style = 'italic'
+        text_decor = ''
+        #if self.cabinfeverrisk:
+        #    text_decor = 'underline'
 
         # the title
         font_size = box_width / 7
         text_x = x + box_width/2 #+ margin_size/2
         text_y = y + cell_size - margin_size * .5
         g.append( draw.Text(self.name, font_size, x=text_x, y=text_y, text_anchor='middle',
-                             font_family=FONTFAM, stroke=text_stroke, fill=border) )
+                             font_family=FONTFAM, stroke=text_stroke, fill=text_colour,
+                             font_style=font_style, text_decoration=text_decor) )
 
         # matrix of icons
         icon_y = y + cell_size + margin_size*2
@@ -409,7 +423,9 @@ class BaseLocation:
         self.is_drawn = True
 
     def draw_connection(self, d, neighbour, arrow_ratio=1.0,
-                        most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0):
+                        most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0,
+                        print_output=False,
+                        unexplored='green', border='black'):
         """
         Draw connection from self to neighbouring base
         :param d: drawing object
@@ -489,8 +505,9 @@ class BaseLocation:
                 if cob.corners[neigh_name][CORN_Y] == TOP:
                     neigh_top -= self.margin_size/2
 
-                #print('drawing child', self.name, neigh_name)
-                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top)
+                if print_output:
+                    print('\t\tDrawing', neigh_name, "as child of", self.name)
+                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top, unexplored=unexplored, border=border)
             else:
                 if cob.corners[neigh_name][CORN_Y] == BOTTOM:
                     sink_y = neighbour.box_bottom + self.margin_size/2
@@ -539,7 +556,7 @@ def parse_input(filename='bases.json'):
     >>> c['base']
     'oklch(0.4 0.06 150)'
     >>> b['Quonset']
-    {'customizable': True, 'loading': True, 'indoors': True, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
+    {'customizable': True, 'loading': True, 'cabinfeverrisk': True, 'indoors': True, 'explored': False, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
     """
     with open(filename, 'r') as f:
         data = json.load(f)
@@ -729,7 +746,7 @@ def redraw_bases(bases, colours, icon_size=20, output='tests/rebases.svg', add_l
 
 def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
                base_x=200, base_y=50, width=800, height=700,
-               add_legend=True, output_png=True):
+               add_legend=True, output_png=True, print_output=False):
     """
     Draw all bases
     :param bases:
@@ -742,30 +759,34 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     visited = []
 
     gb = draw.Group(id='bases')
+    unexplored_colour = colours[BRING]
 
     for b in bases:
+        if print_output:
+            print('Visiting', b)
         arrow_size = icon_size
         #print('\n', b, '*'*35)
         bob = bases[b]
         w, h, c, m = bob.box_dimensions(icon_size)
         if not bob.is_drawn:
             g = draw.Group(id=b)
-            bob.draw(g, icon_size, x=base_x, y=base_y)
+            bob.draw(g, icon_size, x=base_x, y=base_y, unexplored=unexplored_colour, border=colours[BASE])
             gb.append(g)
-            #print('\tDrawing', b)
+            if print_output:
+                print('\tDrawing', b)
             visited.append(b)
 
         # then the neighbours
         for connection_name in bob.connections:
             dir = bob.connections[connection_name]
-            bases[b].draw_connection(gb, bases[connection_name])
+            bases[b].draw_connection(gb, bases[connection_name], unexplored=unexplored_colour, border=colours[BASE], print_output=print_output)
 
     d.append(gb)
     #d.append(draw.Use(gb, 0, 0))
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=1900, y=10, counts=counts)
+        draw_legend(d, colours, x=d.width-200, y=10, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -779,7 +800,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     :return: dictionary of counts, indexed by feature name (e.g. 'forge')
     >>> bases, colours = process_input('tests/testinput.json')
     >>> count_features(bases)
-    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'simple': 0, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
+    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'simple': 0, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'vice': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
@@ -801,6 +822,16 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> total_bears = 2+4+3+1+3+0+1+0+0+2+2+2+0+0+1+2+3+0+1+3+0+0+1
     >>> total_bears - nums['bear']
     0
+    >>> total_workbenches = 3+5+(1)+2+3+2+1+(4)+1+2+6+(4)+1+0+2+8+3+0
+    >>> #I destroyed workbench in PV-CH connector mine, second bench in Quonset
+    >>> #also two workbenches in the dam (d85), then the lower dam bench (114)
+    >>> #and the workbench in the mine to PV
+    >>> # if I destroyed the workbench in the mine that is within DP I didn't log it!!!
+    >>> total_workbenches - nums['workbench'] # three known vices that have not been made into workbenches yet
+    3
+    >>> cedar_counts = count_features(bases, [CEDAR])
+    >>> cedar_counts['workbench'] == nums['vice']
+    True
     """
     count = {}
     for a in ASSETS:
@@ -878,7 +909,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> bases, colours = process_input('mybases.json')
     >>> draw_legend(d, colours, icon_size=20)
-    1175.0
+    1310.0
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
@@ -910,7 +941,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                                x=count_x, y=icon_y+cell_size/2,
                                fill=legend_colour))
 
-    colour_types = { BRING:"to bring to here", TAKE:'to take from here', DESTROY:'to destroy',
+    colour_types = { BRING:"to bring to here (if text: unexplored)", TAKE:'to take from here', DESTROY:'to destroy',
                     FIR:"to make from fir", CEDAR:"to make from cedar", STONE:"to make from stones"}
     for j, a in enumerate(colour_types):
         icon_y += cell_size
@@ -934,6 +965,32 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                            x=icon_x+cell_size, y=icon_y+cell_size/2,
                            fill=legend_colour))
 
+    icon_y += cell_size
+    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
+    d.append(draw.Text('customizable indoor location', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       fill=legend_colour))
+
+    icon_y += cell_size
+    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
+    d.append(draw.Text('non-customizable indoor location', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       fill=legend_colour))
+
+
+    icon_y += cell_size
+    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size,
+                            rx=icon_size/2.5, ry=icon_size/2.5, opacity=OUTDOOR_OPACITY))
+    d.append(draw.Text('outdoors (cannot cure hides)', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       fill=legend_colour))
+
+    icon_y += cell_size
+    #d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
+    d.append(draw.Text('no loading screen', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       fill=legend_colour, font_style='italic'))
+
     return icon_y + cell_size
 
 
@@ -947,6 +1004,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2100, height=1500, base_x=1625, base_y=15)
+            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=False)
+
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
