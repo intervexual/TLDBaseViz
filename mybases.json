@@ -240,7 +240,7 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":true,
+			"explored": false,
 			"features": [""]
 		},
 		"ForemansClearcut": {
@@ -1035,7 +1035,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,bed","Rockcache"]
+			"features": ["coal,bed,Rockcache"]
 		},
 		"CaveToBI": {
 			"customizable": false,
@@ -1779,10 +1779,10 @@
 			["FMPrepperCache", "east", "bottom,right", "Bunkhouses", "bottom,left", "todo"],
 			["Bunkhouses", "east", "bottom,right", "MidSouthFMCave", "bottom,left", "todo"],
 			["MidSouthFMCave", "north", "top,right", "HighBlind", "bottom,right", "todo"],
-			["MidSouthFMCave", "east", "bottom,right", "CaveFromBI", "bottom,left", "todo"],
+			["MidSouthFMCave", "east", "bottom,right", "CaveFromBI", "top,left", "todo"],
 			"--------BleakInlet--------",
-			["CaveToBI", "west", "top,left", "CaveFromBI", "bottom,right", "paint"],
-			["CaveToBI", "west", "bottom,left", "BIHuntersBlind", "top,right", "todo"],
+			["CaveToBI", "west", "top,left", "CaveFromBI", "top,right", "paint"],
+			["CaveToBI", "south", "bottom,left", "BIHuntersBlind", "top,right", "todo"],
 			["SaltCave", "north", "top,left", "CaveToBI", "bottom,right", "todo"],
 			["BIPrepperCache", "south", "bottom,left", "PensiveLookout", "top,left", "todo"],
 			["PensiveLookout", "west", "bottom,left", "EchoOneRadioTower", "bottom,right", "todo"],

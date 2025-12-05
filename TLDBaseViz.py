@@ -502,6 +502,7 @@ class BaseLocation:
                     neigh_left +=  self.margin_size/2
                 if cob.corners[neigh_name][CORN_Y] == BOTTOM:
                     neigh_top -= neighbour.box_height
+                    neigh_top += self.margin_size/2
                 if cob.corners[neigh_name][CORN_Y] == TOP:
                     neigh_top -= self.margin_size/2
 
@@ -1004,7 +1005,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=True)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
