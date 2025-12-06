@@ -787,7 +787,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-200, y=10, counts=counts)
+        draw_legend(d, colours, x=d.width-200, y=400, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -813,7 +813,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums['hammer']
     7
     >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
-    19
+    20
     >>> nums['lantern'] # 7 in world, I carry one with me
     6
     >>> nums['skillet']
@@ -1001,7 +1001,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2200, height=1500, base_x=1650, base_y=20, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
