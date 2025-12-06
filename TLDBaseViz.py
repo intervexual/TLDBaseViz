@@ -1001,7 +1001,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=True)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

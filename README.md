@@ -53,4 +53,3 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 6. Automatic centring and canvas sizing (two-stage drawing?)
 7. Fractional likelihood for interloper loot tables
 7. Make loot table templates for interloper
-9. Add every base https://www.reddit.com/r/thelongdark/comments/1pdm4ex/survival_bases_community_survey_round_2_whats_the/?sort=top 
