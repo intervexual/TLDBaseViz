@@ -47,6 +47,9 @@ PRYBAR = 'prybar'
 LANTERN = 'lantern'
 VICE = 'vice'
 
+DISTRESS_PISTOL = 'distress'
+DISTRESS_PISTOL_AMMO = 'dpammo'
+
 STOVE = 'stove'
 POTBELLY = 'potbelly'
 GRILL = 'grill'
@@ -54,6 +57,11 @@ RANGE = 'range'
 NOSTOVE = 'nostove'
 STOVE_LST = [POTBELLY, GRILL, RANGE]
 STOVE_TYPES = {0: NOSTOVE, 1:POTBELLY, 2:GRILL, 6:RANGE}
+
+MAGLENS = 'maglens'
+MATCHES = 'matches'
+FIRESTRIKER = 'firestriker'
+BEDROLL = 'bedroll'
 
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
@@ -102,10 +110,15 @@ ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           MOOSE:'moose.svg',TIMBERWOLF:'timberwolf.svg',
           SALT:'salt.svg', BEACHCOMBING:'beachcombing.svg', COAL:'coal.svg', FISH:'fish.svg',
           BIRCH:'birch.svg', ROCK_CACHE:"rockcache.svg",
-          EMPTY:'empty.svg'
+          EMPTY:'empty.svg',
+          MAGLENS:'maglens.svg', MATCHES:'matches.svg', FIRESTRIKER:"firestriker.svg",
+          DISTRESS_PISTOL:'distresspistol.svg', DISTRESS_PISTOL_AMMO:"pistolammo.svg",
+          BEDROLL:'bedroll.svg'
           }
 
-MOVABLES = [CURING_BOX, COOKPOT, SKILLET, HACKSAW, QUALITY_TOOLS, SIMPLE_TOOLS, LANTERN, PRYBAR, WOODWORKING, HAMMER, SUITCASE, VICE]
+MOVABLES = [CURING_BOX, COOKPOT, SKILLET, HACKSAW, QUALITY_TOOLS, SIMPLE_TOOLS,
+            LANTERN, PRYBAR, WOODWORKING, HAMMER, SUITCASE, VICE,
+            BEDROLL,MATCHES,FIRESTRIKER,MAGLENS, DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO]
 
 TODO_TYPES = {WORK_BENCH:CEDAR, FURN_BENCH:CEDAR, BEAR_BED:FIR, BED:FIR,
               CURING_BOX:FIR, TRUNK:FIR,
@@ -155,5 +168,8 @@ ORDERING = {BED: BED, BEAR_BED: "bear hide bed",
             CURING_BOX: "curing box", VICE: 'workbench vice',
             SALT: "salt deposit", COAL: "coal", BEACHCOMBING: "beachcombing", BIRCH: "birch bark",
             BEAR: BEAR, MOOSE: MOOSE, DEER: DEER, WOLF: WOLF, POISON_WOLF: 'poisoned wolf', TIMBERWOLF: TIMBERWOLF,
-            RABBIT: RABBIT, PTARMIGAN: PTARMIGAN, FISH: 'fishing'
+            RABBIT: RABBIT, PTARMIGAN: PTARMIGAN, FISH: 'fishing',
+            MAGLENS:MAGLENS, FIRESTRIKER:FIRESTRIKER, MATCHES:MATCHES,
+            DISTRESS_PISTOL:DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO:"distress pistol ammo",
+            BEDROLL:'bedroll (cloth)'
             }

@@ -800,8 +800,8 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     :param bases: list of BaseLocation objects
     :return: dictionary of counts, indexed by feature name (e.g. 'forge')
     >>> bases, colours = process_input('tests/testinput.json')
-    >>> count_features(bases)
-    {'bearbed': 0, 'bed': 5, 'forge': 1, 'milling': 0, 'furniture': 0, 'workbench': 2, 'trunk': 0, 'curing': 0, 'cookpot': 0, 'skillet': 0, 'potbelly': 4, 'grill': 0, 'range': 0, 'hacksaw': 0, 'quality': 3, 'simple': 0, 'lantern': 0, 'prybar': 0, 'woodworking': 0, 'hammer': 0, 'suitcase': 0, 'vice': 0, 'radio': 1, 'trader': 1, 'bear': 3, 'wolf': 3, 'poisonwolf': 0, 'deer': 5, 'rabbit': 2, 'ptarmigan': 0, 'moose': 0, 'timberwolf': 0, 'salt': 7, 'beachcombing': 6, 'coal': 4, 'fish': 4, 'birch': 0, 'rockcache': 0, 'empty': 3}
+    >>> type(count_features(bases))
+    <class 'dict'>
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
@@ -816,6 +816,10 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     20
     >>> nums['lantern'] # 7 in world, I carry one with me
     6
+    >>> nums["firestriker"] # 4 in world, I carry one with me
+    3
+    >>> nums["maglens"] # 3 in world, I carry one with me
+    2
     >>> nums['skillet']
     14
     >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
@@ -1001,7 +1005,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=True)
+            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

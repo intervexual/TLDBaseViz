@@ -8,11 +8,15 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Bear by abdul gofur](https://thenounproject.com/icon/bear-8141308/)
 * [Bear Hide Bed by Luiz Carvalho](https://thenounproject.com/icon/bed-4353999/)
 * [Bed by Adrien Coquet](https://thenounproject.com/icon/sleeping-947845/)
+* [Bedroll by Daniel Shettel](https://thenounproject.com/icon/sleeping-bag-734845/)
 * [Birch Bark by Amethyst Studio](https://thenounproject.com/icon/eucommia-bark-5464568/)
 * [Coal by BinikSol](https://thenounproject.com/icon/coal-6694219/)
 * [Cookpot by NeueDeutsche](https://thenounproject.com/icon/cooking-671176/)
 * [Curing Box by Pham Duy Phuong Hung](https://thenounproject.com/icon/cooler-2133137/)
 * [Deer by Anissa](https://thenounproject.com/icon/deer-5689542/)
+* [Distress Pistol by Andy Horvath](https://thenounproject.com/icon/flare-gun-6660081/)
+* [Distress Pistol Ammunition by Dwi Budiyanto](https://thenounproject.com/icon/cylinder-8139837/)
+* [Firestriker by IconMark](https://thenounproject.com/icon/flare-3507624/)
 * [Fish by BnB Studio](https://thenounproject.com/icon/salmon-7911128/)
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
 * [Furniture Workbench by Deni Sudibyo](https://thenounproject.com/icon/workbench-6376294/)
@@ -20,6 +24,8 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Hacksaw by omeneko](thenounproject.com/icon/hacksaw-7780613/)
 * [Heavy hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
+* [Magnifying Lens by vectaicon](https://thenounproject.com/icon/search-6437462/)
+* [Matches by Fahrul Oktaviana](https://thenounproject.com/icon/matchbox-8144976/)
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
 * [Moose by pramana](https://thenounproject.com/icon/moose-7525270/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
@@ -45,6 +51,9 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
+
+Add: matches, firestriker, bedroll
+
 1. Add some level of importance/priority
 2. Text size weirdness
 3. Note the rope climbs?
