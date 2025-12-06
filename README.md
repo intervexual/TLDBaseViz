@@ -22,10 +22,12 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 * [Furniture Workbench by Deni Sudibyo](https://thenounproject.com/icon/workbench-6376294/)
 * [Grill (2-burner stove) by Cuby Design](https://thenounproject.com/icon/bachelor-griller-1916441/)
 * [Hacksaw by omeneko](thenounproject.com/icon/hacksaw-7780613/)
-* [Heavy hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
+* [Heavy Hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
+* [Insulated Flask by AbtoCreative](https://thenounproject.com/icon/thermos-7022139/)
+* [Jerry Can by Nikita Kozin](https://thenounproject.com/icon/jerry-can-451668/)
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
 * [Magnifying Lens by vectaicon](https://thenounproject.com/icon/search-6437462/)
-* [Matches by Fahrul Oktaviana](https://thenounproject.com/icon/matchbox-8144976/)
+* [Matches by Zach Bogart](https://thenounproject.com/icon/matchbook-4449825/)
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
 * [Moose by pramana](https://thenounproject.com/icon/moose-7525270/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
@@ -52,13 +54,11 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 ## TODOs
 
-Add: matches, firestriker, bedroll
-
 1. Add some level of importance/priority
 2. Text size weirdness
 3. Note the rope climbs?
 4. Write documentation for other people to use it
 5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 
 6. Automatic centring and canvas sizing (two-stage drawing?)
-7. Fractional likelihood for interloper loot tables
 7. Make loot table templates for interloper
+8. Add: Sewing kit? Stim? Can openers?

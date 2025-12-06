@@ -61,7 +61,9 @@ STOVE_TYPES = {0: NOSTOVE, 1:POTBELLY, 2:GRILL, 6:RANGE}
 MAGLENS = 'maglens'
 MATCHES = 'matches'
 FIRESTRIKER = 'firestriker'
+JERRYCAN = 'jerrycan'
 BEDROLL = 'bedroll'
+THERMOS = 'thermos'
 
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
@@ -113,12 +115,13 @@ ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           EMPTY:'empty.svg',
           MAGLENS:'maglens.svg', MATCHES:'matches.svg', FIRESTRIKER:"firestriker.svg",
           DISTRESS_PISTOL:'distresspistol.svg', DISTRESS_PISTOL_AMMO:"pistolammo.svg",
-          BEDROLL:'bedroll.svg'
+          BEDROLL:'bedroll.svg', THERMOS:'thermos.svg', JERRYCAN:'jerrycan.svg'
           }
 
 MOVABLES = [CURING_BOX, COOKPOT, SKILLET, HACKSAW, QUALITY_TOOLS, SIMPLE_TOOLS,
             LANTERN, PRYBAR, WOODWORKING, HAMMER, SUITCASE, VICE,
-            BEDROLL,MATCHES,FIRESTRIKER,MAGLENS, DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO]
+            BEDROLL,MATCHES,FIRESTRIKER,MAGLENS, DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO,
+            THERMOS, JERRYCAN]
 
 TODO_TYPES = {WORK_BENCH:CEDAR, FURN_BENCH:CEDAR, BEAR_BED:FIR, BED:FIR,
               CURING_BOX:FIR, TRUNK:FIR,
@@ -157,19 +160,26 @@ CORN_X = 1
 CORN_Y = 0
 BIGNUM = 100000
 
+PROBABILITY_DELIM = '/'
+
 ORDERING = {BED: BED, BEAR_BED: "bear hide bed",
             WORK_BENCH: WORK_BENCH, FURN_BENCH: "furniture workbench", FORGE: FORGE, MILL_MACH: "milling machine",
             RADIO: "trader radio", TRADER: "trade drop-box",
             POTBELLY: "1-slot stove", GRILL: "2-slot stove", RANGE: "6-slot stove",
             COOKPOT: COOKPOT, SKILLET: SKILLET,
-            LANTERN: LANTERN, QUALITY_TOOLS: "quality tools", SIMPLE_TOOLS: 'simple tools',
+            THERMOS:'insulated flask',
+            MAGLENS: 'magnifying lens', FIRESTRIKER: FIRESTRIKER, MATCHES: MATCHES,
+            JERRYCAN:'jerry can',
+            LANTERN: LANTERN,
+            BEDROLL: 'bedroll (cloth)',
+            DISTRESS_PISTOL: DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO: "distress pistol ammo",
+            QUALITY_TOOLS: "quality tools", SIMPLE_TOOLS: 'simple tools',
             HACKSAW: HACKSAW, HAMMER: "heavy hammer", PRYBAR: PRYBAR, WOODWORKING: "woodworking tools",
-            TRUNK: "rustic trunk", SUITCASE: "suitcase", ROCK_CACHE: "rock cache",
-            CURING_BOX: "curing box", VICE: 'workbench vice',
+            VICE: 'workbench vice',
+            TRUNK: "rustic trunk", SUITCASE: "suitcase",
+            ROCK_CACHE: "rock cache",
+            CURING_BOX: "curing box",
             SALT: "salt deposit", COAL: "coal", BEACHCOMBING: "beachcombing", BIRCH: "birch bark",
             BEAR: BEAR, MOOSE: MOOSE, DEER: DEER, WOLF: WOLF, POISON_WOLF: 'poisoned wolf', TIMBERWOLF: TIMBERWOLF,
             RABBIT: RABBIT, PTARMIGAN: PTARMIGAN, FISH: 'fishing',
-            MAGLENS:MAGLENS, FIRESTRIKER:FIRESTRIKER, MATCHES:MATCHES,
-            DISTRESS_PISTOL:DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO:"distress pistol ammo",
-            BEDROLL:'bedroll (cloth)'
             }

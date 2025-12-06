@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="95.991997"
+   height="95.991997"
+   viewBox="0 0 95.991997 95.991997"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="thermos.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="6.7941176"
+     inkscape:cx="74.917749"
+     inkscape:cy="110.75758"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     d="M 55.996 18 L 27.996 18 L 27.996 4 C 27.996 1.7891 29.7851 -2e-06 31.996 -2e-06 L 51.996 -2e-06 C 54.2069 -2e-06 55.996 1.7891 55.996 4 Z M 23.996 91.992 C 23.996 94.2029 25.7851 95.992 27.996 95.992 L 55.996 95.992 C 58.2069 95.992 59.996 94.2029 59.996 91.992 L 59.996 85.992 L 23.996 85.992 Z M 63.996 26.199 L 63.996 30.3631 C 66.3202 31.1912 67.996 33.3904 67.996 35.9959 L 67.996 81.9919 C 67.996 84.5974 66.3202 86.7966 63.996 87.6247 L 63.996 91.7888 C 68.5546 90.8591 71.996 86.82 71.996 81.9919 L 71.996 35.9959 C 71.996 31.1678 68.5546 27.1287 63.996 26.199 Z M 23.996 81.992 L 59.996 81.992 L 59.996 35.996 L 23.996 35.996 Z M 55.996 21.996 L 27.996 21.996 C 25.7851 21.996 23.996 23.7851 23.996 25.996 L 23.996 31.996 L 59.996 31.996 L 59.996 25.996 C 59.996 23.789 58.2069 21.996 55.996 21.996 Z"
+     id="path1"
+     style="fill:#000000" />
+</svg>

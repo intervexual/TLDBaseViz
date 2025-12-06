@@ -1,7 +1,7 @@
 from keysAndDefs import *
 
 class BaseFeature:
-    def __init__(self, name, colours=()):
+    def __init__(self, name, colours=(), probability=1):
         """
         Create BaseFeature object with a name and material.
         :param name: case-sensitive name
@@ -25,7 +25,14 @@ class BaseFeature:
 
         self.original = name
         self.status = status_from_capitalization(name)
+        self.probability = probability
         self.name = name.lower()
+
+        if PROBABILITY_DELIM in self.name:
+            info = self.name.split(PROBABILITY_DELIM)
+            self.name = info[0]
+            self.probability = float(info[1])
+
         assert self.name in ASSETS
         if self.status == PLANNED:
             if self.name in TODO_TYPES:
@@ -47,7 +54,11 @@ class BaseFeature:
         self.filepath = 'assets/' + ASSETS[self.name]
     def __repr__(self):
         return f'{self.name}:{self.material}'
-
+    def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour='white'):
+        import_svg(g, self.filepath, x=x, y=y, wid=wid,
+                   hei=hei, fill=self.hex)
+        if self.probability < 1:
+            g.append(draw.Rectangle(x,y,wid,hei,fill=bg_colour,opacity=self.probability))
 
 class BaseConnection:
     def __init__(self, source, direction, source_corner, sink, sink_corner, kind, colours=False):
@@ -415,8 +426,7 @@ class BaseLocation:
         for i, row in enumerate(self.features):
             icon_x = x + margin_size*2
             for j, bob in enumerate(row):
-                import_svg(g, bob.filepath, x=icon_x, y=icon_y, wid=icon_size,
-                           hei=icon_size, fill=bob.hex)
+                bob.draw(g, x=icon_x, y=icon_y, wid=icon_size, hei=icon_size)
                 icon_x += cell_size
             icon_y += cell_size
         d.append(g)
@@ -456,7 +466,7 @@ class BaseLocation:
         >>> d.save_svg('tests/hibernia.svg')
         """
         neigh_name = neighbour.name
-        arrow_size = self.cell_size*arrow_ratio
+        arrow_size = self.cell_size*arrow_ratio # self.icon_size*arrow_ratio #
         most_north, most_south, most_west, most_east = update_extremes(self, most_north, most_south, most_west, most_east)
 
         cob = self.edges[neigh_name]
@@ -816,7 +826,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     20
     >>> nums['lantern'] # 7 in world, I carry one with me
     6
-    >>> nums["firestriker"] # 4 in world, I carry one with me
+    >>> nums["firestriker"] # 4 in world, I carry one with me. None at Trapper or Quonset.
     3
     >>> nums["maglens"] # 3 in world, I carry one with me
     2
@@ -824,9 +834,11 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     14
     >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
     True
-    >>> total_bears = 2+4+3+1+3+0+1+0+0+2+2+2+0+0+1+2+3+0+1+3+0+0+1
+    >>> nums['thermos'] == 7 - 2 # I carry two with me everywhere
+    True
+    >>> total_bears = 2+(3+.25)+3+1+3+0+1+0+0+2+2+2+0+0+(0.7)+2+3+0+1+3+0+0+1
     >>> total_bears - nums['bear']
-    0
+    0.0
     >>> total_workbenches = 3+5+(1)+2+3+2+1+(4)+1+2+6+(4)+1+0+2+8+3+0
     >>> total_workbenches - nums['workbench'] # three known vices that have not been made into workbenches yet
     3
@@ -842,7 +854,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
         for row in bases[b].features:
             for feature in row:
                 if feature.status in statuses_to_count or feature.material in statuses_to_count:
-                    count[feature.name] += 1
+                    count[feature.name] += feature.probability
     return count
 
 
@@ -901,7 +913,7 @@ def convert_edge_info(bases):
 
 
 
-def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_colour='purple', counts=False):
+def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_colour='purple', counts=False, background_colour='white'):
     """
     Draw a legend
     :param d: drawing object
@@ -941,6 +953,15 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
             d.append(draw.Text(str(counts[a]), legend_font_size, font_family=FONTFAM,
                                x=count_x, y=icon_y+cell_size/2,
                                fill=legend_colour))
+
+    icon_y += cell_size
+    import_svg(d, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
+               hei=icon_size, fill=legend_colour)
+    d.append(draw.Rectangle(icon_x, icon_y, icon_size, icon_size, fill=background_colour, opacity=0.5))
+    pb = 'opacity indicates probability (0.5 -> 50%)'
+    d.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
+                       x=icon_x + cell_size, y=icon_y + cell_size / 2,
+                       fill=legend_colour))
 
     colour_types = { BRING:"to bring to here (if text: unexplored)", TAKE:'to take from here', DESTROY:'to destroy',
                     FIR:"to make from fir", CEDAR:"to make from cedar", STONE:"to make from stones"}
@@ -1005,7 +1026,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1860, base_y=20, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1842, base_y=20, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
