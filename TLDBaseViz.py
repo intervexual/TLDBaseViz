@@ -225,20 +225,23 @@ class BaseLocation:
         :param name: name of the base
         :param data: data from JSON file
         >>> b, e, c = parse_input('tests/testinput.json')
-        >>> b['Quonset'][FEATURES]
-        ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']
+        >>> b['Quonset'][FEATURES][0]
+        'bear,deer,wolf'
         >>> quonset = BaseLocation('Quonset', b['Quonset'])
         >>> print(quonset)
         ------
         Quonset (C, L)
         ------
         [bear:base, deer:base, wolf:base]
-        [workbench:base, furniture:cedar, empty:base, bed:destroy, bearbed:fir, radio:base]
-        [quality:bring, woodworking:bring, hacksaw:bring, hammer:bring, lantern:bring]
-        [curing:fir, curing:fir, curing:fir, curing:fir, cookpot:bring, cookpot:bring]
-        [curing:fir, curing:fir, curing:fir, curing:fir, skillet:bring, skillet:bring]
-        [trunk:fir, trunk:fir, trunk:fir, trunk:fir, empty:base, suitcase:bring]
-        [trunk:fir, trunk:fir, trunk:fir, trunk:fir, empty:base, suitcase:bring]
+        [thermos:base, thermos:base, thermos:base, thermos:base, matches:base, jerrycan:base]
+        [workbench:base, furniture:base, bearbed:base, radio:base]
+        [quality:base, woodworking:base, hammer:base, prybar:base, lantern:base, hacksaw:take]
+        [curing:base, curing:base, curing:fir, curing:fir, cookpot:base, cookpot:base]
+        [curing:base, curing:base, curing:fir, curing:fir, skillet:base, skillet:base]
+        [trunk:base, trunk:base, trunk:base, trunk:base, rockcache:base, suitcase:base]
+        [trunk:base, trunk:base, trunk:base, trunk:fir, rockcache:base, suitcase:base]
+        [distress:base, dpammo:base, dpammo:take, dpammo:take, dpammo:take, maglens:bring]
+        [quality:take, quality:take, quality:take, quality:take, quality:take, vice:take]
         ------
         >>> mis = BaseLocation('Misanthrope', b['Misanthrope'])
         >>> print(mis)
@@ -333,7 +336,7 @@ class BaseLocation:
         >>> bases['Harris'].box_dimensions(i)
         (42.5, 42.5, 22.5, 2.5)
         >>> bases['Quonset'].box_dimensions(20)
-        (162.5, 182.5, 22.5, 2.5)
+        (162.5, 265.0, 22.5, 2.5)
         >>> bases['CommuterCar'].longest_row
         0
         >>> bases['CommuterCar'].box_dimensions(20)
@@ -355,6 +358,9 @@ class BaseLocation:
         hei_times = math.ceil( self.box_height / icon_size ) # 2 vs 6
         self.box_height = hei_times * icon_size
         self.box_height += self.margin_size # for connection gridding
+
+        if len(self.features) == 10:
+            self.box_height += self.cell_size
 
         self.feature_grid_height = feature_grid_height
 
@@ -465,6 +471,12 @@ class BaseLocation:
         >>> bases['Riken'].draw_header(d, 0, 0)
         >>> d.save_svg('tests/riken.svg')
         >>> d.save_png('tests/riken.png')
+        >>> w, h, c, m = bases['MTFarm'].box_dimensions(i)
+        >>> bases['MTFarm'].draw_base_box(d)
+        >>> bases['MTFarm'].draw_feature_grid(d, 0, 0)
+        27.5
+        >>> bases['MTFarm'].draw_header(d, 0, 0)
+        >>> d.save_svg('tests/mtfarm.svg')
         """
         g = draw.Group(id=self.name + ":header")
         min_text_top = y + 2*self.margin_size
@@ -475,11 +487,13 @@ class BaseLocation:
         max_text_width = self.box_width - self.margin_size*4
 
         pixels_per_letter = max_text_width / len(self.name)
-        font_size = pixels_per_letter * 1.75 #* height_ratio # times 1.75 roughly fills the area, but is too tall
+        font_size = pixels_per_letter * 1.5 # times 1.75 roughly fills the area, but is too tall
+        # changing to 1.5 to ensure margins on the sides
+
+        #print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
 
         font_size = min(font_size, max_text_height)
 
-        #print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
 
         text_x = x + self.box_width/2 #+ margin_size/2
         high_possible = min_text_top + font_size - self.margin_size/2
@@ -516,7 +530,7 @@ class BaseLocation:
         >>> d = draw.Drawing(w, h)
         >>> bases['Quonset'].draw(d, 20)
         >>> (bases['Quonset'].box_top, bases['Quonset'].box_bottom, bases['Quonset'].box_left, bases['Quonset'].box_right)
-        (1.25, 181.25, 1.25, 161.25)
+        (1.25, 263.75, 1.25, 161.25)
         >>> d.save_svg('tests/quonset.svg')
         >>> w, h, c, m = bases['Misanthrope'].box_dimensions(20)
         >>> d = draw.Drawing(w, h)
@@ -669,8 +683,10 @@ def parse_input(filename='bases.json'):
     >>> b, e, c = parse_input('tests/testinput.json')
     >>> c['base']
     'oklch(0.4 0.06 150)'
-    >>> b['Quonset']
-    {'region': 'CoastalHighway', 'customizable': True, 'loading': True, 'cabinfeverrisk': True, 'indoors': True, 'explored': False, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
+    >>> b['Quonset']['indoors']
+    True
+    >>> b['Quonset']['region']
+    'CoastalHighway'
     """
     with open(filename, 'r') as f:
         data = json.load(f)
@@ -768,7 +784,7 @@ def process_input(filename='bases.json', to_print=False):
     [workbench:cedar, furniture:cedar, bearbed:fir]
     ---
     >>> bases.keys()
-    dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland'])
+    dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
     """
     bases, edges, colours = parse_input(filename)
     colours = parse_colours(colours)
@@ -813,7 +829,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (660.0, 540.0, 101.25, 761.25, 51.25, 591.25)
+    (660.0, 762.5, 101.25, 761.25, 11.25, 773.75)
     """
     for b in bases:
         bob = bases[b]
@@ -859,7 +875,7 @@ def redraw_bases(bases, colours, icon_size=20, output='tests/rebases.svg', add_l
 
 
 def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
-               base_x=200, base_y=50, width=800, height=700,
+               base_x=200, base_y=150, width=800, height=800,
                add_legend=True, output_png=True, print_output=False):
     """
     Draw all bases
@@ -870,6 +886,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     Visiting UpperMine
         Drawing UpperMine
             Drawing LowerMine as child of UpperMine
+            Drawing MTFarm as child of UpperMine
     Visiting LowerMine
             Drawing Quonset as child of LowerMine
     Visiting Quonset
@@ -903,6 +920,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     Visiting Riken
             Drawing LittleIsland as child of Riken
     Visiting LittleIsland
+    Visiting MTFarm
     """
     d = draw.Drawing(width, height)
     d.append(draw.Rectangle(0,0,d.width,d.height,fill='white'))
@@ -939,7 +957,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-200, y=400, counts=counts)
+        draw_legend(d, colours, x=d.width-200, y=350, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -972,6 +990,16 @@ def draw_region(region, source_info, output='tests/', print_output=False):
     Warning: connected base not in bases MarshRidgeCave
     Warning: connected base not in bases Trapper
     Warning: connected base not in bases CaveToHRV
+    >>> draw_region('MysteryLake', 'mybases.json', print_output=False)
+    Warning: connected base not in bases WestRavineCave
+    Warning: connected base not in bases CaveFromPV
+    Warning: connected base not in bases Poacher
+    Warning: connected base not in bases CaveToMT
+    >>> draw_region('ForlornMuskeg', 'mybases.json', print_output=False)
+    Warning: connected base not in bases MLRailTunnel
+    Warning: connected base not in bases BRRailTunnel
+    Warning: connected base not in bases HermitsCabin
+    Warning: connected base not in bases CaveToBI
     """
     bases, colours = process_input(source_info)
     these_bases = {}

@@ -24,16 +24,20 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": [
 				"bear,deer,wolf",
-				"workbench,Furniture,,BED,Bearbed,radio",
-				"Quality,Woodworking,Hacksaw,Hammer,Lantern",
-				"Curing,Curing,Curing,Curing,Cookpot,Cookpot",
-				"Curing,Curing,Curing,Curing,Skillet,Skillet",
-				"Trunk,Trunk,Trunk,Trunk,,Suitcase",
-				"Trunk,Trunk,Trunk,Trunk,,Suitcase"
-			]
+				"thermos,thermos,thermos,thermos,matches,jerrycan",
+				"workbench,furniture,bearbed,radio",
+				"quality,woodworking,hammer,prybar,lantern,HACKSAW",
+				"curing,curing,Curing,Curing,cookpot,cookpot",
+				"curing,curing,Curing,Curing,skillet,skillet",
+				"trunk,trunk,trunk,trunk,rockcache,suitcase",
+				"trunk,trunk,trunk,Trunk,rockcache,suitcase",
+				"distress,dpammo,DPAMMO,DPAMMO,DPAMMO,Maglens",
+				"QUALITY,QUALITY,QUALITY,QUALITY,QUALITY,VICE"
+			],
+			"removed": ["workbench"]
 		},
 		"QMFishHut": {
 			"region": "CoastalHighway",
@@ -171,6 +175,20 @@
 			"indoors": false,
 			"explored":false,
 			"features": ["deer,rabbit","salt,beachcombing"]
+		},
+		"MTFarm": {
+			"region": "MountainTown",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["ptarmigan,rabbit,deer",
+						"range,bed, quality",
+						"workbench, furniture",
+						"cookpot, Cookpot, lantern",
+						"skillet, skillet, SKILLET"
+			]
 		}
 	},
 	"connections": [
@@ -191,7 +209,8 @@
 		["MidFishHuts", "east", "top,right", "QMFishHut", "top,left", "todo"],
 		["Quonset", "south", "bottom,left", "QMFishHut", "top,left", "todo"],
 		["Quonset", "west", "top,left", "LowerMine", "bottom,right", "path"],
-		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"]
+		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"],
+		["UpperMine", "west", "top,left", "MTFarm", "bottom,right", "todo"]
 	],
   	"colours":{
 		"base":"oklch(0.4 0.06 150)",

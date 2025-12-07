@@ -65,7 +65,7 @@
 </g>
 </g>
 <g id="Hibernia:header">
-<text x="123.75" y="124.58984375" font-size="15.859375" font-family="Arial" stroke="none" font-style="" fill="red" text-anchor="middle">Hibernia</text>
+<text x="123.75" y="124.0234375" font-size="13.59375" font-family="Arial" stroke="none" font-style="" fill="red" text-anchor="middle">Hibernia</text>
 </g>
 </g>
 <path d="M83.75,203.75 L83.75,223.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
@@ -136,7 +136,7 @@
 </g>
 </g>
 <g id="BrokenBridge:header">
-<text x="113.75" y="55.0390625" font-size="7.65625" font-family="Arial" stroke="none" font-style="italic" fill="green" text-anchor="middle">BrokenBridge</text>
+<text x="113.75" y="54.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="green" text-anchor="middle">BrokenBridge</text>
 </g>
 </g>
 <path d="M83.75,103.75 L63.75,103.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
@@ -169,7 +169,7 @@
 </g>
 </g>
 <g id="No5Mine:header">
-<text x="33.75" y="76.25" font-size="12.5" font-family="Arial" stroke="none" font-style="" fill="green" text-anchor="middle">No5Mine</text>
+<text x="33.75" y="75.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="green" text-anchor="middle">No5Mine</text>
 </g>
 </g>
 <path d="M143.75,223.75 L163.75,223.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
@@ -208,7 +208,7 @@
 </g>
 </g>
 <g id="LittleIsland:header">
-<text x="193.75" y="233.7890625" font-size="7.65625" font-family="Arial" stroke="none" font-style="italic" fill="green" text-anchor="middle">LittleIsland</text>
+<text x="193.75" y="233.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="green" text-anchor="middle">LittleIsland</text>
 </g>
 </g>
 <path d="M63.75,63.75 L143.75,43.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
@@ -242,7 +242,7 @@
 </g>
 </g>
 <g id="No3Mine:header">
-<text x="33.75" y="216.25" font-size="12.5" font-family="Arial" stroke="none" font-style="" fill="green" text-anchor="middle">No3Mine</text>
+<text x="33.75" y="215.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="green" text-anchor="middle">No3Mine</text>
 </g>
 </g>
 </svg>
