@@ -65,6 +65,9 @@ JERRYCAN = 'jerrycan'
 BEDROLL = 'bedroll'
 THERMOS = 'thermos'
 
+SNARE = 'snare'
+TIPUP = 'tipup'
+
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
 LOADING = 'loading'
@@ -95,6 +98,22 @@ BRING = 'bring'
 TAKE = 'take'
 DESTROY = 'destroy'
 
+SWEATER = 'sweater'
+JERSEY = 'jersey'
+SOCKS = 'socks'
+TOQUE = 'toque'
+LONG_JOHNS = 'longjohns'
+MITTS = 'mitts'
+BALLISTIC = 'ballistic'
+DEER_PANTS = 'deerpants'
+WOLF_PANTS = 'wolfpants'
+COMBAT_PANTS = 'combatpants'
+WOLF_HAT = 'wolfhat'
+BALACLAVA = 'balaclava'
+GLOVES = 'gloves'
+SATCHEL = 'satchel'
+BOOTS = 'deerboots'
+
 # assets
 ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           FORGE:'forge.svg',  MILL_MACH:'milling.svg',
@@ -115,13 +134,22 @@ ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
           EMPTY:'empty.svg',
           MAGLENS:'maglens.svg', MATCHES:'matches.svg', FIRESTRIKER:"firestriker.svg",
           DISTRESS_PISTOL:'distresspistol.svg', DISTRESS_PISTOL_AMMO:"pistolammo.svg",
-          BEDROLL:'bedroll.svg', THERMOS:'thermos.svg', JERRYCAN:'jerrycan.svg'
+          BEDROLL:'bedroll.svg', THERMOS:'thermos.svg', JERRYCAN:'jerrycan.svg',
+          SNARE:'snare.svg', TIPUP:'tipup.svg',
+          SWEATER:'sweater.svg', JERSEY:'jersey.svg', BALLISTIC:'ballistic.svg',
+          LONG_JOHNS:'longjohns.svg', SOCKS:'socks.svg', MITTS:'mitts.svg', TOQUE:'toque.svg',
+          DEER_PANTS:'deerpants.svg', COMBAT_PANTS:'combatpants.svg', BALACLAVA:'balaclava.svg',
+          WOLF_PANTS:'wolfpants.svg', GLOVES:'gloves.svg', WOLF_HAT:'wolfhat.svg',
+          SATCHEL:'satchel.svg', BOOTS:'deerboots.svg',
           }
 
 MOVABLES = [CURING_BOX, COOKPOT, SKILLET, HACKSAW, QUALITY_TOOLS, SIMPLE_TOOLS,
             LANTERN, PRYBAR, WOODWORKING, HAMMER, SUITCASE, VICE,
             BEDROLL,MATCHES,FIRESTRIKER,MAGLENS, DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO,
-            THERMOS, JERRYCAN]
+            THERMOS, JERRYCAN,
+            SWEATER, JERSEY, BALLISTIC, LONG_JOHNS, SOCKS, MITTS, TOQUE, DEER_PANTS, COMBAT_PANTS, BALACLAVA,
+            GLOVES, WOLF_PANTS, WOLF_HAT, SATCHEL, BOOTS,
+            BEAR] # TODO better way to handle bear movement?
 
 TODO_TYPES = {WORK_BENCH:CEDAR, FURN_BENCH:CEDAR, BEAR_BED:FIR, BED:FIR,
               CURING_BOX:FIR, TRUNK:FIR,
@@ -140,6 +168,8 @@ TODO = 'todo'
 PAINT = 'paint'
 MIXED = 'mixed'
 ONEWAY = 'oneway'
+
+
 
 DASHSTYLE = {TODO:'1,2',
              CHARCOAL:'2,1',
@@ -186,4 +216,26 @@ ORDERING = {BED: BED, BEAR_BED: "bear hide bed",
             SALT: "salt deposit", COAL: "coal", BEACHCOMBING: "beachcombing", BIRCH: "birch bark",
             BEAR: BEAR, MOOSE: MOOSE, DEER: DEER, WOLF: WOLF, POISON_WOLF: 'poisoned wolf', TIMBERWOLF: TIMBERWOLF,
             RABBIT: RABBIT, PTARMIGAN: PTARMIGAN, FISH: 'fishing',
+            SNARE:SNARE, TIPUP:'fishing tip-up',
+            # clothing: hat
+            WOLF_HAT: 'wolfskin hat',
+            TOQUE: 'wool toque',
+            BALACLAVA: 'technical balaclava',
+            # torso
+            JERSEY: 'festive sweater or hockey jersey',
+            SWEATER: 'thin wool sweater',
+            # hands
+            MITTS: 'rabbitskin mitts',
+            GLOVES: 'tactical gloves',
+            # accessories
+            BALLISTIC: 'ballistic vest',
+            SATCHEL: 'moose-hide satchel',
+            # pants
+            COMBAT_PANTS: 'combat pants',
+            DEER_PANTS: 'deerskin pants',
+            WOLF_PANTS: 'wolfskin pants',
+            # long johns, socks
+            LONG_JOHNS: 'thermal underwear',
+            SOCKS: 'wool socks',
+            BOOTS: 'deerskin boots',
             }

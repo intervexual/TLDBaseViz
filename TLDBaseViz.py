@@ -20,13 +20,13 @@ class BaseFeature:
         >>> str(BaseFeature(''))
         'empty:base'
         """
-        if not name:
+        if not name or name.startswith('@'):
             name = EMPTY
 
         self.original = name
         self.status = status_from_capitalization(name)
         self.probability = probability
-        self.name = name.lower()
+        self.name = name.lower().replace('+','').replace('-','')
 
         if PROBABILITY_DELIM in self.name:
             info = self.name.split(PROBABILITY_DELIM)
@@ -661,7 +661,8 @@ class BaseLocation:
 
 def status_from_capitalization(s):
     """
-    Return whether the string is planned, actual, or to remove, based on capitalization.
+    Return whether the string is planned, actual, or to remove, based on capitalization
+    OR based on the string starting with +/-.
     :param s: input string
     :return: status as string
     >>> status_from_capitalization('trunk')
@@ -670,7 +671,16 @@ def status_from_capitalization(s):
     'planned'
     >>> status_from_capitalization('TRUNK')
     'remove'
+    >>> status_from_capitalization('-trunk')
+    'remove'
+    >>> status_from_capitalization('+Trunk')
+    'planned'
     """
+    if s.startswith('+'):
+        return PLANNED
+    elif s.startswith('-'):
+        return REMOVE
+
     assert len(s) > 2, s
     if s.lower() == s:
         return ACTUAL
@@ -963,7 +973,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210, y=350, counts=counts)
+        draw_legend(d, colours, x=d.width-210, y=300, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -1045,14 +1055,14 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
     20
     >>> nums['lantern'] # 7 in world, I carry one with me
-    6
+    7
     >>> nums["firestriker"] # 4 in world, I carry one with me. None at Trapper or Quonset.
-    3
+    4
     >>> nums["maglens"] # 3 in world, I carry one with me
-    2
+    3
     >>> nums['skillet']
     14
-    >>> nums['cookpot'] == 15 #- 2 # I carry two with me everywhere
+    >>> nums['cookpot'] == 16 #- 2 # I carry two with me everywhere
     True
     >>> nums['thermos'] == 7 #- 2 # I carry two with me everywhere
     True
@@ -1254,7 +1264,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2550, height=1600, base_x=2070, base_y=50, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2650, height=1700, base_x=2070, base_y=50, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

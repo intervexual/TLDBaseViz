@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="snare.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="4.8041667"
+     inkscape:cx="58.386817"
+     inkscape:cy="83.781439"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 43.234375,2.9355469 A 5,5 0 0 0 39.496094,3.7558594 5,5 0 0 0 38.251953,10.714844 L 110.89648,115 A 5,5 0 0 0 117.85742,116.24414 5,5 0 0 0 119.10352,109.28516 L 46.457031,5 A 5,5 0 0 0 43.234375,2.9355469 Z"
+     id="path9" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 42.354729,7.8577655 115,112.14224"
+     id="path10" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 60,41.023437 A 2.5,2.5 0 0 0 57.5,43.523437 V 63.402344 A 2.5,2.5 0 0 0 60,65.902344 2.5,2.5 0 0 0 62.5,63.402344 V 43.523437 A 2.5,2.5 0 0 0 60,41.023437 Z"
+     id="path7" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 60,43.5238 V 63.4024"
+     id="path8" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill:#000000"
+     d="M 60,61.005859 C 51.723254,61.005859 45.011719,67.889925 45.011719,76.255859 45.011719,84.621794 51.723254,91.505859 60,91.505859 68.276746,91.505859 74.988281,84.621794 74.988281,76.255859 74.988281,67.889925 68.276746,61.005859 60,61.005859 Z M 60,65.916016 C 65.568638,65.916016 70.080078,70.48901 70.080078,76.255859 70.080078,82.022708 65.568638,86.595703 60,86.595703 54.431362,86.595703 49.919922,82.022708 49.919922,76.255859 49.919922,70.48901 54.431362,65.916016 60,65.916016 Z"
+     id="path4" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 76.765625,2.9355469 A 5,5 0 0 0 73.542969,5 L 0.89648438,109.28516 A 5,5 0 0 0 2.1425781,116.24414 5,5 0 0 0 9.1035156,115 L 81.748047,10.714844 A 5,5 0 0 0 80.503906,3.7558594 5,5 0 0 0 76.765625,2.9355469 Z"
+     id="path2" />
+  <path
+     style="opacity:1;fill:#000000;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 77.645271,7.8577645 5,112.14224"
+     id="path6" />
+</svg>
