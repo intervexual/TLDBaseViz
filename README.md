@@ -61,7 +61,7 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 9. Add some level of importance/priority?
 10. Dark mode
 11. Single style file?
-12. Add boxes for carrying on person
+12. Wall art and rugs?
 13. Separate icon for outdoor workbench?
 
 ## Dependencies
