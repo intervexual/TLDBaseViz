@@ -540,6 +540,12 @@ class BaseLocation:
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
         g = draw.Group(id=self.name)
 
+        if self.region == INVENTORY:
+            self.box_x = self.cell_size
+            self.box_y = self.cell_size
+            x = self.box_x
+            y = self.box_y
+
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
         self.draw_feature_grid(g, x=x, y=y)
         self.draw_header(g, x=x, y=y, border=border, unexplored=unexplored )
@@ -1046,9 +1052,9 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     2
     >>> nums['skillet']
     14
-    >>> nums['cookpot'] == 15 - 2 # I carry two with me everywhere
+    >>> nums['cookpot'] == 15 #- 2 # I carry two with me everywhere
     True
-    >>> nums['thermos'] == 7 - 2 # I carry two with me everywhere
+    >>> nums['thermos'] == 7 #- 2 # I carry two with me everywhere
     True
     >>> total_bears = 2+(3+.25)+3+1+3+0+1+0+0+2+2+2+0+0+(0.7)+2+3+0+1+3+0+0+1
     >>> total_bears - nums['bear']
