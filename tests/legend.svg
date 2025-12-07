@@ -313,7 +313,7 @@
 <text x="25.0" y="1163.75" font-size="10" font-family="Arial" fill="purple">to destroy</text>
 <rect x="2.5" y="1175.0" width="20" height="20" fill="#c57d00" />
 <text x="25.0" y="1186.25" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
-<rect x="2.5" y="1197.5" width="20" height="20" fill="#b79c51" />
+<rect x="2.5" y="1197.5" width="20" height="20" fill="#cbaa4b" />
 <text x="25.0" y="1208.75" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
 <rect x="2.5" y="1220.0" width="20" height="20" fill="#adc992" />
 <text x="25.0" y="1231.25" font-size="10" font-family="Arial" fill="purple">to make from stones</text>

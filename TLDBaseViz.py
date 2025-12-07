@@ -255,6 +255,7 @@ class BaseLocation:
         self.is_drawn = False
 
         self.features = []
+        self.region = data[REGION]
         self.customizable = data[CUSTOMIZABLE]
         self.loading = data[LOADING]
         self.indoors = data[INDOORS]
@@ -267,15 +268,16 @@ class BaseLocation:
         assert FEATURES in data
         self.longest_row = 0
         # set up the features
-        for row in data[FEATURES]:
-            row_info = row.split(',')
-            self.longest_row = max(self.longest_row, len(row_info))
-            row_objects = []
-            for feature in row_info:
-                row_objects.append( BaseFeature(feature.strip(), colours) )
-                if feature.strip() != EMPTY:
-                    self.num_features += 1
-            self.features.append(row_objects)
+        if data[FEATURES] != '' and data[FEATURES] != ['']:
+            for row in data[FEATURES]:
+                row_info = row.split(',')
+                self.longest_row = max(self.longest_row, len(row_info))
+                row_objects = []
+                for feature in row_info:
+                    row_objects.append( BaseFeature(feature.strip(), colours) )
+                    if feature.strip() != EMPTY:
+                        self.num_features += 1
+                self.features.append(row_objects)
 
         # connections
         self.connections = {}
@@ -325,14 +327,45 @@ class BaseLocation:
         :param margin_ratio: margin between icons as a fraction of icon size
         :return: width of the box for the base, height, height of a given row in the box, margin size in pixels
         >>> bases, colours = process_input('tests/testinput.json')
+        >>> i = 20
+        >>> bases['Harris'].longest_row
+        1
+        >>> bases['Harris'].box_dimensions(i)
+        (42.5, 42.5, 22.5, 2.5)
         >>> bases['Quonset'].box_dimensions(20)
-        (142.5, 187.5, 22.5, 2.5)
+        (162.5, 182.5, 22.5, 2.5)
+        >>> bases['CommuterCar'].longest_row
+        0
+        >>> bases['CommuterCar'].box_dimensions(20)
+        (22.5, 22.5, 22.5, 2.5)
         """
         self.icon_size = icon_size
         self.margin_size = icon_size * margin_ratio
         self.cell_size = icon_size + self.margin_size
-        self.box_width = self.margin_size*3 + self.cell_size * self.longest_row
-        self.box_height = self.margin_size*3 + self.cell_size * (1 + len(self.features))
+
+        border_and_margin = self.margin_size*4 #10
+        minimal_text_header_height = self.margin_size*2
+
+        # need at least this height
+        feature_grid_height = self.cell_size*(len(self.features))
+        self.box_height = feature_grid_height # 22.5 vs 90
+        self.box_height += border_and_margin # +10 -> 32.5 vs 100
+        self.box_height += minimal_text_header_height # + 5 -> 37.5 vs 105
+
+        hei_times = math.ceil( self.box_height / icon_size ) # 2 vs 6
+        self.box_height = hei_times * icon_size
+        self.box_height += self.margin_size # for connection gridding
+
+        self.feature_grid_height = feature_grid_height
+
+        # need at least this width
+        self.box_width = self.cell_size*self.longest_row # 22.5
+        self.box_width += border_and_margin # 32.5
+
+        wei_times = math.ceil( self.box_width / icon_size ) # 2
+        self.box_width = wei_times * icon_size
+        self.box_width += self.margin_size # to allow for connections to be aligned when going downward from the right
+
         return self.box_width, self.box_height, self.cell_size, self.margin_size
     def draw_base_box(self, d, x=0, y=0, fill='white', border='black'):
         """
@@ -376,6 +409,101 @@ class BaseLocation:
                                  self.box_width-self.margin_size, self.box_height-self.margin_size,
                                  rx=rx, ry=ry, stroke_dasharray=stroke_dasharray, stroke_opacity=stroke_opacity,
                                  fill=fill, stroke_width=self.margin_size, stroke=border ) )
+    def draw_feature_grid(self, d, x=0, y=0, draw_guide_box=False):
+        """
+        Draw just the grid of features (icons like wolf, coal)
+        :param d: drawing object
+        :param x: top-left corner of the box on the canvas
+        :param y: top-left corner of the box on the canvas
+        :return: y-axis position for the top of the feature grid (useful for figuring out header height)
+        >>> bases, colours = process_input('tests/testinput.json')
+        >>> i = 20
+        >>> w, h, c, m = bases['Harris'].box_dimensions(i)
+        >>> d = draw.Drawing(w, h)
+        >>> bases['Harris'].draw_base_box(d)
+        >>> bases['Harris'].draw_feature_grid(d, 0, 0)
+        17.5
+        >>> d.save_svg('tests/harris.svg')
+        """
+        # matrix of icons
+        g = draw.Group(id=self.name + ":features")
+
+        box_bottom = y + self.box_height - self.margin_size
+        self.feature_grid_top = box_bottom - self.feature_grid_height
+        icon_y = self.feature_grid_top
+
+        x_margin = self.box_width - self.cell_size*self.longest_row #- self.margin_size
+        start_x = x + x_margin/2
+
+        if draw_guide_box:
+            g.append(draw.Rectangle(start_x, icon_y, self.cell_size*self.longest_row, self.cell_size*len(self.features), fill='none', stroke='green'))
+
+        for i, row in enumerate(self.features):
+            icon_x = start_x + self.margin_size/2
+            for j, bob in enumerate(row):
+                icon_group = draw.Group(id=f'{bob.name}:{self.name}:{j}:{i}')
+                bob.draw(icon_group, x=icon_x, y=icon_y, wid=self.icon_size, hei=self.icon_size)
+                g.append(icon_group)
+                icon_x += self.cell_size
+            icon_y += self.cell_size
+        d.append(g)
+        return self.feature_grid_top
+    def draw_header(self, d, x=0, y=0, text_colour='black', border='black', unexplored='red'):
+        """
+        Draw just the grid of features (icons like wolf, coal)
+        :param d: drawing object
+        :param x: top-left corner of the box on the canvas
+        :param y: top-left corner of the box on the canvas
+        :return: y-axis position for the top of the feature grid (useful for figuring out header height)
+        >>> bases, colours = process_input('tests/testinput.json')
+        >>> i = 20
+        >>> w, h, c, m = bases['Riken'].box_dimensions(i)
+        >>> d = draw.Drawing(w, h)
+        >>> bases['Riken'].draw_base_box(d)
+        >>> bases['Riken'].draw_feature_grid(d, 0, 0)
+        15.0
+        >>> bases['Riken'].draw_header(d, 0, 0)
+        >>> d.save_svg('tests/riken.svg')
+        >>> d.save_png('tests/riken.png')
+        """
+        g = draw.Group(id=self.name + ":header")
+        min_text_top = y + 2*self.margin_size
+        max_text_bottom = self.feature_grid_top
+        #mid_text = (min_text_top + max_text_bottom)/2
+
+        max_text_height = max_text_bottom - min_text_top
+        max_text_width = self.box_width - self.margin_size*4
+
+        pixels_per_letter = max_text_width / len(self.name)
+        font_size = pixels_per_letter * 1.75 #* height_ratio # times 1.75 roughly fills the area, but is too tall
+
+        font_size = min(font_size, max_text_height)
+
+        #print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
+
+        text_x = x + self.box_width/2 #+ margin_size/2
+        high_possible = min_text_top + font_size - self.margin_size/2
+        low_possible = max_text_bottom - font_size/2
+        text_y = (high_possible + low_possible) / 2
+
+        font_style = ''
+        if not self.loading:
+            font_style = 'italic'
+        text_colour = border
+        if not self.explored:
+            text_colour = unexplored
+        text_stroke = 'none'
+        if self.indoors and self.customizable and self.num_features > 7:
+            text_stroke = text_colour
+
+        # dominant_baseline does not appear supported for SVG???????
+        g.append( draw.Text(self.name,
+                            font_size, font_family=FONTFAM,
+                            stroke=text_stroke, font_style=font_style,
+                            x=text_x, y=text_y, fill=text_colour,
+                            text_anchor='middle' ) )
+        d.append(g)
+
     def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black', unexplored='red'):
         """
         Draw the base with drawsvg
@@ -388,7 +516,7 @@ class BaseLocation:
         >>> d = draw.Drawing(w, h)
         >>> bases['Quonset'].draw(d, 20)
         >>> (bases['Quonset'].box_top, bases['Quonset'].box_bottom, bases['Quonset'].box_left, bases['Quonset'].box_right)
-        (1.25, 186.25, 1.25, 141.25)
+        (1.25, 181.25, 1.25, 161.25)
         >>> d.save_svg('tests/quonset.svg')
         >>> w, h, c, m = bases['Misanthrope'].box_dimensions(20)
         >>> d = draw.Drawing(w, h)
@@ -397,38 +525,11 @@ class BaseLocation:
         """
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
         g = draw.Group(id=self.name)
+
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
+        self.draw_feature_grid(g, x=x, y=y)
+        self.draw_header(g, x=x, y=y, border=border, unexplored=unexplored )
 
-        text_colour = border
-        if not self.explored:
-            text_colour = unexplored
-        if self.indoors and self.customizable and self.num_features > 7:
-            text_stroke = text_colour
-        else:
-            text_stroke = 'none'
-        font_style = ''
-        if not self.loading:
-            font_style = 'italic'
-        text_decor = ''
-        #if self.cabinfeverrisk:
-        #    text_decor = 'underline'
-
-        # the title
-        font_size = box_width / 7
-        text_x = x + box_width/2 #+ margin_size/2
-        text_y = y + cell_size - margin_size * .5
-        g.append( draw.Text(self.name, font_size, x=text_x, y=text_y, text_anchor='middle',
-                             font_family=FONTFAM, stroke=text_stroke, fill=text_colour,
-                             font_style=font_style, text_decoration=text_decor) )
-
-        # matrix of icons
-        icon_y = y + cell_size + margin_size*2
-        for i, row in enumerate(self.features):
-            icon_x = x + margin_size*2
-            for j, bob in enumerate(row):
-                bob.draw(g, x=icon_x, y=icon_y, wid=icon_size, hei=icon_size)
-                icon_x += cell_size
-            icon_y += cell_size
         d.append(g)
         self.is_drawn = True
 
@@ -446,7 +547,7 @@ class BaseLocation:
         >>> d = draw.Drawing(w*3, h*3)
         >>> bases['Hibernia'].draw(d, 20, y=h, x=w)
         >>> (bases['Hibernia'].box_top, bases['Hibernia'].box_bottom, bases['Hibernia'].box_left, bases['Hibernia'].box_right)
-        (98.75, 193.75, 76.25, 148.75)
+        (103.75, 203.75, 83.75, 163.75)
         >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
         [False, False]
         >>> bases['Hibernia'].draw_connection(d, bases['Riken'])
@@ -466,7 +567,7 @@ class BaseLocation:
         >>> d.save_svg('tests/hibernia.svg')
         """
         neigh_name = neighbour.name
-        arrow_size = self.cell_size*arrow_ratio # self.icon_size*arrow_ratio #
+        arrow_size = self.icon_size  # self.cell_size*arrow_ratio #
         most_north, most_south, most_west, most_east = update_extremes(self, most_north, most_south, most_west, most_east)
 
         cob = self.edges[neigh_name]
@@ -517,20 +618,22 @@ class BaseLocation:
                     neigh_top -= self.margin_size/2
 
                 if print_output:
-                    print('\t\tDrawing', neigh_name, "as child of", self.name)
+                    print(' '*TABSIZE*2 + 'Drawing', neigh_name, "as child of", self.name)
                 neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top, unexplored=unexplored, border=border)
             else:
                 if cob.corners[neigh_name][CORN_Y] == BOTTOM:
-                    sink_y = neighbour.box_bottom + self.margin_size/2
+                    sink_y = neighbour.box_bottom #+ self.margin_size/2
                 else:
-                    sink_y = neighbour.box_top - self.margin_size/2
+                    sink_y = neighbour.box_top #- self.margin_size/2
                 if cob.corners[neigh_name][CORN_X] == LEFT:
                     sink_x = neighbour.box_left
                 else:
                     sink_x = neighbour.box_right
                 p.L(sink_x, sink_y)
                 d.append(p)
-                #print('interpolating child', self.name, neigh_name)
+
+                if print_output:
+                    print(' '*TABSIZE*2 + 'Connecting', self.name, "to", neigh_name)
                 self.edges_drawn[neigh_name] = True
                 neighbour.edges_drawn[self.name] = True
 
@@ -567,7 +670,7 @@ def parse_input(filename='bases.json'):
     >>> c['base']
     'oklch(0.4 0.06 150)'
     >>> b['Quonset']
-    {'customizable': True, 'loading': True, 'cabinfeverrisk': True, 'indoors': True, 'explored': False, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
+    {'region': 'CoastalHighway', 'customizable': True, 'loading': True, 'cabinfeverrisk': True, 'indoors': True, 'explored': False, 'features': ['bear,deer,wolf', 'workbench,Furniture,,BED,Bearbed,radio', 'Quality,Woodworking,Hacksaw,Hammer,Lantern', 'Curing,Curing,Curing,Curing,Cookpot,Cookpot', 'Curing,Curing,Curing,Curing,Skillet,Skillet', 'Trunk,Trunk,Trunk,Trunk,,Suitcase', 'Trunk,Trunk,Trunk,Trunk,,Suitcase']}
     """
     with open(filename, 'r') as f:
         data = json.load(f)
@@ -710,7 +813,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (607.5, 592.5, 106.25, 713.75, 51.25, 643.75)
+    (660.0, 540.0, 101.25, 761.25, 51.25, 591.25)
     """
     for b in bases:
         bob = bases[b]
@@ -763,7 +866,43 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     :param bases:
     :return:
     >>> bases, colours = process_input('tests/testinput.json')
-    >>> draw_bases(bases, colours, add_legend=False)
+    >>> draw_bases(bases, colours, add_legend=False, print_output=True)
+    Visiting UpperMine
+        Drawing UpperMine
+            Drawing LowerMine as child of UpperMine
+    Visiting LowerMine
+            Drawing Quonset as child of LowerMine
+    Visiting Quonset
+            Drawing QMFishHut as child of Quonset
+    Visiting QMFishHut
+            Drawing Misanthrope as child of QMFishHut
+            Drawing MidFishHuts as child of QMFishHut
+    Visiting Misanthrope
+            Drawing CommuterCar as child of Misanthrope
+            Drawing JMFishHut as child of Misanthrope
+    Visiting JMFishHut
+            Drawing Jackrabbit as child of JMFishHut
+    Visiting Jackrabbit
+            Drawing JFFishHut as child of Jackrabbit
+            Connecting Jackrabbit to MidFishHuts
+    Visiting JFFishHut
+            Connecting JFFishHut to MidFishHuts
+    Visiting MidFishHuts
+    Visiting CommuterCar
+            Drawing Harris as child of CommuterCar
+    Visiting Harris
+            Drawing No3Mine as child of Harris
+    Visiting No3Mine
+            Drawing No5Mine as child of No3Mine
+    Visiting No5Mine
+            Drawing Hibernia as child of No5Mine
+    Visiting Hibernia
+            Drawing BrokenBridge as child of Hibernia
+            Drawing Riken as child of Hibernia
+    Visiting BrokenBridge
+    Visiting Riken
+            Drawing LittleIsland as child of Riken
+    Visiting LittleIsland
     """
     d = draw.Drawing(width, height)
     d.append(draw.Rectangle(0,0,d.width,d.height,fill='white'))
@@ -784,13 +923,16 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
             bob.draw(g, icon_size, x=base_x, y=base_y, unexplored=unexplored_colour, border=colours[BASE])
             gb.append(g)
             if print_output:
-                print('\tDrawing', b)
+                print(' '*TABSIZE + 'Drawing', b)
             visited.append(b)
 
         # then the neighbours
         for connection_name in bob.connections:
-            dir = bob.connections[connection_name]
-            bases[b].draw_connection(gb, bases[connection_name], unexplored=unexplored_colour, border=colours[BASE], print_output=print_output)
+            if connection_name in bases:
+                dir = bob.connections[connection_name]
+                bases[b].draw_connection(gb, bases[connection_name], unexplored=unexplored_colour, border=colours[BASE], print_output=print_output)
+            else:
+                print('Warning: connected base not in bases', connection_name)
 
     d.append(gb)
     #d.append(draw.Use(gb, 0, 0))
@@ -802,6 +944,50 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     d.save_svg(output)
     if output_png:
         d.save_png(output.replace('.svg','.png'))
+
+
+def draw_region(region, source_info, output='tests/', print_output=False):
+    """
+    Draw only the bases of one region.
+    :param region: region name as string, e.g. 'AshCanyon'
+    :param source_info: input json filename
+    :return:
+    >>> draw_region('AshCanyon', 'mybases.json', print_output=False)
+    Warning: connected base not in bases EchoRavine
+    Warning: connected base not in bases CaveFromAC
+    >>> draw_region('TimberwolfMountain', 'mybases.json', print_output=False)
+    Warning: connected base not in bases CaveToAC
+    Warning: connected base not in bases Joplin
+    Warning: connected base not in bases CaveToBRM
+    Warning: connected base not in bases BitterMarshFishHut
+    >>> draw_region('Blackrock', 'mybases.json', print_output=False)
+    Warning: connected base not in bases Foresters
+    Warning: connected base not in bases CaveFromBRM
+    >>> draw_region('PleasantValley', 'mybases.json', print_output=False)
+    Warning: connected base not in bases Mountaineer
+    Warning: connected base not in bases KPSTrailer
+    Warning: connected base not in bases CaveFromPV
+    Warning: connected base not in bases UpperMineFromCH
+    >>> draw_region('MountainTown', 'mybases.json', print_output=False)
+    Warning: connected base not in bases MarshRidgeCave
+    Warning: connected base not in bases Trapper
+    Warning: connected base not in bases CaveToHRV
+    """
+    bases, colours = process_input(source_info)
+    these_bases = {}
+
+    output = output + region + '.svg'
+
+    for b in bases:
+        bob = bases[b]
+        if bob.region == region:
+            these_bases[b] = bob
+
+    draw_bases(these_bases, colours,
+               base_x = 500, base_y = 400,
+               width = 1000, height = 1000,
+               add_legend=False, print_output=print_output,
+               output=output, output_png=False)
 
 
 def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
@@ -922,7 +1108,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> bases, colours = process_input('mybases.json')
     >>> draw_legend(d, colours, icon_size=20)
-    1310.0
+    1512.5
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
@@ -1026,7 +1212,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2300, height=1700, base_x=1842, base_y=20, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2550, height=1600, base_x=2050, base_y=90, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

@@ -161,6 +161,9 @@ CORN_Y = 0
 BIGNUM = 100000
 
 PROBABILITY_DELIM = '/'
+TABSIZE = 4
+
+REGION = 'region'
 
 ORDERING = {BED: BED, BEAR_BED: "bear hide bed",
             WORK_BENCH: WORK_BENCH, FURN_BENCH: "furniture workbench", FORGE: FORGE, MILL_MACH: "milling machine",

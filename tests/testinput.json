@@ -1,6 +1,7 @@
 {
 	"bases": {
 		"UpperMine": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -9,6 +10,7 @@
 			"features": ["coal"]
 		},
 		"LowerMine": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -17,6 +19,7 @@
 			"features": ["coal"]
 		},
 		"Quonset": {
+			"region": "CoastalHighway",
 			"customizable": true,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -33,6 +36,7 @@
 			]
 		},
 		"QMFishHut": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -41,6 +45,7 @@
 			"features": ["potbelly,fish,Hammer"]
 		},
 		"Misanthrope": {
+			"region": "CoastalHighway",
 			"customizable": true,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -53,6 +58,7 @@
 			]
 		},
 		"JMFishHut": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -61,6 +67,7 @@
 			"features": ["potbelly","fish","beachcombing"]
 		},
 		"Jackrabbit": {
+			"region": "CoastalHighway",
 			"customizable": true,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -73,6 +80,7 @@
 			]
 		},
 		"JFFishHut": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -81,6 +89,7 @@
 			"features": ["potbelly,fish"]
 		},
 		"MidFishHuts": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -89,14 +98,16 @@
 			"features": ["potbelly,fish"]
 		},
 		"CommuterCar": {
+			"region": "CoastalHighway",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["deer"]
+			"features": [""]
 		},
 		"Harris": {
+			"region": "OIC",
 			"customizable": true,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -105,6 +116,7 @@
 			"features": ["wolf"]
 		},
 		"No3Mine": {
+			"region": "DesolationPoint",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -113,6 +125,7 @@
 			"features": ["coal,salt"]
 		},
 		"No5Mine": {
+			"region": "DesolationPoint",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -121,6 +134,7 @@
 			"features": ["coal,salt"]
 		},
 		"Hibernia":{
+			"region": "DesolationPoint",
 			"customizable": true,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -132,6 +146,7 @@
 			]
 		},
 		"BrokenBridge":{
+			"region": "DesolationPoint",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":true,
@@ -140,6 +155,7 @@
 			"features": ["bear,salt"]
 		},
 		"Riken":{
+			"region": "DesolationPoint",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -148,6 +164,7 @@
 			"features": ["forge,bed", "Hammer,beachcombing"]
 		},
 		"LittleIsland": {
+			"region": "DesolationPoint",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,

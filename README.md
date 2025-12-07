@@ -53,12 +53,18 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-
-1. Add some level of importance/priority
-2. Text size weirdness
 3. Note the rope climbs?
 4. Write documentation for other people to use it
-5. Some slight misalignments in the connections, e.g. LLH to CaveSystem, TWM Fish Hut to Forest Cave 
 6. Automatic centring and canvas sizing (two-stage drawing?)
 7. Make loot table templates for interloper
 8. Add: Sewing kit? Stim? Can openers?
+9. Add some level of importance/priority
+10. Dark mode
+11. Single style file?
+
+## Dependencies
+* DrawSVG
+* BeautifulSoup
+
+## Acknowledgments
+* [TLD Interactive Map](https://elektronixx.github.io/TLD-Interactive-Map/) for helping me visualize how the regions connect
