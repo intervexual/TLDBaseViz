@@ -957,7 +957,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-200, y=350, counts=counts)
+        draw_legend(d, colours, x=d.width-210, y=350, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -1029,7 +1029,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
-    [4, 2, 10, 1, 14, 7, 4]
+    [4, 2, 10, 2, 14, 7, 4]
     >>> nums['birch'] > 13 and nums['birch'] < 16
     True
     >>> nums['hacksaw']
@@ -1153,37 +1153,40 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     legend_font_size = 10
     d.append(draw.Text('LEGEND', legend_font_size, font_family=FONTFAM,
                        x=icon_x, y=icon_y + cell_size / 2,
-                       fill=legend_colour))
+                       fill=legend_colour, stroke=legend_colour))
     for i, a in enumerate(ORDERING):
         filepath = 'assets/' + ASSETS[a]
         icon_y += cell_size
+        text_y = icon_y+cell_size/2 + margin_size
         import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
                    hei=icon_size, fill=legend_colour)
         d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=icon_y+cell_size/2,
+                           x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
         if counts:
             count_x = icon_x + longest_name_len*(icon_size/2) + 4*margin_size
             d.append(draw.Text(str(counts[a]), legend_font_size, font_family=FONTFAM,
-                               x=count_x, y=icon_y+cell_size/2,
+                               x=count_x, y=text_y,
                                fill=legend_colour))
 
     icon_y += cell_size
+    text_y += cell_size
     import_svg(d, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
                hei=icon_size, fill=legend_colour)
     d.append(draw.Rectangle(icon_x, icon_y, icon_size, icon_size, fill=background_colour, opacity=0.5))
     pb = 'opacity indicates probability (0.5 -> 50%)'
     d.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
-                       x=icon_x + cell_size, y=icon_y + cell_size / 2,
+                       x=icon_x + cell_size, y=text_y,
                        fill=legend_colour))
 
     colour_types = { BRING:"to bring to here (if text: unexplored)", TAKE:'to take from here', DESTROY:'to destroy',
                     FIR:"to make from fir", CEDAR:"to make from cedar", STONE:"to make from stones"}
     for j, a in enumerate(colour_types):
         icon_y += cell_size
+        text_y += cell_size
         d.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
         d.append(draw.Text(colour_types[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=icon_y+cell_size/2,
+                           x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
 
     path_types = {PATH:'road, rail, or other provided path',
@@ -1193,38 +1196,43 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                   TODO:'unmarked path'}
     for j, a in enumerate(path_types):
         icon_y += cell_size
+        text_y += cell_size
         p = draw.Path(stroke=colours[a], stroke_width=margin_size, stroke_dasharray=DASHSTYLE[a] )
         p.M(icon_x, icon_y+cell_size/2)
         p.L(icon_x+icon_size, icon_y+cell_size/2)
         d.append(p)
         d.append(draw.Text(path_types[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=icon_y+cell_size/2,
+                           x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
 
     icon_y += cell_size
+    text_y += cell_size
     d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
     d.append(draw.Text('customizable indoor location', legend_font_size, font_family=FONTFAM,
-                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
     icon_y += cell_size
+    text_y += cell_size
     d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
     d.append(draw.Text('non-customizable indoor location', legend_font_size, font_family=FONTFAM,
-                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
 
     icon_y += cell_size
+    text_y += cell_size
     d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size,
                             rx=icon_size/2.5, ry=icon_size/2.5, opacity=OUTDOOR_OPACITY))
     d.append(draw.Text('outdoors (cannot cure hides)', legend_font_size, font_family=FONTFAM,
-                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+                       x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
     icon_y += cell_size
+    text_y += cell_size
     #d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
-    d.append(draw.Text('no loading screen', legend_font_size, font_family=FONTFAM,
-                       x=icon_x+cell_size, y=icon_y+cell_size/2,
+    d.append(draw.Text('italics mean no loading screen', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=text_y,
                        fill=legend_colour, font_style='italic'))
 
     return icon_y + cell_size
@@ -1240,7 +1248,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2550, height=1600, base_x=2050, base_y=90, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2550, height=1600, base_x=2070, base_y=50, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

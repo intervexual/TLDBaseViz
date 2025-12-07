@@ -53,14 +53,16 @@ Icons used here are all from The Noun Project, and are all Creative Commons lice
 
 
 ## TODOs
-3. Note the rope climbs?
+3. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
+4. Note the rope climbs?
 4. Write documentation for other people to use it
-6. Automatic centring and canvas sizing (two-stage drawing?)
 7. Make loot table templates for interloper
 8. Add: Sewing kit? Stim? Can openers?
-9. Add some level of importance/priority
+9. Add some level of importance/priority?
 10. Dark mode
 11. Single style file?
+12. Add boxes for carrying on person
+13. Separate icon for outdoor workbench?
 
 ## Dependencies
 * DrawSVG
