@@ -72,6 +72,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 
 ## TODOs
+2. Make movable the default rather than immovable
 3. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Note the rope climbs?
 4. Write documentation for other people to use it

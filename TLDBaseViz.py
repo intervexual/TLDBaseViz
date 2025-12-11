@@ -20,27 +20,32 @@ class BaseFeature:
         >>> str(BaseFeature(''))
         'empty:base'
         """
-        if not name or name.startswith('@'):
+        self.status = status_from_capitalization(name)
+
+        self.alt_text = ''
+
+        if not name or name.startswith(TOTEXT):
+            if name.startswith(TOTEXT):
+                self.alt_text = name.replace(TOTEXT,'').replace(TOBRING,'').replace(TOREMOVE,'')
             name = EMPTY
 
         self.original = name
-        self.status = status_from_capitalization(name)
         self.probability = probability
-        self.name = name.lower().replace('+','').replace('-','')
+        self.name = name.lower().replace(TOBRING,'').replace(TOREMOVE,'')
+
 
         if PROBABILITY_DELIM in self.name:
             info = self.name.split(PROBABILITY_DELIM)
             self.name = info[0]
             self.probability = float(info[1])
 
-        assert self.name in ASSETS
+        assert self.name in ASSETS, self.name
+        self.material = BASE
         if self.status == PLANNED:
             if self.name in TODO_TYPES:
                 self.material = TODO_TYPES[self.name]
             else:
                 self.material = BRING
-        if self.status == ACTUAL:
-            self.material = BASE
         if self.status == REMOVE:
             if self.name in MOVABLES:
                 self.material = TAKE
@@ -55,8 +60,19 @@ class BaseFeature:
     def __repr__(self):
         return f'{self.name}:{self.material}'
     def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour='white'):
-        import_svg(g, self.filepath, x=x, y=y, wid=wid,
+        if self.alt_text:
+            font_size = font_size_for_box(self.alt_text, wid, hei)
+            mid_y = y + hei/2
+            mid_x = x + wid/2
+            g.append(draw.Rectangle(x=x,y=y,width=wid,height=hei, fill='none', stroke=self.hex))
+            g.append(draw.Text(self.alt_text, font_size,
+                               x=mid_x, y=mid_y, fill=self.hex,
+                               text_anchor='middle',
+                               font_style='italic')) # , text_decoration='underline'
+        else:
+            import_svg(g, self.filepath, x=x, y=y, wid=wid,
                    hei=hei, fill=self.hex)
+        # shading for probabalistic features
         if self.probability < 1:
             g.append(draw.Rectangle(x,y,wid,hei,fill=bg_colour,opacity=self.probability))
 
@@ -479,25 +495,19 @@ class BaseLocation:
         >>> d.save_svg('tests/mtfarm.svg')
         """
         g = draw.Group(id=self.name + ":header")
-        min_text_top = y + 2*self.margin_size
+
+        min_text_top = y + 2 * self.margin_size
         max_text_bottom = self.feature_grid_top
-        #mid_text = (min_text_top + max_text_bottom)/2
-
         max_text_height = max_text_bottom - min_text_top
-        max_text_width = self.box_width - self.margin_size*4
 
-        pixels_per_letter = max_text_width / len(self.name)
-        font_size = pixels_per_letter * 1.5 # times 1.75 roughly fills the area, but is too tall
-        # changing to 1.5 to ensure margins on the sides
+        max_text_width = self.box_width - self.margin_size * 4
 
-        #print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
+        font_size = font_size_for_box(self.name,
+                                      max_text_width, max_text_height)
 
-        font_size = min(font_size, max_text_height)
-
-
-        text_x = x + self.box_width/2 #+ margin_size/2
-        high_possible = min_text_top + font_size - self.margin_size/2
-        low_possible = max_text_bottom - font_size/2
+        text_x = x + self.box_width / 2  # + margin_size/2
+        high_possible = min_text_top + font_size - self.margin_size / 2
+        low_possible = max_text_bottom - font_size / 2
         text_y = (high_possible + low_possible) / 2
 
         font_style = ''
@@ -658,6 +668,19 @@ class BaseLocation:
                 neighbour.edges_drawn[self.name] = True
 
 
+def font_size_for_box(s, max_text_width, max_text_height):
+    # mid_text = (min_text_top + max_text_bottom)/2
+
+    pixels_per_letter = max_text_width / len(s)
+    font_size = pixels_per_letter * 1.5  # times 1.75 roughly fills the area, but is too tall
+    # changing to 1.5 to ensure margins on the sides
+
+    # print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
+
+    font_size = min(font_size, max_text_height)
+    return font_size
+
+
 
 def status_from_capitalization(s):
     """
@@ -675,20 +698,34 @@ def status_from_capitalization(s):
     'remove'
     >>> status_from_capitalization('+Trunk')
     'planned'
+    >>> status_from_capitalization('@+Trunk')
+    'planned'
+    >>> status_from_capitalization('-Trunk')
+    'remove'
+    >>> status_from_capitalization('@-Trunk')
+    'remove'
+    >>> status_from_capitalization('')
+    'actual'
     """
+    if s == '':
+        return ACTUAL
+
+    if s.startswith(TOTEXT):
+        s = s.replace(TOTEXT,'')
+
     if s.startswith('+'):
         return PLANNED
     elif s.startswith('-'):
         return REMOVE
 
-    assert len(s) > 2, s
+    #assert len(s) > 2, s
     if s.lower() == s:
         return ACTUAL
     if s.upper() == s:
         return REMOVE
     if s.capitalize() == s:
         return PLANNED
-    assert True, s
+    #assert True, s
 
 
 def parse_input(filename='bases.json'):
@@ -973,7 +1010,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210, y=300, counts=counts)
+        draw_legend(d, colours, x=d.width-210, y=200, counts=counts)
 
     d.save_svg(output)
     if output_png:
@@ -1264,7 +1301,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2650, height=1700, base_x=2070, base_y=50, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2150, base_y=100, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

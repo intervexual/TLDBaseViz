@@ -170,11 +170,11 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,+bear,rabbit,birch",
-						"Cookpot,Cookpot,Thermos,matches,Maglens",
+						"@+Quonset,+hacksaw,+suitcase,+suitcase,+cookpot,+cookpot,+jersey,+sweater,+thermos",
+						"matches,Maglens,snare,snare",
 						"workbench,furniture,BED,Bearbed",
-						"grill,quality,lantern,woodworking,PRYBAR,Hacksaw",
-				"trunk,trunk,Trunk,Trunk,rockcache,Suitcase,Suitcase",
-				"+sweater,Jersey,,snare,snare"]
+						"grill,quality,lantern,woodworking,PRYBAR",
+				"trunk,trunk,Trunk,Trunk,rockcache"]
 		},
 		"SecludedShelfCave": {
 			"region": "TimberwolfMountain",
@@ -332,7 +332,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["range,bed","radio"]
+			"features": ["range,bed","radio,+vice"]
 		},
 		"CaveWestOfUpperFalls": {
 			"region": "PleasantValley",
@@ -540,7 +540,8 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,timberwolf","workbench,bed","prybar,quality,HACKSAW"]
+			"features": ["bear,timberwolf","bed,workbench,quality",
+				"@-Prison,-hacksaw, -prybar"]
 		},
 		"CaveByPrisonPond": {
 			"region": "Blackrock",
@@ -567,7 +568,10 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,milling,workbench","Quality,+vice,Hacksaw","Furniture,Workbench,Bearbed"]
+			"features": ["timberwolf,milling,workbench",
+						"Furniture,Workbench,Bearbed",
+						"@+FromBRM,+vice,Hacksaw",
+						"@+Quonset,+Quality"]
 		},
 		"SteamTunnels": {
 			"region": "Blackrock",
@@ -684,7 +688,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["workbench"]
+			"features": ["@-PrisonWorkshop,-vice",",-workbench"]
 		},
 		"Bricklayer": {
 			"region": "Blackrock",
@@ -693,7 +697,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["bear,bear,timberwolf","workbench,grill,BED","Furniture,Bearbed,Prybar","Quality,Distress,Dpammo,Dpammo"]
+			"features": ["bear,bear,timberwolf","workbench,grill,BED","Furniture,Bearbed","@+Quonset,Distress,Dpammo,Dpammo,Quality,Prybar"]
 		},
 		"ForemansClearcut": {
 			"region": "Blackrock",
@@ -778,18 +782,18 @@
 			"features": [
 				"bear,+bear,deer,wolf",
 				"workbench,furniture,bearbed,radio",
-				"quality,hammer,prybar",
+				"quality,hammer,prybar,woodworking",
 				"matches,jerrycan,Maglens,,distress,dpammo",
-				"curing,curing,cookpot,cookpot,thermos",
-				"curing,curing,skillet,skillet,thermos",
+				"curing,curing,+Curing,cookpot,cookpot,thermos",
+				"curing,curing,+Curing,skillet,skillet,thermos",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"toque,mitts,jersey,jersey,sweater",
-				"@mountaineer, -hacksaw, -suitcase, -suitcase, -cookpot, -cookpot, -jersey, -thermos",
-				"@bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar",
-				"@prison, -quality,, @Anglers, -quality",
-				"@WorkerResidence, -vice,-distress, @Misanthrope, -vice, -woodworking",
-				"@BRandFarTerritory, -thermos,-jersey,-quality"
+				"toque,mitts,jersey,jersey,sweater,socks",
+				"@-Mountaineer, -hacksaw, -suitcase, -suitcase, -cookpot, -cookpot, -jersey, -sweater, -thermos",
+				"@-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar",
+				"@-Prison, -quality,, @-Anglers, -quality",
+				"@-WorkerResidence, -vice,-distress,-distress",
+				"@-BR+FarTerritory, -thermos,-jersey,-quality,-quality"
 			],
 			"removed": ["workbench"]
 		},
@@ -819,8 +823,8 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["-bear,deer,salt,beachcombing,trader",
-						"bed",
-						"+woodworking, Furniture, Bearbed, +vice, Workbench, +quality"
+						"bed, quality",
+						"vice, Furniture, Workbench, Bearbed"
 			]
 		},
 		"JMFishHut": {
@@ -953,7 +957,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf","rockcache","Furniture","Bed"]
+			"features": ["wolf","rockcache","Furniture","Bearbed"]
 		},
 		"No3MineFromDP": {
 			"region": "DesolationPoint",
@@ -1029,7 +1033,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["forge,bed,beachcombing", "hammer,simple,Hacksaw", "+rockcache"]
+			"features": ["forge,bed,beachcombing", "hammer,simple", "+rockcache,@+HRV,+hacksaw"]
 		},
 		"LittleIsland": {
 			"region": "DesolationPoint",
@@ -1133,9 +1137,9 @@
 						"workbench,furniture,bearbed",
 						"quality,hacksaw,prybar",
 						"grill,cookpot,cookpot,firestriker",
-						"@WorkerResidence, -woodworking, -dpammo, -prybar",
-						"@Cannery, -hacksaw, -dpammo",
-						"@PensivePond, -prybar, @FarTerritory, -dpammo"
+						"@-WorkerResidence, -woodworking, -dpammo, -prybar",
+						"@-Cannery, -hacksaw, -dpammo",
+						"@-PensivePond, -prybar, @-FarTerritory, -dpammo"
 			],
 			"removed": ["workbench","workbench","bedroll"]
 		},
@@ -1449,10 +1453,13 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["+bear,BED,grill,coal,+vice,Distress",
-						"Workbench,Furniture,Bearbed,Quality,Dpammo,+woodworking",
-						"Trunk,Trunk,Suitcase,Suitcase",
-						"Curing,Curing,Skillet,Skillet,Thermos"
+			"features": ["+bear,BED,grill,coal",
+						"Workbench,Furniture,Bearbed",
+						"Trunk,Trunk,Curing,Curing",
+						"@+Dam,+woodworking,+dpammo",
+						"@+Quonset,+vice,+distress,+quality,+thermos",
+						"@+MT,+skillet,+skillet",
+						"@+TP,+suitcase,+suitcase"
 			]
 		},
 		"LongBridge": {
@@ -1552,7 +1559,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,grill","salt,PRYBAR","+distress,+dpammo"]
+			"features": ["bed,grill","salt,prybar","@+Quonset,+distress","@+Dam,+dpammo"]
 		},
 		"CanneryWorkshop": {
 			"region": "BleakInlet",
@@ -1561,7 +1568,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,milling,workbench,Hacksaw","Furniture,Bed,Simple"]
+			"features": ["timberwolf,milling,workbench","Furniture,Bed","@+NorthBI,+Simple","@+Dam,+hacksaw"]
 		},
 		"CanneryPier": {
 			"region": "BleakInlet",
@@ -1845,7 +1852,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["HACKSAW"]
+			"features": ["@-Riken,-hacksaw"]
 		},
 		"LongShotSketchyIceCave": {
 			"region": "HushedRiverValley",
@@ -2038,14 +2045,18 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["ptarmigan,rabbit,Thermos,jerrycan",
-						"radio,grill,matches,DISTRESS",
-						"Workbench,furniture,bed,+vice",
+			"features": ["ptarmigan,rabbit,snare,snare",
+						"radio,grill,matches,jerrycan",
+						"Workbench,furniture,bed",
 						"skillet,skillet,cookpot,cookpot",
 						"prybar,quality,rockcache,rockcache",
-						"suitcase,suitcase,SUITCASE,SUITCASE",
+						"suitcase,suitcase,,deerpants",
 						"Trunk,Trunk,Trunk,Trunk",
-						"deerpants,snare,snare"]
+						"@+CH,+thermos",
+						"@+ZOC,+vice",
+				        "@-LLH,-distress",
+						"@-WorkerResidences,-suitcase,-suitcase"
+			]
 		},
 		"WelkinsWindowCave": {
 			"region": "ZoneOfContamination",
@@ -2081,7 +2092,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,simple","workbench,PRYBAR","WORKBENCH,VICE"]
+			"features": ["poisonwolf,simple","workbench,PRYBAR","@-IdleCamp,-workbench,-vice"]
 		},
 		"IndolentHoppers": {
 			"region": "ZoneOfContamination",
@@ -2090,7 +2101,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,workbench", "WORKBENCH,VICE", "WORKBENCH,VICE"]
+			"features": ["poisonwolf,workbench", "@-VacantDepot,-workbench,-vice", "@-CommunityHall,-workbench,-vice"]
 		},
 		"LangstonMine": {
 			"region": "ZoneOfContamination",
@@ -2342,7 +2353,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["deer,wolf,grill","bed,workbench,Quality","Distress,Dpammo"]
+			"features": ["deer,wolf,grill","bed,workbench,@+VacantDepot,+distress",",@+Quonset,+quality,+dpammo"]
 		},
 		"CaveSystem": {
 			"region": "SunderedPass",
@@ -2379,7 +2390,7 @@
 			"indoors": true,
 			"explored":true,
 			"comment": "put things in all caps here!",
-			"features": ["trader,QUALITY,-quality,-quality,THERMOS"]
+			"features": ["trader,@-Current,-quality,@-Later,-quality,THERMOS"]
 		},
 		"CurrentInventory": {
 			"region": "Inventory",
@@ -2392,7 +2403,7 @@
 						"thermos,thermos,cookpot,cookpot",
 						"wolfhat,balaclava,@bearcoat,@bearcoat,jersey,sweater,gloves",
 						"satchel,@insulation,@insulation,@crampons,wolfpants,combatpants,longjohns,longjohns,socks,socks,deerboots",
-						"-sweater,-distress,-quality"
+						""
 						]
 		},
 		"MissingLost": {
@@ -2663,7 +2674,7 @@
 			["BunkerGamma", "north", "top,right", "ReclusiveFallsIceCave", "bottom,left", "todo"],
 			["BunkerGamma", "east", "top,right", "CaveWestOfStairsteps", "top,left", "todo"],
 			["CaveWestOfStairsteps", "east", "top,right", "ValleyViewPointSketchyIceCave", "top,left", "todo"],
-			["ValleyViewPointSketchyIceCave", "south","bottom,right", "SouthSketchyIceCave", "top,right", "todo"],
+			["ValleyViewPointSketchyIceCave", "south","bottom,right", "SouthSketchyIceCave", "top,left", "todo"],
 			["SouthSketchyIceCave", "east", "top,right", "SouthSignalFire", "top,left", "todo"],
 			["ReclusiveFallsIceCave", "north", "top,left", "WestIceCave", "bottom,left", "paint"],
 			["ReclusiveFallsIceCave", "east", "bottom,right", "HushedRiverCave", "bottom,left", "path"],

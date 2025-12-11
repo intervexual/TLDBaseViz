@@ -191,6 +191,9 @@ CORN_Y = 0
 BIGNUM = 100000
 
 PROBABILITY_DELIM = '/'
+TOTEXT = '@'
+TOBRING = '+'
+TOREMOVE = '-'
 TABSIZE = 4
 
 REGION = 'region'
