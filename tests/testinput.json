@@ -28,7 +28,7 @@
 			"features": [
 				"bear,deer,wolf",
 				"thermos,thermos,thermos,thermos,matches,jerrycan",
-				"workbench,furniture,bearbed,radio",
+				"workbench,furnbench,bearbed,radio",
 				"quality,woodworking,hammer,prybar,lantern,HACKSAW",
 				"curing,curing,Curing,Curing,cookpot,cookpot",
 				"curing,curing,Curing,Curing,skillet,skillet",
@@ -58,7 +58,7 @@
 			"features": ["bear,deer,wolf",
 						"salt,beachcombing",
 						"bed, trader, quality",
-						"Workbench, Furniture, Bearbed"
+						"Workbench, +furnbench, Bearbed"
 			]
 		},
 		"JMFishHut": {
@@ -80,7 +80,7 @@
 			"features": ["rabbit,deer",
 						"salt,beachcombing",
 						"bed, quality",
-						"Workbench, Furniture, Bearbed"
+						"Workbench, +furnbench, Bearbed"
 			]
 		},
 		"JFFishHut": {
@@ -146,7 +146,7 @@
 			"explored":false,
 			"features": ["salt,beachcombing",
 						"bed, quality, workbench",
-						"Furniture, Bearbed"
+						"+furnbench, Bearbed"
 			]
 		},
 		"BrokenBridge":{
@@ -185,7 +185,7 @@
 			"explored":true,
 			"features": ["ptarmigan,rabbit,deer",
 						"range,bed, quality",
-						"workbench, furniture",
+						"workbench, furnbench",
 						"cookpot, Cookpot, lantern",
 						"skillet, skillet, SKILLET"
 			]
@@ -211,24 +211,5 @@
 		["Quonset", "west", "top,left", "LowerMine", "bottom,right", "path"],
 		["LowerMine", "north", "top,left", "UpperMine", "bottom,left", "path"],
 		["UpperMine", "west", "top,left", "MTFarm", "bottom,right", "todo"]
-	],
-  	"colours":{
-		"base":"oklch(0.4 0.06 150)",
-		"basebg":"oklch(0.9 0.02 150)",
-		"bring":"oklch(0.5 0.16 0)",
-		"oneway":"oklch(0.6 0.25 30)",
-		"paint":"oklch(0.6 0.2 50)",
-		"tinder":"oklch(0.4 0.06 50)",
-		"fir":"oklch(0.6 0.14 70)",
-		"cedar":"oklch(0.7 0.1 90)",
-		"cattail":"oklch(0.5 0.08 110)",
-		"path":"oklch(0.8 0.1 170)",
-		"rock": "oklch(0.7 0.04 190)",
-		"take":"oklch(0.6 0.12 210)",
-		"destroy":"oklch(0.5 0.2 230)",
-		"clearpath":"oklch(0.7 0.18 250)",
-		"charcoal":"oklch(0.2 0.04 270)",
-		"mixed":"oklch(0.5 0.18 310)",
-		"todo":"oklch(0.5 0.14 330)"
-	}
+	]
 }

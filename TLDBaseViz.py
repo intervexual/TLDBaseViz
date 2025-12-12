@@ -111,7 +111,7 @@ class BaseConnection:
         """
         Textual representation of the connection
         :return: representation as string
-        >>> b, e, c = parse_input('tests/testinput.json')
+        >>> b, e = parse_input('tests/testinput.json')
         >>> edges = parse_edges(e)
         >>> hibernia_to_bear = edges['Hibernia']['BrokenBridge']
         >>> hibernia_to_bear
@@ -240,7 +240,7 @@ class BaseLocation:
         Set up a base as an object with a name, and a 2D list of BaseFeatures
         :param name: name of the base
         :param data: data from JSON file
-        >>> b, e, c = parse_input('tests/testinput.json')
+        >>> b, e = parse_input('tests/testinput.json')
         >>> b['Quonset'][FEATURES][0]
         'bear,deer,wolf'
         >>> quonset = BaseLocation('Quonset', b['Quonset'])
@@ -250,7 +250,7 @@ class BaseLocation:
         ------
         [bear:base, deer:base, wolf:base]
         [thermos:base, thermos:base, thermos:base, thermos:base, matches:base, jerrycan:base]
-        [workbench:base, furniture:base, bearbed:base, radio:base]
+        [workbench:base, furnbench:base, bearbed:base, radio:base]
         [quality:base, woodworking:base, hammer:base, prybar:base, lantern:base, hacksaw:take]
         [curing:base, curing:base, curing:fir, curing:fir, cookpot:base, cookpot:base]
         [curing:base, curing:base, curing:fir, curing:fir, skillet:base, skillet:base]
@@ -267,7 +267,7 @@ class BaseLocation:
         [bear:base, deer:base, wolf:base]
         [salt:base, beachcombing:base]
         [bed:base, trader:base, quality:base]
-        [workbench:cedar, furniture:cedar, bearbed:fir]
+        [workbench:cedar, furnbench:cedar, bearbed:fir]
         ---
         """
         self.name = name
@@ -733,9 +733,7 @@ def parse_input(filename='bases.json'):
     Load JSON into dictionary format
     :param filename: input filename
     :return: dictionaries for base info & colour scheme
-    >>> b, e, c = parse_input('tests/testinput.json')
-    >>> c['base']
-    'oklch(0.4 0.06 150)'
+    >>> b, e = parse_input('tests/testinput.json')
     >>> b['Quonset']['indoors']
     True
     >>> b['Quonset']['region']
@@ -744,44 +742,15 @@ def parse_input(filename='bases.json'):
     with open(filename, 'r') as f:
         data = json.load(f)
     bases = data[BASES]
-    colours = data[COLOURS]
     edges = data[CONNECTIONS]
-    return bases, edges, colours
-
-
-def parse_colours(colours):
-    """
-    Convert strings in colours to hex strings in sRGB space
-    :param colours: dict with name of colour, and colour probably formatted as oklch
-    :return: same mappings but everything is hex codes
-    >>> b, e, c = parse_input('tests/testinput.json')
-    >>> parse_colours(c).keys()
-    dict_keys(['base', 'basebg', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'rock', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'todo'])
-    >>> parse_colours(c)[TINDER]
-    '#623e29'
-    """
-    hexes = {}
-    for c in colours:
-        if 'oklch' in colours[c]:
-            lchstr = colours[c].split('oklch(')[1].split(')')[0]
-            if ' ' in lchstr:
-                lchstr = lchstr.split(' ')
-            else:
-                lchstr = lchstr.split(',')
-
-            assert len(lchstr) == 3, "impoperly formatted oklch colour"
-            hex = oklch_to_hex(float(lchstr[0]), float(lchstr[1]), float(lchstr[2]))
-        else:
-            hex = colours[c]
-        hexes[c] = hex
-    return hexes
+    return bases, edges
 
 
 def parse_edges(edges, colours=False):
     """
     Convert the lists of edges from the JSON into BaseConnection objects.
     :return: dictionary, indexed by base names, each with a list of BaseConnection objects that go to/from the base.
-    >>> b, e, c = parse_input('tests/testinput.json')
+    >>> b, e = parse_input('tests/testinput.json')
     >>> edges = parse_edges(e)
     >>> len(edges['Hibernia'])
     3
@@ -834,13 +803,13 @@ def process_input(filename='bases.json', to_print=False):
     [bear:base, deer:base, wolf:base]
     [salt:base, beachcombing:base]
     [bed:base, trader:base, quality:base]
-    [workbench:cedar, furniture:cedar, bearbed:fir]
+    [workbench:cedar, furnbench:cedar, bearbed:fir]
     ---
     >>> bases.keys()
     dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
     """
-    bases, edges, colours = parse_input(filename)
-    colours = parse_colours(colours)
+    bases, edges = parse_input(filename)
+    colours = HEXES
     edges = parse_edges(edges, colours)
     if len(edges) == 0:
         print('No edges! Old system!')
@@ -1232,8 +1201,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                        x=icon_x + cell_size, y=text_y,
                        fill=legend_colour))
 
-    colour_types = { BRING:"to bring to here (if text: unexplored)", TAKE:'to take from here', DESTROY:'to destroy',
-                    FIR:"to make from fir", CEDAR:"to make from cedar", STONE:"to make from stones"}
+    colour_types = FILLS
     for j, a in enumerate(colour_types):
         icon_y += cell_size
         text_y += cell_size
@@ -1242,11 +1210,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                            x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
 
-    path_types = {PATH:'road, rail, or other provided path',
-                  TINDER:'tinder path', CATTAIL:'cattail head path', CHARCOAL:'charcoal path',
-                  PAINT: 'spray paint path', MIXED: 'mixed marking path',
-                  ONEWAY:"one-way route",
-                  TODO:'unmarked path'}
+    path_types = STROKES
     for j, a in enumerate(path_types):
         icon_y += cell_size
         text_y += cell_size
@@ -1301,7 +1265,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2150, base_y=100, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2100, base_y=100, print_output=False)
 
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')

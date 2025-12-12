@@ -6,68 +6,6 @@ PLANNED = 'planned'
 REMOVE = 'remove'
 NEARBY = 'nearby'
 
-BENCHES = 'benches'
-WORK_BENCH = 'workbench'
-FURN_BENCH = 'furniture'
-FORGE = 'forge'
-MILL_MACH = 'milling'
-BEAR_BED = 'bearbed'
-BED = 'bed'
-RADIO = 'radio'
-TRADER = 'trader'
-
-RABBIT = 'rabbit'
-PTARMIGAN = 'ptarmigan'
-DEER = 'deer'
-WOLF = 'wolf'
-POISON_WOLF = 'poisonwolf'
-TIMBERWOLF = 'timberwolf'
-BEAR = 'bear'
-MOOSE = 'moose'
-FISH = 'fish'
-SALT = 'salt'
-BIRCH = 'birch'
-COAL = 'coal'
-BEACHCOMBING = 'beachcombing'
-
-COOKPOT = 'cookpot'
-SKILLET = 'skillet'
-CURING_BOX = 'curing'
-TRUNK = 'trunk'
-SUITCASE = 'suitcase'
-ROCK_CACHE = 'rockcache'
-
-TOOLS = 'tools'
-WOODWORKING = 'woodworking'
-QUALITY_TOOLS = 'quality'
-SIMPLE_TOOLS = 'simple'
-HAMMER = 'hammer'
-HACKSAW = 'hacksaw'
-PRYBAR = 'prybar'
-LANTERN = 'lantern'
-VICE = 'vice'
-
-DISTRESS_PISTOL = 'distress'
-DISTRESS_PISTOL_AMMO = 'dpammo'
-
-STOVE = 'stove'
-POTBELLY = 'potbelly'
-GRILL = 'grill'
-RANGE = 'range'
-NOSTOVE = 'nostove'
-STOVE_LST = [POTBELLY, GRILL, RANGE]
-STOVE_TYPES = {0: NOSTOVE, 1:POTBELLY, 2:GRILL, 6:RANGE}
-
-MAGLENS = 'maglens'
-MATCHES = 'matches'
-FIRESTRIKER = 'firestriker'
-JERRYCAN = 'jerrycan'
-BEDROLL = 'bedroll'
-THERMOS = 'thermos'
-
-SNARE = 'snare'
-TIPUP = 'tipup'
-
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
 LOADING = 'loading'
@@ -89,99 +27,85 @@ REVERSE = {SOUTH:NORTH, NORTH:SOUTH, EAST:WEST, WEST:EAST, BOTTOM:TOP, TOP:BOTTO
 
 # the colours provided
 COLOURS = 'colours'
+DASHES = 'dashes'
+DESCRIPTIONS = 'descriptions'
+
 BASE = 'base'
 BASE_BG = 'basebg'
 FIR = 'fir'
 CEDAR = 'cedar'
-STONE = 'rock'
+STONE = 'stone'
 BRING = 'bring'
 TAKE = 'take'
 DESTROY = 'destroy'
-
-SWEATER = 'sweater'
-JERSEY = 'jersey'
-SOCKS = 'socks'
-TOQUE = 'toque'
-LONG_JOHNS = 'longjohns'
-MITTS = 'mitts'
-BALLISTIC = 'ballistic'
-DEER_PANTS = 'deerpants'
-WOLF_PANTS = 'wolfpants'
-COMBAT_PANTS = 'combatpants'
-WOLF_HAT = 'wolfhat'
-BALACLAVA = 'balaclava'
-GLOVES = 'gloves'
-SATCHEL = 'satchel'
-BOOTS = 'deerboots'
-
-# assets
-ASSETS = {BEAR_BED:'bearbed.svg', BED:'bed.svg',
-          FORGE:'forge.svg',  MILL_MACH:'milling.svg',
-          FURN_BENCH:'furnbench.svg', WORK_BENCH:'workbench.svg',
-          TRUNK:'trunk.svg', CURING_BOX:'curing.svg',
-          COOKPOT:'cookpot.svg', SKILLET:'skillet.svg',
-          POTBELLY:'potbelly.svg', GRILL:'grill.svg', RANGE:'range.svg',
-          HACKSAW:'hacksaw.svg', QUALITY_TOOLS:'qualitytools.svg', SIMPLE_TOOLS:'simpletools.svg',
-          LANTERN:'lantern.svg', PRYBAR:'prybar.svg',
-          WOODWORKING:'woodworking.svg', HAMMER:'hammer.svg',
-          SUITCASE:'suitcase.svg', VICE:'vice.svg',
-          RADIO:'radio.svg', TRADER:'trader.svg',
-          BEAR:'bear.svg',WOLF:'wolf.svg',POISON_WOLF:"poisonwolf.svg",
-          DEER:'deer.svg',RABBIT:'rabbit.svg',PTARMIGAN:'ptarmigan.svg',
-          MOOSE:'moose.svg',TIMBERWOLF:'timberwolf.svg',
-          SALT:'salt.svg', BEACHCOMBING:'beachcombing.svg', COAL:'coal.svg', FISH:'fish.svg',
-          BIRCH:'birch.svg', ROCK_CACHE:"rockcache.svg",
-          EMPTY:'empty.svg',
-          MAGLENS:'maglens.svg', MATCHES:'matches.svg', FIRESTRIKER:"firestriker.svg",
-          DISTRESS_PISTOL:'distresspistol.svg', DISTRESS_PISTOL_AMMO:"pistolammo.svg",
-          BEDROLL:'bedroll.svg', THERMOS:'thermos.svg', JERRYCAN:'jerrycan.svg',
-          SNARE:'snare.svg', TIPUP:'tipup.svg',
-          SWEATER:'sweater.svg', JERSEY:'jersey.svg', BALLISTIC:'ballistic.svg',
-          LONG_JOHNS:'longjohns.svg', SOCKS:'socks.svg', MITTS:'mitts.svg', TOQUE:'toque.svg',
-          DEER_PANTS:'deerpants.svg', COMBAT_PANTS:'combatpants.svg', BALACLAVA:'balaclava.svg',
-          WOLF_PANTS:'wolfpants.svg', GLOVES:'gloves.svg', WOLF_HAT:'wolfhat.svg',
-          SATCHEL:'satchel.svg', BOOTS:'deerboots.svg',
-          }
-
-MOVABLES = [CURING_BOX, COOKPOT, SKILLET, HACKSAW, QUALITY_TOOLS, SIMPLE_TOOLS,
-            LANTERN, PRYBAR, WOODWORKING, HAMMER, SUITCASE, VICE,
-            BEDROLL,MATCHES,FIRESTRIKER,MAGLENS, DISTRESS_PISTOL, DISTRESS_PISTOL_AMMO,
-            THERMOS, JERRYCAN,
-            SWEATER, JERSEY, BALLISTIC, LONG_JOHNS, SOCKS, MITTS, TOQUE, DEER_PANTS, COMBAT_PANTS, BALACLAVA,
-            GLOVES, WOLF_PANTS, WOLF_HAT, SATCHEL, BOOTS,
-            BEAR] # TODO better way to handle bear movement?
-
-TODO_TYPES = {WORK_BENCH:CEDAR, FURN_BENCH:CEDAR, BEAR_BED:FIR, BED:FIR,
-              CURING_BOX:FIR, TRUNK:FIR,
-              ROCK_CACHE:STONE,
-              COOKPOT:BRING, SKILLET:BRING, SUITCASE:BRING,
-              QUALITY_TOOLS:BRING, HAMMER:BRING, HACKSAW:BRING, LANTERN:BRING
-              }
-
-CHARCOAL = 'charcoal'
-CATTAIL = 'cattail'
-TINDER = 'tinder'
-ROAD = 'road'
-RAIL = 'rail'
 PATH = 'path'
-TODO = 'todo'
-PAINT = 'paint'
-MIXED = 'mixed'
-ONEWAY = 'oneway'
+
+def parse_styling(fname):
+    """
+    Load the JSON file with the colour and dash scheme
+    :param fname: filename
+    :return: dict of colours, dict of dash styles
+    >>> c, d, cs, ps = parse_styling('styling.json')
+    >>> c['path']
+    'oklch(0.8 0.1 170)'
+    >>> d['path']
+    ''
+    >>> d['tinder']
+    '4,2'
+    >>> ps['tinder']
+    'tinder path'
+    >>> cs['destroy']
+    'to destroy'
+    """
+    data = {}
+    with open(fname, 'r') as f:
+        data = json.load(f)
+        assert type(data) == dict
+    assert COLOURS in data
+    assert DASHES in data
+
+    colour_scheme = {}
+    path_scheme = {}
+    for k in data[DESCRIPTIONS]:
+        if k in data[DASHES]:
+            path_scheme[k] = data[DESCRIPTIONS][k]
+        else:
+            colour_scheme[k] = data[DESCRIPTIONS][k]
+
+    return data[COLOURS], data[DASHES], colour_scheme, path_scheme
 
 
+def parse_colours(colours):
+    """
+    Convert strings in colours to hex strings in sRGB space
+    :param colours: dict with name of colour, and colour probably formatted as oklch
+    :return: same mappings but everything is hex codes
+    >>> c, d, cs, ps = parse_styling('styling.json')
+    >>> parse_colours(c).keys()
+    dict_keys(['base', 'basebg', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'stone', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'todo'])
+    >>> parse_colours(c)['tinder']
+    '#623e29'
+    """
+    hexes = {}
+    for c in colours:
+        if 'oklch' in colours[c]:
+            lchstr = colours[c].split('oklch(')[1].split(')')[0]
+            if ' ' in lchstr:
+                lchstr = lchstr.split(' ')
+            else:
+                lchstr = lchstr.split(',')
 
-DASHSTYLE = {TODO:'1,2',
-             CHARCOAL:'2,1',
-             CATTAIL:'6,2',
-             TINDER:'4,2',
-             PAINT: '7,4',
-             MIXED: '4,2,2,2', # '1,3,2',
-             ROAD:'',
-             RAIL:'',
-             PATH : '',
-             ONEWAY: '1,1',
-             }
+            assert len(lchstr) == 3, "impoperly formatted oklch colour"
+            hex = oklch_to_hex(float(lchstr[0]), float(lchstr[1]), float(lchstr[2]))
+        else:
+            hex = colours[c]
+        hexes[c] = hex
+    return hexes
+
+
+STYLE_FILE = 'styling.json'
+raw_colours, DASHSTYLE, FILLS, STROKES = parse_styling(STYLE_FILE)
+HEXES = parse_colours(raw_colours)
 
 OUTDOOR_OPACITY = 0.25
 FONTFAM = 'Arial'
@@ -199,46 +123,49 @@ TABSIZE = 4
 REGION = 'region'
 INVENTORY = 'Inventory'
 
-ORDERING = {BED: BED, BEAR_BED: "bear hide bed",
-            WORK_BENCH: WORK_BENCH, FURN_BENCH: "furniture workbench", FORGE: FORGE, MILL_MACH: "milling machine",
-            RADIO: "trader radio", TRADER: "trade drop-box",
-            POTBELLY: "1-slot stove", GRILL: "2-slot stove", RANGE: "6-slot stove",
-            COOKPOT: COOKPOT, SKILLET: SKILLET,
-            THERMOS:'insulated flask',
-            MAGLENS: 'magnifying lens', FIRESTRIKER: FIRESTRIKER, MATCHES: MATCHES,
-            JERRYCAN:'jerry can',
-            LANTERN: LANTERN,
-            BEDROLL: 'bedroll (cloth)',
-            DISTRESS_PISTOL: 'distress pistol', DISTRESS_PISTOL_AMMO: "distress pistol ammo",
-            QUALITY_TOOLS: "quality tools", SIMPLE_TOOLS: 'simple tools',
-            HACKSAW: HACKSAW, HAMMER: "heavy hammer", PRYBAR: PRYBAR, WOODWORKING: "woodworking tools",
-            VICE: 'workbench vice',
-            TRUNK: "rustic trunk", SUITCASE: "suitcase",
-            ROCK_CACHE: "rock cache",
-            CURING_BOX: "curing box",
-            SALT: "salt deposit", COAL: "coal", BEACHCOMBING: "beachcombing", BIRCH: "birch bark",
-            BEAR: BEAR, MOOSE: MOOSE, DEER: DEER, WOLF: WOLF, POISON_WOLF: 'poisoned wolf', TIMBERWOLF: TIMBERWOLF,
-            RABBIT: RABBIT, PTARMIGAN: PTARMIGAN, FISH: 'fishing',
-            SNARE:SNARE, TIPUP:'fishing tip-up',
-            # clothing: hat
-            WOLF_HAT: 'wolfskin hat',
-            TOQUE: 'wool toque',
-            BALACLAVA: 'technical balaclava',
-            # torso
-            JERSEY: 'festive sweater or hockey jersey',
-            SWEATER: 'thin wool sweater',
-            # hands
-            MITTS: 'rabbitskin mitts',
-            GLOVES: 'tactical gloves',
-            # accessories
-            BALLISTIC: 'ballistic vest',
-            SATCHEL: 'moose-hide satchel',
-            # pants
-            COMBAT_PANTS: 'combat pants',
-            DEER_PANTS: 'deerskin pants',
-            WOLF_PANTS: 'wolfskin pants',
-            # long johns, socks
-            LONG_JOHNS: 'thermal underwear',
-            SOCKS: 'wool socks',
-            BOOTS: 'deerskin boots',
-            }
+class LegendAsset:
+    def __init__(self, key, descrip, group, theme, material, fixednum, movable):
+        self.key = key
+        self.filename = key + '.svg'
+        self.description = descrip
+        self.group = group
+        self.theme = theme
+
+        if not material: # TODO all of these
+            material = BRING
+        self.material = material
+
+        if fixednum != '':
+            fixednum = int(fixednum)
+        self.fixednum = fixednum
+
+        self.movable = movable.lower() in ['true', '''"true"''']
+        assert type(self.movable) is bool
+    def __repr__(self):
+        s = ':'.join([self.key, self.description, self.material, str(self.fixednum), str(self.movable)])
+        return s
+
+
+LEGEND = 'legend.csv'
+COMMENT = '%'
+DELIM = '\t'
+
+ORDERING = {}
+ASSETS = {EMPTY:'empty.svg'}
+TODO_TYPES = {}
+MOVABLES = []
+
+with open(LEGEND, 'r') as f:
+    for line in f:
+        if not line.startswith(COMMENT):
+            row = line.strip().split(DELIM)
+            la = LegendAsset(*row)
+            ORDERING[la.key] = la.description
+            ASSETS[la.key] = la.filename
+            TODO_TYPES[la.key] = la.material
+            if la.movable:
+                MOVABLES.append(la.key)
+
+
+if __name__ == '__main__':
+    doctest.testmod()

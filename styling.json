@@ -1,0 +1,47 @@
+{
+  "colours":{
+		"base":"oklch(0.4 0.06 150)",
+		"basebg":"oklch(0.9 0.02 150)",
+		"bring":"oklch(0.5 0.16 0)",
+		"oneway":"oklch(0.6 0.25 30)",
+		"paint":"oklch(0.6 0.2 50)",
+		"tinder":"oklch(0.4 0.06 50)",
+		"fir":"oklch(0.6 0.14 70)",
+		"cedar":"oklch(0.7 0.1 90)",
+		"cattail":"oklch(0.5 0.08 110)",
+		"path":"oklch(0.8 0.1 170)",
+		"stone": "oklch(0.7 0.04 190)",
+		"take":"oklch(0.6 0.12 210)",
+		"destroy":"oklch(0.5 0.2 230)",
+		"clearpath":"oklch(0.7 0.18 250)",
+		"charcoal":"oklch(0.2 0.04 270)",
+		"mixed":"oklch(0.5 0.18 310)",
+		"todo":"oklch(0.5 0.14 330)"
+	},
+  "dashes": {
+        "todo": "1,2",
+        "charcoal": "2,1",
+        "cattail": "6,2",
+        "tinder": "4,2",
+        "paint": "7.4",
+        "mixed": "4,2,2,2",
+        "path": "",
+        "oneway": "1,1"
+  },
+	"descriptions":{
+		"bring": "to bring here (if text: unexplored)",
+		"take": "to take from here",
+		"destroy": "to destroy",
+		"fir": "to make from fir",
+		"cedar": "to make from cedar",
+		"stone": "to make form stone",
+		"path": "road, rail, or other provided path",
+		"tinder": "tinder path",
+		"cattail": "cattail head path",
+		"charcoal": "charcoal path",
+		"paint": "spray paint path",
+		"mixed": "mixed marking path",
+		"oneway": "one-way route",
+		"todo": "unmarked path"
+	}
+}

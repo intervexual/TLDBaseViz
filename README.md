@@ -14,6 +14,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Coal by BinikSol](https://thenounproject.com/icon/coal-6694219/)
 * [Cookpot by NeueDeutsche](https://thenounproject.com/icon/cooking-671176/)
 * [Combat Pnats by Amethyst Studio](https://thenounproject.com/icon/clothes-3460975/)
+* [Crampons based on art by Vectors Point](https://thenounproject.com/icon/sandal-3242123/)
 * [Curing Box by Pham Duy Phuong Hung](https://thenounproject.com/icon/cooler-2133137/)
 * [Deer by Anissa](https://thenounproject.com/icon/deer-5689542/)
 * [Deerskin Boots by Eucalyp](https://thenounproject.com/icon/ugg-boots-4647926/)
@@ -29,6 +30,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Hacksaw by omeneko](thenounproject.com/icon/hacksaw-7780613/)
 * [Heavy Hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
 * [Hockey Jersey / Festive Sweater by Andry Horvath](https://thenounproject.com/icon/sweater-5130736/)
+* [Improvised Crampons based on art by LSE Designs](https://thenounproject.com/icon/sandal-1245062/)
+* [Improvised Insulation based on art by Amethyst Stedio](https://thenounproject.com/icon/corset-5296859/)
 * [Insulated Flask by AbtoCreative](https://thenounproject.com/icon/thermos-7022139/)
 * [Jerry Can by Nikita Kozin](https://thenounproject.com/icon/jerry-can-451668/)
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
@@ -53,7 +56,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Skillet by icelloid](https://thenounproject.com/icon/frying-pan-6855632/)
 * [Snare by Intervex](https://commons.wikimedia.org/wiki/File:Small_game_snare_icon.svg) [Wikimedia Commons]
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
-* [Tactical Gloves by Abu Ibrahim Icon](https://thenounproject.com/icon/gloves-7651028/)
+* [Tactical Gloves modified from art by Abu Ibrahim Icon](https://thenounproject.com/icon/gloves-7651028/)
 * [Technical Backpack by johanna](https://thenounproject.com/icon/rucksack-580791/)
 * [Technical Balaclava by P Thanga Vignesh](https://thenounproject.com/icon/balaclava-1588527/)
 * [Thermal Underwear by Edi Prastyo](https://thenounproject.com/icon/long-john-4100147/)
@@ -72,15 +75,14 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 
 ## TODOs
-2. Make movable the default rather than immovable
-3. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
+3. Use legend.csv to verify counts
+4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Note the rope climbs?
 4. Write documentation for other people to use it
 7. Make loot table templates for interloper
 8. Add: Sewing kit? Stims? Can openers?
 9. Add some level of importance/priority?
 10. Dark mode
-11. Single style file?
 12. Wall art and rugs?
 13. Separate icon for outdoor workbench?
 14. Make unvisited locations more obvious

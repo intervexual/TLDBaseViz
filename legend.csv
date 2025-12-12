@@ -1,0 +1,67 @@
+%KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE
+bed	bed	furniture	sleep	cedar		FALSE
+bearbed	bear hide bed	furniture	sleep	fir		FALSE
+workbench	workbench	furniture	crafting	cedar		FALSE
+furnbench	furniture workbench	furniture	crafting	cedar		FALSE
+forge	forge	furniture	crafting			FALSE
+milling	milling machine	furniture	crafting			FALSE
+radio	trader radio	furniture	trading			FALSE
+trader	trade drop-box	furniture	trading			FALSE
+potbelly	1-slot stove	furniture	cooking			FALSE
+grill	2-slot stove	furniture	cooking			FALSE
+range	6-slot stove	furniture	cooking			FALSE
+curing	curing box	furniture	cooking	fir		TRUE
+trunk	rustic trunk	furniture	storage	fir		FALSE
+rockcache	rock cache	furniture	storage	stone		TRUE
+suitcase	suitcase	furniture	storage			TRUE
+vice	workbench vice	furniture	crafting			TRUE
+woodworking	woodworking tools	tools	crafting		4	TRUE
+hacksaw	hacksaw	tools	crafting			TRUE
+hammer	heavy hammer	tools	crafting			TRUE
+prybar	prybar	tools	crafting			TRUE
+quality	quality tools	tools	crafting			TRUE
+simple	simple tools	tools	crafting			TRUE
+bedroll	cloth bedroll	tools	sleep			TRUE
+cookpot	cookpot	tools	cooking			TRUE
+skillet	skillet	tools	cooking			TRUE
+thermos	insulated flask	tools	cooking			TRUE
+maglens	magnifying lens	tools	light			TRUE
+firestriker	firestriker	tools	light			TRUE
+matches	matches	tools	light			TRUE
+jerrycan	jerry can	tools	light			TRUE
+lantern	lantern	tools	light			TRUE
+distress	distress pistol	tools	hunting			TRUE
+dpammo	distress pistol ammo	tools	hunting			TRUE
+snare	snare	tools	hunting	reclaimed		TRUE
+tipup	fishing tip-up	tools	hunting	reclaimed		TRUE
+salt	salt deposit	natural	cooking			TRUE
+coal	coal spawn	natural	light			FALSE
+beachcombing	beachcombing	natural	trading			FALSE
+birch	birch bark spawn	natural	cooking			FALSE
+bear	bear	natural	animal			TRUE
+moose	moose	natural	animal			FALSE
+deer	deer	natural	animal			FALSE
+wolf	wolf	natural	animal			FALSE
+poisonwolf	poisoned wolf	natural	animal			FALSE
+timberwolf	timberwolf	natural	animal			FALSE
+rabbit	rabbit	natural	animal			FALSE
+ptarmigan	ptarmigan	natural	animal			FALSE
+fish	fishing	natural	animal			FALSE
+wolfhat	wolfskin hat	clothing	head	wolf		TRUE
+toque	wool toque	clothing	head			TRUE
+balaclava	technical balaclava	clothing	head			TRUE
+jersey	festive sweater or hockey jersey	clothing	torso			TRUE
+sweater	thin wool sweater	clothing	torso			TRUE
+mitts	rabbitskin mitts	clothing	hands	rabbit		TRUE
+gloves	tactical gloves	clothing	hands			TRUE
+ballistic	ballistic vest	clothing	accessories			TRUE
+satchel	moose-hide satchel	clothing	accessories	moose		TRUE
+insulation	improvised insulation	clothing	accessories	ptarmigan		TRUE
+crampons	crampons	clothing	accessories			TRUE
+improvcrampons	improvised crampons	clothing	accessories	metal		TRUE
+combatpants	combat pants	clothing	pants			TRUE
+deerpants	deerskin pants	clothing	pants	deer		TRUE
+wolfpants	wolfskin pants	clothing	pants	wolf		TRUE
+longjohns	thermal underwear	clothing	underwear			TRUE
+socks	(patterned) wool socks	clothing	socks			TRUE
+deerboots	deerskin boots	clothing	shoes	deer		TRUE

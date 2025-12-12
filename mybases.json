@@ -172,7 +172,7 @@
 			"features": ["bear,+bear,rabbit,birch",
 						"@+Quonset,+hacksaw,+suitcase,+suitcase,+cookpot,+cookpot,+jersey,+sweater,+thermos",
 						"matches,Maglens,snare,snare",
-						"workbench,furniture,BED,Bearbed",
+						"workbench,furnbench,BED,Bearbed",
 						"grill,quality,lantern,woodworking,PRYBAR",
 				"trunk,trunk,Trunk,Trunk,rockcache"]
 		},
@@ -320,9 +320,12 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,+bear,deer,birch",
-						"workbench, furniture,, bearbed",
-						"quality,,,grill",
-						"curing, curing, skillet, skillet"
+						"workbench, furnbench,, bearbed",
+						"quality,+trunk,+trunk,grill",
+						"curing, curing, skillet, skillet",
+				"@-Mountaineer, -hacksaw, -suitcase, -suitcase, -cookpot, -cookpot, -jersey, -sweater, -thermos",
+				"@-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar",
+				"@-Prison, -quality,, @-Anglers, -quality"
 			]
 		},
 		"CommunityHall": {
@@ -340,7 +343,7 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": true,
-			"explored":true,
+			"explored":false,
 			"features": ["rabbit"
 			]
 		},
@@ -569,7 +572,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["timberwolf,milling,workbench",
-						"Furniture,Workbench,Bearbed",
+						"+furnbench,Workbench,Bearbed",
 						"@+FromBRM,+vice,Hacksaw",
 						"@+Quonset,+Quality"]
 		},
@@ -697,7 +700,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["bear,bear,timberwolf","workbench,grill,BED","Furniture,Bearbed","@+Quonset,Distress,Dpammo,Dpammo,Quality,Prybar"]
+			"features": ["bear,bear,timberwolf","workbench,grill,BED","+furnbench,Bearbed","@+Quonset,Distress,Dpammo,Dpammo,Quality,Prybar"]
 		},
 		"ForemansClearcut": {
 			"region": "Blackrock",
@@ -733,7 +736,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,lantern","PRYBAR,rockcache"],
+			"features": ["coal,lantern","rockcache,rockcache"],
 			"removed": ["workbench"]
 		},
 		"AbandonedLookout": {
@@ -781,7 +784,7 @@
 			"explored":true,
 			"features": [
 				"bear,+bear,deer,wolf",
-				"workbench,furniture,bearbed,radio",
+				"workbench,furnbench,bearbed,radio",
 				"quality,hammer,prybar,woodworking",
 				"matches,jerrycan,Maglens,,distress,dpammo",
 				"curing,curing,+Curing,cookpot,cookpot,thermos",
@@ -789,9 +792,6 @@
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"toque,mitts,jersey,jersey,sweater,socks",
-				"@-Mountaineer, -hacksaw, -suitcase, -suitcase, -cookpot, -cookpot, -jersey, -sweater, -thermos",
-				"@-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar",
-				"@-Prison, -quality,, @-Anglers, -quality",
 				"@-WorkerResidence, -vice,-distress,-distress",
 				"@-BR+FarTerritory, -thermos,-jersey,-quality,-quality"
 			],
@@ -824,7 +824,7 @@
 			"explored":true,
 			"features": ["-bear,deer,salt,beachcombing,trader",
 						"bed, quality",
-						"vice, Furniture, Workbench, Bearbed"
+						"vice, +furnbench, Workbench, Bearbed"
 			]
 		},
 		"JMFishHut": {
@@ -846,7 +846,7 @@
 			"explored":true,
 			"features": ["+bear,rabbit,deer",
 						"rockcache,beachcombing,salt",
-						"workbench, furniture, bearbed",
+						"workbench, furnbench, bearbed",
 						"curing, curing, trunk",
 						"quality,jerrycan, snare"
 			]
@@ -957,7 +957,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf","rockcache","Furniture","Bearbed"]
+			"features": ["wolf","rockcache","+furnbench","Bearbed"]
 		},
 		"No3MineFromDP": {
 			"region": "DesolationPoint",
@@ -1004,7 +1004,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["+bear,salt,beachcombing",
-						"workbench,furniture,bearbed,suitcase",
+						"workbench,furnbench,bearbed,suitcase",
 						"quality, hacksaw,prybar",
 						"grill,curing,curing,matches"]
 		},
@@ -1134,7 +1134,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["ptarmigan,deer,birch,rockcache",
-						"workbench,furniture,bearbed",
+						"workbench,furnbench,bearbed",
 						"quality,hacksaw,prybar",
 						"grill,cookpot,cookpot,firestriker",
 						"@-WorkerResidence, -woodworking, -dpammo, -prybar",
@@ -1181,7 +1181,7 @@
 			"explored":true,
 			"features": ["deer,radio,workbench,quality",
 							"grill,cookpot,cookpot",
-						"woodworking,Furniture,BED,Bearbed"
+						"woodworking,+furnbench,BED,Bearbed"
 
 			]
 		},
@@ -1221,7 +1221,7 @@
 			"explored":true,
 			"features": [
 				"bear,+bear,+bear,moose,deer,birch",
-				"workbench,furniture,bearbed,quality,prybar,lantern",
+				"workbench,furnbench,bearbed,quality,prybar,lantern",
 				"curing,curing,curing,grill,hammer,matches",
 				"curing,curing,curing,skillet,skillet,firestriker",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
@@ -1454,7 +1454,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["+bear,BED,grill,coal",
-						"Workbench,Furniture,Bearbed",
+						"Workbench,+furnbench,Bearbed",
 						"Trunk,Trunk,Curing,Curing",
 						"@+Dam,+woodworking,+dpammo",
 						"@+Quonset,+vice,+distress,+quality,+thermos",
@@ -1568,7 +1568,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,milling,workbench","Furniture,Bed","@+NorthBI,+Simple","@+Dam,+hacksaw"]
+			"features": ["timberwolf,milling,workbench","+furnbench,Bed","@+NorthBI,+Simple","@+Dam,+hacksaw"]
 		},
 		"CanneryPier": {
 			"region": "BleakInlet",
@@ -1642,7 +1642,7 @@
 			"explored":true,
 			"features": ["ptarmigan,rabbit,deer",
 						"range,bed, quality",
-						"workbench, furniture",
+						"workbench, furnbench",
 						"cookpot, Cookpot, lantern",
 						"skillet, skillet, SKILLET"
 			]
@@ -1728,7 +1728,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["range,bed,PRYBAR,DISTRESS",
-						"workbench, furniture, quality, BEDROLL",
+						"workbench, furnbench, quality, BEDROLL",
 						"cookpot, COOKPOT, SKILLET,MAGLENS"
 			]
 		},
@@ -1778,7 +1778,7 @@
 			"features": [
 						"+bear,+bear",
 						"workbench,BED",
-						"SIMPLE,Bearbed,Furniture",
+						"SIMPLE,Bearbed,+furnbench",
 						"Quality,Lantern,Distress"
 			]
 		},
@@ -1929,7 +1929,7 @@
 			"explored":true,
 			"features": [
 				"wolf,+bear,+bear",
-				"workbench,furniture,radio,bearbed",
+				"workbench,furnbench,radio,bearbed",
 				"quality,hacksaw,hammer,prybar",
 				"firestriker,matches,jerrycan,jerrycan",
 				"thermos,skillet,skillet",
@@ -2047,7 +2047,7 @@
 			"explored":true,
 			"features": ["ptarmigan,rabbit,snare,snare",
 						"radio,grill,matches,jerrycan",
-						"Workbench,furniture,bed",
+						"Workbench,furnbench,bed",
 						"skillet,skillet,cookpot,cookpot",
 						"prybar,quality,rockcache,rockcache",
 						"suitcase,suitcase,,deerpants",
@@ -2074,7 +2074,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,ptarmigan","range,bed","radio,PRYBAR","Furniture,Bearbed","Workbench,+vice"]
+			"features": ["poisonwolf,ptarmigan","range,bed","radio,PRYBAR","+furnbench,Bearbed","Workbench,+vice"]
 		},
 		"Concentrator": {
 			"region": "ZoneOfContamination",
@@ -2092,7 +2092,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,simple","workbench,PRYBAR","@-IdleCamp,-workbench,-vice"]
+			"features": ["poisonwolf,improvcrampons","workbench,simple,PRYBAR","@-IdleCamp,-workbench,-vice"]
 		},
 		"IndolentHoppers": {
 			"region": "ZoneOfContamination",
@@ -2402,7 +2402,7 @@
 			"features": ["matches,firestriker,maglens,lantern",
 						"thermos,thermos,cookpot,cookpot",
 						"wolfhat,balaclava,@bearcoat,@bearcoat,jersey,sweater,gloves",
-						"satchel,@insulation,@insulation,@crampons,wolfpants,combatpants,longjohns,longjohns,socks,socks,deerboots",
+						"satchel,insulation,insulation,crampons,wolfpants,combatpants,longjohns,longjohns,socks,socks,deerboots",
 						""
 						]
 		},
@@ -2765,7 +2765,7 @@
 		"fir":"oklch(0.65 0.16 70)",
 		"cedar":"oklch(0.75 0.12 90)",
 		"cattail":"oklch(0.5 0.08 110)",
-		"rock": "oklch(0.8 0.08 130)",
+		"stone": "oklch(0.8 0.08 130)",
 		"path":"oklch(0.8 0.1 150)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
