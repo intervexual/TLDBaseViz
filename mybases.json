@@ -2401,7 +2401,7 @@
 			"explored":true,
 			"features": ["matches,firestriker,maglens,lantern",
 						"thermos,thermos,cookpot,cookpot",
-						"wolfhat,balaclava,@bearcoat,@bearcoat,jersey,sweater,gloves",
+						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves",
 						"satchel,insulation,insulation,crampons,wolfpants,combatpants,longjohns,longjohns,socks,socks,deerboots",
 						""
 						]

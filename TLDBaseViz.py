@@ -1178,18 +1178,24 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                        fill=legend_colour, stroke=legend_colour))
     for i, a in enumerate(ORDERING):
         filepath = 'assets/' + ASSETS[a]
-        icon_y += cell_size
-        text_y = icon_y+cell_size/2 + margin_size
-        import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
-                   hei=icon_size, fill=legend_colour)
-        d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=text_y,
-                           fill=legend_colour))
-        if counts:
-            count_x = icon_x + longest_name_len*(icon_size/2) + 4*margin_size
-            d.append(draw.Text(str(counts[a]), legend_font_size, font_family=FONTFAM,
-                               x=count_x, y=text_y,
+
+        to_draw = True
+        if counts: # don't draw if there are none in the data
+            if counts[a] == 0:
+                to_draw = False
+        if to_draw:
+            icon_y += cell_size
+            text_y = icon_y + cell_size / 2 + margin_size
+            import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
+                       hei=icon_size, fill=legend_colour)
+            d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
+                               x=icon_x+cell_size, y=text_y,
                                fill=legend_colour))
+            if counts:
+                count_x = icon_x + longest_name_len*(icon_size/2) + 4*margin_size
+                d.append(draw.Text(str(counts[a]), legend_font_size, font_family=FONTFAM,
+                                   x=count_x, y=text_y,
+                                   fill=legend_colour))
 
     icon_y += cell_size
     text_y += cell_size
@@ -1253,6 +1259,88 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                        fill=legend_colour, font_style='italic'))
 
     return icon_y + cell_size
+
+
+def legends_for_documentation():
+    """
+    Make legends of the icons for documentation purposes.
+    :return:
+    >>> legends_for_documentation()
+    """
+    group_n = {}
+    group_cols = {}
+    theme_n = {}
+
+    for lob in ICONS:
+        if lob.group not in group_n:
+            group_n[lob.group] = 0
+            group_cols[lob.group] = []
+        if lob.theme not in theme_n:
+            theme_n[lob.theme] = 0
+
+        group_n[lob.group] += 1
+        group_cols[lob.group].append(lob.theme)
+        theme_n[lob.theme] += 1
+
+    group_max_cols = {}
+    group_max_rows = {}
+    for g in group_n:
+        uniques = list(set(group_cols[g]))
+        group_max_rows[g] = len(uniques)
+        max_cols = 0
+        for u in uniques:
+            curr_count = group_cols[g].count(u)
+            max_cols = max(max_cols, curr_count)
+        group_max_cols[g] = max_cols
+
+
+    icon_wid = 50
+    cell_wid = icon_wid * (1 + 1 / 8)
+    text_factor = 0.5
+    text_hei = icon_wid*text_factor
+    cell_hei = cell_wid + text_hei
+
+    legend_colour = 'black'
+
+    for g in group_n:
+        d = draw.Drawing(cell_wid * group_max_cols[g], cell_hei*group_max_rows[g])
+        d.append(draw.Rectangle(0,0,d.width,d.height, fill='white'))
+        print(g, group_n[g], group_cols[g])
+        start_x =  cell_wid - icon_wid
+        icon_x = start_x
+        text_x = start_x + icon_wid/2
+        icon_y = start_x
+        text_y = icon_y + cell_wid + text_hei/3
+
+        latest_theme = ''
+
+        for lob in ICONS:
+            if lob.group == g:
+                if lob.theme != latest_theme:
+                    if latest_theme:
+                        icon_y += cell_hei
+                        text_y += cell_hei
+                        icon_x = start_x
+                        text_x = start_x + icon_wid / 2
+                    latest_theme = lob.theme
+
+                fill_colour = legend_colour
+                if not lob.interloper:
+                    fill_colour = 'green'
+
+                import_svg(d, 'assets/' + lob.filename, x=icon_x, y=icon_y, wid=icon_wid,
+                           hei=icon_wid, fill=fill_colour)
+                legend_font_size = font_size_for_box(lob.description, cell_wid, text_hei)
+                d.append(draw.Text(lob.description, legend_font_size, font_family=FONTFAM,
+                                   x=text_x, y=text_y, text_anchor='middle',
+                                   fill=fill_colour))
+                icon_x += cell_wid
+                text_x += cell_wid
+                #print(lob)
+        d.save_svg(f'docs/{g}.svg')
+
+    group_n = list(set(group_n))
+    theme_n = list(set(theme_n))
 
 
 if __name__ == '__main__':

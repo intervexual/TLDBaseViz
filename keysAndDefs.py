@@ -34,7 +34,6 @@ BASE = 'base'
 BASE_BG = 'basebg'
 FIR = 'fir'
 CEDAR = 'cedar'
-STONE = 'stone'
 BRING = 'bring'
 TAKE = 'take'
 DESTROY = 'destroy'
@@ -123,8 +122,10 @@ TABSIZE = 4
 REGION = 'region'
 INVENTORY = 'Inventory'
 
+TRUES = ['true', '''"true"''']
+
 class LegendAsset:
-    def __init__(self, key, descrip, group, theme, material, fixednum, movable):
+    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper):
         self.key = key
         self.filename = key + '.svg'
         self.description = descrip
@@ -139,8 +140,9 @@ class LegendAsset:
             fixednum = int(fixednum)
         self.fixednum = fixednum
 
-        self.movable = movable.lower() in ['true', '''"true"''']
+        self.movable = movable.lower() in TRUES
         assert type(self.movable) is bool
+        self.interloper = interloper.lower() in TRUES
     def __repr__(self):
         s = ':'.join([self.key, self.description, self.material, str(self.fixednum), str(self.movable)])
         return s
@@ -154,12 +156,14 @@ ORDERING = {}
 ASSETS = {EMPTY:'empty.svg'}
 TODO_TYPES = {}
 MOVABLES = []
+ICONS = []
 
 with open(LEGEND, 'r') as f:
     for line in f:
         if not line.startswith(COMMENT):
             row = line.strip().split(DELIM)
             la = LegendAsset(*row)
+            ICONS.append(la)
             ORDERING[la.key] = la.description
             ASSETS[la.key] = la.filename
             TODO_TYPES[la.key] = la.material
@@ -169,3 +173,5 @@ with open(LEGEND, 'r') as f:
 
 if __name__ == '__main__':
     doctest.testmod()
+
+
