@@ -1224,7 +1224,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
                                fill=legend_colour))
             if counts:
                 count_x = icon_x + longest_name_len*(icon_size/2) + 4*margin_size
-                d.append(draw.Text(str(counts[a]), legend_font_size, font_family=FONTFAM,
+                d.append(draw.Text(str(round(counts[a],2)), legend_font_size, font_family=FONTFAM,
                                    x=count_x, y=text_y,
                                    fill=legend_colour))
 
@@ -1292,7 +1292,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     return icon_y + cell_size
 
 
-def legends_for_documentation(icon_wid=200):
+def legends_for_documentation(icon_wid=50):
     """
     Make legends of the icons for documentation purposes.
     :return:
@@ -1374,7 +1374,7 @@ def legends_for_documentation(icon_wid=200):
                 text_x += cell_wid
                 #print(lob)
         d.save_svg(f'docs/{g}.svg')
-        d.save_png(f'docs/{g}.png')
+        #d.save_png(f'docs/{g}.png')
 
     group_n = list(set(group_n))
     theme_n = list(set(theme_n))

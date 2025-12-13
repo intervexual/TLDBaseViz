@@ -419,7 +419,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": [""]
+			"features": ["bed"]
 		},
 		"EndOfTheRoadCave": {
 			"region": "PleasantValley",

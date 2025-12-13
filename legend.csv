@@ -24,6 +24,15 @@ spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE
 cookpot	cookpot	tools	cooking			TRUE	TRUE	good
 skillet	skillet	tools	cooking			TRUE	TRUE	good
 thermos	insulated flask	tools	cooking			TRUE	TRUE	good
+barbs	barb’s rifle	tools	hunting			TRUE	FALSE	
+rifle	hunting rifle	tools	hunting			TRUE	FALSE	
+curators	curator’s rifle	tools	hunting			TRUE	FALSE	
+vaughns	vaughn’s rifle	tools	hunting			TRUE	FALSE	
+bunkerrifle	bunker rifle	tools	hunting			TRUE	FALSE	OUT OF PLACE
+hunters	hunter’s revolver	tools	hunting			TRUE	FALSE	
+revolver	revolver	tools	hunting			TRUE	FALSE	
+foresters	forester’s revolver	tools	hunting			TRUE	FALSE	
+wardens	warden’s revolver	tools	hunting			TRUE	FALSE	
 distress	distress pistol	tools	hunting			TRUE	TRUE	fine
 dpammo	distress pistol ammo	tools	hunting			TRUE	TRUE	fine
 snare	snare	tools	hunting	reclaimed		TRUE	TRUE	good
@@ -31,6 +40,8 @@ tipup	fishing tip-up	tools	hunting	reclaimed		TRUE	TRUE	fine
 hacksaw	hacksaw	tools	exploring			TRUE	TRUE	good
 hammer	heavy hammer	tools	exploring			TRUE	TRUE	good
 prybar	prybar	tools	exploring			TRUE	TRUE	good
+hatchet	hatchet	tools	exploring			TRUE	FALSE	
+improvhatchet	improvised hatchet	tools	exploring			TRUE	TRUE	
 stim	emergency stim	tools	exploring			TRUE	TRUE	fine
 bedroll	cloth bedroll	tools	exploring			TRUE	TRUE	good
 rucksack	technical backpack	tools	exploring			TRUE	TRUE	good

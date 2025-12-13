@@ -43,7 +43,7 @@
         "indoors": true,
         "explored": true,
         "features": [
-          "coal","-cookpot"
+          "coal","-cookpot/.5"
         ]
       },
       "ClimbersCave": {
@@ -76,7 +76,7 @@
         "indoors": true,
         "explored": true,
         "features": [
-          "bear","bed,workbench,grill,-woodworking"
+          "bear","bed,workbench,grill","-woodworking"
         ]
       },
       "ForemansRetreat": {
@@ -88,7 +88,8 @@
         "explored": true,
         "features": [
           "ptarmigan",
-          "bed,grill,-skillet,-recipe"
+          "bed,grill",
+			"-skillet,-recipe"
         ]
       },
       "FireOverlookCave": {
@@ -158,7 +159,7 @@
         "indoors": true,
         "explored": true,
         "features": [
-          "-polaroid"
+          "-polaroid,-recipe/.11"
         ]
       },
 		"CaveFromAC": {
@@ -177,7 +178,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed","-recipe/.2"]
+			"features": ["bed","-recipe/.11"]
 		},
 		"WingArea": {
 			"region": "TimberwolfMountain",
@@ -204,7 +205,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["fish","potbelly"]
+			"features": ["fish","potbelly","-hammer/.2"]
 		},
 		"Mountaineer": {
 			"region": "TimberwolfMountain",
@@ -215,7 +216,7 @@
 			"explored":true,
 			"features": ["bear,rabbit,birch",
 						"bed,grill,workbench",
-						"-hacksaw"
+						"-hacksaw/.25,-hammer/.2"
 						]
 		},
 		"SecludedShelfCave": {
@@ -270,7 +271,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["ptarmigan,wolf","-firestriker,-hammer,-thermos, -stim, -distress","-toque,-earwrap,-simpleparka,-socks,-crampons/.5"]
+			"features": ["ptarmigan,wolf","-firestriker,-hammer/.4,-hacksaw/.5,-thermos, -stim, -distress","-toque,-earwrap,-simpleparka,-socks,-crampons/.5"]
 		},
 		"CaveBelowAndresPeak": {
 			"region": "TimberwolfMountain",
@@ -279,7 +280,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,wolf"]
+			"features": ["bear,wolf","-hacksaw/.25"]
 		},
 		"EngineCaveEast": {
 			"region": "TimberwolfMountain",
@@ -288,7 +289,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal"]
+			"features": ["coal","-hammer/.2"]
 		},
 		"EngineCave": {
 			"region": "TimberwolfMountain",
@@ -315,7 +316,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["ptarmigan"]
+			"features": ["ptarmigan", "-thermos/.2"]
 		},
 		"CrashSiteAndBurnedRidgeCave": {
 			"region": "PleasantValley",
@@ -333,7 +334,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf"]
+			"features": ["wolf","-hacksaw/.14"]
 		},
 		"DraftDodgersCabin": {
 			"region": "PleasantValley",
@@ -352,7 +353,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["wolf"]
+			"features": ["wolf","prybar/.16"]
 		},
 		"ArcheryBarn": {
 			"region": "PleasantValley",
@@ -362,7 +363,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,deer,birch",
-						"workbench, grill,"
+						"workbench, grill", "-hacksaw/.29"
 			]
 		},
 		"CommunityHall": {
@@ -372,7 +373,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["range,bed","radio,-recipe"]
+			"features": ["range,bed,radio","-cookpot/.5,-skillet/.5,-recipe"]
 		},
 		"CaveWestOfUpperFalls": {
 			"region": "PleasantValley",
@@ -381,7 +382,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["rabbit"
+			"features": ["rabbit","-maglens/.33"
 			]
 		},
 		"PensivePond": {
@@ -391,7 +392,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["potbelly,fish","-maglens,-thermos"]
+			"features": ["potbelly,fish","-maglens/.34,-thermos/.2"]
 		},
 		"PVFarm": {
 			"region": "PleasantValley",
@@ -402,7 +403,7 @@
 			"explored":true,
 			"features": ["deer",
 						"bed,range,workbench",
-						"-cookpot,-skillet,-simple,-skijacket,-sweater"
+						"-cookpot,-skillet,-hacksaw/.14,-prybar/.17,-simple,-skijacket,-sweater"
 			]
 		},
 		"MollysBarn": {
@@ -422,7 +423,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,deer","-hacksaw"
+			"features": ["bed,deer","-hacksaw/.14,-thermos/.2"
 			]
 		},
 		"SignalHill": {
@@ -432,7 +433,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,workbench","-hammer,-battery,+transmitter,+polaroid"
+			"features": ["bed,workbench","-hammer,-prybar/.17,-battery,+transmitter,+polaroid"
 			]
 		},
 		"CaveToPV": {
@@ -451,7 +452,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": [""]
+			"features": ["bed"]
 		},
 		"EndOfTheRoadCave": {
 			"region": "PleasantValley",
@@ -460,7 +461,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": [""]
+			"features": ["-prybar/.16"]
 		},
 
 		"EmptyBearCave": {
@@ -480,7 +481,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["coal","-thermos/.2"]
 		},
 
 
@@ -491,7 +492,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,grill","-prybar"]
+			"features": ["bed,grill","-prybar/.34, -hacksaw/.29,-thermos/.2"]
 		},
 		"BarnNorthOfPVFarm": {
 			"region": "PleasantValley",
@@ -509,7 +510,61 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["wolf","grill","-jerrycan"]
+			"features": ["wolf","grill","-jerrycan,-maglens/.33"]
+		},
+		"KPSTrailer": {
+			"region": "KPS",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,workbench"]
+		},
+		"KPSFishHut": {
+			"region": "KPS",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["fish","potbelly"]
+		},
+		"KPSIceCave": {
+			"region": "KPN",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["wolf"]
+		},
+		"KPNIceCave": {
+			"region": "KPN",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["rabbit"]
+		},
+		"Foresters": {
+			"region": "KPN",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["grill"]
+		},
+		"ShallowCave": {
+			"region": "KPN",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["-distress"]
 		},
 		"CurrentInventory": {
 			"region": "Inventory",
@@ -576,7 +631,7 @@
 			["EmptyBearCave", "south", "bottom,left", "UnnamedRiverCave", "top,left", "todo"],
 			["UnnamedRiverCave", "south", "bottom,left", "EndOfTheRoadCave", "top,left", "todo"],
 			["EndOfTheRoadCave", "south", "bottom,left", "UpperMineFromCH", "top,left", "todo"],
-			["UnnamedRiverCave", "west", "top,left", "ArcheryBarn", "top,right", "todo"],
+			["UnnamedRiverCave", "west", "bottom,left", "ArcheryBarn", "top,right", "todo"],
 			["ArcheryBarn", "south", "bottom,right", "CommunityHall", "top,right", "todo"],
 			["EndOfTheRoadCave", "west", "bottom,left", "CommunityHall", "top,right", "todo"],
 			["CommunityHall", "west", "top,left", "ThompsonsCrossing", "top,right","path"],
@@ -596,7 +651,13 @@
 			["BarnNorthOfPVFarm", "north", "top,left", "ThreeStrikes", "bottom,left", "todo"],
 			["ArcheryBarn", "north", "top,left", "DraftDodgersCabin", "bottom,right", "todo"],
 			["CrashSiteAndBurnedRidgeCave", "south", "bottom,right", "SkeetersRidge", "top,left", "todo"],
-			["SkeetersRidge","south","bottom,left", "DraftDodgersCabin", "top,left", "todo"]
+			["SkeetersRidge","south","bottom,left", "DraftDodgersCabin", "top,left", "todo"],
+			"--------KeepersPass--------",
+			["Foresters", "south", "bottom,left", "KPNIceCave", "top,right", "todo"],
+			["Foresters", "north", "top,right", "ShallowCave", "bottom,right", "todo"],
+			["KPNIceCave", "south", "bottom,right", "KPSIceCave", "top,right", "todo"],
+			["KPSIceCave", "south", "bottom,right", "KPSFishHut", "top,right", "todo"],
+			["KPSFishHut", "south", "bottom,right", "KPSTrailer", "top,right", "todo"]
 	]
 
   }
