@@ -1,12 +1,12 @@
 %KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	NOTE
-bed	bed	furniture	sleep	cedar		FALSE	TRUE	good
-bearbed	bear hide bed	furniture	sleep	fir		FALSE	TRUE	fine
-workbench	workbench	furniture	crafting	cedar		FALSE	TRUE	fine
-furnbench	furniture workbench	furniture	crafting	cedar		FALSE	TRUE	good
-forge	forge	furniture	crafting			FALSE	TRUE	good
-milling	milling machine	furniture	crafting			FALSE	TRUE	good
-radio	trader radio	furniture	trading			FALSE	TRUE	good
-trader	trade drop-box	furniture	trading			FALSE	TRUE	good
+bed	bed	furniture	bench	cedar		FALSE	TRUE	good
+bearbed	bear hide bed	furniture	bench	fir		FALSE	TRUE	fine
+workbench	workbench	furniture	bench	cedar		FALSE	TRUE	fine
+furnbench	furniture workbench	furniture	bench	cedar		FALSE	TRUE	good
+forge	forge	furniture	bench			FALSE	TRUE	good
+milling	milling machine	furniture	bench			FALSE	TRUE	good
+radio	trader radio	furniture	trader			FALSE	TRUE	good
+trader	trade drop-box	furniture	trader			FALSE	TRUE	good
 potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	good
 grill	2-slot stove	furniture	cooking			FALSE	TRUE	good
 range	6-slot stove	furniture	cooking			FALSE	TRUE	good
@@ -37,11 +37,11 @@ rucksack	technical backpack	tools	exploring			TRUE	TRUE	good
 quality	quality tools	tools	crafting			TRUE	TRUE	fine
 simple	simple tools	tools	crafting			TRUE	TRUE	fine
 woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE	fine
-vice	workbench vice	misc	crafting			TRUE	TRUE	good
-battery	car battery	misc	crafting			TRUE	TRUE	
-transmitter	transmitter	misc	exploring			FALSE	TRUE	
-polaroid	polaroid	misc	exploring			TRUE	TRUE	
-recipe	recipe card	misc	exploring			TRUE	TRUE	
+vice	workbench vice	misc	misc			TRUE	TRUE	good
+battery	car battery	misc	misc			TRUE	TRUE	
+transmitter	transmitter	misc	misc			FALSE	TRUE	
+polaroid	polaroid	misc	misc			TRUE	TRUE	
+recipe	recipe card	misc	misc			TRUE	TRUE	
 bear	bear	natural	animal			TRUE	TRUE	good
 moose	moose	natural	animal			FALSE	TRUE	good
 deer	deer	natural	animal			FALSE	TRUE	good

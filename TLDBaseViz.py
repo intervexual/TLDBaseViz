@@ -1292,7 +1292,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     return icon_y + cell_size
 
 
-def legends_for_documentation():
+def legends_for_documentation(icon_wid=200):
     """
     Make legends of the icons for documentation purposes.
     :return:
@@ -1324,8 +1324,6 @@ def legends_for_documentation():
             max_cols = max(max_cols, curr_count)
         group_max_cols[g] = max_cols
 
-
-    icon_wid = 50
     cell_wid = icon_wid * (1 + 1 / 8)
     text_factor = 1/3
     text_hei = icon_wid*text_factor
@@ -1376,6 +1374,7 @@ def legends_for_documentation():
                 text_x += cell_wid
                 #print(lob)
         d.save_svg(f'docs/{g}.svg')
+        d.save_png(f'docs/{g}.png')
 
     group_n = list(set(group_n))
     theme_n = list(set(theme_n))
