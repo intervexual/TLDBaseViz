@@ -143,10 +143,21 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": ["salt,beachcombing",
-						"bed, quality, workbench",
-						"+furnbench, Bearbed"
+						"bed, grill, workbench",
+						"quality, -hammer",
+						"#Cannery, +woodworking, +furnbench, +bearbed"
+			]
+		},
+		"LonelyLighthouse":{
+			"region": "DesolationPoint",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,potbelly","beachcombing,moose"
 			]
 		},
 		"BrokenBridge":{

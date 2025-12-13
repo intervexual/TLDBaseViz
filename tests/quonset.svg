@@ -4,7 +4,7 @@
 <defs>
 </defs>
 <g id="Quonset">
-<rect x="1.25" y="1.25" width="160.0" height="262.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="white" stroke-width="2.5" stroke="black" />
+<rect x="1.25" y="1.25" width="160.0" height="262.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Quonset:features">
 <g id="bear:Quonset:0:0">
 <g id="import" transform="translate(15.0, 37.5) scale(0.13959461723155955)">
@@ -476,7 +476,7 @@
 </g>
 </g>
 <g id="Quonset:header">
-<text x="81.25" y="28.75" font-size="32.5" font-family="Arial" stroke="black" font-style="" fill="black" text-anchor="middle">Quonset</text>
+<text x="81.25" y="28.75" font-size="32.5" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Quonset</text>
 </g>
 </g>
 </svg>

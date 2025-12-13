@@ -1,75 +1,107 @@
-%KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER
-bed	bed	furniture	sleep	cedar		FALSE	TRUE
-bearbed	bear hide bed	furniture	sleep	fir		FALSE	TRUE
-workbench	workbench	furniture	crafting	cedar		FALSE	TRUE
-furnbench	furniture workbench	furniture	crafting	cedar		FALSE	TRUE
-forge	forge	furniture	crafting			FALSE	TRUE
-milling	milling machine	furniture	crafting			FALSE	TRUE
-radio	trader radio	furniture	trading			FALSE	TRUE
-trader	trade drop-box	furniture	trading			FALSE	TRUE
-potbelly	1-slot stove	furniture	cooking			FALSE	TRUE
-grill	2-slot stove	furniture	cooking			FALSE	TRUE
-range	6-slot stove	furniture	cooking			FALSE	TRUE
-curing	curing box	furniture	cooking	fir		TRUE	TRUE
-trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE
-rockcache	rock cache	furniture	storage	stone		TRUE	TRUE
-suitcase	suitcase	furniture	storage			TRUE	TRUE
-maglens	magnifying lens	tools	light			TRUE	TRUE
-firestriker	firestriker	tools	light			TRUE	TRUE
-matches	matches	tools	light			TRUE	TRUE
-jerrycan	jerry can	tools	light			TRUE	TRUE
-lantern	lantern	tools	light			TRUE	TRUE
-cookpot	cookpot	tools	cooking			TRUE	TRUE
-skillet	skillet	tools	cooking			TRUE	TRUE
-thermos	insulated flask	tools	cooking			TRUE	TRUE
-distress	distress pistol	tools	hunting			TRUE	TRUE
-dpammo	distress pistol ammo	tools	hunting			TRUE	TRUE
-snare	snare	tools	hunting	reclaimed		TRUE	TRUE
-tipup	fishing tip-up	tools	hunting	reclaimed		TRUE	TRUE
-hacksaw	hacksaw	tools	exploring			TRUE	TRUE
-hammer	heavy hammer	tools	exploring			TRUE	TRUE
-prybar	prybar	tools	exploring			TRUE	TRUE
-bedroll	cloth bedroll	tools	exploring			TRUE	TRUE
-quality	quality tools	tools	crafting			TRUE	TRUE
-simple	simple tools	tools	crafting			TRUE	TRUE
-woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE
-vice	workbench vice	tools	crafting			TRUE	TRUE
-bear	bear	natural	animal			TRUE	TRUE
-moose	moose	natural	animal			FALSE	TRUE
-deer	deer	natural	animal			FALSE	TRUE
-wolf	wolf	natural	animal			FALSE	TRUE
-poisonwolf	poisoned wolf	natural	animal			FALSE	TRUE
-timberwolf	timberwolf	natural	animal			FALSE	TRUE
-cougar	cougar	natural	animal			FALSE	TRUE
-rabbit	rabbit	natural	animal			FALSE	TRUE
-ptarmigan	ptarmigan	natural	animal			FALSE	TRUE
-fish	fishing	natural	animal			FALSE	TRUE
-birch	birch bark spawn	natural	nonanimal			FALSE	TRUE
-salt	salt deposit	natural	nonanimal			TRUE	TRUE
-coal	coal spawn	natural	nonanimal			FALSE	TRUE
-beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE
-aviator	aviator cap	clothing	head			TRUE	TRUE
-rabbithat	rabbitskin hat	clothing	head	rabbit		TRUE	TRUE
-wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE
-wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE
-toque	wool toque	clothing	head			TRUE	TRUE
-balaclava	balaclava	clothing	head			TRUE	TRUE
-techbalaclava	technical balaclava	clothing	head			TRUE	TRUE
-bearcoat	bearskin coat	clothing	torso			TRUE	TRUE
-jersey	festive sweater or hockey jersey	clothing	torso			TRUE	TRUE
-sweater	thin wool sweater	clothing	torso			TRUE	TRUE
-fisherman	fisherman’s sweater	clothing	torso			TRUE	FALSE
-mitts	rabbitskin mitts	clothing	hands	rabbit		TRUE	TRUE
-gloves	tactical gloves	clothing	hands			TRUE	TRUE
-ballistic	ballistic vest	clothing	accessories			TRUE	TRUE
-satchel	moose-hide satchel	clothing	accessories	moose		TRUE	TRUE
-insulation	improvised insulation	clothing	accessories	ptarmigan		TRUE	TRUE
-crampons	crampons	clothing	accessories			TRUE	TRUE
-improvcrampons	improvised crampons	clothing	accessories	metal		TRUE	TRUE
-snowpants	snowpants	clothing	legs			TRUE	FALSE
-deerpants	deerskin pants	clothing	legs	deer		TRUE	TRUE
-wolfpants	wolfskin pants	clothing	legs	wolf		TRUE	TRUE
-combatpants	combat pants	clothing	legs			TRUE	TRUE
-longjohns	thermal underwear	clothing	legs			TRUE	TRUE
-socks	(patterned) wool socks	clothing	feet			TRUE	TRUE
-deerboots	deerskin boots	clothing	feet	deer		TRUE	TRUE
+%KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	NOTE
+bed	bed	furniture	sleep	cedar		FALSE	TRUE	good
+bearbed	bear hide bed	furniture	sleep	fir		FALSE	TRUE	fine
+workbench	workbench	furniture	crafting	cedar		FALSE	TRUE	fine
+furnbench	furniture workbench	furniture	crafting	cedar		FALSE	TRUE	good
+forge	forge	furniture	crafting			FALSE	TRUE	good
+milling	milling machine	furniture	crafting			FALSE	TRUE	good
+radio	trader radio	furniture	trading			FALSE	TRUE	good
+trader	trade drop-box	furniture	trading			FALSE	TRUE	good
+potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	good
+grill	2-slot stove	furniture	cooking			FALSE	TRUE	good
+range	6-slot stove	furniture	cooking			FALSE	TRUE	good
+curing	curing box	furniture	cooking	fir		TRUE	TRUE	fine
+trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE	good
+rockcache	rock cache	furniture	storage	stone		TRUE	TRUE	good
+suitcase	suitcase	furniture	storage			TRUE	TRUE	good
+briefcase	briefcase	furniture	storage			FALSE	TRUE	fine
+maglens	magnifying lens	tools	light			TRUE	TRUE	good
+firestriker	firestriker	tools	light			TRUE	TRUE	fine
+matches	matches	tools	light			TRUE	TRUE	fine
+jerrycan	jerry can	tools	light			TRUE	TRUE	good
+lantern	lantern	tools	light			TRUE	TRUE	good
+spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE	
+cookpot	cookpot	tools	cooking			TRUE	TRUE	good
+skillet	skillet	tools	cooking			TRUE	TRUE	good
+thermos	insulated flask	tools	cooking			TRUE	TRUE	good
+distress	distress pistol	tools	hunting			TRUE	TRUE	fine
+dpammo	distress pistol ammo	tools	hunting			TRUE	TRUE	fine
+snare	snare	tools	hunting	reclaimed		TRUE	TRUE	good
+tipup	fishing tip-up	tools	hunting	reclaimed		TRUE	TRUE	fine
+hacksaw	hacksaw	tools	exploring			TRUE	TRUE	good
+hammer	heavy hammer	tools	exploring			TRUE	TRUE	good
+prybar	prybar	tools	exploring			TRUE	TRUE	good
+stim	emergency stim	tools	exploring			TRUE	TRUE	fine
+bedroll	cloth bedroll	tools	exploring			TRUE	TRUE	good
+rucksack	technical backpack	tools	exploring			TRUE	TRUE	good
+quality	quality tools	tools	crafting			TRUE	TRUE	fine
+simple	simple tools	tools	crafting			TRUE	TRUE	fine
+woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE	fine
+vice	workbench vice	misc	crafting			TRUE	TRUE	good
+battery	car battery	misc	crafting			TRUE	TRUE	
+transmitter	transmitter	misc	exploring			FALSE	TRUE	
+polaroid	polaroid	misc	exploring			TRUE	TRUE	
+recipe	recipe card	misc	exploring			TRUE	TRUE	
+bear	bear	natural	animal			TRUE	TRUE	good
+moose	moose	natural	animal			FALSE	TRUE	good
+deer	deer	natural	animal			FALSE	TRUE	good
+wolf	wolf	natural	animal			FALSE	TRUE	good
+poisonwolf	poisoned wolf	natural	animal			FALSE	TRUE	fine
+timberwolf	timberwolf	natural	animal			FALSE	TRUE	good
+cougar	cougar	natural	animal			FALSE	TRUE	fine
+rabbit	rabbit	natural	animal			FALSE	TRUE	good
+ptarmigan	ptarmigan	natural	animal			FALSE	TRUE	good
+fish	fishing	natural	animal			FALSE	TRUE	good
+birch	birch bark spawn	natural	nonanimal			FALSE	TRUE	fine
+salt	salt deposit	natural	nonanimal			TRUE	TRUE	good
+coal	coal spawn	natural	nonanimal			FALSE	TRUE	good
+beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE	good
+wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE	fine
+wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE	good
+aviator	aviator cap	clothing	head			TRUE	TRUE	good
+techbalaclava	technical balaclava	clothing	head			TRUE	TRUE	good
+balaclava	balaclava	clothing	head			TRUE	TRUE	good
+rabbithat	rabbitskin hat	clothing	head	rabbit		TRUE	TRUE	fine
+toque	wool toque	clothing	head			TRUE	TRUE	fine
+bearcoat	bearskin coat	clothing	outer-torso			TRUE	TRUE	to-improve
+expedition	expedition parka	clothing	outer-torso			TRUE	FALSE	fine
+wolfcoat	wolfskin coat	clothing	outer-torso			TRUE	TRUE	good
+cloak	moose-hide cloak	clothing	outer-torso			TRUE	TRUE	good
+flightjacket	flight jacket	clothing	outer-torso			TRUE	FALSE	fine
+peacoat	mariner’s peacoat	clothing	outer-torso			TRUE	TRUE	fine
+militarycoat	military coat	clothing	outer-torso			TRUE	TRUE	fine
+mackinaw	mackinaw jacket	clothing	outer-torso			TRUE	TRUE	fine
+urban	urban parka	clothing	outer-torso			TRUE	TRUE	good
+skijacket	ski jacket	clothing	outer-torso			TRUE	TRUE	fine
+simpleparka	simple parka	clothing	outer-torso			TRUE	TRUE	fine
+windbreaker	windbreaker	clothing	outer-torso			TRUE	TRUE	fine
+cowichan	cowichan sweater	clothing	torso			TRUE	FALSE	fine
+fisherman	fisherman’s sweater	clothing	torso			TRUE	FALSE	good
+jersey	festive sweater or hockey jersey	clothing	torso			TRUE	TRUE	good
+shirt	wool shirt	clothing	torso			TRUE	FALSE	good
+sweater	thin wool sweater	clothing	torso			TRUE	TRUE	good
+gloves	tactical gloves	clothing	hands			TRUE	TRUE	good
+gauntlets	gauntlets	clothing	hands			TRUE	FALSE	fine
+mitts	rabbitskin mitts	clothing	hands	rabbit		TRUE	TRUE	fine
+woolmitts	wool mittens	clothing	hands			TRUE	FALSE	fine
+insulation	improvised insulation	clothing	accessories	ptarmigan		TRUE	TRUE	fine
+earwrap	wool ear wrap	clothing	accessories			TRUE	TRUE	to-improve
+crampons	crampons	clothing	accessories			TRUE	TRUE	fine
+improvcrampons	improvised crampons	clothing	accessories	metal		TRUE	TRUE	fine
+satchel	moose-hide satchel	clothing	accessories	moose		TRUE	TRUE	fine
+ballistic	ballistic vest	clothing	accessories			TRUE	TRUE	fine
+wolfpants	wolfskin pants	clothing	legs	wolf		TRUE	TRUE	good
+snowpants	snowpants	clothing	legs			TRUE	FALSE	fine
+deerpants	deerskin pants	clothing	legs	deer		TRUE	TRUE	good
+combatpants	combat pants	clothing	legs			TRUE	TRUE	good
+minerspants	miner’s pants	clothing	legs			TRUE	TRUE	fine
+climbsocks	climbing socks	clothing	bottom			TRUE	FALSE	fine
+socks	(patterned) wool socks	clothing	bottom			TRUE	TRUE	good
+longjohns	wool long johns	clothing	bottom			TRUE	FALSE	fine
+underwear	thermal underwear	clothing	bottom			TRUE	TRUE	good
+skiboots	ski boots	clothing	feet			TRUE	FALSE	good
+insulboots	insulated boots	clothing	feet			TRUE	TRUE	fine
+deerboots	deerskin boots	clothing	feet	deer		TRUE	TRUE	fine
+mukluks	mukluks	clothing	feet			TRUE	FALSE	fine
+chemboots	chemical boots	clothing	feet			TRUE	TRUE	good
+combatboots	combat boots	clothing	feet			TRUE	TRUE	good

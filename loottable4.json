@@ -1,0 +1,602 @@
+{
+	"bases": {
+      "GoldMine": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "coal,ptarmigan",
+          "bed,grill,workbench",
+          "-rucksack,-crampons,-matches"
+        ]
+      },
+      "WolfsJawOverlook": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": false,
+        "explored": true,
+        "features": [
+          "+polaroid"
+        ]
+      },
+      "StoneShelfCave": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "birch"
+        ]
+      },
+      "CaveToAC": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "coal","-cookpot"
+        ]
+      },
+      "ClimbersCave": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "ptarmigan"
+        ]
+      },
+      "LongFallsCave": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "coal,wolf,"
+        ]
+      },
+      "MinersFolly": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "bear","bed,workbench,grill,-woodworking"
+        ]
+      },
+      "ForemansRetreat": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "ptarmigan",
+          "bed,grill,-skillet,-recipe"
+        ]
+      },
+      "FireOverlookCave": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "deer"
+        ]
+      },
+      "Homesteader": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "bed,grill","-combatpants,-windbreaker,-earwrap,-matches"
+        ]
+      },
+      "AnglersDen": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "birch,bear",
+          "potbelly,bed,workbench",
+          "-matches,-cookpot"
+        ]
+      },
+      "HighMeadow": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": false,
+        "explored": true,
+        "features": [
+          ""
+        ]
+      },
+      "BitterMarshFishHut": {
+        "region": "AshCanyon",
+        "customizable": false,
+        "loading": false,
+        "cabinfeverrisk": false,
+        "indoors": false,
+        "explored": true,
+        "features": [
+          "fish",
+          "potbelly",
+          "-lantern"
+        ]
+      },
+      "ACPrepperCache": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": true,
+        "features": [
+          "-polaroid"
+        ]
+      },
+		"CaveFromAC": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear,deer","birch,coal"]
+		},
+		"TWMPrepperCache": {
+			"region": "TimberwolfMountain",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed","-recipe/.2"]
+		},
+		"WingArea": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["ptarmigan,wolf","-spelunker"]
+		},
+		"ForestCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["birch,ptarmigan"]
+		},
+		"TWMFishHut": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["fish","potbelly"]
+		},
+		"Mountaineer": {
+			"region": "TimberwolfMountain",
+			"customizable": true,
+			"loading": false,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear,rabbit,birch",
+						"bed,grill,workbench",
+						"-hacksaw"
+						]
+		},
+		"SecludedShelfCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk": true,
+			"indoors": true,
+			"explored": true,
+			"features": ["coal,ptarmigan"]
+		},
+		"SummitCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["ptarmigan"]
+		},
+		"WaterfallCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":false,
+			"features": ["deer,wolf"]
+		},
+		"CaveFromBRM": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored": false,
+			"features": ["coal"]
+		},
+		"EchoRavine": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["ptarmigan,wolf"]
+		},
+		"TailSection": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["ptarmigan,wolf","-firestriker,-hammer,-thermos, -stim, -distress","-toque,-earwrap,-simpleparka,-socks,-crampons/.5"]
+		},
+		"CaveBelowAndresPeak": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear,wolf"]
+		},
+		"EngineCaveEast": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":false,
+			"features": ["coal"]
+		},
+		"EngineCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":false,
+			"features": ["coal"]
+		},
+		"Joplin": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,workbench"]
+		},
+		"JoplinHuntersBlind": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":false,
+			"features": ["ptarmigan"]
+		},
+		"CrashSiteAndBurnedRidgeCave": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed","-polaroid"]
+		},
+		"SkeetersRidge": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["wolf"]
+		},
+		"DraftDodgersCabin": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed"
+			]
+		},
+		"PointOfDisagreement": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["wolf"]
+		},
+		"ArcheryBarn": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear,deer,birch",
+						"workbench, grill,"
+			]
+		},
+		"CommunityHall": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["range,bed","radio,-recipe"]
+		},
+		"CaveWestOfUpperFalls": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":false,
+			"features": ["rabbit"
+			]
+		},
+		"PensivePond": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["potbelly,fish","-maglens,-thermos"]
+		},
+		"PVFarm": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["deer",
+						"bed,range,workbench",
+						"-cookpot,-skillet,-simple,-skijacket,-sweater"
+			]
+		},
+		"MollysBarn": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear","bed,grill"
+			]
+		},
+		"HilltopCaveAndHuntersBlind": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,deer","-hacksaw"
+			]
+		},
+		"SignalHill": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,workbench","-hammer,-battery,+transmitter,+polaroid"
+			]
+		},
+		"CaveToPV": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear,coal"]
+		},
+		"UnnamedRiverCave": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": [""]
+		},
+		"EndOfTheRoadCave": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": [""]
+		},
+
+		"EmptyBearCave": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["ptarmigan"]
+		},
+
+		"MistyFallsCave": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["coal"]
+		},
+
+
+		"ThompsonsCrossing": {
+			"region": "PleasantValley",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed,grill","-prybar"]
+		},
+		"BarnNorthOfPVFarm": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["wolf"]
+		},
+		"ThreeStrikes": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["wolf","grill","-jerrycan"]
+		},
+		"CurrentInventory": {
+			"region": "Inventory",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": [""
+						]
+		}
+	},
+  	"connections":[
+			"--------AshCanyon-------",
+		    ["GoldMine", "south", "bottom,right", "StoneShelfCave", "top,left", "todo"],
+			["GoldMine", "east", "top,right", "WolfsJawOverlook", "top,left", "todo"],
+			["WolfsJawOverlook", "east", "top,right", "LongFallsCave", "top,left", "todo"],
+			["LongFallsCave", "south", "bottom,left", "AnglersDen", "top,left", "todo"],
+			["LongFallsCave", "east", "top,right", "MinersFolly", "top,left", "todo"],
+			["MinersFolly", "south", "bottom,left", "ForemansRetreat", "top,left", "todo"],
+			["ForemansRetreat", "south", "bottom,left", "FireOverlookCave", "top,left", "todo"],
+			["ForemansRetreat", "west", "top,left", "AnglersDen", "top,right", "oneway"],
+            ["FireOverlookCave", "south", "bottom,left", "Homesteader", "top,left", "todo"],
+			["FireOverlookCave", "west", "top,left", "HighMeadow", "top,right", "todo"],
+			["HighMeadow", "west", "top,left", "ClimbersCave", "top,right", "todo"],
+			["ClimbersCave", "south", "bottom,right", "BitterMarshFishHut", "top,left", "oneway"],
+            ["HighMeadow", "north", "top,right", "AnglersDen", "bottom,right", "oneway"],
+            ["BitterMarshFishHut", "east", "top,right", "Homesteader", "bottom,left", "todo"],
+			["StoneShelfCave", "north", "top,right", "WolfsJawOverlook", "bottom,right", "todo"],
+			["StoneShelfCave", "east", "bottom,right", "AnglersDen", "bottom,left", "todo"],
+			["StoneShelfCave", "south", "bottom,left", "CaveToAC", "top,left", "todo"],
+			["AnglersDen", "south", "bottom,right", "BitterMarshFishHut", "top,right", "path"],
+			["CaveToAC", "east", "top,right", "ClimbersCave", "top,left", "todo"],
+			["CaveToAC", "west", "top,left", "CaveFromAC", "top,right", "todo"],
+			["ClimbersCave", "south", "bottom,left", "ACPrepperCache", "top,right", "todo"],
+			"--------Timberwolf--------",
+			["CaveFromAC", "west", "top,left", "SecludedShelfCave", "top,right", "todo"],
+			["CaveFromAC", "south", "bottom,right", "TWMPrepperCache", "top,right", "todo"],
+			["TWMPrepperCache", "south", "bottom,right", "WingArea", "top,right", "todo"],
+			["WingArea", "south", "bottom,left", "ForestCave", "top,left", "todo"],
+			["WingArea", "north", "top,left", "EngineCaveEast", "bottom,right", "todo"],
+			["ForestCave", "west", "bottom,left", "TWMFishHut", "top,right", "todo"],
+			["WingArea", "east", "top,right", "EchoRavine", "top,left", "todo"],
+			["EchoRavine", "north", "top,left", "BitterMarshFishHut", "bottom,left", "todo"],
+			["TWMFishHut", "west", "bottom,left", "Mountaineer", "bottom,right", "tinder"],
+			["Mountaineer", "west", "top,left", "CaveBelowAndresPeak", "top,right","todo"],
+			["CaveBelowAndresPeak", "north", "top,left", "EngineCave", "bottom,left", "todo"],
+			["EngineCave", "north", "top,left", "CaveFromBRM", "bottom,right", "todo"],
+			["Mountaineer", "south", "bottom,left", "Joplin", "top,right", "todo"],
+			["SecludedShelfCave", "south", "bottom,left", "SummitCave", "top,right", "todo"],
+			["SecludedShelfCave", "west", "top,left", "WaterfallCave", "top,right", "todo"],
+			["WaterfallCave", "west", "top,left", "CaveFromBRM", "top,right", "oneway"],
+			["SummitCave", "south", "bottom,right", "TailSection", "top,right", "todo"],
+			["EngineCaveEast", "west", "bottom,left", "EngineCave", "bottom,right", "todo"],
+			["TailSection", "west", "bottom,left", "CaveBelowAndresPeak", "top,right", "oneway"],
+			"--------PleasantValley--------",
+			["Joplin", "south", "bottom,right", "PointOfDisagreement", "top,right", "todo"],
+			["Joplin", "west", "top,left", "JoplinHuntersBlind", "top,right", "todo"],
+			["JoplinHuntersBlind", "west", "top,left", "CrashSiteAndBurnedRidgeCave", "top,right", "todo"],
+			["PointOfDisagreement", "east", "top,right", "EmptyBearCave", "top,left", "path"],
+			["PointOfDisagreement", "west", "bottom,left", "SkeetersRidge", "bottom,right", "path"],
+			["Joplin", "east", "bottom,right", "MistyFallsCave", "bottom,left", "path"],
+			["MistyFallsCave", "south", "bottom,left", "EmptyBearCave", "top,left", "path"],
+			["EmptyBearCave", "south", "bottom,left", "UnnamedRiverCave", "top,left", "todo"],
+			["UnnamedRiverCave", "south", "bottom,left", "EndOfTheRoadCave", "top,left", "todo"],
+			["EndOfTheRoadCave", "south", "bottom,left", "UpperMineFromCH", "top,left", "todo"],
+			["UnnamedRiverCave", "west", "top,left", "ArcheryBarn", "top,right", "todo"],
+			["ArcheryBarn", "south", "bottom,right", "CommunityHall", "top,right", "todo"],
+			["EndOfTheRoadCave", "west", "bottom,left", "CommunityHall", "top,right", "todo"],
+			["CommunityHall", "west", "top,left", "ThompsonsCrossing", "top,right","path"],
+			["ThompsonsCrossing", "south", "bottom,left", "PensivePond", "top,left", "todo"],
+			["CommunityHall", "south", "bottom,right", "CaveWestOfUpperFalls", "top,right", "todo"],
+			["CaveWestOfUpperFalls", "west", "bottom,left", "PensivePond", "top,right", "todo"],
+			["PensivePond", "west", "bottom,left", "CaveToPV", "bottom,right", "todo"],
+			["SignalHill", "south", "bottom,left", "HilltopCaveAndHuntersBlind", "top,left", "todo"],
+			["HilltopCaveAndHuntersBlind", "south", "bottom,right", "CaveToPV", "top,left", "todo"],
+			["HilltopCaveAndHuntersBlind", "north", "top,right", "MollysBarn", "bottom,left", "todo"],
+			["MollysBarn", "west", "top,left", "SignalHill", "bottom,right", "todo"],
+			["MollysBarn", "north", "top,left", "PVFarm", "bottom,left", "todo"],
+			["SignalHill", "north", "top,left", "KPSTrailer", "bottom,right", "todo"],
+			["PVFarm", "east", "top,right", "ArcheryBarn", "top,left", "todo"],
+			["PVFarm", "north", "top,right", "DraftDodgersCabin", "bottom,left", "todo"],
+			["PVFarm", "north", "top,left", "BarnNorthOfPVFarm", "bottom,left", "todo"],
+			["BarnNorthOfPVFarm", "north", "top,left", "ThreeStrikes", "bottom,left", "todo"],
+			["ArcheryBarn", "north", "top,left", "DraftDodgersCabin", "bottom,right", "todo"],
+			["CrashSiteAndBurnedRidgeCave", "south", "bottom,right", "SkeetersRidge", "top,left", "todo"],
+			["SkeetersRidge","south","bottom,left", "DraftDodgersCabin", "top,left", "todo"]
+	]
+
+  }

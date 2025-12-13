@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="56"
+   height="56"
+   viewBox="0 0 56 56"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="chemboots.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.6083333"
+     inkscape:cx="28.048569"
+     inkscape:cy="28.048569"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="polygon1"
+     d="M 14 0 L 14 2 L 32 2 L 32 0 Z M 34 0 L 34 2 L 56 2 L 56 0 Z M 14 4 L 14 6 L 32 6 L 32 4 Z M 34 4 L 34 6 L 56 6 L 56 4 Z M 14 8 L 14 36 C 13.9951 39.4192 11.8457 42.4678 8.62695 43.6211 L 4.04688 45.2617 C 1.95696 45.9944 0.436492 47.8133 0.085937 50 L 18.0781 50 C 18.4539 46.9715 20.5 44.4113 23.3711 43.377 L 27.9551 41.7402 C 30.3786 40.8708 31.9966 38.5748 32 36 L 32 8 Z M 34 8 L 34 36 C 33.9953 39.4191 31.847 42.4681 28.6289 43.623 L 24.0449 45.2598 C 21.9639 46.0069 20.4485 47.8195 20.082 50 L 56 50 L 56 8 Z M 16 10 L 18 10 L 18 12 L 16 12 Z M 36 10 L 38 10 L 38 12 L 36 12 Z M 16 14 L 18 14 L 18 25 L 16 25 Z M 36 14 L 38 14 L 38 25 L 36 25 Z M 0 52 L 0 56 L 2 56 L 2 54 L 4 54 L 4 56 L 6 56 L 6 54 L 8 54 L 8 56 L 10 56 L 10 54 L 12 54 L 12 56 L 14 56 L 14 54 L 16 54 L 16 56 L 18 56 L 18 52 Z M 20 52 L 20 56 L 22 56 L 22 54 L 24 54 L 24 56 L 25 56 L 26 56 L 26 54 L 28 54 L 28 56 L 30 56 L 30 54 L 32 54 L 32 56 L 34 56 L 34 54 L 36 54 L 36 56 L 37 56 L 39.5312 56 L 42.8652 52 Z M 46 52 L 46 56 L 48 56 L 48 54 L 50 54 L 50 56 L 52 56 L 52 54 L 54 54 L 54 56 L 56 56 L 56 52 Z"
+     style="fill:#000000" />
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="95.099998"
+   height="95.099998"
+   viewBox="0 0 95.099998 95.099998"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="polaroid.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="6.7941176"
+     inkscape:cx="51.809524"
+     inkscape:cy="63.952381"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="path1"
+     d="M 4.6994126,1.9473706e-4 C 2.2994128,1.9473706e-4 0.40058465,1.900976 0.40058465,4.3009759 V 90.800976 C 0.40058465,93.200976 2.2994128,95.099804 4.6994126,95.099804 H 90.400584 C 92.800584,95.099804 94.699414,93.200976 94.699414,90.800976 V 4.3009759 C 94.599414,1.900976 92.700974,1.9473706e-4 90.300974,1.9473706e-4 Z M 8.9005846,8.5001947 H 86.099802 V 68.000195 H 8.9005846 Z M 65.000193,17.099804 A 6.5999999,6.5999999 0 0 0 58.400584,23.699414 6.5999999,6.5999999 0 0 0 65.000193,30.300976 6.5999999,6.5999999 0 0 0 71.599802,23.699414 6.5999999,6.5999999 0 0 0 65.000193,17.099804 Z M 39.312693,26.000195 C 38.750193,26.025195 38.200584,26.300976 37.900584,26.800976 L 19.099802,56.800976 C 18.299802,58.000976 19.100193,59.500195 20.500193,59.500195 H 74.199412 C 75.599412,59.500195 76.499802,57.899414 75.599802,56.699414 L 62.400584,38.099804 C 61.800584,37.199804 60.499412,37.100586 59.699412,37.900586 L 55.000193,42.500195 C 54.200193,43.200195 53.000974,43.100976 52.300974,42.300976 L 40.800974,26.699414 C 40.450974,26.199414 39.875193,25.975195 39.312693,26.000195 Z"
+     style="fill:#000000" />
+</svg>

@@ -4,7 +4,7 @@
 <defs>
 </defs>
 <g id="Misanthrope">
-<rect x="1.25" y="1.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="white" stroke-width="2.5" stroke="black" />
+<rect x="1.25" y="1.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="Misanthrope:features">
 <g id="bear:Misanthrope:0:0">
 <g id="import" transform="translate(8.75, 30.0) scale(0.13959461723155955)">
@@ -90,7 +90,7 @@
 </g>
 </g>
 <g id="Misanthrope:header">
-<text x="41.25" y="19.346590909090907" font-size="9.886363636363637" font-family="Arial" stroke="red" font-style="" fill="red" text-anchor="middle">Misanthrope</text>
+<text x="41.25" y="19.346590909090907" font-size="9.886363636363637" font-family="Arial" stroke="#a62f5f" font-style="" fill="#a62f5f" text-anchor="middle">Misanthrope</text>
 </g>
 </g>
 </svg>

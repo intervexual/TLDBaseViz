@@ -59,7 +59,7 @@ class BaseFeature:
         self.filepath = 'assets/' + ASSETS[self.name]
     def __repr__(self):
         return f'{self.name}:{self.material}'
-    def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour='white'):
+    def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour=HEXES[BASE]):
         if self.alt_text:
             font_size = font_size_for_box(self.alt_text, wid, hei)
             mid_y = y + hei/2
@@ -73,6 +73,7 @@ class BaseFeature:
             import_svg(g, self.filepath, x=x, y=y, wid=wid,
                    hei=hei, fill=self.hex)
         # shading for probabalistic features
+        # TODO this does not work for dark background!!!
         if self.probability < 1:
             g.append(draw.Rectangle(x,y,wid,hei,fill=bg_colour,opacity=self.probability))
 
@@ -389,7 +390,8 @@ class BaseLocation:
         self.box_width += self.margin_size # to allow for connections to be aligned when going downward from the right
 
         return self.box_width, self.box_height, self.cell_size, self.margin_size
-    def draw_base_box(self, d, x=0, y=0, fill='white', border='black'):
+    def draw_base_box(self, d, x=0, y=0,
+                      fill=HEXES[BG], border=HEXES[BASE], outdoor=HEXES[OUTDOOR], unexplored=HEXES[UNEXPLORED]):
         """
         Draw just the box for the base.
         :param d: drawing object
@@ -419,7 +421,9 @@ class BaseLocation:
 
         stroke_opacity = 1
         if not self.customizable:
-            stroke_opacity = OUTDOOR_OPACITY
+            border = outdoor
+        if not self.explored:
+            border = unexplored
 
         margin = self.margin_size/2
         self.box_top = self.box_y + margin
@@ -470,7 +474,7 @@ class BaseLocation:
             icon_y += self.cell_size
         d.append(g)
         return self.feature_grid_top
-    def draw_header(self, d, x=0, y=0, text_colour='black', border='black', unexplored='red'):
+    def draw_header(self, d, x=0, y=0, text_colour=HEXES[BASE], border=HEXES[BASE], unexplored=HEXES[UNEXPLORED]):
         """
         Draw just the grid of features (icons like wolf, coal)
         :param d: drawing object
@@ -528,7 +532,7 @@ class BaseLocation:
                             text_anchor='middle' ) )
         d.append(g)
 
-    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill='white', border='black', unexplored='red'):
+    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill=HEXES[BASE_BG], border=HEXES[BASE], unexplored=HEXES[UNEXPLORED]):
         """
         Draw the base with drawsvg
         :param d: Drawing object
@@ -556,7 +560,7 @@ class BaseLocation:
             x = self.box_x
             y = self.box_y
 
-        self.draw_base_box(g, x=x, y=y, fill=fill, border=border)
+        self.draw_base_box(g, x=x, y=y, fill=fill, border=border, unexplored=unexplored)
         self.draw_feature_grid(g, x=x, y=y)
         self.draw_header(g, x=x, y=y, border=border, unexplored=unexplored )
 
@@ -566,7 +570,7 @@ class BaseLocation:
     def draw_connection(self, d, neighbour, arrow_ratio=1.0,
                         most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0,
                         print_output=False,
-                        unexplored='green', border='black'):
+                        unexplored=HEXES[UNEXPLORED], border=HEXES[BASE]):
         """
         Draw connection from self to neighbouring base
         :param d: drawing object
@@ -577,7 +581,7 @@ class BaseLocation:
         >>> d = draw.Drawing(w*3, h*3)
         >>> bases['Hibernia'].draw(d, 20, y=h, x=w)
         >>> (bases['Hibernia'].box_top, bases['Hibernia'].box_bottom, bases['Hibernia'].box_left, bases['Hibernia'].box_right)
-        (103.75, 203.75, 83.75, 163.75)
+        (123.75, 243.75, 103.75, 203.75)
         >>> [bases['Hibernia'].edges_drawn['Riken'], bases['Riken'].edges_drawn['Hibernia']]
         [False, False]
         >>> bases['Hibernia'].draw_connection(d, bases['Riken'])
@@ -590,10 +594,10 @@ class BaseLocation:
         [True, True]
         >>> bases['Hibernia'].draw_connection(d, bases['No5Mine'])
         >>> bases['Riken'].draw_connection(d, bases['LittleIsland'])
-        >>> bases['No5Mine'].add_connection(BaseConnection("No5Mine", "east", "top,right", "BrokenBridge", "top,right", "path", colours))
+        >>> bases['No5Mine'].add_connection(BaseConnection("No5Mine", "east", "top,right", "BrokenBridge", "top,left", "path", colours))
         >>> bases['No5Mine'].draw_connection(d, bases['BrokenBridge'])
-        >>> bases['Hibernia'].add_connection(BaseConnection("Hibernia", "west", "bottom,left", "No3Mine", "top,right", "tinder", colours))
-        >>> bases['Hibernia'].draw_connection(d, bases['No3Mine'])
+        >>> bases['Hibernia'].add_connection(BaseConnection("Hibernia", "west", "bottom,left", "LonelyLighthouse", "top,right", "tinder", colours))
+        >>> bases['Hibernia'].draw_connection(d, bases['LonelyLighthouse'])
         >>> d.save_svg('tests/hibernia.svg')
         """
         neigh_name = neighbour.name
@@ -673,7 +677,7 @@ def font_size_for_box(s, max_text_width, max_text_height):
 
     pixels_per_letter = max_text_width / len(s)
     font_size = pixels_per_letter * 1.5  # times 1.75 roughly fills the area, but is too tall
-    # changing to 1.5 to ensure margins on the sides
+    # changing to 1.25 to ensure margins on the sides
 
     # print(self.name, max_text_bottom, max_text_height, max_text_width, font_size, pixels_per_letter)
 
@@ -698,11 +702,11 @@ def status_from_capitalization(s):
     'remove'
     >>> status_from_capitalization('+Trunk')
     'planned'
-    >>> status_from_capitalization('@+Trunk')
+    >>> status_from_capitalization('#+Trunk')
     'planned'
     >>> status_from_capitalization('-Trunk')
     'remove'
-    >>> status_from_capitalization('@-Trunk')
+    >>> status_from_capitalization('#-Trunk')
     'remove'
     >>> status_from_capitalization('')
     'actual'
@@ -806,7 +810,7 @@ def process_input(filename='bases.json', to_print=False):
     [workbench:cedar, furnbench:cedar, bearbed:fir]
     ---
     >>> bases.keys()
-    dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
+    dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'LonelyLighthouse', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
     """
     bases, edges = parse_input(filename)
     colours = HEXES
@@ -851,7 +855,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (660.0, 762.5, 101.25, 761.25, 11.25, 773.75)
+    (660.0, 782.5, 101.25, 761.25, 11.25, 793.75)
     """
     for b in bases:
         bob = bases[b]
@@ -903,7 +907,8 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     Draw all bases
     :param bases:
     :return:
-    >>> bases, colours = process_input('tests/testinput.json')
+    >>> bases, edges = process_input('tests/testinput.json')
+    >>> colours = HEXES
     >>> draw_bases(bases, colours, add_legend=False, print_output=True)
     Visiting UpperMine
         Drawing UpperMine
@@ -938,6 +943,8 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     Visiting Hibernia
             Drawing BrokenBridge as child of Hibernia
             Drawing Riken as child of Hibernia
+    Visiting LonelyLighthouse
+        Drawing LonelyLighthouse
     Visiting BrokenBridge
     Visiting Riken
             Drawing LittleIsland as child of Riken
@@ -945,11 +952,11 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     Visiting MTFarm
     """
     d = draw.Drawing(width, height)
-    d.append(draw.Rectangle(0,0,d.width,d.height,fill='white'))
+    d.append(draw.Rectangle(0,0,d.width,d.height,fill=colours[BG]))
     visited = []
 
     gb = draw.Group(id='bases')
-    unexplored_colour = colours[BRING]
+    unexplored_colour = colours[UNEXPLORED]
 
     for b in bases:
         if print_output:
@@ -977,9 +984,19 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     d.append(gb)
     #d.append(draw.Use(gb, 0, 0))
 
+    if CURR_INVENTORY in bases:
+        to_bring, to_take = verify_taking_numbers(bases)
+        out_bring = 'outstanding bring'
+        out_take = 'outstanding take'
+        bob = special_base(bases, out_bring, to_bring, CURR_INVENTORY, SOUTH)
+        tob = special_base(bases, out_take, to_take, out_bring, SOUTH)
+        bases[CURR_INVENTORY].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE])
+        bases[out_bring].draw_connection(d, tob, unexplored=colours[BRING], border=colours[BRING])
+
     if add_legend:
         counts = count_features(bases)
         draw_legend(d, colours, x=d.width-210, y=200, counts=counts)
+
 
     d.save_svg(output)
     if output_png:
@@ -1060,7 +1077,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     7
     >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
     20
-    >>> nums['lantern'] # 7 in world, I carry one with me
+    >>> nums['lantern'] + nums['spelunker'] # 7 in world, I carry one with me
     7
     >>> nums["firestriker"] # 4 in world, I carry one with me. None at Trapper or Quonset.
     4
@@ -1098,21 +1115,35 @@ def verify_taking_numbers(bases):
     """
     Verify that for each feature, the number of items flagged as to-take equals the number of items flagged as to-bring.
     :param bases: list of BaseLocation objects
-    :return:
+    :return: list of unaccounted things to take, list of unaccounting things to bring
     >>> bases, colurs = process_input('mybases.json')
-    >>> verify_taking_numbers(bases)
+    >>> t, b = verify_taking_numbers(bases)
+    >>> len(b) == 0
     True
     """
     to_take = count_features(bases, statuses_to_count=[TAKE])
     to_bring = count_features(bases, statuses_to_count=[BRING])
     issues_found = False
+    unknown_take = []
+    unknown_bring = []
     for a in to_bring:
         if to_bring[a] != to_take[a]:
-            if not issues_found:
-                print('key', 'to_bring', 'to_take', 'same?')
-                issues_found = True
-            print(a, to_bring[a], to_take[a], to_bring[a] == to_take[a])
-    return not issues_found
+            if a != EMPTY:
+                if not issues_found:
+                    issues_found = True
+                diff = to_bring[a] - to_take[a]
+
+                posn = '+'
+                if diff > 0:
+                    posn = '-'
+
+                to_add = ','.join(abs(math.ceil(diff)) * [posn + a])
+                if diff > 0:
+                    unknown_take += [to_add]
+                else:
+                    unknown_bring += [to_add]
+
+    return unknown_take, unknown_bring
 
 
 def convert_edge_info(bases):
@@ -1296,17 +1327,17 @@ def legends_for_documentation():
 
     icon_wid = 50
     cell_wid = icon_wid * (1 + 1 / 8)
-    text_factor = 0.5
+    text_factor = 1/3
     text_hei = icon_wid*text_factor
-    cell_hei = cell_wid + text_hei
+    cell_hei = cell_wid + text_hei*3
 
     legend_colour = 'black'
 
     for g in group_n:
         d = draw.Drawing(cell_wid * group_max_cols[g], cell_hei*group_max_rows[g])
         d.append(draw.Rectangle(0,0,d.width,d.height, fill='white'))
-        print(g, group_n[g], group_cols[g])
-        start_x =  cell_wid - icon_wid
+        #print(g, group_n[g], group_cols[g])
+        start_x =  (cell_wid - icon_wid)/2
         icon_x = start_x
         text_x = start_x + icon_wid/2
         icon_y = start_x
@@ -1330,9 +1361,16 @@ def legends_for_documentation():
 
                 import_svg(d, 'assets/' + lob.filename, x=icon_x, y=icon_y, wid=icon_wid,
                            hei=icon_wid, fill=fill_colour)
-                legend_font_size = font_size_for_box(lob.description, cell_wid, text_hei)
+
+                legend_font_size = font_size_for_box(lob.description, icon_wid, text_hei)
+                key_str = '"'+ lob.key + '"'
+                key_font_size = font_size_for_box(key_str, icon_wid, text_hei)
+
                 d.append(draw.Text(lob.description, legend_font_size, font_family=FONTFAM,
                                    x=text_x, y=text_y, text_anchor='middle',
+                                   fill=fill_colour))
+                d.append(draw.Text(key_str, key_font_size, font_family=KEYFONTFAM,
+                                   x=text_x, y=text_y+text_hei, text_anchor='middle',
                                    fill=fill_colour))
                 icon_x += cell_wid
                 text_x += cell_wid
@@ -1343,9 +1381,18 @@ def legends_for_documentation():
     theme_n = list(set(theme_n))
 
 
-if __name__ == '__main__':
-    doctest.testmod()
+def special_base(bases, name, features, connec_name, connec_dir):
+    tob = BaseLocation(name,
+                       {REGION: 'notingame', CUSTOMIZABLE: False, LOADING: False, INDOORS: False, FEATURES: features,
+                        EXPLORED: False, CABINFEVERRISK: False}, colours=HEXES)
+    conn = BaseConnection(connec_name, connec_dir, 'bottom,left', name, 'top,left', 'todo')
+    bases[connec_name].add_connection(conn)
+    tob.add_connection(conn)
+    bases[name] = tob
+    return tob
 
+
+if __name__ == '__main__':
     if len(sys.argv) > 1:
         fname = sys.argv[1]
         print('Drawing', fname)
@@ -1355,5 +1402,6 @@ if __name__ == '__main__':
             # TODO automatically centre the base system rather than manually specifying
             draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2100, base_y=100, print_output=False)
 
-        else:
-            print('To run: python3 TLDBaseViz.py mybases.json')
+    else:
+        doctest.testmod()
+        print('To run: python3 TLDBaseViz.py mybases.json')

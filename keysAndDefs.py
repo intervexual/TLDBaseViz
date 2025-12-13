@@ -32,9 +32,12 @@ DESCRIPTIONS = 'descriptions'
 
 BASE = 'base'
 BASE_BG = 'basebg'
+BG = 'bg'
+OUTDOOR = 'outdoor'
 FIR = 'fir'
 CEDAR = 'cedar'
 BRING = 'bring'
+UNEXPLORED = BRING
 TAKE = 'take'
 DESTROY = 'destroy'
 PATH = 'path'
@@ -108,24 +111,26 @@ HEXES = parse_colours(raw_colours)
 
 OUTDOOR_OPACITY = 0.25
 FONTFAM = 'Arial'
+KEYFONTFAM = 'Courier New'
 
 CORN_X = 1
 CORN_Y = 0
 BIGNUM = 100000
 
 PROBABILITY_DELIM = '/'
-TOTEXT = '@'
+TOTEXT = '#'
 TOBRING = '+'
 TOREMOVE = '-'
 TABSIZE = 4
 
 REGION = 'region'
 INVENTORY = 'Inventory'
+CURR_INVENTORY = 'CurrentInventory'
 
 TRUES = ['true', '''"true"''']
 
 class LegendAsset:
-    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper):
+    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper, note='', extra=''):
         self.key = key
         self.filename = key + '.svg'
         self.description = descrip

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80"
+   height="80"
+   viewBox="0 0 80 80"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="battery.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.2010417"
+     inkscape:cx="125.30789"
+     inkscape:cy="285.16912"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     d="M 0,66.4998 H 80 V 73.8982 H 0 Z"
+     id="path1"
+     style="fill:#000000" />
+  <path
+     d="M 4.398,26.1988 V 63.1988 H 75.597 V 26.1988 Z M 20.398,45.8008 H 9 C 8.10156,45.8008 7.3008,45.00002 7.3008,44.1016 7.3008,43.20316 8.10158,42.4024 9,42.4024 H 20.398 C 21.29644,42.4024 22.0972,43.10162 22.0972,44.1016 22.101106,45.1016 21.30032,45.8008 20.398,45.8008 Z M 47.5,43.1992 38.8008,60.0002 C 38.50002,60.60176 38.00002,61.0002 37.3008,61.0002 37.19924,61.0002 37.00002,61.0002 36.8008,60.89864 36.00002,60.69942 35.5,59.89864 35.6016,59.09784 L 36.6016,48.49584 34,48.499746 C 33.39844,48.499746 32.8984,48.198966 32.6016,47.698966 32.30082,47.198966 32.30082,46.597366 32.50004,46.097366 L 41.10164,29.199366 C 41.50008,28.500146 42.30084,28.097766 43.10164,28.398586 43.90242,28.597806 44.40244,29.398586 44.30084,30.199386 L 43.30084,40.801386 H 46.00004 C 46.6016,40.801386 47.10164,41.102166 47.39844,41.602166 47.69922,42.102166 47.69922,42.699866 47.5,43.199866 Z M 71,45.8008 H 67 V 49.8008 C 67,50.69924 66.30078,51.5 65.3008,51.5 64.40236,51.5 63.6016,50.80078 63.6016,49.8008 V 45.8008 H 59.6016 C 58.70316,45.8008 57.9024,45.00002 57.9024,44.1016 57.9024,43.20316 58.70318,42.4024 59.6016,42.4024 H 63.6016 V 38.4024 C 63.6016,37.50396 64.30082,36.7032 65.3008,36.7032 66.19924,36.7032 67,37.40242 67,38.4024 V 42.4024 H 71 C 71.89844,42.4024 72.6992,43.10162 72.6992,44.1016 72.6992,45.10158 71.89842,45.8008 71,45.8008 Z"
+     id="path2"
+     style="fill:#000000" />
+  <path
+     d="M 0,15.3978 H 80 V 22.7962 H 0 Z"
+     id="path3"
+     style="fill:#000000" />
+  <path
+     d="M 6.199,6.1018 H 13.0974 V 12.1018 H 6.199 Z"
+     id="path4"
+     style="fill:#000000" />
+  <path
+     d="M 66.898,6.1018 H 73.7964 V 12.1018 H 66.898 Z"
+     id="path5"
+     style="fill:#000000" />
+</svg>
