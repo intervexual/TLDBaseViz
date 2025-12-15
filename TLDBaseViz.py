@@ -59,7 +59,7 @@ class BaseFeature:
         self.filepath = 'assets/' + ASSETS[self.name]
     def __repr__(self):
         return f'{self.name}:{self.material}'
-    def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour=HEXES[BASE]):
+    def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour=HEXES[BASE], opacity=0.5):
         if self.alt_text:
             font_size = font_size_for_box(self.alt_text, wid, hei)
             mid_y = y + hei/2
@@ -71,11 +71,7 @@ class BaseFeature:
                                font_style='italic')) # , text_decoration='underline'
         else:
             import_svg(g, self.filepath, x=x, y=y, wid=wid,
-                   hei=hei, fill=self.hex)
-        # shading for probabalistic features
-        # TODO this does not work for dark background!!!
-        if self.probability < 1:
-            g.append(draw.Rectangle(x,y,wid,hei,fill=bg_colour,opacity=self.probability))
+                   hei=hei, fill=self.hex, opacity=self.probability) # shading for probabalistic features
 
 class BaseConnection:
     def __init__(self, source, direction, source_corner, sink, sink_corner, kind, colours=False):

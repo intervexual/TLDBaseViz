@@ -112,6 +112,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Combat Boots by Amethyst Studio](https://thenounproject.com/icon/combat-4284934/)
 * [Combat Pants by Amethyst Studio](https://thenounproject.com/icon/clothes-3460975/)
 * [Cougar by Sahiruddin](https://thenounproject.com/icon/black-panther-8130495/)
+* [Cougar Claw Knife based on art by Abdullah Faisal](https://thenounproject.com/icon/knife-7071166/)
 * [Cougar Hide Wrap based on art by Flowicon](https://thenounproject.com/icon/cloak-6064491/)
 * [Cowichan Sweater by ferdizzimo](https://thenounproject.com/icon/sweater-4359556/)
 * [Crampons based on art by Vectors Point](https://thenounproject.com/icon/sandal-3242123/)
@@ -138,11 +139,13 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Hatchet by Studio Danro](https://thenounproject.com/icon/hatchet-8158017/)
 * [Heavy Hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
 * [Hockey Jersey / Festive Sweater by Andry Horvath](https://thenounproject.com/icon/sweater-5130736/)
-* [Hunter's Rifle by Graphic Nehar](https://thenounproject.com/icon/revolver-4109226/)
+* [Hunter's Revolver by Graphic Nehar](https://thenounproject.com/icon/revolver-4109226/)
+* [Hunting Knife by icongarage](https://thenounproject.com/icon/knife-5589049/)
 * [Hunting Rifle by Hey Rabbit](https://thenounproject.com/icon/rifle-4932408/)
 * [Improvised Crampons based on art by LSE Designs](https://thenounproject.com/icon/sandal-1245062/)
 * [Improvised Hatchet by farra nugraha](https://thenounproject.com/icon/knife-7755681/)
 * [Improvised Insulation based on art by Amethyst Stedio](https://thenounproject.com/icon/corset-5296859/)
+* [Improvised Knife based on art by J703](https://thenounproject.com/icon/knife-5354803/)
 * [Insulated Flask by AbtoCreative](https://thenounproject.com/icon/thermos-7022139/)
 * [Insulated Boots by Side Project](https://thenounproject.com/icon/boots-8106551/)
 * [Jerry Can by Nikita Kozin](https://thenounproject.com/icon/jerry-can-451668/)
@@ -182,6 +185,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Snowpants by Studio365](https://thenounproject.com/icon/pants-4690858/)
 * [Spelunker's Lantern by Teny Septiani](https://thenounproject.com/icon/lantern-8126016/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
+* [Survival Knife by Soremba](https://thenounproject.com/icon/knife-4460861/)
 * [Tactical Gloves modified from art by Abu Ibrahim Icon](https://thenounproject.com/icon/gloves-7651028/)
 * [Technical Backpack by johanna](https://thenounproject.com/icon/rucksack-580791/)
 * [Technical Balaclava by P Thanga Vignesh](https://thenounproject.com/icon/balaclava-1588527/)
@@ -222,6 +226,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 15. Bear processing locations?
 
 ### Coding/UX
+1. Add status "to find" distinct from "to bring" ('?')
+2. Distinguish "bring item"  from "craft item" (e.g. rabbit mitts to TWM)
+2. Add day # to visualization
 1. Command-line override of style file
 5. Opacity for probability doesn't work for dark background
 3. Use legend.csv to verify counts

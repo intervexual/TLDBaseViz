@@ -483,8 +483,6 @@
 			"explored":true,
 			"features": ["coal","-thermos/.2"]
 		},
-
-
 		"ThompsonsCrossing": {
 			"region": "PleasantValley",
 			"customizable": true,

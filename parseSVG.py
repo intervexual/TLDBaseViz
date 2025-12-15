@@ -161,7 +161,7 @@ def parse_path_style(p, output_warnings=True):
         return defaults
 
 
-def draw_path(d, s, style, transform=''):
+def draw_path(d, s, style, transform='', opacity=1.0):
     """
     :param s:
     :return:
@@ -184,9 +184,9 @@ def draw_path(d, s, style, transform=''):
         stroke_width = style['stroke-width']
 
     if transform:
-        p = draw.Path(fill=fill, stroke=stroke, stroke_width=stroke_width, transform=transform)
+        p = draw.Path(fill=fill, stroke=stroke, stroke_width=stroke_width, transform=transform, opacity=opacity)
     else:
-        p = draw.Path(fill=fill, stroke=stroke, stroke_width=stroke_width)
+        p = draw.Path(fill=fill, stroke=stroke, stroke_width=stroke_width, opacity=opacity)
 
     #s = s.replace(' ','')
     sections = separate_svg_path(s)
@@ -225,7 +225,7 @@ def import_svg(d, fname,
                x = 0, y = 0, wid = 100, hei=100,
                rounding_precision=3, rounding_func=round,
                make_new_drawing=False, id_name='import',
-               group_transform='', fill='none', output_warnings=False):
+               group_transform='', fill='none', opacity=1.0, output_warnings=False):
     """
     Take a string representing an SVG path and turn it into a new string that
     represents the path in drawsvg.
@@ -271,7 +271,7 @@ def import_svg(d, fname,
         if fill != 'none':
             style_dict['fill'] = fill
         #print(fname, style_dict)
-        draw_path(g, curr_path, style_dict, transform=transform)
+        draw_path(g, curr_path, style_dict, transform=transform, opacity=opacity)
     d.append(g)
     return d
 

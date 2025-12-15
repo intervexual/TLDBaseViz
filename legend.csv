@@ -37,11 +37,15 @@ distress	distress pistol	tools	hunting			TRUE	TRUE	fine
 dpammo	distress pistol ammo	tools	hunting			TRUE	TRUE	fine
 snare	snare	tools	hunting	reclaimed		TRUE	TRUE	good
 tipup	fishing tip-up	tools	hunting	reclaimed		TRUE	TRUE	fine
+knife	hunting knife	tools	exploring			TRUE	FALSE	
+clawknife	cougar claw knife	tools	exploring			TRUE	TRUE	
+improvknife	improvised knidfe	tools	exploring			TRUE	TRUE	
+survivalknife	survival knife	tools	exploring			TRUE	FALSE	
 hacksaw	hacksaw	tools	exploring			TRUE	TRUE	good
-hammer	heavy hammer	tools	exploring			TRUE	TRUE	good
 prybar	prybar	tools	exploring			TRUE	TRUE	good
 hatchet	hatchet	tools	exploring			TRUE	FALSE	
 improvhatchet	improvised hatchet	tools	exploring			TRUE	TRUE	
+hammer	heavy hammer	tools	exploring			TRUE	TRUE	good
 stim	emergency stim	tools	exploring			TRUE	TRUE	fine
 bedroll	cloth bedroll	tools	exploring			TRUE	TRUE	good
 rucksack	technical backpack	tools	exploring			TRUE	TRUE	good
@@ -93,7 +97,7 @@ shirt	wool shirt	clothing	torso			TRUE	FALSE	good
 sweater	thin wool sweater	clothing	torso			TRUE	TRUE	good
 gloves	tactical gloves	clothing	hands			TRUE	TRUE	good
 gauntlets	gauntlets	clothing	hands			TRUE	FALSE	fine
-mitts	rabbitskin mitts	clothing	hands	rabbit		TRUE	TRUE	fine
+mitts	rabbitskin mitts	clothing	hands			TRUE	TRUE	fine
 woolmitts	wool mittens	clothing	hands			TRUE	FALSE	fine
 insulation	improvised insulation	clothing	accessories	ptarmigan		TRUE	TRUE	fine
 earwrap	wool ear wrap	clothing	accessories			TRUE	TRUE	to-improve

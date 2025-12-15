@@ -166,7 +166,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["potbelly","fish","Prybar"]
+			"features": ["potbelly","fish","prybar"]
 		},
 		"Mountaineer": {
 			"region": "TimberwolfMountain",
@@ -176,11 +176,50 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,+bear,rabbit,birch",
-						"#+Quonset,+hacksaw,+suitcase,+suitcase,+cookpot,+cookpot,+jersey,+sweater,+thermos",
-						"matches,Maglens,snare,snare",
-						"workbench,furnbench,BED,Bearbed",
-						"grill,quality,lantern,woodworking,PRYBAR",
-				"trunk,trunk,Trunk,Trunk,rockcache"]
+						"workbench,furnbench,bearbed,grill",
+						"cookpot,cookpot,thermos,matches,Maglens",
+						"quality,lantern,snare,snare",
+						"jersey,sweater,toque,+mitts",
+				"trunk,trunk,trunk,trunk,trunk,trunk","suitcase,suitcase,rockcache",
+				"#-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar, -woodworking",
+				"#-Prison, -quality,  #-Anglers, -quality, -prybar, #-South,-dpammo"
+			]
+		},
+		"CaveBelowAndresPeak": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["wolf"]
+		},
+		"AndresPeak": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["-bear,wolf,ptarmigan"]
+		},
+		"EngineCave": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["coal"]
+		},
+		"CaveFromBRM": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored": false,
+			"features": ["coal"]
 		},
 		"SecludedShelfCave": {
 			"region": "TimberwolfMountain",
@@ -206,18 +245,10 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": ["deer,wolf"]
 		},
-		"CaveFromBRM": {
-			"region": "TimberwolfMountain",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored": false,
-			"features": ["coal"]
-		},
+
 		"EchoRavine": {
 			"region": "TimberwolfMountain",
 			"customizable": false,
@@ -227,15 +258,7 @@
 			"explored":true,
 			"features": ["ptarmigan,wolf"]
 		},
-		"CaveBelowAndresPeak": {
-			"region": "TimberwolfMountain",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": true,
-			"explored":true,
-			"features": ["-bear,wolf"]
-		},
+
 		"TailSection": {
 			"region": "TimberwolfMountain",
 			"customizable": false,
@@ -243,7 +266,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["ptarmigan,wolf"]
+			"features": ["ptarmigan"]
 		},
 		"EngineCaveEast": {
 			"region": "TimberwolfMountain",
@@ -251,18 +274,10 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored": true,
 			"features": ["coal"]
 		},
-		"EngineCave": {
-			"region": "TimberwolfMountain",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":false,
-			"features": ["coal"]
-		},
+
 		"Joplin": {
 			"region": "PleasantValley",
 			"customizable": true,
@@ -328,10 +343,7 @@
 			"features": ["bear,+bear,deer,birch",
 						"workbench, furnbench,, bearbed",
 						"quality,+trunk,+trunk,grill",
-						"curing, curing, skillet, skillet",
-				"#-Mountaineer, -hacksaw, -suitcase, -suitcase, -cookpot, -cookpot, -jersey, -sweater, -thermos",
-				"#-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar",
-				"#-Prison, -quality,, #-Anglers, -quality"
+						"curing, curing, skillet, skillet"
 			]
 		},
 		"CommunityHall": {
@@ -341,7 +353,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["range,bed","radio,+vice"]
+			"features": ["range,bed","radio"]
 		},
 		"CaveWestOfUpperFalls": {
 			"region": "PleasantValley",
@@ -706,7 +718,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["bear,bear,timberwolf","workbench,grill,BED","+furnbench,Bearbed","#+Quonset,Distress,Dpammo,Dpammo,Quality,Prybar"]
+			"features": ["bear,bear,timberwolf","workbench,grill,BED","+furnbench,Bearbed","#+Quonset,Distress,Dpammo,Dpammo,Quality,Prybar,+woodworking"]
 		},
 		"ForemansClearcut": {
 			"region": "Blackrock",
@@ -797,7 +809,7 @@
 				"curing,curing,+Curing,skillet,skillet,thermos",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"toque,mitts,jersey,jersey,sweater,socks",
+				"toque,jersey,jersey,sweater,socks,-mitts",
 				"#-WorkerResidence, -vice,-distress,-distress",
 				"#-BR+FarTerritory, -thermos,-jersey,-quality,-quality"
 			],
@@ -1143,8 +1155,8 @@
 						"workbench,furnbench,bearbed",
 						"quality,hacksaw,prybar",
 						"grill,cookpot,cookpot,firestriker",
-						"#-WorkerResidence, -woodworking, -dpammo, -prybar",
-						"#-Cannery, -hacksaw, -dpammo",
+						"#-WorkerResidence, -woodworking, -dpammo, -dpammo, -prybar",
+						"#-Cannery, -hacksaw",
 						"#-PensivePond, -prybar, #-FarTerritory, -dpammo"
 			],
 			"removed": ["workbench","workbench","bedroll"]
@@ -1462,7 +1474,7 @@
 			"features": ["+bear,BED,grill,coal",
 						"Workbench,+furnbench,Bearbed",
 						"Trunk,Trunk,Curing,Curing",
-						"#+Dam,+woodworking,+dpammo",
+						"#+Dam,+woodworking,+dpammo,+dpammo",
 						"#+Quonset,+vice,+distress,+quality,+thermos",
 						"#+MT,+skillet,+skillet",
 						"#+TP,+suitcase,+suitcase"
@@ -1565,7 +1577,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,grill","salt,prybar","#+Quonset,+distress","#+Dam,+dpammo"]
+			"features": ["bed,grill","salt,prybar","#+Quonset,+distress","#+TWM,+dpammo"]
 		},
 		"CanneryWorkshop": {
 			"region": "BleakInlet",
@@ -2407,6 +2419,7 @@
 			"explored":true,
 			"features": ["matches,firestriker,maglens,spelunker,stim,stim",
 						"thermos,thermos,cookpot,cookpot,rucksack",
+						"hacksaw,prybar,improvhatchet",
 						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves",
 						"satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
 						""
@@ -2434,7 +2447,7 @@
 			["CaveToAC", "east", "top,right", "ClimbersCave", "top,left", "todo"],
 			["CaveToAC", "west", "top,left", "CaveFromAC", "top,right", "paint"],
 			"--------Timberwolf--------",
-			["CaveFromAC", "west", "top,left", "SecludedShelfCave", "top,right", "todo"],
+			["CaveFromAC", "north", "top,left", "SecludedShelfCave", "bottom,right", "todo"],
 			["CaveFromAC", "south", "bottom,right", "TWMPrepperCache", "top,right", "todo"],
 			["TWMPrepperCache", "south", "bottom,right", "WingArea", "top,right", "todo"],
 			["WingArea", "south", "bottom,left", "ForestCave", "top,left", "todo"],
@@ -2443,16 +2456,17 @@
 			["WingArea", "east", "top,right", "EchoRavine", "top,left", "todo"],
 			["EchoRavine", "north", "top,left", "BitterMarshFishHut", "bottom,left", "todo"],
 			["TWMFishHut", "west", "bottom,left", "Mountaineer", "bottom,right", "tinder"],
-			["Mountaineer", "north", "top,left", "CaveBelowAndresPeak", "bottom,left","todo"],
-			["CaveBelowAndresPeak", "north", "top,right", "EngineCave", "bottom,right", "todo"],
+			["Mountaineer", "north", "top,left", "CaveBelowAndresPeak", "bottom,right","todo"],
+			["CaveBelowAndresPeak", "north", "top,right", "AndresPeak", "bottom,left", "charcoal"],
+			["AndresPeak", "north", "top,right", "EngineCave", "bottom,left", "todo"],
 			["EngineCave", "north", "top,left", "CaveFromBRM", "bottom,right", "todo"],
 			["Mountaineer", "west", "bottom,left", "Joplin", "top,right", "todo"],
 			["SecludedShelfCave", "south", "bottom,left", "SummitCave", "top,right", "todo"],
 			["SecludedShelfCave", "west", "top,left", "WaterfallCave", "top,right", "todo"],
 			["WaterfallCave", "west", "top,left", "CaveFromBRM", "top,right", "oneway"],
-			["SummitCave", "south", "bottom,right", "TailSection", "top,right", "todo"],
+			["SummitCave", "west", "bottom,left", "TailSection", "bottom,right", "todo"],
 			["EngineCaveEast", "west", "bottom,left", "EngineCave", "bottom,right", "todo"],
-			["TailSection", "west", "bottom,left", "CaveBelowAndresPeak", "bottom,right", "oneway"],
+			["TailSection", "west", "bottom,left", "AndresPeak", "bottom,right", "oneway"],
 			"--------PleasantValley--------",
 			["Joplin", "south", "bottom,right", "PointOfDisagreement", "top,right", "todo"],
 			["Joplin", "west", "top,left", "JoplinHuntersBlind", "top,right", "todo"],
@@ -2487,16 +2501,16 @@
 			["SkeetersRidge","south","bottom,left", "DraftDodgersCabin", "top,left", "todo"],
 			"--------KeepersPass--------",
 			["Foresters", "south", "bottom,left", "KPNIceCave", "top,right", "todo"],
-			["KPNIceCave", "south", "bottom,right", "KPSIceCave", "top,right", "todo"],
+			["KPNIceCave", "south", "bottom,right", "KPSIceCave", "top,left", "todo"],
 			["KPSIceCave", "south", "bottom,right", "KPSFishHut", "top,right", "todo"],
-			["KPSFishHut", "south", "bottom,right", "KPSTrailer", "top,right", "todo"],
+			["KPSFishHut", "south", "bottom,right", "KPSTrailer", "top,left", "todo"],
 			"--------Blackrock--------",
 			["CaveToBRM", "east", "top,right", "CaveFromBRM", "bottom,left", "todo"],
 			["CaveToBRM", "west", "bottom,left", "ForemansClearcut", "bottom,right", "todo"],
-			["CaveToBRM", "north", "bottom,left", "Bricklayer", "bottom,right", "todo"],
+			["CaveToBRM", "north", "top,left", "Bricklayer", "top,right", "todo"],
 			["Bricklayer", "west", "top,left", "CaveBelowFoolsCorner", "top,right", "todo"],
-			["CaveBelowFoolsCorner", "north", "top,left", "LastProspectMine", "bottom,left", "todo"],
-			["CaveBelowFoolsCorner", "west", "bottom,left", "CaveEastOfPrison", "top,right", "todo"],
+			["CaveBelowFoolsCorner", "north", "top,right", "LastProspectMine", "bottom,left", "todo"],
+			["CaveBelowFoolsCorner", "south", "bottom,right", "CaveEastOfPrison", "top,right", "todo"],
 			["CaveEastOfPrison", "west", "bottom,left", "PrisonGate", "bottom,right", "todo"],
 			["CaveByPrisonPond", "north", "top,right", "PrisonGate", "bottom,left", "path"],
 			["ForemansClearcut", "west", "top,left", "CooksFarm", "top,right", "path"],
