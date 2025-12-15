@@ -23,7 +23,7 @@ The input JSON has two sections: a list of bases, and a list of connections betw
 
 ![DP example](tests/hibernia.svg)
 
-In this example, Hibernia and LonelyLighthouse have been explored, but the other locations have not, and are hence outlined in purple. Square boxes indicate indoor (warm) locations where one could cure a hide. The opacity of the box's border indicates whether there is safehouse customization. Italics indicate there is no loading screen to access this location. 
+In this example, Hibernia, the No 5 Mine, and Lonely Lighthouse have been explored, but the other locations have not, and are hence outlined in purple. Square boxes indicate indoor (warm) locations where one could cure a hide. The opacity of the box's border indicates whether there is safehouse customization. Italics indicate there is no loading screen to access this location. 
 The JSON entry for Hiberina is:
 
 		"Hibernia":{
