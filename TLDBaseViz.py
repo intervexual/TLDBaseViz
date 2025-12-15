@@ -501,7 +501,7 @@ class BaseLocation:
         >>> d = draw.Drawing(w, h)
         >>> bases['Riken'].draw_base_box(d)
         >>> bases['Riken'].draw_feature_grid(d, 0, 0)
-        15.0
+        32.5
         >>> bases['Riken'].draw_header(d, 0, 0)
         >>> d.save_svg('tests/riken.svg')
         >>> d.save_png('tests/riken.png')
@@ -871,7 +871,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (660.0, 782.5, 101.25, 761.25, 11.25, 793.75)
+    (660.0, 822.5, 101.25, 761.25, 11.25, 833.75)
     """
     for b in bases:
         bob = bases[b]

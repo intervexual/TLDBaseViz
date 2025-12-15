@@ -23,7 +23,7 @@ The input JSON has two sections: a list of bases, and a list of connections betw
 
 ![DP example](tests/hibernia.svg)
 
-In this example, Hibernia and LonelyLighthouse have been explored, but the other locations have not, and are hence outlined in pink. Square boxes indicate indoor (warm) locations where one could cure a hide. Italics indicate there is no loading screen to access this location. 
+In this example, Hibernia and LonelyLighthouse have been explored, but the other locations have not, and are hence outlined in purple. Square boxes indicate indoor (warm) locations where one could cure a hide. Italics indicate there is no loading screen to access this location. 
 The JSON entry for Hiberina is:
 
 		"Hibernia":{
@@ -44,6 +44,8 @@ The icons are specified by the list `features`: each string is a row, and each s
 * `-` is used to indicate something should be taken from this location (e.g. `-hammer`: you can see the nearby Riken has a `+hammer` showing where it should go). By default, cyan is used for this.
 * `+` is used to indicate something should be brought to this location (e.g. `+woodworking`). By default pink is used for this.
 * `#` is used to indicate a text box. This is useful for notes for yourself, such as if an item is coming or going far away. In the example above, `#Cannery` is a note I made to indicate the woodworkng tools are coming from the Cannery.
+* `*` is used to indicate something should be produced (crafted) for this location (e.g. a furniture workbench).
+* `?` is used to indicate something should be searched for at this location.
 
 Connections are formatted as a list, and an excerpt looks like this:
 

@@ -48,7 +48,7 @@ BG = 'bg'
 OUTDOOR = 'outdoor'
 FIR = 'fir'
 CEDAR = 'cedar'
-UNEXPLORED = BRING
+UNEXPLORED = FIND
 PATH = 'path'
 
 def parse_styling(fname):

@@ -176,7 +176,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["forge,bed", "+hammer,beachcombing"]
+			"features": ["beachcombing", "forge,bed", "+hammer,?simple"]
 		},
 		"LittleIsland": {
 			"region": "DesolationPoint",

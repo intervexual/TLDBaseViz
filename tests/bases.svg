@@ -7,7 +7,7 @@
 <g id="bases">
 <g id="UpperMine">
 <g id="UpperMine">
-<rect x="201.25" y="151.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="201.25" y="151.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="UpperMine:features">
 <g id="coal:UpperMine:0:0">
 <g id="import" transform="translate(211.25, 167.5) scale(0.7559093211178387)">
@@ -22,13 +22,13 @@
 </g>
 </g>
 <g id="UpperMine:header">
-<text x="221.25" y="161.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">UpperMine</text>
+<text x="221.25" y="161.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">UpperMine</text>
 </g>
 </g>
 </g>
 <path d="M201.25,191.25 L201.25,211.25" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
 <g id="LowerMine">
-<rect x="201.25" y="211.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="201.25" y="211.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="LowerMine:features">
 <g id="coal:LowerMine:0:0">
 <g id="import" transform="translate(211.25, 227.5) scale(0.7559093211178387)">
@@ -43,7 +43,7 @@
 </g>
 </g>
 <g id="LowerMine:header">
-<text x="221.25" y="221.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">LowerMine</text>
+<text x="221.25" y="221.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">LowerMine</text>
 </g>
 </g>
 <path d="M201.25,151.25 L181.25,151.25" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
@@ -632,7 +632,7 @@
 </g>
 <path d="M261.25,513.75 L261.25,533.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="QMFishHut">
-<rect x="261.25" y="533.75" width="80.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="261.25" y="533.75" width="80.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="QMFishHut:features">
 <g id="potbelly:QMFishHut:0:0">
 <g id="import" transform="translate(268.75, 550.0) scale(1.7179178835251676)">
@@ -654,12 +654,12 @@
 </g>
 </g>
 <g id="QMFishHut:header">
-<text x="301.25" y="546.1458333333334" font-size="12.083333333333332" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">QMFishHut</text>
+<text x="301.25" y="546.1458333333334" font-size="12.083333333333332" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">QMFishHut</text>
 </g>
 </g>
 <path d="M261.25,573.75 L261.25,593.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="Misanthrope">
-<rect x="261.25" y="593.75" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="261.25" y="593.75" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="Misanthrope:features">
 <g id="bear:Misanthrope:0:0">
 <g id="import" transform="translate(268.75, 622.5) scale(0.13959461723155955)">
@@ -745,12 +745,12 @@
 </g>
 </g>
 <g id="Misanthrope:header">
-<text x="301.25" y="611.8465909090909" font-size="9.886363636363637" font-family="Arial" stroke="#a62f5f" font-style="" fill="#a62f5f" text-anchor="middle">Misanthrope</text>
+<text x="301.25" y="611.8465909090909" font-size="9.886363636363637" font-family="Arial" stroke="#680395" font-style="" fill="#680395" text-anchor="middle">Misanthrope</text>
 </g>
 </g>
 <path d="M261.25,533.75 L241.25,533.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="MidFishHuts">
-<rect x="181.25" y="533.75" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="181.25" y="533.75" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="MidFishHuts:features">
 <g id="potbelly:MidFishHuts:0:0">
 <g id="import" transform="translate(190.0, 550.0) scale(1.7179178835251676)">
@@ -767,20 +767,20 @@
 </g>
 </g>
 <g id="MidFishHuts:header">
-<text x="211.25" y="544.9147727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">MidFishHuts</text>
+<text x="211.25" y="544.9147727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">MidFishHuts</text>
 </g>
 </g>
 <path d="M341.25,593.75 L361.25,593.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="CommuterCar">
-<rect x="361.25" y="593.75" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="361.25" y="593.75" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="CommuterCar:features"></g>
 <g id="CommuterCar:header">
-<text x="371.25" y="604.8011363636364" font-size="1.7045454545454546" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">CommuterCar</text>
+<text x="371.25" y="604.8011363636364" font-size="1.7045454545454546" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">CommuterCar</text>
 </g>
 </g>
 <path d="M261.25,593.75 L241.25,593.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="JMFishHut">
-<rect x="201.25" y="593.75" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="201.25" y="593.75" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="JMFishHut:features">
 <g id="potbelly:JMFishHut:0:0">
 <g id="import" transform="translate(211.25, 625.0) scale(1.7179178835251676)">
@@ -804,12 +804,12 @@
 </g>
 </g>
 <g id="JMFishHut:header">
-<text x="221.25" y="611.9791666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">JMFishHut</text>
+<text x="221.25" y="611.9791666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">JMFishHut</text>
 </g>
 </g>
 <path d="M201.25,593.75 L181.25,593.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="Jackrabbit">
-<rect x="101.25" y="593.75" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="101.25" y="593.75" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="Jackrabbit:features">
 <g id="rabbit:Jackrabbit:0:0">
 <g id="import" transform="translate(108.75, 622.5) scale(1.021189738125593)">
@@ -880,12 +880,12 @@
 </g>
 </g>
 <g id="Jackrabbit:header">
-<text x="141.25" y="612.09375" font-size="10.875" font-family="Arial" stroke="#a62f5f" font-style="" fill="#a62f5f" text-anchor="middle">Jackrabbit</text>
+<text x="141.25" y="612.09375" font-size="10.875" font-family="Arial" stroke="#680395" font-style="" fill="#680395" text-anchor="middle">Jackrabbit</text>
 </g>
 </g>
 <path d="M101.25,593.75 L101.25,573.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="JFFishHut">
-<rect x="101.25" y="533.75" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="101.25" y="533.75" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="JFFishHut:features">
 <g id="potbelly:JFFishHut:0:0">
 <g id="import" transform="translate(110.0, 550.0) scale(1.7179178835251676)">
@@ -902,14 +902,14 @@
 </g>
 </g>
 <g id="JFFishHut:header">
-<text x="131.25" y="545.3125" font-size="8.75" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">JFFishHut</text>
+<text x="131.25" y="545.3125" font-size="8.75" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">JFFishHut</text>
 </g>
 </g>
 <path d="M181.25,593.75 L181.25,573.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <path d="M161.25,533.75 L181.25,533.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <path d="M381.25,593.75 L401.25,593.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
 <g id="Harris">
-<rect x="401.25" y="593.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="401.25" y="593.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="Harris:features">
 <g id="wolf:Harris:0:0">
 <g id="import" transform="translate(411.25, 610.0) scale(0.1511772931705658)">
@@ -918,12 +918,12 @@
 </g>
 </g>
 <g id="Harris:header">
-<text x="421.25" y="605.15625" font-size="8.125" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">Harris</text>
+<text x="421.25" y="605.15625" font-size="8.125" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">Harris</text>
 </g>
 </g>
 <path d="M441.25,593.75 L461.25,593.75" stroke-width="2.5" stroke="#8e4088" stroke-dasharray="1,2" />
 <g id="No3Mine">
-<rect x="461.25" y="593.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="461.25" y="593.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="No3Mine:features">
 <g id="coal:No3Mine:0:0">
 <g id="import" transform="translate(470.0, 610.0) scale(0.7559093211178387)">
@@ -951,12 +951,12 @@
 </g>
 </g>
 <g id="No3Mine:header">
-<text x="491.25" y="605.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">No3Mine</text>
+<text x="491.25" y="605.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">No3Mine</text>
 </g>
 </g>
 <path d="M521.25,593.75 L541.25,593.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
 <g id="No5Mine">
-<rect x="541.25" y="553.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="541.25" y="553.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="No5Mine:features">
 <g id="coal:No5Mine:0:0">
 <g id="import" transform="translate(550.0, 570.0) scale(0.7559093211178387)">
@@ -984,7 +984,7 @@
 </g>
 </g>
 <g id="No5Mine:header">
-<text x="571.25" y="565.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">No5Mine</text>
+<text x="571.25" y="565.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">No5Mine</text>
 </g>
 </g>
 <path d="M601.25,593.75 L621.25,593.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
@@ -1088,7 +1088,7 @@
 </g>
 <path d="M621.25,593.75 L621.25,573.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
 <g id="BrokenBridge">
-<rect x="621.25" y="533.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="621.25" y="533.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="BrokenBridge:features">
 <g id="bear:BrokenBridge:0:0">
 <g id="import" transform="translate(630.0, 550.0) scale(0.13959461723155955)">
@@ -1110,15 +1110,22 @@
 </g>
 </g>
 <g id="BrokenBridge:header">
-<text x="651.25" y="544.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">BrokenBridge</text>
+<text x="651.25" y="544.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">BrokenBridge</text>
 </g>
 </g>
 <path d="M621.25,713.75 L621.25,733.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
 <g id="Riken">
-<rect x="621.25" y="733.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="621.25" y="733.75" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="Riken:features">
-<g id="forge:Riken:0:0">
-<g id="import" transform="translate(630.0, 747.5) scale(0.8632597057691517)">
+<g id="beachcombing:Riken:0:0">
+<g id="import" transform="translate(630.0, 765.0) scale(0.870056988732762)">
+<path d="M22.4435,21.3757 C18.5245,20.1438,14.415,19.5898,10.3306,19.7138 L13.0426,10.255 L15.6636,11.0074 C17.2346,5.07068,16.3664,0.91196,14.9773,0.51509 C13.5883,0.11821,10.6448,3.17732,8.83398,9.0479 L11.455,9.80032 L8.58585,19.8048 C5.8326,20.0197,3.09575,20.5406,0.449919,21.3757 C0.011716,21.5163,-0.228076,21.9793,-0.087503,22.4092 C0.053057,22.8474,0.516065,23.0872,0.946012,22.9467 C7.74262,20.8052,15.1425,20.8052,21.9473,22.9467 C22.3855,23.0872,22.8485,22.8392,22.9808,22.4092 C23.1214,21.971,22.8733,21.508,22.4434,21.3757 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
+<path d="M2.71565,7.28667 L7.24664,8.58477 C8.32979,5.07904,10.0991,1.73048,12.0671,0.01069 C7.43687,-0.18775,3.29456,2.2679,2.14521,6.26147 C2.02119,6.69967,2.26923,7.15444,2.7157,7.28673 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
+<path d="M21.7905,12.7519 C22.2287,12.8759,22.6835,12.6279,22.8158,12.1814 C23.9568,8.18779,21.7409,3.91318,17.7143,1.62295 C18.4668,4.11996,18.1939,7.8986,17.2596,11.4456 L21.7906,12.7437 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
+</g>
+</g>
+<g id="forge:Riken:0:1">
+<g id="import" transform="translate(630.0, 787.5) scale(0.8632597057691517)">
 <path d="M19.4063,10.8965 L3.35036,10.8965 C2.71981,10.9949,2.98365,11.7406,2.92763,12.1867 C2.84918,12.6627,2.99952,13.1828,3.55693,13.2123 C4.62139,13.5791,5.74866,13.791,6.7559,14.3012 C7.77472,14.9019,8.43083,16.0604,8.41991,17.2433 L14.3347,17.2433 C14.2982,15.6146,15.5696,14.1597,17.1442,13.844 C17.977,13.5727,18.8313,13.3552,19.6508,13.0502 C19.9771,12.6588,19.7671,12.0848,19.8269,11.6074 C19.8504,11.3004,19.8087,10.8965,19.4063,10.8965 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
 <path d="M14.3359,19.7788 L8.4211,19.7788 C7.73019,20.7196,6.99961,21.6349,6.3336,22.5917 C6.18036,23.2659,6.99983,23.1656,7.42522,23.1585 C10.3331,23.1468,13.2442,23.1819,16.1499,23.1409 C16.7811,22.8591,16.2094,22.2634,15.9484,21.9274 C15.4108,21.2115,14.8743,20.4932,14.3359,19.7788 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
 <path d="M10.5243,5.92206 C11.2874,5.90241,12.0585,5.96264,12.8164,5.88958 C13.2494,5.58592,13.0041,4.98003,13.0688,4.52553 L13.0688,0.00716 C12.6265,0.03544,12.1375,-0.04879,11.7236,0.04805 C11.186,0.58564,10.6484,1.12322,10.1109,1.66081 C10.132,2.99604,10.0682,4.33975,10.1433,5.6696 C10.2049,5.81979,10.3615,5.92453,10.5243,5.92206 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
@@ -1131,8 +1138,8 @@
 <path d="M19.8373,2.11973 L13.8945,2.11973 L13.8945,3.80954 L19.8373,3.80954 C20.4579,3.70998,20.194,2.97325,20.2507,2.53314 C20.2564,2.31168,20.0588,2.11411,19.8373,2.11973 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
 </g>
 </g>
-<g id="bed:Riken:1:0">
-<g id="import" transform="translate(652.5, 747.5) scale(0.7697636825494574)">
+<g id="bed:Riken:1:1">
+<g id="import" transform="translate(652.5, 787.5) scale(0.7697636825494574)">
 <path d="M2.43402,10.4241 C2.43402,10.2654,2.30173,10.1066,2.11652,10.1066 L0.317357,10.1066 C0.158607,10.1066,-0.0001423,10.2389,-0.0001423,10.4241 L-0.0001423,23.9179 C-0.0001423,24.0766,0.132149,24.2354,0.317357,24.2354 L2.11652,24.2354 C2.27527,24.2354,2.43402,24.1031,2.43402,23.9179 L2.43402,21.272 L23.5477,21.272 L23.5477,23.9179 C23.5477,24.0766,23.68,24.2354,23.8652,24.2354 L25.6644,24.2354 C25.8232,24.2354,25.9819,24.1031,25.9819,23.9179 L25.9819,18.8643 L2.46048,18.8643 L2.46048,10.4241 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 <path d="M23.389,14.5252 L11.959,12.0645 C10.9536,11.8529,10.0276,12.6202,10.0276,13.6256 L10.0276,17.8589 L25.9554,17.8589 L25.9554,17.7002 C25.9554,16.1656,24.8971,14.8427,23.389,14.5252 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 <path d="M6.11172,10.186 L8.9163,10.186 C9.0486,10.186,9.15443,10.0802,9.15443,9.94788 L9.15443,9.10121 C9.15443,8.96892,9.0486,8.86309,8.9163,8.86309 L7.59339,8.86309 L9.0486,6.13788 C9.20735,5.84684,8.99568,5.52934,8.67818,5.52934 L6.08527,5.52934 C5.95298,5.52934,5.84714,5.63518,5.84714,5.76747 L5.84714,6.61413 C5.84714,6.74642,5.95298,6.85226,6.08527,6.85226 L7.22297,6.85226 L5.76777,9.57746 C5.58256,9.84205,5.79423,10.186,6.11172,10.186 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
@@ -1140,21 +1147,19 @@
 <path d="M15.0282,4.84143 L16.8273,4.84143 C16.9596,4.84143,17.0655,4.73559,17.0655,4.6033 L17.0655,4.20643 C17.0655,4.07414,16.9596,3.9683,16.8273,3.9683 L16.0071,3.9683 L16.9861,2.16914 C17.0919,1.98393,16.9596,1.74581,16.748,1.74581 L15.0811,1.74581 C14.9488,1.74581,14.843,1.85164,14.843,1.98393 L14.843,2.3808 C14.843,2.5131,14.9488,2.61893,15.0811,2.61893 L15.7425,2.61893 L14.7636,4.41809 C14.6842,4.6033,14.8165,4.84143,15.0282,4.84143 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
-<g id="hammer:Riken:0:1">
-<g id="import" transform="translate(630.0, 770.0) scale(0.8340978883102057)">
+<g id="hammer:Riken:0:2">
+<g id="import" transform="translate(630.0, 810.0) scale(0.8340978883102057)">
 <path d="M13.8086,14.8829 L10.1684,14.8829 L9.96793,21.9005 C9.95243,22.4462,10.1581,22.9743,10.5384,23.366 C10.9188,23.7567,11.4407,23.9779,11.9864,23.9779 L11.9894,23.9779 C12.5351,23.9779,13.0571,23.7567,13.4374,23.366 C13.8177,22.9753,14.0234,22.4462,14.0079,21.9005 L13.8074,14.8829 Z M13.7859,14.0561 L10.1923,14.0561 L10.2398,12.4025 L13.7394,12.4025 L13.787,14.0561 Z M10.3122,9.84976 L10.2636,11.5757 L13.7145,11.5757 L13.6659,9.85182 C12.5476,9.94072,11.4304,9.93972,10.312,9.84982 Z M18.1896,2.48059 C18.1896,2.29662,18.0687,2.13538,17.894,2.08371 C13.9573,0.921,10.0205,0.91997,6.0838,2.08471 C5.9081,2.13641,5.7882,2.29762,5.7882,2.48056 L5.7882,8.26832 C5.7882,8.45332,5.91119,8.61558,6.08896,8.66622 C10.0225,9.77932,13.9561,9.78657,17.8899,8.66622 C18.0677,8.61562,18.1896,8.45332,18.1896,8.26832 Z M10.3905,0.86104 C11.455,0.77734,12.5216,0.77734,13.5872,0.86104 C13.5293,0.67294,13.4259,0.50034,13.2833,0.35876 C13.0539,0.12932,12.7428,0.00012,12.4183,0.00012 L11.5584,0.00012 C11.2338,0.00012,10.9228,0.12931,10.6933,0.35876 C10.5507,0.50035,10.4473,0.67295,10.3895,0.86104 Z" fill="#a62f5f" stroke="none" stroke-width="0.264583" opacity="1" />
 </g>
 </g>
-<g id="beachcombing:Riken:1:1">
-<g id="import" transform="translate(652.5, 770.0) scale(0.870056988732762)">
-<path d="M22.4435,21.3757 C18.5245,20.1438,14.415,19.5898,10.3306,19.7138 L13.0426,10.255 L15.6636,11.0074 C17.2346,5.07068,16.3664,0.91196,14.9773,0.51509 C13.5883,0.11821,10.6448,3.17732,8.83398,9.0479 L11.455,9.80032 L8.58585,19.8048 C5.8326,20.0197,3.09575,20.5406,0.449919,21.3757 C0.011716,21.5163,-0.228076,21.9793,-0.087503,22.4092 C0.053057,22.8474,0.516065,23.0872,0.946012,22.9467 C7.74262,20.8052,15.1425,20.8052,21.9473,22.9467 C22.3855,23.0872,22.8485,22.8392,22.9808,22.4092 C23.1214,21.971,22.8733,21.508,22.4434,21.3757 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
-<path d="M2.71565,7.28667 L7.24664,8.58477 C8.32979,5.07904,10.0991,1.73048,12.0671,0.01069 C7.43687,-0.18775,3.29456,2.2679,2.14521,6.26147 C2.02119,6.69967,2.26923,7.15444,2.7157,7.28673 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
-<path d="M21.7905,12.7519 C22.2287,12.8759,22.6835,12.6279,22.8158,12.1814 C23.9568,8.18779,21.7409,3.91318,17.7143,1.62295 C18.4668,4.11996,18.1939,7.8986,17.2596,11.4456 L21.7906,12.7437 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
+<g id="simple:Riken:1:2">
+<g id="import" transform="translate(652.5, 810.0) scale(0.8398421449501196)">
+<path d="M0.000134,12.7525 L0.000134,10.1387 C0.000134,8.29798,1.49254,6.80547,3.33335,6.80547 L6.75336,6.80547 L6.75336,6.17192 C6.75336,5.98899,6.90115,5.84119,7.08409,5.84119 L7.71763,5.84119 L7.71763,5.27689 C7.71763,4.7591,7.9233,4.26301,8.29022,3.89714 C8.65608,3.53127,9.15218,3.32559,9.66893,3.32559 L14.1452,3.32559 C14.6619,3.32559,15.159,3.53126,15.5239,3.89714 C15.8897,4.26301,16.0965,4.7591,16.0965,5.27689 L16.0965,5.84119 L16.73,5.84119 C16.9129,5.84119,17.0607,5.98899,17.0607,6.17192 L17.0607,6.80547 L20.4807,6.80547 C22.3214,6.80547,23.814,8.29788,23.814,10.1387 L23.814,12.7525 L13.6844,12.7525 L13.6844,13.4139 L23.814,13.4139 L23.814,19.0548 C23.814,19.4362,23.6631,19.8011,23.3944,20.0698 C23.1246,20.3395,22.7598,20.4894,22.3794,20.4894 L1.43608,20.4894 C1.05574,20.4894,0.690908,20.3385,0.421165,20.0698 C0.152454,19.8011,0.001562,19.4362,0.001562,19.0548 L0.001562,13.4139 L10.1322,13.4139 L10.1322,12.7525 Z M8.3779,5.84236 L9.01248,5.84236 C9.19541,5.84236,9.34321,5.99015,9.34321,6.17309 L9.34321,6.80663 L14.4695,6.80663 L14.4695,6.17309 C14.4695,5.99015,14.6173,5.84236,14.8002,5.84236 L15.4348,5.84236 L15.4348,5.27805 C15.4348,4.93595,15.2984,4.60834,15.0565,4.36648 C14.8147,4.12464,14.486,3.98821,14.145,3.98821 L9.66875,3.98821 C9.32767,3.98821,8.99904,4.1236,8.75718,4.36648 C8.51534,4.60833,8.37891,4.93595,8.37891,5.27805 L8.37891,5.84236 Z M13.0227,13.9555 L13.0227,11.3262 L10.7902,11.3262 L10.7902,13.9555 Z" fill="#680395" stroke="none" stroke-width="0.264583" opacity="1" />
 </g>
 </g>
 </g>
 <g id="Riken:header">
-<text x="651.25" y="744.375" font-size="10.0" font-family="Arial" stroke="none" font-style="" fill="#a62f5f" text-anchor="middle">Riken</text>
+<text x="651.25" y="754.5625" font-size="15.75" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">Riken</text>
 </g>
 </g>
 <g id="LonelyLighthouse">
@@ -1198,7 +1203,7 @@
 </g>
 <path d="M681.25,733.75 L701.25,733.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
 <g id="LittleIsland">
-<rect x="701.25" y="733.75" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="701.25" y="733.75" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
 <g id="LittleIsland:features">
 <g id="deer:LittleIsland:0:0">
 <g id="import" transform="translate(710.0, 747.5) scale(0.9460738385086963)">
@@ -1232,7 +1237,7 @@
 </g>
 </g>
 <g id="LittleIsland:header">
-<text x="731.25" y="743.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">LittleIsland</text>
+<text x="731.25" y="743.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">LittleIsland</text>
 </g>
 </g>
 </g>
