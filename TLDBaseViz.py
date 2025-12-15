@@ -5,33 +5,47 @@ class BaseFeature:
         """
         Create BaseFeature object with a name and material.
         :param name: case-sensitive name
-        >>> str(BaseFeature('Trunk'))
-        'trunk:fir'
+        >>> str(BaseFeature('+curing'))
+        'curing:planned:bring'
+        >>> str(BaseFeature('*trunk'))
+        'trunk:planned:fir'
         >>> str(BaseFeature('trunk'))
-        'trunk:base'
-        >>> str(BaseFeature('TRUNK'))
-        'trunk:destroy'
-        >>> str(BaseFeature('Workbench'))
-        'workbench:cedar'
-        >>> str(BaseFeature('Hammer'))
-        'hammer:bring'
-        >>> str(BaseFeature('HAMMER'))
-        'hammer:take'
+        'trunk:actual:base'
+        >>> str(BaseFeature('-trunk'))
+        'trunk:actual:destroy'
+        >>> str(BaseFeature('+workbench'))
+        Traceback (most recent call last):
+        ...
+        AssertionError: +workbench is not movable
+        >>> str(BaseFeature('+hammer'))
+        'hammer:planned:bring'
+        >>> str(BaseFeature('-hammer'))
+        'hammer:actual:take'
         >>> str(BaseFeature(''))
-        'empty:base'
+        'empty:actual:base'
+        >>> str(BaseFeature('#Blah'))
+        'empty:actual:base'
+        >>> str(BaseFeature('#+Blah'))
+        'empty:planned:bring'
         """
-        self.status = status_from_capitalization(name)
+        self.status, self.material = status_from_prefixes(name)
 
         self.alt_text = ''
 
         if not name or name.startswith(TOTEXT):
             if name.startswith(TOTEXT):
-                self.alt_text = name.replace(TOTEXT,'').replace(TOBRING,'').replace(TOREMOVE,'')
+                self.alt_text = name
+                for pref in PREFIXES:
+                    if pref in self.alt_text and pref != TOTEXT:
+                        self.alt_text = self.alt_text.replace(pref,'')
             name = EMPTY
 
         self.original = name
         self.probability = probability
-        self.name = name.lower().replace(TOBRING,'').replace(TOREMOVE,'')
+
+        self.name = name.lower()
+        for pref in PREFIXES:
+            self.name = self.name.replace(pref, '')
 
 
         if PROBABILITY_DELIM in self.name:
@@ -40,14 +54,18 @@ class BaseFeature:
             self.probability = float(info[1])
 
         assert self.name in ASSETS, self.name
-        self.material = BASE
-        if self.status == PLANNED:
+        if self.material == MAKE:
             if self.name in TODO_TYPES:
                 self.material = TODO_TYPES[self.name]
             else:
+                assert self.name in MOVABLES, f'{name} is not movable'
+                print('Warning: old system used for bringing', name)
                 self.material = BRING
-        if self.status == REMOVE:
+        elif self.material == BRING:
+            assert self.name in MOVABLES, f'{name} is not movable'
+        elif self.material == REMOVE:
             if self.name in MOVABLES:
+                assert self.name in MOVABLES, f'{name} is not movable'
                 self.material = TAKE
             else:
                 self.material = DESTROY
@@ -58,7 +76,7 @@ class BaseFeature:
             self.hex = colours[self.material]
         self.filepath = 'assets/' + ASSETS[self.name]
     def __repr__(self):
-        return f'{self.name}:{self.material}'
+        return f'{self.name}:{self.status}:{self.material}'
     def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour=HEXES[BASE], opacity=0.5):
         if self.alt_text:
             font_size = font_size_for_box(self.alt_text, wid, hei)
@@ -245,26 +263,26 @@ class BaseLocation:
         ------
         Quonset (C, L)
         ------
-        [bear:base, deer:base, wolf:base]
-        [thermos:base, thermos:base, thermos:base, thermos:base, matches:base, jerrycan:base]
-        [workbench:base, furnbench:base, bearbed:base, radio:base]
-        [quality:base, woodworking:base, hammer:base, prybar:base, lantern:base, hacksaw:take]
-        [curing:base, curing:base, curing:fir, curing:fir, cookpot:base, cookpot:base]
-        [curing:base, curing:base, curing:fir, curing:fir, skillet:base, skillet:base]
-        [trunk:base, trunk:base, trunk:base, trunk:base, rockcache:base, suitcase:base]
-        [trunk:base, trunk:base, trunk:base, trunk:fir, rockcache:base, suitcase:base]
-        [distress:base, dpammo:base, dpammo:take, dpammo:take, dpammo:take, maglens:bring]
-        [quality:take, quality:take, quality:take, quality:take, quality:take, vice:take]
+        [bear:actual:base, deer:actual:base, wolf:actual:base]
+        [thermos:actual:base, thermos:actual:base, thermos:actual:base, thermos:actual:base, matches:actual:base, jerrycan:actual:base]
+        [workbench:actual:base, furnbench:actual:base, bearbed:actual:base, radio:actual:base]
+        [quality:actual:base, woodworking:actual:base, hammer:actual:base, prybar:actual:base, lantern:actual:base, hacksaw:actual:take]
+        [curing:actual:base, curing:actual:base, curing:planned:fir, curing:planned:fir, cookpot:actual:base, cookpot:actual:base]
+        [curing:actual:base, curing:actual:base, curing:planned:fir, curing:planned:fir, skillet:actual:base, skillet:actual:base]
+        [trunk:actual:base, trunk:actual:base, trunk:actual:base, trunk:actual:base, rockcache:actual:base, suitcase:actual:base]
+        [trunk:actual:base, trunk:actual:base, trunk:actual:base, trunk:planned:fir, rockcache:actual:base, suitcase:actual:base]
+        [distress:actual:base, dpammo:actual:base, dpammo:actual:take, dpammo:actual:take, dpammo:actual:take, maglens:planned:bring]
+        [quality:actual:take, quality:actual:take, quality:actual:take, quality:actual:take, quality:actual:take, vice:actual:take]
         ------
         >>> mis = BaseLocation('Misanthrope', b['Misanthrope'])
         >>> print(mis)
         ---
         Misanthrope (C, L)
         ---
-        [bear:base, deer:base, wolf:base]
-        [salt:base, beachcombing:base]
-        [bed:base, trader:base, quality:base]
-        [workbench:cedar, furnbench:cedar, bearbed:fir]
+        [bear:actual:base, deer:actual:base, wolf:actual:base]
+        [salt:actual:base, beachcombing:actual:base]
+        [bed:actual:base, trader:actual:base, quality:actual:base]
+        [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
         ---
         """
         self.name = name
@@ -682,51 +700,53 @@ def font_size_for_box(s, max_text_width, max_text_height):
 
 
 
-def status_from_capitalization(s):
+def status_from_prefixes(s):
     """
     Return whether the string is planned, actual, or to remove, based on capitalization
     OR based on the string starting with +/-.
     :param s: input string
     :return: status as string
-    >>> status_from_capitalization('trunk')
-    'actual'
-    >>> status_from_capitalization('Trunk')
-    'planned'
-    >>> status_from_capitalization('TRUNK')
-    'remove'
-    >>> status_from_capitalization('-trunk')
-    'remove'
-    >>> status_from_capitalization('+Trunk')
-    'planned'
-    >>> status_from_capitalization('#+Trunk')
-    'planned'
-    >>> status_from_capitalization('-Trunk')
-    'remove'
-    >>> status_from_capitalization('#-Trunk')
-    'remove'
-    >>> status_from_capitalization('')
-    'actual'
+    >>> status_from_prefixes('trunk')
+    ('actual', 'base')
+    >>> status_from_prefixes('Trunk') # no longer supporting capitalization based status!
+    ('actual', 'base')
+    >>> status_from_prefixes('TRUNK')
+    ('actual', 'base')
+    >>> status_from_prefixes('-trunk')
+    ('actual', 'remove')
+    >>> status_from_prefixes('+Trunk')
+    ('planned', 'bring')
+    >>> status_from_prefixes('#+Trunk')
+    ('planned', 'bring')
+    >>> status_from_prefixes('-Trunk')
+    ('actual', 'remove')
+    >>> status_from_prefixes('#-Trunk')
+    ('actual', 'remove')
+    >>> status_from_prefixes('')
+    ('actual', 'base')
+    >>> status_from_prefixes('*trunk')
+    ('planned', 'make')
+    >>> status_from_prefixes('?trunk')
+    ('planned', 'find')
     """
     if s == '':
-        return ACTUAL
+        return ACTUAL, BASE
 
+    was_to_text = False
     if s.startswith(TOTEXT):
+        was_to_text = True
         s = s.replace(TOTEXT,'')
 
-    if s.startswith('+'):
-        return PLANNED
-    elif s.startswith('-'):
-        return REMOVE
+    if s.startswith(TOBRING):
+        return PLANNED, BRING
+    elif s.startswith(TOREMOVE):
+        return ACTUAL, REMOVE
+    elif s.startswith(TOFIND):
+        return PLANNED, FIND
+    elif s.startswith(TOMAKE):
+        return PLANNED, MAKE
 
-    #assert len(s) > 2, s
-    if s.lower() == s:
-        return ACTUAL
-    if s.upper() == s:
-        return REMOVE
-    if s.capitalize() == s:
-        return PLANNED
-    #assert True, s
-
+    return ACTUAL, BASE
 
 def parse_input(filename='bases.json'):
     """
@@ -800,10 +820,10 @@ def process_input(filename='bases.json', to_print=False):
     ---
     Misanthrope (C, L)
     ---
-    [bear:base, deer:base, wolf:base]
-    [salt:base, beachcombing:base]
-    [bed:base, trader:base, quality:base]
-    [workbench:cedar, furnbench:cedar, bearbed:fir]
+    [bear:actual:base, deer:actual:base, wolf:actual:base]
+    [salt:actual:base, beachcombing:actual:base]
+    [bed:actual:base, trader:actual:base, quality:actual:base]
+    [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
     ---
     >>> bases.keys()
     dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'LonelyLighthouse', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
@@ -1227,8 +1247,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     icon_y += cell_size
     text_y += cell_size
     import_svg(d, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
-               hei=icon_size, fill=legend_colour)
-    d.append(draw.Rectangle(icon_x, icon_y, icon_size, icon_size, fill=background_colour, opacity=0.5))
+               hei=icon_size, fill=legend_colour, opacity=0.5)
     pb = 'opacity indicates probability (0.5 -> 50%)'
     d.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
                        x=icon_x + cell_size, y=text_y,
@@ -1395,7 +1414,7 @@ if __name__ == '__main__':
             outfile = fname.replace('.json', '.svg')
             bases, colours = process_input(fname)
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2100, base_y=100, print_output=False)
+            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2160, base_y=140, print_output=False)
 
     else:
         doctest.testmod()

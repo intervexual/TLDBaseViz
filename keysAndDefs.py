@@ -5,6 +5,18 @@ ACTUAL = 'actual'
 PLANNED = 'planned'
 REMOVE = 'remove'
 NEARBY = 'nearby'
+MAKE = 'make'
+FIND = 'find'
+BRING = 'bring'
+TAKE = 'take'
+DESTROY = 'destroy'
+
+TOBRING = '+'
+TOREMOVE = '-'
+TOFIND = '?'
+TOMAKE = '*'
+
+PREFIXES = {TOBRING:BRING, TOREMOVE:REMOVE, TOFIND:FIND, TOMAKE:MAKE}
 
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
@@ -36,10 +48,7 @@ BG = 'bg'
 OUTDOOR = 'outdoor'
 FIR = 'fir'
 CEDAR = 'cedar'
-BRING = 'bring'
 UNEXPLORED = BRING
-TAKE = 'take'
-DESTROY = 'destroy'
 PATH = 'path'
 
 def parse_styling(fname):
@@ -119,8 +128,6 @@ BIGNUM = 100000
 
 PROBABILITY_DELIM = '/'
 TOTEXT = '#'
-TOBRING = '+'
-TOREMOVE = '-'
 TABSIZE = 4
 
 REGION = 'region'
@@ -159,8 +166,8 @@ DELIM = '\t'
 
 ORDERING = {}
 ASSETS = {EMPTY:'empty.svg'}
-TODO_TYPES = {}
-MOVABLES = []
+TODO_TYPES = {EMPTY:BASE}
+MOVABLES = [EMPTY]
 ICONS = []
 
 with open(LEGEND, 'r') as f:

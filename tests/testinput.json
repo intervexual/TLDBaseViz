@@ -29,13 +29,13 @@
 				"bear,deer,wolf",
 				"thermos,thermos,thermos,thermos,matches,jerrycan",
 				"workbench,furnbench,bearbed,radio",
-				"quality,woodworking,hammer,prybar,lantern,HACKSAW",
-				"curing,curing,Curing,Curing,cookpot,cookpot",
-				"curing,curing,Curing,Curing,skillet,skillet",
+				"quality,woodworking,hammer,prybar,lantern,-hacksaw",
+				"curing,curing,*curing,*curing,cookpot,cookpot",
+				"curing,curing,*curing,*curing,skillet,skillet",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"trunk,trunk,trunk,Trunk,rockcache,suitcase",
-				"distress,dpammo,DPAMMO,DPAMMO,DPAMMO,Maglens",
-				"QUALITY,QUALITY,QUALITY,QUALITY,QUALITY,VICE"
+				"trunk,trunk,trunk,*trunk,rockcache,suitcase",
+				"distress,dpammo,-dpammo,-dpammo,-dpammo,+maglens",
+				"-quality,-quality,-quality,-quality,-quality,-vice"
 			],
 			"removed": ["workbench"]
 		},
@@ -46,7 +46,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["potbelly,fish,Hammer"]
+			"features": ["potbelly,fish,+hammer"]
 		},
 		"Misanthrope": {
 			"region": "CoastalHighway",
@@ -58,7 +58,7 @@
 			"features": ["bear,deer,wolf",
 						"salt,beachcombing",
 						"bed, trader, quality",
-						"Workbench, +furnbench, Bearbed"
+						"*workbench, *furnbench, *bearbed"
 			]
 		},
 		"JMFishHut": {
@@ -80,7 +80,7 @@
 			"features": ["rabbit,deer",
 						"salt,beachcombing",
 						"bed, quality",
-						"Workbench, +furnbench, Bearbed"
+						"*workbench, *furnbench, *bearbed"
 			]
 		},
 		"JFFishHut": {
@@ -147,7 +147,7 @@
 			"features": ["salt,beachcombing",
 						"bed, grill, workbench",
 						"quality, -hammer",
-						"#Cannery, +woodworking, +furnbench, +bearbed"
+						"#+Cannery, +woodworking, *furnbench, *bearbed"
 			]
 		},
 		"LonelyLighthouse":{
@@ -176,7 +176,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["forge,bed", "Hammer,beachcombing"]
+			"features": ["forge,bed", "+hammer,beachcombing"]
 		},
 		"LittleIsland": {
 			"region": "DesolationPoint",
@@ -197,8 +197,8 @@
 			"features": ["ptarmigan,rabbit,deer",
 						"range,bed, quality",
 						"workbench, furnbench",
-						"cookpot, Cookpot, lantern",
-						"skillet, skillet, SKILLET"
+						"cookpot, +cookpot, lantern",
+						"skillet, skillet, -skillet"
 			]
 		}
 	},

@@ -226,11 +226,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 15. Bear processing locations?
 
 ### Coding/UX
-1. Add status "to find" distinct from "to bring" ('?')
-2. Distinguish "bring item"  from "craft item" (e.g. rabbit mitts to TWM)
 2. Add day # to visualization
 1. Command-line override of style file
-5. Opacity for probability doesn't work for dark background
 3. Use legend.csv to verify counts
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location

@@ -1062,7 +1062,7 @@
 </g>
 <g id="empty:Hibernia:0:3">
 <rect x="627.5" y="690.0" width="20" height="20" fill="none" stroke="#a62f5f" />
-<text x="637.5" y="700.0" font-size="4.285714285714286" fill="#a62f5f" text-anchor="middle" font-style="italic">Cannery</text>
+<text x="637.5" y="700.0" font-size="3.75" fill="#a62f5f" text-anchor="middle" font-style="italic">#Cannery</text>
 </g>
 <g id="woodworking:Hibernia:1:3">
 <g id="import" transform="translate(650.0, 690.0) scale(0.7554581568535862)">

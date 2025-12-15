@@ -11,6 +11,7 @@
 		"fir":"oklch(0.6 0.14 70)",
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
+	  	"find": "oklch(0.6 0.2 150)",
 		"path":"oklch(0.8 0.1 170)",
 		"stone": "oklch(0.7 0.04 190)",
 		"take":"oklch(0.6 0.12 210)",
@@ -31,6 +32,7 @@
         "oneway": "1,1"
   },
 	"descriptions":{
+		"find": "to search for here",
 		"bring": "to bring here (if text: unexplored)",
 		"take": "to take from here",
 		"destroy": "to destroy",
