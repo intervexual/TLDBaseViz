@@ -72,9 +72,18 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": true,
-			"explored":true,
+			"explored":false,
 			"features": ["ptarmigan"]
 		},
+      "ACPrepperCache": {
+        "region": "AshCanyon",
+        "customizable": true,
+        "loading": true,
+        "cabinfeverrisk": true,
+        "indoors": true,
+        "explored": false,
+        "features": ["bed"]
+      },
 		"Homesteader": {
 			"region": "AshCanyon",
 			"customizable": true,
@@ -111,7 +120,7 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": true,
-			"explored":true,
+			"explored":false,
 			"features": ["birch"]
 		},
 		"CaveToAC": {
@@ -293,7 +302,7 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": false,
-			"explored":false,
+			"explored":true,
 			"features": ["ptarmigan"]
 		},
 		"CrashSiteAndBurnedRidgeCave": {
@@ -709,7 +718,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["#-PrisonWorkshop,-vice",",-workbench"]
+			"features": ["#-PrisonWorkshop,-vice","+hacksaw,-workbench"]
 		},
 		"Bricklayer": {
 			"region": "Blackrock",
@@ -2421,7 +2430,7 @@
 			"explored":true,
 			"features": ["matches,firestriker,maglens,spelunker,stim,stim",
 						"thermos,thermos,cookpot,cookpot,rucksack",
-						"hacksaw,knife,axe",
+						"-hacksaw,knife,axe",
 						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves",
 						"satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
 						""
@@ -2448,6 +2457,7 @@
 			["AnglersDen", "south", "bottom,right", "BitterMarshFishHut", "top,right", "path"],
 			["CaveToAC", "east", "top,right", "ClimbersCave", "top,left", "todo"],
 			["CaveToAC", "west", "top,left", "CaveFromAC", "top,right", "paint"],
+			["ClimbersCave", "south", "bottom,left", "ACPrepperCache", "top,right", "todo"],
 			"--------Timberwolf--------",
 			["CaveFromAC", "north", "top,left", "SecludedShelfCave", "bottom,right", "todo"],
 			["CaveFromAC", "south", "bottom,right", "TWMPrepperCache", "top,right", "todo"],

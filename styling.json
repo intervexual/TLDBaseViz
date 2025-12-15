@@ -1,8 +1,8 @@
 {
   "colours":{
-		"bg":"oklch(0.95 0.02 150)",
+		"bg":"oklch(0.95 0.02 190)",
 		"base":"oklch(0.4 0.06 150)",
-		"basebg":"oklch(0.99 0.02 150)",
+		"basebg":"oklch(0.98 0.02 150)",
 		"outdoor":"oklch(0.5 0.02 150)",
 	    "bring":"oklch(0.5 0.16 0)",
 		"oneway":"oklch(0.6 0.25 30)",
@@ -11,15 +11,15 @@
 		"fir":"oklch(0.6 0.14 70)",
 		"cedar":"oklch(0.7 0.1 90)",
 		"cattail":"oklch(0.5 0.08 110)",
-	  	"find": "oklch(0.6 0.2 150)",
-		"path":"oklch(0.8 0.1 170)",
+		"path":"oklch(0.7 0.1 170)",
 		"stone": "oklch(0.7 0.04 190)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
 		"clearpath":"oklch(0.7 0.18 250)",
 		"charcoal":"oklch(0.2 0.04 270)",
-		"mixed":"oklch(0.5 0.18 310)",
-		"todo":"oklch(0.5 0.14 330)"
+		"mixed":"oklch(0.5 0.18 290)",
+	  	"find": "oklch(0.5 0.2 330)",
+		"todo":"oklch(0.5 0.14 310)"
 	},
   "dashes": {
         "todo": "1,2",
@@ -32,8 +32,8 @@
         "oneway": "1,1"
   },
 	"descriptions":{
-		"find": "to search for here",
-		"bring": "to bring here (if text: unexplored)",
+		"find": "to search for here (unexplored)",
+		"bring": "to bring here",
 		"take": "to take from here",
 		"destroy": "to destroy",
 		"fir": "to make from fir",

@@ -23,7 +23,7 @@ The input JSON has two sections: a list of bases, and a list of connections betw
 
 ![DP example](tests/hibernia.svg)
 
-In this example, Hibernia and LonelyLighthouse have been explored, but the other locations have not, and are hence outlined in purple. Square boxes indicate indoor (warm) locations where one could cure a hide. Italics indicate there is no loading screen to access this location. 
+In this example, Hibernia and LonelyLighthouse have been explored, but the other locations have not, and are hence outlined in purple. Square boxes indicate indoor (warm) locations where one could cure a hide. The opacity of the box's border indicates whether there is safehouse customization. Italics indicate there is no loading screen to access this location. 
 The JSON entry for Hiberina is:
 
 		"Hibernia":{
@@ -228,6 +228,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 15. Bear processing locations?
 
 ### Coding/UX
+1. Revamp colour scheme
 2. Add day # to visualization
 1. Command-line override of style file
 3. Use legend.csv to verify counts

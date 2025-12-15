@@ -4,7 +4,7 @@
 <defs>
 </defs>
 <g id="Hibernia">
-<rect x="103.75" y="123.75" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
+<rect x="103.75" y="123.75" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Hibernia:features">
 <g id="salt:Hibernia:0:0">
 <g id="import" transform="translate(110.0, 152.5) scale(0.8772699359592947)">
@@ -103,7 +103,7 @@
 </g>
 <path d="M103.75,243.75 L103.75,263.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
 <g id="Riken">
-<rect x="103.75" y="263.75" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
+<rect x="103.75" y="263.75" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#9d2398" />
 <g id="Riken:features">
 <g id="beachcombing:Riken:0:0">
 <g id="import" transform="translate(112.5, 295.0) scale(0.870056988732762)">
@@ -142,17 +142,17 @@
 </g>
 <g id="simple:Riken:1:2">
 <g id="import" transform="translate(135.0, 340.0) scale(0.8398421449501196)">
-<path d="M0.000134,12.7525 L0.000134,10.1387 C0.000134,8.29798,1.49254,6.80547,3.33335,6.80547 L6.75336,6.80547 L6.75336,6.17192 C6.75336,5.98899,6.90115,5.84119,7.08409,5.84119 L7.71763,5.84119 L7.71763,5.27689 C7.71763,4.7591,7.9233,4.26301,8.29022,3.89714 C8.65608,3.53127,9.15218,3.32559,9.66893,3.32559 L14.1452,3.32559 C14.6619,3.32559,15.159,3.53126,15.5239,3.89714 C15.8897,4.26301,16.0965,4.7591,16.0965,5.27689 L16.0965,5.84119 L16.73,5.84119 C16.9129,5.84119,17.0607,5.98899,17.0607,6.17192 L17.0607,6.80547 L20.4807,6.80547 C22.3214,6.80547,23.814,8.29788,23.814,10.1387 L23.814,12.7525 L13.6844,12.7525 L13.6844,13.4139 L23.814,13.4139 L23.814,19.0548 C23.814,19.4362,23.6631,19.8011,23.3944,20.0698 C23.1246,20.3395,22.7598,20.4894,22.3794,20.4894 L1.43608,20.4894 C1.05574,20.4894,0.690908,20.3385,0.421165,20.0698 C0.152454,19.8011,0.001562,19.4362,0.001562,19.0548 L0.001562,13.4139 L10.1322,13.4139 L10.1322,12.7525 Z M8.3779,5.84236 L9.01248,5.84236 C9.19541,5.84236,9.34321,5.99015,9.34321,6.17309 L9.34321,6.80663 L14.4695,6.80663 L14.4695,6.17309 C14.4695,5.99015,14.6173,5.84236,14.8002,5.84236 L15.4348,5.84236 L15.4348,5.27805 C15.4348,4.93595,15.2984,4.60834,15.0565,4.36648 C14.8147,4.12464,14.486,3.98821,14.145,3.98821 L9.66875,3.98821 C9.32767,3.98821,8.99904,4.1236,8.75718,4.36648 C8.51534,4.60833,8.37891,4.93595,8.37891,5.27805 L8.37891,5.84236 Z M13.0227,13.9555 L13.0227,11.3262 L10.7902,11.3262 L10.7902,13.9555 Z" fill="#680395" stroke="none" stroke-width="0.264583" opacity="1" />
+<path d="M0.000134,12.7525 L0.000134,10.1387 C0.000134,8.29798,1.49254,6.80547,3.33335,6.80547 L6.75336,6.80547 L6.75336,6.17192 C6.75336,5.98899,6.90115,5.84119,7.08409,5.84119 L7.71763,5.84119 L7.71763,5.27689 C7.71763,4.7591,7.9233,4.26301,8.29022,3.89714 C8.65608,3.53127,9.15218,3.32559,9.66893,3.32559 L14.1452,3.32559 C14.6619,3.32559,15.159,3.53126,15.5239,3.89714 C15.8897,4.26301,16.0965,4.7591,16.0965,5.27689 L16.0965,5.84119 L16.73,5.84119 C16.9129,5.84119,17.0607,5.98899,17.0607,6.17192 L17.0607,6.80547 L20.4807,6.80547 C22.3214,6.80547,23.814,8.29788,23.814,10.1387 L23.814,12.7525 L13.6844,12.7525 L13.6844,13.4139 L23.814,13.4139 L23.814,19.0548 C23.814,19.4362,23.6631,19.8011,23.3944,20.0698 C23.1246,20.3395,22.7598,20.4894,22.3794,20.4894 L1.43608,20.4894 C1.05574,20.4894,0.690908,20.3385,0.421165,20.0698 C0.152454,19.8011,0.001562,19.4362,0.001562,19.0548 L0.001562,13.4139 L10.1322,13.4139 L10.1322,12.7525 Z M8.3779,5.84236 L9.01248,5.84236 C9.19541,5.84236,9.34321,5.99015,9.34321,6.17309 L9.34321,6.80663 L14.4695,6.80663 L14.4695,6.17309 C14.4695,5.99015,14.6173,5.84236,14.8002,5.84236 L15.4348,5.84236 L15.4348,5.27805 C15.4348,4.93595,15.2984,4.60834,15.0565,4.36648 C14.8147,4.12464,14.486,3.98821,14.145,3.98821 L9.66875,3.98821 C9.32767,3.98821,8.99904,4.1236,8.75718,4.36648 C8.51534,4.60833,8.37891,4.93595,8.37891,5.27805 L8.37891,5.84236 Z M13.0227,13.9555 L13.0227,11.3262 L10.7902,11.3262 L10.7902,13.9555 Z" fill="#9d2398" stroke="none" stroke-width="0.264583" opacity="1" />
 </g>
 </g>
 </g>
 <g id="Riken:header">
-<text x="133.75" y="284.5625" font-size="15.75" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">Riken</text>
+<text x="133.75" y="284.5625" font-size="15.75" font-family="Arial" stroke="none" font-style="" fill="#9d2398" text-anchor="middle">Riken</text>
 </g>
 </g>
-<path d="M103.75,123.75 L103.75,103.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
+<path d="M103.75,123.75 L103.75,103.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
 <g id="BrokenBridge">
-<rect x="103.75" y="63.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
+<rect x="103.75" y="63.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#9d2398" />
 <g id="BrokenBridge:features">
 <g id="bear:BrokenBridge:0:0">
 <g id="import" transform="translate(112.5, 80.0) scale(0.13959461723155955)">
@@ -174,12 +174,12 @@
 </g>
 </g>
 <g id="BrokenBridge:header">
-<text x="133.75" y="74.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">BrokenBridge</text>
+<text x="133.75" y="74.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#9d2398" text-anchor="middle">BrokenBridge</text>
 </g>
 </g>
-<path d="M103.75,123.75 L83.75,123.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
+<path d="M103.75,123.75 L83.75,123.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
 <g id="No5Mine">
-<rect x="23.75" y="83.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
+<rect x="23.75" y="83.75" width="60.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="No5Mine:features">
 <g id="coal:No5Mine:0:0">
 <g id="import" transform="translate(32.5, 100.0) scale(0.7559093211178387)">
@@ -207,12 +207,12 @@
 </g>
 </g>
 <g id="No5Mine:header">
-<text x="53.75" y="95.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#680395" text-anchor="middle">No5Mine</text>
+<text x="53.75" y="95.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">No5Mine</text>
 </g>
 </g>
 <path d="M163.75,263.75 L183.75,263.75" stroke-width="2.5" stroke="#0f1528" stroke-dasharray="2,1" />
 <g id="LittleIsland">
-<rect x="183.75" y="263.75" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#680395" />
+<rect x="183.75" y="263.75" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#9d2398" />
 <g id="LittleIsland:features">
 <g id="deer:LittleIsland:0:0">
 <g id="import" transform="translate(192.5, 277.5) scale(0.9460738385086963)">
@@ -246,13 +246,13 @@
 </g>
 </g>
 <g id="LittleIsland:header">
-<text x="213.75" y="273.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#680395" text-anchor="middle">LittleIsland</text>
+<text x="213.75" y="273.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#9d2398" text-anchor="middle">LittleIsland</text>
 </g>
 </g>
-<path d="M83.75,83.75 L103.75,63.75" stroke-width="2.5" stroke="#76d3b4" stroke-dasharray="" />
+<path d="M83.75,83.75 L103.75,63.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
 <path d="M103.75,243.75 L83.75,243.75" stroke-width="2.5" stroke="#623e29" stroke-dasharray="4,2" />
 <g id="LonelyLighthouse">
-<rect x="23.75" y="243.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
+<rect x="23.75" y="243.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="LonelyLighthouse:features">
 <g id="bed:LonelyLighthouse:0:0">
 <g id="import" transform="translate(32.5, 257.5) scale(0.7697636825494574)">

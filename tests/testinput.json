@@ -134,7 +134,7 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": ["coal,salt"]
 		},
 		"Hibernia":{

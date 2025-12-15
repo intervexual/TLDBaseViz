@@ -435,7 +435,7 @@ class BaseLocation:
 
         stroke_opacity = 1
         if not self.customizable:
-            border = outdoor
+            stroke_opacity = OUTDOOR_OPACITY
         if not self.explored:
             border = unexplored
 
@@ -1011,7 +1011,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210, y=200, counts=counts)
+        draw_legend(d, colours, x=d.width-210, y=190, counts=counts)
 
 
     d.save_svg(output)
