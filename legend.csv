@@ -1,29 +1,30 @@
 %KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	NOTE
 bed	bed	furniture	bench	cedar		FALSE	TRUE	good
 bearbed	bear hide bed	furniture	bench	fir		FALSE	TRUE	fine
-workbench	workbench	furniture	bench	cedar		FALSE	TRUE	fine
+workbench	workbench	furniture	bench	cedar	49	FALSE	TRUE	fine
 furnbench	furniture workbench	furniture	bench	cedar		FALSE	TRUE	good
-forge	forge	furniture	bench			FALSE	TRUE	good
-milling	milling machine	furniture	bench			FALSE	TRUE	good
-radio	trader radio	furniture	trader			FALSE	TRUE	good
-trader	trade drop-box	furniture	trader			FALSE	TRUE	good
+forge	forge	furniture	bench		4	FALSE	TRUE	good
+milling	milling machine	furniture	bench		2	FALSE	TRUE	good
+radio	trader radio	furniture	trader		10	FALSE	TRUE	good
+trader	trade drop-box	furniture	trader		1	FALSE	TRUE	good
 potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	good
 grill	2-slot stove	furniture	cooking			FALSE	TRUE	good
-range	6-slot stove	furniture	cooking			FALSE	TRUE	good
+range	6-slot stove	furniture	cooking		7	FALSE	TRUE	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE	fine
 trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE	good
 rockcache	rock cache	furniture	storage	stone		TRUE	TRUE	good
 suitcase	suitcase	furniture	storage			TRUE	TRUE	good
 briefcase	briefcase	furniture	storage			FALSE	TRUE	fine
-maglens	magnifying lens	tools	light			TRUE	TRUE	good
-firestriker	firestriker	tools	light			TRUE	TRUE	fine
-matches	matches	tools	light			TRUE	TRUE	fine
+safe	safe	furniture	storage		10	FALSE	TRUE	
+maglens	magnifying lens	tools	light		3	TRUE	TRUE	good
+firestriker	firestriker	tools	light		4	TRUE	TRUE	fine
+matches	wood matches	tools	light			TRUE	TRUE	fine
 jerrycan	jerry can	tools	light			TRUE	TRUE	good
-lantern	lantern	tools	light			TRUE	TRUE	good
+lantern	lantern	tools	light		7	TRUE	TRUE	good
 spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE	
-cookpot	cookpot	tools	cooking			TRUE	TRUE	good
-skillet	skillet	tools	cooking			TRUE	TRUE	good
-thermos	insulated flask	tools	cooking			TRUE	TRUE	good
+cookpot	cookpot	tools	cooking		16	TRUE	TRUE	good
+skillet	skillet	tools	cooking		14	TRUE	TRUE	good
+thermos	insulated flask	tools	cooking		8	TRUE	TRUE	good
 barbs	barb’s rifle	tools	hunting			TRUE	FALSE	
 rifle	hunting rifle	tools	hunting			TRUE	FALSE	
 curators	curator’s rifle	tools	hunting			TRUE	FALSE	
@@ -39,25 +40,30 @@ huntknife	hunting knife	tools	harvesting			TRUE	FALSE
 clawknife	cougar claw knife	tools	harvesting			TRUE	TRUE	
 knife	improvised knife	tools	harvesting			TRUE	TRUE	
 survivalknife	survival knife	tools	harvesting			TRUE	FALSE	
-hacksaw	hacksaw	tools	harvesting			TRUE	TRUE	good
-prybar	prybar	tools	harvesting			TRUE	TRUE	good
+hacksaw	hacksaw	tools	harvesting		10	TRUE	TRUE	good
+prybar	prybar	tools	harvesting		15	TRUE	TRUE	good
 hatchet	hatchet	tools	harvesting			TRUE	FALSE	
 axe	improvised hatchet	tools	harvesting			TRUE	TRUE	
-hammer	heavy hammer	tools	harvesting			TRUE	TRUE	good
+hammer	heavy hammer	tools	harvesting		7	TRUE	TRUE	good
 snare	snare	tools	exploring	reclaimed		TRUE	TRUE	good
 tipup	fishing tip-up	tools	exploring	reclaimed		TRUE	TRUE	fine
-stim	emergency stim	tools	exploring			TRUE	TRUE	fine
-bedroll	cloth bedroll	tools	exploring			TRUE	TRUE	good
-rucksack	technical backpack	tools	exploring			TRUE	TRUE	good
+stim	emergency stim	tools	exploring		11	TRUE	TRUE	fine
+bedroll	cloth bedroll	tools	exploring		8	TRUE	TRUE	good
+rucksack	technical backpack	tools	exploring		1	TRUE	TRUE	good
 quality	quality tools	tools	crafting			TRUE	TRUE	fine
 simple	simple tools	tools	crafting			TRUE	TRUE	fine
 woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE	fine
 vice	workbench vice	misc	misc			TRUE	TRUE	good
 battery	car battery	misc	misc			TRUE	TRUE	
-transmitter	transmitter	misc	misc			FALSE	TRUE	
-polaroid	polaroid	misc	misc			TRUE	TRUE	
-recipe	recipe card	misc	misc			TRUE	TRUE	
-bear	bear	natural	animal			TRUE	TRUE	good
+transmitter	transmitter	misc	misc		6	FALSE	TRUE	
+recipe	recipe card	misc	misc		13	TRUE	TRUE	
+polaroid	vista polaroid	misc	misc		21	TRUE	TRUE	
+camera	camera	misc	misc		1	TRUE	TRUE	
+handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE	
+rope	climbing rope	misc	misc			TRUE	TRUE	
+climb	rock climb	misc	misc			FALSE	TRUE	
+goating	goating route	misc	misc			FALSE	TRUE	
+bear	bear	natural	animal		29.38	TRUE	TRUE	good
 moose	moose	natural	animal			FALSE	TRUE	good
 deer	deer	natural	animal			FALSE	TRUE	good
 wolf	wolf	natural	animal			FALSE	TRUE	good
@@ -83,10 +89,10 @@ expedition	expedition parka	clothing	outer-torso			TRUE	FALSE	fine
 wolfcoat	wolfskin coat	clothing	outer-torso			TRUE	TRUE	good
 cloak	moose-hide cloak	clothing	outer-torso			TRUE	TRUE	good
 flightjacket	flight jacket	clothing	outer-torso			TRUE	FALSE	fine
-peacoat	mariner’s peacoat	clothing	outer-torso			TRUE	TRUE	fine
-militarycoat	military coat	clothing	outer-torso			TRUE	TRUE	fine
+peacoat	mariner’s peacoat	clothing	outer-torso			TRUE	FALSE	fine
+militarycoat	military coat	clothing	outer-torso			TRUE	FALSE	fine
 mackinaw	mackinaw jacket	clothing	outer-torso			TRUE	TRUE	fine
-urban	urban parka	clothing	outer-torso			TRUE	TRUE	good
+urban	urban parka	clothing	outer-torso			TRUE	FALSE	good
 skijacket	ski jacket	clothing	outer-torso			TRUE	TRUE	fine
 simpleparka	simple parka	clothing	outer-torso			TRUE	TRUE	fine
 windbreaker	windbreaker	clothing	outer-torso			TRUE	TRUE	fine

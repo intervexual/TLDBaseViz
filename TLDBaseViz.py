@@ -1023,8 +1023,8 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
         out_take = 'outstanding take'
         bob = special_base(bases, out_bring, to_bring, CURR_INVENTORY, SOUTH)
         tob = special_base(bases, out_take, to_take, out_bring, SOUTH)
-        bases[CURR_INVENTORY].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE])
-        bases[out_bring].draw_connection(d, tob, unexplored=colours[BRING], border=colours[BRING])
+        bases[CURR_INVENTORY].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE], fill=colours[BASE_BG])
+        bases[out_bring].draw_connection(d, tob, unexplored=colours[BRING], border=colours[BRING], fill=colours[BASE_BG])
 
     if add_legend:
         counts = count_features(bases)
@@ -1036,16 +1036,16 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
         d.save_png(output.replace('.svg','.png'))
 
 
-def draw_region(region, source_info, output='tests/', print_output=False):
+def draw_region(region, source_info, output='tests/', print_output=False, add_legend=False):
     """
     Draw only the bases of one region.
     :param region: region name as string, e.g. 'AshCanyon'
     :param source_info: input json filename
     :return:
-    >>> draw_region('AshCanyon', 'mybases.json', print_output=False)
-    Warning: connected base not in bases EchoRavine
+    >>> draw_region('AshCanyon', 'loottable4.json', print_output=False)
     Warning: connected base not in bases CaveFromAC
-    >>> draw_region('TimberwolfMountain', 'mybases.json', print_output=False)
+    Warning: connected base not in bases EchoRavine
+    >>> draw_region('TimberwolfMountain', 'loottable4.json', print_output=False, add_legend=True)
     Warning: connected base not in bases CaveToAC
     Warning: connected base not in bases Joplin
     Warning: connected base not in bases CaveToBRM
@@ -1062,16 +1062,21 @@ def draw_region(region, source_info, output='tests/', print_output=False):
     Warning: connected base not in bases MarshRidgeCave
     Warning: connected base not in bases Trapper
     Warning: connected base not in bases CaveToHRV
-    >>> draw_region('MysteryLake', 'mybases.json', print_output=False)
-    Warning: connected base not in bases WestRavineCave
+    >>> draw_region('MysteryLake', 'loottable4.json', print_output=False)
     Warning: connected base not in bases CaveFromPV
+    Warning: connected base not in bases WestRavineCave
     Warning: connected base not in bases Poacher
     Warning: connected base not in bases CaveToMT
-    >>> draw_region('ForlornMuskeg', 'mybases.json', print_output=False)
+    >>> draw_region('ForlornMuskeg', 'loottable4.json', print_output=False)
     Warning: connected base not in bases MLRailTunnel
     Warning: connected base not in bases BRRailTunnel
     Warning: connected base not in bases HermitsCabin
     Warning: connected base not in bases CaveToBI
+    >>> draw_region('SunderedPass', 'loottable4.json', print_output=False)
+    Warning: connected base not in bases LowerConnectorCave
+    Warning: connected base not in bases ClimbBetweenSPAndTP
+    >>> draw_region('HushedRiverValley', 'loottable4.json', print_output=False, add_legend=True)
+    Warning: connected base not in bases CaveFromHRV
     """
     bases, colours = process_input(source_info)
     these_bases = {}
@@ -1086,11 +1091,11 @@ def draw_region(region, source_info, output='tests/', print_output=False):
     draw_bases(these_bases, colours,
                base_x = 500, base_y = 400,
                width = 1000, height = 1000,
-               add_legend=False, print_output=print_output,
+               add_legend=add_legend, print_output=print_output,
                output=output, output_png=False)
 
 
-def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
+def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
     """
     For each feature (e.g. workbench, forge) count how many times it appears across the whole island.
     :param bases: list of BaseLocation objects
@@ -1102,35 +1107,6 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
     [4, 2, 10, 2, 14, 7, 4]
-    >>> nums['birch'] > 13 and nums['birch'] < 16
-    True
-    >>> nums['hacksaw']
-    9
-    >>> nums['hammer']
-    7
-    >>> nums['prybar'] # TODO I should have 14, 16 but notes are inconsistent
-    20
-    >>> nums['lantern'] + nums['spelunker'] # 7 in world, I carry one with me
-    7
-    >>> nums["firestriker"] # 4 in world, I carry one with me. None at Trapper or Quonset.
-    4
-    >>> nums["maglens"] # 3 in world, I carry one with me
-    3
-    >>> nums['skillet']
-    14
-    >>> nums['cookpot'] == 16 #- 2 # I carry two with me everywhere
-    True
-    >>> nums['thermos'] == 7 #- 2 # I carry two with me everywhere
-    True
-    >>> total_bears = 2+(3+.25)+3+1+3+0+1+0+0+2+2+2+0+0+(0.7)+2+3+0+1+3+0+0+1
-    >>> total_bears - nums['bear']
-    0.0
-    >>> total_workbenches = 3+5+(1)+2+3+2+1+(4)+1+2+6+(4)+1+0+2+8+3+0
-    >>> total_workbenches - nums['workbench'] # three known vices that have not been made into workbenches yet
-    3
-    >>> cedar_counts = count_features(bases, [CEDAR])
-    >>> cedar_counts['workbench'] == nums['vice']
-    True
     """
     count = {}
     for a in ASSETS:
@@ -1142,6 +1118,27 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE)):
                 if feature.status in statuses_to_count or feature.material in statuses_to_count:
                     count[feature.name] += feature.probability
     return count
+
+
+def verify_fixed_numbers(bases, nums):
+    """
+
+    :param bases:
+    :return:
+    >>> bases, colours = process_input('loottable4.json')
+    >>> nums = count_features(bases)
+    >>> verify_fixed_numbers(bases, nums)
+    >>> bases, colours = process_input('mybases.json')
+    >>> nums = count_features(bases)
+    >>> verify_fixed_numbers(bases, nums)
+    """
+    all_matching = True
+    round_to = 2
+    for i in ICONS:
+        if type(i.fixednum) == float:
+            if round(i.fixednum,round_to) != round(nums[i.key],round_to):
+                print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead')
+    return all_matching
 
 
 def verify_taking_numbers(bases):
@@ -1170,7 +1167,7 @@ def verify_taking_numbers(bases):
                 if diff > 0:
                     posn = '-'
 
-                to_add = ','.join(abs(math.ceil(diff)) * [posn + a])
+                to_add = ','.join(abs(math.ceil(round(diff,3))) * [posn + a])
                 if diff > 0:
                     unknown_take += [to_add]
                 else:

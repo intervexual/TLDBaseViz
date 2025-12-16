@@ -149,7 +149,7 @@ class LegendAsset:
         self.material = material
 
         if fixednum != '':
-            fixednum = int(fixednum)
+            fixednum = float(fixednum)
         self.fixednum = fixednum
 
         self.movable = movable.lower() in TRUES

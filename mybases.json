@@ -546,7 +546,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["wolf"]
+			"features": ["wolf,bear/.1"]
 		}
 		},
 		"% KEEPERS PASS": {
@@ -650,7 +650,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,milling,workbench",
+			"features": ["wolf,milling,workbench",
 						"*furnbench,*workbench,*bearbed",
 						"#+FromBRM,+vice,+hacksaw",
 						"#+TWM,+quality,+knife,+axe"]
@@ -770,7 +770,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["#-PrisonWorkshop,-vice","+hacksaw,-workbench"]
+			"features": ["bed,grill","#-PrisonWorkshop,-vice","+hacksaw,-workbench"]
 		},
 		"Bricklayer": {
 			"region": "Blackrock",
@@ -848,6 +848,15 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["coal,salt"]
+		},
+		"AuroraMine": {
+			"region": "CoastalHighway",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["coal"]
 		},
 		"FirGladeCabin": {
 			"region": "CoastalHighway",
@@ -1365,7 +1374,7 @@
 			"explored":true,
 			"features": ["bed"]
 		},
-		"SingleLakeCabin": {
+		"LoneLakeCabin": {
 			"region": "MysteryLake",
 			"customizable": true,
 			"loading": true,
@@ -1626,7 +1635,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear"]
+			"features": ["bear/.33"]
 		},
 		"LowerRavenCabin": {
 			"region": "BleakInlet",
@@ -2339,6 +2348,15 @@
 			"explored":true,
 			"features": [""]
 		},
+		"CargomastersTrailer": {
+			"region": "ForsakenAirfield",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed","?jerrycan"]
+		},
 		"FinalApproach": {
 			"region": "ForsakenAirfield",
 			"customizable": false,
@@ -2373,7 +2391,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["potbelly,bed"]
+			"features": ["potbelly,bed","workbench"]
 		}
 			},
 		"% SUNDERED PASS": {
@@ -2431,8 +2449,35 @@
 			"explored":true,
 			"features": ["timberwolf,bed"]
 		},
+		"RudigersHideout": {
+			"region": "SunderedPass",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["timberwolf,bed"]
+		},
+		"PlacidNotch": {
+			"region": "SunderedPass",
+			"customizable": true,
+			"loading": false,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["timberwolf","bed,potbelly"]
+		},
+		"LottesRest": {
+			"region": "SunderedPass",
+			"customizable": true,
+			"loading": false,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["ptarmigan,wolf","bed,potbelly"]
+		},
 		"SAFishingHut": {
-			"region": "ForsakenAirfield",
+			"region": "SunderedPass",
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -2513,11 +2558,11 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["matches,firestriker,maglens,spelunker,stim,stim",
-						"thermos,thermos,cookpot,cookpot,rucksack",
+						"thermos,thermos,cookpot,cookpot",
 						"-hacksaw,knife,axe",
 						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves",
 						"satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
-						""
+						"rucksack,handheld,camera"
 						]
 		}
 	},
@@ -2637,8 +2682,9 @@
 			["LowerMine", "east", "top,right", "Quonset", "top,left", "path"],
 			["LowerMine", "west", "top,left", "FirGladeCabin", "bottom,right", "path"],
 			["LowerMine", "south", "bottom,left", "LogSort", "top,left", "todo"],
+			["LowerMine", "west", "bottom,left", "AuroraMine", "top,right", "todo"],
 			["LogSort", "south", "bottom,left", "MidFishHuts", "top,left", "todo"],
-			["LogSort", "west", "bottom,left", "TheToothCar", "bottom,right", "path"],
+			["LogSort", "west", "bottom,left", "TheToothCar", "top,right", "path"],
 			["TheToothCar", "west", "bottom,left", "FishingCamp", "top,right", "path"],
 			["TownsiteArea", "south", "bottom,left", "Quonset", "top,left", "path"],
 			["FirGladeCabin", "west", "top,left", "TrainUnloading", "top,right", "path"],
@@ -2739,8 +2785,8 @@
 			["ForestryLookout", "north", "top,right", "DestroyedLookout", "bottom,left", "todo"],
 			["ForestryLookout", "east", "bottom,right", "LoggingCamp", "bottom,left", "todo"],
 			["DestroyedLookout", "west", "top,left", "UnnamedPondCabin", "top,right", "todo"],
-			["AlansCaveHuntingBlind", "south", "bottom,right", "SingleLakeCabin", "top,right", "todo"],
-			["SingleLakeCabin", "west", "bottom,left", "LakeCabins", "top,right", "todo"],
+			["AlansCaveHuntingBlind", "south", "bottom,right", "LoneLakeCabin", "top,right", "todo"],
+			["LoneLakeCabin", "west", "bottom,left", "LakeCabins", "top,right", "todo"],
 			["LakeCabins", "west", "top,left", "MLFishHuts", "bottom,right", "todo"],
 			["LakeOverlookCave", "west", "bottom,left", "CampOffice", "bottom,right", "charcoal"],
 			["CampOffice", "south", "bottom,right", "MLFishHuts", "top,left", "todo"],
@@ -2839,8 +2885,9 @@
 			["FallowDugout", "north", "top,left", "IslandCottage", "bottom,left", "todo"],
 			["FallowDugout", "south", "bottom,right", "SpottersBlind", "top,right", "todo"],
 			["Terminal", "north", "top,left", "ControlTower", "bottom,left", "todo"],
-			["ControlTower", "north", "top,left", "FinalApproach", "bottom,left", "todo"],
-			["FinalApproach", "north", "top,left", "MindfulCabin", "bottom,left", "todo"],
+			["ControlTower", "north", "top,left", "CargomastersTrailer", "bottom,left", "todo"],
+			["CargomastersTrailer", "north", "top,left", "FinalApproach", "bottom,left", "todo"],
+		    ["FinalApproach", "north", "top,left", "MindfulCabin", "bottom,left", "todo"],
 			["MindfulCabin", "east", "top,right", "FAFishingHut", "top,left", "todo"],
 			["FAFishingHut", "east", "top,right", "IslandCottage", "top,left", "todo"],
 			"--------SunderedPass--------",
@@ -2849,7 +2896,7 @@
 			["UpperConnectorCave", "east", "top,right", "LastLonelyHouse", "top,left", "todo"],
 			["WeatherStation", "north", "top,left", "CrashSite", "bottom,left", "todo"],
 			["CrashSite", "east", "top,right", "AbandonedMine", "top,left", "todo"],
-			["AbandonedMine", "south", "bottom,left", "BoltChopperCave", "top,left", "todo"],
+			["AbandonedMine", "south", "bottom,right", "BoltChopperCave", "top,left", "todo"],
 			["BoltChopperCave", "east", "top,right", "SnowedInCabin", "top,left", "todo"],
 			["SnowedInCabin", "north", "top,left", "FinalRefuge", "bottom,left", "todo"],
 			["SnowedInCabin", "south", "bottom,left", "CaveSystem", "top,left", "todo"],

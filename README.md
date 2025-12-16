@@ -106,8 +106,11 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Birch Bark by Amethyst Studio](https://thenounproject.com/icon/eucommia-bark-5464568/)
 * [Bunker Rifle based on art by ka reemov](https://thenounproject.com/icon/shotgun-4424070/)
 * [Briefcase based on art by Arkinasi](https://thenounproject.com/icon/briefcase-7768730/)
+* [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Car Battery by ARI NOFIANA](https://thenounproject.com/icon/car-battery-7134392/)
 * [Chemical Boots by monkik](https://thenounproject.com/icon/rubber-boots-2343368/)
+* [Climb by Adrien Coquet](https://thenounproject.com/icon/climb-2195072/)
+* [Climbing Rope by IYIKON](https://thenounproject.com/icon/rope-7694013/)
 * [Climbing Socks by Agan24](https://thenounproject.com/icon/sock-7451160/)
 * [Coal by BinikSol](https://thenounproject.com/icon/coal-6694219/)
 * [Cookpot by NeueDeutsche](https://thenounproject.com/icon/cooking-671176/)
@@ -136,8 +139,10 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
 * [Furniture Workbench by Deni Sudibyo](https://thenounproject.com/icon/workbench-6376294/)
 * [Gauntlets based on art by Michael T](https://thenounproject.com/icon/gauntlets-991102/)
+* [Goating by Nick Novell](https://thenounproject.com/icon/goat-321011/)
 * [Grill (2-burner stove) by Cuby Design](https://thenounproject.com/icon/bachelor-griller-1916441/)
 * [Hacksaw by omeneko](thenounproject.com/icon/hacksaw-7780613/)
+* [Handheld Shortwave Radio by Uswa KDT](https://thenounproject.com/icon/radio-4280696/)
 * [Hatchet by Studio Danro](https://thenounproject.com/icon/hatchet-8158017/)
 * [Heavy Hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
 * [Hockey Jersey / Festive Sweater by Andry Horvath](https://thenounproject.com/icon/sweater-5130736/)
@@ -170,13 +175,14 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
 * [Quality Tools by Asiah](https://thenounproject.com/icon/toolbox-7611362/)
 * [Rabbit by Logisstudio](https://thenounproject.com/icon/rabbit-8111124/)
-* [Rabbitskin Hat by Rafi Al Hakim](https://thenounproject.com/icon/winter-hat-6386514/)
+* [Rabbitskin Hat by DTNS Studio](https://thenounproject.com/icon/ushanka-5849964/)
 * [Rabbitskin Mittens by Neneng Fadliyah](https://thenounproject.com/icon/mitten-6331269/)
-* [Radio by NTT](https://thenounproject.com/icon/walkie-talkie-4532346/)
+* [Radio by Arif Arisandi](https://thenounproject.com/icon/podcast-4678161/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
 * [Recipe Card by Marianna Nardella](https://thenounproject.com/icon/recipe-card-291038/)
 * [Revolver by Eskak](https://thenounproject.com/icon/revolver-8168224/)
 * [Rock Cache by kusuma potter](thenounproject.com/icon/cannon-balls-7931465/)
+* [Safe by Jonn Tronic](https://thenounproject.com/icon/safe-29193/)
 * [Salt by Muhammad Hilmi Fajri](https://thenounproject.com/icon/mineral-7867358/)
 * [Simple Parka by Siipkan Creative](https://thenounproject.com/icon/coat-5736592/)
 * [Simple Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
@@ -230,14 +236,16 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ### Coding/UX
 1. Revamp colour scheme
 2. Add day # to visualization
-3. Use legend.csv to verify counts
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location
+5. Allow stacking of items
 5. Indication of rope climbs
 4. Write more documentation for other people to use it
-7. Make loot table templates for interloper
-9. Add some level of importance/priority?
+7. Finish loot table templates for interloper
 10. Refine the dark mode / hi contrast style
+
+### Maybe later
+9. Add some level of importance/priority?
 
 ## Acknowledgments
 * See image credits!
