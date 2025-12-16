@@ -1,137 +1,184 @@
 {
 	"bases": {
-		"GoldMine": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["coal,ptarmigan","bed,grill,workbench"],
-			"removed": ["rucksack,crampons,matches"]
+		"% ASH CANYON":{
+			"GoldMine": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"coal,ptarmigan",
+					"bed,grill,workbench"
+				],
+				"removed": [
+					"rucksack,crampons,matches"
+				]
+			},
+			"WolfsJawOverlook": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": true,
+				"features": [
+					""
+				]
+			},
+			"LongFallsCave": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"coal,wolf,"
+				]
+			},
+			"MinersFolly": {
+				"region": "AshCanyon",
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"bear,bed,workbench,grill"
+				],
+				"removed": [
+					"woodworking"
+				]
+			},
+			"ForemansRetreat": {
+				"region": "AshCanyon",
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"ptarmigan",
+					"bed,grill"
+				],
+				"removed": [
+					"skillet"
+				]
+			},
+			"FireOverlookCave": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"deer"
+				]
+			},
+			"HighMeadow": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": true,
+				"features": [
+					""
+				]
+			},
+			"ClimbersCave": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": true,
+				"explored": false,
+				"features": [
+					"ptarmigan"
+				]
+			},
+			"ACPrepperCache": {
+				"region": "AshCanyon",
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": false,
+				"features": [
+					"bed"
+				]
+			},
+			"Homesteader": {
+				"region": "AshCanyon",
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"bed,grill"
+				],
+				"removed": [
+					"combatpants, windbreaker, earwrap, matches"
+				]
+			},
+			"BitterMarshFishHut": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": true,
+				"features": [
+					"potbelly,fish",
+					"+prybar"
+				],
+				"removed": [
+					"lantern"
+				]
+			},
+			"AnglersDen": {
+				"region": "AshCanyon",
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"birch,bear,+quality",
+					"potbelly,bed,workbench"
+				],
+				"removed": [
+					"matches,cookpot"
+				]
+			},
+			"StoneShelfCave": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": true,
+				"explored": false,
+				"features": [
+					"birch"
+				]
+			},
+			"CaveToAC": {
+				"region": "AshCanyon",
+				"customizable": false,
+				"loading": true,
+				"cabinfeverrisk": true,
+				"indoors": true,
+				"explored": true,
+				"features": [
+					"coal"
+				]
+			}
 		},
-		"WolfsJawOverlook": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": false,
-			"explored":true,
-			"features": [""]
-		},
-		"LongFallsCave": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["coal,wolf,"]
-		},
-		"MinersFolly": {
-			"region": "AshCanyon",
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["bear,bed,workbench,grill"],
-			"removed": ["woodworking"]
-		},
-		"ForemansRetreat": {
-			"region": "AshCanyon",
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["ptarmigan","bed,grill"],
-			"removed": ["skillet"]
-		},
-		"FireOverlookCave": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": true,
-			"explored":true,
-			"features": ["deer"]
-		},
-		"HighMeadow": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": false,
-			"explored":true,
-			"features": [""]
-		},
-		"ClimbersCave": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": true,
-			"explored":false,
-			"features": ["ptarmigan"]
-		},
-      "ACPrepperCache": {
-        "region": "AshCanyon",
-        "customizable": true,
-        "loading": true,
-        "cabinfeverrisk": true,
-        "indoors": true,
-        "explored": false,
-        "features": ["bed"]
-      },
-		"Homesteader": {
-			"region": "AshCanyon",
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["bed,grill"],
-			"removed": ["combatpants, windbreaker, earwrap, matches"]
-		},
-		"BitterMarshFishHut": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": false,
-			"explored":true,
-			"features": ["potbelly,fish","+prybar"],
-			"removed": ["lantern"]
-		},
-		"AnglersDen": {
-			"region": "AshCanyon",
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["birch,bear,+quality","potbelly,bed,workbench"],
-			"removed": ["matches,cookpot"]
-		},
-		"StoneShelfCave": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": true,
-			"explored":false,
-			"features": ["birch"]
-		},
-		"CaveToAC": {
-			"region": "AshCanyon",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["coal"]
-		},
+		"% TIMBERWOLF MOUNTAIN":{
 		"CaveFromAC": {
 			"region": "TimberwolfMountain",
 			"customizable": false,
@@ -285,8 +332,9 @@
 			"indoors": true,
 			"explored": true,
 			"features": ["coal"]
+		}
 		},
-
+		"% PLEASANT VALLEY": {
 		"Joplin": {
 			"region": "PleasantValley",
 			"customizable": true,
@@ -499,7 +547,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["wolf"]
+		}
 		},
+		"% KEEPERS PASS": {
 		"KPSTrailer": {
 			"region": "KPS",
 			"customizable": true,
@@ -544,7 +594,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["grill"]
+		}
 		},
+		"% BLACKROCK MOUNTAIN": {
 		"KPTunnel": {
 			"region": "Blackrock",
 			"customizable": false,
@@ -748,7 +800,9 @@
 			"indoors": true,
 			"explored": false,
 			"features": ["coal"]
-		},
+		}
+			},
+		"% COASTAL HIGHWAY": {
 		"UpperMineFromCH": {
 			"region": "CoastalHighway",
 			"customizable": false,
@@ -978,7 +1032,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["rabbit","deer","beachcombing"]
-		},
+		}
+			},
+		"% CRUMBLING HIGHWAY": {
 		"Harris": {
 			"region": "OIC",
 			"customizable": true,
@@ -989,14 +1045,16 @@
 			"features": ["wolf","rockcache","*furnbench","*bearbed"]
 		},
 		"No3MineFromDP": {
-			"region": "DesolationPoint",
+			"region": "OIC",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
 			"features": ["coal","salt"]
+		}
 		},
+		"% DESOLATION POINT": {
 		"No3MineToDP": {
 			"region": "DesolationPoint",
 			"customizable": false,
@@ -1100,7 +1158,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["rabbit,wolf","beachcombing"]
-		},
+		}
+			},
+		"% RAVINE": {
 		"EastRavineCave": {
 			"region": "Ravine",
 			"customizable": false,
@@ -1145,7 +1205,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bed"]
-		},
+		}
+			},
+		"% MYSTERY LAKE": {
 		"DamTrailers": {
 			"region": "MysteryLake",
 			"customizable": true,
@@ -1365,7 +1427,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["grill","wolf"]
-		},
+		}
+			},
+		"% FORLORN MUSKEG": {
 		"Poacher": {
 			"region": "ForlornMuskeg",
 			"customizable": false,
@@ -1456,7 +1520,17 @@
 			"explored": false,
 			"features": ["wolf"]
 		},
-
+		"CaveFromBI": {
+			"region": "ForlornMuskeg",
+			"customizable": false,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["coal,bed","*rockcache"]
+		}
+		},
+		"% BLEAK INLET": {
 		"BIPrepperCache": {
 			"region": "BleakInlet",
 			"customizable": true,
@@ -1634,16 +1708,9 @@
 			"indoors": true,
 			"explored":false,
 			"features": ["beachcombing,timberwolf"]
+		}
 		},
-		"CaveFromBI": {
-			"region": "ForlornMuskeg",
-			"customizable": false,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["coal,bed","*rockcache"]
-		},
+		"% MOUNTAIN TOWN": {
 		"HermitsCabin": {
 			"region": "MountainTown",
 			"customizable": false,
@@ -1778,7 +1845,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear/0.7"]
+		}
 		},
+		"% WINDING RIVER": {
 		"CaveFromPV": {
 			"region": "WindingRiver",
 			"customizable": false,
@@ -1787,7 +1856,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["coal"]
+		}
 		},
+		"% HUSHED RIVER VALLEY": {
 		"CaveToHRV": {
 			"region": "HushedRiverValley",
 			"customizable": false,
@@ -1918,7 +1989,9 @@
 			"indoors": true,
 			"explored":false,
 			"features": ["coal"]
-		},
+		}
+			},
+		"% BROKEN RAILROAD": {
 		"BRRailTunnel": {
 			"region": "BrokenRailroad",
 			"customizable": false,
@@ -2021,7 +2094,9 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["wolf","rockcache"]
-		},
+		}
+			},
+		"% FAR RANGE BRANCH LINE":{
 		"RailOffice": {
 			"region": "FarRangeBranchLine",
 			"customizable": false,
@@ -2057,7 +2132,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["rabbit,wolf","snare,snare","rockcache,*rockcache"]
+		}
 		},
+		"% TRANSFER PASS": {
 		"FeedwaterCave": {
 			"region": "TransferPass",
 			"customizable": false,
@@ -2086,7 +2163,9 @@
 				        "#-LLH,-distress",
 						"#-WorkerResidences,-suitcase,-suitcase"
 			]
+		}
 		},
+		"% ZONE OF CONTAMINATION": {
 		"WelkinsWindowCave": {
 			"region": "ZoneOfContamination",
 			"customizable": false,
@@ -2167,7 +2246,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["poisonwolf","bed,workbench"]
-		},
+		}
+			},
+		"% FORSAKEN AIRFIELD": {
 		"FAShortcut": {
 			"region": "ForsakenAirfield",
 			"customizable": false,
@@ -2223,7 +2304,7 @@
 			"features": ["deer","bed,workbench"]
 		},
 		"LowerConnectorCave": {
-			"region": "ZoneOfContamination",
+			"region": "ForsakenAirfield",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -2293,9 +2374,11 @@
 			"indoors": true,
 			"explored":false,
 			"features": ["potbelly,bed"]
-		},
+		}
+			},
+		"% SUNDERED PASS": {
 		"UpperConnectorCave": {
-			"region": "ZoneOfContamination",
+			"region": "SunderedPass",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
@@ -2392,6 +2475,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["coal"]
+		}
 		},
 		"ClimbBetweenSPAndTP": {
 			"region": "TransferPass",

@@ -58,7 +58,7 @@ def parse_styling(fname):
     :return: dict of colours, dict of dash styles
     >>> c, d, cs, ps = parse_styling('styling.json')
     >>> c['path']
-    'oklch(0.8 0.1 170)'
+    'oklch(0.7 0.1 170)'
     >>> d['path']
     ''
     >>> d['tinder']
@@ -93,7 +93,7 @@ def parse_colours(colours):
     :return: same mappings but everything is hex codes
     >>> c, d, cs, ps = parse_styling('styling.json')
     >>> parse_colours(c).keys()
-    dict_keys(['base', 'basebg', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'stone', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'todo'])
+    dict_keys(['bg', 'base', 'basebg', 'outdoor', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'stone', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'find', 'todo'])
     >>> parse_colours(c)['tinder']
     '#623e29'
     """

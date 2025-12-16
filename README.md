@@ -80,10 +80,10 @@ A full legend is avilable in `legend.csv`.
 #### Furniture
 ![furniture](docs/furniture.svg)
 #### Tools
-![tools](docs/tools.svg)
-#### Clothing
 _Green indicates it is not available on interloper/misery._
 
+![tools](docs/tools.svg)
+#### Clothing
 ![clothing](docs/clothing.svg)
 #### Miscellaneous
 ![misc](docs/misc.svg)
@@ -230,7 +230,6 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ### Coding/UX
 1. Revamp colour scheme
 2. Add day # to visualization
-1. Command-line override of style file
 3. Use legend.csv to verify counts
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location

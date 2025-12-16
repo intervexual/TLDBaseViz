@@ -584,7 +584,7 @@ class BaseLocation:
     def draw_connection(self, d, neighbour, arrow_ratio=1.0,
                         most_north=BIGNUM, most_south=0, most_west=BIGNUM, most_east=0,
                         print_output=False,
-                        unexplored=HEXES[UNEXPLORED], border=HEXES[BASE]):
+                        unexplored=HEXES[UNEXPLORED], border=HEXES[BASE], fill=HEXES[BASE_BG]):
         """
         Draw connection from self to neighbouring base
         :param d: drawing object
@@ -667,7 +667,7 @@ class BaseLocation:
 
                 if print_output:
                     print(' '*TABSIZE*2 + 'Drawing', neigh_name, "as child of", self.name)
-                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top, unexplored=unexplored, border=border)
+                neighbour.draw(d, self.icon_size, x=neigh_left, y=neigh_top, unexplored=unexplored, border=border, fill=fill)
             else:
                 if cob.corners[neigh_name][CORN_Y] == BOTTOM:
                     sink_y = neighbour.box_bottom #+ self.margin_size/2
@@ -810,7 +810,16 @@ def parse_edges(edges, colours=False):
     return connections
 
 
-def process_input(filename='bases.json', to_print=False):
+def add_base(b, base_info, base_objects, colours, edges, to_print=False):
+    bob = BaseLocation(b, base_info, colours)
+    if b in edges:
+        for connection_to_b in edges[b]:
+            bob.add_connection(edges[b][connection_to_b])
+    base_objects[b] = bob
+    if to_print:
+        print(bob)
+
+def process_input(filename='bases.json', to_print=False, style_file='styling.json'):
     """
     Parse input JSON and then turn it into BaseLocation objects.
     :param filename: input JSON filepath
@@ -827,21 +836,26 @@ def process_input(filename='bases.json', to_print=False):
     ---
     >>> bases.keys()
     dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'LonelyLighthouse', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
+    >>> bases, colours = process_input('mybases.json')
+    >>> #bases
     """
     bases, edges = parse_input(filename)
-    colours = HEXES
+    if style_file == STYLE_FILE:
+        colours = HEXES
+    else:
+        raw_colours, DASHSTYLE, FILLS, STROKES = parse_styling(style_file)
+        colours = parse_colours(raw_colours)
+
     edges = parse_edges(edges, colours)
     if len(edges) == 0:
         print('No edges! Old system!')
     base_objects = {}
     for b in bases:
-        bob = BaseLocation(b, bases[b], colours)
-        if b in edges:
-            for connection_to_b in edges[b]:
-                bob.add_connection(edges[b][connection_to_b])
-        base_objects[b] = bob
-        if to_print:
-            print(bob)
+        if not b.startswith(COMMENT):
+            add_base(b, bases[b], base_objects, colours, edges, to_print=to_print)
+        else:
+            for k in bases[b]:
+                add_base(k, bases[b][k], base_objects, colours, edges, to_print=to_print)
     return base_objects, colours
 
 
@@ -983,7 +997,8 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
         w, h, c, m = bob.box_dimensions(icon_size)
         if not bob.is_drawn:
             g = draw.Group(id=b)
-            bob.draw(g, icon_size, x=base_x, y=base_y, unexplored=unexplored_colour, border=colours[BASE])
+            bob.draw(g, icon_size, x=base_x, y=base_y,
+                     unexplored=unexplored_colour, border=colours[BASE], fill=colours[BASE_BG])
             gb.append(g)
             if print_output:
                 print(' '*TABSIZE + 'Drawing', b)
@@ -993,7 +1008,9 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
         for connection_name in bob.connections:
             if connection_name in bases:
                 dir = bob.connections[connection_name]
-                bases[b].draw_connection(gb, bases[connection_name], unexplored=unexplored_colour, border=colours[BASE], print_output=print_output)
+                bases[b].draw_connection(gb, bases[connection_name],
+                                         unexplored=unexplored_colour, border=colours[BASE], fill=colours[BASE_BG],
+                                         print_output=print_output)
             else:
                 print('Warning: connected base not in bases', connection_name)
 
@@ -1412,10 +1429,26 @@ if __name__ == '__main__':
         print('Drawing', fname)
         if fname.endswith('.json'):
             outfile = fname.replace('.json', '.svg')
-            bases, colours = process_input(fname)
+
             # TODO automatically centre the base system rather than manually specifying
-            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2160, base_y=140, print_output=False)
+
+            to_print = False
+            if len(sys.argv) > 2 and '-v' in sys.argv[2:]:
+                to_print = True
+            style_file = STYLE_FILE
+            if len(sys.argv) > 2 and '-s' in sys.argv[2:]:
+                i = sys.argv.index('-s')
+                style_file = sys.argv[i+1]
+                assert style_file.endswith('.json'), f'style file {style_file} should end with .json'
+
+            bases, colours = process_input(fname, style_file=style_file)
+
+            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2160, base_y=140,
+                       output_png=False, print_output=to_print)
 
     else:
         doctest.testmod()
         print('To run: python3 TLDBaseViz.py mybases.json')
+        print('Optional parameters to add after the input json filename:')
+        print('\t-v \t\t verbose mode')
+        print('\t-s {filename} \t use alternate style file')
