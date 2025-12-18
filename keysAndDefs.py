@@ -127,12 +127,14 @@ CORN_Y = 0
 BIGNUM = 100000
 
 PROBABILITY_DELIM = '/'
+QTY_MARKER = ':'
 TOTEXT = '#'
 TABSIZE = 4
 
 REGION = 'region'
 INVENTORY = 'Inventory'
 CURR_INVENTORY = 'CurrentInventory'
+USED_UP = 'PermanentlyUsedUp'
 
 TRUES = ['true', '''"true"''']
 

@@ -9,7 +9,7 @@
         "indoors": true,
         "explored": false,
         "features": [
-          "coal,ptarmigan",
+          "mine,ptarmigan",
           "bed,grill,workbench",
           "?rucksack,?crampons,?matches"
         ]
@@ -79,7 +79,7 @@
         "indoors": true,
         "explored": false,
         "features": [
-          "coal","?cookpot/.5"
+          "mine","?cookpot/.5"
         ]
       },
       "ClimbersCave": {
@@ -101,7 +101,7 @@
         "indoors": true,
         "explored": false,
         "features": [
-          "coal,wolf,climb"
+          "mine,wolf,climb"
         ]
       },
       "MinersFolly": {
@@ -207,7 +207,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["bear,deer","birch,coal"]
+			"features": ["bear,deer","birch,mine"]
 		},
 		"TWMPrepperCache": {
 			"region": "TimberwolfMountain",
@@ -265,7 +265,7 @@
 			"cabinfeverrisk": true,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal,ptarmigan"]
+			"features": ["mine,ptarmigan"]
 		},
 		"SummitCave": {
 			"region": "TimberwolfMountain",
@@ -292,7 +292,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"EchoRavine": {
 			"region": "TimberwolfMountain",
@@ -331,7 +331,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal","?hammer/.2,?socks"]
+			"features": ["mine","?hammer/.2,?socks"]
 		},
 		"EngineCave": {
 			"region": "TimberwolfMountain",
@@ -340,7 +340,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal"]
+			"features": ["mine"]
 		}
 			},
 		"% PLEASANT VALLEY": {
@@ -501,7 +501,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["?bear/.25,coal"]
+			"features": ["?bear/.25,mine"]
 		},
 		"UnnamedRiverCave": {
 			"region": "PleasantValley",
@@ -539,7 +539,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal","?thermos/.2"]
+			"features": ["mine","?thermos/.2"]
 		},
 		"ThompsonsCrossing": {
 			"region": "PleasantValley",
@@ -566,7 +566,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["?bear/.25","coal","?stim"]
+			"features": ["?bear/.25","mine","?stim"]
 		},
 
 		"ThreeStrikes": {
@@ -774,7 +774,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"LastProspectMine": {
 			"region": "Blackrock",
@@ -783,7 +783,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal,rabbit","?prybar/.14,+polaroid"]
+			"features": ["mine,rabbit","?prybar/.14,+polaroid"]
 		},
 		"JailorsResidence": {
 			"region": "Blackrock",
@@ -801,7 +801,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored": false,
-			"features": ["bed,coal"]
+			"features": ["bed,mine"]
 		},
 		"CooksFarm": {
 			"region": "Blackrock",
@@ -856,7 +856,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["coal"]
+			"features": ["mine"]
 		}
 			},
 		"% WINDING RIVER": {
@@ -867,7 +867,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		}
 		},
 		"% MYSTERY LAKE": {
@@ -1188,7 +1188,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,salt"]
+			"features": ["mine,salt"]
 		},
 		"UpperMineToCH": {
 			"region": "CoastalHighway",
@@ -1197,7 +1197,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,workbench","?prybar/.14"]
+			"features": ["mine,workbench","?prybar/.14"]
 		},
 		"AbandonedLookout": {
 			"region": "CoastalHighway",
@@ -1235,7 +1235,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","?jerrycan"]
+			"features": ["mine","?jerrycan"]
 		},
 
 		"Quonset": {
@@ -1398,7 +1398,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","salt"]
+			"features": ["mine","salt"]
 		}
 		},
 		"% DESOLATION POINT": {
@@ -1409,7 +1409,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,workbench"]
+			"features": ["mine,workbench"]
 		},
 		"No5MineWest": {
 			"region": "DesolationPoint",
@@ -1418,7 +1418,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","salt","rabbit"]
+			"features": ["mine","salt","rabbit"]
 		},
 		"No5MineEast": {
 			"region": "DesolationPoint",
@@ -1427,7 +1427,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","wolf"]
+			"features": ["mine","wolf"]
 		},
 		"Hibernia":{
 			"region": "DesolationPoint",
@@ -1528,7 +1528,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["bear","wolf",",-polaroid/.25"]
+			"features": ["bear","wolf","-polaroid/.25"]
 		},
 		"LowBlind": {
 			"region": "ForlornMuskeg",
@@ -1629,7 +1629,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,bed"]
+			"features": ["mine,bed"]
 		},
 		"MuskegOverlook": {
 			"region": "ForlornMuskeg",
@@ -1668,7 +1668,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,grill,coal","?bedroll/.25"
+			"features": ["bed,grill,mine","?bedroll/.25"
 			]
 		},
 		"LongBridge": {
@@ -1723,7 +1723,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"BIHuntersBlind": {
 			"region": "BleakInlet",
@@ -1857,7 +1857,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["ptarmigan,rabbit,deer",
-						"range,bed",
+						"range,bed,chest",
 						"workbench, briefcase",
 						"?hammer/.33,?prybar/.25,?cookpot,?skillet",
 						"-polaroid/.25"
@@ -1918,7 +1918,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"StChristophers": {
 			"region": "MountainTown",
@@ -1946,7 +1946,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"Greymother": {
 			"region": "MountainTown",
@@ -1955,7 +1955,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["range,bed",
+			"features": ["range,bed,chest",
 				"?cookpot,?cookpot/.5,?skillet,?matches,?recipe"
 			]
 		},
@@ -2004,7 +2004,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 
 		"HRVPrepperCache": {
@@ -2023,7 +2023,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal","?stim/.5"]
+			"features": ["mine","?stim/.5"]
 		},
 		"SouthSketchyIceCave": {
 			"region": "HushedRiverValley",
@@ -2050,7 +2050,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal","?bedroll/.33,?hacksaw/.33,-polaroid/.2"]
+			"features": ["mine","?bedroll/.33,?hacksaw/.33,-polaroid/.2"]
 		},
 		"MooseOverlook": {
 			"region": "HushedRiverValley",
@@ -2068,7 +2068,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"Landslide": {
 			"region": "HushedRiverValley",
@@ -2107,7 +2107,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","?hacksaw/.25"]
+			"features": ["mine","?hacksaw/.25"]
 		},
 		"WestIceCave": {
 			"region": "HushedRiverValley",
@@ -2125,7 +2125,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal", "?cookpot/.5,-polaroid/.2"]
+			"features": ["mine", "?cookpot/.5,-polaroid/.2"]
 		},
 		"CaveWestOfMammothFalls": {
 			"region": "HushedRiverValley",
@@ -2143,7 +2143,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 
 
@@ -2154,7 +2154,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal","?bedroll/.33,?hacksaw/.33"]
+			"features": ["mine","?bedroll/.33,?hacksaw/.33"]
 		},
 		"NorthSignalFire": {
 			"region": "HushedRiverValley",
@@ -2303,7 +2303,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"RemnantCave": {
 			"region": "FarRangeBranchLine",
@@ -2345,7 +2345,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","poisonwolf", "+polaroid"]
+			"features": ["mine","poisonwolf", "+polaroid"]
 		},
 		"IdleCamp": {
 			"region": "ZoneOfContamination",
@@ -2404,7 +2404,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,bed,workbench,workbench",
+			"features": ["mine,bed,workbench,workbench",
 				"?thermos,?lantern,?jerrycan,?woodworking",
 				"?safe",
 				"-polaroid"]
@@ -2416,7 +2416,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,birch","?firestriker"]
+			"features": ["mine,birch","?firestriker"]
 		},
 		"SmokersCave": {
 			"region": "ZoneOfContamination",
@@ -2501,7 +2501,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"FallowDugout": {
 			"region": "ForsakenAirfield",
@@ -2598,7 +2598,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"LastLonelyHouse": {
 			"region": "SunderedPass",
@@ -2651,7 +2651,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal","?jerrycan"]
+			"features": ["mine","?jerrycan"]
 		},
 		"BoltChopperCave": {
 			"region": "SunderedPass",
@@ -2660,7 +2660,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","?cookpot"]
+			"features": ["mine","?cookpot"]
 		},
 		"RudigersHideout": {
 			"region": "SunderedPass",
@@ -2705,7 +2705,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"LottesRest": {
 			"region": "SunderedPass",
@@ -2723,7 +2723,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"FinalRefuge": {
 			"region": "SunderedPass",
@@ -2750,7 +2750,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","?skillet"]
+			"features": ["mine","?skillet"]
 		},
 		"PrayerfulWindow": {
 			"region": "SunderedPass",
@@ -2759,7 +2759,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal","+polaroid"]
+			"features": ["mine","+polaroid"]
 		},
 
 		"RouteOneWaterfall": {
@@ -2769,7 +2769,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		}
 		},
 		"ClimbBetweenSPAndTP": {
@@ -2788,7 +2788,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal"]
+			"features": ["mine"]
 		},
 		"ToTradeFor": {
 			"region": "NotInGame",
@@ -2809,6 +2809,16 @@
 			"explored": false,
 			"features": [""
 						]
+		},
+		"PermanentlyUsedUp": {
+			"region": "NotInGame",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"comment": "RIP",
+			"features": [""]
 		}
 	},
   	"connections":[

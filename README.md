@@ -99,24 +99,29 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Barb's Rifle by Hey Rabbit](https://thenounproject.com/icon/rifle-3563951/)
 * [Beachcombing by Idwar](https://thenounproject.com/icon/workbench-6376294/)
 * [Bear by abdul gofur](https://thenounproject.com/icon/bear-8141308/)
-* [Bearskin Coat based on art by iconcheese](https://thenounproject.com/icon/trouser-3759142/), [Simon Child](https://thenounproject.com/icon/viking-8406/), and [Roundicons.com](https://thenounproject.com/icon/teddy-bear-1573805/) 
+* [Bear Hide by Yo! Baba](https://thenounproject.com/icon/leather-2388828/)
 * [Bear Hide Bed by Luiz Carvalho](https://thenounproject.com/icon/bed-4353999/)
+* [Bearskin Coat based on art by iconcheese](https://thenounproject.com/icon/trouser-3759142/), [Simon Child](https://thenounproject.com/icon/viking-8406/), and [Roundicons.com](https://thenounproject.com/icon/teddy-bear-1573805/) 
 * [Bed by Adrien Coquet](https://thenounproject.com/icon/sleeping-947845/)
 * [Bedroll by Daniel Shettel](https://thenounproject.com/icon/sleeping-bag-734845/)
 * [Birch Bark by Amethyst Studio](https://thenounproject.com/icon/eucommia-bark-5464568/)
 * [Bunker Rifle based on art by ka reemov](https://thenounproject.com/icon/shotgun-4424070/)
+* [Bushcraft Bow by Mask Icon](https://thenounproject.com/icon/bow-2420258/)
 * [Briefcase based on art by Arkinasi](https://thenounproject.com/icon/briefcase-7768730/)
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Car Battery by ARI NOFIANA](https://thenounproject.com/icon/car-battery-7134392/)
+* [Cedar Firewood by Felipe](https://thenounproject.com/icon/chopped-log-6003494/)
 * [Chemical Boots by monkik](https://thenounproject.com/icon/rubber-boots-2343368/)
 * [Climb by Adrien Coquet](https://thenounproject.com/icon/climb-2195072/)
 * [Climbing Rope by IYIKON](https://thenounproject.com/icon/rope-7694013/)
 * [Climbing Socks by Agan24](https://thenounproject.com/icon/sock-7451160/)
-* [Coal by BinikSol](https://thenounproject.com/icon/coal-6694219/)
+* [Coal Piece by Sean Maldjian](https://thenounproject.com/icon/rock-3575775/)
+* [Coal Spawn by BinikSol](https://thenounproject.com/icon/coal-6694219/)
 * [Cookpot by NeueDeutsche](https://thenounproject.com/icon/cooking-671176/)
 * [Combat Boots by Amethyst Studio](https://thenounproject.com/icon/combat-4284934/)
 * [Combat Pants by Amethyst Studio](https://thenounproject.com/icon/clothes-3460975/)
 * [Cougar by Sahiruddin](https://thenounproject.com/icon/black-panther-8130495/)
+* [Cougar Hide by Amir Ali](https://thenounproject.com/icon/leather-5664362/)
 * [Cougar Claw Knife based on art by Abdullah Faisal](https://thenounproject.com/icon/knife-7071166/)
 * [Cougar Hide Wrap based on art by Flowicon](https://thenounproject.com/icon/cloak-6064491/)
 * [Cowichan Sweater by ferdizzimo](https://thenounproject.com/icon/sweater-4359556/)
@@ -124,6 +129,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Curator's Rifle by Jarem Frye](https://thenounproject.com/icon/black-powder-muzzleloader-1202077/)
 * [Curing Box by Pham Duy Phuong Hung](https://thenounproject.com/icon/cooler-2133137/)
 * [Deer by Anissa](https://thenounproject.com/icon/deer-5689542/)
+* [Deer Hide based on art by Smashicons](https://thenounproject.com/icon/leather-strap-830958/)
 * [Deerskin Boots based on art by Eucalyp](https://thenounproject.com/icon/moccasin-boots-4783273/)
 * [Deerskin Pants based on art by Jajang Nurrahman](https://thenounproject.com/icon/trousers-6876585/)
 * [Distress Pistol by Andy Horvath](https://thenounproject.com/icon/flare-gun-6660081/)
@@ -131,9 +137,12 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Emergency Stim by Andi Nur Abdillah](https://thenounproject.com/icon/epipen-6104972/)
 * [Expedition Parka by Cik merry](https://tthenounproject.com/icon/winter-coat-6485467/)
 * [Firestriker by IconMark](https://thenounproject.com/icon/flare-3507624/)
+* [Fir Firewood by Ronald Cortez](https://thenounproject.com/icon/log-65876/)
+* [Fire Hardened Arrow by Zach Bogart](https://thenounproject.com/icon/archery-arrow-3169904/)
 * [Fish by BnB Studio](https://thenounproject.com/icon/salmon-7911128/)
 * [Fisherman's Sweater by Ayub Irawan](https://thenounproject.com/icon/wool-sweater-8116805/)
 * Fishing Tip-up is original art for this project
+* [Flare by Side Project](https://thenounproject.com/icon/flare-8177887/)
 * [Flight Jacket based on art by Zky Icon](https://thenounproject.com/icon/winter-coat-6984285/)
 * [Forester's Revolver by Hey Rabbit](https://thenounproject.com/icon/revolver-3563944/)
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
@@ -159,12 +168,15 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
 * [Mackinaw Jacket based on art by ToZIcon](https://thenounproject.com/icon/jacket-5072903/)
 * [Magnifying Lens by vectaicon](https://thenounproject.com/icon/search-6437462/)
+* [Manufactured Arrow by Leonardo Henrique Martini](https://thenounproject.com/icon/arrow-6704576/)
+* [Marine Flare by Amethyst Studio](https://thenounproject.com/icon/signal-flare-5217088/)
 * [Mariner's Pea Coat by Smallike](https://thenounproject.com/icon/jacket-2214264/)
 * [Matches by Zach Bogart](https://thenounproject.com/icon/matchbook-4449825/)
 * [Military Coat by Blackonion](https://thenounproject.com/icon/coat-6501999/)
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
 * [Miner's Pants by pictranoosa](https://thenounproject.com/icon/fire-pants-5360970/)
 * [Moose by pramana](https://thenounproject.com/icon/moose-7525270/)
+* [Moose Hide based on art by Nhor](https://thenounproject.com/icon/leather-3394969/)
 * [Moose-Hide Cloak by Daniela Baptista](https://thenounproject.com/icon/jacket-788858/)
 * [Moose-Hide Satchel by Amethyst Studio](https://thenounproject.com/icon/waist-bag-5466991/)
 * [Mukluks by Eucalyp](https://thenounproject.com/icon/timberland-boots-4647930/)
@@ -175,15 +187,18 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
 * [Quality Tools by Asiah](https://thenounproject.com/icon/toolbox-7611362/)
 * [Rabbit by Logisstudio](https://thenounproject.com/icon/rabbit-8111124/)
+* [Rabbit Pelt based on art by Eucalpy](https://thenounproject.com/icon/fur-pelt-3159393/)
 * [Rabbitskin Hat by DTNS Studio](https://thenounproject.com/icon/ushanka-5849964/)
 * [Rabbitskin Mittens by Neneng Fadliyah](https://thenounproject.com/icon/mitten-6331269/)
 * [Radio by Arif Arisandi](https://thenounproject.com/icon/podcast-4678161/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
 * [Recipe Card by Marianna Nardella](https://thenounproject.com/icon/recipe-card-291038/)
+* [Reclaimed Wood by Adrien Coquet](https://thenounproject.com/icon/wood-3968912/)
 * [Revolver by Eskak](https://thenounproject.com/icon/revolver-8168224/)
 * [Rock Cache by kusuma potter](thenounproject.com/icon/cannon-balls-7931465/)
 * [Safe by Jonn Tronic](https://thenounproject.com/icon/safe-29193/)
 * [Salt by Muhammad Hilmi Fajri](https://thenounproject.com/icon/mineral-7867358/)
+* [Simple Arrow by Sahab Uddin](https://thenounproject.com/icon/archery-4143091/)
 * [Simple Parka by Siipkan Creative](https://thenounproject.com/icon/coat-5736592/)
 * [Simple Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
 * [Ski Boots by Lars Meiertoberens](https://thenounproject.com/icon/ski-boots-5326418/)
@@ -192,7 +207,10 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Snare by Intervex](https://commons.wikimedia.org/wiki/File:Small_game_snare_icon.svg) [Wikimedia Commons]
 * [Snowpants by Studio365](https://thenounproject.com/icon/pants-4690858/)
 * [Spelunker's Lantern by Teny Septiani](https://thenounproject.com/icon/lantern-8126016/)
+* [Sport Bow by TRAVIS BIRD](https://thenounproject.com/icon/bow-1519794/)
+* [Stick by MingNae](https://thenounproject.com/icon/leaf-6526853/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
+* [Survival Bow by Anditii Creative](https://thenounproject.com/icon/bow-archer-7655054/)
 * [Survival Knife by Soremba](https://thenounproject.com/icon/knife-4460861/)
 * [Tactical Gloves modified from art by Abu Ibrahim Icon](https://thenounproject.com/icon/gloves-7651028/)
 * [Technical Backpack by johanna](https://thenounproject.com/icon/rucksack-580791/)
@@ -204,15 +222,18 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Trader by Salman Azzumardi](https://thenounproject.com/icon/sailboat-8101964/)
 * [Transmitter by IconsHome](https://thenounproject.com/icon/antenna-7788531/)
 * [Trunk (rustic) by Annisa](https://thenounproject.com/icon/treasure-chest-7189699/)
+* [Trunk (premade) by Chintuza](https://thenounproject.com/icon/chest-3106198/)
 * [Urban Parka by James gibson](https://thenounproject.com/icon/padded-jumper-6393765/)
 * [Vaughn's Rife by ka reemov](https://thenounproject.com/icon/shotgun-4424071/)
 * [Warden's Revolver by Eskak](https://thenounproject.com/icon/revolver-8168232/)
 * [Windbreaker by Lars Meiertoberens](https://thenounproject.com/icon/windbreaker-6792064/)
 * [Wolf by IronSV](https://thenounproject.com/icon/wolf-3063417/)
+* [Wolf Hide based on art by Singlar](https://thenounproject.com/icon/leather-7911204/)
 * [Wolfskin Coat by Collicon](https://thenounproject.com/icon/jacket-2469520/)
 * [Wolfskin Hat based on art by Amethyst Studio](https://thenounproject.com/icon/wolf-4132610/)
 * [Wolfskin Pants modified from art by Jo Santos](https://thenounproject.com/icon/pants-6798118/)
 * [Woodworking Tools by Berkah Icon](https://thenounproject.com/icon/saw-8128607/)
+* [Woodwright's Bow by Simon Henrotte](https://thenounproject.com/icon/bow-22927/)
 * [Wool Ear Wrap by parkjisun](https://thenounproject.com/icon/visor-414706/)
 * [Wool Longjohns by Edi Prastyo](https://thenounproject.com/icon/long-john-4100147/)
 * [Wool Mittens by Icon Market](https://thenounproject.com/icon/mitten-7686734/)
@@ -222,13 +243,11 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Workbench by cdesign933](https://thenounproject.com/icon/desk-6717403/)
 * [Workbench Vice by Melisa Lutfiani](https://thenounproject.com/icon/vice-6758814/)
 
-
 ## TODOs
 ### Icons to add
 1. Icons for all accessories
-5. Add bow, simple arrows, fire arrows (then non-interloper weapons)
-6. Stacks of items like arrows
-8. Add: Sewing kit? Can openers?
+8. Sewing kit
+9. Can openers?
 12. Wall art and rugs?
 13. Separate icon for outdoor workbench?
 15. Bear processing locations?
@@ -246,6 +265,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ### Maybe later
 9. Add some level of importance/priority?
+10. Festive lights
 
 ## Acknowledgments
 * See image credits!

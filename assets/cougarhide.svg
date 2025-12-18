@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2560.5"
+   height="2560.5"
+   viewBox="0 0 2560.5 2560.5"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="cougarhide.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.21231618"
+     inkscape:cx="193.10822"
+     inkscape:cy="2253.7143"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="path1"
+     style="fill:#000000;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+     d="M 586.25,0 C 575.25,0 566.25,9 566.25,20 V 139 C 566.25,150 575.25,159 586.25,159 702.25,159 827.25,438 827.25,853 827.25,1269 702.25,1548 586.25,1548 575.25,1548 566.25,1557 566.25,1568 V 1687 C 566.25,1698 575.25,1707 586.25,1707 H 675.25 C 683.25,1707 690.25,1702 693.25,1694 757.25,1545 970.25,1544 1034.25,1694 1037.25,1702 1044.25,1707 1052.25,1707 H 1232.2637 L 1235.9648,2560.5 H 1337.7481 L 1334.0469,1707 H 1508.25 C 1516.25,1707 1524.25,1702 1527.25,1694 1590.25,1544 1804.25,1545 1867.25,1694 1870.25,1702 1878.25,1707 1886.25,1707 H 1974.25 C 1985.25,1707 1994.25,1698 1994.25,1687 V 1568 C 1994.25,1557 1985.25,1548 1974.25,1548 1858.25,1548 1734.25,1269 1734.25,853 1734.25,438 1858.25,159 1974.25,159 1985.25,159 1994.25,150 1994.25,139 V 20 C 1994.25,9 1985.25,0 1974.25,0 H 1886.25 C 1878.25,0 1870.25,5 1867.25,12 1804.25,162 1590.25,162 1527.25,12 1524.25,5 1516.25,0 1508.25,0 H 1052.25 C 1044.25,0 1037.25,5 1034.25,12 970.25,162 757.25,162 693.25,12 690.25,5 683.25,0 675.25,0 Z" />
+</svg>

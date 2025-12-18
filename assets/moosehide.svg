@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="447"
+   height="447"
+   viewBox="0 0 447 447"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="moosehide.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     style="mix-blend-mode:normal;fill:#000000;fill-opacity:1"
+     d="M 93.57,-0.6905 25.857,16.2615 0.457,41.6615 22.894,92.9695 C 23.166088,93.785262 23.304869,94.639558 23.305,95.4995 V 351.4995 C 23.304869,352.35944 23.166088,353.21374 22.894,354.0295 L 0.458,421.3385 25.858,446.7385 93.571,431.6905 C 94.140354,431.56408 94.721781,431.50004 95.305,431.4995 H 351.305 C 351.88852,431.49964 352.47028,431.56335 353.04,431.6895 L 420.753,446.7375 446.543,420.9475 431.495,353.2345 C 431.36885,352.66478 431.30514,352.08302 431.305,351.4995 V 95.4995 C 431.30514,94.915983 431.36885,94.334217 431.495,93.7645 L 446.543,44.0515 420.753,14.2615 353.04,-0.6905 C 335.81807,-0.14804196 351.88852,-0.50063804 351.305,-0.5005 L 95.305,-0.5005 C 94.721483,-0.50063804 104.23512,1.2049502 93.57,-0.6905 Z"
+     id="path1"
+     sodipodi:nodetypes="ccccccccccccccccccccccccc" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.6985295"
+     inkscape:cx="123.34199"
+     inkscape:cy="304.08657"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath54">
+      <path
+         id="path54"
+         style="stroke-width:0.0999999;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
+         d="m 1691.1994,-792.32001 h 1634.8919 v 92.82806 H 1691.1994 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:0;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect5-4"
+         width="20"
+         height="200"
+         x="530"
+         y="595" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath33">
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.999995;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect33"
+         width="46.19186"
+         height="80.006783"
+         x="74.999985"
+         y="399.99661" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath55">
+      <path
+         id="path55"
+         style="stroke-width:0.1;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
+         d="m 1736.6147,-745.57287 h 1589.4765 v 72.46715 H 1736.6147 Z" />
+    </clipPath>
+  </defs>
+</svg>

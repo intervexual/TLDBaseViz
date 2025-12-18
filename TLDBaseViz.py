@@ -1,7 +1,7 @@
 from keysAndDefs import *
 
 class BaseFeature:
-    def __init__(self, name, colours=(), probability=1):
+    def __init__(self, name, colours=(), probability=1, qty=1):
         """
         Create BaseFeature object with a name and material.
         :param name: case-sensitive name
@@ -28,6 +28,12 @@ class BaseFeature:
         >>> str(BaseFeature('#+Blah'))
         'empty:planned:bring'
         """
+        self.qty = float(qty)
+        if QTY_MARKER in name and not name.startswith(TOTEXT):
+            qty_info = name.split(QTY_MARKER)
+            name = qty_info[0]
+            self.qty = float(qty_info[1])
+
         self.status, self.material = status_from_prefixes(name)
 
         self.alt_text = ''
@@ -87,6 +93,18 @@ class BaseFeature:
                                x=mid_x, y=mid_y, fill=self.hex,
                                text_anchor='middle',
                                font_style='italic')) # , text_decoration='underline'
+        elif self.qty != 1:
+            scaling = .6
+            new_wid = wid*scaling
+            diff = hei - new_wid
+            new_y = y + (diff)
+            import_svg(g, self.filepath, x=x, y=new_y, wid=new_wid,
+                   hei=new_wid, fill=self.hex, opacity=self.probability)
+            tbox_wid = new_wid * scaling
+            g.append(draw.Rectangle(x+wid/2, y, tbox_wid, tbox_wid, fill=self.hex, opacity=.3))
+            g.append(draw.Text( str(int(self.qty)), tbox_wid*.8,
+                               x = x+wid-tbox_wid*.9, y=y+tbox_wid*.75,
+                                text_anchor='middle'))
         else:
             import_svg(g, self.filepath, x=x, y=y, wid=wid,
                    hei=hei, fill=self.hex, opacity=self.probability) # shading for probabalistic features
@@ -1021,14 +1039,14 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
         to_bring, to_take = verify_taking_numbers(bases)
         out_bring = 'outstanding bring'
         out_take = 'outstanding take'
-        bob = special_base(bases, out_bring, to_bring, CURR_INVENTORY, SOUTH)
+        bob = special_base(bases, out_bring, to_bring, USED_UP, SOUTH)
         tob = special_base(bases, out_take, to_take, out_bring, SOUTH)
-        bases[CURR_INVENTORY].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE], fill=colours[BASE_BG])
+        bases[USED_UP].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE], fill=colours[BASE_BG])
         bases[out_bring].draw_connection(d, tob, unexplored=colours[BRING], border=colours[BRING], fill=colours[BASE_BG])
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210, y=190, counts=counts)
+        draw_legend(d, colours, x=d.width-210, y=100, counts=counts)
 
 
     d.save_svg(output)
@@ -1106,7 +1124,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
-    [4, 2, 10, 2, 14, 7, 4]
+    [4, 2, 10, 1, 14, 7, 4]
     """
     count = {}
     for a in ASSETS:
@@ -1131,12 +1149,16 @@ def verify_fixed_numbers(bases, nums):
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> verify_fixed_numbers(bases, nums)
+    Warning: expecting 3.0 many maglens found 2 instead
+    Warning: expecting 15.0 many prybar found 20 instead
+    False
     """
     all_matching = True
     round_to = 2
     for i in ICONS:
         if type(i.fixednum) == float:
             if round(i.fixednum,round_to) != round(nums[i.key],round_to):
+                all_matching = False
                 print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead')
     return all_matching
 
@@ -1247,8 +1269,11 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
         if to_draw:
             icon_y += cell_size
             text_y = icon_y + cell_size / 2 + margin_size
-            import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
-                       hei=icon_size, fill=legend_colour)
+            try:
+                import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
+                           hei=icon_size, fill=legend_colour)
+            except:
+                print('ERROR SVG import failed on', a, i)
             d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
                                x=icon_x+cell_size, y=text_y,
                                fill=legend_colour))
@@ -1440,7 +1465,8 @@ if __name__ == '__main__':
 
             bases, colours = process_input(fname, style_file=style_file)
 
-            draw_bases(bases, colours, output=outfile, width=2700, height=1800, base_x=2160, base_y=140,
+            draw_bases(bases, colours, output=outfile,
+                       width=2800, height=1800, base_x=2200, base_y=20,
                        output_png=False, print_output=to_print)
 
     else:

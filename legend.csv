@@ -12,6 +12,7 @@ grill	2-slot stove	furniture	cooking			FALSE	TRUE	good
 range	6-slot stove	furniture	cooking		7	FALSE	TRUE	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE	fine
 trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE	good
+chest	trunk (premade)	furniture	storage			FALSE	TRUE	
 rockcache	rock cache	furniture	storage	stone		TRUE	TRUE	good
 suitcase	suitcase	furniture	storage			TRUE	TRUE	good
 briefcase	briefcase	furniture	storage			FALSE	TRUE	fine
@@ -20,22 +21,31 @@ maglens	magnifying lens	tools	light		3	TRUE	TRUE	good
 firestriker	firestriker	tools	light		4	TRUE	TRUE	fine
 matches	wood matches	tools	light			TRUE	TRUE	fine
 jerrycan	jerry can	tools	light			TRUE	TRUE	good
+redflare	flare	tools	light			TRUE	TRUE	
+blueflare	marine flare	tools	light			TRUE	TRUE	
 lantern	lantern	tools	light		7	TRUE	TRUE	good
 spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE	
 cookpot	cookpot	tools	cooking		16	TRUE	TRUE	good
 skillet	skillet	tools	cooking		14	TRUE	TRUE	good
 thermos	insulated flask	tools	cooking		8	TRUE	TRUE	good
-barbs	barb’s rifle	tools	hunting			TRUE	FALSE	
-rifle	hunting rifle	tools	hunting			TRUE	FALSE	
-curators	curator’s rifle	tools	hunting			TRUE	FALSE	
-vaughns	vaughn’s rifle	tools	hunting			TRUE	FALSE	
-bunkerrifle	bunker rifle	tools	hunting			TRUE	FALSE	OUT OF PLACE
-hunters	hunter’s revolver	tools	hunting			TRUE	FALSE	
-revolver	revolver	tools	hunting			TRUE	FALSE	
-foresters	forester’s revolver	tools	hunting			TRUE	FALSE	
-wardens	warden’s revolver	tools	hunting			TRUE	FALSE	
-distress	distress pistol	tools	hunting			TRUE	TRUE	fine
-dpammo	distress pistol ammo	tools	hunting			TRUE	TRUE	fine
+barbs	barb’s rifle	tools	firearms			TRUE	FALSE	
+rifle	hunting rifle	tools	firearms			TRUE	FALSE	
+curators	curator’s rifle	tools	firearms			TRUE	FALSE	
+vaughns	vaughn’s rifle	tools	firearms			TRUE	FALSE	
+bunkerrifle	bunker rifle	tools	firearms			TRUE	FALSE	OUT OF PLACE
+hunters	hunter’s revolver	tools	firearms			TRUE	FALSE	
+revolver	revolver	tools	firearms			TRUE	FALSE	
+foresters	forester’s revolver	tools	firearms			TRUE	FALSE	
+wardens	warden’s revolver	tools	firearms			TRUE	FALSE	
+distress	distress pistol	tools	firearms			TRUE	TRUE	fine
+dpammo	distress pistol ammo	tools	firearms			TRUE	TRUE	fine
+woodwright	woodwright’s bow	tools	archery			TRUE	FALSE	
+bushcraft	bushcraft bow	tools	archery			TRUE	FALSE	
+bow	survival bow	tools	archery			TRUE	TRUE	
+sportbow	sport bow	tools	archery			TRUE	FALSE	
+manuarrow	manufatured arrow	tools	archery			TRUE	FALSE	
+arrow	simple arrow	tools	archery			TRUE	TRUE	
+firearrow	fire hardened arrow	tools	archery			TRUE	TRUE	
 huntknife	hunting knife	tools	harvesting			TRUE	FALSE	
 clawknife	cougar claw knife	tools	harvesting			TRUE	TRUE	
 knife	improvised knife	tools	harvesting			TRUE	TRUE	
@@ -63,6 +73,17 @@ handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE
 rope	climbing rope	misc	misc			TRUE	TRUE	
 climb	rock climb	misc	misc			FALSE	TRUE	
 goating	goating route	misc	misc			FALSE	TRUE	
+coal	coal piece	misc	fire			TRUE	TRUE	
+stick	stick	misc	fire			TRUE	TRUE	
+cedar	cedar firewood	misc	fire			TRUE	TRUE	
+fir	fir firewood	misc	fire			TRUE	TRUE	
+reclaimed	reclaimed wood	misc	fire			TRUE	TRUE	
+moosehide	moose hide	misc	material			TRUE	TRUE	
+bearhide	bear hide	misc	material			TRUE	TRUE	
+wolfhide	wolf hide	misc	material			TRUE	TRUE	
+cougarhide	cougar hide	misc	material			TRUE	TRUE	
+deerhide	deer hide	misc	material			TRUE	TRUE	
+rabbitpelt	rabbit pelt	misc	material			TRUE	TRUE	
 bear	bear	natural	animal		29.38	TRUE	TRUE	good
 moose	moose	natural	animal			FALSE	TRUE	good
 deer	deer	natural	animal			FALSE	TRUE	good
@@ -75,7 +96,7 @@ ptarmigan	ptarmigan	natural	animal			FALSE	TRUE	good
 fish	fishing	natural	animal			FALSE	TRUE	good
 birch	birch bark spawn	natural	nonanimal			FALSE	TRUE	fine
 salt	salt deposit	natural	nonanimal			TRUE	TRUE	good
-coal	coal spawn	natural	nonanimal			FALSE	TRUE	good
+mine	coal spawn	natural	nonanimal			FALSE	TRUE	good
 beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE	good
 wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE	fine
 wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE	good
