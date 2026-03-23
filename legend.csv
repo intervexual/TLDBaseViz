@@ -13,6 +13,7 @@ range	6-slot stove	furniture	cooking		7	FALSE	TRUE	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE	fine
 trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE	good
 chest	trunk (premade)	furniture	storage			FALSE	TRUE	
+box	rustic storage box	furniture	storage	cedar		TRUE	TRUE	
 rockcache	rock cache	furniture	storage	stone		TRUE	TRUE	good
 suitcase	suitcase	furniture	storage			TRUE	TRUE	good
 briefcase	briefcase	furniture	storage			FALSE	TRUE	fine
@@ -20,25 +21,35 @@ safe	safe	furniture	storage		10	FALSE	TRUE
 maglens	magnifying lens	tools	light		3	TRUE	TRUE	good
 firestriker	firestriker	tools	light		4	TRUE	TRUE	fine
 matches	wood matches	tools	light			TRUE	TRUE	fine
-jerrycan	jerry can	tools	light			TRUE	TRUE	good
 redflare	flare	tools	light			TRUE	TRUE	
 blueflare	marine flare	tools	light			TRUE	TRUE	
+torch	torch	tools	light			TRUE	TRUE	
+flashlight	flashlight	tools	light			TRUE	FALSE	
+minersflashlight	miner’s flashlight	tools	light			TRUE	FALSE	
 lantern	lantern	tools	light		7	TRUE	TRUE	good
 spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE	
+fuel	lantern fuel	tools	light			TRUE	TRUE	
+jerrycan	jerry can	tools	light			TRUE	TRUE	good
+accelerant	accelerant	tools	light			TRUE	TRUE	
 cookpot	cookpot	tools	cooking		16	TRUE	TRUE	good
-skillet	skillet	tools	cooking		14	TRUE	TRUE	good
+skillet	skillet	tools	cooking		15	TRUE	TRUE	good
+can	recycled can	tools	cooking			TRUE	TRUE	
 thermos	insulated flask	tools	cooking		8	TRUE	TRUE	good
+canopener	can opener	tools	cooking			TRUE	TRUE	
 barbs	barb’s rifle	tools	firearms			TRUE	FALSE	
 rifle	hunting rifle	tools	firearms			TRUE	FALSE	
 curators	curator’s rifle	tools	firearms			TRUE	FALSE	
 vaughns	vaughn’s rifle	tools	firearms			TRUE	FALSE	
 bunkerrifle	bunker rifle	tools	firearms			TRUE	FALSE	OUT OF PLACE
+ammo	rifle ammunition	tools	firearms			TRUE	FALSE	
 hunters	hunter’s revolver	tools	firearms			TRUE	FALSE	
 revolver	revolver	tools	firearms			TRUE	FALSE	
 foresters	forester’s revolver	tools	firearms			TRUE	FALSE	
 wardens	warden’s revolver	tools	firearms			TRUE	FALSE	
+bullet	revolver ammo	tools	firearms			TRUE	FALSE	
 distress	distress pistol	tools	firearms			TRUE	TRUE	fine
 dpammo	distress pistol ammo	tools	firearms			TRUE	TRUE	fine
+noisemaker	noisemaker	tools	firearms			TRUE	TRUE	
 woodwright	woodwright’s bow	tools	archery			TRUE	FALSE	
 bushcraft	bushcraft bow	tools	archery			TRUE	FALSE	
 bow	survival bow	tools	archery			TRUE	TRUE	
@@ -51,7 +62,7 @@ clawknife	cougar claw knife	tools	harvesting			TRUE	TRUE
 knife	improvised knife	tools	harvesting			TRUE	TRUE	
 survivalknife	survival knife	tools	harvesting			TRUE	FALSE	
 hacksaw	hacksaw	tools	harvesting		10	TRUE	TRUE	good
-prybar	prybar	tools	harvesting		15	TRUE	TRUE	good
+prybar	prybar	tools	harvesting		22	TRUE	TRUE	good
 hatchet	hatchet	tools	harvesting			TRUE	FALSE	
 axe	improvised hatchet	tools	harvesting			TRUE	TRUE	
 hammer	heavy hammer	tools	harvesting		7	TRUE	TRUE	good
@@ -59,32 +70,70 @@ snare	snare	tools	exploring	reclaimed		TRUE	TRUE	good
 tipup	fishing tip-up	tools	exploring	reclaimed		TRUE	TRUE	fine
 stim	emergency stim	tools	exploring		11	TRUE	TRUE	fine
 bedroll	cloth bedroll	tools	exploring		8	TRUE	TRUE	good
+bearroll	bearskin bedroll	tools	exploring			TRUE	TRUE	
 rucksack	technical backpack	tools	exploring		1	TRUE	TRUE	good
+paint	spray paint	tools	exploring			TRUE	TRUE	
 quality	quality tools	tools	crafting			TRUE	TRUE	fine
 simple	simple tools	tools	crafting			TRUE	TRUE	fine
 woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE	fine
+sewing	sewing kit	tools	crafting			TRUE	TRUE	
+whetstone	whetstone	tools	crafting			TRUE	TRUE	
+guncleaner	firearm cleaning kit	tools	crafting			TRUE	FALSE	
 vice	workbench vice	misc	misc			TRUE	TRUE	good
 battery	car battery	misc	misc			TRUE	TRUE	
 transmitter	transmitter	misc	misc		6	FALSE	TRUE	
-recipe	recipe card	misc	misc		13	TRUE	TRUE	
-polaroid	vista polaroid	misc	misc		21	TRUE	TRUE	
+recipe	recipe card	misc	misc		13	TRUE	TRUE	good
+polaroid	vista polaroid	misc	misc		21	TRUE	TRUE	good
 camera	camera	misc	misc		1	TRUE	TRUE	
 handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE	
 rope	climbing rope	misc	misc			TRUE	TRUE	
 climb	rock climb	misc	misc			FALSE	TRUE	
 goating	goating route	misc	misc			FALSE	TRUE	
-coal	coal piece	misc	fire			TRUE	TRUE	
-stick	stick	misc	fire			TRUE	TRUE	
+rugs	floor covered with rugs	misc	misc			TRUE	TRUE	
+decor	walls are decorated	misc	misc			TRUE	TRUE	
+coal	coal piece	misc	fire			TRUE	TRUE	good
+stick	stick	misc	fire			TRUE	TRUE	good
 cedar	cedar firewood	misc	fire			TRUE	TRUE	
 fir	fir firewood	misc	fire			TRUE	TRUE	
+firelog	firelog	misc	fire			TRUE	TRUE	
 reclaimed	reclaimed wood	misc	fire			TRUE	TRUE	
-moosehide	moose hide	misc	material			TRUE	TRUE	
-bearhide	bear hide	misc	material			TRUE	TRUE	
-wolfhide	wolf hide	misc	material			TRUE	TRUE	
-cougarhide	cougar hide	misc	material			TRUE	TRUE	
-deerhide	deer hide	misc	material			TRUE	TRUE	
-rabbitpelt	rabbit pelt	misc	material			TRUE	TRUE	
-bear	bear	natural	animal		29.38	TRUE	TRUE	good
+maple	maple sapling	misc	material			TRUE	TRUE	good
+sapling	birch sapling	misc	material			TRUE	TRUE	
+arrowhead	arrowhead	misc	material			TRUE	TRUE	
+metal	scrap metal	misc	material			TRUE	TRUE	
+cloth	cloth	misc	material			TRUE	TRUE	
+leather	cured leather	misc	material			TRUE	TRUE	
+stone	stone	misc	material			TRUE	TRUE	
+charcoal	charcoal	misc	material			TRUE	TRUE	
+paper	newspaper or stack of papers	misc	material			TRUE	TRUE	
+tinder	tinder plug	misc	material			TRUE	TRUE	
+head	cattail head	misc	material			TRUE	TRUE	
+fuse	replacement fuse	misc	material			TRUE	TRUE	replace!
+wires	wires	misc	material			TRUE	TRUE	
+gunpowder	can of gunpowder	misc	material			TRUE	TRUE	
+fertilizer	dusting sulphur or grow well	misc	material			TRUE	TRUE	
+film	FastFilm-500 (any type)	misc	material			TRUE	TRUE	
+moosehide	moose hide	misc	hides			TRUE	TRUE	good
+bearhide	bear hide	misc	hides			TRUE	TRUE	
+wolfhide	wolf hide	misc	hides			TRUE	TRUE	good
+cougarhide	cougar hide	misc	hides			TRUE	TRUE	
+deerhide	deer hide	misc	hides			TRUE	TRUE	
+rabbitpelt	rabbit pelt	misc	hides			TRUE	TRUE	replace!
+gut	cured gut	misc	hides			TRUE	TRUE	
+feather	crow feather	misc	hides			TRUE	TRUE	
+down	ptarmigan down	misc	hides			TRUE	TRUE	
+shaker	salt shaker	misc	cooking			TRUE	TRUE	
+saltbag	salt bag	misc	cooking			TRUE	TRUE	
+water	potable water	misc	cooking			TRUE	TRUE	
+cattail	cattail stalks	misc	cooking			TRUE	TRUE	
+oats	oats	misc	cooking			TRUE	TRUE	
+vitaminc	vitamin-c pills	misc	aid			TRUE	TRUE	
+caffeine	caffeine pills	misc	aid			TRUE	TRUE	
+bandage	bandage	misc	aid			TRUE	TRUE	
+dressing	old man’s beard wound dressing	misc	aid			TRUE	TRUE	
+antiseptic	antiseptic	misc	aid			TRUE	TRUE	
+heatpack	heat pack	misc	aid			TRUE	TRUE	
+bear	bear	natural	animal		29.38	FALSE	TRUE	good
 moose	moose	natural	animal			FALSE	TRUE	good
 deer	deer	natural	animal			FALSE	TRUE	good
 wolf	wolf	natural	animal			FALSE	TRUE	good
@@ -94,7 +143,8 @@ cougar	cougar	natural	animal			FALSE	TRUE	fine
 rabbit	rabbit	natural	animal			FALSE	TRUE	good
 ptarmigan	ptarmigan	natural	animal			FALSE	TRUE	good
 fish	fishing	natural	animal			FALSE	TRUE	good
-birch	birch bark spawn	natural	nonanimal			FALSE	TRUE	fine
+bearhunt	bear hunting destination	natural	nonanimal			FALSE	TRUE	
+bark	birch bark spawn	natural	nonanimal			FALSE	TRUE	fine
 salt	salt deposit	natural	nonanimal			TRUE	TRUE	good
 mine	coal spawn	natural	nonanimal			FALSE	TRUE	good
 beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE	good

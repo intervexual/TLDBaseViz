@@ -586,9 +586,10 @@ class BaseLocation:
         box_width, box_height, cell_size, margin_size = self.box_dimensions(icon_size, margin_ratio)
         g = draw.Group(id=self.name)
 
+        # manually position the current inventory
         if self.region == INVENTORY:
             self.box_x = self.cell_size
-            self.box_y = self.cell_size
+            self.box_y = self.cell_size + 1400
             x = self.box_x
             y = self.box_y
 
@@ -950,7 +951,7 @@ def redraw_bases(bases, colours, icon_size=20, output='tests/rebases.svg', add_l
 
 def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
                base_x=200, base_y=150, width=800, height=800,
-               add_legend=True, output_png=True, print_output=False):
+               add_legend=True, output_png=True, print_output=False, print_warnings=True):
     """
     Draw all bases
     :param bases:
@@ -1029,7 +1030,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
                 bases[b].draw_connection(gb, bases[connection_name],
                                          unexplored=unexplored_colour, border=colours[BASE], fill=colours[BASE_BG],
                                          print_output=print_output)
-            else:
+            elif print_warnings:
                 print('Warning: connected base not in bases', connection_name)
 
     d.append(gb)
@@ -1037,8 +1038,10 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if CURR_INVENTORY in bases:
         to_bring, to_take = verify_taking_numbers(bases)
-        out_bring = 'outstanding bring'
-        out_take = 'outstanding take'
+        out_bring = 'outstanding bring (needs source)'
+        out_take = 'outstanding take (needs destination)'
+        to_bring = condense_multiples_in_list(to_bring)
+        to_take = condense_multiples_in_list(to_take)
         bob = special_base(bases, out_bring, to_bring, USED_UP, SOUTH)
         tob = special_base(bases, out_take, to_take, out_bring, SOUTH)
         bases[USED_UP].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE], fill=colours[BASE_BG])
@@ -1046,13 +1049,32 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210, y=100, counts=counts)
+        draw_legend(d, colours, x=d.width-210*3, y=600, counts=counts)
 
 
     d.save_svg(output)
     if output_png:
         d.save_png(output.replace('.svg','.png'))
 
+
+def get_regions(bases):
+    """
+    Get unique regions from the bases
+    :return: list of regions
+    >>> bases, edges = process_input('tests/testinput.json')
+    >>> get_regions(bases)
+    ['CoastalHighway', 'DesolationPoint', 'MountainTown', 'OIC']
+    >>> bases, edges = process_input('loottable4.json')
+    >>> get_regions(bases)
+    ['AshCanyon', 'Blackrock', 'BleakInlet', 'BrokenRailroad', 'CoastalHighway', 'DesolationPoint', 'FarRangeBranchLine', 'ForlornMuskeg', 'ForsakenAirfield', 'HushedRiverValley', 'KPN', 'KPS', 'MountainTown', 'MysteryLake', 'OIC', 'PleasantValley', 'Ravine', 'SunderedPass', 'TimberwolfMountain', 'TransferPass', 'WindingRiver', 'ZoneOfContamination']
+    """
+    regions = []
+    to_exclude = ['PermanentlyUsedUp', 'Inventory', 'NotInGame', CURR_INVENTORY]
+    for b in bases:
+        this_region = bases[b].region
+        if this_region not in to_exclude:
+            regions.append(this_region)
+    return sorted(list(set(regions)))
 
 def draw_region(region, source_info, output='tests/', print_output=False, add_legend=False):
     """
@@ -1061,40 +1083,14 @@ def draw_region(region, source_info, output='tests/', print_output=False, add_le
     :param source_info: input json filename
     :return:
     >>> draw_region('AshCanyon', 'loottable4.json', print_output=False)
-    Warning: connected base not in bases CaveFromAC
-    Warning: connected base not in bases EchoRavine
     >>> draw_region('TimberwolfMountain', 'loottable4.json', print_output=False, add_legend=True)
-    Warning: connected base not in bases CaveToAC
-    Warning: connected base not in bases Joplin
-    Warning: connected base not in bases CaveToBRM
-    Warning: connected base not in bases BitterMarshFishHut
     >>> draw_region('Blackrock', 'mybases.json', print_output=False)
-    Warning: connected base not in bases Foresters
-    Warning: connected base not in bases CaveFromBRM
     >>> draw_region('PleasantValley', 'mybases.json', print_output=False)
-    Warning: connected base not in bases Mountaineer
-    Warning: connected base not in bases KPSTrailer
-    Warning: connected base not in bases CaveFromPV
-    Warning: connected base not in bases UpperMineFromCH
     >>> draw_region('MountainTown', 'mybases.json', print_output=False)
-    Warning: connected base not in bases MarshRidgeCave
-    Warning: connected base not in bases Trapper
-    Warning: connected base not in bases CaveToHRV
     >>> draw_region('MysteryLake', 'loottable4.json', print_output=False)
-    Warning: connected base not in bases CaveFromPV
-    Warning: connected base not in bases WestRavineCave
-    Warning: connected base not in bases Poacher
-    Warning: connected base not in bases CaveToMT
     >>> draw_region('ForlornMuskeg', 'loottable4.json', print_output=False)
-    Warning: connected base not in bases MLRailTunnel
-    Warning: connected base not in bases BRRailTunnel
-    Warning: connected base not in bases HermitsCabin
-    Warning: connected base not in bases CaveToBI
     >>> draw_region('SunderedPass', 'loottable4.json', print_output=False)
-    Warning: connected base not in bases LowerConnectorCave
-    Warning: connected base not in bases ClimbBetweenSPAndTP
     >>> draw_region('HushedRiverValley', 'loottable4.json', print_output=False, add_legend=True)
-    Warning: connected base not in bases CaveFromHRV
     """
     bases, colours = process_input(source_info)
     these_bases = {}
@@ -1107,10 +1103,10 @@ def draw_region(region, source_info, output='tests/', print_output=False, add_le
             these_bases[b] = bob
 
     draw_bases(these_bases, colours,
-               base_x = 500, base_y = 400,
-               width = 1000, height = 1000,
+               base_x = 600, base_y = 600,
+               width = 1200, height = 1200,
                add_legend=add_legend, print_output=print_output,
-               output=output, output_png=False)
+               output=output, output_png=False, print_warnings=False)
 
 
 def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
@@ -1124,7 +1120,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
-    [4, 2, 10, 1, 14, 7, 4]
+    [4.0, 2.0, 10.0, 1.0, 14.0, 7.0, 4.0]
     """
     count = {}
     for a in ASSETS:
@@ -1134,7 +1130,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
         for row in bases[b].features:
             for feature in row:
                 if feature.status in statuses_to_count or feature.material in statuses_to_count:
-                    count[feature.name] += feature.probability
+                    count[feature.name] += feature.probability * feature.qty
     return count
 
 
@@ -1198,6 +1194,34 @@ def verify_taking_numbers(bases):
     return unknown_take, unknown_bring
 
 
+def condense_multiples_in_list(lst):
+    """
+
+    :param lst:
+    :return:
+    >>> condense_multiples_in_list(['-maglens', '-lantern', '-stim', '-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar,-cedar', '-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir,-fir', '-deerhide'])
+    ['-maglens,-lantern,-stim,-cedar:13,-fir:52,-deerhide']
+    """
+    freqs = {}
+    for entry in lst:
+        indivs = entry.split(',')
+        for item in indivs:
+            if item not in freqs:
+                freqs[item] = 1
+            else:
+                freqs[item] += 1
+    condensed = []
+    for key in freqs:
+        if freqs[key] > 1:
+            s = key + ':' + str(freqs[key])
+            condensed.append(s)
+        else:
+            condensed.append(key)
+    s = ','.join(condensed)
+    condensed = [s]
+    return condensed
+
+
 def convert_edge_info(bases):
     """
     Convert edge information formatting for JSON
@@ -1232,7 +1256,7 @@ def convert_edge_info(bases):
 
 
 
-def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_colour='purple', counts=False, background_colour='white'):
+def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_colour='purple', counts=False, background_colour='white'):
     """
     Draw a legend
     :param d: drawing object
@@ -1241,13 +1265,15 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> bases, colours = process_input('mybases.json')
     >>> draw_legend(d, colours, icon_size=20)
-    1512.5
+    2930.0
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
     cell_size = icon_size + margin_size
-    icon_y = y + cell_size + margin_size * 2
+    start_y = y + cell_size + margin_size * 2
+    icon_y = start_y
     icon_x = x + margin_size
+    g = draw.Group(id="legend")
 
     assert  len(ASSETS) - len(ORDERING) <= 1, len(ASSETS) - len(ORDERING)
 
@@ -1256,9 +1282,13 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
         longest_name_len = max( len(ORDERING[k]), longest_name_len )
 
     legend_font_size = 10
-    d.append(draw.Text('LEGEND', legend_font_size, font_family=FONTFAM,
+    g.append(draw.Text('LEGEND', legend_font_size, font_family=FONTFAM,
                        x=icon_x, y=icon_y + cell_size / 2,
                        fill=legend_colour, stroke=legend_colour))
+    text_wid = longest_name_len * (icon_size / 2) + 4 * margin_size
+    count_x = icon_x + text_wid
+
+    lines_drawn = 0
     for i, a in enumerate(ORDERING):
         filepath = 'assets/' + ASSETS[a]
 
@@ -1266,29 +1296,36 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
         if counts: # don't draw if there are none in the data
             if counts[a] == 0:
                 to_draw = False
+
         if to_draw:
+            if lines_drawn in [35, 35 + 55]:  # TODO variable balancing
+                icon_y = start_y
+                legend_column_size = text_wid + cell_size * 3 + 4 * margin_size
+                icon_x += legend_column_size
+                count_x += legend_column_size
+
             icon_y += cell_size
             text_y = icon_y + cell_size / 2 + margin_size
             try:
-                import_svg(d, filepath, x=icon_x, y=icon_y, wid=icon_size,
+                import_svg(g, filepath, x=icon_x, y=icon_y, wid=icon_size,
                            hei=icon_size, fill=legend_colour)
+                lines_drawn += 1
             except:
                 print('ERROR SVG import failed on', a, i)
-            d.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
+            g.append(draw.Text(ORDERING[a], legend_font_size, font_family=FONTFAM,
                                x=icon_x+cell_size, y=text_y,
                                fill=legend_colour))
             if counts:
-                count_x = icon_x + longest_name_len*(icon_size/2) + 4*margin_size
-                d.append(draw.Text(str(round(counts[a],2)), legend_font_size, font_family=FONTFAM,
+                g.append(draw.Text(str(round(counts[a], 2)), legend_font_size, font_family=FONTFAM,
                                    x=count_x, y=text_y,
                                    fill=legend_colour))
 
     icon_y += cell_size
     text_y += cell_size
-    import_svg(d, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
+    import_svg(g, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
                hei=icon_size, fill=legend_colour, opacity=0.5)
     pb = 'opacity indicates probability (0.5 -> 50%)'
-    d.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
+    g.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
                        x=icon_x + cell_size, y=text_y,
                        fill=legend_colour))
 
@@ -1296,8 +1333,8 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
     for j, a in enumerate(colour_types):
         icon_y += cell_size
         text_y += cell_size
-        d.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
-        d.append(draw.Text(colour_types[a], legend_font_size, font_family=FONTFAM,
+        g.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
+        g.append(draw.Text(colour_types[a], legend_font_size, font_family=FONTFAM,
                            x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
 
@@ -1308,41 +1345,42 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1/8, legend_col
         p = draw.Path(stroke=colours[a], stroke_width=margin_size, stroke_dasharray=DASHSTYLE[a] )
         p.M(icon_x, icon_y+cell_size/2)
         p.L(icon_x+icon_size, icon_y+cell_size/2)
-        d.append(p)
-        d.append(draw.Text(path_types[a], legend_font_size, font_family=FONTFAM,
+        g.append(p)
+        g.append(draw.Text(path_types[a], legend_font_size, font_family=FONTFAM,
                            x=icon_x+cell_size, y=text_y,
                            fill=legend_colour))
 
     icon_y += cell_size
     text_y += cell_size
-    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
-    d.append(draw.Text('customizable indoor location', legend_font_size, font_family=FONTFAM,
+    g.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
+    g.append(draw.Text('customizable indoor location', legend_font_size, font_family=FONTFAM,
                        x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
     icon_y += cell_size
     text_y += cell_size
-    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
-    d.append(draw.Text('non-customizable indoor location', legend_font_size, font_family=FONTFAM,
+    g.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
+    g.append(draw.Text('non-customizable indoor location', legend_font_size, font_family=FONTFAM,
                        x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
 
     icon_y += cell_size
     text_y += cell_size
-    d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size,
+    g.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size,
                             rx=icon_size/2.5, ry=icon_size/2.5, opacity=OUTDOOR_OPACITY))
-    d.append(draw.Text('outdoors (cannot cure hides)', legend_font_size, font_family=FONTFAM,
+    g.append(draw.Text('outdoors (cannot cure hides)', legend_font_size, font_family=FONTFAM,
                        x=icon_x+cell_size, y=text_y,
                        fill=legend_colour))
 
     icon_y += cell_size
     text_y += cell_size
     #d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
-    d.append(draw.Text('italics mean no loading screen', legend_font_size, font_family=FONTFAM,
+    g.append(draw.Text('italics mean no loading screen', legend_font_size, font_family=FONTFAM,
                        x=icon_x+cell_size, y=text_y,
                        fill=legend_colour, font_style='italic'))
 
+    d.append(g)
     return icon_y + cell_size
 
 
@@ -1436,7 +1474,7 @@ def legends_for_documentation(icon_wid=50):
 
 def special_base(bases, name, features, connec_name, connec_dir):
     tob = BaseLocation(name,
-                       {REGION: 'notingame', CUSTOMIZABLE: False, LOADING: False, INDOORS: False, FEATURES: features,
+                       {REGION: 'NotInGame', CUSTOMIZABLE: False, LOADING: False, INDOORS: False, FEATURES: features,
                         EXPLORED: False, CABINFEVERRISK: False}, colours=HEXES)
     conn = BaseConnection(connec_name, connec_dir, 'bottom,left', name, 'top,left', 'todo')
     bases[connec_name].add_connection(conn)
@@ -1466,8 +1504,15 @@ if __name__ == '__main__':
             bases, colours = process_input(fname, style_file=style_file)
 
             draw_bases(bases, colours, output=outfile,
-                       width=2800, height=1800, base_x=2200, base_y=20,
+                       width=3000, height=1900, base_x=2530, base_y=30,
                        output_png=False, print_output=to_print)
+            nums = count_features(bases)
+            verify_fixed_numbers(bases, nums)
+            # by region
+
+            regions = get_regions(bases)
+            for r in regions:
+                draw_region(r, fname, output='output/', print_output=False)
 
     else:
         doctest.testmod()

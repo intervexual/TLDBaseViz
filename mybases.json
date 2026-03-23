@@ -35,7 +35,7 @@
 				"indoors": true,
 				"explored": true,
 				"features": [
-					"mine,wolf,"
+					"mine,wolf,+paint"
 				]
 			},
 			"MinersFolly": {
@@ -149,10 +149,9 @@
 				"indoors": true,
 				"explored": true,
 				"features": [
-					"birch,bear,quality",
+					"bark,bear,quality",
 					"potbelly,bed,workbench",
-					"coal:10,stick:10",
-					"+bearhide,*bearbed,*furnbench"
+					"coal:10,stick:10,shaker"
 				],
 				"removed": [
 					"matches,cookpot"
@@ -166,7 +165,7 @@
 				"indoors": true,
 				"explored": false,
 				"features": [
-					"birch","-polaroid/.4"
+					"bark","-polaroid/.4"
 				]
 			},
 			"CaveToAC": {
@@ -189,7 +188,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,deer","birch,mine","-bearhide"]
+			"features": ["bear,deer","bark,mine","-bearhide","*rockcache,+stone:50"]
 		},
 		"TWMPrepperCache": {
 			"region": "TimberwolfMountain",
@@ -216,8 +215,18 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["birch,ptarmigan","-rope,*rockcache","stick:20"]
+			"features": ["bark,ptarmigan","-rope,*rockcache","stick:20,+stone:50"]
 		},
+		"GroveSouthOfMountaineer": {
+			"region": "TimberwolfMountain",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["rabbit,deer"]
+		},
+
 		"TWMFishHut": {
 			"region": "TimberwolfMountain",
 			"customizable": false,
@@ -225,7 +234,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["potbelly","fish","prybar"]
+			"features": ["potbelly,fish","prybar"]
 		},
 		"Mountaineer": {
 			"region": "TimberwolfMountain",
@@ -234,16 +243,17 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,+bear,rabbit,birch",
+			"features": ["bear,bearhunt,rabbit,bark",
 						"workbench,furnbench,bearbed,grill",
-						"cookpot,cookpot,thermos,matches,+maglens",
-						"quality,lantern,snare,snare",
+						"cookpot,cookpot,shaker,thermos",
+						"quality,lantern,snare,snare,firearrow:3",
 						"jersey,sweater,toque,+mitts",
 				"trunk,trunk,trunk,trunk,trunk,trunk",
 				"suitcase,suitcase,rockcache,stim,-rope",
-				"bearhide,bearhide,wolfhide:3,rabbitpelt:2,+deerhide",
-				"#-Bricklayer, -distress, -dpammo, -dpammo, -quality, -prybar, -woodworking",
-				"#-Prison, -quality, -knife, -axe, -hacksaw, #-South,-dpammo"
+				"matches:15,+maglens, coal:12, stick:90, blueflare",
+				"bearhide,bearhide,wolfhide:2,rabbitpelt:2,+deerhide",
+				"arrowhead:2,axe,knife,knife,-fir:3",
+                "+decor,+rugs"
 			]
 		},
 		"CaveBelowAndresPeak": {
@@ -262,7 +272,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["-bear,wolf,ptarmigan"]
+			"features": ["bear,wolf,ptarmigan"]
 		},
 		"EngineCave": {
 			"region": "TimberwolfMountain",
@@ -279,8 +289,8 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored": false,
-			"features": ["mine"]
+			"explored": true,
+			"features": ["mine","*rockcache,+stone:50"]
 		},
 		"SecludedShelfCave": {
 			"region": "TimberwolfMountain",
@@ -289,7 +299,7 @@
 			"cabinfeverrisk": true,
 			"indoors": true,
 			"explored": true,
-			"features": ["mine,ptarmigan"]
+			"features": ["mine,ptarmigan","+paint"]
 		},
 		"SummitCave": {
 			"region": "TimberwolfMountain",
@@ -340,6 +350,15 @@
 		}
 		},
 		"% PLEASANT VALLEY": {
+		"ClimbPV2TWM": {
+			"region": "PleasantValley",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["climb"]
+		},
 		"Joplin": {
 			"region": "PleasantValley",
 			"customizable": true,
@@ -347,7 +366,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,workbench","simple"]
+			"features": ["bed,workbench","simple,+charcoal:50"]
 		},
 		"JoplinHuntersBlind": {
 			"region": "PleasantValley",
@@ -402,10 +421,13 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,+bear,deer,birch",
-						"workbench, furnbench,, bearbed",
-						"quality,*trunk,*trunk,grill",
-						"curing, curing, skillet, skillet"
+			"features": ["bear,bearhunt,deer,bark",
+						"grill, workbench, furnbench,bearbed,+decor",
+						"quality,+charcoal:50,+tinder:50,+head:50,+rugs",
+						"curing, curing, skillet, skillet",
+						"deerhide,deerhide,bearhide,wolfhide",
+						"fir:12,reclaimed:25,stick:30,coal:15,+fir:6",
+						"saltbag:7,shaker:17,arrowhead:3,+arrowhead:6"
 			]
 		},
 		"CommunityHall": {
@@ -424,7 +446,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["rabbit"
+			"features": ["rabbit,",""
 			]
 		},
 		"PensivePond": {
@@ -443,7 +465,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["+bear,deer,range",
+			"features": ["bearhunt,deer,range",
 						"bed,workbench","-simple,+quality"
 			]
 		},
@@ -454,7 +476,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear","bed,grill"
+			"features": ["bear","bed,grill"
 			]
 		},
 		"HilltopCaveAndHuntersBlind": {
@@ -484,7 +506,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear,-lantern","mine"]
+			"features": ["bear","mine,stone:20", "*rockcache,+stone:30"]
 		},
 		"UnnamedRiverCave": {
 			"region": "PleasantValley",
@@ -522,7 +544,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["mine,+paint"]
 		},
 
 
@@ -533,7 +555,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed"]
+			"features": ["bed","-decor,-rugs"]
 		},
 		"BarnNorthOfPVFarm": {
 			"region": "PleasantValley",
@@ -562,7 +584,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed","workbench,+simple"]
+			"features": ["bed,stone:26","workbench,+simple"]
 		},
 		"KPSFishHut": {
 			"region": "KPS",
@@ -580,7 +602,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf"]
+			"features": ["wolf","*rockcache,+stone:50"]
 		},
 		"KPNIceCave": {
 			"region": "KPN",
@@ -589,7 +611,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["rabbit"]
+			"features": ["rabbit","*rockcache,+stone:50"]
 		},
 		"Foresters": {
 			"region": "KPN",
@@ -617,7 +639,7 @@
 			"loading": false,
 			"cabinfeverrisk": false,
 			"indoors": false,
-			"explored":false,
+			"explored":true,
 			"features": ["deer"]
 		},
 		"OldSubstation": {
@@ -627,8 +649,19 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,timberwolf,transmitter","bed,workbench,quality",
-				"#-Prison,-hacksaw, -prybar"]
+			"features": ["bear,timberwolf,transmitter",
+				"bed,workbench,quality,-prybar",
+				"stick:45,coal:10,shaker",
+				"blueflare:3,#torch:10,wolfhide"]
+		},
+		"CarAtCentralJunction": {
+			"region": "Blackrock",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk": false,
+			"indoors": false,
+			"explored":true,
+			"features": ["timberwolf"]
 		},
 		"CaveByPrisonPond": {
 			"region": "Blackrock",
@@ -636,8 +669,8 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": true,
-			"explored": false,
-			"features": ["rabbit,timberwolf"]
+			"explored": true,
+			"features": ["rabbit"]
 		},
 		"PrisonGate": {
 			"region": "Blackrock",
@@ -646,7 +679,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["potbelly,-polaroid"]
+			"features": ["potbelly"]
 		},
 		"PrisonWorkshop": {
 			"region": "Blackrock",
@@ -656,9 +689,10 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["wolf,milling,workbench,bedroll",
-						"*furnbench,*workbench,*bearbed,+stim",
-						"#+FromBRM,+vice,+hacksaw",
-						"#+TWM,+quality,+knife,+axe"]
+						"furnbench,*workbench,bearbed,trunk,trunk",
+						"jerrycan,hacksaw,-prybar,+cedar:4,+decor",
+						"quality,+stim,vice,cedar:11,+rugs"
+						]
 		},
 		"SteamTunnels": {
 			"region": "Blackrock",
@@ -666,7 +700,7 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": ["grill"]
 		},
 		"PowerPlant": {
@@ -675,7 +709,7 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
+			"explored":true,
 			"features": ["timberwolf"]
 		},
 		"ForagersRemnant": {
@@ -684,7 +718,7 @@
 			"loading": false,
 			"cabinfeverrisk": false,
 			"indoors": false,
-			"explored":false,
+			"explored":true,
 			"features": ["timberwolf,deer","grill,workbench"]
 		},
 		"TrailerSouthOfPowerPlant": {
@@ -694,7 +728,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["bed"]
+			"features": ["bed","+prybar"]
 		},
 		"CreekBedCave": {
 			"region": "Blackrock",
@@ -703,7 +737,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored": false,
-			"features": ["bed"]
+			"features": ["bed","+prybar"]
 		},
 		"Barracks": {
 			"region": "Blackrock",
@@ -730,7 +764,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed","+polaroid"]
+			"features": ["bed"]
 		},
 		"CaveBelowFoolsCorner": {
 			"region": "Blackrock",
@@ -739,7 +773,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["wolf,mine","*rockcache,+stone:50"]
 		},
 		"LastProspectMine": {
 			"region": "Blackrock",
@@ -748,7 +782,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,rabbit","+polaroid"]
+			"features": ["mine,rabbit","+polaroid,+paint"]
 		},
 		"JailorsResidence": {
 			"region": "Blackrock",
@@ -756,7 +790,7 @@
 			"loading": false,
 			"cabinfeverrisk": false,
 			"indoors": false,
-			"explored":false,
+			"explored":true,
 			"features": ["grill"]
 		},
 		"CuttysCave": {
@@ -766,7 +800,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored": false,
-			"features": ["bed,mine"]
+			"features": ["bed,mine","+prybar"]
 		},
 		"CooksFarm": {
 			"region": "Blackrock",
@@ -774,8 +808,9 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": false,
-			"explored":false,
-			"features": ["bed,grill","#-PrisonWorkshop,-vice","+hacksaw,-workbench"]
+			"explored":true,
+			"features": ["bed,grill"],
+			"removed": ["workbench,jerrycan"]
 		},
 		"Bricklayer": {
 			"region": "Blackrock",
@@ -783,10 +818,13 @@
 			"loading": false,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored":false,
-			"features": ["bear,bear,timberwolf",
-				"workbench,grill,-bed","*furnbench,*bearbed",
-				"#+Quonset,+distress,+dpammo,+dpammo,+quality,+prybar,+woodworking"]
+			"explored":true,
+			"features": ["bear,bear,deer,rabbit,ptarmigan",
+				"grill,workbench,quality,shaker",
+				"*furnbench,*bearbed,bearhide,down:16,deerhide",
+				"fir:7,cedar:6,coal:5,stick:30,+rugs,+decor",
+				"distress,dpammo,dpammo,-prybar,woodworking",
+				"+vice,*workbench,axe,+cedar:4,+cedar:15,+fir:11"]
 		},
 		"ForemansClearcut": {
 			"region": "Blackrock",
@@ -795,7 +833,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": true,
-			"features": ["bed"]
+			"features": ["timberwolf","bed"]
 		},
 		"WhistlingPerch": {
 			"region": "Blackrock",
@@ -803,8 +841,8 @@
 			"loading": false,
 			"cabinfeverrisk":false,
 			"indoors": false,
-			"explored":false,
-			"features": ["-polaroid"]
+			"explored":true,
+			"features": ["ptarmigan"]
 		},
 		"CaveToBRM": {
 			"region": "Blackrock",
@@ -812,19 +850,19 @@
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
-			"explored": false,
-			"features": ["mine"]
+			"explored": true,
+			"features": ["mine","deerhide,stone:37","*rockcache,+stone:13"]
 		}
 			},
 		"% COASTAL HIGHWAY": {
 		"UpperMineFromCH": {
-			"region": "CoastalHighway",
+			"region": "PleasantValley",
 			"customizable": false,
 			"loading": true,
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,rockcache"]
+			"features": ["mine,rockcache,rockcache,+charcoal:50,+tinder:50"]
 		},
 		"UpperMineToCH": {
 			"region": "CoastalHighway",
@@ -833,7 +871,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,lantern","rockcache,rockcache"],
+			"features": ["mine,lantern","rockcache"],
 			"removed": ["workbench"]
 		},
 		"AbandonedLookout": {
@@ -843,7 +881,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf,deer","bed,grill","+polaroid,-polaroid/.5"]
+			"features": ["wolf,deer","bed,grill,+polaroid"]
 		},
 		"BetweenMineTrailer": {
 			"region": "CoastalHighway",
@@ -889,17 +927,19 @@
 			"indoors": true,
 			"explored":true,
 			"features": [
-				"bear,+bear,deer,wolf",
+				"bear,bearhunt,deer,wolf",
 				"workbench,furnbench,bearbed,radio",
 				"quality,hammer,prybar,woodworking",
-				"matches,jerrycan,+maglens,stim,distress,dpammo",
-				"curing,curing,*curing,cookpot,cookpot,thermos",
-				"curing,curing,*curing,skillet,skillet,thermos",
+				"matches,jerrycan,,stim,distress,dpammo",
+				"curing,+curing,saltbag:8,cookpot,cookpot,thermos",
+				"curing,curing,shaker:40,skillet,skillet,thermos",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"toque,jersey,jersey,sweater,socks,-mitts",
-				"#-WorkerResidence, -vice,-distress,-distress",
-				"#-BR+FarTerritory, -thermos,-jersey,-quality,-quality"
+				"toque,jersey,jersey,sweater,socks,+sweater",
+				"bearhide:4,deerhide:4,moosehide,rabbitpelt,wolfhide:4",
+				"arrowhead:20,axe:2,knife:4,bow",
+				"#Trapper,-saltbag:6,+maglens,+maple:2",
+				"#-GreenBoxNorth,-bearhide,-deerhide,-mitts,#-HRV,-quality"
 			],
 			"removed": ["workbench"]
 		},
@@ -928,9 +968,9 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear,deer,salt,beachcombing,trader",
-						"bed, quality",
-						"vice, *furnbench, *workbench, *bearbed"
+			"features": ["bear,deer,salt,beachcombing,trader",
+						"bed, quality, -curing, +cedar:15",
+						"vice, *furnbench, *workbench, +cedar:10"
 			]
 		},
 		"JMFishHut": {
@@ -950,10 +990,10 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["+bear,rabbit,deer",
-						"rockcache,beachcombing,salt",
+			"features": ["bearhunt,rabbit,deer",
+						"beachcombing,salt,+head:30",
 						"workbench, furnbench, bearbed",
-						"curing, curing, trunk",
+						"curing, trunk, rockcache",
 						"quality,jerrycan, snare"
 			]
 		},
@@ -982,7 +1022,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["deer,rabbit"]
+			"features": ["deer,rabbit,deerhide,stick:10"]
 		},
 		"CHRailTunnel": {
 			"region": "CoastalHighway",
@@ -1000,7 +1040,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["-bear,deer","salt,beachcombing"]
+			"features": ["bear,deer","salt,beachcombing","-fir:6"]
 		},
 		"RabbitGrove": {
 			"region": "CoastalHighway",
@@ -1036,7 +1076,8 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,workbench"]
+			"features": ["bed,workbench", "bearhide,deerhide", "*furnbench,*bearbed",
+				"+fir:18,+down:16", "*workbench,+vice", "*trunk,*trunk", "+cedar:10,+cedar:15", "+fir:9,+fir:9"]
 		},
 		"TheToothCar": {
 			"region": "CoastalHighway",
@@ -1045,7 +1086,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["-polaroid/.5"]
+			"features": [""]
 		},
 		"WaterfrontCottages": {
 			"region": "CoastalHighway",
@@ -1065,7 +1106,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf","rockcache","*furnbench","*bearbed"]
+			"features": ["wolf","rockcache"]
 		},
 		"No3MineFromDP": {
 			"region": "OIC",
@@ -1113,10 +1154,13 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["+bear,salt,beachcombing,transmitter",
+			"features": ["bearhunt,salt,beachcombing",
 						"workbench,furnbench,bearbed,suitcase",
 						"quality,hacksaw,prybar,safe",
-						"grill,curing,curing,matches"]
+						"grill,curing,curing,matches",
+						"coal:80,reclaimed:2,stick:10,saltbag:7",
+						"bearhide:3,deerhide:3,wolfhide:1,rabbitpelt:1",
+						"transmitter,decor,rugs,+rugs"]
 		},
 		"BrokenBridgeCave":{
 			"region": "DesolationPoint",
@@ -1125,7 +1169,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear,salt"]
+			"features": ["bear,salt"]
 		},
 		"ScruffyCave":{
 			"region": "DesolationPoint",
@@ -1143,7 +1187,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["forge,bed,beachcombing", "hammer,simple", "*rockcache,#+HRV,+hacksaw"]
+			"features": ["forge,bed,beachcombing", "hammer,simple,+stone:40", "*rockcache,#+HRV,+hacksaw"]
 		},
 		"LittleIsland": {
 			"region": "DesolationPoint",
@@ -1191,7 +1235,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["birch,rabbit,rockcache","snare,snare"]
+			"features": ["bark,rabbit,rockcache,snare,snare","#OnBridge,-curing,rockcache,rockcache"]
 		},
 		"RavineTrainCar": {
 			"region": "Ravine",
@@ -1209,7 +1253,16 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["birch,deer,rabbit,rockcache"]
+			"features": ["bark,deer,rabbit,rockcache"]
+		},
+		"RavineClimb": {
+			"region": "Ravine",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["climb"]
 		},
 		"RavineBasinTrainCar": {
 			"region": "Ravine",
@@ -1247,13 +1300,16 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["ptarmigan,deer,birch,rockcache",
+			"features": ["ptarmigan,deer,bark,rockcache",
 						"workbench,furnbench,bearbed,bedroll",
 						"quality,hacksaw,prybar,safe",
-						"grill,cookpot,cookpot,firestriker",
-						"#-WorkerResidence, -woodworking, -dpammo, -dpammo, -prybar",
-						"#-Cannery, -hacksaw, -knife, -axe",
-						"#-PensivePond, -prybar, #-FarTerritory, -dpammo"
+						"grill,cookpot,cookpot",
+                        "firestriker,coal:20,stick:40,lantern",
+						"arrowhead:5,maple:4,bark:3,deerhide:3,+wolfhide,+bearhide:2",
+				"#-PensivePond, -prybar",
+				"#-CH,-prybar,-maple,#-Cannery, -hacksaw, -knife:3",
+				"#-WorkerResidence,-distress:2,-dpammo:2,-arrowhead:6,-thermos,-prybar",
+				"#-WorkerResidence, -vice,-woodworking,-bearhide,-down:16,-quality"
 			],
 			"removed": ["workbench","workbench","bedroll"]
 		},
@@ -1293,10 +1349,12 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["deer,radio,workbench,quality",
-							"grill,cookpot,cookpot",
-						"woodworking,*furnbench,-bed,*bearbed"
-
+			"features": ["deer,moose",
+                          "radio,workbench,furnbench,bearbed",
+                        "grill,cookpot,cookpot",
+						"woodworking,quality,coal:15,+bearhide",
+                        "fir:5,+fir:13,*trunk,*trunk",
+                        "deerhide,wolfhide,moosehide:2,arrow:5"
 			]
 		},
 		"MidRailArea": {
@@ -1315,7 +1373,12 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["rockcache"]
+			"features": ["rockcache",
+				"#-BR:MS, -jersey,-saltbag:2",
+				"#-TP:VD,  -thermos,",
+				"#-SP:LLH, -quality, -dpammo",
+				"#-FA:MH, -quality",
+				"#-IDK,-dpammo"]
 		},
 		"AlansCaveHuntingBlind": {
 			"region": "MysteryLake",
@@ -1334,13 +1397,22 @@
 			"indoors": true,
 			"explored":true,
 			"features": [
-				"bear,+bear,+bear,moose,deer,birch",
-				"workbench,furnbench,bearbed,quality,prybar,lantern",
-				"curing,curing,curing,grill,hammer,matches",
-				"curing,curing,curing,skillet,skillet,firestriker",
+				"bear,bearhunt,bearhunt,moose,deer,bark",
+				"workbench,furnbench,bearbed,,decor,rugs",
+				"curing,curing,curing,skillet,skillet,grill",
+				"curing,curing,curing,shaker:8,saltbag:6,cattail:30",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
 				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"stim,distress,dpammo,+bedroll"
+				"coal:35,stick:40,matches:29,firestriker,reclaimed:11,metal:10",
+				"bearhide:4,deerhide:4,wolfhide:4,rabbitpelt,moosehide,gut:80",
+				"arrowhead:20,cloth:10,sapling:10,maple:3,feather:99",
+                "hammer,knife:2,axe,prybar,lantern,jerrycan",
+				"distress,dpammo,arrow:4,redflare,torch:20",
+				"quality,whetstone,sewing:4,stim,vitaminc:10,antiseptic",
+				"#+MT,+cloth:60,+leather,",
+				"#-CH:Quon,-maglens,#-BI,-accelerant:2,-fir:3,-cedar:3",
+				"#-IDK,-bearhide:6,-wolfhide,-feather:99,-sapling:4,+saltbag:6",
+				"#-FarTerr,-heatpack,#TWM,-paint,-arrowhead:10"
 			]
 		},
 		"LakeOverlookCave": {
@@ -1397,6 +1469,15 @@
 			"explored":true,
 			"features": ["bed"]
 		},
+		"MiddleLakeCabins": {
+			"region": "MysteryLake",
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed"]
+		},
 		"LakeCabins": {
 			"region": "MysteryLake",
 			"customizable": true,
@@ -1440,7 +1521,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["-bear"]
+			"features": ["bear"]
 		},
 		"DeadfallArea": {
 			"region": "MysteryLake",
@@ -1453,6 +1534,15 @@
 		}
 			},
 		"% FORLORN MUSKEG": {
+		"EastFM": {
+			"region": "ForlornMuskeg",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["bear,wolf"]
+		},
 		"Poacher": {
 			"region": "ForlornMuskeg",
 			"customizable": false,
@@ -1460,7 +1550,8 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": [",grill,-bear","rockcache,rockcache,-prybar"]
+			"features": [",grill",
+				"rockcache,rockcache,-prybar,-cedar:12,-axe,-metal"]
 		},
 		"WestFM": {
 			"region": "ForlornMuskeg",
@@ -1469,7 +1560,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["-bear","wolf","-polaroid/.17"]
+			"features": ["bear,wolf","-polaroid/.17"]
 		},
 		"LowBlind": {
 			"region": "ForlornMuskeg",
@@ -1487,7 +1578,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["birch,wolf,bedroll",
+			"features": ["bark,wolf,bedroll",
 				"forge,workbench,bed",
 				"simple,hammer,hacksaw",
 				"safe,-polaroid/.16"]
@@ -1526,7 +1617,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["birch","*rockcache"]
+			"features": ["bark,stone:24","*rockcache,+stone:26"]
 		},
 		"ShortwaveTower": {
 			"region": "ForlornMuskeg",
@@ -1562,7 +1653,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,bed"]
+			"features": ["mine,bed","*rockcache,stone:33,+stone:17"]
 		},
 		"MuskegOverlook": {
 			"region": "ForlornMuskeg",
@@ -1600,10 +1691,10 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["+bear,-bed,grill,mine",
-						"*workbench,*furnbench,*bearbed",
-						"*trunk,*trunk,*curing,*curing",
-						"#+Dam,+woodworking,+dpammo,+dpammo",
+			"features": ["bearhunt,-bed,grill,mine",
+						"*workbench,*furnbench,*bearbed,+cedar:25,+fir:18",
+						"*trunk,*trunk,+curing,*curing,+fir:28",
+						"#+Dam,+woodworking,+dpammo:2,+bearhide,+down:16",
 						"#+Quonset,+vice,+distress,+quality,+thermos",
 						"#+MT,+skillet,+skillet",
 						"#+TP,+suitcase,+suitcase"
@@ -1652,7 +1743,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["salt,bed,-simple"]
+			"features": ["salt,bed,-simple","*rockcache,+stone:50"]
 		},
 		"CaveToBI": {
 			"region": "BleakInlet",
@@ -1661,7 +1752,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["mine","*rockcache,+stone:50"]
 		},
 		"BIHuntersBlind": {
 			"region": "BleakInlet",
@@ -1670,7 +1761,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["birch"]
+			"features": ["bark"]
 		},
 		"EchoOneRadioTower": {
 			"region": "BleakInlet",
@@ -1717,7 +1808,7 @@
 			"explored":true,
 			"features": ["bed,grill",
 				"salt,prybar",
-				"safe",
+				"safe,+accelerant:2",
 				"#+Quonset,+distress",
 				"#+TWM,+dpammo"]
 		},
@@ -1728,7 +1819,11 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,milling,workbench","*furnbench,*bed","#+NorthBI,+simple","#+Dam,+hacksaw,+knife,+axe"]
+			"features": ["timberwolf,milling,workbench",
+				"*furnbench,*bearbed,+bearhide,+down:16",
+				"+cedar:10,+fir:18",
+				"#+NorthBI,+simple,#+Poacher,+axe",
+				"#+Dam,+hacksaw,+knife:3,+metal"]
 		},
 		"CanneryPier": {
 			"region": "BleakInlet",
@@ -1755,7 +1850,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["-bear","salt","timberwolf"]
+			"features": ["bear","salt","timberwolf"]
 		},
 		"FarIslandCave": {
 			"region": "BleakInlet",
@@ -1784,7 +1879,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["birch","deer"]
+			"features": ["bark,deer","*rockcache,+stone:44,stone:6"]
 		},
 		"MTFarm": {
 			"region": "MountainTown",
@@ -1794,11 +1889,15 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["ptarmigan,rabbit,deer",
-						"range,bed, quality",
-						"workbench, furnbench, briefcase",
-						"cookpot, +cookpot, lantern",
-						"skillet, skillet, -skillet",
-						"chest"
+						"range,bed,, briefcase, chest",
+						"workbench, furnbench,, quality, sewing",
+						"skillet,skillet,cookpot,cookpot",
+						"cattail:35,shaker:3,coal:5,stick:25,redflare",
+						"deerhide:2,wolfhide,rabbitpelt,bearhide,gut:6",
+						"arrowhead:4,feather:50,maple:3,sapling:2",
+						"head:19,charcoal:13,paper:8,tinder:6",
+				"#+Greymother,+rugs:3,+cloth:10,#-BI,-skillet:2,-cookpot",
+				"#-HRV,-distress,-quality,-shaker:3,-paint:3"
 			]
 		},
 		"MiltonTown": {
@@ -1808,7 +1907,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf","rabbit","grill","bed","safe"]
+			"features": ["wolf","rabbit","bed","safe"]
 		},
 		"PostOffice": {
 			"region": "MountainTown",
@@ -1826,7 +1925,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf,deer,rabbit"]
+			"features": ["wolf,deer,rabbit","cattail:5,-paper:11,-decor"]
 		},
 		"PicnicArea": {
 			"region": "MountainTown",
@@ -1835,7 +1934,11 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf,moose,ptarmigan"]
+			"features": ["wolf,moose,ptarmigan",
+				"coal:5,stick:25,torch:3",
+				"shaker,wolfhide,moosehide",
+				"-paper:7,-tinder:2,-charcoal:5",
+				"-decor,-stone:2"]
 		},
 		"CaveToMT": {
 			"region": "MountainTown",
@@ -1844,7 +1947,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["mine","*rockcache","stone:12","+stone:38"]
 		},
 		"StChristophers": {
 			"region": "MountainTown",
@@ -1853,7 +1956,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["workbench","bed","wolf"
+			"features": ["workbench","bed","wolf","bark"
 			]
 		},
 		"MTNorthTrailer": {
@@ -1872,7 +1975,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["mine","*rockcache,+stone:50"]
 		},
 		"Greymother": {
 			"region": "MountainTown",
@@ -1881,10 +1984,10 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["range,bed,-prybar,-distress",
-						"workbench, furnbench, quality, -bedroll",
-						"cookpot, -cookpot,-skillet,-maglens",
-						"chest"
+			"features": ["range,bed,workbench,furnbench,chest,rugs,decor",
+						"stick:60,coal:20,firelog,torch:6,shaker:2,cattail:40,#-BI:-accelerant,-decor,-rugs",
+						"deerhide:3,wolfhide:2,bearhide,gut:6,feather:14,quality,sapling:6,maple:2,reclaimed:4,metal:2,cloth:10",
+						"#Trapper,-cloth:70,-stone:42,-sweater,-fir:3,#-IDK,-bedroll,-head:83,-charcoal:28,-paper:25,-paint,-prybar,-maglens"
 			]
 		},
 		"CrashedPlane": {
@@ -1914,7 +2017,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine"]
+			"features": ["mine","rockcache"]
 		}
 		},
 		"% HUSHED RIVER VALLEY": {
@@ -1925,7 +2028,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,*rockcache"]
+			"features": ["mine,*rockcache","stone:38,+stone:22"]
 		},
 		"BunkerGamma": {
 			"region": "HushedRiverValley",
@@ -1935,9 +2038,9 @@
 			"indoors": true,
 			"explored":true,
 			"features": [
-						"+bear,+bear",
-						"workbench,-bed",
-						"-simple,*bearbed,*furnbench",
+						"bearhunt,bearhunt",
+						"workbench,-bed,+shaker:3",
+						"-simple,+bearhide",
 						"+quality,+lantern,+distress"
 			]
 		},
@@ -1957,7 +2060,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear"]
+			"features": ["bear"]
 		},
 		"MammothFallsIceCave": {
 			"region": "HushedRiverValley",
@@ -1993,7 +2096,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":false,
-			"features": ["-bear,?recipe"]
+			"features": ["bear,?recipe"]
 		},
 		"ValleyViewPointSketchyIceCave": {
 			"region": "HushedRiverValley",
@@ -2011,7 +2114,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["#-Riken,-hacksaw,?bedroll/.33"]
+			"features": ["#-Riken,-hacksaw,?bedroll/.33","+paint:2"]
 		},
 		"LongShotSketchyIceCave": {
 			"region": "HushedRiverValley",
@@ -2125,15 +2228,16 @@
 			"indoors": true,
 			"explored":true,
 			"features": [
-				"wolf,+bear,+bear",
+				"wolf,bearhunt,bearhunt",
 				"workbench,furnbench,radio,bearbed",
-				"quality,hacksaw,hammer,prybar",
+				"quality,hacksaw,hammer,prybar,bearroll",
 				"firestriker,matches,jerrycan,jerrycan",
 				"thermos,skillet,skillet,stim,stim",
 				"curing,curing,curing,curing,rockcache",
 				"trunk,trunk,trunk,trunk,suitcase",
 				"trunk,trunk,trunk,trunk,suitcase",
-				"sweater,underwear,toque,mitts,+jersey"
+				"sweater,underwear,toque,mitts,+jersey",
+                "+decor,+rugs,+saltbag:2"
 			]
 		},
 		"BRHuntersBlindAndCave": {
@@ -2143,7 +2247,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["-bear,wolf"]
+			"features": ["bear,wolf"]
 		},
 		"HuntingLodge": {
 			"region": "BrokenRailroad",
@@ -2208,7 +2312,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["*rockcache"]
+			"features": ["*rockcache,stone:43,+stone:7"]
 		},
 		"PlatelayerCave": {
 			"region": "FarRangeBranchLine",
@@ -2226,7 +2330,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["rabbit,wolf","snare,snare","rockcache,*rockcache"]
+			"features": ["rabbit,wolf","snare,snare","rockcache,*rockcache","stone:50"]
 		}
 		},
 		"% TRANSFER PASS": {
@@ -2248,11 +2352,13 @@
 			"explored":true,
 			"features": ["ptarmigan,rabbit,snare,snare",
 						"radio,grill,matches,jerrycan",
-						"*workbench,furnbench,bed",
+						"*workbench,furnbench,bed,*bearbed",
 						"skillet,skillet,cookpot,cookpot",
 						"prybar,quality,rockcache,rockcache",
-						"suitcase,suitcase,,deerpants",
+						"suitcase,suitcase,quality,deerpants",
 						"*trunk,*trunk,*trunk,*trunk",
+						"#?HuntNearby,?down:16,+cedar:15,?fir:54",
+						"#+Trapper,+bearhide,+heatpack,+arrowhead:10",
 						"#+CH,+thermos",
 						"#+ZOC,+vice",
 				        "#-LLH,-distress",
@@ -2277,7 +2383,9 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,ptarmigan","range,bed","radio,-prybar","*furnbench,*bearbed","*workbench,+vice"]
+			"features": ["poisonwolf,ptarmigan",
+				"range,bed",
+				"radio,-prybar"]
 		},
 		"BosssSettlement": {
 			"region": "ZoneOfContamination",
@@ -2313,7 +2421,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["poisonwolf,workbench", "#-VacantDepot,-workbench,-vice", "#-CommunityHall,-workbench,-vice"]
+			"features": ["poisonwolf,-workbench,-vice", "#-VacantDepot,-workbench,-vice", "#-CommunityHall,-workbench,-vice"]
 		},
 		"LangstonMine": {
 			"region": "ZoneOfContamination",
@@ -2332,7 +2440,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,birch,-simple"]
+			"features": ["mine,bark,-simple"]
 		},
 		"SmokersCave": {
 			"region": "ZoneOfContamination",
@@ -2361,7 +2469,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["rabbit,ptarmigan","+polaroid"]
+			"features": ["rabbit,ptarmigan","+polaroid","*rockcache,+stone:50"]
 		},
 		"MainHangar": {
 			"region": "ForsakenAirfield",
@@ -2692,7 +2800,7 @@
 			"indoors": true,
 			"explored":true,
 			"comment": "put things in all caps here!",
-			"features": ["#-Current,-quality,#-Later,-quality,-quality,-thermos",
+			"features": [
 						"#Porter,?recipe,#Vagabond,?recipe"]
 		},
 		"CurrentInventory": {
@@ -2702,14 +2810,14 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["matches,firestriker,maglens,spelunker,stim,stim,bedroll",
+			"features": ["matches,firestriker,maglens,accelerant,spelunker,stim,stim,bedroll",
 						"thermos,thermos,cookpot,cookpot",
-						"-hacksaw,knife,axe,bow,arrow:11,firearrow:6",
-						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves",
-						"satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
+						"knife,axe,bow,arrow:7,firearrow:6,sewing,whetstone,leather",
+						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves,satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
 						"rucksack,handheld,camera",
-						"#FM:ST,-polaroid,#ML,-polaroid,-polaroid,#MT,-polaroid,#PV,-polaroid,#TWM,polaroid,polaroid,#SP:PW,-polaroid,#ZOC,-polaroid,-polaroid",
-						"#Breyerhouse,?recipe,#Camber,?recipe,#Coastal,?recipe,#Dockworker,?recipe,#LastResort,?recipe,#Lily,?recipe,#Pemmican,recipe,#Prepper,?recipe,#Thomson,?recipe,#Ranger,?recipe,"
+							"#HRV,-lantern",
+						"#BRM,polaroid,-polaroid,#CH,-polaroid,#FM:ST,-polaroid,#ML,-polaroid,-polaroid,#MT,-polaroid,#PV,-polaroid,#TWM,polaroid,polaroid,#SP:PW,-polaroid,#ZOC,-polaroid,-polaroid",
+					"#Breyerhouse,?recipe,#Camber,?recipe,#Coastal,?recipe,#Dockworker,?recipe,#LastResort,?recipe,#Lily,?recipe,#Pemmican,recipe,#Prepper,?recipe,#Thomson,?recipe,#Ranger,?recipe,"
 			]
 		},
 		"PermanentlyUsedUp": {
@@ -2720,7 +2828,7 @@
 			"indoors": true,
 			"explored":true,
 			"comment": "RIP",
-			"features": ["#MT,stim,#Guessing?,stim,stim,stim,stim",
+			"features": ["#MT,stim,#Guessing?,stim,stim",
 				"workbench,workbench,workbench",
 				"#TrapperBug,safe"]
 		}
@@ -2752,15 +2860,17 @@
 			["TWMPrepperCache", "south", "bottom,right", "WingArea", "top,right", "todo"],
 			["WingArea", "south", "bottom,left", "ForestCave", "top,left", "todo"],
 			["WingArea", "north", "top,left", "EngineCaveEast", "bottom,right", "todo"],
-			["ForestCave", "west", "bottom,left", "TWMFishHut", "top,right", "todo"],
+			["ForestCave","west","bottom,left", "GroveSouthOfMountaineer", "bottom,right", "cattail"],
+			["GroveSouthOfMountaineer", "west", "bottom,left", "Mountaineer", "bottom,right", "charcoal"],
+			["ForestCave", "west", "top,left", "TWMFishHut", "bottom,right", "todo"],
 			["WingArea", "east", "top,right", "EchoRavine", "top,left", "todo"],
 			["EchoRavine", "north", "top,left", "BitterMarshFishHut", "bottom,left", "todo"],
-			["TWMFishHut", "west", "bottom,left", "Mountaineer", "bottom,right", "tinder"],
+			["TWMFishHut", "west", "top,left", "Mountaineer", "top,right", "tinder"],
 			["Mountaineer", "north", "top,left", "CaveBelowAndresPeak", "bottom,right","todo"],
 			["CaveBelowAndresPeak", "north", "top,right", "AndresPeak", "bottom,left", "charcoal"],
 			["AndresPeak", "north", "top,right", "EngineCave", "bottom,left", "todo"],
 			["EngineCave", "north", "top,left", "CaveFromBRM", "bottom,right", "todo"],
-			["Mountaineer", "west", "bottom,left", "Joplin", "top,right", "todo"],
+			["Mountaineer", "west", "bottom,left", "ClimbPV2TWM", "top,right", "todo"],
 			["SecludedShelfCave", "south", "bottom,left", "SummitCave", "top,right", "todo"],
 			["SecludedShelfCave", "west", "top,left", "WaterfallCave", "top,right", "todo"],
 			["WaterfallCave", "west", "top,left", "CaveFromBRM", "top,right", "oneway"],
@@ -2768,6 +2878,7 @@
 			["EngineCaveEast", "west", "bottom,left", "EngineCave", "bottom,right", "todo"],
 			["TailSection", "west", "bottom,left", "AndresPeak", "bottom,right", "oneway"],
 			"--------PleasantValley--------",
+			["ClimbPV2TWM", "south", "bottom,left", "Joplin", "top,right", "todo"],
 			["Joplin", "south", "bottom,right", "PointOfDisagreement", "top,right", "todo"],
 			["Joplin", "west", "top,left", "JoplinHuntersBlind", "top,right", "todo"],
 			["JoplinHuntersBlind", "west", "top,left", "CrashSiteAndBurnedRidgeCave", "top,right", "todo"],
@@ -2788,7 +2899,7 @@
 			["PensivePond", "west", "bottom,left", "CaveToPV", "bottom,right", "todo"],
 			["SignalHill", "south", "bottom,left", "HilltopCaveAndHuntersBlind", "top,left", "todo"],
 			["HilltopCaveAndHuntersBlind", "south", "bottom,right", "CaveToPV", "top,left", "todo"],
-			["HilltopCaveAndHuntersBlind", "north", "top,right", "MollysBarn", "bottom,left", "todo"],
+			["HilltopCaveAndHuntersBlind", "east", "top,right", "MollysBarn", "bottom,left", "todo"],
 			["MollysBarn", "west", "top,left", "SignalHill", "bottom,right", "todo"],
 			["MollysBarn", "north", "top,left", "PVFarm", "bottom,left", "todo"],
 			["SignalHill", "north", "top,left", "KPSTrailer", "bottom,right", "todo"],
@@ -2800,8 +2911,8 @@
 			["CrashSiteAndBurnedRidgeCave", "south", "bottom,right", "SkeetersRidge", "top,left", "todo"],
 			["SkeetersRidge","south","bottom,left", "DraftDodgersCabin", "top,left", "todo"],
 			"--------KeepersPass--------",
-			["Foresters", "south", "bottom,left", "KPNIceCave", "top,right", "todo"],
-			["KPNIceCave", "south", "bottom,right", "KPSIceCave", "top,left", "todo"],
+			["Foresters", "south", "bottom,left", "KPNIceCave", "top,left", "todo"],
+			["KPNIceCave", "south", "bottom,left", "KPSIceCave", "top,left", "todo"],
 			["KPSIceCave", "south", "bottom,right", "KPSFishHut", "top,right", "todo"],
 			["KPSFishHut", "south", "bottom,right", "KPSTrailer", "top,left", "todo"],
 			"--------Blackrock--------",
@@ -2814,12 +2925,14 @@
 			["CaveBelowFoolsCorner", "south", "bottom,right", "CaveEastOfPrison", "top,right", "todo"],
 			["CaveEastOfPrison", "west", "bottom,left", "PrisonGate", "bottom,right", "todo"],
 			["CaveByPrisonPond", "north", "top,right", "PrisonGate", "bottom,left", "path"],
+			["CarAtCentralJunction", "north", "top,left", "CaveByPrisonPond", "bottom,right", "todo"],
+			["CarAtCentralJunction", "east", "bottom,right", "CooksFarm", "top,left", "todo"],
 			["ForemansClearcut", "west", "top,left", "CooksFarm", "top,right", "path"],
 			["ForemansClearcut", "south", "bottom,left", "CuttysCave", "top,right", "todo"],
 			["ForemansClearcut", "north", "top,right", "Bricklayer", "bottom,left", "path"],
 			["CuttysCave", "west", "top,left", "JailorsResidence", "top,right", "todo"],
-			["CooksFarm", "south", "bottom,left", "JailorsResidence", "top,right", "path"],
-			["CaveByPrisonPond", "south", "bottom,right", "CarNorthOfKPTunnel", "top,left", "path"],
+			["CooksFarm", "south", "bottom,left", "JailorsResidence", "top,left", "path"],
+			["CarAtCentralJunction", "south", "bottom,left", "CarNorthOfKPTunnel", "top,left", "path"],
 			["PrisonGate", "west", "top,left", "PrisonWorkshop", "bottom,right", "todo"],
 			["PrisonWorkshop", "north", "top,right", "Barracks", "bottom,right", "todo"],
 			["Barracks", "east", "top,right", "CentralPrison", "top,left", "todo"],
@@ -2827,7 +2940,7 @@
 			["SteamTunnels", "south", "bottom,left", "PowerPlant", "top,left", "todo"],
 			["PowerPlant", "west", "top,left", "ForagersRemnant", "top,right", "todo"],
 			["PowerPlant", "south", "bottom,right", "TrailerSouthOfPowerPlant", "top,left", "todo"],
-			["CaveByPrisonPond", "west", "top,left", "TrailerSouthOfPowerPlant", "bottom,right", "todo"],
+			["CaveByPrisonPond", "west", "top,left", "TrailerSouthOfPowerPlant", "top,right", "todo"],
 			["CarNorthOfKPTunnel", "east", "bottom,right", "JailorsResidence", "top,left", "path"],
 			["CarNorthOfKPTunnel", "south", "bottom,left", "KPTunnel", "top,left", "todo"],
 			["CarNorthOfKPTunnel", "west", "bottom,left", "OldSubstation", "top,right", "todo"],
@@ -2868,7 +2981,7 @@
 			["WaterfrontCottages", "west", "top,left", "Quonset", "bottom,right", "path"],
 			["Misanthrope", "east", "bottom,right", "ToTradeFor", "top,left", "oneway"],
 			"--------CrumblingHighway--------",
-			["WaterfrontCottages", "east", "top,right", "Harris", "top,left", "path"],
+			["WaterfrontCottages", "east", "top,right", "Harris", "bottom,left", "path"],
 			["Harris", "east", "top,right", "No3MineFromDP", "bottom,left", "todo"],
 			"--------DesolationPoint--------",
 			["No3MineFromDP", "east", "top,right", "No3MineToDP", "top,left", "paint"],
@@ -2891,7 +3004,8 @@
 			["RavineTrainCar", "north", "top,left", "WestRavineCave", "bottom,right", "path"],
 			["EastRavineCave", "west", "top,left", "WestRavineCave", "top,right", "path"],
 			["WestRavineCave", "west", "top,left", "DamTrailers", "top,right", "path"],
-			["WestRavineCave", "south", "bottom,left", "RavineBasinTrainCar", "top,left", "todo"],
+			["WestRavineCave", "south", "bottom,left", "RavineClimb", "top,left", "todo"],
+			["RavineClimb", "south", "bottom,left", "RavineBasinTrainCar", "top,left", "todo"],
 			["RavineBasinTrainCar", "south", "bottom,left", "SouthRavineCave", "top,left", "todo"],
 			["SouthRavineCave", "south", "bottom,left", "BIPrepperCache", "top,left", "todo"],
 			"--------BleakInlet--------",
@@ -2919,7 +3033,8 @@
 			["WashedOutTrailer", "north", "top,right", "SaltCave", "bottom,right", "todo"],
 			["LongBridge", "north", "top,right", "SecretMountainPath", "bottom,right","todo"],
 			"--------ForlornMuskeg--------",
-			["MLRailTunnel", "west", "top,left", "Poacher", "top,right", "path"],
+			["MLRailTunnel", "west", "top,left", "EastFM", "top,right", "path"],
+			["EastFM", "west", "top,left", "Poacher", "top,right", "path"],
 			["Poacher", "west", "top,left", "WestFM", "top,right", "path"],
 			["WestFM", "west", "top,left", "BRRailTunnel", "top,right", "path"],
 			["WestFM", "south", "bottom,left", "Spence", "top,right", "cattail"],
@@ -2934,7 +3049,7 @@
 			["MidSouthFMCave", "east", "bottom,right", "CaveFromBI", "bottom,left", "todo"],
 			["CaveFromBI", "north", "top,right", "MuskegOverlook", "bottom,right", "todo"],
 			"--------MysteryLake--------",
-			["MLRailTunnel", "north", "top,left", "Trapper", "bottom,left", "path"],
+			["MLRailTunnel", "north", "top,left", "Trapper", "bottom,left", "cattail"],
 			["UpperDam", "south", "bottom,left", "DamTrailers", "top,right", "todo"],
 			["DamTrailers", "south", "bottom,right", "AlansCaveHuntingBlind", "top,right", "todo"],
 			["DamTrailers", "west", "top,left", "TrainLoading", "top,right", "path"],
@@ -2949,20 +3064,20 @@
 			["ForestryLookout", "east", "bottom,right", "LoggingCamp", "bottom,left", "todo"],
 			["DestroyedLookout", "west", "top,left", "UnnamedPondCabin", "top,right", "todo"],
 			["AlansCaveHuntingBlind", "south", "bottom,right", "LoneLakeCabin", "top,right", "todo"],
-			["LoneLakeCabin", "west", "bottom,left", "LakeCabins", "top,right", "todo"],
-			["LakeCabins", "west", "top,left", "MLFishHuts", "bottom,right", "todo"],
+			["LoneLakeCabin", "west", "bottom,left", "MiddleLakeCabins", "top,right", "todo"],
+			["MiddleLakeCabins", "west", "bottom,left", "LakeCabins", "top,right", "todo"],
+			["LakeCabins", "north", "top,left", "MLFishHuts", "bottom,right", "todo"],
 			["LakeOverlookCave", "west", "bottom,left", "CampOffice", "bottom,right", "charcoal"],
-			["CampOffice", "south", "bottom,right", "MLFishHuts", "top,left", "todo"],
+			["CampOffice", "south", "bottom,right", "MLFishHuts", "top,right", "tinder"],
 			["Trapper", "west", "top,left", "CaveToMT", "top,right", "path"],
-			["UnnamedPondCabin", "west", "top,left", "UnnamedPondHuntersBlind", "top,right", "todo"],
-			["UnnamedPondHuntersBlind", "west", "top,left", "Trapper", "top,right", "todo"],
+			["UnnamedPondCabin", "west", "top,left", "UnnamedPondHuntersBlind", "top,right", "cattail"],
+			["UnnamedPondHuntersBlind", "west", "top,left", "Trapper", "top,right", "charcoal"],
 			["UnnamedPondHuntersBlind", "south", "bottom,left", "DeadfallArea", "top,left", "todo"],
 			["DeadfallArea", "south", "bottom,right", "CampOffice", "top,right", "todo"],
 			["DeadfallArea", "west", "bottom,left", "Trapper", "bottom,right", "path"],
-			["CampOffice", "west", "bottom,left", "DavesQuietClearing", "top,right", "todo"],
+			["CampOffice", "south", "bottom,left", "DavesQuietClearing", "top,right", "todo"],
 			["DavesQuietClearing", "west", "top,left", "CaveNearMLPrepperCache", "top,right", "todo"],
-			["CaveNearMLPrepperCache", "east", "bottom,right", "LakeCabins", "bottom,left", "todo"],
-			["CaveNearMLPrepperCache", "north", "top,left", "MLRailTunnel", "bottom,left", "oneway"],
+			["CaveNearMLPrepperCache", "north", "top,left", "MLRailTunnel", "bottom,right", "oneway"],
 			"--------WindingRiver--------",
 			["UpperDam", "east", "bottom,right", "LowerDam", "bottom,left", "path"],
 			["LowerDam", "north", "top,right", "CaveFromPV", "bottom,left", "todo"],
@@ -2991,7 +3106,7 @@
 			["BunkerGamma", "north", "top,right", "ReclusiveFallsIceCave", "bottom,left", "todo"],
 			["BunkerGamma", "east", "top,right", "CaveWestOfStairsteps", "top,left", "todo"],
 			["CaveWestOfStairsteps", "east", "top,right", "ValleyViewPointSketchyIceCave", "top,left", "todo"],
-			["ValleyViewPointSketchyIceCave", "south","bottom,right", "SouthSketchyIceCave", "top,left", "todo"],
+			["ValleyViewPointSketchyIceCave", "south","bottom,right", "SouthSketchyIceCave", "top,right", "todo"],
 			["SouthSketchyIceCave", "east", "top,right", "SouthSignalFire", "top,left", "todo"],
 			["ReclusiveFallsIceCave", "north", "top,left", "WestIceCave", "bottom,left", "paint"],
 			["ReclusiveFallsIceCave", "east", "bottom,right", "HushedRiverCave", "bottom,left", "path"],
@@ -3015,7 +3130,7 @@
 			["BrokenBridgeTrainCar", "west", "top,left", "BrokenBridgeTruck", "top,right", "path"],
 			["MaintenanceYard", "east", "bottom,right", "MaintenanceShed", "top,right", "path"],
 			["MaintenanceYard", "north", "top,left", "BRHuntersBlindAndCave", "bottom,left", "todo"],
-			["BRHuntersBlindAndCave", "north", "top,left", "HuntingLodge", "bottom,left", "todo"],
+			["BRHuntersBlindAndCave", "north", "top,left", "HuntingLodge", "bottom,right", "todo"],
 			["HuntingLodge", "east", "top,right", "NorthBRCave", "top,left", "todo"],
 			["BRHuntersBlindAndCave", "west", "top,left", "BRRavine", "top,right", "todo"],
 			"--------FarRangeAndTransferPass--------",
@@ -3023,7 +3138,7 @@
 			["RailOffice", "west", "top,left", "SurfeitTrestle", "top,right", "path"],
 			["SurfeitTrestle", "west", "top,left", "PlatelayerCave", "top,right", "path"],
 			["PlatelayerCave", "west", "top,left", "RemnantCave", "top,right", "path"],
-			["RemnantCave", "north", "top,left", "FeedwaterCave", "bottom,left", "path"],
+			["RemnantCave", "west", "top,left", "FeedwaterCave", "top,right", "path"],
 			["FeedwaterCave", "north", "top,left", "VacantDepot", "bottom,left", "path"],
 			["VacantDepot", "east", "top,right", "WelkinsWindowCave", "top,left", "path"],
 			"--------ZoneOfContamination--------",
@@ -3060,7 +3175,7 @@
 			["MindfulCabin", "east", "top,right", "FAFishingHut", "top,left", "todo"],
 			["FAFishingHut", "east", "top,right", "IslandCottage", "top,left", "todo"],
 			"--------SunderedPass--------",
-			["LowerConnectorCave", "north", "top,left", "UpperConnectorCave", "bottom,left", "todo"],
+			["LowerConnectorCave", "north", "top,right", "UpperConnectorCave", "bottom,left", "todo"],
 			["UpperConnectorCave", "north", "top,left", "PerilousCrossing", "bottom,left", "todo"],
 			["PerilousCrossing", "north", "top,left", "WeatherStation", "bottom,left", "todo"],
 			["UpperConnectorCave", "south", "bottom,right", "LastLonelyHouse", "top,left", "todo"],
@@ -3078,12 +3193,13 @@
 			["RouteOneWaterfall", "north", "top,left", "IdleHideout", "bottom,left", "todo"],
 			["RouteOneWaterfall", "east", "top,right", "CascadingGap", "top,left", "todo"],
 			["IdleHideout", "east", "top,right", "PrayerfulWindow", "bottom,left", "todo"],
-			["CascadingGap", "south", "bottom,right", "LottesRest", "top,right", "path"],
+			["CascadingGap", "south", "bottom,right", "LottesRest", "top,left", "path"],
 			["CascadingGap", "north", "top,right", "PlacidNotch", "bottom,right", "path"],
 			["CascadingGap", "east", "top,right", "PrayerfulWindow", "bottom,left", "todo"],
 			["LottesRest", "south", "bottom,right", "ClimbBetweenSPAndTP", "top,right", "todo"],
-			["LastLonelyHouse","south", "bottom,right","MiserableHaunt","top,right", "todo"],
+			["LastLonelyHouse","south", "bottom,left","MiserableHaunt","top,left", "todo"],
 			["MiserableHaunt","east", "bottom,right","LottesRest","bottom,left", "todo"],
+			["MiserableHaunt", "south", "bottom,left", "ClimbBetweenSPAndTP", "top,left", "todo"],
 			["PlacidNotch", "north", "top,right", "RudigersHideout", "bottom,right", "todo"],
 			["ClimbBetweenSPAndTP", "south","bottom,right", "VacantDepot", "top,right", "todo"],
 			["LowerConnectorCave", "south", "bottom,right", "ZOCConnectorCave", "top,left", "todo"],

@@ -1,12 +1,9 @@
-import json
 import os
 from oklch import *
 from parseSVG import *
+# used in dependent files
+import json
 import math
-
-
-
-
 
 def change_svg_colour(filepath, new_colour, old_colour, save_to_dir = 'assets/coloured/', name=''):
     """

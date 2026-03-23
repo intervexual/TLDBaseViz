@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.471001"
+   height="87.471001"
+   viewBox="0 0 87.471 87.471002"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="tinder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.6083333"
+     inkscape:cx="28.048569"
+     inkscape:cy="46.99046"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     d="M 33.583001,53.536 11.392001,64.618 C 9.9037009,65.36019 8.1693009,65.43831 6.6225009,64.82503 5.0756009,64.21565 3.8608009,62.97343 3.2827009,61.41483 -1.1000991,49.54383 -1.0844991,37.75083 3.2709819,26.03183 3.8530119,24.47713 5.0678819,23.24273 6.6107819,22.63343 8.1576819,22.02406 9.8880819,22.10218 11.372482,22.84437 17.181082,25.74277 26.450482,30.37167 33.583482,33.93437 V 41.77817 H 28.106882 C 27.028782,41.77817 26.153782,42.65317 26.153782,43.73127 26.153782,44.80937 27.028782,45.68437 28.106882,45.68437 H 33.583482 Z"
+     fill-rule="evenodd"
+     id="path1"
+     style="fill:#000000" />
+  <path
+     d="M 53.888001,33.935 76.078996,22.853 C 77.567296,22.11081 79.301706,22.03269 80.848496,22.64597 82.395406,23.25535 83.610196,24.49757 84.188296,26.05617 88.571096,37.92717 88.555506,49.72017 84.200016,61.43917 83.617986,62.99387 82.403116,64.22827 80.860216,64.83757 79.313316,65.44694 77.582916,65.36882 76.098516,64.62663 70.289916,61.72823 61.02052,57.09933 53.88752,53.53663 V 45.68113 H 59.36022 C 60.43832,45.68113 61.31332,44.80613 61.31332,43.72803 61.31332,42.64993 60.43832,41.77493 59.36022,41.77493 H 53.88752 V 33.93113 Z"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:#000000" />
+  <path
+     d="M 49.009001,33.837 C 49.548061,33.837 49.985561,34.2745 49.985561,34.81356 V 52.66556 C 49.985561,53.20462 49.548061,53.64212 49.009001,53.64212 H 38.466001 C 37.926941,53.64212 37.489441,53.20462 37.489441,52.66556 V 34.81356 C 37.489441,34.2745 37.926941,33.837 38.466001,33.837 Z"
+     fill-rule="evenodd"
+     id="path3"
+     style="fill:#000000" />
+</svg>
