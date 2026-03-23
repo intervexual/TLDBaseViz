@@ -541,7 +541,7 @@
 			"explored": false,
 			"features": ["deer",
 						"bed,range,workbench",
-						"?cookpot,?skillet/.5,?saltbag",
+						"?cookpot,?skillet,?saltbag",
 						"?hacksaw/.14,?prybar/.17,?simple",
 						"?skijacket,?sweater",
 						"-polaroid/.2"
@@ -731,7 +731,7 @@
 			"cabinfeverrisk": false,
 			"indoors": false,
 			"explored":false,
-			"features": ["?prybar/.15"]
+			"features": ["?prybar/.3"]
 		},
 		"CarNorthOfKPTunnel": {
 			"region": "Blackrock",
@@ -752,7 +752,7 @@
 			"features": ["bear,timberwolf",
 				"bed,workbench",
 				"*transmitter,?battery",
-				"?hacksaw/.25,?prybar/.15,?matches/.25"]
+				"?hacksaw/.5,?prybar/.3,?matches/.25"]
 		},
 		"CaveByPrisonPond": {
 			"region": "Blackrock",
@@ -797,7 +797,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["timberwolf"]
+			"features": ["timberwolf,?prybar/.28"]
 		},
 		"ForagersRemnant": {
 			"region": "Blackrock",
@@ -806,7 +806,7 @@
 			"cabinfeverrisk": false,
 			"indoors": false,
 			"explored":false,
-			"features": ["timberwolf,deer","grill,workbench","?hacksaw/.25,?prybar/.14,?prybar/.14"]
+			"features": ["timberwolf,deer","grill,workbench","?hacksaw/.5,?prybar/.28"]
 		},
 		"TrailerSouthOfPowerPlant": {
 			"region": "Blackrock",
@@ -871,7 +871,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored": false,
-			"features": ["mine,rabbit","?prybar/.14,+polaroid"]
+			"features": ["mine,rabbit","?prybar/.28,+polaroid"]
 		},
 		"JailorsResidence": {
 			"region": "Blackrock",
@@ -898,7 +898,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["bed,grill,workbench","?hacksaw/.25,?lantern/.25,?prybar/.14,?matches/.25"]
+			"features": ["bed,grill,workbench","?hacksaw/.5,?lantern/.25,?prybar/.28,?matches/.25"]
 		},
 		"Bricklayer": {
 			"region": "Blackrock",
@@ -909,7 +909,7 @@
 			"explored":false,
 			"features": ["bear,bear,timberwolf",
 				"workbench,grill,bed",
-				"?hacksaw/.25,?lantern/.25,?prybar/.14,?matches/.25,?matches,?simpleparka"]
+				"?hacksaw/.5,?lantern/.25,?prybar/.28,?matches/.25,?matches,?simpleparka"]
 		},
 		"ForemansClearcut": {
 			"region": "Blackrock",
@@ -1487,7 +1487,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine","salt"]
+			"features": ["mine","salt","?prybar"]
 		}
 		},
 		"% DESOLATION POINT": {
@@ -1498,7 +1498,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,workbench"]
+			"features": ["mine,workbench,?prybar"]
 		},
 		"No5MineWest": {
 			"region": "DesolationPoint",
@@ -1617,7 +1617,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["bear","wolf","-polaroid/.25"]
+			"features": ["bear","wolf","-polaroid/.25","#AbandonedCamp,?prybar"]
 		},
 		"LowBlind": {
 			"region": "ForlornMuskeg",
@@ -1748,7 +1748,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bed","grill","timberwolf",
-				"?cookpot,?skillet/.5"]
+				"?cookpot,?skillet"]
 		},
 		"WorkerResidence": {
 			"region": "BleakInlet",
@@ -2485,7 +2485,7 @@
 			"explored":true,
 			"features": ["poisonwolf",
 				"workbench,workbench,workbench",
-				"-polaroid"]
+				"-polaroid,?prybar"]
 		},
 		"LangstonMine": {
 			"region": "ZoneOfContamination",
@@ -2497,7 +2497,7 @@
 			"features": ["mine,bed,workbench,workbench",
 				"?lantern,?jerrycan,?woodworking",
 				"?thermos,?saltbag",
-				"?safe",
+				"?safe,?prybar",
 				"-polaroid"]
 		},
 		"MinersFootpath": {
@@ -2902,7 +2902,7 @@
 			"features": [""
 						]
 		},
-		"PermanentlyUsedUp": {
+		"UsedUp": {
 			"region": "NotInGame",
 			"customizable": false,
 			"loading": false,

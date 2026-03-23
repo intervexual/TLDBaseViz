@@ -134,7 +134,7 @@ TABSIZE = 4
 REGION = 'region'
 INVENTORY = 'Inventory'
 CURR_INVENTORY = 'CurrentInventory'
-USED_UP = 'PermanentlyUsedUp'
+USED_UP = 'UsedUp'
 
 TRUES = ['true', '''"true"''']
 

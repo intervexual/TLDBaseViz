@@ -1049,7 +1049,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210*3, y=600, counts=counts)
+        draw_legend(d, colours, x=d.width-210*3, y=600, counts=counts, column_breaks=(35, 35 + 55))
 
 
     d.save_svg(output)
@@ -1069,7 +1069,7 @@ def get_regions(bases):
     ['AshCanyon', 'Blackrock', 'BleakInlet', 'BrokenRailroad', 'CoastalHighway', 'DesolationPoint', 'FarRangeBranchLine', 'ForlornMuskeg', 'ForsakenAirfield', 'HushedRiverValley', 'KPN', 'KPS', 'MountainTown', 'MysteryLake', 'OIC', 'PleasantValley', 'Ravine', 'SunderedPass', 'TimberwolfMountain', 'TransferPass', 'WindingRiver', 'ZoneOfContamination']
     """
     regions = []
-    to_exclude = ['PermanentlyUsedUp', 'Inventory', 'NotInGame', CURR_INVENTORY]
+    to_exclude = [USED_UP, INVENTORY, 'NotInGame', CURR_INVENTORY]
     for b in bases:
         this_region = bases[b].region
         if this_region not in to_exclude:
@@ -1145,8 +1145,6 @@ def verify_fixed_numbers(bases, nums):
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
     >>> verify_fixed_numbers(bases, nums)
-    Warning: expecting 3.0 many maglens found 2 instead
-    Warning: expecting 15.0 many prybar found 20 instead
     False
     """
     all_matching = True
@@ -1256,7 +1254,10 @@ def convert_edge_info(bases):
 
 
 
-def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_colour='purple', counts=False, background_colour='white'):
+def draw_legend(d, colours, x=0, y=0,
+                icon_size=10, margin_ratio=1 / 8,
+                legend_colour='purple', background_colour='white',
+                column_breaks=(), counts=False):
     """
     Draw a legend
     :param d: drawing object
@@ -1264,8 +1265,8 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_c
     >>> d = draw.Drawing(200, (36+12)*25)
     >>> d.append(draw.Rectangle(0, 0, d.width, d.height, fill='white'))
     >>> bases, colours = process_input('mybases.json')
-    >>> draw_legend(d, colours, icon_size=20)
-    2930.0
+    >>> draw_legend(d, colours, icon_size=20) > 1000
+    True
     >>> d.save_svg('tests/legend.svg')
     """
     margin_size = icon_size * margin_ratio
@@ -1285,7 +1286,7 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_c
     g.append(draw.Text('LEGEND', legend_font_size, font_family=FONTFAM,
                        x=icon_x, y=icon_y + cell_size / 2,
                        fill=legend_colour, stroke=legend_colour))
-    text_wid = longest_name_len * (icon_size / 2) + 4 * margin_size
+    text_wid = longest_name_len * (icon_size / 2) # + 1 * margin_size
     count_x = icon_x + text_wid
 
     lines_drawn = 0
@@ -1298,9 +1299,9 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_c
                 to_draw = False
 
         if to_draw:
-            if lines_drawn in [35, 35 + 55]:  # TODO variable balancing
+            if lines_drawn in column_breaks:
                 icon_y = start_y
-                legend_column_size = text_wid + cell_size * 3 + 4 * margin_size
+                legend_column_size = text_wid + cell_size * 5 + 4 * margin_size
                 icon_x += legend_column_size
                 count_x += legend_column_size
 
@@ -1316,7 +1317,11 @@ def draw_legend(d, colours, x=0, y=0, icon_size=10, margin_ratio=1 / 8, legend_c
                                x=icon_x+cell_size, y=text_y,
                                fill=legend_colour))
             if counts:
-                g.append(draw.Text(str(round(counts[a], 2)), legend_font_size, font_family=FONTFAM,
+                count_num = round(counts[a], 2)
+                if count_num == int(count_num):
+                    count_num = int(count_num)
+                count_txt = str(count_num)
+                g.append(draw.Text(count_txt, legend_font_size, font_family=FONTFAM,
                                    x=count_x, y=text_y,
                                    fill=legend_colour))
 

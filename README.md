@@ -272,6 +272,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Vitamin-C Pills by Studio 365](https://thenounproject.com/icon/diet-supplement-4482553/)
 * [Warden's Revolver by Eskak](https://thenounproject.com/icon/revolver-8168232/)
 * [Water Bottle by Hilmy Abiyyu Asad](https://thenounproject.com/icon/water-bottle-8270656/)
+* Whetstone is original art for this project
 * [Windbreaker by Lars Meiertoberens](https://thenounproject.com/icon/windbreaker-6792064/)
 * [Wires by Marie Van den Broeck](thenounproject.com/icon/plug-326742/)
 * [Wolf by IronSV](https://thenounproject.com/icon/wolf-3063417/)
@@ -298,19 +299,19 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ### Coding/UX
 1. Rethink how draw the graph so position doesn't need so much manual tweaking
 1. Reposition the inventory
-1. Split legend up to make it easier to fit
+1. Automatically split legend up to make it easier to fit
 1. Revamp colour scheme
 2. Add day # to visualization
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location
-5. Indication of rope climbs
 4. Write more documentation for other people to use it
 7. Finish loot table templates for interloper
 10. Refine the dark mode / hi contrast style
+11. When checking workbench number, count vices as well
 
 ### Maybe later
 9. Add some level of importance/priority?
-10. Festive lights
+10. Add some indicator of wear/decay
 
 ## Acknowledgments
 * See image credits!

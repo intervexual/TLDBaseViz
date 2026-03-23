@@ -253,7 +253,7 @@
 				"matches:15,+maglens, coal:12, stick:90, blueflare",
 				"bearhide,bearhide,wolfhide:2,rabbitpelt:2,+deerhide",
 				"arrowhead:2,axe,knife,knife,-fir:3",
-                "+decor,+rugs"
+                "+decor,+rugs,?hacksaw"
 			]
 		},
 		"CaveBelowAndresPeak": {
@@ -424,7 +424,7 @@
 			"features": ["bear,bearhunt,deer,bark",
 						"grill, workbench, furnbench,bearbed,+decor",
 						"quality,+charcoal:50,+tinder:50,+head:50,+rugs",
-						"curing, curing, skillet, skillet",
+						"curing, curing, skillet, skillet,?hacksaw",
 						"deerhide,deerhide,bearhide,wolfhide",
 						"fir:12,reclaimed:25,stick:30,coal:15,+fir:6",
 						"saltbag:7,shaker:17,arrowhead:3,+arrowhead:6"
@@ -820,7 +820,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,bear,deer,rabbit,ptarmigan",
-				"grill,workbench,quality,shaker",
+				"grill,workbench,quality,shaker,?hacksaw",
 				"*furnbench,*bearbed,bearhide,down:16,deerhide",
 				"fir:7,cedar:6,coal:5,stick:30,+rugs,+decor",
 				"distress,dpammo,dpammo,-prybar,woodworking",
@@ -1187,7 +1187,9 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["forge,bed,beachcombing", "hammer,simple,+stone:40", "*rockcache,#+HRV,+hacksaw"]
+			"features": ["forge,bed,beachcombing",
+				"hammer,simple,+stone:40",
+				"*rockcache,#+HRV,+hacksaw"]
 		},
 		"LittleIsland": {
 			"region": "DesolationPoint",
@@ -2820,7 +2822,7 @@
 					"#Breyerhouse,?recipe,#Camber,?recipe,#Coastal,?recipe,#Dockworker,?recipe,#LastResort,?recipe,#Lily,?recipe,#Pemmican,recipe,#Prepper,?recipe,#Thomson,?recipe,#Ranger,?recipe,"
 			]
 		},
-		"PermanentlyUsedUp": {
+		"UsedUp": {
 			"region": "NotInGame",
 			"customizable": false,
 			"loading": false,
@@ -2829,8 +2831,8 @@
 			"explored":true,
 			"comment": "RIP",
 			"features": ["#MT,stim,#Guessing?,stim,stim",
-				"workbench,workbench,workbench",
-				"#TrapperBug,safe"]
+				"#TrapperBug,safe",
+				"#NumVices,workbench:4,#NotActuallyUsedUp"]
 		}
 	},
 	"connections":[
@@ -3204,7 +3206,7 @@
 			["ClimbBetweenSPAndTP", "south","bottom,right", "VacantDepot", "top,right", "todo"],
 			["LowerConnectorCave", "south", "bottom,right", "ZOCConnectorCave", "top,left", "todo"],
 			"-----Special------",
-			["CurrentInventory", "south", "bottom,left", "PermanentlyUsedUp", "top,left", "todo"]
+			["CurrentInventory", "south", "bottom,left", "UsedUp", "top,left", "todo"]
 	],
   	"colours":{
 		"base":"oklch(0.3 0.06 150)",
