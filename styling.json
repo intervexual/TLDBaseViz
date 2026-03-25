@@ -13,23 +13,25 @@
 	    "cedar":"oklch(0.7 0.2 110)",
 		"stone": "oklch(0.7 0.16 130)",
 	    "path":"oklch(0.7 0.1 170)",
+	  	"default": "oklch(0.4 0.06 190)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
 		"clearpath":"oklch(0.7 0.18 250)",
 		"charcoal":"oklch(0.2 0.04 270)",
 		"mixed":"oklch(0.5 0.18 290)",
 	  	"find": "oklch(0.5 0.2 330)",
-		"todo":"oklch(0.5 0.14 310)"
+		"todo":"oklch(0.5 0.3 270)"
 	},
   "dashes": {
-        "todo": "1,2",
+        "todo": "2,1",
         "charcoal": "2,1",
         "cattail": "6,2",
         "tinder": "4,2",
         "paint": "7.4",
         "mixed": "4,2,2,2",
         "path": "",
-        "oneway": "1,1"
+        "oneway": "1,1",
+	  	"default": "2,4"
   },
 	"descriptions":{
 		"find": "to search for here (unexplored)",

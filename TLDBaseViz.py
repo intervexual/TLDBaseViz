@@ -1509,7 +1509,7 @@ if __name__ == '__main__':
             bases, colours = process_input(fname, style_file=style_file)
 
             draw_bases(bases, colours, output=outfile,
-                       width=3000, height=1900, base_x=2530, base_y=30,
+                       width=3000, height=2000, base_x=2530, base_y=130,
                        output_png=False, print_output=to_print)
             nums = count_features(bases)
             verify_fixed_numbers(bases, nums)
