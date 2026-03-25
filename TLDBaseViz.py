@@ -589,7 +589,7 @@ class BaseLocation:
         # manually position the current inventory
         if self.region == INVENTORY:
             self.box_x = self.cell_size
-            self.box_y = self.cell_size + 1400
+            self.box_y = self.cell_size + 1500
             x = self.box_x
             y = self.box_y
 
@@ -1049,7 +1049,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210*3, y=600, counts=counts, column_breaks=(35, 35 + 55))
+        draw_legend(d, colours, x=d.width-210*3-30, y=700, counts=counts, column_breaks=(35, 35 + 70))
 
 
     d.save_svg(output)
