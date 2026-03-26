@@ -1399,22 +1399,25 @@
 			"indoors": true,
 			"explored":true,
 			"features": [
-				"bear,bearhunt,bearhunt,moose,deer,bark",
-				"workbench,furnbench,bearbed,,decor,rugs",
-				"curing,curing,curing,skillet,skillet,grill",
-				"curing,curing,curing,shaker:8,saltbag:6,cattail:30",
-				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"trunk,trunk,trunk,trunk,rockcache,suitcase",
-				"coal:35,stick:40,matches:29,firestriker,reclaimed:11,metal:10",
-				"bearhide:4,deerhide:4,wolfhide:4,rabbitpelt,moosehide,gut:80",
-				"arrowhead:20,cloth:10,sapling:10,maple:3,feather:99",
-                "hammer,knife:2,axe,prybar,lantern,jerrycan",
-				"distress,dpammo,arrow:4,redflare,torch:20",
-				"quality,whetstone,sewing:4,stim,vitaminc:10,antiseptic",
-				"#+MT,+cloth:60,+leather,",
-				"#-CH:Quon,-maglens,#-BI,-accelerant:2,-fir:3,-cedar:3",
-				"#-IDK,-bearhide:6,-wolfhide,-feather:99,-sapling:4,+saltbag:6",
-				"#-FarTerr,-heatpack,#TWM,-paint,-arrowhead:10"
+				",bear,bearhunt,bearhunt,moose,deer,bark",
+				"rugs,decor,furnbench,bearbed,curing:6",
+				"workbench,quality,lantern",
+				"grill,skillet,skillet",
+				"shelf,saltbag:6,water:40",
+				"rockcache,-rockcache,shaker:8",
+				"firstaid,stim,vitaminc:10,antiseptic",
+				"locker,harvestcloth",
+				"trunk,cattail:30",
+				"trunk,coal:35,stick:40,matches:29,firestriker,",
+				"trunk,reclaimed:11,metal:10",
+				"trunk,bearhide:4,deerhide:4,wolfhide:4,rabbitpelt,moosehide,gut:80",
+				"trunk,arrowhead:20,cloth:10,sapling:10,maple:3,feather:99",
+				"trunk,hammer,knife:2,axe,prybar,jerrycan,torch:20",
+				",distress,dpammo,arrow:4,redflare,whetstone,sewing:4",
+				"trunk,tinder,charcoal,,#+MT,+tinder:20",
+				"trunk,#-IDK,-bearhide:6,-wolfhide,-feather:99,-sapling:4,+saltbag:6",
+				"suitcase,#-CH:Quon,-maglens,#-BI,-accelerant:2,-fir:3,-cedar:3",
+				"suitcase,#-FarTerr,-heatpack,#TWM,-paint,-arrowhead:10"
 			]
 		},
 		"LakeOverlookCave": {
@@ -1890,8 +1893,8 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["ptarmigan,rabbit,deer,,decor,rugs",
-						"bed,, briefcase, #+Greymother,+rugs:3,+cloth:10",
+			"features": [",ptarmigan,rabbit,deer",
+						"rugs,decor,bed",
 						"range,skillet,skillet,cookpot,cookpot",
 						"workbench, furnbench,, quality",
 						"fridge,cattail:35,shaker:3",
@@ -1899,7 +1902,8 @@
 						",deerhide:2,wolfhide,rabbitpelt,bearhide,gut:6",
 						",arrowhead:4,feather:50,maple:4,sapling:2,sewing",
 				",bandage:2,dressing:2,paper:8",
-				"chest,harvestcloth"
+				"chest,harvestcloth",
+				"briefcase, #+Greymother,+rugs:3,+cloth:10"
 			]
 		},
 		"MiltonTown": {
@@ -1918,14 +1922,13 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,furnbench,decor,rugs,water:10",
+			"features": ["rugs,decor,bed,furnbench,water:10",
 				"range,cookpot,can,can",
 				"workbench,quality",
 				"fridge,cattail:40,shaker:3,,stick:60,coal:15,firelog,book:5,reclaimed:4,torch:6",
 				"cabinet,harvestcloth,harvestleather,cloth:10,metal:2,deerhide:3,wolfhide:3,bearhide,gut:6,feather:14,sapling:4,maple:2",
-				"trash,bedroll,head:94,charcoal:26,paper:36,tinder",
-				"chest,#-BI,-skillet:2,#-Trapper,-cloth:60,-stone:42,-sweater,-fir:3,-maglens"
-
+				"trash,bedroll,-head:94,-charcoal:26,-paper:36,-tinder",
+				"chest,#-Northward,-fir:3,-stone:7,-rugs:3,-decor,#-MTFarm,-cloth:10,-rugs:3"
 			]
 		},
 		"PostOffice": {
@@ -1944,7 +1947,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf,deer,rabbit","cattail:5,-paper:11,-decor"]
+			"features": ["wolf,deer,rabbit","locker,stick:10,cattail:10,water,fertilizer"]
 		},
 		"PicnicArea": {
 			"region": "MountainTown",
@@ -1953,11 +1956,40 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["wolf,moose,ptarmigan",
-				"coal:5,stick:25,torch:3",
-				"shaker,wolfhide,moosehide",
-				"-paper:7,-tinder:2,-charcoal:5",
-				"-decor,-stone:2"]
+			"features": [",wolf,moose,ptarmigan",
+				"bed,potbelly",
+				",wolfhide,moosehide,gut:6",
+				"drawers,stick:20,coal:5,torch:4",
+				",cattail:10,shaker,water",
+				",-paper:12"
+			]
+		},
+		"ClimbPark2Basin": {
+			"region": "MountainTown",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["climb","goating"]
+		},
+		"ParkBasinCave": {
+			"region": "MountainTown",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":true,
+			"features": ["stick:20,water,shaker","+tinder:10,+charcoal:20,+head:20"]
+		},
+		"ClimbBasin2River": {
+			"region": "MountainTown",
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["climb,goating","rockcache"]
 		},
 		"StChristophers": {
 			"region": "MountainTown",
@@ -1966,7 +1998,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["workbench","bed","wolf","bark"
+			"features": ["wolf","bark","bed"
 			]
 		},
 		"MTNorthTrailer": {
@@ -2012,7 +2044,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine","*rockcache","stone:12","+stone:38"]
+			"features": ["mine,*rockcache","stone:12,+stone:38","+charcoal:15,+head:15"]
 		},
 		"CaveFromMT": {
 			"region": "MysteryLake",
@@ -2054,7 +2086,7 @@
 			"explored":true,
 			"features": [
 						",bearhunt,bearhunt,,*furnbench,*bearbed",
-						"bed,lantern,quality,paint,wolfhide,gut:2",
+						"bed,lantern,quality,-paint,wolfhide,gut:2",
 						"workbench,distress,sewing,cloth:10,torch:5,+deerhide:2",
 						"rockcache,coal:25,stick:60,matches:10,cattail:50,shaker:2",
 						"firstaid,bandage:2,dressing:2,+gut:4,+down:16",
@@ -2833,7 +2865,8 @@
 						"knife,axe,bow,arrow:7,firearrow:6,sewing,whetstone,leather",
 						"wolfhat,techbalaclava,bearcoat,bearcoat,jersey,sweater,gloves,satchel,insulation,insulation,crampons,wolfpants,combatpants,underwear,underwear,socks,socks,deerboots",
 						"rucksack,handheld,camera",
-							"#NorthTrailer,-simple,#-Riken,-hacksaw,#IDK,-prybar",
+						"#-BI,-skillet:2,#-Trapper,-cloth:60,-stone:38,-sweater,-fir:3,-maglens,#IDK,-stone:4",
+							"#NorthTrailer,-simple,#-Riken,-hacksaw,#IDK,-prybar,prybar",
 						"#BRM,polaroid,-polaroid,#CH,-polaroid,#FM:ST,-polaroid,#ML,-polaroid,-polaroid,#MT,-polaroid,#PV,-polaroid,#TWM,polaroid,polaroid,#SP:PW,-polaroid,#ZOC,-polaroid,-polaroid",
 					"#Breyerhouse,?recipe,#Camber,?recipe,#Coastal,?recipe,#Dockworker,?recipe,#LastResort,?recipe,#Lily,?recipe,#Pemmican,recipe,#Prepper,?recipe,#Ranger,?recipe,#Stalker,?recipe,#Thomson,?recipe,"
 			]
@@ -2848,7 +2881,7 @@
 			"comment": "RIP",
 			"features": ["#MT,stim,#Guessing?,stim,stim",
 				"#TrapperBug,safe",
-				"#NumVices,workbench:4,#NotActuallyUsedUp"]
+				"#NumVices,workbench:5,#NotActuallyUsedUp"]
 		}
 	},
 	"connections":[
@@ -3101,8 +3134,11 @@
 			["LowerDam", "north", "top,right", "CaveFromPV", "bottom,left", "default"],
 			["CaveFromPV", "east", "bottom,right", "CaveToPV", "bottom,left", "paint"],
 			"--------MountainTown--------",
-			["CaveToMT", "west", "top,right", "CaveFromMT", "bottom,left", "paint"],
-			["CaveToMT", "west", "top,left", "PicnicArea", "bottom,right", "todo"],
+			["CaveToMT", "west", "top,right", "CaveFromMT", "bottom,right", "paint"],
+			["ClimbPark2Basin", "north", "top,right", "PicnicArea", "bottom,left", "todo"],
+			["ParkBasinCave", "west", "bottom,left", "ClimbPark2Basin", "bottom,right", "tinder"],
+			["ParkBasinCave", "south", "bottom,right", "ClimbBasin2River", "top,right", "charcoal"],
+			["CaveToMT", "west", "bottom,left", "ClimbBasin2River", "top,right", "todo"],
 			["PicnicArea", "north", "top,left", "Orca", "bottom,left", "default"],
 			["Orca", "north", "top,left", "PostOffice", "bottom,left", "path"],
 			["PostOffice", "north", "top,left", "Greymother", "bottom,left", "path"],

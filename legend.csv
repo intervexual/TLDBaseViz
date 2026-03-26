@@ -12,21 +12,22 @@ potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	good
 grill	2-slot stove	furniture	cooking			FALSE	TRUE	good
 range	6-slot stove	furniture	cooking		7	FALSE	TRUE	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE	fine
-trunk	rustic trunk	furniture	storage	fir		FALSE	TRUE	good
+trunk	rustic trunk	furniture	craftable	fir		FALSE	TRUE	good
+cedarbox	rustic storage box	furniture	craftable	cedar		TRUE	TRUE	
+rockcache	rock cache	furniture	craftable	stone		TRUE	TRUE	good
 chest	trunk (premade)	furniture	storage			FALSE	TRUE	
-cedarbox	rustic storage box	furniture	storage	cedar		TRUE	TRUE	
 box	metal container (green)	furniture	storage			FALSE	TRUE	
 plastic	plastic container (blue)	furniture	storage			FALSE	TRUE	
 locker	locker	furniture	storage			FALSE	TRUE	
 cabinet	cabinet	furniture	storage			FALSE	TRUE	
 fridge	fridge and/or freezer	furniture	storage			FALSE	TRUE	
-drawers	drawers (metal or wood)	furniture	storage			FALSE	TRUE	
+drawers	drawers (metal or wood)	furniture	storage			FALSE	TRUE	replace!
 trash	trash can	furniture	storage			FALSE	TRUE	
 firstaid	first aid kit or medicine shelf	furniture	storage			FALSE	TRUE	
 suitcase	suitcase	furniture	storage			TRUE	TRUE	good
 briefcase	briefcase	furniture	storage			FALSE	TRUE	fine
 safe	safe	furniture	storage		10	FALSE	TRUE	
-rockcache	rock cache	furniture	storage	stone		TRUE	TRUE	good
+shelf	shelf	furniture	storage			FALSE	TRUE	
 maglens	magnifying lens	tools	light		3	TRUE	TRUE	good
 firestriker	firestriker	tools	light		4	TRUE	TRUE	fine
 matches	wood matches	tools	light			TRUE	TRUE	fine

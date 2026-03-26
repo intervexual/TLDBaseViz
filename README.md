@@ -251,6 +251,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Salt Shaker by Adrien Coquet](https://thenounproject.com/icon/salt-2120972/)
 * [Scrap Metal by Ivanda Arief Budiarto](https://thenounproject.com/icon/bracket-4821002/)
 * [Sewing Kit by iconisme](https://thenounproject.com/icon/sewing-kit-7584407/)
+* [Shelf by Creative Stall](https://thenounproject.com/icon/bookshelf-6667578/)
 * [Simple Arrow by Sahab Uddin](https://thenounproject.com/icon/archery-4143091/)
 * [Simple Parka by Siipkan Creative](https://thenounproject.com/icon/coat-5736592/)
 * [Simple Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
