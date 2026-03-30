@@ -55,6 +55,7 @@ PATH = 'path'
 REGIONS = 'regions'
 Y_MIRRORING = 'y-flip'
 X_MIRRORING = 'x-flip'
+REGION_CONNECTOR = '--'
 
 def parse_styling(fname):
     """

@@ -395,7 +395,8 @@ class BaseLocation:
         if COORDS in data:
             self.coords = data[COORDS]
         if self.loading:
-            assert self.cabinfeverrisk == True, f'{self.name} has loading screen and hence should have cabin fever risk'
+            if REGION_CONNECTOR not in self.name:
+                assert self.cabinfeverrisk == True, f'{self.name} has loading screen and hence should have cabin fever risk'
 
         self.num_features = 0
         assert FEATURES in data
@@ -1133,7 +1134,7 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210*3-30, y=700,
+        draw_legend(d, colours, x=d.width-210*3-40, y=710,
                     counts=counts, column_breaks=(37, 37 + 73))
 
 
@@ -1214,7 +1215,9 @@ def draw_region(region, source_info, output='tests/', print_output=False, add_le
                output=output, output_png=False, print_warnings=False)
 
 
-def region_size_from_coords(these_bases, margin=100):
+def region_size_from_coords(these_bases,
+                            use_region=False,
+                            margin=100):
     """
     Using coordinates, calculate the size of a region using the same units
     :param these_bases: dict of {str: BaseLocation}, where all bases are in a given region
@@ -1236,9 +1239,13 @@ def region_size_from_coords(these_bases, margin=100):
     # max and min coords
     for b in these_bases:
         bob = these_bases[b]
-        x = bob.coords[0]
-        y = bob.coords[1]
-        assert type(x) == int and type(y) == int, f'{b}: {x}, {y}'
+        if use_region:
+            x = bob.region_coords[0]
+            y = bob.region_coords[1]
+        else:
+            x = bob.coords[0]
+            y = bob.coords[1]
+        assert type(x) in [int,float] and type(y) in [int,float], f'{b}: {x}, {y}'
         max_x = max(x, max_x)
         max_y = max(y, max_y)
         min_x = min(x, min_x)
@@ -1253,7 +1260,37 @@ def region_size_from_coords(these_bases, margin=100):
     return total_x, total_y, x_offset, y_offset
 
 
-def calculate_region_coords(these_bases, regions, total_x, total_y, x_offset, y_offset, margin=100):
+def rotate_point_wrt_center(point_to_be_rotated, angle, center_point=(0, 0)):
+    """
+    Rotate clockwise around a point. This code was shared by somebody named Leon
+    on StackExchange: https://stackoverflow.com/questions/34372480/rotate-point-about-another-point-in-degrees-python
+    and I added the doctests.
+    :param point_to_be_rotated:
+    :param angle:
+    :param center_point:
+    :return:
+    >>> rotate_point_wrt_center((10, 0), 90, (10, 10))
+    (20.0, 10.0)
+    >>> rotate_point_wrt_center((10, 0), -90, (10, 10))
+    (0.0, 10.0)
+    >>> rotate_point_wrt_center((10, 0), 180, (10, 10))
+    (10.0, 20.0)
+    >>> rotate_point_wrt_center((10, 0), 360, (10, 10))
+    (10.0, 0.0)
+    """
+    angle = math.radians(angle)
+
+    xnew = math.cos(angle) * (point_to_be_rotated[0] - center_point[0]) - math.sin(angle) * (
+                point_to_be_rotated[1] - center_point[1]) + center_point[0]
+    ynew = math.sin(angle) * (point_to_be_rotated[0] - center_point[0]) + math.cos(angle) * (
+                point_to_be_rotated[1] - center_point[1]) + center_point[1]
+
+    return (round(xnew, 2), round(ynew, 2))
+
+
+def calculate_region_coords(these_bases, regions, region,
+                            total_x, total_y, x_offset, y_offset,
+                            margin=100):
     """
 
     :param these_bases:
@@ -1266,27 +1303,50 @@ def calculate_region_coords(these_bases, regions, total_x, total_y, x_offset, y_
     >>> region = 'MysteryLake'
     >>> these_bases = bases_of_region(bases, region)
     >>> total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=100)
-    >>> calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset)
-    >>> these_bases['CampOffice'].region_coords
-    [1100, 1000]
-    >>> these_bases['Trapper'].region_coords
-    [100, 1500]
+    >>> calculate_region_coords(these_bases, regions, region, total_x, total_y, x_offset, y_offset)
+    (1800.0, 1900.0)
+    >>> these_bases['CampOffice'].region_coords # [1100, 1000] before rotation
+    [800.0, 1100.0]
+    >>> these_bases['Trapper'].region_coords  # [100, 1500] before rotation
+    [300.0, 100.0]
     """
+    mid_x = total_x/2
+    mid_y = total_y/2
+
     for b in these_bases:
         bob = these_bases[b]
-        # TODO rotation for north?
-        if regions[X_MIRRORING]:
+        if regions[region][X_MIRRORING]:
             x = total_x - (bob.coords[0] - x_offset) - margin*2
         else:
             x = bob.coords[0] - x_offset + margin*2
-        if regions[Y_MIRRORING]:
+        if regions[region][Y_MIRRORING]:
             y = bob.coords[1] + y_offset
         else:
             y = total_y - (bob.coords[1] + y_offset) # Y axis in maps goes opposite direction than canvas, unless it's PV
+        # rotate point if whole region is rotated
+        if regions[bob.region]['rotation'] != 0:
+            rotate_cw = regions[bob.region]['rotation']
+            x, y = rotate_point_wrt_center((x,y), -rotate_cw, (mid_x, mid_y))
+
         bob.region_coords = [x, y]
 
+    # rotated regions need new dimensions
+    if regions[bob.region]['rotation'] != 0:
+        total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases,
+                                                                       use_region=True,
+                                                                       margin=margin)
+        for b in these_bases:
+            bob = these_bases[b]
+            bob.region_coords[0] -= x_offset
+            bob.region_coords[0] += 2*margin
+            bob.region_coords[1] += y_offset
 
-def draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size=10):
+    return total_x, total_y
+
+
+def draw_just_region_from_coords(d, these_bases,
+                                 total_x, total_y,
+                                 unit_size=10):
     """
     Add the bases in these_bases to the Drawing canvas but don't save it yet
     :param d: Drawing object
@@ -1303,8 +1363,11 @@ def draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size=10)
         bob = these_bases[b]
         x, y = bob.region_coords
         #print(b, x, y)
-        d.append(draw.Circle(x, y, unit_size))
-        d.append(draw.Text(b, 3*unit_size, x, y))
+        circ_fill = 'black'
+        if REGION_CONNECTOR in b:
+            circ_fill = 'red'
+        d.append(draw.Circle(x, y, unit_size, fill=circ_fill))
+        d.append(draw.Text(b, 3*unit_size, x, y, fill=circ_fill))
         drawn.append(b)
         # draw connections?
         for c in bob.connections:
@@ -1318,6 +1381,26 @@ def draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size=10)
                 p.L(*these_bases[c].region_coords)
                 d.append(p)
 
+
+def add_region_connections(region, regions, bases, these_bases):
+    for connec in regions[region]["connections"]:
+        connec_reg = connec[0]
+        connec_x = connec[1]
+        connec_y = connec[2]
+        connec_name = f'{region}{REGION_CONNECTOR}{connec_reg}'
+        data = {'name': connec_name,
+                REGION: region,
+                CUSTOMIZABLE: False,
+                INDOORS: False,
+                EXPLORED: True,
+                LOADING: True,
+                CABINFEVERRISK: False,
+                COORDS:[connec_x, connec_y],
+                FEATURES: []
+                }
+        bob = BaseLocation(connec_name, data)
+        bases[connec_name] = bob
+        these_bases[connec_name] = bob
 
 def draw_region_coords(region, source_info, output='tests/', print_output=False, add_legend=False):
     """
@@ -1350,19 +1433,20 @@ def draw_region_coords(region, source_info, output='tests/', print_output=False,
     b, e, regions = parse_input(source_info)
     bases, colours = process_input(source_info)
     these_bases = bases_of_region(bases, region)
+    add_region_connections(region, regions, bases, these_bases)
 
     output = output + 'coords_' + region + '.svg'
 
     margin = 50
     total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=margin)
-    calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset, margin=margin)
+    total_x, total_y = calculate_region_coords(these_bases, regions, region, total_x, total_y, x_offset, y_offset, margin=margin)
 
     unit_size = 10
 
     d = draw.Drawing(total_x, total_y)
+
     draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size)
     d.save_svg(output)
-    #print('saved to', output)
 
 
 def draw_multiple_regions_from_coords(these_regions, source_info,
@@ -1408,7 +1492,7 @@ def draw_multiple_regions_from_coords(these_regions, source_info,
     for region in y_ordered:
         these_bases = bases_of_region(bases, region)
         total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=margin)
-        calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset, margin=margin)
+        calculate_region_coords(these_bases, regions, region, total_x, total_y, x_offset, y_offset, margin=margin)
 
         #print(region, regions[region])
         #print(coords.keys())
@@ -1840,7 +1924,7 @@ if __name__ == '__main__':
             bases, colours = process_input(fname, style_file=style_file)
 
             draw_bases(bases, colours, output=outfile,
-                       width=3200, height=2200, base_x=2670, base_y=130,
+                       width=3200, height=2200, base_x=2740, base_y=80,
                        output_png=False, print_output=to_print)
             nums = count_features(bases)
             verify_fixed_numbers(bases, nums)

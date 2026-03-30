@@ -324,18 +324,15 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 13. Separate icon for outdoor workbench?
 
 ### Coding/UX
-2. Stitch the coord-based maps together
-3. Visualize bases on this new graph
-4. Add container status & capacity to legend.csv
 1. Rethink how draw the graph so position doesn't need so much manual tweaking
-1. Visualize based on coordinates - start using ML as test
+2. Stitch the coord-based maps together. Figure out how to handle the fact that AC-TWM-PV-KP-BRM does not have a shared point with most of island, and that HRV and DP are similarly only  accessed via caves.
+3. Visualize bases on this new graph
 2. Reposition the inventory
 1. Automatically split legend up to make it easier to fit
-2. Add day # to visualization
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location
 4. Write more documentation for other people to use it
-7. Finish loot table templates for interloper
+7. Finish loot table templates for interloper, automate a way to base them off of mybases.json
 10. Refine the dark mode / hi contrast style
 11. When checking workbench number, count vices as well
 12. High-level view vs detail view

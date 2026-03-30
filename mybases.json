@@ -17,6 +17,42 @@
 					"rucksack,crampons,matches"
 				]
 			},
+			 "ClimbSSCToGM2":{
+				 "region": "AshCanyon",
+				 "coords": [-800,500],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": false,
+				"features": [
+				  "climb"
+				]
+			 },
+			 "ClimbSSCToGM1":{
+				 "region": "AshCanyon",
+				 "coords": [-900,400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": false,
+				"features": [
+				  "climb"
+				]
+			 },
+			 "ClimbWJOToGM":{
+				 "region": "AshCanyon",
+				 "coords": [-600,500],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk": false,
+				"indoors": false,
+				"explored": false,
+				"features": [
+				  "*climb"
+				]
+			 },
 			"WolfsJawOverlook": {
 				"region": "AshCanyon",
 				"coords": [-400,400],
@@ -176,10 +212,11 @@
 				"loading": false,
 				"cabinfeverrisk": false,
 				"indoors": true,
-				"explored": false,
+				"explored": true,
 				"features": [
-					"bark","-polaroid/.4"
-				]
+					"bark,-polaroid/.4"
+				],
+				"removed": [""]
 			},
 			"CaveToAC": {
 				"region": "AshCanyon",
@@ -1358,7 +1395,7 @@
 			"features": ["environs,bark,rabbit",
 				"floor,deerhide,rabbitpelt:2,gut:4,water:5,food,-prybar",
 				"rockcache,stick:40,coal:5,shaker:2,can,water,#-rosehips,#-pemmican:15",
-				"contd,snare,snare,-stone:9,-charcoal:12,-head:5,-cattail:10",
+				"contd,snare,snare,-stone:9,-charcoal:12,-head:5,-cattail:10,+can",
 				"environs,#-OnBridge,rockcache,rockcache"]
 		},
 		"RavineTrainCar": {
@@ -1382,7 +1419,7 @@
 			"features": ["environs,bark,deer,rabbit",
 				"floor,coal:10,stick:20,book,cattail:5,food",
 				"floor,rabbitpelt,deerhide:2,gut:4,shaker",
-				"rockcache,-head:35,-charcoal:21,-stone:12"]
+				"rockcache,-head:35,-charcoal:21,-stone:12,+can:2"]
 		},
 		"RavineClimb": {
 			"region": "Ravine",
@@ -1412,7 +1449,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed","floor,book,stick:10,water:8,-head:10,-tinder:3,-cedar:2,-fir:2,-torch:3"]
+			"features": ["bed","floor,book,stick:10,water:8,-head:10,-tinder:3,-cedar:2,-fir:2,-torch:3,+can:2"]
 		}
 			},
 		"% MYSTERY LAKE": {
@@ -1515,7 +1552,7 @@
 		},
 		"MLRailTunnel": {
 			"region": "MysteryLake",
-			"coords": [800,-100],
+			"coords": [700,-100],
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
@@ -1576,9 +1613,10 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["environs,ptarmigan,+polaroid",
-				"+stone:50,+coal:10,+stick:40",
-				"*rockcache,shaker:3,water:10",
-				"briefcase,cattail:10,-charcoal:11"]
+				"briefcase,cattail:10,-charcoal:11",
+				"*rockcache,+stone:50,shaker:3,water:10",
+				"contd,+coal:10,+stick:40,+can:2"
+			]
 		},
 		"LoggingCamp": {
 			"region": "MysteryLake",
@@ -1874,9 +1912,9 @@
 			"customizable": false,
 			"loading": false,
 			"cabinfeverrisk":false,
-			"indoors": false,
+			"indoors": true,
 			"explored":true,
-			"features": ["timberwolf,goating","floor,bed,wolfhide,gut,water,food"]
+			"features": ["timberwolf,goating","floor,bed,wolfhide,gut,water,food,+can:2"]
 		},
 		"PensiveLookout": {
 			"region": "BleakInlet",
@@ -1937,7 +1975,8 @@
 						"chest,arrowhead:2,bandage:2,cloth:8,thermos,fuel,rosehip:50,sewing,torch:5",
 						"drawer,head:10,charcoal:21,paint,paper,stone:2,tinder:5",
 						"box,#-Cannery,-bearhide,-gut:4,-metal:9, -knife:3,-can:2,-quality,#-IDK,-cookpot",
-						"#+LeaveHere,+dpammo:2,+distress,#+TP,+suitcase,+suitcase,#+Trapper,+wallshelf:2,#+Quonset,+oats:2,+coal:25,#+IDK,+arrowhead:10,+tipup:5,+stick:50,+feather:99,+blueflare:3"
+						"shelf,#+LeaveHere,+dpammo:2,+distress,#+TP,+suitcase,+suitcase,#+Quonset,+oats:2,+coal:25",
+						"#+Trapper,+wallshelf:2,#+IDK,+arrowhead:10,+tipup:5,+stick:50,+feather:99,+blueflare:3"
 			]
 		},
 		"CRWFishHut": {
@@ -1989,7 +2028,17 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,bear,timberwolf,-polaroid/.25"]
+			"features": ["bed,timberwolf"]
+		},
+		"FrozenDeltaHuntersBlind": {
+			"region": "BleakInlet",
+			"coords": [-400,400],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":false,
+			"features": ["rabbit,timberwolf"]
 		},
 		"SaltCave": {
 			"region": "BleakInlet",
@@ -2011,7 +2060,7 @@
 			"explored":true,
 			"features": ["mine","*rockcache,+stone:50"]
 		},
-		"BIHuntersBlind": {
+		"NorthBIHuntersBlind": {
 			"region": "BleakInlet",
 			"coords": [-600,700],
 			"customizable": false,
@@ -2062,7 +2111,7 @@
 			"features": ["bed,grill",
 				"saltdeposit,prybar",
 				"safe,+accelerant:2",
-				"#+Quonset,+distress,#+TWM,+dpammo"]
+				"#+Quonset,+distress","#+TWM,+dpammo"]
 		},
 		"CanneryWorkshop": {
 			"region": "BleakInlet",
@@ -2096,6 +2145,26 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bed,timberwolf"]
+		},
+		"SouthBIHuntersBlind": {
+			"region": "BleakInlet",
+			"coords": [-1100,100],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":false,
+			"features": ["bear,-polaroid/.25"]
+		},
+		"EastBICave": {
+			"region": "BleakInlet",
+			"coords": [-900,400],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": true,
+			"explored":false,
+			"features": ["bed"]
 		},
 		"FarIslandCave": {
 			"region": "BleakInlet",
@@ -3224,135 +3293,210 @@
 	"regions": {
 		"AshCanyon":
 			{"y-flip": false, "x-flip":false,
-				"top": "0",
-				"right": "left~OIC",
-			"rotation": -45},
+			"top": "0",
+			"right": "left~OIC",
+			"connections": [["TimberwolfMountain", 800, -800]],
+			"rotation": -45,
+			"north": "left"
+			},
 		"BleakInlet":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~MysteryLake",
 				"right": "left~Ravine",
-			"rotation": 0
+				"connections": [["Ravine", 200, 900]],
+				"north":"up",
+				"rotation": 0
 			},
 		"Blackrock":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "top~PleasantValley",
 				"right": "left~TimberwolfMountain",
-			"rotation": 0
+				"connections": [["KeepersPass", -400, -1000]],
+				"rotation": 0,
+				"north":"up"
 			},
 		"BrokenRailroad":
 			{"y-flip": true, "x-flip":false,
 				"top": "bottom~MountainTown",
 				"right": "left~ForlornMuskeg",
-			"rotation": 0
+				"connections": [["ForlornMuskeg",1700,700],
+				["FarRangeBranchLine", 200, 800 ]
+				],
+			"rotation": 0,
+								"north":"up"
 			},
 		"CoastalHighway":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~PleasantValley",
 				"right": "left~OIC",
-				"rotation": 0
+				"connections": [["Ravine",-1200,1200],
+				["OIC", 700, -500]],
+				"rotation": 0,
+								"north":"up"
 			},
 		"DesolationPoint":
 			{"y-flip": false,
 				"x-flip":false,
 				"top": "top~OIC",
 				"right": "end",
-			"rotation": 0
+				"connections": [["OIC",100,1100]],
+			"rotation": 0,
+								"north":"up"
 			},
 		"FarRangeBranchLine":
 			{"y-flip": false, "x-flip":true,
 				"top": "bottom~TransferPass",
 				"right": "left~BrokenRailroad",
-			"rotation": 0
+				"connections": [["BrokenRailroad", -400, 100],
+				["TransferPass",1000,-200]],
+			"rotation": 0,
+								"north":"up"
 			},
 		"ForlornMuskeg":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "bottom~MysteryLake",
 				"right": "left~MysteryLake",
-			"rotation": 0
+				"connections": [
+					["MysteryLake", 1800, 1100],
+					["MountainTown", 300, 1600],
+					["BrokenRailroad", -100, 800]
+				],
+			"rotation": 0,
+								"north":"up"
 			},
 		"ForsakenAirfield":
 			{"y-flip": false, "x-flip":false,
 				"top": "top~TransferPass",
 				"right": "left~TransferPass",
-			"rotation": 45
+				"connections": [["TransferPass", 500, -1300]],
+			"rotation": 45,
+								"north":"right"
 			},
 		"HushedRiverValley":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "top~MountainTown",
 				"left": "left~MountainTown",
-			"rotation": 0
+				"connections": [["MountainTown", 500, 200]],
+			"rotation": 0,
+								"north":"up"
 			},
 		"KeepersPass":
 			{"y-flip": true, "x-flip":true,
 				"top": "bottom~Blackrock",
 				"right": "left~PleasantValley",
-			"rotation": -45
+				"connections": [["Blackrock", 100, -100],
+					["PleasantValley", 500, 700]
+					],
+			"rotation": -45,
+								"north":"left"
 			},
 		"MountainTown":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "top~ForlornMuskeg",
 				"left": "left~ForlornMuskeg",
-			"rotation": 0
+				"connections": [["ForlornMuskeg",400, 300 ],
+					["HushedRiverValley", 1300, 2400]
+					],
+			"rotation": 0,
+								"north":"up"
 			},
 		"MysteryLake":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "top~Ravine",
 				"right": "left~PleasantValley",
-			"rotation": -90
+				"connections": [["Ravine", 1800 , 1300],
+				["ForlornMuskeg", 700, -100 ]],
+			"rotation": -90,
+								"north":"left"
 			},
 		"OIC":
 			{"y-flip": false, "x-flip":false,
 				"bottom": "bottom~CoastalHighway",
 				"right": "left~DesolationPoint",
-			"rotation": 0
+				"connections": [["CoastalHighway", 100, 400],
+				["DesolationPoint", 700,500]],
+			"rotation": 0,
+								"north":"up"
 			},
 		"PleasantValley":
 			{"y-flip": true, "x-flip":false,
 				"top": "bottom~TimberwolfMountain",
 				"right": "left~OIC",
-				"rotation": -45
+				"connections": [["TimberwolfMountain", 2500, 200],
+					["KeepersPass",100,1600]
+				],
+				"rotation": -45,
+								"north":"left"
 			},
 		"Ravine":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~WindingRiver",
 				"right": "left~CoastalHighway",
-			"rotation": -45},
+				"connections": [["CoastalHighway",200,-100],
+				["MysteryLake",-1200,-100]],
+			"rotation": -45,
+							"north":"left"
+			},
 		"SunderedPass":
 			{"y-flip": true, "x-flip":true,
 				"bottom": "top~ForsakenAirfield",
 				"right": "left~TransferPass",
-			"rotation": 0
+				"connections": [["TransferPass", 400, 1400]],
+			"rotation": 0,
+								"north":"up"
 			},
 		"TimberwolfMountain":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~AshCanyon",
 				"right": "left~OIC",
-			"rotation": 45
+				"connections": [["AshCanyon",1900,700],
+				["PleasantValley",200,300]],
+			"rotation": 45,
+								"north":"right"
 			},
 		"TransferPass":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~ZoneOfContamination",
 				"left": "left~FarRangeBranchLine",
-			"rotation": -45
+				"connections": [
+					["FarRangeBranchLine", 200, -400],
+					["ForsakenAirfield", -300, 100],
+					["SunderedPass", -500, 700],
+					["ZoneOfContamination", 200, 700]
+				],
+			"rotation": -45,
+								"north":"left"
 			},
 		"WindingRiver":
 			{"y-flip": false, "x-flip":false,
 				"top": "bottom~PleasantValley",
 				"right": "left~CoastalHighway",
-			"rotation": 0
+				"connections": [
+					["MysteryLake", 500, 300]
+				],
+			"rotation": 0,
+								"north":"up"
 			},
 		"ZoneOfContamination":
 			{"y-flip": false, "x-flip":false,
 				"left": "right~SunderedPass",
 				"bottom": "top~BrokenRailroad",
-			"rotation": -90
+				"connections": [
+					["TransferPass", 900,-900]
+				],
+			"rotation": -90,
+								"north":"left"
 			}
 	},
 	"connections":[
 			"--------AshCanyon-------",
-		    ["GoldMine", "south", "bottom,right", "StoneShelfCave", "top,left", "default"],
-			["GoldMine", "east", "top,right", "WolfsJawOverlook", "top,left", "default"],
-			["WolfsJawOverlook", "east", "top,right", "LongFallsCave", "top,left", "default"],
+		    ["GoldMine", "south", "bottom,left", "ClimbSSCToGM2", "top,right", "default"],
+		    ["ClimbSSCToGM2", "south", "bottom,left", "ClimbSSCToGM1", "top,left", "default"],
+		    ["ClimbSSCToGM1", "south", "bottom,right", "StoneShelfCave", "top,left", "default"],
+			["ClimbSSCToGM2", "east", "bottom,right", "ClimbWJOToGM", "bottom,left", "default"],
+			["GoldMine", "south", "bottom,right", "ClimbWJOToGM", "top,right", "oneway"],
+			["GoldMine", "east", "top,right", "LongFallsCave", "top,left", "oneway"],
+			["ClimbWJOToGM", "south", "bottom,left", "WolfsJawOverlook", "top,left", "todo"],
 			["LongFallsCave", "south", "bottom,left", "AnglersDen", "top,left", "default"],
 			["LongFallsCave", "east", "top,right", "MinersFolly", "top,left", "default"],
 			["MinersFolly", "south", "bottom,left", "ForemansRetreat", "top,left", "default"],
@@ -3362,13 +3506,13 @@
 			["FireOverlookCave", "west", "top,left", "HighMeadow", "top,right", "default"],
 			["HighMeadow", "west", "top,left", "ClimbersCave", "top,right", "default"],
 			["BitterMarshFishHut", "east", "top,right", "Homesteader", "top,left", "todo"],
-			["StoneShelfCave", "north", "top,right", "WolfsJawOverlook", "bottom,right", "default"],
-			["StoneShelfCave", "east", "top,right", "AnglersDen", "top,left", "todo"],
+			["StoneShelfCave", "north", "top,right", "WolfsJawOverlook", "bottom,left", "default"],
+			["StoneShelfCave", "east", "top,right", "AnglersDen", "bottom,left", "todo"],
 			["StoneShelfCave", "south", "bottom,left", "CaveToAC", "top,left", "todo"],
 			["AnglersDen", "south", "bottom,right", "BitterMarshFishHut", "top,right", "todo"],
-			["CaveToAC", "east", "top,right", "ClimbersCave", "top,left", "default"],
+			["CaveToAC", "east", "top,right", "ClimbersCave", "bottom,left", "default"],
 			["CaveToAC", "west", "top,left", "CaveFromAC", "top,right", "paint"],
-			["ClimbersCave", "south", "bottom,left", "ACPrepperCache", "top,right", "default"],
+			["ClimbersCave", "south", "bottom,left", "ACPrepperCache", "top,left", "default"],
 			"--------Timberwolf--------",
 			["CaveFromAC", "north", "top,left", "SecludedShelfCave", "bottom,right", "default"],
 			["CaveFromAC", "south", "bottom,right", "TWMPrepperCache", "top,right", "todo"],
@@ -3496,8 +3640,8 @@
 			["WaterfrontCottages", "west", "top,left", "Quonset", "bottom,right", "path"],
 			["Misanthrope", "east", "bottom,right", "ToTradeFor", "top,left", "oneway"],
 			"--------CrumblingHighway--------",
-			["WaterfrontCottages", "east", "top,right", "Harris", "bottom,left", "path"],
-			["Harris", "east", "top,right", "No3MineFromDP", "bottom,left", "default"],
+			["WaterfrontCottages", "east", "top,right", "Harris", "top,left", "path"],
+			["Harris", "east", "top,right", "No3MineFromDP", "top,left", "default"],
 			"--------DesolationPoint--------",
 			["No3MineFromDP", "east", "top,right", "No3MineToDP", "top,left", "paint"],
 			["No3MineToDP", "east", "top,right", "No5MineWest", "top,left", "path"],
@@ -3525,7 +3669,9 @@
 			["SouthRavineCave", "south", "bottom,left", "BIPrepperCache", "top,left", "default"],
 			"--------BleakInlet--------",
 			["CaveToBI", "north", "top,right", "CaveFromBI", "bottom,right", "paint"],
-			["WashedOutTrailer", "north", "top,left", "BIHuntersBlind", "bottom,left", "default"],
+			["WashedOutTrailer", "north", "top,left", "NorthBIHuntersBlind", "bottom,left", "default"],
+			["WashedOutTrailer", "west", "top,left", "SouthBIHuntersBlind", "top,right", "default"],
+			["SouthBIHuntersBlind", "north", "top,right", "EastBICave", "bottom,right", "default"],
 			["SaltCave", "north", "top,left", "CaveToBI", "bottom,right", "todo"],
 			["BIPrepperCache", "south", "bottom,left", "PensiveLookout", "top,right", "todo"],
 			["UpperBICave", "west", "bottom,left", "BIPrepperCache", "bottom,right", "todo"],
@@ -3541,8 +3687,9 @@
 			["WorkerResidence", "south", "bottom,left", "FallenLighthouse", "top,left", "todo"],
 			["FallenLighthouse", "east", "top,right", "EastBIFishHut", "top,left", "default"],
 			["WorkerResidence", "east", "top,right", "SaltBearCave", "top,left", "todo"],
+			["WorkerResidence", "south", "bottom,right", "EastBIFishHut", "top,right", "default"],
 			["SaltBearCave", "north", "top,right", "LowerRavenCabin", "bottom,left", "default"],
-			["SaltBearCave", "south", "bottom,left", "EastBIFishHut", "top,right", "default"],
+			["SaltBearCave", "south", "bottom,right", "EastBIFishHut", "top,right", "default"],
 			["CRWFishHut", "west", "top,left", "CanneryWarehouses", "bottom,right", "oneway"],
 			["CanneryTrailer", "south", "bottom,left", "CanneryWarehouses", "top,left", "todo"],
 			["CanneryTrailer", "west", "top,left", "TrailersWestOfCannery", "top,right", "default"],
@@ -3550,7 +3697,9 @@
 			["CanneryWarehouses", "west", "top,left", "CanneryWorkshop", "top,right", "default"],
 			["CanneryWarehouses", "south", "bottom,left", "CanneryPier", "top,right", "oneway"],
 			["CanneryWorkshop", "east", "bottom,right", "CanneryPier", "top,left", "oneway"],
-			["TrailersWestOfCannery", "west", "bottom,left", "FarIslandCave", "bottom,right", "default"],
+			["TrailersWestOfCannery", "west", "bottom,left", "FarIslandCave", "top,right", "default"],
+			["WashedOutTrailer", "north", "top,right", "FrozenDeltaHuntersBlind", "bottom,left", "default"],
+			["FrozenDeltaHuntersBlind", "north", "top,right", "SaltCave", "bottom,left", "default"],
 			["WashedOutTrailer", "north", "top,right", "SaltCave", "bottom,left", "todo"],
 			["EchoOneRadioTower", "south", "bottom,right", "SecretMountainPath", "top,right", "oneway"],
 			["SecretMountainPath", "south", "bottom,right", "WorkerResidence", "top,right", "default"],
