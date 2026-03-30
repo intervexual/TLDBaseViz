@@ -26,6 +26,7 @@ INDOORS = 'indoors'
 EMPTY = 'empty'
 EXPLORED = 'explored'
 CABINFEVERRISK = 'cabinfeverrisk'
+COORDS = 'coords'
 
 SOUTH = 'south'
 NORTH = 'north'
@@ -50,6 +51,10 @@ FIR = 'fir'
 CEDAR = 'cedar'
 UNEXPLORED = FIND
 PATH = 'path'
+
+REGIONS = 'regions'
+Y_MIRRORING = 'y-flip'
+X_MIRRORING = 'x-flip'
 
 def parse_styling(fname):
     """

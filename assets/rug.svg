@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="rug.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="4.8041667"
+     inkscape:cx="39.132697"
+     inkscape:cy="79.826539"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     d="M 0,78.125 H 6.25 V 84.375 H 0 Z"
+     id="path1"
+     style="fill:#000000" />
+  <path
+     d="M 0,65.625 H 6.25 V 71.875 H 0 Z"
+     id="path2"
+     style="fill:#000000" />
+  <path
+     d="M 0,53.125 H 6.25 V 59.375 H 0 Z"
+     id="path3"
+     style="fill:#000000" />
+  <path
+     d="M 0,40.625 H 6.25 V 46.875 H 0 Z"
+     id="path4"
+     style="fill:#000000" />
+  <path
+     d="M 0,28.125 H 6.25 V 34.375 H 0 Z"
+     id="path5"
+     style="fill:#000000" />
+  <path
+     d="M 0,15.625 H 6.25 V 21.875 H 0 Z"
+     id="path6"
+     style="fill:#000000" />
+  <path
+     d="M 100,84.375 H 93.75 V 78.125 H 100 Z"
+     id="path7"
+     style="fill:#000000" />
+  <path
+     d="M 100,71.875 H 93.75 V 65.625 H 100 Z"
+     id="path8"
+     style="fill:#000000" />
+  <path
+     d="M 100,59.375 H 93.75 V 53.125 H 100 Z"
+     id="path9"
+     style="fill:#000000" />
+  <path
+     d="M 100,46.875 H 93.75 V 40.625 H 100 Z"
+     id="path10"
+     style="fill:#000000" />
+  <path
+     d="M 100,34.375 H 93.75 V 28.125 H 100 Z"
+     id="path11"
+     style="fill:#000000" />
+  <path
+     d="M 100,21.875 H 93.75 V 15.625 H 100 Z"
+     id="path12"
+     style="fill:#000000" />
+  <path
+     d="M 75,68.75 H 81.25 V 75 H 75 Z"
+     id="path13"
+     style="fill:#000000" />
+  <path
+     d="M 41.184,50 50.0238,41.1602 58.8636,50 50.0238,58.8398 Z"
+     id="path14"
+     style="fill:#000000" />
+  <path
+     d="M 18.75,25 H 25 V 31.25 H 18.75 Z"
+     id="path15"
+     style="fill:#000000" />
+  <path
+     d="M 18.75,68.75 H 25 V 75 H 18.75 Z"
+     id="path16"
+     style="fill:#000000" />
+  <path
+     d="M 68.75,25 H 31.25 V 37.5 H 18.75 V 62.5 H 31.25 V 75 H 68.75 V 62.5 H 81.25 V 37.5 H 68.75 Z M 50,67.688 32.312,50 50,32.312 67.688,50 Z"
+     id="path17"
+     style="fill:#000000" />
+  <path
+     d="M 75,25 H 81.25 V 31.25 H 75 Z"
+     id="path18"
+     style="fill:#000000" />
+  <path
+     d="M 6.25,12.5 V 87.5 H 93.75 V 12.5 Z M 87.5,37.5 V 81.25 H 12.5 V 18.75 H 87.5 Z"
+     id="path19"
+     style="fill:#000000" />
+</svg>

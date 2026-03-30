@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="0.26899999"
+   height="0.26899999"
+   viewBox="0 0 0.269 0.269"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="hook.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="256"
+     inkscape:cx="1.6386719"
+     inkscape:cy="-0.87304688"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     class="fil0"
+     d="M 0.2228013,0.06892717 0.1519483,0.22233417 C 0.1335783,0.26210917 0.0859883,0.27963217 0.0462173,0.26126317 0.0064623,0.24290117 -0.0110697,0.19527917 0.0072923,0.15552417 L 0.0457803,0.09222117 0.0349933,0.16831917 0.0239613,0.16322417 C 0.0098123,0.19386217 0.0232763,0.23044017 0.0539143,0.24459317 0.0845273,0.25873117 0.1211413,0.24525117 0.1352793,0.21463717 L 0.2060653,0.06137617 C 0.1942343,0.05158917 0.1899593,0.03469917 0.1966913,0.02012117 0.2046993,0.00278217 0.2253683,-0.00481983 0.2427063,0.00318817 0.2600603,0.01120417 0.2676593,0.03184117 0.2596433,0.04919917 0.2529933,0.06359317 0.2377223,0.07127017 0.2228013,0.06892717 Z M 0.2350063,0.01985717 C 0.2267853,0.01605817 0.2171593,0.01960517 0.2133643,0.02782117 0.2095813,0.03601817 0.2131403,0.04567917 0.2213333,0.04946717 0.2294983,0.05323817 0.2391993,0.04966817 0.2429743,0.04149817 0.2467573,0.03330617 0.2432023,0.02364017 0.2350063,0.01985717 Z"
+     id="path1"
+     style="fill:#000000;fill-rule:nonzero;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+</svg>

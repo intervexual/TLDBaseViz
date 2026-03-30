@@ -1,5 +1,82 @@
 from keysAndDefs import *
 
+class Region:
+    def __init__(self, name,
+                 width, height, x_offset, y_offset,
+                 canvas_width, canvas_height,
+                 region_json, regions_seen,
+                 margin=10):
+        self.name = name
+        self.width = width
+        self.height = height
+        self.x_offset = x_offset
+        self.y_offset = y_offset
+        self.canvas_height = canvas_height
+        self.canvas_width = canvas_width
+        self.region_json = region_json
+
+        assert 'top' in region_json or 'bottom' in region_json, name
+
+        if 'top' in region_json:
+            if not '~' in region_json['top']:
+                self.top = int(region_json['top'])
+            else:
+                top_key = region_json['top'].split('~')[1]
+                direction = region_json['top'].split('~')[0]
+                assert direction in ['top', 'bottom']
+                if direction == 'bottom':
+                    self.top = regions_seen[top_key].bottom
+                else:
+                    self.top = regions_seen[top_key].top
+        elif 'bottom' in region_json:
+            top_key = region_json['bottom'].split('~')[1]
+            direction = region_json['bottom'].split('~')[0]
+            assert direction in ['top', 'bottom']
+            if direction == 'bottom':
+                self.bottom = regions_seen[top_key].bottom
+            else:
+                self.bottom = regions_seen[top_key].top
+            self.top = self.bottom - height
+
+        self.bottom = self.top + height
+
+        # TEMP
+        self.left = 0# 1000*len(regions_seen)
+        self.right = 0
+
+    def update_horizontal(self, regions_seen):
+        if 'right' in self.region_json:
+            if not '~' in self.region_json['right']:
+                self.right = self.canvas_width
+                #print('END at', self.name)
+            else:
+                direction = self.region_json['right'].split('~')[0]
+                right_key = self.region_json['right'].split('~')[1]
+                if direction == 'left':
+                    self.right = regions_seen[right_key].left
+                else:
+                    self.right = regions_seen[right_key].right
+            self.left = self.right - self.width
+        else:
+            direction = self.region_json['left'].split('~')[0]
+            right_key = self.region_json['left'].split('~')[1]
+            if direction == 'left':
+                self.left = regions_seen[right_key].left
+            else:
+                self.left = regions_seen[right_key].right
+            self.right = self.left + self.width
+
+    def draw(self, d):
+        rect = draw.Rectangle( self.left, self.top,
+                              self.width, self.height,
+                              stroke='blue', stroke_width=5,
+                              fill='white',opacity=0.5)
+        d.append(rect)
+        mid_x = self.left + self.width / 2
+        mid_y = self.top + self.height / 2
+        d.append(draw.Text(self.name, 40, mid_x, mid_y))
+
+
 class BaseFeature:
     def __init__(self, name, colours=(), probability=1, qty=1):
         """
@@ -144,7 +221,7 @@ class BaseConnection:
         """
         Textual representation of the connection
         :return: representation as string
-        >>> b, e = parse_input('tests/testinput.json')
+        >>> b, e, r = parse_input('tests/testinput.json')
         >>> edges = parse_edges(e)
         >>> hibernia_to_bear = edges['Hibernia']['BrokenBridge']
         >>> hibernia_to_bear
@@ -273,7 +350,7 @@ class BaseLocation:
         Set up a base as an object with a name, and a 2D list of BaseFeatures
         :param name: name of the base
         :param data: data from JSON file
-        >>> b, e = parse_input('tests/testinput.json')
+        >>> b, e, r = parse_input('tests/testinput.json')
         >>> b['Quonset'][FEATURES][0]
         'bear,deer,wolf'
         >>> quonset = BaseLocation('Quonset', b['Quonset'])
@@ -298,7 +375,7 @@ class BaseLocation:
         Misanthrope (C, L)
         ---
         [bear:actual:base, deer:actual:base, wolf:actual:base]
-        [salt:actual:base, beachcombing:actual:base]
+        [saltdeposit:actual:base, beachcombing:actual:base]
         [bed:actual:base, trader:actual:base, quality:actual:base]
         [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
         ---
@@ -313,6 +390,10 @@ class BaseLocation:
         self.indoors = data[INDOORS]
         self.explored = data[EXPLORED]
         self.cabinfeverrisk = data[CABINFEVERRISK]
+        self.coords = ["",""]
+        self.region_coords = ["",""]
+        if COORDS in data:
+            self.coords = data[COORDS]
         if self.loading:
             assert self.cabinfeverrisk == True, f'{self.name} has loading screen and hence should have cabin fever risk'
 
@@ -772,7 +853,7 @@ def parse_input(filename='bases.json'):
     Load JSON into dictionary format
     :param filename: input filename
     :return: dictionaries for base info & colour scheme
-    >>> b, e = parse_input('tests/testinput.json')
+    >>> b, e, r = parse_input('tests/testinput.json')
     >>> b['Quonset']['indoors']
     True
     >>> b['Quonset']['region']
@@ -782,14 +863,17 @@ def parse_input(filename='bases.json'):
         data = json.load(f)
     bases = data[BASES]
     edges = data[CONNECTIONS]
-    return bases, edges
+    regions = {}
+    if REGIONS in data:
+        regions = data[REGIONS]
+    return bases, edges, regions
 
 
 def parse_edges(edges, colours=False):
     """
     Convert the lists of edges from the JSON into BaseConnection objects.
     :return: dictionary, indexed by base names, each with a list of BaseConnection objects that go to/from the base.
-    >>> b, e = parse_input('tests/testinput.json')
+    >>> b, e, r = parse_input('tests/testinput.json')
     >>> edges = parse_edges(e)
     >>> len(edges['Hibernia'])
     3
@@ -849,7 +933,7 @@ def process_input(filename='bases.json', to_print=False, style_file='styling.jso
     Misanthrope (C, L)
     ---
     [bear:actual:base, deer:actual:base, wolf:actual:base]
-    [salt:actual:base, beachcombing:actual:base]
+    [saltdeposit:actual:base, beachcombing:actual:base]
     [bed:actual:base, trader:actual:base, quality:actual:base]
     [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
     ---
@@ -858,7 +942,7 @@ def process_input(filename='bases.json', to_print=False, style_file='styling.jso
     >>> bases, colours = process_input('mybases.json')
     >>> #bases
     """
-    bases, edges = parse_input(filename)
+    bases, edges, regions = parse_input(filename)
     if style_file == STYLE_FILE:
         colours = HEXES
     else:
@@ -1049,7 +1133,8 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210*3-30, y=700, counts=counts, column_breaks=(35, 35 + 70))
+        draw_legend(d, colours, x=d.width-210*3-30, y=700,
+                    counts=counts, column_breaks=(37, 37 + 73))
 
 
     d.save_svg(output)
@@ -1076,6 +1161,31 @@ def get_regions(bases):
             regions.append(this_region)
     return sorted(list(set(regions)))
 
+
+def bases_of_region(bases, region):
+    """
+    Filter bases to just those from a region.
+    :param bases: dict of bases {str: BaseLocation}
+    :param region: region name as string, e.g. 'AshCanyon'
+    :return: dict of bases from that region, {str: BaseLocation}
+    >>> source_info = 'mybases.json'
+    >>> bases, colours = process_input(source_info)
+    >>> these_bases = bases_of_region(bases, 'MysteryLake')
+    >>> these_bases.keys()
+    dict_keys(['DamTrailers', 'UpperDam', 'TrainLoading', 'Derailment', 'CampOffice', 'MidRailArea', 'MLRailTunnel', 'AlansCaveHuntingBlind', 'Trapper', 'LakeOverlookCave', 'LoggingCamp', 'ForestryLookout', 'DestroyedLookout', 'UnnamedPondCabin', 'LoneLakeCabin', 'MiddleLakeCabins', 'LakeCabins', 'MLFishHuts', 'DavesQuietClearing', 'CaveNearMLPrepperCache', 'UnnamedPondHuntersBlind', 'DeadfallArea', 'CaveFromMT'])
+    >>> twm = bases_of_region(bases, 'TimberwolfMountain')
+    >>> twm.keys()
+    dict_keys(['CaveFromAC', 'TWMPrepperCache', 'WingArea', 'ForestCave', 'GroveSouthOfMountaineer', 'TWMFishHut', 'Mountaineer', 'CaveBelowAndresPeak', 'AndresPeak', 'EngineCave', 'CaveFromBRM', 'SecludedShelfCave', 'SummitCave', 'WaterfallCave', 'EchoRavine', 'TailSection', 'EngineCaveEast'])
+    >>> type(twm['TWMPrepperCache'])
+    <class '__main__.BaseLocation'>
+    """
+    these_bases = {}
+    for b in bases:
+        bob = bases[b]
+        if bob.region == region:
+            these_bases[b] = bob
+    return these_bases
+
 def draw_region(region, source_info, output='tests/', print_output=False, add_legend=False):
     """
     Draw only the bases of one region.
@@ -1093,20 +1203,241 @@ def draw_region(region, source_info, output='tests/', print_output=False, add_le
     >>> draw_region('HushedRiverValley', 'loottable4.json', print_output=False, add_legend=True)
     """
     bases, colours = process_input(source_info)
-    these_bases = {}
+    these_bases = bases_of_region(bases, region)
 
     output = output + region + '.svg'
-
-    for b in bases:
-        bob = bases[b]
-        if bob.region == region:
-            these_bases[b] = bob
 
     draw_bases(these_bases, colours,
                base_x = 600, base_y = 600,
                width = 1200, height = 1200,
                add_legend=add_legend, print_output=print_output,
                output=output, output_png=False, print_warnings=False)
+
+
+def region_size_from_coords(these_bases, margin=100):
+    """
+    Using coordinates, calculate the size of a region using the same units
+    :param these_bases: dict of {str: BaseLocation}, where all bases are in a given region
+    :param margin: additional units of space to add to margins of imaginary rectangle around the bases
+    :return: width, height, x_offset, y_offset
+    >>> source_info = 'mybases.json'
+    >>> b, e, regions = parse_input(source_info)
+    >>> bases, colours = process_input(source_info)
+    >>> region_size_from_coords(bases_of_region(bases, 'MysteryLake'))
+    (1900, 1800, 100, 300)
+    >>> region_size_from_coords(bases_of_region(bases, 'ForsakenAirfield'))
+    (2600, 2600, -1000, 1400)
+    >>> region_size_from_coords(bases_of_region(bases, 'Ravine'))
+    (1300, 500, -1000, 400)
+    """
+    max_x, max_y = 0, 0
+    min_x, min_y = 50000, 50000
+
+    # max and min coords
+    for b in these_bases:
+        bob = these_bases[b]
+        x = bob.coords[0]
+        y = bob.coords[1]
+        assert type(x) == int and type(y) == int, f'{b}: {x}, {y}'
+        max_x = max(x, max_x)
+        max_y = max(y, max_y)
+        min_x = min(x, min_x)
+        min_y = min(y, min_y)
+        #print(b, x, y)
+
+    total_x = (max_x - min_x) + margin*2
+    total_y = (max_y - min_y) + margin*2
+    x_offset = min_x + margin
+    y_offset = -min_y + margin
+
+    return total_x, total_y, x_offset, y_offset
+
+
+def calculate_region_coords(these_bases, regions, total_x, total_y, x_offset, y_offset, margin=100):
+    """
+
+    :param these_bases:
+    :param regions:
+    :param unit_size:
+    :return:
+    >>> source_info = 'mybases.json'
+    >>> b, e, regions = parse_input(source_info)
+    >>> bases, colours = process_input(source_info)
+    >>> region = 'MysteryLake'
+    >>> these_bases = bases_of_region(bases, region)
+    >>> total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=100)
+    >>> calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset)
+    >>> these_bases['CampOffice'].region_coords
+    [1100, 1000]
+    >>> these_bases['Trapper'].region_coords
+    [100, 1500]
+    """
+    for b in these_bases:
+        bob = these_bases[b]
+        # TODO rotation for north?
+        if regions[X_MIRRORING]:
+            x = total_x - (bob.coords[0] - x_offset) - margin*2
+        else:
+            x = bob.coords[0] - x_offset + margin*2
+        if regions[Y_MIRRORING]:
+            y = bob.coords[1] + y_offset
+        else:
+            y = total_y - (bob.coords[1] + y_offset) # Y axis in maps goes opposite direction than canvas, unless it's PV
+        bob.region_coords = [x, y]
+
+
+def draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size=10):
+    """
+    Add the bases in these_bases to the Drawing canvas but don't save it yet
+    :param d: Drawing object
+    :param these_bases: dict of {str: BaseLocation}, where all bases are in a given region
+    :param total_x: width of the region
+    :param total_y: height of the region
+    :param unit_size: used for spacing out text
+    :return:
+    """
+    d.append(draw.Rectangle(0, 0, total_x, total_y,
+                            fill='white', stroke='blue', stroke_width=unit_size/2))
+    drawn = []
+    for b in these_bases:
+        bob = these_bases[b]
+        x, y = bob.region_coords
+        #print(b, x, y)
+        d.append(draw.Circle(x, y, unit_size))
+        d.append(draw.Text(b, 3*unit_size, x, y))
+        drawn.append(b)
+        # draw connections?
+        for c in bob.connections:
+            if c in drawn:
+                #print('\tdrawing', b, c)
+                #p = draw.Path(stroke='blue', stroke_width=unit_size/5)
+                cob = bob.edges[c]
+                p = draw.Path(stroke_width=unit_size/2, stroke=cob.colour, stroke_dasharray=cob.dasharray)
+
+                p.M(x, y)
+                p.L(*these_bases[c].region_coords)
+                d.append(p)
+
+
+def draw_region_coords(region, source_info, output='tests/', print_output=False, add_legend=False):
+    """
+    Draw only the bases of one region.
+    :param region: region name as string, e.g. 'AshCanyon'
+    :param source_info: input json filename
+    :return:
+    >>> draw_region_coords('MysteryLake', 'mybases.json', print_output=False)
+    >>> draw_region_coords('MountainTown', 'mybases.json', print_output=False)
+    >>> draw_region_coords('Ravine', 'mybases.json', print_output=False)
+    >>> draw_region_coords('HushedRiverValley', 'mybases.json', print_output=False)
+    >>> draw_region_coords('PleasantValley', 'mybases.json', print_output=False)
+    >>> draw_region_coords('TimberwolfMountain', 'mybases.json', print_output=False)
+    >>> draw_region_coords('Blackrock', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AshCanyon', 'mybases.json', print_output=False)
+    >>> draw_region_coords('BleakInlet', 'mybases.json', print_output=False)
+    >>> draw_region_coords('BrokenRailroad', 'mybases.json', print_output=False)
+    >>> draw_region_coords('CoastalHighway', 'mybases.json', print_output=False)
+    >>> draw_region_coords('OIC', 'mybases.json', print_output=False)
+    >>> draw_region_coords('DesolationPoint', 'mybases.json', print_output=False)
+    >>> draw_region_coords('FarRangeBranchLine', 'mybases.json', print_output=False)
+    >>> draw_region_coords('ForlornMuskeg', 'mybases.json', print_output=False)
+    >>> draw_region_coords('TransferPass', 'mybases.json', print_output=False)
+    >>> draw_region_coords('KeepersPass', 'mybases.json', print_output=False)
+    >>> draw_region_coords('WindingRiver', 'mybases.json', print_output=False)
+    >>> draw_region_coords('ForsakenAirfield', 'mybases.json', print_output=False)
+    >>> draw_region_coords('SunderedPass', 'mybases.json', print_output=False)
+    >>> draw_region_coords('ZoneOfContamination', 'mybases.json', print_output=False)
+   """
+    b, e, regions = parse_input(source_info)
+    bases, colours = process_input(source_info)
+    these_bases = bases_of_region(bases, region)
+
+    output = output + 'coords_' + region + '.svg'
+
+    margin = 50
+    total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=margin)
+    calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset, margin=margin)
+
+    unit_size = 10
+
+    d = draw.Drawing(total_x, total_y)
+    draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size)
+    d.save_svg(output)
+    #print('saved to', output)
+
+
+def draw_multiple_regions_from_coords(these_regions, source_info,
+                                      output='tests/' ):
+    """
+    :param regions:
+    :param source_info:
+    :param output:
+    :return:
+    # 'HushedRiverValley','MountainTown','ForlornMuskeg','BleakInlet', 'OIC','DesolationPoint'
+    >>> draw_multiple_regions_from_coords(['AshCanyon', 'TimberwolfMountain', 'PleasantValley', 'CoastalHighway'], 'mybases.json')
+    >>> draw_multiple_regions_from_coords([], 'mybases.json')
+    """
+    b, e, regions = parse_input(source_info)
+    bases, colours = process_input(source_info)
+
+    output = output + f'coords_map{len(these_regions)}.svg'
+
+    margin = 50
+    unit_size = 10
+    canvas_width = 12000
+    canvas_height = 9000
+    d = draw.Drawing(canvas_width, canvas_height)
+
+    coords = {}
+
+    # first figure out all region Ys
+    y_ordered = ['AshCanyon','TimberwolfMountain',
+                 'PleasantValley',
+                 'CoastalHighway','OIC','DesolationPoint',
+                 'Blackrock','KeepersPass',
+                 'WindingRiver','Ravine',
+                 'MysteryLake',
+                 'ForlornMuskeg','MountainTown','HushedRiverValley',
+                 'BleakInlet',
+                 'BrokenRailroad',
+                 'ZoneOfContamination',
+                 'TransferPass',
+                 'FarRangeBranchLine',
+                 'ForsakenAirfield','SunderedPass']
+    if len(these_regions) == 0:
+        these_regions = y_ordered
+    for region in y_ordered:
+        these_bases = bases_of_region(bases, region)
+        total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=margin)
+        calculate_region_coords(these_bases, regions[region], total_x, total_y, x_offset, y_offset, margin=margin)
+
+        #print(region, regions[region])
+        #print(coords.keys())
+        coords[region] = Region(region,
+                        total_x, total_y, x_offset, y_offset,
+                        canvas_width, canvas_height,
+                        regions[region], coords)
+
+    left_to_right = ['DesolationPoint', 'OIC', 'CoastalHighway',
+                     'PleasantValley',
+                     'Ravine', 'KeepersPass',
+                     'MysteryLake','ForlornMuskeg',
+                     'BrokenRailroad',
+                     'FarRangeBranchLine', 'TransferPass',
+                     'ForsakenAirfield', 'SunderedPass',
+                     'ZoneOfContamination',
+                     'MountainTown','HushedRiverValley',
+                     'BleakInlet',
+                     'WindingRiver',
+                     'TimberwolfMountain','AshCanyon',
+                     'Blackrock']
+    # then figure out all region Xs
+    for region in left_to_right:
+        coords[region].update_horizontal(coords)
+
+    for region in these_regions:
+        coords[region].draw(d)
+        #draw_just_region_from_coords(d, these_bases, total_x, total_y, unit_size)
+    d.save_svg(output)
 
 
 def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
@@ -1119,7 +1450,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
     <class 'dict'>
     >>> bases, colours = process_input('mybases.json')
     >>> nums = count_features(bases)
-    >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['salt'], nums['range'], nums['woodworking']] # fixed for any given sandbox
+    >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['saltdeposit'], nums['range'], nums['woodworking']] # fixed for any given sandbox
     [4.0, 2.0, 10.0, 1.0, 14.0, 7.0, 4.0]
     """
     count = {}
@@ -1509,7 +1840,7 @@ if __name__ == '__main__':
             bases, colours = process_input(fname, style_file=style_file)
 
             draw_bases(bases, colours, output=outfile,
-                       width=3000, height=2000, base_x=2530, base_y=130,
+                       width=3200, height=2200, base_x=2670, base_y=130,
                        output_png=False, print_output=to_print)
             nums = count_features(bases)
             verify_fixed_numbers(bases, nums)

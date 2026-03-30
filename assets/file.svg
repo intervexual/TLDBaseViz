@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="file.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="67.8125"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 12,4 V 3 H 4 V 4 Z M 12,6 V 5 H 4 V 6 Z M 12,8 V 7 H 4 V 8 Z M 12,10 V 9 H 4 V 10 Z M 6,12 H 10 V 13 H 6 Z M 0,11 0.97,16 H 15 L 16,11 Z M 14,10 H 14.97 L 13.92,0 H 1.99 L 1.03,10 H 1.99 C 1.99,8 3.01,2 3.01,2 H 13.01 Z"
+     id="path1"
+     style="fill:#000000" />
+</svg>

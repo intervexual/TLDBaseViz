@@ -56,7 +56,7 @@
 			"indoors": true,
 			"explored":false,
 			"features": ["bear,deer,wolf",
-						"salt,beachcombing",
+						"saltdeposit,beachcombing",
 						"bed, trader, quality",
 						"*workbench, *furnbench, *bearbed"
 			]
@@ -78,7 +78,7 @@
 			"indoors": true,
 			"explored":false,
 			"features": ["rabbit,deer",
-						"salt,beachcombing",
+						"saltdeposit,beachcombing",
 						"bed, quality",
 						"*workbench, *furnbench, *bearbed"
 			]
@@ -126,7 +126,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["coal,salt"]
+			"features": ["coal,saltdeposit"]
 		},
 		"No5Mine": {
 			"region": "DesolationPoint",
@@ -135,7 +135,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["coal,salt"]
+			"features": ["coal,saltdeposit"]
 		},
 		"Hibernia":{
 			"region": "DesolationPoint",
@@ -144,7 +144,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["salt,beachcombing",
+			"features": ["saltdeposit,beachcombing",
 						"bed, grill, workbench",
 						"quality, -hammer",
 						"#+Cannery, +woodworking, *furnbench, *bearbed"
@@ -167,7 +167,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":false,
-			"features": ["bear,salt"]
+			"features": ["bear,saltdeposit"]
 		},
 		"Riken":{
 			"region": "DesolationPoint",
@@ -185,7 +185,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["deer,rabbit","salt,beachcombing"]
+			"features": ["deer,rabbit","saltdeposit,beachcombing"]
 		},
 		"MTFarm": {
 			"region": "MountainTown",

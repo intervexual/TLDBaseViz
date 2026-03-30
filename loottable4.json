@@ -1277,7 +1277,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine,salt"]
+			"features": ["mine,saltdeposit"]
 		},
 		"UpperMineToCH": {
 			"region": "CoastalHighway",
@@ -1357,7 +1357,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["bear,deer",
-						"salt,beachcombing,trader",
+						"saltdeposit,beachcombing,trader",
 						"bed",
 						"?sweater"
 			]
@@ -1380,7 +1380,7 @@
 			"indoors": true,
 			"explored":true,
 			"features": ["rabbit,deer",
-						"beachcombing,salt",
+						"beachcombing,saltdeposit",
 						"-polaroid/.14"
 			]
 		},
@@ -1411,7 +1411,7 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["bear,deer",
-				"salt,beachcombing",
+				"saltdeposit,beachcombing",
 				"?matches/.25,-polaroid/.14"]
 		},
 		"RabbitGrove": {
@@ -1487,7 +1487,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine","salt","?prybar"]
+			"features": ["mine","saltdeposit","?prybar"]
 		}
 		},
 		"% DESOLATION POINT": {
@@ -1507,7 +1507,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["mine","salt","rabbit"]
+			"features": ["mine","saltdeposit","rabbit"]
 		},
 		"No5MineEast": {
 			"region": "DesolationPoint",
@@ -1525,7 +1525,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["salt,beachcombing",
+			"features": ["saltdeposit,beachcombing",
 						"workbench,grill,?safe",
 						"*transmitter,?battery,?battery",
 						"?bedroll,?prybar,?matches,?saltbag"]
@@ -1537,7 +1537,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bear,salt"]
+			"features": ["bear,saltdeposit"]
 		},
 		"ScruffyCave":{
 			"region": "DesolationPoint",
@@ -1546,7 +1546,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["salt"]
+			"features": ["saltdeposit"]
 		},
 		"Riken":{
 			"region": "DesolationPoint",
@@ -1565,7 +1565,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["deer,rabbit","salt,beachcombing"]
+			"features": ["deer,rabbit","saltdeposit,beachcombing"]
 		},
 		"LonelyLighthouse":{
 			"region": "DesolationPoint",
@@ -1803,7 +1803,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["salt,bed"]
+			"features": ["saltdeposit,bed"]
 		},
 		"CaveToBI": {
 			"region": "BleakInlet",
@@ -1858,7 +1858,7 @@
 			"indoors": false,
 			"explored":false,
 			"features": ["range,bed,beachcombing",
-				"?bedroll/.25,?prybar/.2,-polaroid/.25"]
+				"?bedroll/.25,?prybar/.2,-polaroid/.25,?cookpot"]
 		},
 		"CanneryWarehouses": {
 			"region": "BleakInlet",
@@ -1867,7 +1867,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,grill","salt",
+			"features": ["bed,grill","saltdeposit",
 				"?woodworking,?thermos/.67,?prybar/.2",
 				"?safe"]
 		},
@@ -1888,7 +1888,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":true,
-			"features": ["salt,beachcombing,timberwolf",
+			"features": ["saltdeposit,beachcombing,timberwolf",
 				"?thermos/.33,?skillet"]
 		},
 		"TrailersWestOfCannery": {
@@ -1907,7 +1907,7 @@
 			"cabinfeverrisk":false,
 			"indoors": false,
 			"explored":false,
-			"features": ["bear","salt","timberwolf"]
+			"features": ["bear","saltdeposit","timberwolf"]
 		},
 		"FarIslandCave": {
 			"region": "BleakInlet",

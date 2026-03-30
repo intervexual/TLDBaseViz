@@ -1,6 +1,7 @@
 {
   "colours":{
 		"bg":"oklch(0.95 0.02 190)",
+	  	"fake":"oklch(0.95 0.02 190)",
 		"base":"oklch(0.4 0.06 150)",
 		"basebg":"oklch(0.98 0.02 150)",
 		"outdoor":"oklch(0.5 0.02 150)",
@@ -30,6 +31,7 @@
         "paint": "7.4",
         "mixed": "4,2,2,2",
         "path": "",
+	  	"fake": "",
         "oneway": "1,1",
 	  	"default": "2,4"
   },
