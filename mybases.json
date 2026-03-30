@@ -654,6 +654,17 @@
 			"explored":true,
 			"features": ["wolf"]
 		},
+		"BunkerBeta": {
+			"region": "PleasantValley",
+			"coords": [200,1100],
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed"
+			]
+		},
 		"ThreeStrikes": {
 			"region": "PleasantValley",
 			"coords": [600,500],
@@ -2028,7 +2039,7 @@
 			"cabinfeverrisk":true,
 			"indoors": true,
 			"explored":true,
-			"features": ["bed,timberwolf"]
+			"features": ["bed,timberwolf,,"]
 		},
 		"FrozenDeltaHuntersBlind": {
 			"region": "BleakInlet",
@@ -2048,7 +2059,17 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
-			"features": ["saltdeposit,bed,#-SignalHill,-simple","*rockcache,+stone:50"]
+			"features": ["saltdeposit,bed","*rockcache,+stone:50"]
+		},
+		"BunkerAlpha": {
+			"region": "BleakInlet",
+			"coords": [0,500],
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bed","#-SignalHill,-simple"]
 		},
 		"CaveToBI": {
 			"region": "BleakInlet",
@@ -3557,6 +3578,7 @@
 			["CaveWestOfUpperFalls", "west", "bottom,left", "PensivePond", "bottom,right", "default"],
 			["PensivePond", "west", "bottom,left", "CaveToPV", "bottom,right", "todo"],
 			["SignalHill", "south", "bottom,left", "HilltopCaveAndHuntersBlind", "top,left", "todo"],
+			["SignalHill", "north", "top,right", "BunkerBeta", "bottom,right", "default"],
 			["HilltopCaveAndHuntersBlind", "south", "bottom,right", "CaveToPV", "top,left", "todo"],
 			["HilltopCaveAndHuntersBlind", "east", "top,right", "MollysBarn", "bottom,left", "default"],
 			["MollysBarn", "west", "top,left", "SignalHill", "bottom,right", "default"],
@@ -3672,7 +3694,10 @@
 			["WashedOutTrailer", "north", "top,left", "NorthBIHuntersBlind", "bottom,left", "default"],
 			["WashedOutTrailer", "west", "top,left", "SouthBIHuntersBlind", "top,right", "default"],
 			["SouthBIHuntersBlind", "north", "top,right", "EastBICave", "bottom,right", "default"],
-			["SaltCave", "north", "top,left", "CaveToBI", "bottom,right", "todo"],
+			["EastBICave", "east", "top,right", "NorthBIHuntersBlind", "top,left", "default"],
+			["NorthBIHuntersBlind", "north", "top,right", "CaveToBI", "bottom,left", "default"],
+			["BunkerAlpha", "north", "top,left", "CaveToBI", "bottom,right", "todo"],
+			["SaltCave", "north", "top,right", "BunkerAlpha", "bottom,right", "todo"],
 			["BIPrepperCache", "south", "bottom,left", "PensiveLookout", "top,right", "todo"],
 			["UpperBICave", "west", "bottom,left", "BIPrepperCache", "bottom,right", "todo"],
 			["UpperBICave", "south", "bottom,left", "PensiveLookout", "top,right", "todo"],
@@ -3698,9 +3723,9 @@
 			["CanneryWarehouses", "south", "bottom,left", "CanneryPier", "top,right", "oneway"],
 			["CanneryWorkshop", "east", "bottom,right", "CanneryPier", "top,left", "oneway"],
 			["TrailersWestOfCannery", "west", "bottom,left", "FarIslandCave", "top,right", "default"],
-			["WashedOutTrailer", "north", "top,right", "FrozenDeltaHuntersBlind", "bottom,left", "default"],
-			["FrozenDeltaHuntersBlind", "north", "top,right", "SaltCave", "bottom,left", "default"],
-			["WashedOutTrailer", "north", "top,right", "SaltCave", "bottom,left", "todo"],
+			["WashedOutTrailer", "north", "top,right", "FrozenDeltaHuntersBlind", "bottom,right", "default"],
+			["FrozenDeltaHuntersBlind", "east", "top,right", "SaltCave", "top,left", "default"],
+			["WashedOutTrailer", "east", "top,right", "SaltCave", "bottom,left", "todo"],
 			["EchoOneRadioTower", "south", "bottom,right", "SecretMountainPath", "top,right", "oneway"],
 			["SecretMountainPath", "south", "bottom,right", "WorkerResidence", "top,right", "default"],
 			"--------ForlornMuskeg--------",
