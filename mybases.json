@@ -1880,7 +1880,7 @@
 		},
 		"PensiveLookout": {
 			"region": "BleakInlet",
-			"coords": [300,400],
+			"coords": [300,300],
 			"customizable": true,
 			"loading": false,
 			"cabinfeverrisk":true,
@@ -1890,6 +1890,36 @@
 				"-rug:2,bed,potbelly",
 				"trash,book:2,cattail:5,blueflare,can,stick:15,torch:5,water:2",
 				"cabinet,-head:9,-cedar:6,-charcoal:5,-tinder"]
+		},
+		"EchoOneRadioTower": {
+			"region": "BleakInlet",
+			"coords": [-100,0],
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":true,
+			"features": ["bear/.33","+polaroid,-rug:3"]
+		},
+		"SecretMountainPath": {
+			"region": "BleakInlet",
+			"coords": [0,100],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":false,
+			"features": ["-polaroid/.25"]
+		},
+		"BIClimb": {
+			"region": "BleakInlet",
+			"coords": [400,400],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["climb"]
 		},
 		"WorkerResidence": {
 			"region": "BleakInlet",
@@ -1910,6 +1940,27 @@
 						"#+LeaveHere,+dpammo:2,+distress,#+TP,+suitcase,+suitcase,#+Trapper,+wallshelf:2,#+Quonset,+oats:2,+coal:25,#+IDK,+arrowhead:10,+tipup:5,+stick:50,+feather:99,+blueflare:3"
 			]
 		},
+		"CRWFishHut": {
+			"region": "BleakInlet",
+			"coords": [100,-500],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": ["potbelly,fish","beachcombing,+prybar"]
+		},
+		"LowerRavenCabin": {
+			"region": "BleakInlet",
+			"coords": [700,400],
+			"customizable": true,
+			"loading": true,
+			"cabinfeverrisk":true,
+			"indoors": true,
+			"explored":false,
+			"features": ["bed,grill",
+				"timberwolf,deer","-polaroid/.25","?rug,?decor"]
+		},
 		"LongBridge": {
 			"region": "BleakInlet",
 			"coords": [-100,-300],
@@ -1919,16 +1970,6 @@
 			"indoors": false,
 			"explored":true,
 			"features": ["timberwolf"]
-		},
-		"SecretMountainPath": {
-			"region": "BleakInlet",
-			"coords": [0,100],
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": false,
-			"explored":false,
-			"features": ["-polaroid/.25"]
 		},
 		"CanneryTrailer": {
 			"region": "BleakInlet",
@@ -1979,37 +2020,6 @@
 			"indoors": false,
 			"explored":false,
 			"features": ["bark"]
-		},
-		"EchoOneRadioTower": {
-			"region": "BleakInlet",
-			"coords": [-100,0],
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":true,
-			"features": ["bear/.33","+polaroid,-rug:3"]
-		},
-		"LowerRavenCabin": {
-			"region": "BleakInlet",
-			"coords": [700,400],
-			"customizable": true,
-			"loading": true,
-			"cabinfeverrisk":true,
-			"indoors": true,
-			"explored":false,
-			"features": ["bed,grill",
-				"timberwolf,deer","-polaroid/.25","?rug,?decor"]
-		},
-		"CRWFishHut": {
-			"region": "BleakInlet",
-			"coords": [100,-500],
-			"customizable": false,
-			"loading": false,
-			"cabinfeverrisk":false,
-			"indoors": false,
-			"explored":true,
-			"features": ["potbelly,fish","beachcombing,+prybar"]
 		},
 		"FallenLighthouse": {
 			"region": "BleakInlet",
@@ -3514,16 +3524,17 @@
 			["RavineBasinTrainCar", "south", "bottom,left", "SouthRavineCave", "top,left", "default"],
 			["SouthRavineCave", "south", "bottom,left", "BIPrepperCache", "top,left", "default"],
 			"--------BleakInlet--------",
-			["CaveToBI", "west", "bottom,left", "CaveFromBI", "bottom,right", "paint"],
+			["CaveToBI", "north", "top,right", "CaveFromBI", "bottom,right", "paint"],
 			["WashedOutTrailer", "north", "top,left", "BIHuntersBlind", "bottom,left", "default"],
 			["SaltCave", "north", "top,left", "CaveToBI", "bottom,right", "todo"],
-			["BIPrepperCache", "south", "bottom,left", "PensiveLookout", "top,left", "todo"],
+			["BIPrepperCache", "south", "bottom,left", "PensiveLookout", "top,right", "todo"],
 			["UpperBICave", "west", "bottom,left", "BIPrepperCache", "bottom,right", "todo"],
 			["UpperBICave", "south", "bottom,left", "PensiveLookout", "top,right", "todo"],
-			["UpperBICave", "south", "bottom,right", "LowerRavenCabin", "top,left", "oneway"],
-			["PensiveLookout", "west", "bottom,left", "EchoOneRadioTower", "bottom,right", "todo"],
-			["PensiveLookout", "south", "bottom,left", "WorkerResidence", "top,right", "todo"],
-			["PensiveLookout", "east", "bottom,right", "LowerRavenCabin", "bottom,left", "default"],
+			["UpperBICave", "south", "bottom,left", "BIClimb", "top,right", "todo"],
+			["UpperBICave", "south", "bottom,right", "LowerRavenCabin", "top,right", "oneway"],
+			["PensiveLookout", "west", "top,left", "EchoOneRadioTower", "top,right", "todo"],
+			["PensiveLookout", "south", "top,right", "BIClimb", "top,left", "todo"],
+			["BIClimb", "east", "top,right", "LowerRavenCabin", "top,left", "default"],
 			["WorkerResidence", "west", "top,left", "LongBridge", "top,right", "todo"],
 			["LongBridge", "west", "top,left", "CanneryTrailer", "top,right", "path"],
 			["WorkerResidence", "west", "bottom,left", "CRWFishHut", "top,right", "todo"],
@@ -3532,7 +3543,7 @@
 			["WorkerResidence", "east", "top,right", "SaltBearCave", "top,left", "todo"],
 			["SaltBearCave", "north", "top,right", "LowerRavenCabin", "bottom,left", "default"],
 			["SaltBearCave", "south", "bottom,left", "EastBIFishHut", "top,right", "default"],
-			["CRWFishHut", "west", "top,left", "CanneryTrailer", "bottom,right", "todo"],
+			["CRWFishHut", "west", "top,left", "CanneryWarehouses", "bottom,right", "oneway"],
 			["CanneryTrailer", "south", "bottom,left", "CanneryWarehouses", "top,left", "todo"],
 			["CanneryTrailer", "west", "top,left", "TrailersWestOfCannery", "top,right", "default"],
 			["CanneryTrailer", "north", "top,left", "WashedOutTrailer", "bottom,right", "todo"],
@@ -3541,7 +3552,8 @@
 			["CanneryWorkshop", "east", "bottom,right", "CanneryPier", "top,left", "oneway"],
 			["TrailersWestOfCannery", "west", "bottom,left", "FarIslandCave", "bottom,right", "default"],
 			["WashedOutTrailer", "north", "top,right", "SaltCave", "bottom,left", "todo"],
-			["LongBridge", "north", "top,right", "SecretMountainPath", "bottom,right","oneway"],
+			["EchoOneRadioTower", "south", "bottom,right", "SecretMountainPath", "top,right", "oneway"],
+			["SecretMountainPath", "south", "bottom,right", "WorkerResidence", "top,right", "default"],
 			"--------ForlornMuskeg--------",
 			["MLRailTunnel", "west", "top,left", "EastFM", "top,right", "path"],
 			["EastFM", "west", "top,left", "Poacher", "top,right", "path"],
