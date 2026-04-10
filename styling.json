@@ -18,10 +18,10 @@
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
 		"clearpath":"oklch(0.7 0.18 250)",
-		"charcoal":"oklch(0.2 0.04 270)",
-		"mixed":"oklch(0.5 0.18 290)",
-	  	"find": "oklch(0.5 0.2 330)",
-		"todo":"oklch(0.5 0.3 270)"
+		"todo":"oklch(0.5 0.3 270)",
+	  	"find": "oklch(0.5 0.2 290)",
+		"charcoal":"oklch(0.2 0.06 310)",
+		"mixed":"oklch(0.5 0.18 330)"
 	},
   "dashes": {
         "todo": "2,1",

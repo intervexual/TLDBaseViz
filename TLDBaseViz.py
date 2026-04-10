@@ -187,7 +187,9 @@ class BaseFeature:
                    hei=hei, fill=self.hex, opacity=self.probability) # shading for probabalistic features
 
 class BaseConnection:
-    def __init__(self, source, direction, source_corner, sink, sink_corner, kind, colours=False):
+    def __init__(self,
+                 source, direction, source_corner,
+                 sink, sink_corner, kind, colours=False):
         """
         Create BaseConnection object, saving its destinations, corners, and kind of connection (road, rail, etc).
         :param source: name of source base
@@ -215,6 +217,62 @@ class BaseConnection:
         self.dasharray = DASHSTYLE[kind]
         if colours:
             self.colour = colours[kind]
+    def coord_based_direction(self, bases):
+        """
+        Redo the corner/connections based on coordinates
+        :param source_ob:
+        :param sink_ob:
+        :return:
+        >>> source_info = 'mybases.json'
+        >>> b, e, regions = parse_input(source_info)
+        >>> b, c = process_input(source_info)
+        >>> these_bases = bases_of_region(b, 'CoastalHighway')
+        >>> total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=100)
+        >>> type(x_offset)
+        <class 'int'>
+        >>> m = calculate_region_coords(b, regions, 'CoastalHighway', total_x, total_y, x_offset, y_offset)
+        >>> bob = BaseConnection("Quonset", "east", "top,left", "LowerMine", "top,right", "path")
+        >>> b[bob.source].region_coords
+        [2100, 800]
+        >>> b[bob.sink].region_coords
+        [1300, 400]
+        >>> bob.direction
+        'east'
+        >>> ang = bob.coord_based_direction(b) # should be > 270 and < 350
+        >>> ang > 270 and ang < 350
+        True
+        >>> bob.direction
+        'west'
+        >>> bob = BaseConnection("Quonset", "east", "top,left", "QMFishHut", "top,right", "path")
+        >>> bob.direction
+        'east'
+        >>> ang = bob.coord_based_direction(b) # should be > 90 and < 270
+        >>> ang > 90 and ang < 270
+        True
+        >>> bob.direction # expecting south
+        'south'
+        >>> bob.corners['Quonset']
+        >>> bob.corners['QMFishHut']
+        """
+        source_ob = bases[self.source]
+        sink_ob = bases[self.sink]
+
+        angle = angle_between( source_ob.region_coords, sink_ob.region_coords )
+        vert, horiz, dir = direction_and_anchor(angle)
+        vert, horiz, dir = direction_and_anchor_tiebreaking(vert, horiz, dir)
+
+        self.corners[self.source] = f'{vert},{horiz}'
+        self.direction = dir
+        self.reverse = REVERSE[dir]
+
+        # TODO how to handle the corner of the sink?
+        rev_angle = angle_between(  sink_ob.region_coords, source_ob.region_coords )
+        vert, horiz, dir = direction_and_anchor(rev_angle)
+        vert, horiz, dir = direction_and_anchor_tiebreaking(vert, horiz, dir)
+        self.corners[self.sink] = f'{vert},{horiz}'
+
+        return angle
+
     def invert(self, colours):
         return BaseConnection(self.sink, self.reverse, self.sink_corner, self.source, self.source_corner, self.kind, colours)
     def __repr__(self):
@@ -671,9 +729,10 @@ class BaseLocation:
         # manually position the current inventory
         if self.region == INVENTORY:
             self.box_x = self.cell_size
-            self.box_y = self.cell_size + 1500
+            self.box_y = self.cell_size + 1650
             x = self.box_x
             y = self.box_y
+
 
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border, unexplored=unexplored)
         self.draw_feature_grid(g, x=x, y=y)
@@ -848,6 +907,7 @@ def status_from_prefixes(s):
         return PLANNED, MAKE
 
     return ACTUAL, BASE
+
 
 def parse_input(filename='bases.json'):
     """
@@ -1092,7 +1152,9 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     gb = draw.Group(id='bases')
     unexplored_colour = colours[UNEXPLORED]
 
+    last_base_name = ''
     for b in bases:
+        last_base_name = b
         if print_output:
             print('Visiting', b)
         arrow_size = icon_size
@@ -1122,20 +1184,31 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     #d.append(draw.Use(gb, 0, 0))
 
     if CURR_INVENTORY in bases:
-        to_bring, to_take = verify_taking_numbers(bases)
-        out_bring = 'outstanding bring (needs source)'
-        out_take = 'outstanding take (needs destination)'
-        to_bring = condense_multiples_in_list(to_bring)
-        to_take = condense_multiples_in_list(to_take)
-        bob = special_base(bases, out_bring, to_bring, USED_UP, SOUTH)
-        tob = special_base(bases, out_take, to_take, out_bring, SOUTH)
-        bases[USED_UP].draw_connection(d, bob, unexplored=colours[TAKE], border=colours[TAKE], fill=colours[BASE_BG])
-        bases[out_bring].draw_connection(d, tob, unexplored=colours[BRING], border=colours[BRING], fill=colours[BASE_BG])
+        last_base_name = USED_UP
+    to_bring, to_take = verify_taking_numbers(bases)
+    out_bring = 'outstanding bring (needs source)'
+    out_take = 'outstanding take (needs destination)'
+    to_bring = condense_multiples_in_list(to_bring)
+    to_take = condense_multiples_in_list(to_take)
+    bob = special_base(bases, out_bring, to_bring, last_base_name, SOUTH, colours=colours)
+    tob = special_base(bases, out_take, to_take, out_bring, SOUTH, colours=colours)
+    bases[last_base_name].draw_connection(d, bob,
+                                          unexplored=colours[TAKE],
+                                          border=colours[TAKE],
+                                          fill=colours[BASE_BG])
+    bases[out_bring].draw_connection(d, tob,
+                                     unexplored=colours[BRING],
+                                     border=colours[BRING],
+                                     fill=colours[BASE_BG])
 
     if add_legend:
         counts = count_features(bases)
-        draw_legend(d, colours, x=d.width-210*3-40, y=710,
-                    counts=counts, column_breaks=(37, 37 + 73))
+
+        first_col_break = 65
+        second_col_break = first_col_break
+        draw_legend(d, colours, x=d.width-210*3-40, y=880,
+                    counts=counts,
+                    column_breaks=(first_col_break, first_col_break + second_col_break))
 
 
     d.save_svg(output)
@@ -1172,8 +1245,8 @@ def bases_of_region(bases, region):
     >>> source_info = 'mybases.json'
     >>> bases, colours = process_input(source_info)
     >>> these_bases = bases_of_region(bases, 'MysteryLake')
-    >>> these_bases.keys()
-    dict_keys(['DamTrailers', 'UpperDam', 'TrainLoading', 'Derailment', 'CampOffice', 'MidRailArea', 'MLRailTunnel', 'AlansCaveHuntingBlind', 'Trapper', 'LakeOverlookCave', 'LoggingCamp', 'ForestryLookout', 'DestroyedLookout', 'UnnamedPondCabin', 'LoneLakeCabin', 'MiddleLakeCabins', 'LakeCabins', 'MLFishHuts', 'DavesQuietClearing', 'CaveNearMLPrepperCache', 'UnnamedPondHuntersBlind', 'DeadfallArea', 'CaveFromMT'])
+    >>> 'CampOffice' in these_bases.keys()
+    True
     >>> twm = bases_of_region(bases, 'TimberwolfMountain')
     >>> twm.keys()
     dict_keys(['CaveFromAC', 'TWMPrepperCache', 'WingArea', 'ForestCave', 'GroveSouthOfMountaineer', 'TWMFishHut', 'Mountaineer', 'CaveBelowAndresPeak', 'AndresPeak', 'EngineCave', 'CaveFromBRM', 'SecludedShelfCave', 'SummitCave', 'WaterfallCave', 'EchoRavine', 'TailSection', 'EngineCaveEast'])
@@ -1187,7 +1260,9 @@ def bases_of_region(bases, region):
             these_bases[b] = bob
     return these_bases
 
-def draw_region(region, source_info, output='tests/', print_output=False, add_legend=False):
+
+def draw_region(region, source_info, output='tests/',
+                print_output=False, add_legend=True):
     """
     Draw only the bases of one region.
     :param region: region name as string, e.g. 'AshCanyon'
@@ -1209,8 +1284,8 @@ def draw_region(region, source_info, output='tests/', print_output=False, add_le
     output = output + region + '.svg'
 
     draw_bases(these_bases, colours,
-               base_x = 600, base_y = 600,
-               width = 1200, height = 1200,
+               base_x = 1000, base_y = 1000,
+               width = 2000, height = 2000,
                add_legend=add_legend, print_output=print_output,
                output=output, output_png=False, print_warnings=False)
 
@@ -1288,6 +1363,107 @@ def rotate_point_wrt_center(point_to_be_rotated, angle, center_point=(0, 0)):
     return (round(xnew, 2), round(ynew, 2))
 
 
+def angle_between(p1, p2):
+    """
+    Angle between the imaginary upward line from p1
+    and the imaginary outward line from p1 to p2.
+    :param p1: (x,y)
+    :param p2: (x,y)
+    :return:
+    >>> angle_between( [10, 10], [10,0] ) # north
+    0.0
+    >>> angle_between( [10, 10], [10,20]  ) # south
+    180.0
+    >>> angle_between( [10, 10], [20,10] ) # east
+    90.0
+    >>> angle_between( [10, 10], [0,10] ) # west
+    270.0
+    >>> angle_between( [10, 10], [0,0]) # 45 deg
+    315.0
+    >>> angle_between( [0,0], [10,10] ) # 180 from prev
+    135.0
+    >>> angle_between( [10,10], [20,20] )
+    135.0
+    >>> angle_between( [800,600], [0,1000])
+    243.434948822922
+    >>> angle_between(  [0,1000], [800,600])
+    63.43494882292201
+    """
+    theta = math.atan2((p2[1] - p1[1]), (p2[0] - p1[0]))
+    return (math.degrees(theta) + 90) % 360
+
+
+def direction_and_anchor(angle):
+    """
+
+    :return:
+    >>> direction_and_anchor(0) # must be north and top, could be left or right
+    ('top', 'leftright', 'north')
+    >>> direction_and_anchor(180) # must be south and bottom, could be left or right
+    ('bottom', 'leftright', 'south')
+    >>> direction_and_anchor(90) # must be right and east, could be top or bottom
+    ('topbottom', 'right', 'east')
+    >>> direction_and_anchor(270) # must be left and west, could be top or bottom
+    ('topbottom', 'left', 'west')
+    >>> direction_and_anchor(45) # (top,right), could be north or east
+    ('top', 'right', 'northeast')
+    >>> direction_and_anchor(45+90)
+    ('bottom', 'right', 'southeast')
+    >>> direction_and_anchor(45+180)
+    ('bottom', 'left', 'southwest')
+    >>> direction_and_anchor(45+90+180)
+    ('top', 'left', 'northwest')
+    >>> direction_and_anchor(40)
+    ('top', 'right', 'north')
+    >>> direction_and_anchor(50)
+    ('top', 'right', 'east')
+    >>> direction_and_anchor(40+90)
+    ('bottom', 'right', 'east')
+    >>> direction_and_anchor(50+90)
+    ('bottom', 'right', 'south')
+    >>> direction_and_anchor(-20)
+    ('top', 'left', 'north')
+    """
+    angle = angle % 360
+    vert_anchor = ''
+    horiz_anchor = ''
+    direction = ''
+
+    if angle <= 90 or angle >= 270:
+        vert_anchor += "top"
+    if angle >= 90 and angle <= 270:
+        vert_anchor += "bottom"
+
+    if angle >= 180 or angle <= 0:
+        horiz_anchor += "left"
+    if angle >= 0 and angle <= 180:
+        horiz_anchor += "right"
+
+    if angle <= 45 or angle >= 45+270:
+        direction += 'north'
+    if angle >= 45+90 and angle <= 45+180:
+        direction += "south"
+    if angle >= 45 and angle <= 45+90:
+        direction += "east"
+    if angle >= 45+180 and angle <= 45+270:
+        direction += 'west'
+
+    return vert_anchor, horiz_anchor, direction
+
+
+def direction_and_anchor_tiebreaking(vert, horiz, dir):
+    # TODO better tie breaking
+    if vert == 'leftright':
+        vert = 'left'
+    if horiz == 'topbottom':
+        horiz = 'top'
+    if 'north' in dir:
+        dir = 'north'
+    if 'south' in dir:
+        dir = 'south'
+    return vert, horiz, dir
+
+
 def calculate_region_coords(these_bases, regions, region,
                             total_x, total_y, x_offset, y_offset,
                             margin=100):
@@ -1315,23 +1491,30 @@ def calculate_region_coords(these_bases, regions, region,
 
     for b in these_bases:
         bob = these_bases[b]
-        if regions[region][X_MIRRORING]:
-            x = total_x - (bob.coords[0] - x_offset) - margin*2
-        else:
-            x = bob.coords[0] - x_offset + margin*2
-        if regions[region][Y_MIRRORING]:
-            y = bob.coords[1] + y_offset
-        else:
-            y = total_y - (bob.coords[1] + y_offset) # Y axis in maps goes opposite direction than canvas, unless it's PV
-        # rotate point if whole region is rotated
-        if regions[bob.region]['rotation'] != 0:
-            rotate_cw = regions[bob.region]['rotation']
-            x, y = rotate_point_wrt_center((x,y), -rotate_cw, (mid_x, mid_y))
+        if bob.region in regions:
+            if regions[region][X_MIRRORING]:
+                assert type(bob.coords[0]) in [int, float], bob
+                assert type(x_offset) in [int, float], bob
+                assert type(margin) in [int, float], bob
+                x = total_x - (bob.coords[0] - x_offset) - margin*2
+            else:
+                assert type(bob.coords[0]) in [int, float], bob
+                assert type(x_offset) in [int, float], bob
+                assert type(margin) in [int, float], bob
+                x = bob.coords[0] - x_offset + margin*2
+            if regions[region][Y_MIRRORING]:
+                y = bob.coords[1] + y_offset
+            else:
+                y = total_y - (bob.coords[1] + y_offset) # Y axis in maps goes opposite direction than canvas, unless it's PV
+            # rotate point if whole region is rotated
+            if regions[bob.region]['rotation'] != 0:
+                rotate_cw = regions[bob.region]['rotation']
+                x, y = rotate_point_wrt_center((x,y), -rotate_cw, (mid_x, mid_y))
 
-        bob.region_coords = [x, y]
+            bob.region_coords = [x, y]
 
     # rotated regions need new dimensions
-    if regions[bob.region]['rotation'] != 0:
+    if bob.region in regions and regions[bob.region]['rotation'] != 0:
         total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases,
                                                                        use_region=True,
                                                                        margin=margin)
@@ -1524,7 +1707,7 @@ def draw_multiple_regions_from_coords(these_regions, source_info,
     d.save_svg(output)
 
 
-def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
+def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND), materials_to_count=(FIND, REMOVE)):
     """
     For each feature (e.g. workbench, forge) count how many times it appears across the whole island.
     :param bases: list of BaseLocation objects
@@ -1544,7 +1727,7 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND)):
     for b in bases:
         for row in bases[b].features:
             for feature in row:
-                if feature.status in statuses_to_count or feature.material in statuses_to_count:
+                if feature.status in statuses_to_count or feature.material in materials_to_count:
                     count[feature.name] += feature.probability * feature.qty
     return count
 
@@ -1582,8 +1765,8 @@ def verify_taking_numbers(bases):
     >>> len(b) == 0
     True
     """
-    to_take = count_features(bases, statuses_to_count=[TAKE])
-    to_bring = count_features(bases, statuses_to_count=[BRING])
+    to_take = count_features(bases, statuses_to_count=[TAKE], materials_to_count=[TAKE])
+    to_bring = count_features(bases, statuses_to_count=[BRING], materials_to_count=[BRING])
     issues_found = False
     unknown_take = []
     unknown_bring = []
@@ -1892,11 +2075,15 @@ def legends_for_documentation(icon_wid=50):
     theme_n = list(set(theme_n))
 
 
-def special_base(bases, name, features, connec_name, connec_dir):
+def special_base(bases, name, features, connec_name, connec_dir, colours=HEXES):
     tob = BaseLocation(name,
-                       {REGION: 'NotInGame', CUSTOMIZABLE: False, LOADING: False, INDOORS: False, FEATURES: features,
-                        EXPLORED: False, CABINFEVERRISK: False}, colours=HEXES)
-    conn = BaseConnection(connec_name, connec_dir, 'bottom,left', name, 'top,left', 'todo')
+                       {REGION: 'NotInGame',
+                        CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
+                        FEATURES: features,
+                        EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
+    conn = BaseConnection(connec_name, connec_dir,
+                          'bottom,left', name,
+                          'top,left', 'fake', colours=colours)
     bases[connec_name].add_connection(conn)
     tob.add_connection(conn)
     bases[name] = tob
@@ -1924,7 +2111,8 @@ if __name__ == '__main__':
             bases, colours = process_input(fname, style_file=style_file)
 
             draw_bases(bases, colours, output=outfile,
-                       width=3200, height=2200, base_x=2740, base_y=80,
+                       width=4500, height=2500,
+                       base_x=3700, base_y=390,
                        output_png=False, print_output=to_print)
             nums = count_features(bases)
             verify_fixed_numbers(bases, nums)

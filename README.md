@@ -94,6 +94,7 @@ If you want to add or modify the SVG icons, please be forewarned that the SVG pa
 ## Image Credits
 Icons used here are all from The Noun Project unless otherwise noted. They are all Creative Commons licensed.
 * [Accelerant by AFY Studio](thenounproject.com/icon/gasoline-6236830/)
+* [Acorns by The Icon Z](https://thenounproject.com/icon/nuts-3846958/)
 * [Antiseptic by projecthayat](https://thenounproject.com/icon/antiseptic-5918424/)
 * [Arrowhead by Manja](https://thenounproject.com/icon/arrowhead-6157374/)
 * [Aviator Cap by madness stock](https://thenounproject.com/icon/aviator-5501487/)
@@ -111,6 +112,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Bed by Adrien Coquet](https://thenounproject.com/icon/sleeping-947845/)
 * [Bedroll by Daniel Shettel](https://thenounproject.com/icon/sleeping-bag-734845/)
 * [Birch Bark by Amethyst Studio](https://thenounproject.com/icon/eucommia-bark-5464568/)
+* [Birch Bark spawn by ochre7](https://thenounproject.com/icon/birch-tree-797763/)
 * [Birch Sapling by endang firmansyah](https://thenounproject.com/icon/twig-7095842/)
 * [Book by Dong Gyu Yang](thenounproject.com/icon/book-6380647/)
 * [Box by Elin Erkani](https://thenounproject.com/icon/archive-7281787/)
@@ -122,9 +124,11 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Can of Gunpowder by fauzan akbar](https://thenounproject.com/icon/ink-bottle-4586860/)
 * [Can Opener by Amethyst Studio](https://thenounproject.com/icon/can-opener-5217861/)
+* [Cannister by Dan Hetteix](https://thenounproject.com/icon/hubcap-196261/)
 * [Car Battery by ARI NOFIANA](https://thenounproject.com/icon/car-battery-7134392/)
 * [Cattail Head by Mohamed Mb](https://thenounproject.com/icon/reed-switch-996890/)
 * [Cattail Stalk by ghufronagustian](https://thenounproject.com/icon/reed-3789187/)
+* [Cedar Limb by Vectors Market](https://thenounproject.com/icon/cedar-tree-1925603/)
 * [Cedar Firewood by qubodup](https://openclipart.org/detail/196360/black-and-white-broken-wooden-stick) [OpenClipArt]
 * [Charcoal by Vectors Market](https://thenounproject.com/icon/massage-stones-1933016/)
 * [Chemical Boots by monkik](https://thenounproject.com/icon/rubber-boots-2343368/)
@@ -147,6 +151,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Crow Feather by Abd Majd](https://thenounproject.com/icon/feather-5425939/)
 * [Curator's Rifle by Jarem Frye](https://thenounproject.com/icon/black-powder-muzzleloader-1202077/)
 * [Cured Leather by Amethyst Studio](https://thenounproject.com/icon/garment-5368962/)
+* [Cured Fish by c_ART_o](https://thenounproject.com/icon/bacon-7395894/)
+* [Cured Meat by c_ART_o](https://thenounproject.com/icon/bacon-7395853/)
 * [Curing Box by Pham Duy Phuong Hung](https://thenounproject.com/icon/cooler-2133137/)
 * [Decoration by metami septiana](https://thenounproject.com/icon/decoration-7426915/)
 * [Deer by Anissa](https://thenounproject.com/icon/deer-5689542/)
@@ -157,10 +163,14 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Distress Pistol Ammunition by Dwi Budiyanto](https://thenounproject.com/icon/cylinder-8139837/)
 * [Drawer (5kg) by Vectors Market](https://thenounproject.com/icon/archives-1456746/)
 * [Drawer (10kg) by Dilon Choudhury](https://thenounproject.com/icon/desk-tray-192464/)
+* [Dull knife by Nicko Studio](thenounproject.com/icon/icing-spatula-367489/)
+* [Dull hatchet by Alex Chocron](https://thenounproject.com/icon/butter-knife-54277/)
 * [Dusting Sulfur / Grown Well by Azam Ishaq](https://thenounproject.com/icon/seed-bag-6301316/)
 * [Emergency Stim by Andi Nur Abdillah](https://thenounproject.com/icon/epipen-6104972/)
 * [Expedition Parka by Cik merry](https://tthenounproject.com/icon/winter-coat-6485467/)
 * [FastFilm-500 by Y](https://thenounproject.com/icon/film-7169719/)
+* [Fir Firewood by Caro Asercion](https://commons.wikimedia.org/wiki/File:Birch-trees_-_Caro_Asercion_-_game-icons.svg) [Wikimedia Commons]
+* [Fir Limb by Vectors Market](https://thenounproject.com/icon/fir-tree-1925599/)
 * [Firestriker by IconMark](https://thenounproject.com/icon/flare-3507624/)
 * [Firelog by Ronald Cortez](https://thenounproject.com/icon/log-65876/)
 * [Fire Hardened Arrow by Zach Bogart](https://thenounproject.com/icon/archery-arrow-3169904/)
@@ -176,6 +186,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Floor by Free Fair & Healthy](https://thenounproject.com/icon/ground-1470114/)
 * [Food by Abdul Matic](https://thenounproject.com/icon/food-8207935/)
 * [Forester's Revolver by Hey Rabbit](https://thenounproject.com/icon/revolver-3563944/)
+* [Foreman's Tool Belt by ahmadwil](https://thenounproject.com/icon/tool-belt-6589950/)
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
 * [Freezer by Graphicxs_Art](thenounproject.com/icon/refrigerator-4633120/)
 * [Fridge/Oven by Paonkz](https://thenounproject.com/icon/fridge-8311835/)
@@ -229,7 +240,10 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Newspaper by Puspa Kusuma](https://thenounproject.com/icon/newspaper-7638057/)
 * [Noisemaker by Azland Studio](https://thenounproject.com/icon/dynamite-7318966/)
 * [Oats by Iconiyo](https://thenounproject.com/icon/oats-7259269/)
-* [Old Man's Beard Wound Dressing by Magicon](https://thenounproject.com/icon/lichen-299656/)
+* [Old Man's Beard Lichen by Magicon](https://thenounproject.com/icon/lichen-299656/)
+* [Old Man's Beard Wound Dressing by Zaach Bogart](https://thenounproject.com/icon/seaweed-3644863/)
+* [Old Mill Flour by Contributor Icons](https://thenounproject.com/icon/flour-7881472/)
+* [Pemmican Bar by Llisole](https://thenounproject.com/icon/nuts-bar-4183125/)
 * [Plastic Container by Ranah Pixel Studio](https://thenounproject.com/icon/plastic-containers-3765569/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
 * [Polaroid by Alice Design](https://thenounproject.com/icon/polaroid-2059579/)
@@ -249,12 +263,14 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Recycled Can by S. Salinas](https://thenounproject.com/icon/can-85822/)
 * [Reishi Mushroom by Amando Hua](https://thenounproject.com/icon/mushroom-8284236/)
 * [Replacement Fuse by M. Tohirin](https://thenounproject.com/icon/fuse-7799062/)
+* [Respirator by cakslankers](https://thenounproject.com/icon/respirator-8276636/)
 * [Revolver by Eskak](https://thenounproject.com/icon/revolver-8168224/)
 * [Revolver Ammunition by basticon](https://thenounproject.com/icon/bullet-5609630/)
 * [Rifle Ammunition by rizal2109](https://thenounproject.com/icon/bullet-7460000/)
 * [Rock Cache by kusuma potter](thenounproject.com/icon/cannon-balls-7931465/)
 * [Rose Hip by T. Kiefer Robertson](https://thenounproject.com/icon/radish-6408854/)
 * [Rug by tezar tantular](https://thenounproject.com/icon/carpet-8224214/)
+* [Rug (bath mat style) by Phạm Thanh Lộc](https://thenounproject.com/icon/bath-mat-2431047/)
 * [Rustic Storage Box by Marc Anderson](thenounproject.com/icon/shoe-box-20246/)
 * [Safe by Jonn Tronic](https://thenounproject.com/icon/safe-29193/)
 * [Salt Bag by IconMark](https://thenounproject.com/icon/sugar-4563132/)
@@ -278,6 +294,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Stick by Delapouite](https://commons.wikimedia.org/wiki/File:Water-diviner-stick_-_Delapouite_-_game-icons.svg) [Wikipedia Commons]
 * [Stone by Amethyst Studio](https://thenounproject.com/icon/clay-pebbles-5683178/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
+* [Supply Cache by Gregor Cresnar](https://thenounproject.com/icon/wireless-charging-539757/)
 * [Survival Bow by Anditii Creative](https://thenounproject.com/icon/bow-archer-7655054/)
 * [Survival Knife by Soremba](https://thenounproject.com/icon/knife-4460861/)
 * [Tactical Gloves modified from art by Abu Ibrahim Icon](https://thenounproject.com/icon/gloves-7651028/)
@@ -324,6 +341,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 13. Separate icon for outdoor workbench?
 
 ### Coding/UX
+0. The legend is counting bring-to items!
 1. Rethink how draw the graph so position doesn't need so much manual tweaking
 2. Stitch the coord-based maps together. Figure out how to handle the fact that AC-TWM-PV-KP-BRM does not have a shared point with most of island, and that HRV and DP are similarly only  accessed via caves.
 3. Visualize bases on this new graph
@@ -337,6 +355,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 11. When checking workbench number, count vices as well
 12. High-level view vs detail view
 13. Location tiers and minimum supplies for each
+14. Add all prepper caches to mybases.json 
+15. Add other POIs to mybases.json that are in loottable4.json
+16. Arrows for one-way paths to indicate direction
 
 ### Maybe later
 9. Add some level of importance/priority?
