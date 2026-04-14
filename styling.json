@@ -12,7 +12,7 @@
 		"fir":"oklch(0.6 0.16 70)",
 		"cattail":"oklch(0.5 0.08 90)",
 	    "cedar":"oklch(0.7 0.2 110)",
-		"stone": "oklch(0.7 0.16 130)",
+		"other": "oklch(0.7 0.16 130)",
 	    "path":"oklch(0.7 0.1 170)",
 	  	"default": "oklch(0.4 0.06 190)",
 		"take":"oklch(0.6 0.12 210)",
@@ -22,7 +22,7 @@
 	  	"find": "oklch(0.5 0.2 290)",
 		"charcoal":"oklch(0.2 0.06 310)",
 		"mixed":"oklch(0.5 0.18 330)"
-	},
+  },
   "dashes": {
         "todo": "2,1",
         "charcoal": "2,1",
@@ -42,7 +42,7 @@
 		"destroy": "to destroy",
 		"fir": "to make from fir",
 		"cedar": "to make from cedar",
-		"stone": "to make form stone",
+		"other": "to make form other materials",
 		"path": "road, rail, or other provided path",
 		"tinder": "tinder path",
 		"cattail": "cattail head path",

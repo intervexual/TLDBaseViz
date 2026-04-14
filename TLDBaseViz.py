@@ -104,6 +104,12 @@ class BaseFeature:
         'empty:actual:base'
         >>> str(BaseFeature('#+Blah'))
         'empty:planned:bring'
+        >>> str(BaseFeature('chest'))
+        'chest:actual:base'
+        >>> str(BaseFeature('*chest'))
+        Traceback (most recent call last):
+        ...
+        AssertionError: *chest is not craftable
         """
         self.qty = float(qty)
         if QTY_MARKER in name and not name.startswith(TOTEXT):
@@ -139,6 +145,7 @@ class BaseFeature:
         assert self.name in ASSETS, self.name
         if self.material == MAKE:
             if self.name in TODO_TYPES:
+                assert not TODO_TYPES[self.name] in [BRING, TOBRING], f'{name} is not craftable'
                 self.material = TODO_TYPES[self.name]
             else:
                 assert self.name in MOVABLES, f'{name} is not movable'
@@ -231,7 +238,7 @@ class BaseConnection:
         >>> type(x_offset)
         <class 'int'>
         >>> m = calculate_region_coords(b, regions, 'CoastalHighway', total_x, total_y, x_offset, y_offset)
-        >>> bob = BaseConnection("Quonset", "east", "top,left", "LowerMine", "top,right", "path")
+        >>> bob = BaseConnection("QuonsetGarage", "east", "top,left", "AbandonedMine(Lower)", "top,right", "path")
         >>> b[bob.source].region_coords
         [2100, 800]
         >>> b[bob.sink].region_coords
@@ -243,7 +250,7 @@ class BaseConnection:
         True
         >>> bob.direction
         'west'
-        >>> bob = BaseConnection("Quonset", "east", "top,left", "QMFishHut", "top,right", "path")
+        >>> bob = BaseConnection("QuonsetGarage", "east", "top,left", "FishHut(Eastmost)", "top,right", "path")
         >>> bob.direction
         'east'
         >>> ang = bob.coord_based_direction(b) # should be > 90 and < 270
@@ -251,8 +258,8 @@ class BaseConnection:
         True
         >>> bob.direction # expecting south
         'south'
-        >>> bob.corners['Quonset']
-        >>> bob.corners['QMFishHut']
+        >>> bob.corners['QuonsetGarage']
+        >>> bob.corners['FishHut(Eastmost)']
         """
         source_ob = bases[self.source]
         sink_ob = bases[self.sink]
@@ -435,7 +442,7 @@ class BaseLocation:
         [bear:actual:base, deer:actual:base, wolf:actual:base]
         [saltdeposit:actual:base, beachcombing:actual:base]
         [bed:actual:base, trader:actual:base, quality:actual:base]
-        [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
+        [builtworkbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
         ---
         """
         self.name = name
@@ -729,7 +736,7 @@ class BaseLocation:
         # manually position the current inventory
         if self.region == INVENTORY:
             self.box_x = self.cell_size
-            self.box_y = self.cell_size + 1650
+            self.box_y = self.cell_size + 2050
             x = self.box_x
             y = self.box_y
 
@@ -888,6 +895,12 @@ def status_from_prefixes(s):
     ('planned', 'make')
     >>> status_from_prefixes('?trunk')
     ('planned', 'find')
+    >>> status_from_prefixes('chest')
+    ('actual', 'base')
+    >>> status_from_prefixes('+chest')
+    ('planned', 'bring')
+    >>> status_from_prefixes('*chest') # isn't actually makeable
+    ('planned', 'make')
     """
     if s == '':
         return ACTUAL, BASE
@@ -996,7 +1009,7 @@ def process_input(filename='bases.json', to_print=False, style_file='styling.jso
     [bear:actual:base, deer:actual:base, wolf:actual:base]
     [saltdeposit:actual:base, beachcombing:actual:base]
     [bed:actual:base, trader:actual:base, quality:actual:base]
-    [workbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
+    [builtworkbench:planned:cedar, furnbench:planned:cedar, bearbed:planned:fir]
     ---
     >>> bases.keys()
     dict_keys(['UpperMine', 'LowerMine', 'Quonset', 'QMFishHut', 'Misanthrope', 'JMFishHut', 'Jackrabbit', 'JFFishHut', 'MidFishHuts', 'CommuterCar', 'Harris', 'No3Mine', 'No5Mine', 'Hibernia', 'LonelyLighthouse', 'BrokenBridge', 'Riken', 'LittleIsland', 'MTFarm'])
@@ -1183,6 +1196,10 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
     d.append(gb)
     #d.append(draw.Use(gb, 0, 0))
 
+    counts = {}
+    if add_legend: # count before the special bases are added
+        counts = count_features(bases)
+
     if CURR_INVENTORY in bases:
         last_base_name = USED_UP
     to_bring, to_take = verify_taking_numbers(bases)
@@ -1202,8 +1219,6 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
                                      fill=colours[BASE_BG])
 
     if add_legend:
-        counts = count_features(bases)
-
         first_col_break = 65
         second_col_break = first_col_break
         draw_legend(d, colours, x=d.width-210*3-40, y=880,
@@ -1248,15 +1263,20 @@ def bases_of_region(bases, region):
     >>> 'CampOffice' in these_bases.keys()
     True
     >>> twm = bases_of_region(bases, 'TimberwolfMountain')
-    >>> twm.keys()
-    dict_keys(['CaveFromAC', 'TWMPrepperCache', 'WingArea', 'ForestCave', 'GroveSouthOfMountaineer', 'TWMFishHut', 'Mountaineer', 'CaveBelowAndresPeak', 'AndresPeak', 'EngineCave', 'CaveFromBRM', 'SecludedShelfCave', 'SummitCave', 'WaterfallCave', 'EchoRavine', 'TailSection', 'EngineCaveEast'])
-    >>> type(twm['TWMPrepperCache'])
+    >>> 'Cave(Summit)' in twm.keys()
+    True
+    >>> type(twm['PrepperCache(TWM)'])
+    <class '__main__.BaseLocation'>
+    >>> farterr = bases_of_region(bases, ['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass'])
+    >>> 'IdleCamp' in farterr.keys() and 'MainHangar' in farterr.keys() and 'VacantDepot' in farterr.keys() and 'WeatherStation' in farterr.keys()
+    True
+    >>> type(farterr['IdleCamp'])
     <class '__main__.BaseLocation'>
     """
     these_bases = {}
     for b in bases:
         bob = bases[b]
-        if bob.region == region:
+        if bob.region == region or bob.region in region:
             these_bases[b] = bob
     return these_bases
 
@@ -1483,7 +1503,7 @@ def calculate_region_coords(these_bases, regions, region,
     (1800.0, 1900.0)
     >>> these_bases['CampOffice'].region_coords # [1100, 1000] before rotation
     [800.0, 1100.0]
-    >>> these_bases['Trapper'].region_coords  # [100, 1500] before rotation
+    >>> these_bases['TrappersHomestead'].region_coords  # [100, 1500] before rotation
     [300.0, 100.0]
     """
     mid_x = total_x/2
@@ -1707,7 +1727,10 @@ def draw_multiple_regions_from_coords(these_regions, source_info,
     d.save_svg(output)
 
 
-def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND), materials_to_count=(FIND, REMOVE)):
+def count_features(bases,
+                   statuses_to_count=(ACTUAL, REMOVE, FIND),
+                   materials_to_count=(FIND, REMOVE),
+                   do_not_count=(BRING, TOBRING)):
     """
     For each feature (e.g. workbench, forge) count how many times it appears across the whole island.
     :param bases: list of BaseLocation objects
@@ -1719,6 +1742,9 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND), materials_to
     >>> nums = count_features(bases)
     >>> [nums['forge'], nums['milling'], nums['radio'], nums['trader'], nums['saltdeposit'], nums['range'], nums['woodworking']] # fixed for any given sandbox
     [4.0, 2.0, 10.0, 1.0, 14.0, 7.0, 4.0]
+    >>> #pv = bases_of_region(bases, 'PleasantValley')
+    >>> #count_features(pv)['prybar'] # 0
+    >>> #pv['Barn(Archery)'].features[0][-1] # planned bring
     """
     count = {}
     for a in ASSETS:
@@ -1727,8 +1753,14 @@ def count_features(bases, statuses_to_count=(ACTUAL, REMOVE, FIND), materials_to
     for b in bases:
         for row in bases[b].features:
             for feature in row:
-                if feature.status in statuses_to_count or feature.material in materials_to_count:
-                    count[feature.name] += feature.probability * feature.qty
+                if feature.material in do_not_count or feature.status in do_not_count:
+                    #print(feature.material, feature.status)
+                    pass
+                else:
+                    to_count_mat = feature.material in materials_to_count
+                    to_count_stat = feature.status in statuses_to_count
+                    if to_count_mat or to_count_stat:
+                        count[feature.name] += feature.probability * feature.qty
     return count
 
 
@@ -1747,11 +1779,28 @@ def verify_fixed_numbers(bases, nums):
     """
     all_matching = True
     round_to = 2
+
+    special_counts = {}
+    special_sources = {}
+    for i in ICONS:
+        if i.fixedas != i.key:
+            if i.fixedas not in special_counts:
+                special_counts[i.fixedas] = 0
+                special_sources[i.fixedas] = []
+            special_counts[i.fixedas] += round(nums[i.key],round_to)
+            special_sources[i.fixedas].append(i.key)
+
     for i in ICONS:
         if type(i.fixednum) == float:
             if round(i.fixednum,round_to) != round(nums[i.key],round_to):
                 all_matching = False
-                print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead')
+                if i.key in special_counts:
+                    total = special_counts[i.key] + nums[i.key]
+                    if round(i.fixednum,round_to) != round(total,round_to):
+                        print('Warning: expecting', i.fixednum, 'many', i.key, f'including ({special_sources[i.key]})', 'found', total, 'instead')
+                else:
+                    print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead')
+
     return all_matching
 
 
@@ -1766,7 +1815,7 @@ def verify_taking_numbers(bases):
     True
     """
     to_take = count_features(bases, statuses_to_count=[TAKE], materials_to_count=[TAKE])
-    to_bring = count_features(bases, statuses_to_count=[BRING], materials_to_count=[BRING])
+    to_bring = count_features(bases, statuses_to_count=[BRING], materials_to_count=[BRING], do_not_count=[])
     issues_found = False
     unknown_take = []
     unknown_bring = []
@@ -1855,7 +1904,7 @@ def convert_edge_info(bases):
 def draw_legend(d, colours, x=0, y=0,
                 icon_size=10, margin_ratio=1 / 8,
                 legend_colour='purple', background_colour='white',
-                column_breaks=(), counts=False):
+                column_breaks=(), counts=()):
     """
     Draw a legend
     :param d: drawing object
@@ -1888,6 +1937,7 @@ def draw_legend(d, colours, x=0, y=0,
     count_x = icon_x + text_wid
 
     lines_drawn = 0
+    text_y = 0
     for i, a in enumerate(ORDERING):
         filepath = 'assets/' + ASSETS[a]
 
@@ -2077,7 +2127,7 @@ def legends_for_documentation(icon_wid=50):
 
 def special_base(bases, name, features, connec_name, connec_dir, colours=HEXES):
     tob = BaseLocation(name,
-                       {REGION: 'NotInGame',
+                       {REGION: NOTINGAME,
                         CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
                         FEATURES: features,
                         EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
@@ -2110,17 +2160,36 @@ if __name__ == '__main__':
 
             bases, colours = process_input(fname, style_file=style_file)
 
-            draw_bases(bases, colours, output=outfile,
-                       width=4500, height=2500,
-                       base_x=3700, base_y=390,
-                       output_png=False, print_output=to_print)
+            # verify the numbers BEFORE the special bases are added
             nums = count_features(bases)
             verify_fixed_numbers(bases, nums)
+
+            draw_bases(bases, colours, output=outfile,
+                       width=4500, height=2500,
+                       base_x=3700, base_y=150,
+                       output_png=False, print_output=to_print)
+
             # by region
 
             regions = get_regions(bases)
             for r in regions:
                 draw_region(r, fname, output='output/', print_output=False)
+
+            super_regions = {'Northlands':['PleasantValley', 'TimberwolfMountain', 'AshCanyon', 'KeepersPass', 'Blackrock','WindingRiver'],
+                             'FarTerritory':['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass', 'FarRangeBranchLine'],
+                             #'Miltonlands':['HushedRiverValley', 'MountainTown'],
+                             'Mainline':['BrokenRailroad','ForlornMuskeg', 'MysteryLake', 'Ravine', 'CoastalHighway', 'OIC', 'DesolationPoint'],
+                             'Crossline':['HushedRiverValley', 'MountainTown', 'ForlornMuskeg', 'BleakInlet'],
+                             #'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
+                             }
+            if len(regions) > 20:
+                bases, colours = process_input(fname, style_file=style_file)
+                for sr in super_regions:
+                    these_bases = bases_of_region(bases, super_regions[sr])
+                    draw_bases(these_bases, colours,
+                               base_x=3000, base_y=1200,
+                               width=5000, height=3000,
+                               output=f'output/ZR:{sr}.svg', output_png=False, print_output=to_print)
 
     else:
         doctest.testmod()

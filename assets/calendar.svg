@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="92"
+   height="92"
+   viewBox="0 0 92 92"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="calendar.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.6083333"
+     inkscape:cx="45.949697"
+     inkscape:cy="38.039896"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     style="color:#000000;text-indent:0;text-transform:none;direction:ltr;baseline-shift:baseline;enable-background:accumulate;fill:#000000"
+     d="M 5,7.99999 C 2.2819,7.99999 0,10.28189 0,12.99999 V 79.00001 C 0,81.71811 2.2819,84.00001 5,84.00001 H 75.000004 C 75.790504,83.99001 76.573304,83.65991 77.125004,83.09371 L 91.125,69.09371 C 91.6726,68.54431 91.9938,67.77571 92,67.00001 V 12.99999 C 92,10.28189 89.7181,7.99999 87,7.99999 Z M 6,13.99999 H 86 V 29.99999 H 6 Z M 23,17.99999 C 20.7909,17.99999 19,19.79089 19,21.99999 19,24.20909 20.7909,25.99999 23,25.99999 25.2091,25.99999 27,24.20909 27,21.99999 27,19.79089 25.2091,17.99999 23,17.99999 Z M 69.000004,17.99999 C 66.790904,17.99999 65.000004,19.79089 65.000004,21.99999 65.000004,24.20909 66.790904,25.99999 69.000004,25.99999 71.209104,25.99999 73.000004,24.20909 73.000004,21.99999 73.000004,19.79089 71.209104,17.99999 69.000004,17.99999 Z M 6,35.99999 H 86 V 64.00001 H 77.000004 C 74.281904,64.00001 72.000004,66.28191 72.000004,69.00001 V 78.00001 H 6 Z M 16,40.99999 V 55.00001 H 28 V 40.99999 Z M 32,40.99999 V 55.00001 H 44 V 40.99999 Z M 48,40.99999 V 55.00001 H 60.000004 V 40.99999 Z M 64.000004,40.99999 V 55.00001 H 76.000004 V 40.99999 Z M 16,59.00001 V 73.00001 H 28 V 59.00001 Z M 32,59.00001 V 73.00001 H 44 V 59.00001 Z M 48,59.00001 V 73.00001 H 60.000004 V 59.00001 Z M 78.000004,70.00001 H 81.750004 L 78.000004,73.75001 Z"
+     fill="#000000"
+     fill-opacity="1"
+     stroke="none"
+     marker="none"
+     visibility="visible"
+     display="inline"
+     overflow="visible"
+     id="path1" />
+</svg>

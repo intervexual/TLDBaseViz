@@ -1,20 +1,22 @@
 %KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	STORAGE	NOTE
 bed	bed	furniture	bench	cedar		FALSE	TRUE		good
 bearbed	bear hide bed	furniture	bench	fir		FALSE	TRUE		fine
-workbench	workbench	furniture	bench	cedar	49	FALSE	TRUE	5	fine
+workbench	workbench	furniture	bench		vice	FALSE	TRUE	5	fine
+outworkbench	workbench (outdoor)	furniture	bench		vice	FALSE	TRUE	5	
+builtworkbench	workbench (built)	furniture	bench	cedar	vice	FALSE	TRUE		
 furnbench	furniture workbench	furniture	bench	cedar		FALSE	TRUE	0	good
 forge	forge	furniture	bench		4	FALSE	TRUE		good
 milling	milling machine	furniture	bench		2	FALSE	TRUE		good
 radio	trader radio	furniture	dlc		10	FALSE	TRUE		good
 trader	trade drop-box	furniture	dlc		1	FALSE	TRUE		good
-transmitter	transmitter	furniture	dlc		6	FALSE	TRUE		
+transmitter	transmitter	furniture	dlc	other	6	FALSE	TRUE		
 cache	supply cache	furniture	dlc		24	FALSE	TRUE		
 potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	0	good
 grill	2-slot stove	furniture	cooking			FALSE	TRUE	0	good
 range	6-slot stove	furniture	cooking		7	FALSE	TRUE	0	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE		fine
 trunk	rustic trunk	furniture	special	fir		FALSE	TRUE	35	good
-rockcache	rock cache	furniture	special	stone		TRUE	TRUE	30	good
+rockcache	rock cache	furniture	special	other		TRUE	TRUE	30	good
 suitcase	suitcase	furniture	special			TRUE	TRUE	20	good
 cedarbox	rustic storage box	furniture	special	cedar		TRUE	TRUE	15	
 chest	trunk (premade)	furniture	storage			FALSE	TRUE	30	
@@ -32,11 +34,19 @@ safe	safe (10kg)	furniture	storage		10	FALSE	TRUE	10
 file	10 kg drawer	furniture	storage			FALSE	TRUE	10	
 drawer	5 kg drawer	furniture	storage			FALSE	TRUE	5	
 shelf	shelf	furniture	storage			FALSE	TRUE	0	
+pillow	pillow	furniture	customization			TRUE	TRUE		
+calendar	desk calendar	furniture	customization			TRUE	TRUE		
+floppy	floppy disk	furniture	customization			TRUE	TRUE		
+horseshoe	horseshoe	furniture	customization			TRUE	TRUE		
+wallshelf	wall shelf	furniture	customization			TRUE	TRUE		
+crate	crate (portable)	furniture	customization			TRUE	TRUE		
+buildout	outdoor customization site	furniture	customization			FALSE	TRUE		
 floor	on the floor	furniture	meta			FALSE	TRUE	0	
 rug	rug / rug-covered floor	furniture	meta			TRUE	TRUE		
 mat	mat (small rug)	furniture	meta			TRUE	TRUE		
 lamp	aurora light source	furniture	meta			TRUE	TRUE		
-wallshelf	wall shelf	furniture	meta			TRUE	TRUE		
+festive	festive lights (portable)	furniture	meta		4	TRUE	TRUE		
+lights	lights (non-portable)	furniture	meta		3	FALSE	TRUE		
 decor	walls are decorated	furniture	meta			TRUE	TRUE		
 contd	inside last container	furniture	meta			FALSE	TRUE	0	
 environs	found nearby	furniture	meta			FALSE	TRUE	0	
@@ -90,8 +100,8 @@ axe	improvised hatchet	tools	harvesting			TRUE	TRUE
 hammer	heavy hammer	tools	harvesting		7	TRUE	TRUE		good
 dullknife	dull knife	tools	harvesting			TRUE	TRUE		
 dullaxe	dull axe	tools	harvesting			TRUE	TRUE		
-snare	snare	tools	exploring	reclaimed		TRUE	TRUE		good
-tipup	fishing tip-up	tools	exploring	reclaimed		TRUE	TRUE		fine
+snare	snare	tools	exploring	other		TRUE	TRUE		good
+tipup	fishing tip-up	tools	exploring	other		TRUE	TRUE		fine
 hook	hook	tools	exploring			TRUE	TRUE		
 tackle	fishing tackle	tools	exploring			TRUE	TRUE		
 bedroll	cloth bedroll	tools	exploring		8	TRUE	TRUE		good
@@ -131,7 +141,7 @@ metal	scrap metal	misc	material			TRUE	TRUE
 cloth	cloth	misc	material			TRUE	TRUE		
 leather	cured leather	misc	material			TRUE	TRUE		
 stone	stone	misc	material			TRUE	TRUE		
-vice	workbench vice	misc	material			TRUE	TRUE		good
+vice	workbench vice	misc	material	other	47	TRUE	TRUE		good
 gunpowder	can of gunpowder	misc	material			TRUE	TRUE		
 fertilizer	dusting sulphur or grow well	misc	material			TRUE	TRUE		
 moosehide	moose hide	misc	hides			TRUE	TRUE		good
@@ -187,7 +197,7 @@ harvestbirch	birch bark spawn	natural	nonanimal			FALSE	TRUE		fine
 mine	coal spawn	natural	nonanimal			FALSE	TRUE		good
 saltdeposit	salt deposit	natural	nonanimal			TRUE	TRUE		good
 beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE		good
-climb	rock climb	natural	nonanimal			FALSE	TRUE		
+climb	rock climb	natural	nonanimal	other		FALSE	TRUE		
 goating	goating route	natural	nonanimal			FALSE	TRUE		
 wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE		fine
 wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE		good

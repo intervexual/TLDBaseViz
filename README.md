@@ -121,6 +121,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Briefcase based on art by Arkinasi](https://thenounproject.com/icon/briefcase-7768730/)
 * [Cabinet by sentya irma](thenounproject.com/icon/cabinet-8048378/)
 * [Caffeine Pills by Cards Against Humanity](thenounproject.com/icon/adderall-30133/)
+* [Calendar by Galaxicon](https://thenounproject.com/icon/calendar-656473/)
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Can of Gunpowder by fauzan akbar](https://thenounproject.com/icon/ink-bottle-4586860/)
 * [Can Opener by Amethyst Studio](https://thenounproject.com/icon/can-opener-5217861/)
@@ -148,6 +149,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Cougar Hide Wrap based on art by Flowicon](https://thenounproject.com/icon/cloak-6064491/)
 * [Cowichan Sweater by ferdizzimo](https://thenounproject.com/icon/sweater-4359556/)
 * [Crampons based on art by Vectors Point](https://thenounproject.com/icon/sandal-3242123/)
+* [Crate (portable) by Isnaini](https://thenounproject.com/icon/crate-7149307/)
 * [Crow Feather by Abd Majd](https://thenounproject.com/icon/feather-5425939/)
 * [Curator's Rifle by Jarem Frye](https://thenounproject.com/icon/black-powder-muzzleloader-1202077/)
 * [Cured Leather by Amethyst Studio](https://thenounproject.com/icon/garment-5368962/)
@@ -169,6 +171,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Emergency Stim by Andi Nur Abdillah](https://thenounproject.com/icon/epipen-6104972/)
 * [Expedition Parka by Cik merry](https://tthenounproject.com/icon/winter-coat-6485467/)
 * [FastFilm-500 by Y](https://thenounproject.com/icon/film-7169719/)
+* [Festive Lights by Amethyst Studio](thenounproject.com/icon/christmas-lights-6239099/)
 * [Fir Firewood by Caro Asercion](https://commons.wikimedia.org/wiki/File:Birch-trees_-_Caro_Asercion_-_game-icons.svg) [Wikimedia Commons]
 * [Fir Limb by Vectors Market](https://thenounproject.com/icon/fir-tree-1925599/)
 * [Firestriker by IconMark](https://thenounproject.com/icon/flare-3507624/)
@@ -184,6 +187,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Flashlight by ajat sudrajat](https://thenounproject.com/icon/flashlight-8139921/)
 * [Flight Jacket based on art by Zky Icon](https://thenounproject.com/icon/winter-coat-6984285/)
 * [Floor by Free Fair & Healthy](https://thenounproject.com/icon/ground-1470114/)
+* [Floppy Disk by Cuan Studio](https://thenounproject.com/icon/floppy-disk-5575706/)
 * [Food by Abdul Matic](https://thenounproject.com/icon/food-8207935/)
 * [Forester's Revolver by Hey Rabbit](https://thenounproject.com/icon/revolver-3563944/)
 * [Foreman's Tool Belt by ahmadwil](https://thenounproject.com/icon/tool-belt-6589950/)
@@ -205,6 +209,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Heavy Hammer by Firza Alamsyah](https://thenounproject.com/icon/mallet-6908733/)
 * [Hockey Jersey / Festive Sweater by Andry Horvath](https://thenounproject.com/icon/sweater-5130736/)
 * [Hook by Andy Mc](https://thenounproject.com/icon/fish-hook-1213232/)
+* [Horseshoe by Muhammad Nur Auliady Pamungkas](https://thenounproject.com/icon/horseshoe-8078569/)
 * [Hunter's Revolver by Graphic Nehar](https://thenounproject.com/icon/revolver-4109226/)
 * [Hunting Knife by icongarage](https://thenounproject.com/icon/knife-5589049/)
 * [Hunting Rifle by Hey Rabbit](https://thenounproject.com/icon/rifle-4932408/)
@@ -218,6 +223,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Lamp by Angriawan Ditya Zulkarnain](https://thenounproject.com/icon/lamp-1178621/)
 * [Lantern by Athok](https://thenounproject.com/icon/lantern-8105507/)
 * [Lantern Fuel by Justin Blake](https://thenounproject.com/icon/oil-165705/)
+* [Lights by Melvin Salas](https://thenounproject.com/icon/christmas-lights-3993948/)
+* [Location can be used to enter Safehouse Customization mode outdoors](thenounproject.com/icon/configure-951002/)
 * [Locker by popcornarts](https://thenounproject.com/icon/locker-8275606/)
 * [Mackinaw Jacket based on art by ToZIcon](https://thenounproject.com/icon/jacket-5072903/)
 * [Magnifying Lens by vectaicon](https://thenounproject.com/icon/search-6437462/)
@@ -243,7 +250,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Old Man's Beard Lichen by Magicon](https://thenounproject.com/icon/lichen-299656/)
 * [Old Man's Beard Wound Dressing by Zaach Bogart](https://thenounproject.com/icon/seaweed-3644863/)
 * [Old Mill Flour by Contributor Icons](https://thenounproject.com/icon/flour-7881472/)
+* [Outdoors (used for outdoor workbenches) by Uut Eva Ariani](thenounproject.com/icon/weather-7388265/)
 * [Pemmican Bar by Llisole](https://thenounproject.com/icon/nuts-bar-4183125/)
+* [Pillow by Tsundere Project](https://thenounproject.com/icon/pillow-5969315/)
 * [Plastic Container by Ranah Pixel Studio](https://thenounproject.com/icon/plastic-containers-3765569/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
 * [Polaroid by Alice Design](https://thenounproject.com/icon/polaroid-2059579/)
@@ -336,12 +345,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Workbench Vice by Melisa Lutfiani](https://thenounproject.com/icon/vice-6758814/)
 
 ## TODOs
-### Icons to add
-1. Icons for all accessories
-13. Separate icon for outdoor workbench?
 
-### Coding/UX
-0. The legend is counting bring-to items!
+### Drawing-related
 1. Rethink how draw the graph so position doesn't need so much manual tweaking
 2. Stitch the coord-based maps together. Figure out how to handle the fact that AC-TWM-PV-KP-BRM does not have a shared point with most of island, and that HRV and DP are similarly only  accessed via caves.
 3. Visualize bases on this new graph
@@ -349,19 +354,18 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 1. Automatically split legend up to make it easier to fit
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location
-4. Write more documentation for other people to use it
-7. Finish loot table templates for interloper, automate a way to base them off of mybases.json
-10. Refine the dark mode / hi contrast style
-11. When checking workbench number, count vices as well
-12. High-level view vs detail view
-13. Location tiers and minimum supplies for each
-14. Add all prepper caches to mybases.json 
-15. Add other POIs to mybases.json that are in loottable4.json
 16. Arrows for one-way paths to indicate direction
 
+### Non-drawing features
+1. Write more documentation for other people to use it
+2. Finish loot table templates for interloper, automate a way to base them off of mybases.json
+15. Add other POIs to mybases.json that are in loottable4.json
+10. Refine the dark mode / hi contrast style
+12. High-level view vs detail view
+13. Location tiers and minimum supplies for each
+
 ### Maybe later
-9. Add some level of importance/priority?
-10. Add some indicator of wear/decay
+1. Add some level of importance/priority?
 11. Item weights in legend.csv
 
 ## Acknowledgments

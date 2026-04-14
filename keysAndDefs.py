@@ -18,6 +18,8 @@ TOMAKE = '*'
 
 PREFIXES = {TOBRING:BRING, TOREMOVE:REMOVE, TOFIND:FIND, TOMAKE:MAKE}
 
+NOTINGAME = 'NotInGame'
+
 FEATURES = 'features'
 CUSTOMIZABLE = 'customizable'
 LOADING = 'loading'
@@ -142,7 +144,7 @@ INVENTORY = 'Inventory'
 CURR_INVENTORY = 'CurrentInventory'
 USED_UP = 'UsedUp'
 
-TRUES = ['true', '''"true"''']
+TRUES = ['TRUE', 'True', 'true', '''"true"''']
 
 class LegendAsset:
     def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper, note='', extra=''):
@@ -156,8 +158,13 @@ class LegendAsset:
             material = BRING
         self.material = material
 
+        self.fixedas = self.key
         if fixednum != '':
-            fixednum = float(fixednum)
+            try:
+                fixednum = float(fixednum)
+            except:
+                self.fixedas = fixednum
+                fixednum = ''
         self.fixednum = fixednum
 
         self.movable = movable.lower() in TRUES

@@ -58,7 +58,7 @@
 			"features": ["bear,deer,wolf",
 						"saltdeposit,beachcombing",
 						"bed, trader, quality",
-						"*workbench, *furnbench, *bearbed"
+						"*builtworkbench, *furnbench, *bearbed"
 			]
 		},
 		"JMFishHut": {
@@ -80,7 +80,7 @@
 			"features": ["rabbit,deer",
 						"saltdeposit,beachcombing",
 						"bed, quality",
-						"*workbench, *furnbench, *bearbed"
+						"*builtworkbench, *furnbench, *bearbed"
 			]
 		},
 		"JFFishHut": {
