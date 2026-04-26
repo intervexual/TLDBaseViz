@@ -259,7 +259,7 @@ def reset_edges(edges):
     return connections
 
 
-def print_template(bases, edges, outname='output/template.json'):
+def print_template(bases, edges, outname='templates/template.json'):
     """
 
     :param filename:

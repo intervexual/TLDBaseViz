@@ -55,7 +55,8 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "wolf"
+                "wolf",
+                "?sweater/0.3333, ?socks/1.0"
             ]
         },
         "BearCave(EchoRavine)": {
@@ -572,8 +573,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine",
-                "?jersey/0.3333, ?socks/1.0"
+                "mine"
             ]
         },
         "POI(Grove)": {
@@ -1582,7 +1582,7 @@
                 "bed,?workbench",
                 "?washer:2.0:2.0",
                 "?calendar:3:3",
-                "?hacksaw/0.1429, ?skillet/0.7368, ?cookpot/0.7391, ?saltbag/1.0, ?jersey/0.3333, ?prybar/0.1667, ?prybar/0.2162, ?canopener/1.0, ?rope/1.0, ?research/0.4545, ?food/0.625, ?food/0.625, ?food/0.625, ?food/0.6667, ?food/0.6667, ?food/0.6667"
+                "?hacksaw/0.1429, ?skillet/0.7368, ?cookpot/0.7391, ?saltbag/1.0, ?sweater/0.3333, ?prybar/0.1667, ?prybar/0.2162, ?canopener/1.0, ?rope/1.0, ?research/0.4545, ?food/0.625, ?food/0.625, ?food/0.625, ?food/0.6667, ?food/0.6667, ?food/0.6667"
             ]
         },
         "Barn(Mollys)": {
@@ -3048,7 +3048,7 @@
                 "?firstaid,?drawer,?oven,?freezer,?oven,?cabinet",
                 "bed",
                 "?drawer",
-                "?jersey/0.3333"
+                "?sweater/0.3333"
             ]
         },
         "House(NorthCoastalTownsite)": {
@@ -7581,6 +7581,21 @@
                 "mine"
             ]
         },
+        "Climb(LLH-CC)": {
+            "region": "SunderedPass",
+            "coords": [
+                800,
+                500
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "climb"
+            ]
+        },
         "LastLonelyHouse": {
             "region": "SunderedPass",
             "coords": [
@@ -7616,6 +7631,21 @@
             "features": [
                 "ptarmigan",
                 "!cache"
+            ]
+        },
+        "Climb(SP-WC)": {
+            "region": "SunderedPass",
+            "coords": [
+                650,
+                -400
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "climb"
             ]
         },
         "Garage(WeatherStation)": {
@@ -7688,6 +7718,19 @@
                 "wolf,ptarmigan",
                 "?bedroll/0.25"
             ]
+        },
+        "Climb(AbandonedMine)": {
+            "region": "SunderedPass",
+            "coords": [
+                650,
+                -950
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": []
         },
         "AbandonedMine(SP)": {
             "region": "SunderedPass",
@@ -7857,6 +7900,21 @@
                 "?canopener/0.0833, ?polaroid/1.0"
             ]
         },
+        "Climb(AL-RC)": {
+            "region": "SunderedPass",
+            "coords": [
+                -1000,
+                -500
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "climb"
+            ]
+        },
         "RoamersCave": {
             "region": "SunderedPass",
             "coords": [
@@ -7933,112 +7991,6 @@
             "explored": false,
             "features": []
         },
-        "Cave(LastHorizon)": {
-            "region": "SunderedPass",
-            "coords": [
-                -1100,
-                250
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "rabbit",
-                "bed"
-            ]
-        },
-        "POI(HighPeakPlateau)": {
-            "region": "SunderedPass",
-            "coords": [
-                -800,
-                500
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "ptarmigan",
-                "?grill",
-                "?polaroid"
-            ]
-        },
-        "Climb(AbandonedMine)": {
-            "region": "SunderedPass",
-            "coords": [
-                650,
-                950
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": []
-        },
-        "Climb(SP-WC)": {
-            "region": "SunderedPass",
-            "coords": [
-                650,
-                -400
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "climb"
-            ]
-        },
-        "Climb(LLH-CC)": {
-            "region": "SunderedPass",
-            "coords": [
-                800,
-                500
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "climb"
-            ]
-        },
-        "Climb(LLH-BB)": {
-            "region": "SunderedPass",
-            "coords": [
-                400,
-                1000
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "climb"
-            ]
-        },
-        "Climb(AL-RC)": {
-            "region": "SunderedPass",
-            "coords": [
-                -1000,
-                -500
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "climb"
-            ]
-        },
         "Climb(RC-HPP1)": {
             "region": "SunderedPass",
             "coords": [
@@ -8074,6 +8026,54 @@
             "coords": [
                 -1050,
                 200
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "climb"
+            ]
+        },
+        "Cave(LastHorizon)": {
+            "region": "SunderedPass",
+            "coords": [
+                -1100,
+                250
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "rabbit",
+                "bed"
+            ]
+        },
+        "POI(HighPeakPlateau)": {
+            "region": "SunderedPass",
+            "coords": [
+                -800,
+                500
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "ptarmigan",
+                "?grill",
+                "?polaroid"
+            ]
+        },
+        "Climb(LLH-BB)": {
+            "region": "SunderedPass",
+            "coords": [
+                400,
+                1000
             ],
             "customizable": false,
             "loading": false,
@@ -12867,7 +12867,7 @@
             "Cave(ConnectingSA)",
             "south",
             "bottom,right",
-            "LastLonelyHouse",
+            "Climb(LLH-CC)",
             "top,left",
             "default"
         ],
@@ -12875,8 +12875,24 @@
             "POI(PerilousCrossing)",
             "north",
             "top,left",
+            "Climb(SP-WC)",
+            "bottom,left",
+            "default"
+        ],
+        [
+            "Climb(SP-WC)",
+            "north",
+            "top,left",
             "Garage(WeatherStation)",
             "bottom,left",
+            "default"
+        ],
+        [
+            "Garage(WeatherStation)",
+            "east",
+            "top,right",
+            "RadarBuilding",
+            "top,left",
             "default"
         ],
         [
@@ -12897,7 +12913,7 @@
         ],
         [
             "Garage(WeatherStation)",
-            "east",
+            "south",
             "bottom,right",
             "IdleHideout",
             "top,left",
@@ -12906,9 +12922,17 @@
         [
             "Garage(WeatherStation)",
             "north",
-            "top,left",
+            "top,right",
             "StationBunkhouse",
             "bottom,left",
+            "default"
+        ],
+        [
+            "Climb(LLH-CC)",
+            "south",
+            "bottom,right",
+            "LastLonelyHouse",
+            "top,left",
             "default"
         ],
         [
@@ -12931,7 +12955,7 @@
             "CrashSite(SP)",
             "east",
             "top,right",
-            "AbandonedMine(SP)",
+            "Climb(AbandonedMine)",
             "top,left",
             "default"
         ],
@@ -12949,6 +12973,14 @@
             "top,right",
             "PrayerfulWindow",
             "bottom,left",
+            "default"
+        ],
+        [
+            "Climb(AbandonedMine)",
+            "east",
+            "top,right",
+            "AbandonedMine(SP)",
+            "top,left",
             "default"
         ],
         [
@@ -13011,7 +13043,7 @@
             "FishHut(SA)",
             "east",
             "top,right",
-            "RoamersCave",
+            "Climb(AL-RC)",
             "top,left",
             "default"
         ],
@@ -13024,7 +13056,39 @@
             "default"
         ],
         [
+            "Climb(AL-RC)",
+            "east",
+            "top,right",
             "RoamersCave",
+            "top,left",
+            "default"
+        ],
+        [
+            "RoamersCave",
+            "south",
+            "bottom,left",
+            "Climb(RC-HPP1)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Climb(RC-HPP1)",
+            "south",
+            "bottom,left",
+            "Climb(RC-HPP2)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Climb(RC-HPP2)",
+            "south",
+            "bottom,left",
+            "Climb(RC-HPP3)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Climb(RC-HPP3)",
             "south",
             "bottom,left",
             "Cave(LastHorizon)",
@@ -13041,6 +13105,14 @@
         ],
         [
             "POI(HighPeakPlateau)",
+            "west",
+            "top,left",
+            "Climb(RC-HPP4)",
+            "top,right",
+            "default"
+        ],
+        [
+            "Climb(RC-HPP4)",
             "west",
             "top,left",
             "POI(DeadEnd)",
@@ -13083,7 +13155,7 @@
             "LottesRest",
             "west",
             "bottom,left",
-            "MiserableHaunt",
+            "Climb(LLH-BB)",
             "bottom,right",
             "default"
         ],
@@ -13092,6 +13164,14 @@
             "north",
             "top,left",
             "MiserableHaunt",
+            "bottom,left",
+            "default"
+        ],
+        [
+            "MiserableHaunt",
+            "east",
+            "bottom,right",
+            "Climb(LLH-BB)",
             "bottom,left",
             "default"
         ],

@@ -267,7 +267,7 @@
         "MountaineersHut",
         "FishHut(TWM)",
         "TailSection",
-        "Cave(EngineEast)"
+        "POI(EngineCargo)"
       ],
       "lantern": [
         "FishHut(TWM)"
@@ -1312,13 +1312,13 @@
       ]
     },
     "thinwoolsweater": {
-      "key": "jersey",
+      "key": "sweater",
       "note": "Total is a guess; missing locations",
       "total": 1,
       "locations": [
         "PVFarmhouse",
         "MisanthropesHomestead",
-        "Cave(EngineEast)"
+        "POI(EngineCargo)"
       ]
     },
     "thermalUnderwear": {
@@ -1362,7 +1362,7 @@
     "socks:guaranteed": {
       "key": "socks",
       "locations": [
-        "Cave(EngineEast)",
+        "POI(EngineCargo)",
         "TailSection"
       ]
     },

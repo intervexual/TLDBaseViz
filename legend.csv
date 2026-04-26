@@ -125,7 +125,7 @@ polaroid	polaroid	misc	misc		27	TRUE	TRUE		good
 camera	camera	misc	misc		1	TRUE	TRUE		
 handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE		
 mementokey	memento key	misc	misc		7	TRUE	TRUE		
-rope	climbing rope	misc	misc		78	TRUE	TRUE		
+rope	climbing rope	misc	misc		78	TRUE	TRUE		77 rope climbing positions; 19 spawns
 coal	coal piece	misc	fire			TRUE	TRUE		good
 stick	stick	misc	fire			TRUE	TRUE		good
 cedar	cedar firewood	misc	fire			TRUE	TRUE		

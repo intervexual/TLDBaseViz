@@ -2209,7 +2209,7 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
             draw_bases(these_bases, colours,
                        base_x=3000, base_y=1200,
                        width=5000, height=3000,
-                       output=f'output/ZR:{sr}.svg', output_png=False, print_output=to_print, print_warnings=False)
+                       output= region_folder + f'ZR-{sr}.svg', output_png=False, print_output=to_print, print_warnings=False)
 
 
 if __name__ == '__main__':
