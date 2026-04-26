@@ -118,7 +118,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Box by Elin Erkani](https://thenounproject.com/icon/archive-7281787/)
 * [Bunker Rifle based on art by ka reemov](https://thenounproject.com/icon/shotgun-4424070/)
 * [Bushcraft Bow by Mask Icon](https://thenounproject.com/icon/bow-2420258/)
-* [Briefcase based on art by Arkinasi](https://thenounproject.com/icon/briefcase-7768730/)
+* [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
 * [Cabinet by sentya irma](thenounproject.com/icon/cabinet-8048378/)
 * [Caffeine Pills by Cards Against Humanity](thenounproject.com/icon/adderall-30133/)
 * [Calendar by Galaxicon](https://thenounproject.com/icon/calendar-656473/)
@@ -218,6 +218,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Improvised Insulation based on art by Amethyst Stedio](https://thenounproject.com/icon/corset-5296859/)
 * [Improvised Knife based on art by J703](https://thenounproject.com/icon/knife-5354803/)
 * [Insulated Flask by AbtoCreative](https://thenounproject.com/icon/thermos-7022139/)
+* [Insulated Flask (sticker variant) by AbtoCreative](https://thenounproject.com/icon/thermos-7022308/)
 * [Insulated Boots by Side Project](https://thenounproject.com/icon/boots-8106551/)
 * [Jerry Can by Nikita Kozin](https://thenounproject.com/icon/jerry-can-451668/)
 * [Lamp by Angriawan Ditya Zulkarnain](https://thenounproject.com/icon/lamp-1178621/)
@@ -233,6 +234,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Marine Flare by Amethyst Studio](https://thenounproject.com/icon/signal-flare-5217088/)
 * [Mariner's Pea Coat by Smallike](https://thenounproject.com/icon/jacket-2214264/)
 * [Matches by Zach Bogart](https://thenounproject.com/icon/matchbook-4449825/)
+* [Memento box (and key) by BGBOXXX Design](https://thenounproject.com/icon/briefcase-keys-1905055/)
 * [Metal Container by Amethyst Studio](https://thenounproject.com/icon/carton-5097479/)
 * [Military Coat by Blackonion](https://thenounproject.com/icon/coat-6501999/)
 * [Miner's Flashlight by Amethyst Studio](https://thenounproject.com/icon/flashlight-4891978/)
@@ -251,6 +253,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Old Man's Beard Wound Dressing by Zaach Bogart](https://thenounproject.com/icon/seaweed-3644863/)
 * [Old Mill Flour by Contributor Icons](https://thenounproject.com/icon/flour-7881472/)
 * [Outdoors (used for outdoor workbenches) by Uut Eva Ariani](thenounproject.com/icon/weather-7388265/)
+* [Outside by Sujono sujono](https://thenounproject.com/icon/outside-arrow-3655944/)
 * [Pemmican Bar by Llisole](https://thenounproject.com/icon/nuts-bar-4183125/)
 * [Pillow by Tsundere Project](https://thenounproject.com/icon/pillow-5969315/)
 * [Plastic Container by Ranah Pixel Studio](https://thenounproject.com/icon/plastic-containers-3765569/)
@@ -272,6 +275,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Recycled Can by S. Salinas](https://thenounproject.com/icon/can-85822/)
 * [Reishi Mushroom by Amando Hua](https://thenounproject.com/icon/mushroom-8284236/)
 * [Replacement Fuse by M. Tohirin](https://thenounproject.com/icon/fuse-7799062/)
+* [Research Book by bellvania naomi argi pramana](https://thenounproject.com/icon/book-7748809/)
 * [Respirator by cakslankers](https://thenounproject.com/icon/respirator-8276636/)
 * [Revolver by Eskak](https://thenounproject.com/icon/revolver-8168224/)
 * [Revolver Ammunition by basticon](https://thenounproject.com/icon/bullet-5609630/)
@@ -303,6 +307,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Stick by Delapouite](https://commons.wikimedia.org/wiki/File:Water-diviner-stick_-_Delapouite_-_game-icons.svg) [Wikipedia Commons]
 * [Stone by Amethyst Studio](https://thenounproject.com/icon/clay-pebbles-5683178/)
 * [Suitcase by shashank singh](https://thenounproject.com/icon/suitcase-2860772/)
+* [Supply Bin by Deemak Daksina](https://thenounproject.com/icon/dumpster-2128065/)
 * [Supply Cache by Gregor Cresnar](https://thenounproject.com/icon/wireless-charging-539757/)
 * [Survival Bow by Anditii Creative](https://thenounproject.com/icon/bow-archer-7655054/)
 * [Survival Knife by Soremba](https://thenounproject.com/icon/knife-4460861/)
@@ -324,6 +329,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Vaughn's Rife by ka reemov](https://thenounproject.com/icon/shotgun-4424071/)
 * [Vitamin-C Pills by Studio 365](https://thenounproject.com/icon/diet-supplement-4482553/)
 * [Warden's Revolver by Eskak](https://thenounproject.com/icon/revolver-8168232/)
+* [Washing Machine by Yosua Bungaran](https://thenounproject.com/icon/washing-machine-8325696/)
 * [Water Bottle by Hilmy Abiyyu Asad](https://thenounproject.com/icon/water-bottle-8270656/)
 * Whetstone is original art for this project
 * [Windbreaker by Lars Meiertoberens](https://thenounproject.com/icon/windbreaker-6792064/)
@@ -355,14 +361,45 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location
 16. Arrows for one-way paths to indicate direction
+17. Look into existing libraries, e.g.
+    * https://memgraph.com/blog/graph-visualization-in-python 
+    * https://github.com/paulbrodersen/netgraph/tree/master 
+    * https://plotly.com/python/network-graphs/ 
+    * https://graphviz.org/docs/layouts/neato/ 
 
 ### Non-drawing features
 1. Write more documentation for other people to use it
-2. Finish loot table templates for interloper, automate a way to base them off of mybases.json
-15. Add other POIs to mybases.json that are in loottable4.json
 10. Refine the dark mode / hi contrast style
 12. High-level view vs detail view
 13. Location tiers and minimum supplies for each
+
+### Template creation
+1. Average across all four loot tables
+9. Add where to BRING the polaroids
+13. Tea & coffee
+15. Crackers
+5. Nicer organization of base features in template
+4. Consolidate repeated features (e.g. lockers) into stacked numbered entries
+8. RNG tables for cupboards, lockers, etc?
+9. Once features seem stable, worry about placement of icons
+10. Improve guesses as to locations of: pillows, batteries, DP ammo, the crampons in TWM, etc
+11. Add any non-loot-table hacksaw, hammer, bedroll, maglens, firestriker, lantern: https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 
+12. Check matches versus https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241
+
+### Locations to add (particularly for templates)
+16. Add supply caches
+17. Add hidden caches
+10. ALL possible bear spawns
+
+### Icons to add
+1. Snow shelter
+1. Burdock
+2. Cooked acorns
+3. Various teas?
+4. Rustic & quilted beds
+5. Tea
+6. Coffee
+7. Crackers
 
 ### Maybe later
 1. Add some level of importance/priority?

@@ -110,6 +110,8 @@ class BaseFeature:
         Traceback (most recent call last):
         ...
         AssertionError: *chest is not craftable
+        >>> str(BaseFeature('!transmitter'))
+        'transmitter:actual:prepare'
         """
         self.qty = float(qty)
         if QTY_MARKER in name and not name.startswith(TOTEXT):
@@ -486,6 +488,11 @@ class BaseLocation:
             for dir in data[CONNECTIONS]:
                 sink_name = data[CONNECTIONS][dir]
                 self.connections[sink_name] = dir
+
+        self.removed = []
+        if 'removed' in data:
+            self.removed = data['removed']
+
     def reset_drawing(self):
         self.is_drawn = False
         for e in self.edges_drawn:
@@ -901,6 +908,12 @@ def status_from_prefixes(s):
     ('planned', 'bring')
     >>> status_from_prefixes('*chest') # isn't actually makeable
     ('planned', 'make')
+    >>> status_from_prefixes('$plastic')
+    ('actual', 'moved-customization')
+    >>> status_from_prefixes('$workbench')
+    ('actual', 'moved-customization')
+    >>> status_from_prefixes('!transmitter')
+    ('actual', 'prepare')
     """
     if s == '':
         return ACTUAL, BASE
@@ -918,11 +931,15 @@ def status_from_prefixes(s):
         return PLANNED, FIND
     elif s.startswith(TOMAKE):
         return PLANNED, MAKE
+    elif s.startswith(GLITCHBROUGHT):
+        return ACTUAL, MOVED
+    elif s.startswith(TOPREPARE):
+        return ACTUAL, PREPARE
 
     return ACTUAL, BASE
 
 
-def parse_input(filename='bases.json'):
+def parse_input(filename='bases.json', regionfile='regions.json'):
     """
     Load JSON into dictionary format
     :param filename: input filename
@@ -940,6 +957,9 @@ def parse_input(filename='bases.json'):
     regions = {}
     if REGIONS in data:
         regions = data[REGIONS]
+    else:
+        with open(regionfile, 'r') as f:
+            regions = json.load(f)
     return bases, edges, regions
 
 
@@ -1238,7 +1258,7 @@ def get_regions(bases):
     >>> bases, edges = process_input('tests/testinput.json')
     >>> get_regions(bases)
     ['CoastalHighway', 'DesolationPoint', 'MountainTown', 'OIC']
-    >>> bases, edges = process_input('loottable4.json')
+    >>> bases, edges = process_input('templates/loot4.json')
     >>> get_regions(bases)
     ['AshCanyon', 'Blackrock', 'BleakInlet', 'BrokenRailroad', 'CoastalHighway', 'DesolationPoint', 'FarRangeBranchLine', 'ForlornMuskeg', 'ForsakenAirfield', 'HushedRiverValley', 'KPN', 'KPS', 'MountainTown', 'MysteryLake', 'OIC', 'PleasantValley', 'Ravine', 'SunderedPass', 'TimberwolfMountain', 'TransferPass', 'WindingRiver', 'ZoneOfContamination']
     """
@@ -1268,7 +1288,7 @@ def bases_of_region(bases, region):
     >>> type(twm['PrepperCache(TWM)'])
     <class '__main__.BaseLocation'>
     >>> farterr = bases_of_region(bases, ['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass'])
-    >>> 'IdleCamp' in farterr.keys() and 'MainHangar' in farterr.keys() and 'VacantDepot' in farterr.keys() and 'WeatherStation' in farterr.keys()
+    >>> 'IdleCamp' in farterr.keys() and 'MainHangar' in farterr.keys() and 'VacantDepot' in farterr.keys() and 'LastLonelyHouse' in farterr.keys()
     True
     >>> type(farterr['IdleCamp'])
     <class '__main__.BaseLocation'>
@@ -1288,15 +1308,15 @@ def draw_region(region, source_info, output='tests/',
     :param region: region name as string, e.g. 'AshCanyon'
     :param source_info: input json filename
     :return:
-    >>> draw_region('AshCanyon', 'loottable4.json', print_output=False)
-    >>> draw_region('TimberwolfMountain', 'loottable4.json', print_output=False, add_legend=True)
+    >>> draw_region('AshCanyon', 'templates/loot4.json', print_output=False)
+    >>> draw_region('TimberwolfMountain', 'templates/loot4.json', print_output=False, add_legend=True)
     >>> draw_region('Blackrock', 'mybases.json', print_output=False)
     >>> draw_region('PleasantValley', 'mybases.json', print_output=False)
     >>> draw_region('MountainTown', 'mybases.json', print_output=False)
-    >>> draw_region('MysteryLake', 'loottable4.json', print_output=False)
-    >>> draw_region('ForlornMuskeg', 'loottable4.json', print_output=False)
-    >>> draw_region('SunderedPass', 'loottable4.json', print_output=False)
-    >>> draw_region('HushedRiverValley', 'loottable4.json', print_output=False, add_legend=True)
+    >>> draw_region('MysteryLake', 'templates/loot4.json', print_output=False)
+    >>> draw_region('ForlornMuskeg', 'templates/loot4.json', print_output=False)
+    >>> draw_region('SunderedPass', 'templates/loot4.json', print_output=False)
+    >>> draw_region('HushedRiverValley', 'templates/loot4.json', print_output=False, add_legend=True)
     """
     bases, colours = process_input(source_info)
     these_bases = bases_of_region(bases, region)
@@ -1304,8 +1324,8 @@ def draw_region(region, source_info, output='tests/',
     output = output + region + '.svg'
 
     draw_bases(these_bases, colours,
-               base_x = 1000, base_y = 1000,
-               width = 2000, height = 2000,
+               base_x = 1500, base_y = 1500,
+               width = 2500, height = 2500,
                add_legend=add_legend, print_output=print_output,
                output=output, output_png=False, print_warnings=False)
 
@@ -1769,7 +1789,7 @@ def verify_fixed_numbers(bases, nums):
 
     :param bases:
     :return:
-    >>> bases, colours = process_input('loottable4.json')
+    >>> bases, colours = process_input('templates/loot4.json')
     >>> nums = count_features(bases)
     >>> verify_fixed_numbers(bases, nums)
     >>> bases, colours = process_input('mybases.json')
@@ -2140,57 +2160,66 @@ def special_base(bases, name, features, connec_name, connec_dir, colours=HEXES):
     return tob
 
 
+
+def draw_bases_regionally_and_together(fname, region_folder='output/'):
+    outfile = fname.replace('.json', '.svg')
+
+    # TODO automatically centre the base system rather than manually specifying
+
+    to_print = False
+    if len(sys.argv) > 2 and '-v' in sys.argv[2:]:
+        to_print = True
+    style_file = STYLE_FILE
+    if len(sys.argv) > 2 and '-s' in sys.argv[2:]:
+        i = sys.argv.index('-s')
+        style_file = sys.argv[i + 1]
+        assert style_file.endswith('.json'), f'style file {style_file} should end with .json'
+
+    bases, colours = process_input(fname, style_file=style_file)
+
+    # verify the numbers BEFORE the special bases are added
+    nums = count_features(bases)
+    verify_fixed_numbers(bases, nums)
+
+    draw_bases(bases, colours, output=outfile,
+               width=4500, height=2500,
+               base_x=3700, base_y=150,
+               output_png=False, print_output=to_print)
+
+    # by region
+
+    regions = get_regions(bases)
+    for r in regions:
+        draw_region(r, fname, output=region_folder, print_output=False)
+
+    super_regions = {
+        'Northlands': ['PleasantValley', 'TimberwolfMountain', 'AshCanyon', 'KeepersPass', 'Blackrock', 'WindingRiver'],
+        'FarTerritory': ['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass',
+                         'FarRangeBranchLine'],
+        # 'Miltonlands':['HushedRiverValley', 'MountainTown'],
+        'Mainline': ['BrokenRailroad', 'ForlornMuskeg', 'MysteryLake', 'Ravine', 'CoastalHighway', 'OIC',
+                     'DesolationPoint'],
+        'Crossline': ['HushedRiverValley', 'MountainTown', 'ForlornMuskeg', 'BleakInlet'],
+        # 'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
+        }
+    if len(regions) > 20:
+        bases, colours = process_input(fname, style_file=style_file)
+        for sr in super_regions:
+            these_bases = bases_of_region(bases, super_regions[sr])
+            draw_bases(these_bases, colours,
+                       base_x=3000, base_y=1200,
+                       width=5000, height=3000,
+                       output=f'output/ZR:{sr}.svg', output_png=False, print_output=to_print, print_warnings=False)
+
+
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         fname = sys.argv[1]
         print('Drawing', fname)
         if fname.endswith('.json'):
-            outfile = fname.replace('.json', '.svg')
-
-            # TODO automatically centre the base system rather than manually specifying
-
-            to_print = False
-            if len(sys.argv) > 2 and '-v' in sys.argv[2:]:
-                to_print = True
-            style_file = STYLE_FILE
-            if len(sys.argv) > 2 and '-s' in sys.argv[2:]:
-                i = sys.argv.index('-s')
-                style_file = sys.argv[i+1]
-                assert style_file.endswith('.json'), f'style file {style_file} should end with .json'
-
-            bases, colours = process_input(fname, style_file=style_file)
-
-            # verify the numbers BEFORE the special bases are added
-            nums = count_features(bases)
-            verify_fixed_numbers(bases, nums)
-
-            draw_bases(bases, colours, output=outfile,
-                       width=4500, height=2500,
-                       base_x=3700, base_y=150,
-                       output_png=False, print_output=to_print)
-
-            # by region
-
-            regions = get_regions(bases)
-            for r in regions:
-                draw_region(r, fname, output='output/', print_output=False)
-
-            super_regions = {'Northlands':['PleasantValley', 'TimberwolfMountain', 'AshCanyon', 'KeepersPass', 'Blackrock','WindingRiver'],
-                             'FarTerritory':['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass', 'FarRangeBranchLine'],
-                             #'Miltonlands':['HushedRiverValley', 'MountainTown'],
-                             'Mainline':['BrokenRailroad','ForlornMuskeg', 'MysteryLake', 'Ravine', 'CoastalHighway', 'OIC', 'DesolationPoint'],
-                             'Crossline':['HushedRiverValley', 'MountainTown', 'ForlornMuskeg', 'BleakInlet'],
-                             #'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
-                             }
-            if len(regions) > 20:
-                bases, colours = process_input(fname, style_file=style_file)
-                for sr in super_regions:
-                    these_bases = bases_of_region(bases, super_regions[sr])
-                    draw_bases(these_bases, colours,
-                               base_x=3000, base_y=1200,
-                               width=5000, height=3000,
-                               output=f'output/ZR:{sr}.svg', output_png=False, print_output=to_print)
-
+            draw_bases_regionally_and_together(fname)
+        else:
+            print('To run: python3 TLDBaseViz.py mybases.json')
     else:
         doctest.testmod()
         print('To run: python3 TLDBaseViz.py mybases.json')

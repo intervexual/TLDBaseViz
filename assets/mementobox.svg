@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="764"
+   height="764"
+   viewBox="0 0 764 764"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="mementobox.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.60052083"
+     inkscape:cx="509.55768"
+     inkscape:cy="655.26453"
+     inkscape:window-width="2256"
+     inkscape:window-height="1427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="ellipse1"
+     class="fil0"
+     d="M 382.5,76.125 C 300.25,76.125 218,111.375 218,181.875 H 107 C 47,189.875 0,240.875 0,302.875 V 546.875 C 0,608.875 47,659.875 107,667.875 H 138 V 687.875 H 200 V 669.875 H 565 V 687.875 H 627 V 667.875 H 657 C 717,659.875 764,608.875 764,546.875 V 302.875 C 764,240.875 717,189.875 657,181.875 H 547 C 547,111.375 464.75,76.125 382.5,76.125 Z M 382.5,130.125 C 437.75,130.125 493,147.375 493,181.875 H 272 C 272,147.375 327.25,130.125 382.5,130.125 Z M 482.75195,301.63086 C 485.78125,301.71875 488.875,302.125 492,302.875 L 605,327.875 C 670,342.875 670,525.875 605,540.875 L 492,565.875 C 467,571.875 444,555.875 440,530.875 L 438,499.875 388,498.875 365,474.875 H 335 L 326,455.875 H 300 L 296,474.875 H 279 L 270,455.875 H 245 L 240,474.875 H 138 L 89,430.875 138,393.875 H 343 L 365,369.875 H 438 L 440,337.875 C 443.5,316 461.54688,301.01562 482.75195,301.63086 Z M 571,365.875 A 38,69 0 0 0 533,434.875 38,69 0 0 0 571,503.875 38,69 0 0 0 609,434.875 38,69 0 0 0 571,365.875 Z"
+     style="fill:#000000;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+</svg>

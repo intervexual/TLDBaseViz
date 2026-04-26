@@ -1,5 +1,6 @@
 %KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	STORAGE	NOTE
-bed	bed	furniture	bench	cedar		FALSE	TRUE		good
+bed	location with a bed	furniture	bench			FALSE	TRUE		good
+rusticbed	rustic bed	furniture	bench	cedar		FALSE	TRUE		
 bearbed	bear hide bed	furniture	bench	fir		FALSE	TRUE		fine
 workbench	workbench	furniture	bench		vice	FALSE	TRUE	5	fine
 outworkbench	workbench (outdoor)	furniture	bench		vice	FALSE	TRUE	5	
@@ -11,22 +12,23 @@ radio	trader radio	furniture	dlc		10	FALSE	TRUE		good
 trader	trade drop-box	furniture	dlc		1	FALSE	TRUE		good
 transmitter	transmitter	furniture	dlc	other	6	FALSE	TRUE		
 cache	supply cache	furniture	dlc		24	FALSE	TRUE		
+mementobox	memento lock box	furniture	dlc		7	FALSE	TRUE	10	
 potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	0	good
 grill	2-slot stove	furniture	cooking			FALSE	TRUE	0	good
 range	6-slot stove	furniture	cooking		7	FALSE	TRUE	0	good
 curing	curing box	furniture	cooking	fir		TRUE	TRUE		fine
 trunk	rustic trunk	furniture	special	fir		FALSE	TRUE	35	good
-rockcache	rock cache	furniture	special	other		TRUE	TRUE	30	good
-suitcase	suitcase	furniture	special			TRUE	TRUE	20	good
+suitcase	suitcase	furniture	special		30	TRUE	TRUE	20	good
 cedarbox	rustic storage box	furniture	special	cedar		TRUE	TRUE	15	
 chest	trunk (premade)	furniture	storage			FALSE	TRUE	30	
-firstaid	first aid kit or medicine shelf	furniture	storage			FALSE	TRUE	5	
 briefcase	briefcase or lock box	furniture	storage			FALSE	TRUE	10	fine
 box	metal container (green, 15kg)	furniture	storage			FALSE	TRUE	15	
 plastic	plastic container (blue, 15kg)	furniture	storage			FALSE	TRUE	15	
+firstaid	first aid kit or medicine shelf	furniture	storage			FALSE	TRUE	5	
 oven	fridge/oven/hutch (40kg)	furniture	storage			FALSE	TRUE	40	
-locker	locker/dryer (30kg)	furniture	storage			FALSE	TRUE	30	
-freezer	freezer (20kg)	furniture	storage			FALSE	TRUE	20	
+locker	locker (30kg)	furniture	storage			FALSE	TRUE	30	
+washer	washer/dryer (15/30kg)	furniture	storage			FALSE	TRUE	15	
+freezer	freezer/cooler (20kg)	furniture	storage			FALSE	TRUE	20	
 cabinet	20 kg cabinet	furniture	storage			FALSE	TRUE	20	
 trash	trash can (15kg)	furniture	storage			FALSE	TRUE	15	
 bag	15 kg bag	furniture	storage			FALSE	TRUE	15	
@@ -34,22 +36,25 @@ safe	safe (10kg)	furniture	storage		10	FALSE	TRUE	10
 file	10 kg drawer	furniture	storage			FALSE	TRUE	10	
 drawer	5 kg drawer	furniture	storage			FALSE	TRUE	5	
 shelf	shelf	furniture	storage			FALSE	TRUE	0	
+supplybin	supply bin (30kg, no customization)	furniture	outdoor			FALSE	TRUE	30	replace!
+rockcache	rock cache	furniture	outdoor	other		TRUE	TRUE	30	good
 pillow	pillow	furniture	customization			TRUE	TRUE		
 calendar	desk calendar	furniture	customization			TRUE	TRUE		
 floppy	floppy disk	furniture	customization			TRUE	TRUE		
-horseshoe	horseshoe	furniture	customization			TRUE	TRUE		
+horseshoe	horseshoe	furniture	customization		3	TRUE	TRUE		
 wallshelf	wall shelf	furniture	customization			TRUE	TRUE		
 crate	crate (portable)	furniture	customization			TRUE	TRUE		
 buildout	outdoor customization site	furniture	customization			FALSE	TRUE		
-floor	on the floor	furniture	meta			FALSE	TRUE	0	
+floor	on the floor	furniture	meta			TRUE	TRUE	0	
 rug	rug / rug-covered floor	furniture	meta			TRUE	TRUE		
 mat	mat (small rug)	furniture	meta			TRUE	TRUE		
 lamp	aurora light source	furniture	meta			TRUE	TRUE		
 festive	festive lights (portable)	furniture	meta		4	TRUE	TRUE		
 lights	lights (non-portable)	furniture	meta		3	FALSE	TRUE		
 decor	walls are decorated	furniture	meta			TRUE	TRUE		
-contd	inside last container	furniture	meta			FALSE	TRUE	0	
-environs	found nearby	furniture	meta			FALSE	TRUE	0	
+contd	inside last container	furniture	meta			TRUE	TRUE	0	
+outside	found directly outside	furniture	meta			TRUE	TRUE	0	
+environs	found nearby	furniture	meta			TRUE	TRUE	0	
 maglens	magnifying lens	tools	light		3	TRUE	TRUE		good
 firestriker	firestriker	tools	light		4	TRUE	TRUE		fine
 matches	wood matches	tools	light			TRUE	TRUE		fine
@@ -66,7 +71,8 @@ accelerant	accelerant	tools	light			TRUE	TRUE
 cookpot	cookpot	tools	cooking		17	TRUE	TRUE		good
 skillet	skillet	tools	cooking		14	TRUE	TRUE		good
 can	recycled can	tools	cooking			TRUE	TRUE		
-thermos	insulated flask	tools	cooking		9	TRUE	TRUE		good
+thermos	insulated flask	tools	cooking		6	TRUE	TRUE		good
+stickerthermos	insulated flask (sticker)	tools	cooking			TRUE	TRUE		
 canopener	can opener	tools	cooking			TRUE	TRUE		
 barbs	barb’s rifle	tools	guns			TRUE	FALSE		
 rifle	hunting rifle	tools	guns			TRUE	FALSE		
@@ -113,11 +119,13 @@ woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE		fine
 sewing	sewing kit	tools	crafting			TRUE	TRUE		
 whetstone	whetstone	tools	crafting			TRUE	TRUE		
 guncleaner	firearm cleaning kit	tools	crafting			TRUE	FALSE		
+research	research book	tools	crafting			TRUE	TRUE		
 recipe	recipe card	misc	misc		13	TRUE	TRUE		good
-polaroid	vista polaroid	misc	misc		27	TRUE	TRUE		good
+polaroid	polaroid	misc	misc		27	TRUE	TRUE		good
 camera	camera	misc	misc		1	TRUE	TRUE		
 handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE		
-rope	climbing rope	misc	misc			TRUE	TRUE		
+mementokey	memento key	misc	misc		7	TRUE	TRUE		
+rope	climbing rope	misc	misc		78	TRUE	TRUE		
 coal	coal piece	misc	fire			TRUE	TRUE		good
 stick	stick	misc	fire			TRUE	TRUE		good
 cedar	cedar firewood	misc	fire			TRUE	TRUE		
@@ -137,7 +145,7 @@ battery	car battery	misc	navigation			TRUE	TRUE
 maple	maple sapling	misc	material			TRUE	TRUE		good
 sapling	birch sapling	misc	material			TRUE	TRUE		
 arrowhead	arrowhead	misc	material			TRUE	TRUE		
-metal	scrap metal	misc	material			TRUE	TRUE		
+scrap	scrap metal	misc	material			TRUE	TRUE		
 cloth	cloth	misc	material			TRUE	TRUE		
 leather	cured leather	misc	material			TRUE	TRUE		
 stone	stone	misc	material			TRUE	TRUE		
@@ -171,7 +179,7 @@ acorns	acorns	misc	herbs			TRUE	TRUE
 bandage	bandage	misc	aid			TRUE	TRUE		
 antiseptic	antiseptic	misc	aid			TRUE	TRUE		
 dressing	old man’s beard wound dressing	misc	aid			TRUE	TRUE		
-stim	emergency stim	misc	aid		11	TRUE	TRUE		fine
+stim	emergency stim	misc	aid		12	TRUE	TRUE		fine
 caffeine	caffeine pills	misc	aid			TRUE	TRUE		
 vitaminc	vitamin-c pills	misc	aid			TRUE	TRUE		
 heatpack	heat pack	misc	aid			TRUE	TRUE		
@@ -190,14 +198,14 @@ cougar	cougar	natural	animal			FALSE	TRUE		fine
 rabbit	rabbit	natural	animal			FALSE	TRUE		good
 ptarmigan	ptarmigan	natural	animal			FALSE	TRUE		good
 fish	fishing	natural	animal			FALSE	TRUE		good
-bearhunt	bear hunting destination	natural	nonanimal			FALSE	TRUE		
-harvestcedar	cedar limb spawn	natural	nonanimal			TRUE	TRUE		
-harvestfir	fir limb spawn	natural	nonanimal			TRUE	TRUE		
+bearhunt	bear hunting destination	natural	nonanimal			TRUE	TRUE		
+harvestcedar	cedar limb spawn	natural	nonanimal			FALSE	TRUE		
+harvestfir	fir limb spawn	natural	nonanimal			FALSE	TRUE		
 harvestbirch	birch bark spawn	natural	nonanimal			FALSE	TRUE		fine
 mine	coal spawn	natural	nonanimal			FALSE	TRUE		good
-saltdeposit	salt deposit	natural	nonanimal			TRUE	TRUE		good
+saltdeposit	salt deposit	natural	nonanimal			FALSE	TRUE		good
 beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE		good
-climb	rock climb	natural	nonanimal	other		FALSE	TRUE		
+climb	rope climb	natural	nonanimal	other	rope	FALSE	TRUE		
 goating	goating route	natural	nonanimal			FALSE	TRUE		
 wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE		fine
 wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE		good
@@ -244,7 +252,7 @@ socks	(patterned) wool socks	clothing	bottom			TRUE	TRUE		good
 longjohns	wool long johns	clothing	bottom			TRUE	FALSE		fine
 underwear	thermal underwear	clothing	bottom			TRUE	TRUE		good
 skiboots	ski boots	clothing	feet			TRUE	FALSE		good
-insulboots	insulated boots	clothing	feet			TRUE	TRUE		fine
+insulboots	insulated boots	clothing	feet			TRUE	FALSE		fine
 deerboots	deerskin boots	clothing	feet	deer		TRUE	TRUE		fine
 mukluks	mukluks	clothing	feet			TRUE	FALSE		fine
 chemboots	chemical boots	clothing	feet			TRUE	TRUE		good

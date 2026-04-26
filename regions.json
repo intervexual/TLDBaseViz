@@ -1,0 +1,198 @@
+{
+    "AshCanyon":
+        {"y-flip": false, "x-flip":false,
+        "top": "0",
+        "right": "left~OIC",
+        "connections": [["TimberwolfMountain", 800, -800]],
+        "rotation": -60,
+        "north": "left"
+        },
+    "BleakInlet":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~MysteryLake",
+            "right": "left~Ravine",
+            "connections": [["Ravine", 200, 900]],
+            "north":"up",
+            "rotation": 0
+        },
+    "Blackrock":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "top~PleasantValley",
+            "right": "left~TimberwolfMountain",
+            "connections": [["KeepersPass", -400, -1000]],
+            "rotation": 0,
+            "north":"up"
+        },
+    "BrokenRailroad":
+        {"y-flip": true, "x-flip":false,
+            "top": "bottom~MountainTown",
+            "right": "left~ForlornMuskeg",
+            "connections": [["ForlornMuskeg",1700,700],
+            ["FarRangeBranchLine", 200, 800 ]
+            ],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "CoastalHighway":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~PleasantValley",
+            "right": "left~OIC",
+            "connections": [["Ravine",-1200,1200],
+            ["OIC", 700, -500]],
+            "rotation": 0,
+                            "north":"up"
+        },
+    "DesolationPoint":
+        {"y-flip": false,
+            "x-flip":false,
+            "top": "top~OIC",
+            "right": "end",
+            "connections": [["OIC",100,1100]],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "FarRangeBranchLine":
+        {"y-flip": false, "x-flip":true,
+            "top": "bottom~TransferPass",
+            "right": "left~BrokenRailroad",
+            "connections": [["BrokenRailroad", -400, 100],
+            ["TransferPass",1000,-200]],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "ForlornMuskeg":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "bottom~MysteryLake",
+            "right": "left~MysteryLake",
+            "connections": [
+                ["MysteryLake", 1800, 1100],
+                ["MountainTown", 300, 1600],
+                ["BrokenRailroad", -100, 800]
+            ],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "ForsakenAirfield":
+        {"y-flip": false, "x-flip":false,
+            "top": "top~TransferPass",
+            "right": "left~TransferPass",
+            "connections": [["TransferPass", 500, -1300]],
+        "rotation": 45,
+                            "north":"right"
+        },
+    "HushedRiverValley":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "top~MountainTown",
+            "left": "left~MountainTown",
+            "connections": [["MountainTown", 500, 200]],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "KeepersPass":
+        {"y-flip": true, "x-flip":true,
+            "top": "bottom~Blackrock",
+            "right": "left~PleasantValley",
+            "connections": [["Blackrock", 100, -100],
+                ["PleasantValley", 500, 700]
+                ],
+        "rotation": -45,
+                            "north":"left"
+        },
+    "MountainTown":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "top~ForlornMuskeg",
+            "left": "left~ForlornMuskeg",
+            "connections": [["ForlornMuskeg",400, 300 ],
+                ["HushedRiverValley", 1300, 2400]
+                ],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "MysteryLake":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "top~Ravine",
+            "right": "left~PleasantValley",
+            "connections": [["Ravine", 1800 , 1300],
+            ["ForlornMuskeg", 700, -100 ]],
+        "rotation": -90,
+                            "north":"left"
+        },
+    "OIC":
+        {"y-flip": false, "x-flip":false,
+            "bottom": "bottom~CoastalHighway",
+            "right": "left~DesolationPoint",
+            "connections": [["CoastalHighway", 100, 400],
+            ["DesolationPoint", 700,500]],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "PleasantValley":
+        {"y-flip": true, "x-flip":false,
+            "top": "bottom~TimberwolfMountain",
+            "right": "left~OIC",
+            "connections": [["TimberwolfMountain", 2500, 200],
+                ["KeepersPass",100,1600]
+            ],
+            "rotation": -45,
+                            "north":"left"
+        },
+    "Ravine":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~WindingRiver",
+            "right": "left~CoastalHighway",
+            "connections": [["CoastalHighway",200,-100],
+            ["MysteryLake",-1200,-100]],
+        "rotation": -45,
+                        "north":"left"
+        },
+    "SunderedPass":
+        {"y-flip": true, "x-flip":true,
+            "bottom": "top~ForsakenAirfield",
+            "right": "left~TransferPass",
+            "connections": [["TransferPass", 400, 1400]],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "TimberwolfMountain":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~AshCanyon",
+            "right": "left~OIC",
+            "connections": [["AshCanyon",1900,700],
+            ["PleasantValley",200,300]],
+        "rotation": 45,
+                            "north":"right"
+        },
+    "TransferPass":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~ZoneOfContamination",
+            "left": "left~FarRangeBranchLine",
+            "connections": [
+                ["FarRangeBranchLine", 200, -400],
+                ["ForsakenAirfield", -300, 100],
+                ["SunderedPass", -500, 700],
+                ["ZoneOfContamination", 200, 700]
+            ],
+        "rotation": -45,
+                            "north":"left"
+        },
+    "WindingRiver":
+        {"y-flip": false, "x-flip":false,
+            "top": "bottom~PleasantValley",
+            "right": "left~CoastalHighway",
+            "connections": [
+                ["MysteryLake", 500, 300]
+            ],
+        "rotation": 0,
+                            "north":"up"
+        },
+    "ZoneOfContamination":
+        {"y-flip": false, "x-flip":false,
+            "left": "right~SunderedPass",
+            "bottom": "top~BrokenRailroad",
+            "connections": [
+                ["TransferPass", 900,-900]
+            ],
+        "rotation": -90,
+                            "north":"left"
+        }
+}

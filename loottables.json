@@ -1,0 +1,2316 @@
+{
+  "Loot1": {
+    "AshCanyon": {
+      "hammer": [
+        "MinersFolly",
+        "POI(HighMeadow)",
+        "MinersFolly",
+        "GoldMine(MiningCamp)"
+      ],
+      "polaroid": [
+        "OutdoorShelter(Foremans)"
+      ]
+    },
+    "AshCanyon(2)": {
+      "polaroid": [
+        "OutdoorShelter(WindproofBed)"
+      ]
+    },
+    "Blackrock": {
+      "bedroll": [
+        "LastProspect"
+      ],
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ],
+      "hammer": [
+        "SteamTunnels"
+      ],
+      "lantern": [
+        "JailorsResidence",
+        "BricklayersRetreat",
+        "Trailer(SouthOfPowerPlant)",
+        "CooksFarm"
+      ]
+    },
+    "Blackrock(2)": {
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ]
+    },
+    "BleakInlet": {
+      "bedroll": [
+        "Cave(FarIsland)",
+        "FallenLighthouse",
+        "Cabin(LowerRaven)",
+        "WorkerResidence"
+      ],
+      "polaroid": [
+        "Climb(BI)"
+      ]
+    },
+    "BleakInlet(2)": {
+    },
+    "BrokenRailroad": {
+      "bedroll": [
+        "HuntingLodge"
+      ],
+      "firestriker": [
+        "POI(BRRavine)",
+        "Cave(NorthernBR)",
+        "HuntingLodge",
+        "Cave(BRHuntersBlind)"
+      ]
+    },
+    "BrokenRailroad(2)": {
+    },
+    "CoastalHighway": {
+      "hacksaw": [
+        "AbandonedLookout"
+      ],
+      "hammer": [
+        "FishHuts(Central)",
+        "Trailer(LogSort)",
+        "Cabins(FishingCamp)",
+        "QuonsetGarage",
+        "Trailer(BetweenMines)",
+        "House(Jackrabbit)"
+      ],
+      "polaroid": [
+        "Cabins(FishingCamp)"
+      ]
+    },
+    "CoastalHighway(2)": {
+      "hacksaw": [
+        "QuonsetGarage"
+      ]
+    },
+    "DesolationPoint": {
+      "firestriker": [
+        "No5Mine(West)"
+      ],
+      "hacksaw": [
+        "HiberniaProcessing"
+      ]
+    },
+    "DesolationPoint(2)": {
+    },
+    "OIC": {
+    },
+    "FarRangeBranchLine": {
+    },
+    "FarRangeBranchLine(2)": {
+    },
+    "ForlornMuskeg": {
+      "hacksaw": [
+        "SpenceFarmstead",
+        "Cave(NortheastFM)",
+        "POI(Bunkhouses)",
+        "HighBlind",
+        "POI(ShortwaveTower)",
+        "PoachersCamp"
+      ],
+      "lantern": [
+        "Barn(NorthOfSpence)",
+        "PoachersCamp",
+        "SpenceFarmstead",
+        "POI(Bunkhouses)"
+      ],
+      "polaroid": [
+        "Barn(NorthOfSpence)"
+      ]
+    },
+    "ForlornMuskeg(2)": {
+      "polaroid": [
+        "Shelter(MarshRidge)"
+      ]
+    },
+    "ForsakenAirfield": {
+      "bedroll": [
+        "SpottersBlind",
+        "ControlTower",
+        "MindfulCabin"
+      ]
+    },
+    "HushedRiverValley": {
+      "bedroll": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ],
+      "hammer": [
+        "SignalFire(South)",
+        "SignalFire(North)"
+      ],
+      "hacksaw": [
+        "SnowShelter(CloudtopFalls)",
+        "SnowShelter(ReclusiveFalls)",
+        "SnowShelter(ValleyViewPoint)",
+        "IceCave(West)"
+      ],
+      "polaroid": [
+        "IceCave(West)"
+      ]
+    },
+    "IceCaves": {
+      "hacksaw": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ]
+    },
+    "KeepersPass": {
+      "spelunker": [
+        "IceCave(KPS)"
+      ]
+    },
+    "MountainTown": {
+      "hacksaw": [
+        "Orca"
+      ],
+      "hammer": [
+        "ParadiseMeadowsFarm"
+      ],
+      "lantern": [
+        "Greymother"
+      ],
+      "maglens": [
+        "StChristophers"
+      ],
+      "polaroid": [
+        "Cave(SpruceFallsSouthExit)"
+      ]
+    },
+    "MountainTown(2)": {
+    },
+    "MysteryLake": {
+      "bedroll": [
+        "CampOffice"
+      ],
+      "hammer": [
+        "ForestryLookout",
+        "FishHuts(ML)",
+        "TrappersHomestead",
+        "AbandonedLookout",
+        "Trailers(LoggingCamp)",
+        "TrainCar(Derailment)"
+      ],
+      "lantern": [
+        "Cabins(Lake)",
+        "Cave(LakeOverlook)",
+        "ForestryLookout",
+        "AbandonedLookout"
+      ],
+      "maglens": [
+        "TrappersHomestead"
+      ],
+      "polaroid": [
+        "Cabin(LoneLake)"
+      ]
+    },
+    "MysteryLake(2)": {
+      "lantern": [
+        "UpperDam"
+      ],
+      "polaroid": [
+        "POI(DestroyedLookout)"
+      ]
+    },
+    "PleasantValley": {
+      "bedroll": [
+        "Cave(MistyFalls)"
+      ],
+      "hammer": [
+        "Barn(Mollys)"
+      ],
+      "maglens": [
+        "PVFarmhouse"
+      ],
+      "polaroid": [
+        "PVFarmhouse"
+      ]
+    },
+    "Ravine": {
+    },
+    "SunderedPass": {
+      "bedroll": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Truck(WeatherStationBridge)",
+        "CrashSite(SP)"
+      ],
+      "hammer": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Basement(RudigersHideout)",
+        "RoamersCave"
+      ]
+    },
+    "TimberwolfMountain": {
+      "firestriker": [
+        "TailSection"
+      ],
+      "hacksaw": [
+        "TailSection",
+        "MountaineersHut",
+        "Cave(BelowAndresPeak)",
+        "TailSection"
+      ],
+      "hammer": [
+        "TailSection",
+        "MountaineersHut",
+        "FishHut(TWM)",
+        "TailSection",
+        "Cave(EngineEast)"
+      ],
+      "lantern": [
+        "FishHut(TWM)"
+      ],
+      "polaroid": [
+        "Cave(Summit)"
+      ]
+    },
+    "TimberwolfMountain(2)": {
+      "polaroid": [
+        "POI(EchoPeakWest)"
+      ]
+    },
+    "WindingRiver": {
+    },
+    "ZoneOfContamination": {
+      "firestriker": [
+        "LangstonMine(Floor3)"
+      ],
+      "lantern": [
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "Langston": {
+    },
+    "ZoneOfContamination(2)": {
+    }
+  },
+  "Loot2": {
+    "AshCanyon": {
+      "lantern": [
+        "Cave(WolfsJawOverlook)"
+      ],
+      "polaroid": [
+        "Camp(AboveBirchForest)"
+      ]
+    },
+    "AshCanyon(2)": {
+      "polaroid": [
+        "Cave(FireOverlook)"
+      ]
+    },
+    "Blackrock": {
+      "bedroll": [
+        "LastProspect"
+      ],
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ],
+      "hammer": [
+        "PowerPlant"
+      ],
+      "lantern": [
+        "JailorsResidence",
+        "BricklayersRetreat",
+        "Trailer(SouthOfPowerPlant)",
+        "CooksFarm"
+      ],
+      "spelunker": [
+        "Cave(ToBRM)"
+      ]
+    },
+    "Blackrock(2)": {
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ]
+    },
+    "BleakInlet": {
+      "bedroll": [
+        "Cave(FarIsland)",
+        "FallenLighthouse",
+        "Cabin(LowerRaven)",
+        "WorkerResidence"
+      ],
+      "hammer": [
+        "Workshop(Cannery)"
+      ],
+      "polaroid": [
+        "HuntersBlind(SouthBI)"
+      ]
+    },
+    "BleakInlet(2)": {
+    },
+    "BrokenRailroad": {
+      "bedroll": [
+        "HuntingLodge"
+      ],
+      "firestriker": [
+        "POI(BRRavine)",
+        "Cave(NorthernBR)",
+        "HuntingLodge",
+        "Cave(BRHuntersBlind)"
+      ],
+      "hammer": [
+        "MaintenanceYard"
+      ]
+    },
+    "BrokenRailroad(2)": {
+    },
+    "CoastalHighway": {
+      "hacksaw": [
+        "QuonsetGarage"
+      ],
+      "hammer": [
+        "FishHuts(Central)",
+        "Trailer(LogSort)",
+        "Cabins(FishingCamp)",
+        "QuonsetGarage",
+        "Trailer(BetweenMines)",
+        "House(Jackrabbit)"
+      ],
+      "lantern": [
+        "AbandonedMine(Upper)"
+      ],
+      "polaroid": [
+        "Cabin(NorthOfTooth)"
+      ]
+    },
+    "CoastalHighway(2)": {
+    },
+    "DesolationPoint": {
+      "bedroll": [
+        "Cave(Scruffy)"
+      ],
+      "lantern": [
+        "HiberniaProcessing"
+      ]
+    },
+    "DesolationPoint(2)": {
+    },
+    "OIC": {
+    },
+    "FarRangeBranchLine": {
+    },
+    "FarRangeBranchLine(2)": {
+    },
+    "ForlornMuskeg": {
+      "hacksaw": [
+        "SpenceFarmstead",
+        "Cave(NortheastFM)",
+        "POI(Bunkhouses)",
+        "HighBlind",
+        "POI(ShortwaveTower)",
+        "PoachersCamp"
+      ],
+      "lantern": [
+        "Barn(NorthOfSpence)",
+        "PoachersCamp",
+        "SpenceFarmstead",
+        "POI(Bunkhouses)"
+      ],
+      "polaroid": [
+        "LowBlind"
+      ]
+    },
+    "ForlornMuskeg(2)": {
+      "polaroid": [
+        "POI(Bunkhouses)"
+      ]
+    },
+    "ForsakenAirfield": {
+      "bedroll": [
+        "SpottersBlind",
+        "ControlTower",
+        "MindfulCabin"
+      ]
+    },
+    "HushedRiverValley": {
+      "bedroll": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ],
+      "hammer": [
+        "SignalFire(South)",
+        "SignalFire(North)"
+      ],
+      "hacksaw": [
+        "SnowShelter(CloudtopFalls)",
+        "SnowShelter(ReclusiveFalls)",
+        "SnowShelter(ValleyViewPoint)",
+        "IceCave(West)"
+      ],
+      "polaroid": [
+        "POI(Landslide)"
+      ]
+    },
+    "IceCaves": {
+      "hacksaw": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ]
+    },
+    "KeepersPass": {
+    },
+    "MountainTown": {
+      "bedroll": [
+        "PicnicArea",
+        "CrashedPlane(Mackenzie)",
+        "Cave(SpruceFallsSouthExit)"
+      ],
+      "hacksaw": [
+        "Trailer(MT)"
+      ],
+      "lantern": [
+        "ParadiseMeadowsFarm"
+      ],
+      "maglens": [
+        "Greymother"
+      ],
+      "polaroid": [
+        "POI(RockyRefuge)"
+      ]
+    },
+    "MountainTown(2)": {
+    },
+    "MysteryLake": {
+      "bedroll": [
+        "CampOffice"
+      ],
+      "firestriker": [
+        "HuntersBlind(UnnamedPond)",
+        "TrainCar(Derailment)",
+        "Trailers(LoggingCamp)"
+      ],
+      "hacksaw": [
+        "TrappersHomestead"
+      ],
+      "hammer": [
+        "LowerDam"
+      ],
+      "lantern": [
+        "TrappersHomestead"
+      ],
+      "maglens": [
+        "Cabins(MiddleLake)",
+        "ForestryLookout",
+        "Cave(LakeOverlook)"
+      ],
+      "polaroid": [
+        "Cave(LakeOverlook)"
+      ]
+    },
+    "MysteryLake(2)": {
+      "bedroll": [
+        "HuntersBlind(AlansCave)",
+        "Cave(PrepperCache)",
+        "TrainCar(TrainLoading)"
+      ],
+      "polaroid": [
+        "POI(Clearcut)"
+      ]
+    },
+    "PleasantValley": {
+      "hacksaw": [
+        "Barn(NorthOfArchery)",
+        "Barn(Archery)",
+        "ThomsonsCrossing",
+        "CommunityHall",
+        "PVFarmhouse",
+        "HuntersBlind(HilltopCave)",
+        "SkeetersRidge"
+      ],
+      "hammer": [
+        "Barn(Archery)"
+      ],
+      "polaroid": [
+        "CrashSite(PV)"
+      ]
+    },
+    "Ravine": {
+    },
+    "SunderedPass": {
+      "bedroll": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Truck(WeatherStationBridge)",
+        "CrashSite(SP)"
+      ],
+      "hammer": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Basement(RudigersHideout)",
+        "RoamersCave"
+      ]
+    },
+    "TimberwolfMountain": {
+      "firestriker": [
+        "TailSection"
+      ],
+      "hacksaw": [
+        "TailSection",
+        "MountaineersHut",
+        "Cave(BelowAndresPeak)",
+        "TailSection"
+      ],
+      "maglens": [
+        "MountaineersHut"
+      ],
+      "polaroid": [
+        "Climb(EW-WC)"
+      ]
+    },
+    "TimberwolfMountain(2)": {
+      "polaroid": [
+        "ForestCave(TWM)"
+      ]
+    },
+    "WindingRiver": {
+    },
+    "ZoneOfContamination": {
+      "firestriker": [
+        "LangstonMine(Floor3)"
+      ],
+      "lantern": [
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "Langston": {
+    },
+    "ZoneOfContamination(2)": {
+    }
+  },
+  "Loot3": {
+    "AshCanyon": {
+      "hammer": [
+        "MinersFolly",
+        "POI(HighMeadow)",
+        "MinersFolly",
+        "GoldMine(MiningCamp)"
+      ],
+      "polaroid": [
+        "Cave(WolfsJawOverlook)"
+      ]
+    },
+    "AshCanyon(2)": {
+      "polaroid": [
+        "Cave(SouthOfShatteredCove)"
+      ]
+    },
+    "Blackrock": {
+      "bedroll": [
+        "CentralPrison"
+      ],
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ],
+      "hammer": [
+        "LastProspect"
+      ],
+      "lantern": [
+        "JailorsResidence",
+        "BricklayersRetreat",
+        "Trailer(SouthOfPowerPlant)",
+        "CooksFarm"
+      ]
+    },
+    "Blackrock(2)": {
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ]
+    },
+    "BleakInlet": {
+      "bedroll": [
+        "Cave(FarIsland)",
+        "FallenLighthouse",
+        "Cabin(LowerRaven)",
+        "WorkerResidence"
+      ],
+      "polaroid": [
+        "FallenLighthouse"
+      ]
+    },
+    "BleakInlet(2)": {
+    },
+    "BrokenRailroad": {
+      "bedroll": [
+        "HuntingLodge"
+      ],
+      "firestriker": [
+        "POI(BRRavine)",
+        "Cave(NorthernBR)",
+        "HuntingLodge",
+        "Cave(BRHuntersBlind)"
+      ]
+    },
+    "BrokenRailroad(2)": {
+    },
+    "CoastalHighway": {
+      "firestriker": [
+        "Car(Rockfall)"
+      ],
+      "lantern": [
+        "QuonsetGarage"
+      ],
+      "hammer": [
+        "FishHuts(Central)",
+        "Trailer(LogSort)",
+        "Cabins(FishingCamp)",
+        "QuonsetGarage",
+        "Trailer(BetweenMines)",
+        "House(Jackrabbit)"
+      ],
+      "polaroid": [
+        "FishHut(BetweenIslands)"
+      ]
+    },
+    "CoastalHighway(2)": {
+    },
+    "DesolationPoint": {
+      "hacksaw": [
+        "No5Mine(East)"
+      ]
+    },
+    "DesolationPoint(2)": {
+    },
+    "OIC": {
+    },
+    "FarRangeBranchLine": {
+    },
+    "FarRangeBranchLine(2)": {
+    },
+    "ForlornMuskeg": {
+      "hacksaw": [
+        "SpenceFarmstead",
+        "Cave(NortheastFM)",
+        "POI(Bunkhouses)",
+        "HighBlind",
+        "POI(ShortwaveTower)",
+        "PoachersCamp"
+      ],
+      "lantern": [
+        "Barn(NorthOfSpence)",
+        "PoachersCamp",
+        "SpenceFarmstead",
+        "POI(Bunkhouses)"
+      ],
+      "polaroid": [
+        "PrepperCache(FM)"
+      ]
+    },
+    "ForlornMuskeg(2)": {
+      "polaroid": [
+        "HighBlind"
+      ]
+    },
+    "ForsakenAirfield": {
+      "bedroll": [
+        "SpottersBlind",
+        "ControlTower",
+        "MindfulCabin"
+      ]
+    },
+    "HushedRiverValley": {
+      "bedroll": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ],
+      "hammer": [
+        "SignalFire(South)",
+        "SignalFire(North)"
+      ],
+      "hacksaw": [
+        "SnowShelter(CloudtopFalls)",
+        "SnowShelter(ReclusiveFalls)",
+        "SnowShelter(ValleyViewPoint)",
+        "IceCave(West)"
+      ],
+      "polaroid": [
+        "SignalFire(South)"
+      ]
+    },
+    "IceCaves": {
+      "hacksaw": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ]
+    },
+    "KeepersPass": {
+    },
+    "MountainTown": {
+      "hacksaw": [
+        "Orca"
+      ],
+      "hammer": [
+        "Trailer(MT)"
+      ],
+      "lantern": [
+        "StChristophers"
+      ],
+      "maglens": [
+        "ParadiseMeadowsFarm"
+      ],
+      "polaroid": [
+        "ParadiseMeadowsFarm"
+      ]
+    },
+    "MountainTown(2)": {
+    },
+    "MysteryLake": {
+      "bedroll": [
+        "HuntersBlind(AlansCave)",
+        "Cave(PrepperCache)",
+        "TrainCar(TrainLoading)"
+      ],
+      "hacksaw": [
+        "HuntersBlind(UnnamedPond)",
+        "Trailer(DamWest)",
+        "POI(DavesQuietClearing)",
+        "POI(DeadfallArea)"
+      ],
+      "hammer": [
+        "ForestryLookout",
+        "FishHuts(ML)",
+        "TrappersHomestead",
+        "AbandonedLookout",
+        "Trailers(LoggingCamp)",
+        "TrainCar(Derailment)"
+      ],
+      "maglens": [
+        "CampOffice"
+      ],
+      "polaroid": [
+        "Cabin(UnnamedPond)"
+      ]
+    },
+    "MysteryLake(2)": {
+      "hacksaw": [
+        "UpperDam"
+      ],
+      "polaroid": [
+        "Trailers(LoggingCamp)"
+      ]
+    },
+    "PleasantValley": {
+      "bedroll": [
+        "Cave(WestOfUpperFalls)",
+        "Barn(NorthOfPVFarm)",
+        "HuntersBlind(Joplin)"
+      ],
+      "hacksaw": [
+        "Barn(NorthOfArchery)",
+        "Barn(Archery)",
+        "ThomsonsCrossing",
+        "CommunityHall",
+        "PVFarmhouse",
+        "HuntersBlind(HilltopCave)",
+        "SkeetersRidge"
+      ],
+      "lantern": [
+        "Cave(MistyFalls)"
+      ],
+      "polaroid": [
+        "POI(ThreeStrikes)"
+      ]
+    },
+    "Ravine": {
+      "hammer": [
+        "TrainCar(Ravine)",
+        "TrainCar(RavineBasin)",
+        "Cave(EastRavine)",
+        "Cave(SouthRavine)"
+      ]
+    },
+    "SunderedPass": {
+      "bedroll": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Truck(WeatherStationBridge)",
+        "CrashSite(SP)"
+      ],
+      "hammer": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Basement(RudigersHideout)",
+        "RoamersCave"
+      ]
+    },
+    "TimberwolfMountain": {
+      "firestriker": [
+        "TailSection"
+      ],
+      "hammer": [
+        "TailSection",
+        "MountaineersHut",
+        "FishHut(TWM)",
+        "TailSection",
+        "ChasmCave"
+      ],
+      "lantern": [
+        "POI(WingArea)"
+      ],
+      "spelunker": [
+        "WaterfallCave"
+      ],
+      "maglens": [
+        "Cave(SecludedShelf)"
+      ],
+      "polaroid": [
+        "Cave(TWMPrepperCache)"
+      ]
+    },
+    "TimberwolfMountain(2)": {
+      "polaroid": [
+        "PrepperCache(TWM)"
+      ]
+    },
+    "WindingRiver": {
+    },
+    "ZoneOfContamination": {
+      "firestriker": [
+        "LangstonMine(Floor3)"
+      ],
+      "lantern": [
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "Langston": {
+    },
+    "ZoneOfContamination(2)": {
+    }
+  },
+  "Loot4": {
+    "AshCanyon": {
+      "lantern": [
+        "FishHut(BitterMarsh)"
+      ],
+      "polaroid": [
+        "Climb(SSC-GM1)"
+      ]
+    },
+    "AshCanyon(2)": {
+      "polaroid": [
+        "Goat(CC-AD)"
+      ]
+    },
+    "Blackrock": {
+      "bedroll": [
+        "CentralPrison"
+      ],
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ],
+      "lantern": [
+        "JailorsResidence",
+        "BricklayersRetreat",
+        "Trailer(SouthOfPowerPlant)",
+        "CooksFarm"
+      ]
+    },
+    "Blackrock(2)": {
+      "hacksaw": [
+        "ForagersRemnant",
+        "OldSubstation",
+        "CooksFarm",
+        "BricklayersRetreat"
+      ]
+    },
+    "BleakInlet": {
+      "bedroll": [
+        "Cave(FarIsland)",
+        "FallenLighthouse",
+        "Cabin(LowerRaven)",
+        "WorkerResidence"
+      ],
+      "hacksaw": [
+        "Workshop(Cannery)"
+      ],
+      "polaroid": [
+        "POI(SecretMountainCamp)"
+      ]
+    },
+    "BleakInlet(2)": {
+    },
+    "BrokenRailroad": {
+      "firestriker": [
+        "POI(BRRavine)",
+        "Cave(NorthernBR)",
+        "HuntingLodge",
+        "Cave(BRHuntersBlind)"
+      ],
+      "hacksaw": [
+        "MaintenanceYard"
+      ]
+    },
+    "BrokenRailroad(2)": {
+    },
+    "CoastalHighway": {
+      "hacksaw": [
+        "AbandonedLookout",
+        "QuonsetGarage",
+        "House(NorthCoastalTownsite)"
+      ],
+      "lantern": [
+        "QuonsetGarage"
+      ],
+      "polaroid": [
+        "Car(TheTooth)"
+      ]
+    },
+    "DesolationPoint": {
+      "bedroll": [
+        "HiberniaProcessing"
+      ]
+    },
+    "DesolationPoint(2)": {
+    },
+    "OIC": {
+    },
+    "FarRangeBranchLine": {
+    },
+    "FarRangeBranchLine(2)": {
+    },
+    "ForlornMuskeg": {
+      "hacksaw": [
+        "SpenceFarmstead",
+        "Cave(NortheastFM)",
+        "POI(Bunkhouses)",
+        "HighBlind",
+        "POI(ShortwaveTower)",
+        "PoachersCamp"
+      ],
+      "lantern": [
+        "Barn(NorthOfSpence)",
+        "PoachersCamp",
+        "SpenceFarmstead",
+        "POI(Bunkhouses)"
+      ],
+      "polaroid": [
+        "POI(WesternFMRailroad)"
+      ]
+    },
+    "ForlornMuskeg(2)": {
+      "polaroid": [
+        "Cave(WestAntenna)"
+      ]
+    },
+    "ForsakenAirfield": {
+      "bedroll": [
+        "SpottersBlind",
+        "ControlTower",
+        "MindfulCabin"
+      ]
+    },
+    "HushedRiverValley": {
+      "bedroll": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ],
+      "hammer": [
+        "SignalFire(South)",
+        "SignalFire(North)"
+      ],
+      "hacksaw": [
+        "SnowShelter(CloudtopFalls)",
+        "SnowShelter(ReclusiveFalls)",
+        "SnowShelter(ValleyViewPoint)",
+        "IceCave(West)"
+      ],
+      "polaroid": [
+        "IceCave(SketchyValleyViewPoint)"
+      ]
+    },
+    "IceCaves": {
+      "hacksaw": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ]
+    },
+    "MountainTown": {
+      "bedroll": [
+        "Orca"
+      ],
+      "hammer": [
+        "ParadiseMeadowsFarm",
+        "HermitsCabin",
+        "Orca"
+      ],
+      "lantern": [
+        "Trailer(MT)"
+      ],
+      "maglens": [
+        "PostOffice"
+      ],
+      "polaroid": [
+        "CrashedPlane(Mackenzie)"
+      ]
+    },
+    "MountainTown(2)": {
+    },
+    "MysteryLake": {
+      "firestriker": [
+        "HuntersBlind(UnnamedPond)",
+        "TrainCar(Derailment)",
+        "Trailers(LoggingCamp)"
+      ],
+      "hacksaw": [
+        "LowerDam"
+      ],
+      "hammer": [
+        "TrappersHomestead"
+      ],
+      "lantern": [
+        "Cabins(Lake)",
+        "Cave(LakeOverlook)",
+        "ForestryLookout",
+        "AbandonedLookout"
+      ],
+      "maglens": [
+        "CampOffice"
+      ],
+      "polaroid": [
+        "Cave(PrepperCache)"
+      ]
+    },
+    "MysteryLake(2)": {
+      "polaroid": [
+        "Cabin(UnnamedPond)"
+      ]
+    },
+    "PleasantValley": {
+      "maglens": [
+        "Cave(WestOfUpperFalls)",
+        "POI(ThreeStrikes)",
+        "FishHut(PensivePond)"
+      ],
+      "hacksaw": [
+        "Barn(NorthOfArchery)",
+        "Barn(Archery)",
+        "ThomsonsCrossing",
+        "CommunityHall",
+        "PVFarmhouse",
+        "HuntersBlind(HilltopCave)",
+        "SkeetersRidge"
+      ],
+      "hammer": [
+        "SignalHill"
+      ],
+      "polaroid": [
+        "Cave(BurnedRidge)"
+      ]
+    },
+    "Ravine": {
+      "hammer": [
+        "TrainCar(Ravine)",
+        "TrainCar(RavineBasin)",
+        "Cave(EastRavine)",
+        "Cave(SouthRavine)"
+      ]
+    },
+    "SunderedPass": {
+      "bedroll": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Truck(WeatherStationBridge)",
+        "CrashSite(SP)"
+      ],
+      "hammer": [
+        "Garage(WeatherStation)",
+        "StationBunkhouse",
+        "Basement(RudigersHideout)",
+        "RoamersCave"
+      ]
+    },
+    "TimberwolfMountain": {
+      "firestriker": [
+        "TailSection"
+      ],
+      "hacksaw": [
+        "TailSection",
+        "MountaineersHut",
+        "Cave(BelowAndresPeak)",
+        "TailSection"
+      ],
+      "hammer": [
+        "TailSection",
+        "MountaineersHut",
+        "FishHut(TWM)",
+        "TailSection",
+        "ChasmCave"
+      ],
+      "spelunker": [
+        "POI(EchoPeakEast)"
+      ],
+      "polaroid": [
+        "POI(EchoPeakEast)"
+      ]
+    },
+    "TimberwolfMountain(2)": {
+      "polaroid": [
+        "POI(AndresPeak)"
+      ]
+    },
+    "WindingRiver": {
+      "bedroll": [
+        "LowerDam"
+      ]
+    },
+    "ZoneOfContamination": {
+      "firestriker": [
+        "LangstonMine(Floor3)"
+      ],
+      "lantern": [
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "Langston": {
+    },
+    "ZoneOfContamination(2)": {
+    }
+  },
+  "ByTotal": {
+    "skillet": {
+      "key": "skillet",
+      "total": 14,
+      "locations": [
+        "ForemansRetreat",
+        "Barracks",
+        "PensiveLookout",
+        "POI(CanneryPier)",
+        "HuntingLodge",
+        "MindfulCabin",
+        "Greymother",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "ParadiseMeadowsFarm",
+        "CampOffice",
+        "PVFarmhouse",
+        "CommunityHall",
+        "Cabin(SnowedIn)",
+        "IdleHideout",
+        "LottesRest",
+        "IdleCamp"
+      ]
+    },
+    "cookpot": {
+      "key": "cookpot",
+      "total": 17,
+      "locations": [
+        "AnglersDen",
+        "Cave(FromAC)",
+        "FallenLighthouse",
+        "PensiveLookout",
+        "MindfulCabin",
+        "BunkerOmega",
+        "IceCave(MammothFalls)",
+        "SnowShelter(CloudtopFalls)",
+        "SnowShelter(ReclusiveFalls)",
+        "SnowShelter(ValleyViewPoint)",
+        "Greymother",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "ParadiseMeadowsFarm",
+        "LowerDam",
+        "PVFarmhouse",
+        "CommunityHall",
+        "BoltChoppersHaven",
+        "PlacidNotch",
+        "StationBunkhouse",
+        "IdleCamp"
+      ]
+    },
+    "combatpants": {
+      "total": 1,
+      "key": "combatpants",
+      "note": "Total is a guess",
+      "locations": [
+        "SignalHill",
+        "CrashSite(PV)",
+        "Greymother",
+        "MinersFolly",
+        "GoldMine(MiningCamp)",
+        "IceCave(ReclusiveFalls)",
+        "HomesteadersRespite",
+        "CargomastersTrailer"
+      ]
+    },
+    "saltbag": {
+      "key": "saltbag",
+      "locations": [
+        "Workshop(Cannery)",
+        "HuntingLodge",
+        "HiberniaProcessing",
+        "BunkerOmega",
+        "MainHangar",
+        "CampOffice/.3",
+        "RuralStore/.75",
+        "PVFarmhouse",
+        "Cabin(SnowedIn)",
+        "Concentrator",
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "jerrycan": {
+      "key": "jerrycan",
+      "locations": [
+        "MaintenanceYard",
+        "MaintenanceShed",
+        "AbandonedMine(Aurora)",
+        "CargomastersTrailer",
+        "POI(ThreeStrikes)",
+        "AbandonedMine(SP)",
+        "StationBunkhouse",
+        "Concentrator",
+        "LangstonMine(Floor2)",
+        "MinersFootpath"
+      ]
+    },
+    "festivesweater": {
+      "key": "jersey",
+      "total": 2,
+      "note": "Total is a guess; missing locations",
+      "locations": [
+        "UpperDam",
+        "CommunityHall",
+        "HuntingLodge",
+        "MainHangar"
+      ]
+    },
+    "thinwoolsweater": {
+      "key": "jersey",
+      "note": "Total is a guess; missing locations",
+      "total": 1,
+      "locations": [
+        "PVFarmhouse",
+        "MisanthropesHomestead",
+        "Cave(EngineEast)"
+      ]
+    },
+    "thermalUnderwear": {
+      "key": "underwear",
+      "note": "Total is a guess; missing locations",
+      "total": 2,
+      "locations": [
+        "CrashSite(PV)",
+        "Terminal",
+        "MainHangar",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "ThomsonsCrossing"
+      ]
+    },
+    "crampons:possible": {
+      "key": "crampons",
+      "total": 0.3333,
+      "note": "Total (probability) is a guess",
+      "locations": [
+        "TailSection"
+      ]
+    },
+    "socks:possible": {
+      "key": "socks",
+      "total": 1,
+      "note": "Total is a guess; missing locations",
+      "locations": [
+        "CrashSite(PV)",
+        "Terminal",
+        "MainHangar",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "ThomsonsCrossing"
+      ]
+    },
+    "socks:guaranteed": {
+      "key": "socks",
+      "locations": [
+        "Cave(EngineEast)",
+        "TailSection"
+      ]
+    },
+    "suitcase:possible": {
+      "key": "suitcase",
+      "total": 5,
+      "note": "Total is a guess; missing locations",
+      "locations": [
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "ThomsonsCrossing",
+        "MainHangar",
+        "ControlTower",
+        "Terminal",
+        "VacantDepot",
+        "Cabin(SnowedIn)"
+      ]
+    },
+    "stim:guaranteed": {
+      "key": "stim",
+      "locations": [
+        "CentralPrison",
+        "POI(BRRavine)",
+        "HuntingLodge",
+        "LonelyLighthouse",
+        "CrashedPlane(Mackenzie)",
+        "Barn(Archery)",
+        "TailSection",
+        "LangstonMine(Floor3)",
+        "AbandonedMine(Upper)",
+        "TrainCar(RavineBasin)",
+        "PleasantValleyChurch"
+      ]
+    },
+    "stim:possible": {
+      "key": "stim",
+      "total": 1,
+      "locations": [
+        "OldSubstation",
+        "MaintenanceYard",
+        "MaintenanceYard",
+        "HuntersBlind(UnnamedPond)",
+        "UpperDam",
+        "PlaneCrash(ML)",
+        "Concentrator",
+        "Concentrator"
+      ]
+    },
+    "distress:possible": {
+      "key": "distress",
+      "total": 6,
+      "note": "Total is a guess; missing locations",
+      "locations": [
+        "POI(CanneryPier)",
+        "Kitchen(Cannery)",
+        "HiberniaProcessing",
+        "ControlTower",
+        "FinalApproach",
+        "Cave(KPN)",
+        "LangstonMine(Floor3)",
+        "Greymother",
+        "Barn(Archery)",
+        "TailSection"
+      ]
+    },
+    "dpammo:possible": {
+      "key": "dpammo",
+      "note": "Total is a guess; may have too many locations",
+      "total": 2,
+      "locations": [
+        "POI(CanneryPier)",
+        "Kitchen(Cannery)",
+        "HiberniaProcessing",
+        "ControlTower",
+        "FinalApproach",
+        "Cave(KPN)",
+        "LangstonMine(Floor3)",
+        "Greymother",
+        "Barn(Archery)",
+        "TailSection",
+        "Terminal",
+        "Terminal",
+        "Terminal",
+        "PlaneCrash(ML)",
+        "Concentrator"
+      ]
+    },
+    "dpammo2:possible": {
+      "key": "dpammo",
+      "total": 2,
+      "note": "Total is a guess; may have too many locations",
+      "locations": [
+        "Kitchen(Cannery)",
+        "ControlTower",
+        "FinalApproach",
+        "Cave(KPN)",
+        "LangstonMine(Floor3)",
+        "LangstonMine(Floor3)",
+        "LangstonMine(Floor3)",
+        "Greymother",
+        "Barn(Archery)",
+        "TailSection",
+        "Trailer(SouthHibernia)",
+        "Terminal",
+        "Terminal",
+        "PlaneCrash(ML)",
+        "Concentrator"
+      ]
+    },
+    "flare:red": {
+      "key": "redflare",
+      "total": 0.5,
+      "note": "missing locations",
+      "locations": [
+        "POI(CentralFMRailroad)"
+      ]
+    },
+    "flare:blueFM": {
+      "key": "blueflare",
+      "total": 0.5,
+      "note": "missing locations",
+      "locations": [
+        "POI(CentralFMRailroad)"
+      ]
+    },
+    "flare:blue:mementos": {
+      "key": "blueflare",
+      "total": 0.5,
+      "note": "missing locations",
+      "locations": [
+        "Trailer(SouthHibernia)",
+        "Trailer(SouthHibernia)",
+        "Climb(BP-GM)",
+        "Climb(BP-GM)"
+      ]
+    },
+    "matches:guaranteed": {
+      "key": "matches",
+      "locations": [
+        "GoldMine(MiningCamp)",
+        "AnglersDen",
+        "HomesteadersRespite",
+        "BricklayersRetreat",
+        "Workshop(Cannery)",
+        "HuntingLodge",
+        "MaintenanceShed",
+        "HiberniaProcessing",
+        "ControlTower",
+        "Cave(HushedRiver)",
+        "Cave(WestOfMammothFalls)",
+        "Greymother",
+        "Cave(BetweenParkClimbs)",
+        "RuralStore",
+        "Cabin(SnowedIn)",
+        "MountaineersHut",
+        "TailSection"
+      ]
+    },
+    "matches:AC": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "Cave(AboveGoldMine)",
+        "Cave(WolfsJawOverlook)",
+        "POI(HighMeadow)",
+        "Cave(SouthOfShatteredCove)",
+        "MinersFolly",
+        "AnglersDen"
+      ]
+    },
+    "matches:BRM": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "BricklayersRetreat",
+        "OldSubstation",
+        "CooksFarm",
+        "JailorsResidence"
+      ]
+    },
+    "matches:CH": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "Cabins(FishingCamp)",
+        "AbandonedLookout",
+        "FishHut(Westmost)",
+        "Car(Rockfall)"
+      ]
+    },
+    "matches:FA": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "ControlTower",
+        "IslandCottage",
+        "HuntersBlind(CentralFA)"
+      ]
+    },
+    "matches:HRV": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyLongShot)"
+      ]
+    },
+    "matches:TWM": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "WaterfallCave",
+        "ForestCave(TWM)",
+        "Cave(ThreeWay)"
+      ]
+    },
+    "matches:ZOC": {
+      "key": "matches",
+      "total": 1,
+      "locations": [
+        "Headframe",
+        "Concentrator"
+      ]
+    },
+    "prybar:BRM": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [
+        "OldSubstation",
+        "ForagersRemnant",
+        "PowerPlant",
+        "BricklayersRetreat",
+        "LastProspect",
+        "CooksFarm",
+        "Tunnel(KP)"
+      ]
+    },
+    "prybar:BI": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [        "Warehouse4",
+        "Trailers(WestOfCannery)",
+        "FallenLighthouse",
+        "Cars(LongBridge)",
+        "WashedOutTrailer"]
+    },
+    "prybar:BR": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [        "Truck(BrokenBridge)",
+        "MaintenanceShed",
+        "MaintenanceYard",
+        "POI(LocomotiveEngine)"]
+    },
+    "prybar:CH": {
+      "key": "prybar",
+      "total": 1,
+      "locations":
+              [        "Car(TheTooth)",
+        "Cabin(NorthOfTooth)",
+        "FishHuts(Central)",
+        "Trailer(SouthOfTrainUnloading)",
+        "AbandonedMine(Upper)",
+        "QuonsetGarage",
+        "WaterfrontCottages"]
+    },
+    "prybar:MT": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [
+        "PicnicArea",
+        "Orca",
+        "ParadiseMeadowsFarm",
+        "Houses(MiltonNW)"]
+    },
+    "prybar:ML": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [        "Trailers(LoggingCamp)",
+        "UpperDam",
+        "Cabin(LoneLake)",
+        "Cabin(UnnamedPond)",
+        "TrainCar(TrainLoading)",
+        "ForestryLookout"]
+    },
+    "prybar:PV": {
+      "key": "prybar",
+      "total": 1,
+      "locations": [
+            "ThomsonsCrossing",
+        "POI(PointOfDisagreement)",
+        "PVFarmhouse",
+        "SignalHill",
+        "Cave(EndOfTheRoad)",
+        "CommunityHall"
+      ]
+    },
+    "prybar:singleLocs": {
+      "key": "prybar",
+      "locations": ["Workshop(Cannery)",
+      "MaintenanceYard",
+      "HiberniaProcessing",
+      "TrainCar(SurfeitTrestle)",
+       "POI(RailOffice)",
+      "MainHangar",
+      "Cave(WestOfMammothFalls)",
+      "Concentrator"]
+    },
+    "prybar:notOnLootTable":
+    {
+      "key": "prybar",
+      "total": 8,
+      "locations": [
+        "No3Mine(ToDP)",
+        "No3Mine(FromDP)",
+        "Cave(ThreeWay)",
+        "LangstonMine(Floor2)",
+        "IndolentHoppers",
+        "PVFarmhouse",
+        "Truck(Matts)",
+        "TheRiken",
+        "AnglersDen",
+        "ClimbersCave",
+        "OldSubstation",
+        "PowerPlant",
+        "JailorsResidence",
+        "BrittleCave",
+        "IceCave(SketchySouth)",
+        "IceCave(SketchyValleyViewPoint)",
+        "AbandonedCamp(NW)",
+        "AbandonedCamp(NE)",
+        "AbandonedCamp(SW)",
+        "AbandonedCamp(SE)",
+        "ParadiseMeadowsFarm",
+        "CreditUnion",
+        "Houses(MiltonNW)",
+        "StChristophers",
+        "Garage(WeatherStation)",
+        "ForgottenExploration",
+        "Cave(NearTrailer)",
+        "TrainCar(Ravine)",
+        "HiberniaProcessing",
+        "SpenceFarmstead",
+        "UpperDam",
+        "TrappersHomestead",
+        "CreditUnion",
+        "Warehouse3",
+        "Concentrator",
+        "LastLonelyHouse",
+        "RadarBuilding"
+      ],
+      "note": ["All safes are listed at end (Hibernia to Radar)",
+      "Extra locations https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 "]
+    },
+    "canopener:guaranteed": {
+      "key":"canopener",
+      "locations":
+              ["PVFarmhouse",
+              "LangstonMine(Floor3)",
+              "IdleCamp"],
+      "note": [
+        "Based on https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 "]
+    },
+    "canopener": {
+      "key": "canopener",
+      "total": 5,
+      "locations": [
+        "FishHut(BitterMarsh)",
+        "MinersFolly",
+        "PrisonWorkshop",
+        "POI(CampAboveCoastMountainRoad)",
+        "POI(CampAboveCoastMountainRoad)",
+        "EchoOneRadioTower",
+        "Kitchen(Cannery)",
+        "Workshop(Cannery)",
+        "Trailers(WestOfCannery)",
+        "MaintenanceYard",
+        "HuntingLodge",
+        "Trailer(TrainUnloading)",
+        "House(Jackrabbit)",
+        "House(SouthCoastalTownsite)",
+        "House(NorthCoastalTownsite)",
+        "AbandonedMine(Aurora)",
+        "Trailer(BetweenMines)",
+        "POI(ShortwaveTower)",
+        "POI(ShortwaveTower)",
+        "Shelter(MarshRidge)",
+        "JunkersPaddock",
+        "ControlTower",
+        "MainHangar",
+        "MindfulCabin",
+        "POI(CampAboveValleyViewPoint)",
+        "IceCave(SketchyValleyViewPoint)",
+        "IceCave(ReclusiveFalls)",
+        "Cave(EastOfStairsteps)",
+        "Climb(SL-SMSF)",
+        "Orca",
+        "CreditUnion",
+        "Houses(MiltonSE)",
+        "Houses(MiltonSW)",
+        "ParadiseMeadowsFarm",
+        "ForestryLookout",
+        "UpperDam",
+        "LowerDam",
+        "TrappersHomestead",
+        "Cabin(UnnamedPond)",
+        "SignalHill",
+        "ThomsonsCrossing",
+        "CommunityHall",
+        "Barn(LowerFalls)",
+        "Cabin(SnowedIn)",
+        "Basement(RudigersHideout)",
+        "PlacidNotch",
+        "FinalRefuge",
+        "LottesRest",
+        "AbandonedMine(SP)",
+        "MiserableHaunt",
+        "Concentrator",
+        "IndolentHoppers",
+        "ScaffoldersHideout",
+        "AbandonedMine(Upper)",
+        "POI(RailOffice)",
+        "PlatelayersShortcut",
+        "PlatelayersShortcut",
+        "Cave(ConnectingZOC)",
+        "Cave(KPN)",
+        "Cave(KPN)"
+      ],
+      "note": [
+        "Based on https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 "]
+    },
+    "rope:guaranteed": {
+      "key": "rope",
+      "locations": [
+        "HomesteadersRespite",
+        "PensiveLookout",
+        "Workshop(Cannery)",
+        "MaintenanceShed",
+        "HuntingLodge",
+        "Cave(Waterfall)",
+        "MainHangar",
+        "PVFarmhouse",
+        "POI(DestroyedLookout)",
+        "AbandonedMine(SP)",
+        "TailSection",
+        "ShallowCave(UnderSummit)",
+        "MountaineersHut",
+        "TrainCar(SurfeitTrestle)"
+      ]
+    },
+    "rope:CH": {
+      "key": "rope",
+      "total": 1,
+      "locations": [
+        "Cabins(FishingCamp)",
+        "FishHuts(Central)",
+        "AbandonedLookout"
+      ]
+    },
+     "rope:Ravine": {
+      "key": "rope",
+      "total": 1,
+      "locations": [
+        "Cave(WestRavine)",
+        "Cave(EastRavine)",
+        "TrainCar(Ravine)"
+      ]
+    },
+    "rope:Other": {
+      "key": "rope",
+      "total": 3,
+      "locations": [
+        "FishHut(BitterMarsh)",
+        "POI(HighMeadow)",
+        "Climb(CC-HM2)",
+        "Cave(LongFallsEast)",
+        "Cave(AboveGoldMine)",
+        "Cave(WolfsJawOverlook)",
+        "Climb(GM-WJO)",
+        "StoneChurch",
+        "Truck(Matts)",
+        "Truck(Matts)",
+        "Concentrator",
+        "Cave(ConnectingZOC)"
+      ]
+    },
+    "preppersPie": {
+      "key": "recipe",
+      "total": 1,
+      "locations": [
+        "PrepperCache(AC)",
+        "PrepperCache(BRM)",
+        "PrepperCache(BI)",
+        "PrepperCache(FM)",
+        "PrepperCache(HRV)",
+        "PrepperCache(MT)",
+        "PrepperCache(ML)",
+        "PrepperCache(PV)",
+        "PrepperCache(TWM)"
+      ]
+    },
+    "pillow:trailers": {
+      "key": "pillow",
+      "total": 5,
+      "note": "total is a guess, as are locations",
+      "locations": [
+        "Trailer(LangstonMine)",
+        "ForemansClearcut",
+        "WashedOutTrailer",
+        "Trailer(Cannery)",
+        "Kitchen(Cannery)",
+        "Trailer(BetweenMines)",
+        "Trailer(NearSilentClearing)",
+        "Trailer(KPS)"
+      ]
+    },
+    "pillow:caches": {
+      "key": "pillow",
+      "total": 3,
+      "note": "total is a guess",
+      "locations": [
+        "PrepperCache(AC)",
+        "PrepperCache(BRM)",
+        "PrepperCache(BI)",
+        "PrepperCache(FM)",
+        "PrepperCache(HRV)",
+        "PrepperCache(MT)",
+        "PrepperCache(ML)",
+        "PrepperCache(PV)",
+        "PrepperCache(TWM)"
+      ]
+    },
+    "floppy:possible": {
+      "key": "floppy",
+      "total": 0.5,
+      "note": "total is a guess, as are locations",
+      "locations": [
+        "CampOffice",
+        "HiberniaProcessing",
+        "LonelyLighthouse",
+        "PostOffice",
+        "Orca",
+        "PensiveLookout",
+        "StationBunkhouse",
+        "ControlTower",
+        "BunkerAlpha",
+        "BunkerBeta",
+        "BunkerGamma",
+        "BunkerOmega",
+        "Concentrator",
+        "Headframe"
+      ]
+    },
+    "horseshoe": {
+      "key": "horseshoe",
+      "locations": [
+        "WardensOffice",
+        "HuntingLodge",
+        "MindfulCabin"
+      ]
+    },
+    "batteries": {
+      "key": "battery",
+      "total": 6,
+      "note": "total is a guess, as are locations",
+      "locations": [
+        "Truck(KPN)",
+        "PowerPlant",
+        "Cars(LongBridge)",
+        "EchoOneRadioTower",
+        "Truck(BrokenBridge)",
+        "MaintenanceYard",
+        "CreditUnion",
+        "VacantDepot",
+        "MainHangar",
+        "MainHangar"
+      ]
+    },
+    "battery:MT": {
+      "key": "battery",
+      "total": 1,
+      "note": "total is a guess, as are locations",
+      "locations": [
+        "Cave(SpruceFallsSouthExit)",
+        "Cave(Graveyard)",
+        "StChristophers",
+        "Greymother",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "PostOffice",
+        "Orca"
+      ]
+    },
+    "orangeThermos": {
+      "key": "thermos",
+      "total": 1,
+      "locations": [
+        "Cave(MistyFalls)",
+        "HuntersBlind(HilltopCave)",
+        "HuntersBlind(Joplin)",
+        "ThomsonsCrossing",
+        "FishHut(PensivePond)"
+      ]
+    },
+    "yellowThermos": {
+      "key": "thermos",
+      "total": 1,
+      "locations": [
+        "Warehouse2",
+        "Warehouse4",
+        "POI(CanneryPier)",
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "redThermos": {
+      "key": "thermos",
+      "total": 1,
+      "locations": [
+        "CentralPrison",
+        "WardensOffice",
+        "PrisonWorkshop",
+        "Barracks",
+        "Infirmary",
+        "Terminal",
+        "MindfulCabin",
+        "IslandCottage",
+        "Terminal"
+      ]
+    },
+    "polaroid:BRM": {
+      "key": "polaroid",
+      "total": 2,
+      "locations": [
+        "PrisonGate",
+        "WhistlingPerch"
+      ]
+    },
+    "polaroid:FA": {
+      "key": "polaroid",
+      "total": 2,
+      "locations": [
+        "IslandCottage",
+        "JunkersPaddock"
+      ]
+    },
+    "polaroid:SP": {
+      "key": "polaroid",
+      "total": 2,
+      "locations": [
+        "FinalRefuge",
+        "Cabin(SnowedIn)"
+      ]
+    },
+    "polaroid:ZOC": {
+      "key": "polaroid",
+      "total": 2,
+      "locations": [
+        "IndolentHoppers",
+        "LangstonMine(Floor3)"
+      ]
+    },
+    "researchBooks": {
+      "key": "research",
+      "total": 50,
+      "note": "Guessing at total",
+      "locations": [
+        "GoldMine(MiningCamp)",
+        "Cave(WolfsJawOverlook)",
+        "MinersFolly",
+        "AnglersDen",
+        "POI(HighMeadow)",
+        "HomesteadersRespite",
+        "PrepperCache(AC)",
+        "Trailer(SouthOfPowerPlant)",
+        "OldSubstation",
+        "ForemansClearcut",
+        "LastProspect",
+        "HuntersBlind(FrozenDelta)",
+        "Cave(SaltDeposit)",
+        "EchoOneRadioTower",
+        "WashedOutTrailer",
+        "Trailers(WestOfCannery)",
+        "Cave(FarIsland)",
+        "FallenLighthouse",
+        "PensiveLookout",
+        "HuntingLodge",
+        "MaintenanceYard",
+        "Trailer(TrainUnloading)",
+        "Car(Rockfall)",
+        "Trailer(BetweenMines)",
+        "FishHuts(Central)",
+        "QuonsetGarage",
+        "Car(CommutersLament)",
+        "AbandonedLookout",
+        "HarrisBasement",
+        "Cave(RoadCollapse)",
+        "No3Mine(FromDP)",
+        "POI(KatiesSecludedCorner)",
+        "No5Mine(West)",
+        "StoneChurch",
+        "LonelyLighthouse",
+        "Trailer(NorthHibernia)",
+        "Trailer(SouthHibernia)",
+        "TheRiken",
+        "HiberniaProcessing",
+        "SpenceFarmstead",
+        "Cave(WestAntenna)",
+        "LowBlind",
+        "Cave(MarshRidge)",
+        "Shelter(MarshRidge)",
+        "PoachersCamp",
+        "HighBlind",
+        "POI(Bunkhouses)",
+        "SpottersBlind",
+        "IslandCottage",
+        "ShoulderLakeCrash",
+        "FallowDugout",
+        "BunkerOmega",
+        "LakeCave",
+        "ParadiseMeadowsFarm",
+        "PicnicArea",
+        "Orca",
+        "Houses(MiltonNW)",
+        "Houses(MiltonNE)",
+        "Houses(MiltonSW)",
+        "Houses(MiltonSE)",
+        "POI(WoodLotArea)",
+        "Cave(ToMT)",
+        "Cave(RadioTower)",
+        "CrashedPlane(Mackenzie)",
+        "Cave(FromHRV)",
+        "PostOffice",
+        "Greymother",
+        "TrappersHomestead",
+        "HuntersBlind(UnnamedPond)",
+        "POI(DestroyedLookout)",
+        "ForestryLookout",
+        "Trailers(LoggingCamp)",
+        "TrainCar(TrainLoading)",
+        "UpperDam",
+        "Trailer(DamEast)",
+        "Trailer(DamWest)",
+        "HuntersBlind(AlansCave)",
+        "Cave(LakeOverlook)",
+        "CampOffice",
+        "FishHuts(ML)",
+        "POI(DavesQuietClearing)",
+        "Cave(PrepperCache)",
+        "POI(ThreeStrikes)",
+        "SignalHill",
+        "Cave(BelowHilltopCave)",
+        "HilltopCave",
+        "HuntersBlind(HilltopCave)",
+        "Cave(ToPV)",
+        "FishHut(PensivePond)",
+        "Barn(LowerFalls)",
+        "Barn(Mollys)",
+        "PVFarmhouse",
+        "SkeetersRidge",
+        "Barn(Archery)",
+        "Cave(WestOfUpperFalls)",
+        "RuralStore",
+        "Cave(MistyFalls)",
+        "Cave(DerelictCabins)",
+        "Cave(EndOfTheRoad)",
+        "Cave(SouthRavine)",
+        "TrainCar(Ravine)",
+        "TrainCar(RavineBasin)",
+        "MountaineersHut",
+        "FishHut(TWM)",
+        "Cave(EngineWest)",
+        "Cave(SecludedShelf)",
+        "ShallowCave(UnderSummit)",
+        "Cave(ThreeWay)",
+        "Cave(WindingRiver)",
+        "Trailer(LangstonMine)"
+      ]
+    },
+    "potatosacks": {
+      "key": "food",
+      "total": 10,
+      "note": "total is a guess",
+      "citation": "https://thelongdark.fandom.com/wiki/Potato_Sack",
+      "locations": [
+        "CampOffice",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "RoamersCave",
+        "Barracks",
+        "MainHangar",
+        "LastLonelyHouse",
+        "CampOffice",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "Barracks",
+        "MainHangar",
+        "LastLonelyHouse",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "MainHangar"
+      ]
+    },
+    "vegetableracks": {
+      "key": "food",
+      "total": 10,
+      "note": "total is a guess",
+      "citation": "https://thelongdark.fandom.com/wiki/Vegetable_Rack",
+      "locations": [
+        "HuntingLodge",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "RuralStore",
+        "IdleCamp",
+        "HuntingLodge",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "RuralStore",
+        "IdleCamp",
+        "HuntingLodge",
+        "ParadiseMeadowsFarm",
+        "PVFarmhouse",
+        "RuralStore",
+        "IdleCamp"
+      ]
+    }
+  },
+  "ContainerRNG": {
+    "firstaid": {
+      "bandage": 22.73,
+      "antiseptic": 15.91,
+      "antibiotics": 11.36,
+      "painkillers": 11.36,
+      "sewing": 9.09,
+      "purification": 9.09,
+      "stim": 9.09
+    },
+    "bag": {
+      "food": 28.36,
+      "matches": 5.22,
+      "paint": 5.22,
+      "accelerant": 3.73,
+      "crackers": 3.73,
+      "toque": 2.24,
+      "socks": 1.49,
+      "sweater": 0.75,
+      "tackle": 0.75,
+      "can": 0.75,
+      "marineflare": 0.75
+    },
+    "hiddencache": {
+      "combatpants": 33.33,
+      "rabbithat": 33.33,
+      "earwrap": 33.33,
+      "food": 66.67,
+      "crackers": 33.33,
+      "canopener": 33.33,
+      "whetstone": 33.33
+    },
+    "safe": {
+      "stim": 5.43,
+      "book": 5.43,
+      "earwrap": 3.26,
+      "gunpowder": 2.17,
+      "maglens": 2.17,
+      "distress": 1.09,
+      "wolfhide": 1.09
+    },
+    "washer-or-dryer": {
+      "socks": 14.47,
+      "underwear": 6.58,
+      "sweater": 3.29,
+      "combatpants": 1.97
+    },
+    "file": {
+      "paper": 20.75,
+      "food": 12.58,
+      "matches": 4.4,
+      "toque": 4.4,
+      "coffee": 3.77,
+      "cloth": 3.14,
+      "metal": 3.14,
+      "paint": 3.14,
+      "book": 3.14,
+      "sewing": 2.52,
+      "herbaltea": 2.52,
+      "painkillers": 1.89,
+      "canopener": 1.26
+    },
+    "metal": {
+      "food": 5.08,
+      "matches": 5.08,
+      "metal": 4.52,
+      "accelerant": 3.95,
+      "antiseptic": 2.82,
+      "charcoal": 2.82,
+      "bandage": 2.82,
+      "fuel": 2.82,
+      "toque": 2.82,
+      "firelog": 2.82,
+      "blueflare": 2.82,
+      "canopener": 2.82,
+      "tackle": 2.82,
+      "paint": 2.82,
+      "underwear": 2.82,
+      "book": 2.82,
+      "paper": 2.82,
+      "leather": 2.82,
+      "antibiotics": 2.82,
+      "coffee": 2.82,
+      "sweater": 2.82,
+      "prybar": 2.82
+    },
+    "locker": {
+      "windbreaker": 2.755,
+      "simpleparka": 2.755,
+      "paper": 2.755,
+      "matches": 2.755,
+      "boook": 2.066,
+      "cloth": 2.066,
+      "food": 2.066,
+      "fuel": 2.066,
+      "metal": 2.066,
+      "accelerant": 1.377,
+      "blueflare": 1.377,
+      "antiseptic": 1.377,
+      "painkillers": 1.377,
+      "paint": 1.337,
+      "toque": 1.337,
+      "purification": 1.337,
+      "sweater": 1.337,
+      "fuse": 0.689,
+      "leather": 0.689,
+      "line": 0.689,
+      "underwear": 0.689,
+      "simple": 0.689,
+      "tinder": 0.689,
+      "wires": 0.689,
+      "combatboots": 0.0689
+    }
+  },
+  "notes": [
+    "only ~20% of containers will contain any items https://thelongdark.fandom.com/wiki/Interloper",
+    "distress pistol flare shells cannot spawn inside containers on Interloper, https://thelongdark.fandom.com/wiki/Flare_Shell",
+    "Bashrobe video mentioned red flares won't spawn inside containers on Interloper"
+  ]
+}

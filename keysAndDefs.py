@@ -10,13 +10,17 @@ FIND = 'find'
 BRING = 'bring'
 TAKE = 'take'
 DESTROY = 'destroy'
+PREPARE = 'prepare'
+MOVED = 'moved-customization'
 
 TOBRING = '+'
 TOREMOVE = '-'
 TOFIND = '?'
 TOMAKE = '*'
+TOPREPARE = '!'
+GLITCHBROUGHT = '$'
 
-PREFIXES = {TOBRING:BRING, TOREMOVE:REMOVE, TOFIND:FIND, TOMAKE:MAKE}
+PREFIXES = {TOBRING:BRING, TOREMOVE:REMOVE, TOFIND:FIND, TOMAKE:MAKE, GLITCHBROUGHT:MOVED, TOPREPARE:PREPARE}
 
 NOTINGAME = 'NotInGame'
 
@@ -101,7 +105,7 @@ def parse_colours(colours):
     :return: same mappings but everything is hex codes
     >>> c, d, cs, ps = parse_styling('styling.json')
     >>> parse_colours(c).keys()
-    dict_keys(['bg', 'base', 'basebg', 'outdoor', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cedar', 'cattail', 'path', 'stone', 'take', 'destroy', 'clearpath', 'charcoal', 'mixed', 'find', 'todo'])
+    dict_keys(['bg', 'fake', 'base', 'basebg', 'outdoor', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cattail', 'cedar', 'other', 'path', 'default', 'take', 'destroy', 'clearpath', 'todo', 'find', 'charcoal', 'mixed'])
     >>> parse_colours(c)['tinder']
     '#623e29'
     """
@@ -147,7 +151,7 @@ USED_UP = 'UsedUp'
 TRUES = ['TRUE', 'True', 'true', '''"true"''']
 
 class LegendAsset:
-    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper, note='', extra=''):
+    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper, storage='', note='', extra=''):
         self.key = key
         self.filename = key + '.svg'
         self.description = descrip
@@ -170,6 +174,12 @@ class LegendAsset:
         self.movable = movable.lower() in TRUES
         assert type(self.movable) is bool
         self.interloper = interloper.lower() in TRUES
+
+        try:
+            self.storage = float(storage)
+        except:
+            self.storage = ''
+
     def __repr__(self):
         s = ':'.join([self.key, self.description, self.material, str(self.fixednum), str(self.movable)])
         return s
@@ -184,6 +194,7 @@ ASSETS = {EMPTY:'empty.svg'}
 TODO_TYPES = {EMPTY:BASE}
 MOVABLES = [EMPTY]
 ICONS = []
+CONTAINERS = {}
 
 with open(LEGEND, 'r') as f:
     for line in f:
@@ -196,7 +207,8 @@ with open(LEGEND, 'r') as f:
             TODO_TYPES[la.key] = la.material
             if la.movable:
                 MOVABLES.append(la.key)
-
+            if type(la.storage) != str:
+                CONTAINERS[la.key] = la.storage
 
 if __name__ == '__main__':
     doctest.testmod()
