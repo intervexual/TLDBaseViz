@@ -378,10 +378,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 9. Add where to BRING the polaroids
 13. Tea & coffee
 15. Crackers
-5. Nicer organization of base features in template
-4. Consolidate repeated features (e.g. lockers) into stacked numbered entries
 8. RNG tables for cupboards, lockers, etc?
-9. Once features seem stable, worry about placement of icons
+9. Once features seem stable, worry about placement of bases
 10. Improve guesses as to locations of: pillows, batteries, DP ammo, the crampons in TWM, etc
 11. Add any non-loot-table hacksaw, hammer, bedroll, maglens, firestriker, lantern: https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 
 12. Check matches versus https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241

@@ -1,259 +1,259 @@
-%KEYWORD	DESCRIPTION	GROUP	THEME	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	STORAGE	NOTE
-bed	location with a bed	furniture	bench			FALSE	TRUE		good
-rusticbed	rustic bed	furniture	bench	cedar		FALSE	TRUE		
-bearbed	bear hide bed	furniture	bench	fir		FALSE	TRUE		fine
-workbench	workbench	furniture	bench		vice	FALSE	TRUE	5	fine
-outworkbench	workbench (outdoor)	furniture	bench		vice	FALSE	TRUE	5	
-builtworkbench	workbench (built)	furniture	bench	cedar	vice	FALSE	TRUE		
-furnbench	furniture workbench	furniture	bench	cedar		FALSE	TRUE	0	good
-forge	forge	furniture	bench		4	FALSE	TRUE		good
-milling	milling machine	furniture	bench		2	FALSE	TRUE		good
-radio	trader radio	furniture	dlc		10	FALSE	TRUE		good
-trader	trade drop-box	furniture	dlc		1	FALSE	TRUE		good
-transmitter	transmitter	furniture	dlc	other	6	FALSE	TRUE		
-cache	supply cache	furniture	dlc		24	FALSE	TRUE		
-mementobox	memento lock box	furniture	dlc		7	FALSE	TRUE	10	
-potbelly	1-slot stove	furniture	cooking			FALSE	TRUE	0	good
-grill	2-slot stove	furniture	cooking			FALSE	TRUE	0	good
-range	6-slot stove	furniture	cooking		7	FALSE	TRUE	0	good
-curing	curing box	furniture	cooking	fir		TRUE	TRUE		fine
-trunk	rustic trunk	furniture	special	fir		FALSE	TRUE	35	good
-suitcase	suitcase	furniture	special		30	TRUE	TRUE	20	good
-cedarbox	rustic storage box	furniture	special	cedar		TRUE	TRUE	15	
-chest	trunk (premade)	furniture	storage			FALSE	TRUE	30	
-briefcase	briefcase or lock box	furniture	storage			FALSE	TRUE	10	fine
-box	metal container (green, 15kg)	furniture	storage			FALSE	TRUE	15	
-plastic	plastic container (blue, 15kg)	furniture	storage			FALSE	TRUE	15	
-firstaid	first aid kit or medicine shelf	furniture	storage			FALSE	TRUE	5	
-oven	fridge/oven/hutch (40kg)	furniture	storage			FALSE	TRUE	40	
-locker	locker (30kg)	furniture	storage			FALSE	TRUE	30	
-washer	washer/dryer (15/30kg)	furniture	storage			FALSE	TRUE	15	
-freezer	freezer/cooler (20kg)	furniture	storage			FALSE	TRUE	20	
-cabinet	20 kg cabinet	furniture	storage			FALSE	TRUE	20	
-trash	trash can (15kg)	furniture	storage			FALSE	TRUE	15	
-bag	15 kg bag	furniture	storage			FALSE	TRUE	15	
-safe	safe (10kg)	furniture	storage		10	FALSE	TRUE	10	
-file	10 kg drawer	furniture	storage			FALSE	TRUE	10	
-drawer	5 kg drawer	furniture	storage			FALSE	TRUE	5	
-shelf	shelf	furniture	storage			FALSE	TRUE	0	
-supplybin	supply bin (30kg, no customization)	furniture	outdoor			FALSE	TRUE	30	replace!
-rockcache	rock cache	furniture	outdoor	other		TRUE	TRUE	30	good
-pillow	pillow	furniture	customization			TRUE	TRUE		
-calendar	desk calendar	furniture	customization			TRUE	TRUE		
-floppy	floppy disk	furniture	customization			TRUE	TRUE		
-horseshoe	horseshoe	furniture	customization		3	TRUE	TRUE		
-wallshelf	wall shelf	furniture	customization			TRUE	TRUE		
-crate	crate (portable)	furniture	customization			TRUE	TRUE		
-buildout	outdoor customization site	furniture	customization			FALSE	TRUE		
-floor	on the floor	furniture	meta			TRUE	TRUE	0	
-rug	rug / rug-covered floor	furniture	meta			TRUE	TRUE		
-mat	mat (small rug)	furniture	meta			TRUE	TRUE		
-lamp	aurora light source	furniture	meta			TRUE	TRUE		
-festive	festive lights (portable)	furniture	meta		4	TRUE	TRUE		
-lights	lights (non-portable)	furniture	meta		3	FALSE	TRUE		
-decor	walls are decorated	furniture	meta			TRUE	TRUE		
-contd	inside last container	furniture	meta			TRUE	TRUE	0	
-outside	found directly outside	furniture	meta			TRUE	TRUE	0	
-environs	found nearby	furniture	meta			TRUE	TRUE	0	
-maglens	magnifying lens	tools	light		3	TRUE	TRUE		good
-firestriker	firestriker	tools	light		4	TRUE	TRUE		fine
-matches	wood matches	tools	light			TRUE	TRUE		fine
-redflare	flare	tools	light			TRUE	TRUE		
-blueflare	marine flare	tools	light			TRUE	TRUE		
-torch	torch	tools	light			TRUE	TRUE		
-flashlight	flashlight	tools	light			TRUE	FALSE		
-minersflashlight	miner’s flashlight	tools	light			TRUE	FALSE		
-lantern	lantern	tools	light		7	TRUE	TRUE		good
-spelunker	spelunker’s lantern	tools	light		1	TRUE	TRUE		
-fuel	lantern fuel	tools	light			TRUE	TRUE		
-jerrycan	jerry can	tools	light			TRUE	TRUE		good
-accelerant	accelerant	tools	light			TRUE	TRUE		
-cookpot	cookpot	tools	cooking		17	TRUE	TRUE		good
-skillet	skillet	tools	cooking		14	TRUE	TRUE		good
-can	recycled can	tools	cooking			TRUE	TRUE		
-thermos	insulated flask	tools	cooking		6	TRUE	TRUE		good
-stickerthermos	insulated flask (sticker)	tools	cooking			TRUE	TRUE		
-canopener	can opener	tools	cooking			TRUE	TRUE		
-barbs	barb’s rifle	tools	guns			TRUE	FALSE		
-rifle	hunting rifle	tools	guns			TRUE	FALSE		
-curators	curator’s rifle	tools	guns			TRUE	FALSE		
-vaughns	vaughn’s rifle	tools	guns			TRUE	FALSE		
-bunkerrifle	bunker rifle	tools	guns			TRUE	FALSE		OUT OF PLACE
-ammo	rifle ammunition	tools	guns			TRUE	FALSE		
-hunters	hunter’s revolver	tools	guns			TRUE	FALSE		
-revolver	revolver	tools	guns			TRUE	FALSE		
-foresters	forester’s revolver	tools	guns			TRUE	FALSE		
-wardens	warden’s revolver	tools	guns			TRUE	FALSE		
-bullet	revolver ammo	tools	guns			TRUE	FALSE		
-distress	distress pistol	tools	weaponry			TRUE	TRUE		fine
-dpammo	distress pistol ammo	tools	weaponry			TRUE	TRUE		fine
-noisemaker	noisemaker	tools	weaponry			TRUE	TRUE		
-woodwright	woodwright’s bow	tools	weaponry			TRUE	FALSE		
-bushcraft	bushcraft bow	tools	weaponry			TRUE	FALSE		
-bow	survival bow	tools	weaponry			TRUE	TRUE		
-sportbow	sport bow	tools	weaponry			TRUE	FALSE		
-manuarrow	manufatured arrow	tools	weaponry			TRUE	FALSE		
-arrow	simple arrow	tools	weaponry			TRUE	TRUE		
-firearrow	fire hardened arrow	tools	weaponry			TRUE	TRUE		
-huntknife	hunting knife	tools	harvesting			TRUE	FALSE		
-clawknife	cougar claw knife	tools	harvesting			TRUE	TRUE		
-knife	improvised knife	tools	harvesting			TRUE	TRUE		
-survivalknife	survival knife	tools	harvesting			TRUE	FALSE		
-hacksaw	hacksaw	tools	harvesting		11	TRUE	TRUE		good
-prybar	prybar	tools	harvesting		23	TRUE	TRUE		good
-hatchet	hatchet	tools	harvesting			TRUE	FALSE		
-axe	improvised hatchet	tools	harvesting			TRUE	TRUE		
-hammer	heavy hammer	tools	harvesting		7	TRUE	TRUE		good
-dullknife	dull knife	tools	harvesting			TRUE	TRUE		
-dullaxe	dull axe	tools	harvesting			TRUE	TRUE		
-snare	snare	tools	exploring	other		TRUE	TRUE		good
-tipup	fishing tip-up	tools	exploring	other		TRUE	TRUE		fine
-hook	hook	tools	exploring			TRUE	TRUE		
-tackle	fishing tackle	tools	exploring			TRUE	TRUE		
-bedroll	cloth bedroll	tools	exploring		8	TRUE	TRUE		good
-bearroll	bearskin bedroll	tools	exploring			TRUE	TRUE		
-rucksack	technical backpack	tools	exploring		1	TRUE	TRUE		good
-quality	quality tools	tools	crafting			TRUE	TRUE		fine
-simple	simple tools	tools	crafting			TRUE	TRUE		fine
-woodworking	woodworking tools	tools	crafting		4	TRUE	TRUE		fine
-sewing	sewing kit	tools	crafting			TRUE	TRUE		
-whetstone	whetstone	tools	crafting			TRUE	TRUE		
-guncleaner	firearm cleaning kit	tools	crafting			TRUE	FALSE		
-research	research book	tools	crafting			TRUE	TRUE		
-recipe	recipe card	misc	misc		13	TRUE	TRUE		good
-polaroid	polaroid	misc	misc		27	TRUE	TRUE		good
-camera	camera	misc	misc		1	TRUE	TRUE		
-handheld	handheld shortwave radio	misc	misc		1	TRUE	TRUE		
-mementokey	memento key	misc	misc		7	TRUE	TRUE		
-rope	climbing rope	misc	misc		78	TRUE	TRUE		77 rope climbing positions; 19 spawns
-coal	coal piece	misc	fire			TRUE	TRUE		good
-stick	stick	misc	fire			TRUE	TRUE		good
-cedar	cedar firewood	misc	fire			TRUE	TRUE		
-fir	fir firewood	misc	fire			TRUE	TRUE		
-firelog	firelog	misc	fire			TRUE	TRUE		
-reclaimed	reclaimed wood	misc	fire			TRUE	TRUE		
-book	book	misc	fire			TRUE	TRUE		
-charcoal	charcoal	misc	navigation			TRUE	TRUE		
-paint	spray paint	misc	navigation			TRUE	TRUE		
-film	FastFilm-500 (any type)	misc	navigation			TRUE	TRUE		
-paper	newspaper or stack of papers	misc	navigation			TRUE	TRUE		
-tinder	tinder plug	misc	navigation			TRUE	TRUE		
-head	cattail head	misc	navigation			TRUE	TRUE		
-fuse	replacement fuse	misc	navigation			TRUE	TRUE		replace!
-wires	wires	misc	navigation			TRUE	TRUE		
-battery	car battery	misc	navigation			TRUE	TRUE		
-maple	maple sapling	misc	material			TRUE	TRUE		good
-sapling	birch sapling	misc	material			TRUE	TRUE		
-arrowhead	arrowhead	misc	material			TRUE	TRUE		
-scrap	scrap metal	misc	material			TRUE	TRUE		
-cloth	cloth	misc	material			TRUE	TRUE		
-leather	cured leather	misc	material			TRUE	TRUE		
-stone	stone	misc	material			TRUE	TRUE		
-vice	workbench vice	misc	material	other	47	TRUE	TRUE		good
-gunpowder	can of gunpowder	misc	material			TRUE	TRUE		
-fertilizer	dusting sulphur or grow well	misc	material			TRUE	TRUE		
-moosehide	moose hide	misc	hides			TRUE	TRUE		good
-bearhide	bear hide	misc	hides			TRUE	TRUE		
-wolfhide	wolf hide	misc	hides			TRUE	TRUE		good
-cougarhide	cougar hide	misc	hides			TRUE	TRUE		
-deerhide	deer hide	misc	hides			TRUE	TRUE		
-rabbitpelt	rabbit pelt	misc	hides			TRUE	TRUE		replace!
-gut	cured gut	misc	hides			TRUE	TRUE		
-feather	crow feather	misc	hides			TRUE	TRUE		
-down	ptarmigan down	misc	hides			TRUE	TRUE		
-food	food (general)	misc	cooking			TRUE	TRUE		
-shaker	salt shaker	misc	cooking			TRUE	TRUE		
-saltbag	salt bag	misc	cooking			TRUE	TRUE		
-water	potable water	misc	cooking			TRUE	TRUE		
-cattail	cattail stalks	misc	cooking			TRUE	TRUE		
-oats	oats	misc	cooking			TRUE	TRUE		
-flour	old mill flour	misc	cooking			TRUE	TRUE		kind of hard to distinguish from oats
-curedfish	cured fish	misc	cooking			TRUE	TRUE		
-curedmeat	cured meat	misc	cooking			TRUE	TRUE		
-pemmican	pemmican bar	misc	cooking			TRUE	TRUE		not great
-rosehip	rose hip	misc	herbs			TRUE	TRUE		
-reishi	reishi mushroom	misc	herbs			TRUE	TRUE		
-lichen	old man’s beard lichen	misc	herbs			TRUE	TRUE		
-bark	birch bark	misc	herbs			TRUE	TRUE		fine
-acorns	acorns	misc	herbs			TRUE	TRUE		
-bandage	bandage	misc	aid			TRUE	TRUE		
-antiseptic	antiseptic	misc	aid			TRUE	TRUE		
-dressing	old man’s beard wound dressing	misc	aid			TRUE	TRUE		
-stim	emergency stim	misc	aid		12	TRUE	TRUE		fine
-caffeine	caffeine pills	misc	aid			TRUE	TRUE		
-vitaminc	vitamin-c pills	misc	aid			TRUE	TRUE		
-heatpack	heat pack	misc	aid			TRUE	TRUE		
-respirator	respirator	misc	aid		1	TRUE	TRUE		
-cannister	cannister	misc	aid			TRUE	TRUE		not great
-harvestcloth	source of harvestable cloth	misc	resources			TRUE	TRUE		
-harvestleather	source of harvestable leather	misc	resources			TRUE	TRUE		
-harvestmetal	source of harvestable scrap metal	misc	resources			TRUE	TRUE		
-bear	bear	natural	animal		29.38	FALSE	TRUE		good
-moose	moose	natural	animal			FALSE	TRUE		good
-deer	deer	natural	animal			FALSE	TRUE		good
-wolf	wolf	natural	animal			FALSE	TRUE		good
-poisonwolf	poisoned wolf	natural	animal			FALSE	TRUE		fine
-timberwolf	timberwolf	natural	animal			FALSE	TRUE		good
-cougar	cougar	natural	animal			FALSE	TRUE		fine
-rabbit	rabbit	natural	animal			FALSE	TRUE		good
-ptarmigan	ptarmigan	natural	animal			FALSE	TRUE		good
-fish	fishing	natural	animal			FALSE	TRUE		good
-bearhunt	bear hunting destination	natural	nonanimal			TRUE	TRUE		
-harvestcedar	cedar limb spawn	natural	nonanimal			FALSE	TRUE		
-harvestfir	fir limb spawn	natural	nonanimal			FALSE	TRUE		
-harvestbirch	birch bark spawn	natural	nonanimal			FALSE	TRUE		fine
-mine	coal spawn	natural	nonanimal			FALSE	TRUE		good
-saltdeposit	salt deposit	natural	nonanimal			FALSE	TRUE		good
-beachcombing	beachcombing	natural	nonanimal			FALSE	TRUE		good
-climb	rope climb	natural	nonanimal	other	rope	FALSE	TRUE		
-goating	goating route	natural	nonanimal			FALSE	TRUE		
-wrap	cougar hide wrap	clothing	head	cougar		TRUE	TRUE		fine
-wolfhat	wolfskin hat	clothing	head	wolf		TRUE	TRUE		good
-aviator	aviator cap	clothing	head			TRUE	TRUE		good
-techbalaclava	technical balaclava	clothing	head		1	TRUE	TRUE		good
-balaclava	balaclava	clothing	head			TRUE	TRUE		good
-rabbithat	rabbitskin hat	clothing	head	rabbit		TRUE	TRUE		fine
-toque	wool toque	clothing	head			TRUE	TRUE		fine
-bearcoat	bearskin coat	clothing	outer-torso			TRUE	TRUE		to-improve
-expedition	expedition parka	clothing	outer-torso			TRUE	FALSE		fine
-wolfcoat	wolfskin coat	clothing	outer-torso			TRUE	TRUE		good
-cloak	moose-hide cloak	clothing	outer-torso			TRUE	TRUE		good
-flightjacket	flight jacket	clothing	outer-torso			TRUE	FALSE		fine
-peacoat	mariner’s peacoat	clothing	outer-torso			TRUE	FALSE		fine
-militarycoat	military coat	clothing	outer-torso			TRUE	FALSE		fine
-mackinaw	mackinaw jacket	clothing	outer-torso			TRUE	TRUE		fine
-urban	urban parka	clothing	outer-torso			TRUE	FALSE		good
-skijacket	ski jacket	clothing	outer-torso			TRUE	TRUE		fine
-simpleparka	simple parka	clothing	outer-torso			TRUE	TRUE		fine
-windbreaker	windbreaker	clothing	outer-torso			TRUE	TRUE		fine
-cowichan	cowichan sweater	clothing	torso			TRUE	FALSE		fine
-fisherman	fisherman’s sweater	clothing	torso			TRUE	FALSE		good
-jersey	festive sweater or hockey jersey	clothing	torso			TRUE	TRUE		good
-shirt	wool shirt	clothing	torso			TRUE	FALSE		good
-sweater	thin wool sweater	clothing	torso			TRUE	TRUE		good
-gloves	tactical gloves	clothing	hands		1	TRUE	TRUE		good
-gauntlets	gauntlets	clothing	hands			TRUE	FALSE		fine
-mitts	rabbitskin mitts	clothing	hands	rabbit		TRUE	TRUE		fine
-woolmitts	wool mittens	clothing	hands			TRUE	FALSE		fine
-insulation	improvised insulation	clothing	accessories	ptarmigan		TRUE	TRUE		fine
-earwrap	wool ear wrap	clothing	accessories			TRUE	TRUE		to-improve
-crampons	crampons	clothing	accessories		1	TRUE	TRUE		fine
-improvcrampons	improvised crampons	clothing	accessories	metal		TRUE	TRUE		fine
-satchel	moose-hide satchel	clothing	accessories	moose		TRUE	TRUE		fine
-ballistic	ballistic vest	clothing	accessories		1	TRUE	TRUE		fine
-toolbelt	foreman’s tool belt	clothing	accessories		1	TRUE	TRUE		
-wolfpants	wolfskin pants	clothing	legs	wolf		TRUE	TRUE		good
-snowpants	snowpants	clothing	legs			TRUE	FALSE		fine
-deerpants	deerskin pants	clothing	legs	deer		TRUE	TRUE		good
-combatpants	combat pants	clothing	legs			TRUE	TRUE		good
-minerspants	miner’s pants	clothing	legs			TRUE	TRUE		fine
-climbsocks	climbing socks	clothing	bottom			TRUE	FALSE		fine
-socks	(patterned) wool socks	clothing	bottom			TRUE	TRUE		good
-longjohns	wool long johns	clothing	bottom			TRUE	FALSE		fine
-underwear	thermal underwear	clothing	bottom			TRUE	TRUE		good
-skiboots	ski boots	clothing	feet			TRUE	FALSE		good
-insulboots	insulated boots	clothing	feet			TRUE	FALSE		fine
-deerboots	deerskin boots	clothing	feet	deer		TRUE	TRUE		fine
-mukluks	mukluks	clothing	feet			TRUE	FALSE		fine
-chemboots	chemical boots	clothing	feet			TRUE	TRUE		good
-combatboots	combat boots	clothing	feet			TRUE	TRUE		good
+%KEYWORD	DESCRIPTION	GROUP	THEME	CLUSTER	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	STORAGE	NOTE
+bear	bear	natural	animal	natural		29.38	FALSE	TRUE		good
+moose	moose	natural	animal	natural			FALSE	TRUE		good
+deer	deer	natural	animal	natural			FALSE	TRUE		good
+wolf	wolf	natural	animal	natural			FALSE	TRUE		good
+poisonwolf	poisoned wolf	natural	animal	natural			FALSE	TRUE		fine
+timberwolf	timberwolf	natural	animal	natural			FALSE	TRUE		good
+cougar	cougar	natural	animal	natural			FALSE	TRUE		fine
+rabbit	rabbit	natural	animal	natural			FALSE	TRUE		good
+ptarmigan	ptarmigan	natural	animal	natural			FALSE	TRUE		good
+fish	fishing	natural	animal	natural			FALSE	TRUE		good
+bearhunt	bear hunting destination	natural	nonanimal	natural			TRUE	TRUE		
+harvestcedar	cedar limb spawn	natural	nonanimal	natural			FALSE	TRUE		
+harvestfir	fir limb spawn	natural	nonanimal	natural			FALSE	TRUE		
+harvestbirch	birch bark spawn	natural	nonanimal	natural			FALSE	TRUE		fine
+mine	coal spawn	natural	nonanimal	natural			FALSE	TRUE		good
+saltdeposit	salt deposit	natural	nonanimal	natural			FALSE	TRUE		good
+beachcombing	beachcombing	natural	nonanimal	natural			FALSE	TRUE		good
+climb	rope climb	natural	nonanimal	natural	other	rope	FALSE	TRUE		
+goating	goating route	natural	nonanimal	natural			FALSE	TRUE		
+radio	trader radio	furniture	dlc	dlc		10	FALSE	TRUE		good
+trader	trade drop-box	furniture	dlc	dlc		1	FALSE	TRUE		good
+transmitter	transmitter	furniture	dlc	dlc	other	6	FALSE	TRUE		
+cache	supply cache	furniture	dlc	dlc		24	FALSE	TRUE		
+mementobox	memento lock box	furniture	dlc	dlc		7	FALSE	TRUE	10	
+bed	location with a bed	furniture	bench	bench			FALSE	TRUE		good
+rusticbed	rustic bed	furniture	bench	bench	cedar		FALSE	TRUE		
+bearbed	bear hide bed	furniture	bench	bench	fir		FALSE	TRUE		fine
+workbench	workbench	furniture	bench	bench		vice	FALSE	TRUE	5	fine
+outworkbench	workbench (outdoor)	furniture	bench	bench		vice	FALSE	TRUE	5	
+builtworkbench	workbench (built)	furniture	bench	bench	cedar	vice	FALSE	TRUE		
+furnbench	furniture workbench	furniture	bench	bench	cedar		FALSE	TRUE	0	good
+forge	forge	furniture	bench	bench		4	FALSE	TRUE		good
+milling	milling machine	furniture	bench	bench		2	FALSE	TRUE		good
+potbelly	1-slot stove	furniture	cooking	bench			FALSE	TRUE	0	good
+grill	2-slot stove	furniture	cooking	bench			FALSE	TRUE	0	good
+range	6-slot stove	furniture	cooking	bench		7	FALSE	TRUE	0	good
+curing	curing box	furniture	cooking	bench	fir		TRUE	TRUE		fine
+supplybin	supply bin (30kg, no customization)	furniture	outdoor	outdoor			FALSE	TRUE	30	replace!
+rockcache	rock cache	furniture	outdoor	outdoor	other		TRUE	TRUE	30	good
+chest	trunk (premade)	furniture	storage	storage			FALSE	TRUE	30	
+briefcase	briefcase or lock box	furniture	storage	storage			FALSE	TRUE	10	fine
+box	metal container (green, 15kg)	furniture	storage	storage			FALSE	TRUE	15	
+plastic	plastic container (blue, 15kg)	furniture	storage	storage			FALSE	TRUE	15	
+firstaid	first aid kit or medicine shelf	furniture	storage	storage			FALSE	TRUE	5	
+oven	fridge/oven/hutch (40kg)	furniture	storage	storage			FALSE	TRUE	40	
+locker	locker (30kg)	furniture	storage	storage			FALSE	TRUE	30	
+washer	washer/dryer (15/30kg)	furniture	storage	storage			FALSE	TRUE	15	
+freezer	freezer/cooler (20kg)	furniture	storage	storage			FALSE	TRUE	20	
+cabinet	20 kg cabinet	furniture	storage	storage			FALSE	TRUE	20	
+trash	trash can (15kg)	furniture	storage	storage			FALSE	TRUE	15	
+bag	15 kg bag	furniture	storage	storage			FALSE	TRUE	15	
+safe	safe (10kg)	furniture	storage	storage		10	FALSE	TRUE	10	
+file	10 kg drawer	furniture	storage	storage			FALSE	TRUE	10	
+drawer	5 kg drawer	furniture	storage	storage			FALSE	TRUE	5	
+shelf	shelf	furniture	storage	storage			FALSE	TRUE	0	
+trunk	rustic trunk	furniture	special	customization	fir		FALSE	TRUE	35	good
+suitcase	suitcase	furniture	special	customization		30	TRUE	TRUE	20	good
+cedarbox	rustic storage box	furniture	special	customization	cedar		TRUE	TRUE	15	
+pillow	pillow	furniture	customization	customization			TRUE	TRUE		
+calendar	desk calendar	furniture	customization	customization			TRUE	TRUE		
+floppy	floppy disk	furniture	customization	customization			TRUE	TRUE		
+horseshoe	horseshoe	furniture	customization	customization		3	TRUE	TRUE		
+wallshelf	wall shelf	furniture	customization	customization			TRUE	TRUE		
+crate	crate (portable)	furniture	customization	customization			TRUE	TRUE		
+buildout	outdoor customization site	furniture	customization	customization			FALSE	TRUE		
+floor	on the floor	furniture	meta	customization			TRUE	TRUE	0	
+rug	rug / rug-covered floor	furniture	meta	customization			TRUE	TRUE		
+mat	mat (small rug)	furniture	meta	customization			TRUE	TRUE		
+lamp	aurora light source	furniture	meta	customization			TRUE	TRUE		
+festive	festive lights (portable)	furniture	meta	customization		4	TRUE	TRUE		
+lights	lights (non-portable)	furniture	meta	customization		3	FALSE	TRUE		
+decor	walls are decorated	furniture	meta	customization			TRUE	TRUE		
+contd	inside last container	furniture	meta	customization			TRUE	TRUE	0	
+outside	found directly outside	furniture	meta	customization			TRUE	TRUE	0	
+environs	found nearby	furniture	meta	customization			TRUE	TRUE	0	
+maglens	magnifying lens	tools	light	tools		3	TRUE	TRUE		good
+firestriker	firestriker	tools	light	tools		4	TRUE	TRUE		fine
+matches	wood matches	tools	light	tools			TRUE	TRUE		fine
+redflare	flare	tools	light	tools			TRUE	TRUE		
+blueflare	marine flare	tools	light	tools			TRUE	TRUE		
+torch	torch	tools	light	tools			TRUE	TRUE		
+flashlight	flashlight	tools	light	tools			TRUE	FALSE		
+minersflashlight	miner’s flashlight	tools	light	tools			TRUE	FALSE		
+lantern	lantern	tools	light	tools		7	TRUE	TRUE		good
+spelunker	spelunker’s lantern	tools	light	tools		1	TRUE	TRUE		
+fuel	lantern fuel	tools	light	tools			TRUE	TRUE		
+jerrycan	jerry can	tools	light	tools			TRUE	TRUE		good
+accelerant	accelerant	tools	light	tools			TRUE	TRUE		
+cookpot	cookpot	tools	cooking	tools		17	TRUE	TRUE		good
+skillet	skillet	tools	cooking	tools		14	TRUE	TRUE		good
+can	recycled can	tools	cooking	tools			TRUE	TRUE		
+thermos	insulated flask	tools	cooking	tools		6	TRUE	TRUE		good
+stickerthermos	insulated flask (sticker)	tools	cooking	tools			TRUE	TRUE		
+canopener	can opener	tools	cooking	tools			TRUE	TRUE		
+barbs	barb’s rifle	tools	guns	tools			TRUE	FALSE		
+rifle	hunting rifle	tools	guns	tools			TRUE	FALSE		
+curators	curator’s rifle	tools	guns	tools			TRUE	FALSE		
+vaughns	vaughn’s rifle	tools	guns	tools			TRUE	FALSE		
+bunkerrifle	bunker rifle	tools	guns	tools			TRUE	FALSE		OUT OF PLACE
+ammo	rifle ammunition	tools	guns	tools			TRUE	FALSE		
+hunters	hunter’s revolver	tools	guns	tools			TRUE	FALSE		
+revolver	revolver	tools	guns	tools			TRUE	FALSE		
+foresters	forester’s revolver	tools	guns	tools			TRUE	FALSE		
+wardens	warden’s revolver	tools	guns	tools			TRUE	FALSE		
+bullet	revolver ammo	tools	guns	tools			TRUE	FALSE		
+distress	distress pistol	tools	weaponry	tools			TRUE	TRUE		fine
+dpammo	distress pistol ammo	tools	weaponry	tools			TRUE	TRUE		fine
+noisemaker	noisemaker	tools	weaponry	tools			TRUE	TRUE		
+woodwright	woodwright’s bow	tools	weaponry	tools			TRUE	FALSE		
+bushcraft	bushcraft bow	tools	weaponry	tools			TRUE	FALSE		
+bow	survival bow	tools	weaponry	tools			TRUE	TRUE		
+sportbow	sport bow	tools	weaponry	tools			TRUE	FALSE		
+manuarrow	manufactured arrow	tools	weaponry	tools			TRUE	FALSE		
+arrow	simple arrow	tools	weaponry	tools			TRUE	TRUE		
+firearrow	fire hardened arrow	tools	weaponry	tools			TRUE	TRUE		
+huntknife	hunting knife	tools	harvesting	tools			TRUE	FALSE		
+clawknife	cougar claw knife	tools	harvesting	tools			TRUE	TRUE		
+knife	improvised knife	tools	harvesting	tools			TRUE	TRUE		
+survivalknife	survival knife	tools	harvesting	tools			TRUE	FALSE		
+hacksaw	hacksaw	tools	harvesting	tools		11	TRUE	TRUE		good
+prybar	prybar	tools	harvesting	tools		23	TRUE	TRUE		good
+hatchet	hatchet	tools	harvesting	tools			TRUE	FALSE		
+axe	improvised hatchet	tools	harvesting	tools			TRUE	TRUE		
+hammer	heavy hammer	tools	harvesting	tools		7	TRUE	TRUE		good
+dullknife	dull knife	tools	harvesting	tools			TRUE	TRUE		
+dullaxe	dull axe	tools	harvesting	tools			TRUE	TRUE		
+snare	snare	tools	exploring	tools	other		TRUE	TRUE		good
+tipup	fishing tip-up	tools	exploring	tools	other		TRUE	TRUE		fine
+hook	hook	tools	exploring	tools			TRUE	TRUE		
+tackle	fishing tackle	tools	exploring	tools			TRUE	TRUE		
+bedroll	cloth bedroll	tools	exploring	tools		8	TRUE	TRUE		good
+bearroll	bearskin bedroll	tools	exploring	tools			TRUE	TRUE		
+quality	quality tools	tools	crafting	tools			TRUE	TRUE		fine
+simple	simple tools	tools	crafting	tools			TRUE	TRUE		fine
+woodworking	woodworking tools	tools	crafting	tools		4	TRUE	TRUE		fine
+sewing	sewing kit	tools	crafting	tools			TRUE	TRUE		
+whetstone	whetstone	tools	crafting	tools			TRUE	TRUE		
+guncleaner	firearm cleaning kit	tools	crafting	tools			TRUE	FALSE		
+research	research book	tools	crafting	tools			TRUE	TRUE		
+cannister	cannister	misc	aid	consumable			TRUE	TRUE		not great
+bandage	bandage	misc	aid	consumable			TRUE	TRUE		
+antiseptic	antiseptic	misc	aid	consumable			TRUE	TRUE		
+dressing	old man’s beard wound dressing	misc	aid	consumable			TRUE	TRUE		
+stim	emergency stim	misc	aid	consumable		12	TRUE	TRUE		fine
+caffeine	caffeine pills	misc	aid	consumable			TRUE	TRUE		
+vitaminc	vitamin-c pills	misc	aid	consumable			TRUE	TRUE		
+heatpack	heat pack	misc	aid	consumable			TRUE	TRUE		
+rosehip	rose hip	misc	herbs	consumable			TRUE	TRUE		
+reishi	reishi mushroom	misc	herbs	consumable			TRUE	TRUE		
+lichen	old man’s beard lichen	misc	herbs	consumable			TRUE	TRUE		
+bark	birch bark	misc	herbs	consumable			TRUE	TRUE		fine
+acorns	acorns	misc	herbs	consumable			TRUE	TRUE		
+food	food (general)	misc	cooking	consumable			TRUE	TRUE		
+shaker	salt shaker	misc	cooking	consumable			TRUE	TRUE		
+saltbag	salt bag	misc	cooking	consumable			TRUE	TRUE		
+water	potable water	misc	cooking	consumable			TRUE	TRUE		
+cattail	cattail stalks	misc	cooking	consumable			TRUE	TRUE		
+oats	oats	misc	cooking	consumable			TRUE	TRUE		
+flour	old mill flour	misc	cooking	consumable			TRUE	TRUE		kind of hard to distinguish from oats
+curedfish	cured fish	misc	cooking	consumable			TRUE	TRUE		
+curedmeat	cured meat	misc	cooking	consumable			TRUE	TRUE		
+pemmican	pemmican bar	misc	cooking	consumable			TRUE	TRUE		not great
+recipe	recipe card	misc	misc	buffs		13	TRUE	TRUE		good
+polaroid	polaroid	misc	misc	buffs		27	TRUE	TRUE		good
+camera	camera	misc	misc	buffs		1	TRUE	TRUE		
+respirator	respirator	misc	misc	buffs		1	TRUE	TRUE		
+rucksack	technical backpack	misc	misc	buffs		1	TRUE	TRUE		good
+handheld	handheld shortwave radio	misc	misc	buffs		1	TRUE	TRUE		
+mementokey	memento key	misc	misc	misc		7	TRUE	TRUE		
+rope	climbing rope	misc	misc	misc		78	TRUE	TRUE		77 rope climbing positions; 19 spawns
+coal	coal piece	misc	fire	misc			TRUE	TRUE		good
+stick	stick	misc	fire	misc			TRUE	TRUE		good
+cedar	cedar firewood	misc	fire	misc			TRUE	TRUE		
+fir	fir firewood	misc	fire	misc			TRUE	TRUE		
+firelog	firelog	misc	fire	misc			TRUE	TRUE		
+reclaimed	reclaimed wood	misc	fire	misc			TRUE	TRUE		
+book	book	misc	fire	misc			TRUE	TRUE		
+charcoal	charcoal	misc	navigation	misc			TRUE	TRUE		
+paint	spray paint	misc	navigation	misc			TRUE	TRUE		
+film	FastFilm-500 (any type)	misc	navigation	misc			TRUE	TRUE		
+paper	newspaper or stack of papers	misc	navigation	misc			TRUE	TRUE		
+tinder	tinder plug	misc	navigation	misc			TRUE	TRUE		
+head	cattail head	misc	navigation	misc			TRUE	TRUE		
+fuse	replacement fuse	misc	navigation	misc			TRUE	TRUE		replace!
+wires	wires	misc	navigation	misc			TRUE	TRUE		
+battery	car battery	misc	navigation	misc			TRUE	TRUE		
+maple	maple sapling	misc	material	material			TRUE	TRUE		good
+sapling	birch sapling	misc	material	material			TRUE	TRUE		
+arrowhead	arrowhead	misc	material	material			TRUE	TRUE		
+scrap	scrap metal	misc	material	material			TRUE	TRUE		
+cloth	cloth	misc	material	material			TRUE	TRUE		
+leather	cured leather	misc	material	material			TRUE	TRUE		
+stone	stone	misc	material	material			TRUE	TRUE		
+vice	workbench vice	misc	material	material	other	47	TRUE	TRUE		good
+gunpowder	can of gunpowder	misc	material	material			TRUE	TRUE		
+fertilizer	dusting sulphur or grow well	misc	material	material			TRUE	TRUE		
+moosehide	moose hide	misc	hides	material			TRUE	TRUE		good
+bearhide	bear hide	misc	hides	material			TRUE	TRUE		
+wolfhide	wolf hide	misc	hides	material			TRUE	TRUE		good
+cougarhide	cougar hide	misc	hides	material			TRUE	TRUE		
+deerhide	deer hide	misc	hides	material			TRUE	TRUE		
+rabbitpelt	rabbit pelt	misc	hides	material			TRUE	TRUE		replace!
+gut	cured gut	misc	hides	material			TRUE	TRUE		
+feather	crow feather	misc	hides	material			TRUE	TRUE		
+down	ptarmigan down	misc	hides	material			TRUE	TRUE		
+harvestcloth	source of harvestable cloth	misc	resources	material			TRUE	TRUE		
+harvestleather	source of harvestable leather	misc	resources	material			TRUE	TRUE		
+harvestmetal	source of harvestable scrap metal	misc	resources	material			TRUE	TRUE		
+wrap	cougar hide wrap	clothing	head	clothing	cougar		TRUE	TRUE		fine
+wolfhat	wolfskin hat	clothing	head	clothing	wolf		TRUE	TRUE		good
+aviator	aviator cap	clothing	head	clothing			TRUE	TRUE		good
+techbalaclava	technical balaclava	clothing	head	clothing		1	TRUE	TRUE		good
+balaclava	balaclava	clothing	head	clothing			TRUE	TRUE		good
+rabbithat	rabbitskin hat	clothing	head	clothing	rabbit		TRUE	TRUE		fine
+toque	wool toque	clothing	head	clothing			TRUE	TRUE		fine
+bearcoat	bearskin coat	clothing	outer-torso	clothing			TRUE	TRUE		to-improve
+expedition	expedition parka	clothing	outer-torso	clothing			TRUE	FALSE		fine
+wolfcoat	wolfskin coat	clothing	outer-torso	clothing			TRUE	TRUE		good
+cloak	moose-hide cloak	clothing	outer-torso	clothing			TRUE	TRUE		good
+flightjacket	flight jacket	clothing	outer-torso	clothing			TRUE	FALSE		fine
+peacoat	mariner’s peacoat	clothing	outer-torso	clothing			TRUE	FALSE		fine
+militarycoat	military coat	clothing	outer-torso	clothing			TRUE	FALSE		fine
+mackinaw	mackinaw jacket	clothing	outer-torso	clothing			TRUE	TRUE		fine
+urban	urban parka	clothing	outer-torso	clothing			TRUE	FALSE		good
+skijacket	ski jacket	clothing	outer-torso	clothing			TRUE	TRUE		fine
+simpleparka	simple parka	clothing	outer-torso	clothing			TRUE	TRUE		fine
+windbreaker	windbreaker	clothing	outer-torso	clothing			TRUE	TRUE		fine
+cowichan	cowichan sweater	clothing	torso	clothing			TRUE	FALSE		fine
+fisherman	fisherman’s sweater	clothing	torso	clothing			TRUE	FALSE		good
+jersey	festive sweater or hockey jersey	clothing	torso	clothing			TRUE	TRUE		good
+shirt	wool shirt	clothing	torso	clothing			TRUE	FALSE		good
+sweater	thin wool sweater	clothing	torso	clothing			TRUE	TRUE		good
+gloves	tactical gloves	clothing	hands	clothing		1	TRUE	TRUE		good
+gauntlets	gauntlets	clothing	hands	clothing			TRUE	FALSE		fine
+mitts	rabbitskin mitts	clothing	hands	clothing	rabbit		TRUE	TRUE		fine
+woolmitts	wool mittens	clothing	hands	clothing			TRUE	FALSE		fine
+insulation	improvised insulation	clothing	accessories	clothing	ptarmigan		TRUE	TRUE		fine
+earwrap	wool ear wrap	clothing	accessories	clothing			TRUE	TRUE		to-improve
+crampons	crampons	clothing	accessories	clothing		1	TRUE	TRUE		fine
+improvcrampons	improvised crampons	clothing	accessories	clothing	metal		TRUE	TRUE		fine
+satchel	moose-hide satchel	clothing	accessories	clothing	moose		TRUE	TRUE		fine
+ballistic	ballistic vest	clothing	accessories	clothing		1	TRUE	TRUE		fine
+toolbelt	foreman’s tool belt	clothing	accessories	clothing		1	TRUE	TRUE		
+wolfpants	wolfskin pants	clothing	legs	clothing	wolf		TRUE	TRUE		good
+snowpants	snowpants	clothing	legs	clothing			TRUE	FALSE		fine
+deerpants	deerskin pants	clothing	legs	clothing	deer		TRUE	TRUE		good
+combatpants	combat pants	clothing	legs	clothing			TRUE	TRUE		good
+minerspants	miner’s pants	clothing	legs	clothing			TRUE	TRUE		fine
+climbsocks	climbing socks	clothing	bottom	clothing			TRUE	FALSE		fine
+socks	(patterned) wool socks	clothing	bottom	clothing			TRUE	TRUE		good
+longjohns	wool long johns	clothing	bottom	clothing			TRUE	FALSE		fine
+underwear	thermal underwear	clothing	bottom	clothing			TRUE	TRUE		good
+skiboots	ski boots	clothing	feet	clothing			TRUE	FALSE		good
+insulboots	insulated boots	clothing	feet	clothing			TRUE	FALSE		fine
+deerboots	deerskin boots	clothing	feet	clothing	deer		TRUE	TRUE		fine
+mukluks	mukluks	clothing	feet	clothing			TRUE	FALSE		fine
+chemboots	chemical boots	clothing	feet	clothing			TRUE	TRUE		good
+combatboots	combat boots	clothing	feet	clothing			TRUE	TRUE		good

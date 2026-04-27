@@ -96,8 +96,14 @@ def merge_in_adds(adds, bases):
     >>> bases, colours = process_input(fname, to_print=False)
     >>> rb = reset_bases(bases)
     >>> merge_in_adds(adds, rb)
-    >>> '?saltbag/.3' in rb['CampOffice']['features'][-1]
+    >>> '?saltbag/.3' in rb['CampOffice']['features']
     True
+    >>> rb['CampOffice']['features'][0]
+    'deer'
+    >>> rb['CampOffice']['features'][1]
+    'moose'
+    >>> rb['CampOffice']['features'][2]
+    'harvestfir'
     """
     for b in adds:
         if b in bases:
@@ -105,7 +111,8 @@ def merge_in_adds(adds, bases):
                 bases[b].features.append(adds[b])
                 #print(bases[b].features)
             else:
-                bases[b]['features'].append(', '.join(adds[b]))
+                for e in adds[b]:
+                    bases[b]['features'].append( e )
                 #print('type', )
         else:
             print('Warning:', b, "not in bases, can't add", adds[b])
@@ -174,7 +181,7 @@ def reset_bases(bases):
     return data
 
 
-def cleanup_features(bases):
+def cleanup_features(bases, round_to=3):
     """
 
     :param bases:
@@ -186,42 +193,87 @@ def cleanup_features(bases):
     False
     >>> bases['Quonset']['features'][0]
     'bear,deer,wolf'
+    >>> bases, colours = process_input('mybases.json', to_print=False)
+    >>> rb = reset_bases(bases)
+    >>> bases = cleanup_features(rb)
     """
     icons = icon_info()
     for b in bases:
-        #print(b, bases[b][FEATURES])
-        # TODO do the features in legend order?
+        feats = {}
+        flags = {}
         features = []
-        curr_line = []
-        last_feat = ''
+
         for f in bases[b][FEATURES]:
+            assert ',' not in f, f
+
+            flag = ''
+            if TOMAKE in f:
+                flag += TOMAKE
+            if TOPREPARE in f:
+                flag += TOPREPARE
+
             feat_name = f.replace(TOFIND,'').replace(TOMAKE,'').replace(TOPREPARE,'')
             qty = 1
+            prob = 1
             if QTY_MARKER in feat_name:
-                qty = feat_name.split(QTY_MARKER)[1]
+                qty = float(feat_name.split(QTY_MARKER)[1])
                 feat_name = feat_name.split(QTY_MARKER)[0]
             if PROBABILITY_DELIM in feat_name:
+                prob = float(feat_name.split(PROBABILITY_DELIM)[1])
                 feat_name = feat_name.split(PROBABILITY_DELIM)[0]
 
-            add_as = f
-            if qty != 1:
-                add_as = f + QTY_MARKER + str(qty)
-            if last_feat == '':
-                last_feat = feat_name
-            if icons[feat_name].theme != icons[last_feat].theme:
-                featline = ','.join(curr_line)
-                features.append(featline)
-                #print('Featureline', featline, f)
-                curr_line = [add_as]
+            if feat_name not in feats:
+                feats[feat_name] = qty * prob
+                flags[feat_name] = flag
             else:
-                curr_line.append(add_as)
-            last_feat = feat_name
-            #print('Feature', f, type(f))
-        if curr_line:
-            features.append(','.join(curr_line))
+                feats[feat_name] += qty * prob
+                flags[feat_name] += flag
+                assert len(flags[feat_name]) < 2, flags[feat_name]
+
+        new_line = []
+        last_added = ''
+        for i in ICONS:
+            if i.key in feats:
+                if last_added == '':
+                    last_added = i.key
+                if icons[i.key].cluster != icons[last_added].cluster:
+                    featline = ','.join(new_line)
+                    features.append(featline)
+                    #print('Featureline', featline, f)
+                    new_line = []
+
+                pref = TOFIND
+
+                #print('\t', i, feats[i.key])
+                if int(round(feats[i.key], round_to)) == round(feats[i.key], round_to):
+                    if flags[i.key] != '':
+                        pref = flags[i.key]
+                    elif not i.movable and i.storage=='':
+                        pref = ''
+
+                    if feats[i.key] > 1:
+                        new_line.append(pref + i.key + ':' + str(feats[i.key]))
+                    else:
+                        new_line.append(pref + i.key)
+                else:
+                    assert flags[i.key] == '', flags[i.key]
+                    if feats[i.key] < 1:
+                        new_line.append(TOFIND + i.key + '/' + str(feats[i.key]) )
+                    else:
+                        whole_amnt = int(feats[i.key])
+                        remainder = round(feats[i.key] - whole_amnt, round_to)
+                        new_line.append(TOFIND + i.key + ':' + str(whole_amnt))
+                        new_line.append(TOFIND + i.key + '/' + str(remainder) )
+                last_added = i.key
+
+        # there may be extra at end of loop
+        if len(new_line) > 0:
+            featline = ','.join(new_line)
+            features.append(featline)
 
         bases[b][FEATURES] = features
     return bases
+
 
 
 def reset_edges(edges):

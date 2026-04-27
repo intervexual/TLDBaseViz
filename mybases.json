@@ -1129,23 +1129,22 @@
 					"rockcache,rosehip:695,shaker:58,skillet,skillet",
 					"wallshelf,curing,curing",
 					"rug:3,mat:3",
-					"trunk,accelerant,book:2,coal:30,reclaimed:32,stick:70",
+					"trunk,accelerant,book:2,coal:30,reclaimed:27,stick:70",
 					"trunk,redflare,knife,lantern,torch:17",
 					"workbench,arrowhead:7,cloth:15,feather:58,sapling:4,leather:2,quality,sewing",
 					"firstaid,heatpack,bandage:2,dressing:2,bark:10",
 					"box,bearhide:2,deerhide:2,gut:27,rabbitpelt:3,+wolfhide:4,+deerhide:2,+rabbitpelt:1",
 					"drawer,film:6,film:6,+charcoal:50,+head:50,+tinder:50,+paint",
-					"drawer,",
+					"drawer,-stone:20",
 					"locker,harvestcloth,harvestleather",
 					"shelf,saltbag:9,oats,water:12",
-					"furnbench,pillow:2,calendar,lamp,decor",
+					"furnbench,pillow:2,calendar,lamp,decor,woodworking",
 					"grill,bearbed",
-					"file,-stone:50",
 					"suitcase,#-GoingSouth,-suitcase:2,-cedar:2,-fir:2,-cloth:15,-shaker:2,-vice,-sweater,-underwear",
 					"#SDB,#-Dam,-rug:2,-wallshelf,#-MTFarm,-rug:3,#BunkGam,-rug:2,#BR,-rug,-decor:4",
 					"suitcase,#-GoingEast,-hacksaw:2,-fertilizer:2,-suitcase:7,-knife",
-					"suitcase,#-GoingNorth,-accelerant,-cloth:20,-shaker,#-SDB,-rug:8,-mat:5,-decor:10",
-					"floor,woodworking,#SmallFamPort,-decor:8,#BuggedLocker,locker:2,+feather:41"
+					"suitcase,#-GoingNorth,-accelerant,-cloth:20,-reclaimed:5,-shaker,#-SDB,-rug:8,-mat:5,-decor:10",
+					"floor,#SmallFamPort,-decor:8,file,drawer:2,#BuggedLocker,locker:2,+feather:41"
 				]
 			},
 			"HuntersBlind(Joplin)": {

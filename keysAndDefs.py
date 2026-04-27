@@ -151,12 +151,13 @@ USED_UP = 'UsedUp'
 TRUES = ['TRUE', 'True', 'true', '''"true"''']
 
 class LegendAsset:
-    def __init__(self, key, descrip, group, theme, material, fixednum, movable, interloper, storage='', note='', extra=''):
+    def __init__(self, key, descrip, group, theme, cluster, material, fixednum, movable, interloper, storage='', note='', extra=''):
         self.key = key
         self.filename = key + '.svg'
         self.description = descrip
         self.group = group
         self.theme = theme
+        self.cluster = cluster
 
         if not material: # TODO all of these
             material = BRING
