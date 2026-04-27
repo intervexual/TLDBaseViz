@@ -2445,7 +2445,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "?bear/0.25,wolf",
+                "?bear/0.25,wolf,climb",
                 "bed",
                 "?crate:2.0",
                 "?thermos/0.1111,?bedroll",
@@ -5949,7 +5949,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "ptarmigan",
+                "ptarmigan,climb",
                 "?matches/0.3333,?hacksaw/0.3333,?prybar/0.2162,?bedroll/0.3333"
             ]
         },
@@ -6049,7 +6049,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine",
+                "mine,climb",
                 "!cache",
                 "?cookpot/0.7391"
             ]
@@ -7558,7 +7558,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Climb(LLH-CC)": {
@@ -7942,7 +7942,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Truck(WeatherStationBridge)": {

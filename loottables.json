@@ -37,12 +37,6 @@
       ]
     },
     "Blackrock(2)": {
-      "hacksaw": [
-        "ForagersRemnant",
-        "OldSubstation",
-        "CooksFarm",
-        "BricklayersRetreat"
-      ]
     },
     "BleakInlet": {
       "bedroll": [
@@ -72,7 +66,7 @@
     },
     "CoastalHighway": {
       "hacksaw": [
-        "AbandonedLookout"
+        "AbandonedMine(Upper)"
       ],
       "hammer": [
         "FishHuts(Central)",
@@ -323,23 +317,11 @@
       "hammer": [
         "PowerPlant"
       ],
-      "lantern": [
-        "JailorsResidence",
-        "BricklayersRetreat",
-        "Trailer(SouthOfPowerPlant)",
-        "CooksFarm"
-      ],
       "spelunker": [
         "Cave(ToBRM)"
       ]
     },
     "Blackrock(2)": {
-      "hacksaw": [
-        "ForagersRemnant",
-        "OldSubstation",
-        "CooksFarm",
-        "BricklayersRetreat"
-      ]
     },
     "BleakInlet": {
       "bedroll": [
@@ -358,9 +340,6 @@
     "BleakInlet(2)": {
     },
     "BrokenRailroad": {
-      "bedroll": [
-        "HuntingLodge"
-      ],
       "firestriker": [
         "POI(BRRavine)",
         "Cave(NorthernBR)",
@@ -493,7 +472,10 @@
     },
     "MysteryLake": {
       "bedroll": [
-        "CampOffice"
+        "CampOffice",
+        "HuntersBlind(AlansCave)",
+        "Cave(PrepperCache)",
+        "TrainCar(TrainLoading)"
       ],
       "firestriker": [
         "HuntersBlind(UnnamedPond)",
@@ -519,11 +501,6 @@
       ]
     },
     "MysteryLake(2)": {
-      "bedroll": [
-        "HuntersBlind(AlansCave)",
-        "Cave(PrepperCache)",
-        "TrainCar(TrainLoading)"
-      ],
       "polaroid": [
         "POI(Clearcut)"
       ]
@@ -636,12 +613,6 @@
       ]
     },
     "Blackrock(2)": {
-      "hacksaw": [
-        "ForagersRemnant",
-        "OldSubstation",
-        "CooksFarm",
-        "BricklayersRetreat"
-      ]
     },
     "BleakInlet": {
       "bedroll": [

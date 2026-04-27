@@ -2233,7 +2233,7 @@
                 "bed,?outworkbench,?grill",
                 "?supplybin",
                 "?firstaid,?locker:3,?trash,?file:4.0",
-                "?matches/0.25,?hacksaw/0.5,?prybar/0.3591,?research/0.4545",
+                "?matches/0.25,?hacksaw/0.25,?prybar/0.3591,?research/0.4545",
                 "?stim/0.125",
                 "?battery"
             ]
@@ -2269,7 +2269,7 @@
                 "bed",
                 "?box,?plastic,?firstaid,?locker:3.0,?drawer:3.0",
                 "?pillow,?calendar",
-                "?lantern/0.25,?research/0.4545"
+                "?research/0.4545"
             ]
         },
         "PowerPlant": {
@@ -2441,7 +2441,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "?bear/0.25,wolf",
+                "?bear/0.25,wolf,climb",
                 "bed",
                 "?crate:2.0",
                 "?thermos/0.1111",
@@ -2498,7 +2498,7 @@
                 "bed,?outworkbench,?grill",
                 "?oven,?cabinet,?shelf",
                 "buildout",
-                "?matches:1,?matches/0.25,?lantern/0.25,?hacksaw/0.5,?prybar/0.1429"
+                "?matches:1,?matches/0.25,?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "WhistlingPerch": {
@@ -2607,7 +2607,7 @@
             "features": [
                 "deer,timberwolf",
                 "?outworkbench,?grill",
-                "?hacksaw/0.5,?prybar/0.1429"
+                "?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "Climb(MBR-LP1)": {
@@ -2703,7 +2703,7 @@
             "features": [
                 "?grill",
                 "?suitcase",
-                "?matches/0.25,?lantern/0.25,?prybar/0.2162",
+                "?matches/0.25,?prybar/0.2162",
                 "?mementokey"
             ]
         },
@@ -2769,7 +2769,7 @@
                 "bed,?workbench,?grill",
                 "?box",
                 "?crate",
-                "?matches/0.25,?lantern/0.25,?hacksaw/0.5,?prybar/0.1429"
+                "?matches/0.25,?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "ForemansClearcut": {
@@ -3913,7 +3913,7 @@
             "explored": false,
             "features": [
                 "wolf",
-                "?prybar/0.1667,?bedroll/0.3333,?research/0.4545"
+                "?prybar/0.1667,?bedroll/0.25,?research/0.4545"
             ]
         },
         "TrainCar(Derailment)": {
@@ -3949,7 +3949,7 @@
                 "bed,?workbench,?grill",
                 "?firstaid,?file:3,?drawer",
                 "?calendar:2.0,?floppy/0.0357,lights",
-                "?skillet/0.7368,?bedroll,?research/0.4545",
+                "?skillet/0.7368,?bedroll/0.25,?research/0.4545",
                 "?food:1,?food/0.25,?saltbag/0.3"
             ]
         },
@@ -3996,7 +3996,7 @@
             "explored": false,
             "features": [
                 "wolf",
-                "?bedroll/0.3333,?research/0.4545"
+                "?bedroll/0.25,?research/0.4545"
             ]
         },
         "TrappersHomestead": {
@@ -4244,7 +4244,7 @@
             "explored": false,
             "features": [
                 "rabbit",
-                "?bedroll/0.3333,?research/0.4545"
+                "?bedroll/0.25,?research/0.4545"
             ]
         },
         "PlaneCrash(ML)": {
@@ -5948,7 +5948,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "ptarmigan",
+                "ptarmigan,climb",
                 "?matches/0.3333,?hacksaw/0.3333,?prybar/0.2162,?bedroll/0.3333"
             ]
         },
@@ -6047,7 +6047,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine",
+                "mine,climb",
                 "!cache",
                 "?cookpot/0.7391"
             ]
@@ -6468,7 +6468,7 @@
             "features": [
                 "bed,?workbench,?range",
                 "?horseshoe,?festive",
-                "?firestriker/0.25,?matches,?skillet/0.7368,?canopener/0.0833,?bedroll,?research/0.4545",
+                "?firestriker/0.25,?matches,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
                 "?stim,?food:2.0000999999999998,?saltbag",
                 "?recipe",
                 "?mementokey,?rope",
@@ -7558,7 +7558,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Climb(LLH-CC)": {
@@ -7942,7 +7942,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Truck(WeatherStationBridge)": {

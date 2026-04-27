@@ -1860,7 +1860,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["wolf,bear/0.25",
+				"features": ["wolf,bear/0.25,climb",
 					"bed,harvestmetal,battery:5"],
 				"removed": ["ballistic,battery:5,crate:2"]
 			},
@@ -4370,7 +4370,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["ptarmigan"]
+				"features": ["ptarmigan,climb"]
 			},
 			"IceCave(SketchyValleyViewPoint)": {
 				"region": "HushedRiverValley",
@@ -4438,7 +4438,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["mine,?cache"]
+				"features": ["mine,climb,?cache"]
 			},
 			"Cave(WestOfMammothFalls)": {
 				"region": "HushedRiverValley",
@@ -5466,7 +5466,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["mine"]
+				"features": ["mine,climb"]
 			},
 			"Climb(LLH-CC)": {
 				"region": "SunderedPass",
@@ -5706,7 +5706,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["mine","+polaroid"]
+				"features": ["mine,climb","+polaroid"]
 			},
 			"Truck(WeatherStationBridge)": {
 				"region": "SunderedPass",

@@ -2236,7 +2236,7 @@
                 "bed,?outworkbench,?grill",
                 "?supplybin",
                 "?firstaid,?locker:3,?trash,?file:4.0",
-                "?matches/0.25,?hacksaw/0.5,?prybar/0.3591,?research/0.4545",
+                "?matches/0.25,?hacksaw/0.25,?prybar/0.3591,?research/0.4545",
                 "?stim/0.125",
                 "?battery"
             ]
@@ -2444,7 +2444,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "?bear/0.25,wolf",
+                "?bear/0.25,wolf,climb",
                 "bed",
                 "?crate:2.0",
                 "?thermos/0.1111,?bedroll",
@@ -2501,7 +2501,7 @@
                 "bed,?outworkbench,?grill",
                 "?oven,?cabinet,?shelf",
                 "buildout",
-                "?matches:1,?matches/0.25,?lantern/0.25,?hacksaw/0.5,?prybar/0.1429"
+                "?matches:1,?matches/0.25,?lantern/0.25,?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "WhistlingPerch": {
@@ -2610,7 +2610,7 @@
             "features": [
                 "deer,timberwolf",
                 "?outworkbench,?grill",
-                "?hacksaw/0.5,?prybar/0.1429"
+                "?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "Climb(MBR-LP1)": {
@@ -2772,7 +2772,7 @@
                 "bed,?workbench,?grill",
                 "?box",
                 "?crate",
-                "?matches/0.25,?lantern/0.25,?hacksaw/0.5,?prybar/0.1429"
+                "?matches/0.25,?lantern/0.25,?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "ForemansClearcut": {
@@ -5948,7 +5948,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "ptarmigan",
+                "ptarmigan,climb",
                 "?matches/0.3333,?hacksaw/0.3333,?prybar/0.2162,?bedroll/0.3333"
             ]
         },
@@ -6047,7 +6047,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine",
+                "mine,climb",
                 "!cache",
                 "?cookpot/0.7391"
             ]
@@ -7557,7 +7557,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Climb(LLH-CC)": {
@@ -7941,7 +7941,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine"
+                "mine,climb"
             ]
         },
         "Truck(WeatherStationBridge)": {

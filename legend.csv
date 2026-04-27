@@ -168,7 +168,7 @@ respirator	respirator	misc	misc	buffs		1	TRUE	TRUE
 rucksack	technical backpack	misc	misc	buffs		1	TRUE	TRUE		good
 handheld	handheld shortwave radio	misc	misc	buffs		1	TRUE	TRUE		
 mementokey	memento key	misc	misc	misc		7	TRUE	TRUE		
-rope	climbing rope	misc	misc	misc		78	TRUE	TRUE		77 rope climbing positions; 19 spawns
+rope	climbing rope	misc	misc	misc		83	TRUE	TRUE		77+6 rope climbing positions; 19 spawns
 coal	coal piece	misc	fire	misc			TRUE	TRUE		good
 stick	stick	misc	fire	misc			TRUE	TRUE		good
 cedar	cedar firewood	misc	fire	misc			TRUE	TRUE		
