@@ -489,6 +489,9 @@ class BaseLocation:
                 sink_name = data[CONNECTIONS][dir]
                 self.connections[sink_name] = dir
 
+        self.unused = []
+        if 'unused' in data:
+            self.unused += data['unused']
         self.removed = []
         if 'removed' in data:
             self.removed = data['removed']

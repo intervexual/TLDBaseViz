@@ -178,7 +178,7 @@
         "StChristophers"
       ],
       "polaroid": [
-        "Cave(SpruceFallsSouthExit)"
+        "BearCave(SpruceFallsBridge)"
       ]
     },
     "MountainTown(2)": {
@@ -453,7 +453,7 @@
       "bedroll": [
         "PicnicArea",
         "CrashedPlane(Mackenzie)",
-        "Cave(SpruceFallsSouthExit)"
+        "BearCave(SpruceFallsBridge)"
       ],
       "hacksaw": [
         "Trailer(MT)"
@@ -1018,7 +1018,7 @@
         "IceCave(West)"
       ],
       "polaroid": [
-        "IceCave(SketchyValleyViewPoint)"
+        "POI(CampAboveValleyViewPoint)"
       ]
     },
     "IceCaves": {
@@ -1269,6 +1269,14 @@
         "Concentrator",
         "LangstonMine(Floor2)",
         "MinersFootpath"
+      ]
+    },
+    "rabbithat": {
+      "key": "rabbithat",
+      "total": 0.333,
+      "note": "Probability is a guess",
+      "locations": [
+        "Barn(Mollys)"
       ]
     },
     "festivesweater": {
@@ -1560,6 +1568,70 @@
         "Headframe",
         "Concentrator"
       ]
+    },
+    "matches:quarterishperc":{
+      "key": "matches",
+      "total": 6.5,
+      "locations": [
+        "ForemansRetreat",
+        "ForemansRetreat",
+        "ClimbersCave",
+        "Cave(LongFallsWest)",
+          "Cars(LongBridge)",
+          "WashedOutTrailer",
+          "Cabin(LowerRaven)",
+          "FallenLighthouse",
+        "MisanthropesHomestead",
+        "QuonsetGarage",
+        "House(NorthCoastalTownsite)",
+        "House(SouthCoastalTownsite)",
+          "HighBlind",
+          "MainHangar",
+        "ValleyCave",
+        "Climb(VC-PV1)",
+        "Climb(VC-MFV)",
+          "Houses(MiltonSE)",
+          "Houses(MiltonSW)",
+        "UpperDam",
+        "LowerDam",
+          "PVFarmhouse",
+        "PrayerfulWindow",
+        "Cave(TheArch)",
+        "Cave(TheArch)",
+        "Cave(WindingRiver)"
+      ],
+      "note": "from https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241"
+    },
+    "matches:15ishperc":{
+      "key": "matches",
+      "total": 2.5,
+      "locations": [
+        "PrisonGate",
+        "LonelyLighthouse",
+        "Helicopter(MuskegOverlook)",
+        "JunkersPaddock",
+        "Terminal",
+        "POI(CampAboveValleyViewPoint)",
+        "Climb(SL-SMSF)",
+        "Orca",
+        "CreditUnion",
+        "BearCave(SpruceFallsBridge)",
+        "ParadiseMeadowsFarm",
+        "CampOffice",
+        "Cabins(Lake)",
+        "POI(PointOfDisagreement)",
+        "Garage(WeatherStation)",
+        "AbandonedMine(SP)",
+        "SmokersCave",
+        "IdleCamp",
+        "POI(BosssSettlement)",
+        "ScaffoldersHideout",
+        "AbandonedMine(Upper)",
+        "POI(RailOffice)",
+        "Trailer(KPS)",
+        "IceCave(KPN)"
+      ],
+      "note": "from https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241"
     },
     "prybar:BRM": {
       "key": "prybar",
@@ -1887,7 +1959,8 @@
         "BunkerGamma",
         "BunkerOmega",
         "Concentrator",
-        "Headframe"
+        "Headframe",
+        "MaintenanceYard"
       ]
     },
     "horseshoe": {
@@ -1920,7 +1993,7 @@
       "total": 1,
       "note": "total is a guess, as are locations",
       "locations": [
-        "Cave(SpruceFallsSouthExit)",
+        "BearCave(SpruceFallsBridge)",
         "Cave(Graveyard)",
         "StChristophers",
         "Greymother",

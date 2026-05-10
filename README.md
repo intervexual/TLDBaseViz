@@ -190,7 +190,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Floppy Disk by Cuan Studio](https://thenounproject.com/icon/floppy-disk-5575706/)
 * [Food by Abdul Matic](https://thenounproject.com/icon/food-8207935/)
 * [Forester's Revolver by Hey Rabbit](https://thenounproject.com/icon/revolver-3563944/)
-* [Foreman's Tool Belt by ahmadwil](https://thenounproject.com/icon/tool-belt-6589950/)
+* [Foreman's Tool Belt by Dian Chandra Lesmono](https://thenounproject.com/icon/belt-8352500/)
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
 * [Freezer by Graphicxs_Art](thenounproject.com/icon/refrigerator-4633120/)
 * [Fridge/Oven by Paonkz](https://thenounproject.com/icon/fridge-8311835/)
@@ -381,8 +381,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 8. RNG tables for cupboards, lockers, etc?
 9. Once features seem stable, worry about placement of bases
 10. Improve guesses as to locations of: pillows, batteries, DP ammo, the crampons in TWM, etc
-11. Add any non-loot-table hacksaw, hammer, bedroll, maglens, firestriker, lantern: https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241 
-12. Check matches versus https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241
+12. Add <10% matches from https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241
 
 ### Locations to add (particularly for templates)
 16. Add supply caches

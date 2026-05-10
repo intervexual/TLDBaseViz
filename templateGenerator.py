@@ -162,6 +162,17 @@ def reset_bases(bases):
                                 feat = feat + PROBABILITY_DELIM + str(f.probability)
                             features.append(feat)
 
+        for c in bob.unused:
+            line = c.split(',')
+            for f in line:
+                if f.startswith(TOMAKE) or f.startswith(TOPREPARE):
+                    feat = f.strip()
+                else:
+                    feat = TOFIND + f.strip()
+                if len(feat) > 1:
+                    features.append(feat)
+                    #print(b, feat)
+
         for c in bob.removed:
             line = c.split(',')
             for f in line:

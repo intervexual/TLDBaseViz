@@ -39,7 +39,7 @@ curing	curing box	furniture	cooking	bench	fir		TRUE	TRUE		fine
 supplybin	supply bin (30kg, no customization)	furniture	outdoor	outdoor			FALSE	TRUE	30	replace!
 rockcache	rock cache	furniture	outdoor	outdoor	other		TRUE	TRUE	30	good
 chest	trunk (premade)	furniture	storage	storage			FALSE	TRUE	30	
-briefcase	briefcase or lock box	furniture	storage	storage			FALSE	TRUE	10	fine
+briefcase	briefcase	furniture	storage	storage			FALSE	TRUE	10	fine
 box	metal container (green, 15kg)	furniture	storage	storage			FALSE	TRUE	15	
 plastic	plastic container (blue, 15kg)	furniture	storage	storage			FALSE	TRUE	15	
 firstaid	first aid kit or medicine shelf	furniture	storage	storage			FALSE	TRUE	5	
@@ -68,7 +68,7 @@ floor	on the floor	furniture	meta	customization			TRUE	TRUE	0
 rug	rug / rug-covered floor	furniture	meta	customization			TRUE	TRUE		
 mat	mat (small rug)	furniture	meta	customization			TRUE	TRUE		
 lamp	aurora light source	furniture	meta	customization			TRUE	TRUE		
-festive	festive lights (portable)	furniture	meta	customization		4	TRUE	TRUE		
+festive	festive lights (portable)	furniture	meta	customization		20	TRUE	TRUE		4 sets. 4 in dam, 5 at Trapper.
 lights	lights (non-portable)	furniture	meta	customization		3	FALSE	TRUE		
 decor	walls are decorated	furniture	meta	customization			TRUE	TRUE		
 contd	inside last container	furniture	meta	customization			TRUE	TRUE	0	
