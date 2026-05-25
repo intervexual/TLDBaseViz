@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2025.8400000000001" height="2130.74" viewBox="0 0 2025.8400000000001 2130.74">
+<defs>
+</defs>
+<rect x="0" y="0" width="2025.8400000000001" height="2130.74" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1899.04" cy="884.3299999999999" r="10" fill="black" />
+<text x="1899.04" y="884.3299999999999" font-size="30" fill="black">Transition(TWM-AC)</text>
+<circle cx="1589.23" cy="947.73" r="10" fill="black" />
+<text x="1589.23" y="947.73" font-size="30" fill="black">POI(EchoRavineJunction)</text>
+<path d="M1589.23,947.73 L1899.04,884.3299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1347.73" cy="1029.42" r="10" fill="black" />
+<text x="1347.73" y="1029.42" font-size="30" fill="black">ChasmCave</text>
+<path d="M1347.73,1029.42 L1589.23,947.73" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1192.8200000000002" cy="1061.1200000000001" r="10" fill="black" />
+<text x="1192.8200000000002" y="1061.1200000000001" font-size="30" fill="black">POI(EngineCargo)</text>
+<path d="M1192.8200000000002,1061.1200000000001 L1347.73,1029.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1466.03" cy="1134.33" r="10" fill="black" />
+<text x="1466.03" y="1134.33" font-size="30" fill="black">BearCave(EchoRavine)</text>
+<path d="M1466.03,1134.33 L1589.23,947.73" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1256.22" cy="1370.93" r="10" fill="black" />
+<text x="1256.22" y="1370.93" font-size="30" fill="black">POI(NECrystalLake)</text>
+<path d="M1256.22,1370.93 L1466.03,1134.33" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1219.6200000000001" cy="1507.53" r="10" fill="black" />
+<text x="1219.6200000000001" y="1507.53" font-size="30" fill="black">FishHut(TWM)</text>
+<path d="M1219.6200000000001,1507.53 L1256.22,1370.93" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1183.02" cy="1644.1399999999999" r="10" fill="black" />
+<text x="1183.02" y="1644.1399999999999" font-size="30" fill="black">MountaineersHut</text>
+<path d="M1183.02,1644.1399999999999 L1219.6200000000001,1507.53" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
+<circle cx="1236.13" cy="1036.1200000000001" r="10" fill="black" />
+<text x="1236.13" y="1036.1200000000001" font-size="30" fill="black">Climb(EE-PC)</text>
+<path d="M1236.13,1036.1200000000001 L1347.73,1029.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1216.03" cy="701.3100000000001" r="10" fill="black" />
+<text x="1216.03" y="701.3100000000001" font-size="30" fill="black">Cave(ThreeWay)</text>
+<path d="M1216.03,701.3100000000001 L1236.13,1036.1200000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1489.23" cy="774.52" r="10" fill="black" />
+<text x="1489.23" y="774.52" font-size="30" fill="black">PrepperCache(TWM)</text>
+<path d="M1489.23,774.52 L1236.13,1036.1200000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1489.23,774.52 L1216.03,701.3100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1637.44" cy="631.22" r="10" fill="black" />
+<text x="1637.44" y="631.22" font-size="30" fill="black">Cave(TWMPrepperCache)</text>
+<path d="M1637.44,631.22 L1489.23,774.52" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1375.8400000000001" cy="378.11" r="10" fill="black" />
+<text x="1375.8400000000001" y="378.11" font-size="30" fill="black">Climb(PC-DC)</text>
+<path d="M1375.8400000000001,378.11 L1637.44,631.22" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1252.63" cy="564.71" r="10" fill="black" />
+<text x="1252.63" y="564.71" font-size="30" fill="black">Climb(TWC-DC)</text>
+<path d="M1252.63,564.71 L1216.03,701.3100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1102.63" cy="304.9" r="10" fill="black" />
+<text x="1102.63" y="304.9" font-size="30" fill="black">POI(DCCargo)</text>
+<path d="M1102.63,304.9 L1252.63,564.71" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="699.52" cy="306.70000000000005" r="10" fill="black" />
+<text x="699.52" y="306.70000000000005" font-size="30" fill="black">BearCave(Upper)</text>
+<path d="M699.52,306.70000000000005 L1102.63,304.9" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1004.43" cy="534.8100000000001" r="10" fill="black" />
+<text x="1004.43" y="534.8100000000001" font-size="30" fill="black">Climb(DC-SS)</text>
+<path d="M1004.43,534.8100000000001 L699.52,306.70000000000005" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="583.02" cy="604.9" r="10" fill="black" />
+<text x="583.02" y="604.9" font-size="30" fill="black">Climb(DC-US)</text>
+<path d="M583.02,604.9 L1004.43,534.8100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="633.02" cy="691.51" r="10" fill="black" />
+<text x="633.02" y="691.51" font-size="30" fill="black">Climb(US-S)</text>
+<path d="M633.02,691.51 L583.02,604.9" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="769.62" cy="728.11" r="10" fill="black" />
+<text x="769.62" y="728.11" font-size="30" fill="black">Cave(Summit)</text>
+<path d="M769.62,728.11 L633.02,691.51" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="783.02" cy="951.31" r="10" fill="black" />
+<text x="783.02" y="951.31" font-size="30" fill="black">TailSection</text>
+<path d="M783.02,951.31 L769.62,728.11" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="523.21" cy="1101.31" r="10" fill="black" />
+<text x="523.21" y="1101.31" font-size="30" fill="black">Cave(EngineWest)</text>
+<path d="M523.21,1101.31 L783.02,951.31" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="753.11" cy="1199.52" r="10" fill="black" />
+<text x="753.11" y="1199.52" font-size="30" fill="black">Climb(UAP-AP)</text>
+<path d="M753.11,1199.52 L523.21,1101.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M753.11,1199.52 L783.02,951.31" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="871.41" cy="1304.42" r="10" fill="black" />
+<text x="871.41" y="1304.42" font-size="30" fill="black">BearCave(AndresPeak)</text>
+<path d="M871.41,1304.42 L753.11,1199.52" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="586.61" cy="1411.12" r="10" fill="black" />
+<text x="586.61" y="1411.12" font-size="30" fill="black">Cave(BelowAndresPeak)</text>
+<path d="M586.61,1411.12 L871.41,1304.42" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="250.0" cy="1028.1100000000001" r="10" fill="black" />
+<text x="250.0" y="1028.1100000000001" font-size="30" fill="black">Climb(EW-WC)</text>
+<path d="M250.0,1028.1100000000001 L523.21,1101.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="304.91" cy="823.21" r="10" fill="black" />
+<text x="304.91" y="823.21" font-size="30" fill="black">Climb(WC-US)</text>
+<path d="M304.91,823.21 L250.0,1028.1100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="446.41" cy="568.3" r="10" fill="black" />
+<text x="446.41" y="568.3" font-size="30" fill="black">ShallowCave(UnderSummit)</text>
+<path d="M446.41,568.3 L633.02,691.51" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="398.21000000000004" cy="884.81" r="10" fill="black" />
+<text x="398.21000000000004" y="884.81" font-size="30" fill="black">Cave(UpperShelf)</text>
+<path d="M398.21000000000004,884.81 L304.91,823.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M398.21000000000004,884.81 L446.41,568.3" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="76.80000000000001" cy="1128.1100000000001" r="10" fill="black" />
+<text x="76.80000000000001" y="1128.1100000000001" font-size="30" fill="black">Cave(TWM-BRM)</text>
+<path d="M76.80000000000001,1128.1100000000001 L250.0,1028.1100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="681.7" r="10" fill="black" />
+<text x="50.0" y="681.7" font-size="30" fill="black">WaterfallCave</text>
+<path d="M50.0,681.7 L304.91,823.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M50.0,681.7 L250.0,1028.1100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1725.8400000000001" cy="984.3299999999999" r="10" fill="black" />
+<text x="1725.8400000000001" y="984.3299999999999" font-size="30" fill="black">POI(EchoPeakWest)</text>
+<path d="M1725.8400000000001,984.3299999999999 L1466.03,1134.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1652.63" cy="1257.53" r="10" fill="black" />
+<text x="1652.63" y="1257.53" font-size="30" fill="black">POI(WingArea)</text>
+<path d="M1652.63,1257.53 L1725.8400000000001,984.3299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="859.81" cy="1484.33" r="10" fill="black" />
+<text x="859.81" y="1484.33" font-size="30" fill="black">POI(NWCrystalLake)</text>
+<path d="M859.81,1484.33 L1183.02,1644.1399999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M859.81,1484.33 L586.61,1411.12" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1344.14" cy="223.21" r="10" fill="black" />
+<text x="1344.14" y="223.21" font-size="30" fill="black">Cave(TWM-AC)</text>
+<path d="M1344.14,223.21 L1375.8400000000001,378.11" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="942.8199999999999" cy="628.11" r="10" fill="black" />
+<text x="942.8199999999999" y="628.11" font-size="30" fill="black">Cave(SecludedShelf)</text>
+<path d="M942.8199999999999,628.11 L1004.43,534.8100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M942.8199999999999,628.11 L398.21000000000004,884.81" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1006.2199999999999" cy="937.92" r="10" fill="black" />
+<text x="1006.2199999999999" y="937.92" font-size="30" fill="black">Cave(EngineEast)</text>
+<path d="M1006.2199999999999,937.92 L1192.8200000000002,1061.1200000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1006.2199999999999,937.92 L523.21,1101.31" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M1006.2199999999999,937.92 L1216.03,701.3100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1492.8200000000002" cy="1580.74" r="10" fill="black" />
+<text x="1492.8200000000002" y="1580.74" font-size="30" fill="black">POI(Grove)</text>
+<path d="M1492.8200000000002,1580.74 L1183.02,1644.1399999999999" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="536.61" cy="1324.52" r="10" fill="black" />
+<text x="536.61" y="1324.52" font-size="30" fill="black">POI(AndresPeak)</text>
+<path d="M536.61,1324.52 L753.11,1199.52" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="338.4" cy="1381.22" r="10" fill="black" />
+<text x="338.4" y="1381.22" font-size="30" fill="black">Climb(CLR-EW)</text>
+<path d="M338.4,1381.22 L536.61,1324.52" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M338.4,1381.22 L586.61,1411.12" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1094.62" cy="1291.03" r="10" fill="black" />
+<text x="1094.62" y="1291.03" font-size="30" fill="black">Climb(CL-UAP)</text>
+<path d="M1094.62,1291.03 L1219.6200000000001,1507.53" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1094.62,1291.03 L871.41,1304.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1244.14" cy="50.0" r="10" fill="black" />
+<text x="1244.14" y="50.0" font-size="30" fill="black">Cave(DeerClearing)</text>
+<path d="M1244.14,50.0 L1344.14,223.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1459.3300000000002" cy="1022.73" r="10" fill="black" />
+<text x="1459.3300000000002" y="1022.73" font-size="30" fill="black">POI(EchoPeakEast)</text>
+<path d="M1459.3300000000002,1022.73 L1466.03,1134.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="626.8" cy="2080.7400000000002" r="10" fill="black" />
+<text x="626.8" y="2080.7400000000002" font-size="30" fill="black">Transition(TWM-PV)</text>
+<path d="M626.8,2080.7400000000002 L1183.02,1644.1399999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1975.8400000000001" cy="1417.34" r="10" fill="black" />
+<text x="1975.8400000000001" y="1417.34" font-size="30" fill="black">ForestCave(TWM)</text>
+<path d="M1975.8400000000001,1417.34 L1652.63,1257.53" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M1975.8400000000001,1417.34 L1492.8200000000002,1580.74" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="1899.04" cy="884.3299999999999" r="10" fill="red" />
+<text x="1899.04" y="884.3299999999999" font-size="30" fill="red">TimberwolfMountain--AshCanyon</text>
+<circle cx="626.8" cy="2080.7400000000002" r="10" fill="red" />
+<text x="626.8" y="2080.7400000000002" font-size="30" fill="red">TimberwolfMountain--PleasantValley</text>
+</svg>

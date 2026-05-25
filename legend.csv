@@ -48,6 +48,7 @@ locker	locker (30kg)	furniture	storage	storage			FALSE	TRUE	30
 washer	washer/dryer (15/30kg)	furniture	storage	storage			FALSE	TRUE	15	
 freezer	freezer/cooler (20kg)	furniture	storage	storage			FALSE	TRUE	20	
 cabinet	20 kg cabinet	furniture	storage	storage			FALSE	TRUE	20	
+cupboard	15 kg cabinet (cupboard)	furniture	storage	storage			FALSE	TRUE	15	
 trash	trash can (15kg)	furniture	storage	storage			FALSE	TRUE	15	
 bag	15 kg bag	furniture	storage	storage			FALSE	TRUE	15	
 safe	safe (10kg)	furniture	storage	storage		10	FALSE	TRUE	10	
@@ -65,7 +66,7 @@ wallshelf	wall shelf	furniture	customization	customization			TRUE	TRUE
 crate	crate (portable)	furniture	customization	customization			TRUE	TRUE		
 buildout	outdoor customization site	furniture	customization	customization			FALSE	TRUE		
 floor	on the floor	furniture	meta	customization			TRUE	TRUE	0	
-rug	rug / rug-covered floor	furniture	meta	customization			TRUE	TRUE		
+rug	rug	furniture	meta	customization			TRUE	TRUE		
 mat	mat (small rug)	furniture	meta	customization			TRUE	TRUE		
 lamp	aurora light source	furniture	meta	customization			TRUE	TRUE		
 festive	festive lights (portable)	furniture	meta	customization		20	TRUE	TRUE		4 sets. 4 in dam, 5 at Trapper.
@@ -74,6 +75,7 @@ decor	walls are decorated	furniture	meta	customization			TRUE	TRUE
 contd	inside last container	furniture	meta	customization			TRUE	TRUE	0	
 outside	found directly outside	furniture	meta	customization			TRUE	TRUE	0	
 environs	found nearby	furniture	meta	customization			TRUE	TRUE	0	
+deliver	to deliver here	furniture	meta	customization			TRUE	TRUE	0	
 maglens	magnifying lens	tools	light	tools		3	TRUE	TRUE		good
 firestriker	firestriker	tools	light	tools		4	TRUE	TRUE		fine
 matches	wood matches	tools	light	tools			TRUE	TRUE		fine
@@ -85,7 +87,7 @@ minersflashlight	miner’s flashlight	tools	light	tools			TRUE	FALSE
 lantern	lantern	tools	light	tools		7	TRUE	TRUE		good
 spelunker	spelunker’s lantern	tools	light	tools		1	TRUE	TRUE		
 fuel	lantern fuel	tools	light	tools			TRUE	TRUE		
-jerrycan	jerry can	tools	light	tools			TRUE	TRUE		good
+jerrycan	jerry can	tools	light	tools		10	TRUE	TRUE		good
 accelerant	accelerant	tools	light	tools			TRUE	TRUE		
 cookpot	cookpot	tools	cooking	tools		17	TRUE	TRUE		good
 skillet	skillet	tools	cooking	tools		14	TRUE	TRUE		good
@@ -154,7 +156,7 @@ acorns	acorns	misc	herbs	consumable			TRUE	TRUE
 food	food (general)	misc	cooking	consumable			TRUE	TRUE		
 shaker	salt shaker	misc	cooking	consumable			TRUE	TRUE		
 saltbag	salt bag	misc	cooking	consumable			TRUE	TRUE		
-water	potable water	misc	cooking	consumable			TRUE	TRUE		
+water	potable water	misc	cooking	consumable	other		TRUE	TRUE		
 cattail	cattail stalks	misc	cooking	consumable			TRUE	TRUE		
 oats	oats	misc	cooking	consumable			TRUE	TRUE		
 flour	old mill flour	misc	cooking	consumable			TRUE	TRUE		kind of hard to distinguish from oats
@@ -187,7 +189,7 @@ wires	wires	misc	navigation	misc			TRUE	TRUE
 battery	car battery	misc	navigation	misc			TRUE	TRUE		
 maple	maple sapling	misc	material	material			TRUE	TRUE		good
 sapling	birch sapling	misc	material	material			TRUE	TRUE		
-arrowhead	arrowhead	misc	material	material			TRUE	TRUE		
+arrowhead	arrowhead	misc	material	material	other		TRUE	TRUE		
 scrap	scrap metal	misc	material	material			TRUE	TRUE		
 cloth	cloth	misc	material	material			TRUE	TRUE		
 leather	cured leather	misc	material	material			TRUE	TRUE		

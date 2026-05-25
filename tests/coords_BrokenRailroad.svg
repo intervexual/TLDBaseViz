@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1650" height="1100" viewBox="0 0 1650 1100">
+<defs>
+</defs>
+<rect x="0" y="0" width="1650" height="1100" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1600" cy="950" r="10" fill="black" />
+<text x="1600" y="950" font-size="30" fill="black">Transition(BR-FM)</text>
+<circle cx="700" cy="1050" r="10" fill="black" />
+<text x="700" y="1050" font-size="30" fill="black">POI(LocomotiveEngine)</text>
+<path d="M700,1050 L1600,950" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="400" cy="850" r="10" fill="black" />
+<text x="400" y="850" font-size="30" fill="black">MaintenanceYard</text>
+<path d="M400,850 L700,1050" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="500" cy="450" r="10" fill="black" />
+<text x="500" y="450" font-size="30" fill="black">Cave(BRHuntersBlind)</text>
+<path d="M500,450 L400,850" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="300" cy="350" r="10" fill="black" />
+<text x="300" y="350" font-size="30" fill="black">Climb(HB-HL)</text>
+<path d="M300,350 L500,450" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350" cy="300" r="10" fill="black" />
+<text x="350" y="300" font-size="30" fill="black">HuntingLodge</text>
+<path d="M350,300 L300,350" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="700" cy="50" r="10" fill="black" />
+<text x="700" y="50" font-size="30" fill="black">Cave(NorthernBR)</text>
+<path d="M700,50 L350,300" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="650" r="10" fill="black" />
+<text x="150" y="650" font-size="30" fill="black">Climb(BRRavine)</text>
+<path d="M150,650 L500,450" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="650" cy="800" r="10" fill="black" />
+<text x="650" y="800" font-size="30" fill="black">Climb(RFB)</text>
+<path d="M650,800 L400,850" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M650,800 L700,50" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="200" cy="850" r="10" fill="black" />
+<text x="200" y="850" font-size="30" fill="black">POI(BRRavine)</text>
+<path d="M200,850 L150,650" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="300" cy="1050" r="10" fill="black" />
+<text x="300" y="1050" font-size="30" fill="black">TrainCar(BrokenBridge)</text>
+<path d="M300,1050 L400,850" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="200" cy="1050" r="10" fill="black" />
+<text x="200" y="1050" font-size="30" fill="black">Truck(BrokenBridge)</text>
+<path d="M200,1050 L300,1050" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="50" cy="1050" r="10" fill="black" />
+<text x="50" y="1050" font-size="30" fill="black">Transition(BR-FRBL)</text>
+<path d="M50,1050 L200,1050" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="500" cy="850" r="10" fill="black" />
+<text x="500" y="850" font-size="30" fill="black">MaintenanceShed</text>
+<path d="M500,850 L400,850" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1600" cy="950" r="10" fill="red" />
+<text x="1600" y="950" font-size="30" fill="red">BrokenRailroad--ForlornMuskeg</text>
+<circle cx="100" cy="1050" r="10" fill="red" />
+<text x="100" y="1050" font-size="30" fill="red">BrokenRailroad--FarRangeBranchLine</text>
+</svg>

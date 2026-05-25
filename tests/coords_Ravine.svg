@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1160.6599999999999" height="1089.95" viewBox="0 0 1160.6599999999999 1089.95">
+<defs>
+</defs>
+<rect x="0" y="0" width="1160.6599999999999" height="1089.95" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1110.6599999999999" cy="1039.95" r="10" fill="black" />
+<text x="1110.6599999999999" y="1039.95" font-size="30" fill="black">Transition(R-CH)</text>
+<circle cx="898.5300000000001" cy="686.4" r="10" fill="black" />
+<text x="898.5300000000001" y="686.4" font-size="30" fill="black">Tunnel(RavineEast)</text>
+<path d="M898.5300000000001,686.4 L1110.6599999999999,1039.95" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="757.11" cy="544.97" r="10" fill="black" />
+<text x="757.11" y="544.97" font-size="30" fill="black">Tunnel(RavineWest)</text>
+<path d="M757.11,544.97 L898.5300000000001,686.4" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="509.62" cy="297.49" r="10" fill="black" />
+<text x="509.62" y="297.49" font-size="30" fill="black">Cave(EastRavine)</text>
+<path d="M509.62,297.49 L757.11,544.97" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="403.55000000000007" cy="332.84" r="10" fill="black" />
+<text x="403.55000000000007" y="332.84" font-size="30" fill="black">TrainCar(Ravine)</text>
+<path d="M403.55000000000007,332.84 L509.62,297.49" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.00000000000003" cy="262.13" r="10" fill="black" />
+<text x="50.00000000000003" y="262.13" font-size="30" fill="black">Cave(WestRavine)</text>
+<path d="M50.00000000000003,262.13 L403.55000000000007,332.84" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="120.71000000000004" cy="50.0" r="10" fill="black" />
+<text x="120.71000000000004" y="50.0" font-size="30" fill="black">Transition(R-ML)</text>
+<path d="M120.71000000000004,50.0 L50.00000000000003,262.13" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="403.55000000000007" cy="403.54999999999995" r="10" fill="black" />
+<text x="403.55000000000007" y="403.54999999999995" font-size="30" fill="black">POI(TreeBridge)</text>
+<path d="M403.55000000000007,403.54999999999995 L403.55000000000007,332.84" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M403.55000000000007,403.54999999999995 L509.62,297.49" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<path d="M403.55000000000007,403.54999999999995 L50.00000000000003,262.13" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="403.55000000000007" cy="474.26" r="10" fill="black" />
+<text x="403.55000000000007" y="474.26" font-size="30" fill="black">Climb(Ravine)</text>
+<path d="M403.55000000000007,474.26 L403.55000000000007,403.54999999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M403.55000000000007,474.26 L50.00000000000003,262.13" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="438.9100000000001" cy="438.90999999999997" r="10" fill="black" />
+<text x="438.9100000000001" y="438.90999999999997" font-size="30" fill="black">TrainCar(RavineBasin)</text>
+<path d="M438.9100000000001,438.90999999999997 L403.55000000000007,474.26" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="544.97" cy="615.69" r="10" fill="black" />
+<text x="544.97" y="615.69" font-size="30" fill="black">Cave(SouthRavine)</text>
+<path d="M544.97,615.69 L438.9100000000001,438.90999999999997" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="651.0400000000001" cy="651.04" r="10" fill="black" />
+<text x="651.0400000000001" y="651.04" font-size="30" fill="black">Goating(Ravine)</text>
+<path d="M651.0400000000001,651.04 L757.11,544.97" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<path d="M651.0400000000001,651.04 L544.97,615.69" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="580.33" cy="721.75" r="10" fill="black" />
+<text x="580.33" y="721.75" font-size="30" fill="black">Transition(R-BI)</text>
+<path d="M580.33,721.75 L544.97,615.69" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1110.6599999999999" cy="1039.95" r="10" fill="red" />
+<text x="1110.6599999999999" y="1039.95" font-size="30" fill="red">Ravine--CoastalHighway</text>
+<circle cx="120.71000000000004" cy="50.0" r="10" fill="red" />
+<text x="120.71000000000004" y="50.0" font-size="30" fill="red">Ravine--MysteryLake</text>
+<circle cx="544.97" cy="757.1099999999999" r="10" fill="red" />
+<text x="544.97" y="757.1099999999999" font-size="30" fill="red">Ravine--BleakInlet</text>
+</svg>

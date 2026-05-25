@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="2500" viewBox="0 0 2500 2500">
+     width="2500" height="3000" viewBox="0 0 2500 3000">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="2500" fill="#e0f3f1" />
+<rect x="0" y="0" width="2500" height="3000" fill="#e0f3f1" />
 <g id="bases">
-<g id="Car(SouthKPS)">
-<g id="Car(SouthKPS)">
+<g id="Transition(KP-PV)">
+<g id="Transition(KP-PV)">
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Car(SouthKPS):features"></g>
-<g id="Car(SouthKPS):header">
-<text x="1511.25" y="1512.235576923077" font-size="1.4423076923076923" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Car(SouthKPS)</text>
+<g id="Transition(KP-PV):features"></g>
+<g id="Transition(KP-PV):header">
+<text x="1511.25" y="1512.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(KP-PV)</text>
 </g>
 </g>
 </g>
@@ -65,17 +65,17 @@
 <text x="1481.25" y="1331.640625" font-size="4.0625" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">IceCave(KPS)</text>
 </g>
 </g>
-<path d="M1501.25,1481.25 L1521.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1501.25,1381.25 L1521.25,1381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 <g id="FishHut(KPS)">
-<rect x="1521.25" y="1421.25" width="40.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1521.25" y="1321.25" width="40.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="FishHut(KPS):features">
 <g id="fish:FishHut(KPS):0:0">
-<g id="import" transform="translate(1531.25, 1435.0) scale(0.9429958979678439)">
+<g id="import" transform="translate(1531.25, 1335.0) scale(0.9429958979678439)">
 <path d="M8.3904769,4.12258 C8.8038769,4.08124,9.6596769,4.49464,10.197077,4.81196 C10.735577,5.12925,11.935507,6.19171,11.935507,6.19171 C11.935507,6.19171,12.376827,6.20514,12.928727,6.21858 C13.480617,6.23201,16.418837,6.3426,18.460097,7.22627 C20.501306,8.10889,21.20515,8.79826,21.163875,9.01943 C21.122534,9.24061,20.653309,9.22614,19.936047,9.55685 C19.218787,9.88757,18.901477,10.6193,18.901477,10.6193 C18.901477,10.6193,19.301447,10.578,19.646647,10.5087 C19.991847,10.4395,21.150434,9.94339,21.205203,10.3299 C21.25998,10.7165,20.735991,11.2818,18.860117,12.1644 C16.984277,13.0471,15.701527,13.2269,15.701527,13.2269 C15.412127,13.9163,14.818907,14.3162,14.308337,14.5643 C13.797777,14.8123,13.287207,14.8681,13.217967,14.7162 C13.148717,14.5643,13.535257,13.9028,13.769857,13.2817 C14.004467,12.6605,14.652487,11.9567,14.652487,11.9567 C14.652487,11.9567,14.321757,12.0673,13.879397,12.4394 C13.438077,12.8114,13.259267,13.4326,13.259267,13.4326 C13.259267,13.4326,12.831387,13.5018,12.072767,13.5431 C11.314157,13.5845,10.403577,13.4326,10.403577,13.4326 C10.403577,13.4326,10.141077,13.9152,9.7276769,14.3979 C9.3142769,14.8805,8.7623769,15.2257,8.5690769,15.1565 C8.3758769,15.0872,8.4171769,14.9084,8.2373769,14.2046 C8.0574769,13.5008,8.3065769,13.2941,8.3065769,13.2941 C8.3065769,13.2941,8.0306769,13.2806,7.6988769,13.2393 C7.3681769,13.1979,7.0373769,13.1432,7.0373769,13.1432 C7.0373769,13.1432,6.3066769,13.9565,6.0989769,14.1364 C5.8922769,14.3162,5.6431769,14.1219,5.4364769,13.8883 C5.2297769,13.6537,5.8229769,13.1028,5.8229769,13.1028 C5.8229769,13.1028,4.6364769,13.0749,4.2912769,13.2951 C3.9460769,13.5163,3.9326769,14.0403,3.7393769,15.1306 C3.5461769,16.22,3.1326769,17.1171,2.8980769,17.0892 C2.6634769,17.0612,2.5249769,16.3305,2.3317769,15.7507 C2.1384769,15.1709,1.8356769,13.5297,1.8356769,13.5297 C1.8356769,13.5297,1.2144769,12.7163,0.82897694,12.2057 C0.44247694,11.6952,-0.13632306,10.8818,0.02907694,10.702 C0.19437694,10.5221,1.1596769,10.674,1.6568769,10.826 C2.1529769,10.9779,2.8433769,11.3365,2.8433769,11.3365 C2.8433769,11.3365,3.2298769,10.6741,3.3807769,10.4818 C3.5326769,10.2885,3.9739769,9.90199,3.9739769,9.90199 C3.9739769,9.90199,3.5874769,9.75006,3.4086769,9.61259 C3.2288769,9.47513,3.4220769,9.18471,3.8086769,9.03382 C4.1951769,8.88189,4.9403769,8.90979,4.9403769,8.90979 C4.9403769,8.90979,5.4508769,8.42611,6.1402769,8.0127 C6.8296769,7.59928,7.8920769,7.1156,7.8920769,7.1156 L7.6988769,7.03292 C7.5065769,6.95023,7.0797769,6.64639,7.1210769,6.57815 C7.1624769,6.5089,7.6729769,5.39165,7.9344769,4.89453 C8.1969769,4.39843,7.9758769,4.16383,8.3902769,4.12247 Z M16.239107,7.79156 C14.456267,8.97081,15.062957,11.8275,17.012187,12.1365 C15.470177,11.196,15.363707,9.14543,16.239107,7.79156 Z M17.983717,8.24633 L17.984747,8.24736 C17.858657,8.24736,17.736707,8.29697,17.647827,8.38585 C17.558947,8.47577,17.508307,8.5967,17.508307,8.72278 C17.508307,8.84886,17.558947,8.96979,17.647827,9.0597 C17.736717,9.14858,17.858667,9.19922,17.984747,9.19922 C18.110827,9.19922,18.231757,9.14858,18.320637,9.0597 C18.410557,8.96978,18.460167,8.84885,18.460167,8.72278 C18.460167,8.59669,18.410557,8.47576,18.320637,8.38585 C18.231757,8.29697,18.110827,8.24736,17.984747,8.24736 Z" fill="#2f5136" stroke="none" stroke-width="0.264583" opacity="1" />
 </g>
 </g>
 <g id="potbelly:FishHut(KPS):0:1">
-<g id="import" transform="translate(1531.25, 1457.5) scale(1.7179178835251676)">
+<g id="import" transform="translate(1531.25, 1357.5) scale(1.7179178835251676)">
 <path d="M2.64595,10.3189 L2.64595,11.3772 C2.64595,11.5233,2.76441,11.6418,2.91053,11.6418 L8.73137,11.6418 C8.87749,11.6418,8.99595,11.5233,8.99595,11.3772 L8.99595,10.3189 Z" fill="#6741ca" stroke="none" stroke-width="0.264583" opacity="1" />
 <path d="M2.64595,9.78971 L2.64595,6.8552 C2.64595,5.91541,3.11948,4.59629,3.71718,3.87181 L4.3922,3.05361 L4.3922,0.264705 C4.3922,0.118581,4.51066,0.000121,4.65678,0.000121 L6.98512,0.000121 C7.13124,0.000121,7.2497,0.118581,7.2497,0.264705 L7.2497,3.05361 L7.92471,3.87181 C8.52178,4.59552,8.99595,5.91654,8.99595,6.8552 L8.99595,9.78971 L7.93762,9.78971 L7.93762,7.40707 C7.93762,6.53279,7.22667,5.82096,6.35143,5.82096 L5.29047,5.82096 C4.41399,5.82096,3.70428,6.53087,3.70428,7.40707 L3.70428,9.78971 Z" fill="#6741ca" stroke="none" stroke-width="0.264583" opacity="1" />
 <path d="M5.96469,9.78971 L5.7019,9.78971 L5.29023,9.12978 L5.69064,8.97897 C5.75571,8.95447,5.80852,8.90532,5.83764,8.84219 L6.07527,8.32699 L6.44187,9.19216 Z" fill="#6741ca" stroke="none" stroke-width="0.264583" opacity="1" />
@@ -84,7 +84,7 @@
 </g>
 </g>
 <g id="FishHut(KPS):header">
-<text x="1541.25" y="1430.390625" font-size="4.0625" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">FishHut(KPS)</text>
+<text x="1541.25" y="1330.390625" font-size="4.0625" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">FishHut(KPS)</text>
 </g>
 </g>
 <path d="M1461.25,1321.25 L1461.25,1301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
@@ -215,12 +215,12 @@
 </g>
 </g>
 <path d="M1621.25,1301.25 L1621.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<path d="M1661.25,1221.25 L1681.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Truck(KPN)">
-<rect x="1681.25" y="1221.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Truck(KPN):features">
-<g id="battery:Truck(KPN):0:0">
-<g id="import" transform="translate(1691.25, 1237.5) scale(0.25)">
+<path d="M1661.25,1181.25 L1681.25,1181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
+<g id="Transition(KP-BRM)">
+<rect x="1681.25" y="1181.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
+<g id="Transition(KP-BRM):features">
+<g id="battery:Transition(KP-BRM):0:0">
+<g id="import" transform="translate(1691.25, 1197.5) scale(0.25)">
 <path d="M0.0,66.4998 H80.0 V73.8982 H0.0 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="0.6" />
 <path d="M4.398,26.1988 V63.1988 H75.597 V26.1988 Z M20.398,45.8008 H9.0 C8.10156,45.8008,7.3008,45.00002,7.3008,44.1016 C7.3008,43.20316,8.10158,42.4024,9.0,42.4024 H20.398 C21.29644,42.4024,22.0972,43.10162,22.0972,44.1016 C22.101106,45.1016,21.30032,45.8008,20.398,45.8008 Z M47.5,43.1992 L38.8008,60.0002 C38.50002,60.60176,38.00002,61.0002,37.3008,61.0002 C37.19924,61.0002,37.00002,61.0002,36.8008,60.89864 C36.00002,60.69942,35.5,59.89864,35.6016,59.09784 L36.6016,48.49584 L34.0,48.499746 C33.39844,48.499746,32.8984,48.198966,32.6016,47.698966 C32.30082,47.198966,32.30082,46.597366,32.50004,46.097366 L41.10164,29.199366 C41.50008,28.500146,42.30084,28.097766,43.10164,28.398586 C43.90242,28.597806,44.40244,29.398586,44.30084,30.199386 L43.30084,40.801386 H46.00004 C46.6016,40.801386,47.10164,41.102166,47.39844,41.602166 C47.69922,42.102166,47.69922,42.699866,47.5,43.199866 Z M71.0,45.8008 H67.0 V49.8008 C67.0,50.69924,66.30078,51.5,65.3008,51.5 C64.40236,51.5,63.6016,50.80078,63.6016,49.8008 V45.8008 H59.6016 C58.70316,45.8008,57.9024,45.00002,57.9024,44.1016 C57.9024,43.20316,58.70318,42.4024,59.6016,42.4024 H63.6016 V38.4024 C63.6016,37.50396,64.30082,36.7032,65.3008,36.7032 C66.19924,36.7032,67.0,37.40242,67.0,38.4024 V42.4024 H71.0 C71.89844,42.4024,72.6992,43.10162,72.6992,44.1016 C72.6992,45.10158,71.89842,45.8008,71.0,45.8008 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="0.6" />
 <path d="M0.0,15.3978 H80.0 V22.7962 H0.0 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="0.6" />
@@ -229,25 +229,25 @@
 </g>
 </g>
 </g>
-<g id="Truck(KPN):header">
-<text x="1701.25" y="1231.84375" font-size="4.875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Truck(KPN)</text>
+<g id="Transition(KP-BRM):header">
+<text x="1701.25" y="1191.3020833333333" font-size="2.7083333333333335" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(KP-BRM)</text>
 </g>
+</g>
+</g>
+<path d="M1681.25,1221.25 L1681.25,1241.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="outstanding bring (needs source)">
+<rect x="1681.25" y="1241.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="outstanding bring (needs source):features"></g>
+<g id="outstanding bring (needs source):header">
+<text x="1691.25" y="1252.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
 </g>
 </g>
 <path d="M1681.25,1261.25 L1681.25,1281.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding bring (needs source)">
-<rect x="1681.25" y="1281.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
-<g id="outstanding bring (needs source):features"></g>
-<g id="outstanding bring (needs source):header">
-<text x="1691.25" y="1292.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
-</g>
-</g>
-<path d="M1681.25,1301.25 L1681.25,1321.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
 <g id="outstanding take (needs destination)">
-<rect x="1681.25" y="1321.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<rect x="1681.25" y="1281.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="outstanding take (needs destination):features"></g>
 <g id="outstanding take (needs destination):header">
-<text x="1691.25" y="1332.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
+<text x="1691.25" y="1292.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
 </g>
 </g>
 <g id="legend">

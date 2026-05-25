@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2063.66" height="1806.1699999999998" viewBox="0 0 2063.66 1806.1699999999998">
+<defs>
+</defs>
+<rect x="0" y="0" width="2063.66" height="1806.1699999999998" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="487.45000000000005" cy="1756.1699999999998" r="10" fill="black" />
+<text x="487.45000000000005" y="1756.1699999999998" font-size="30" fill="black">Transition(BRM-KP)</text>
+<circle cx="704.63" cy="1388.29" r="10" fill="black" />
+<text x="704.63" y="1388.29" font-size="30" fill="black">Car(NorthOfKPTunnel)</text>
+<path d="M704.63,1388.29 L487.45000000000005,1756.1699999999998" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="426.54999999999995" cy="1237.72" r="10" fill="black" />
+<text x="426.54999999999995" y="1237.72" font-size="30" fill="black">OldSubstation</text>
+<path d="M426.54999999999995,1237.72 L704.63,1388.29" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="1069.78" r="10" fill="black" />
+<text x="50.0" y="1069.78" font-size="30" fill="black">CreekBedCave</text>
+<path d="M50.0,1069.78 L426.54999999999995,1237.72" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="513.38" cy="745.31" r="10" fill="black" />
+<text x="513.38" y="745.31" font-size="30" fill="black">Trailer(SouthOfPowerPlant)</text>
+<path d="M513.38,745.31 L50.0,1069.78" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="681.32" cy="368.75" r="10" fill="black" />
+<text x="681.32" y="368.75" font-size="30" fill="black">PowerPlant</text>
+<path d="M681.32,368.75 L513.38,745.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="953.69" cy="1127.58" r="10" fill="black" />
+<text x="953.69" y="1127.58" font-size="30" fill="black">Car(CentralJunction)</text>
+<path d="M953.69,1127.58 L704.63,1388.29" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="791.46" cy="895.8900000000001" r="10" fill="black" />
+<text x="791.46" y="895.8900000000001" font-size="30" fill="black">Cave(PrisonPond)</text>
+<path d="M791.46,895.8900000000001 L953.69,1127.58" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="727.7" cy="681.56" r="10" fill="black" />
+<text x="727.7" y="681.56" font-size="30" fill="black">Climb(BP-GM)</text>
+<path d="M727.7,681.56 L791.46,895.8900000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M727.7,681.56 L513.38,745.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="907.3000000000001" cy="814.77" r="10" fill="black" />
+<text x="907.3000000000001" y="814.77" font-size="30" fill="black">PrisonGate</text>
+<path d="M907.3000000000001,814.77 L791.46,895.8900000000001" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1023.15" cy="733.6600000000001" r="10" fill="black" />
+<text x="1023.15" y="733.6600000000001" font-size="30" fill="black">PrisonWorkshop</text>
+<path d="M1023.15,733.6600000000001 L907.3000000000001,814.77" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1040.51" cy="635.1800000000001" r="10" fill="black" />
+<text x="1040.51" y="635.1800000000001" font-size="30" fill="black">Barracks</text>
+<path d="M1040.51,635.1800000000001 L1023.15,733.6600000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="991.27" cy="626.49" r="10" fill="black" />
+<text x="991.27" y="626.49" font-size="30" fill="black">Infirmary</text>
+<path d="M991.27,626.49 L1023.15,733.6600000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1057.88" cy="536.69" r="10" fill="black" />
+<text x="1057.88" y="536.69" font-size="30" fill="black">WardensOffice</text>
+<path d="M1057.88,536.69 L1040.51,635.1800000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="959.4" cy="519.3299999999999" r="10" fill="black" />
+<text x="959.4" y="519.3299999999999" font-size="30" fill="black">CentralPrison</text>
+<path d="M959.4,519.3299999999999 L1057.88,536.69" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1237.47" cy="669.9100000000001" r="10" fill="black" />
+<text x="1237.47" y="669.9100000000001" font-size="30" fill="black">Cave(EastOfPrison)</text>
+<path d="M1237.47,669.9100000000001 L907.3000000000001,814.77" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1648.76" cy="640.8800000000001" r="10" fill="black" />
+<text x="1648.76" y="640.8800000000001" font-size="30" fill="black">CliffCave</text>
+<path d="M1648.76,640.8800000000001 L1237.47,669.9100000000001" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1973.22" cy="1104.27" r="10" fill="black" />
+<text x="1973.22" y="1104.27" font-size="30" fill="black">BricklayersRetreat</text>
+<path d="M1973.22,1104.27 L1648.76,640.8800000000001" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1944.1999999999998" cy="692.98" r="10" fill="black" />
+<text x="1944.1999999999998" y="692.98" font-size="30" fill="black">WhistlingPerch</text>
+<path d="M1944.1999999999998,692.98 L1973.22,1104.27" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="2013.6599999999999" cy="299.06" r="10" fill="black" />
+<text x="2013.6599999999999" y="299.06" font-size="30" fill="black">NoRoadCave</text>
+<path d="M2013.6599999999999,299.06 L1944.1999999999998,692.98" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1932.55" cy="183.20999999999998" r="10" fill="black" />
+<text x="1932.55" y="183.20999999999998" font-size="30" fill="black">PrepperCache(BRM)</text>
+<path d="M1932.55,183.20999999999998 L2013.6599999999999,299.06" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1816.6999999999998" cy="264.33" r="10" fill="black" />
+<text x="1816.6999999999998" y="264.33" font-size="30" fill="black">FoolsCorner</text>
+<path d="M1816.6999999999998,264.33 L2013.6599999999999,299.06" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1816.6999999999998,264.33 L1944.1999999999998,692.98" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1220.11" cy="768.3900000000001" r="10" fill="black" />
+<text x="1220.11" y="768.3900000000001" font-size="30" fill="black">Climb(MBR-BP)</text>
+<path d="M1220.11,768.3900000000001 L1237.47,669.9100000000001" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1683.49" cy="443.92" r="10" fill="black" />
+<text x="1683.49" y="443.92" font-size="30" fill="black">Cave(BelowFoolsCorner)</text>
+<path d="M1683.49,443.92 L1220.11,768.3900000000001" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M1683.49,443.92 L1816.6999999999998,264.33" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="287.4" cy="299.3" r="10" fill="black" />
+<text x="287.4" y="299.3" font-size="30" fill="black">ForagersRemnant</text>
+<path d="M287.4,299.3 L681.32,368.75" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1553.1299999999999" cy="319.39" r="10" fill="black" />
+<text x="1553.1299999999999" y="319.39" font-size="30" fill="black">Climb(MBR-LP1)</text>
+<path d="M1553.1299999999999,319.39 L1683.49,443.92" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="1660.3" cy="287.52" r="10" fill="black" />
+<text x="1660.3" y="287.52" font-size="30" fill="black">Climb(MBR-LP2)</text>
+<path d="M1660.3,287.52 L1553.1299999999999,319.39" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="1570.5" cy="220.91000000000003" r="10" fill="black" />
+<text x="1570.5" y="220.91000000000003" font-size="30" fill="black">Cave(LastProspect)</text>
+<path d="M1570.5,220.91000000000003 L1660.3,287.52" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="1752.9499999999998" cy="50.0" r="10" fill="black" />
+<text x="1752.9499999999998" y="50.0" font-size="30" fill="black">LastProspect</text>
+<path d="M1752.9499999999998,50.0 L1570.5,220.91000000000003" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="779.8000000000001" cy="386.12" r="10" fill="black" />
+<text x="779.8000000000001" y="386.12" font-size="30" fill="black">SteamTunnels</text>
+<path d="M779.8000000000001,386.12 L1023.15,733.6600000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M779.8000000000001,386.12 L681.32,368.75" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="965.34" cy="1637.35" r="10" fill="black" />
+<text x="965.34" y="1637.35" font-size="30" fill="black">JailorsResidence</text>
+<path d="M965.34,1637.35 L704.63,1388.29" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1179.6699999999998" cy="1573.6" r="10" fill="black" />
+<text x="1179.6699999999998" y="1573.6" font-size="30" fill="black">Climb(JR-CC)</text>
+<path d="M1179.6699999999998,1573.6 L965.34,1637.35" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1492.48" cy="1527.21" r="10" fill="black" />
+<text x="1492.48" y="1527.21" font-size="30" fill="black">CuttysCave</text>
+<path d="M1492.48,1527.21 L1179.6699999999998,1573.6" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1402.6799999999998" cy="1460.61" r="10" fill="black" />
+<text x="1402.6799999999998" y="1460.61" font-size="30" fill="black">Climb(CC-FC)</text>
+<path d="M1402.6799999999998,1460.61 L1492.48,1527.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1249.1299999999999" cy="1179.6699999999998" r="10" fill="black" />
+<text x="1249.1299999999999" y="1179.6699999999998" font-size="30" fill="black">CooksFarm</text>
+<path d="M1249.1299999999999,1179.6699999999998 L953.69,1127.58" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1561.9399999999998" cy="1133.29" r="10" fill="black" />
+<text x="1561.9399999999998" y="1133.29" font-size="30" fill="black">ForemansClearcut</text>
+<path d="M1561.9399999999998,1133.29 L1249.1299999999999,1179.6699999999998" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M1561.9399999999998,1133.29 L1402.6799999999998,1460.61" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1561.9399999999998,1133.29 L1973.22,1104.27" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M1561.9399999999998,1133.29 L1648.76,640.8800000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1341.78" cy="942.1499999999999" r="10" fill="black" />
+<text x="1341.78" y="942.1499999999999" font-size="30" fill="black">Cave(NorthOfCooksFarm)</text>
+<path d="M1341.78,942.1499999999999 L1249.1299999999999,1179.6699999999998" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="609.0" cy="1066.8" r="10" fill="black" />
+<text x="609.0" y="1066.8" font-size="30" fill="black">Cave(NorthOfSubstation)</text>
+<path d="M609.0,1066.8 L426.54999999999995,1237.72" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="327.95000000000005" cy="357.22" r="10" fill="black" />
+<text x="327.95000000000005" y="357.22" font-size="30" fill="black">Climb(FR-BB)</text>
+<path d="M327.95000000000005,357.22 L287.4,299.3" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="342.46000000000004" cy="562.8599999999999" r="10" fill="black" />
+<text x="342.46000000000004" y="562.8599999999999" font-size="30" fill="black">Cave(NorthOfBearBend)</text>
+<path d="M342.46000000000004,562.8599999999999 L327.95000000000005,357.22" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M342.46000000000004,562.8599999999999 L513.38,745.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="837.84" cy="1208.7" r="10" fill="black" />
+<text x="837.84" y="1208.7" font-size="30" fill="black">Climb(OSS-BP)</text>
+<path d="M837.84,1208.7 L426.54999999999995,1237.72" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M837.84,1208.7 L953.69,1127.58" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1741.53" cy="1266.5" r="10" fill="black" />
+<text x="1741.53" y="1266.5" font-size="30" fill="black">Cave(BRM-TWM)</text>
+<path d="M1741.53,1266.5 L1561.9399999999998,1133.29" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M1741.53,1266.5 L1973.22,1104.27" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="487.45000000000005" cy="1756.1699999999998" r="10" fill="red" />
+<text x="487.45000000000005" y="1756.1699999999998" font-size="30" fill="red">Blackrock--KeepersPass</text>
+</svg>

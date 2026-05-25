@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2400" height="1900" viewBox="0 0 2400 1900">
+<defs>
+</defs>
+<rect x="0" y="0" width="2400" height="1900" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1250" cy="50" r="10" fill="black" />
+<text x="1250" y="50" font-size="30" fill="black">CinderHillsCoalMine(Upper)</text>
+<circle cx="1050" cy="250" r="10" fill="black" />
+<text x="1050" y="250" font-size="30" fill="black">Trailer(BetweenMines)</text>
+<path d="M1050,250 L1250,50" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1250" cy="350" r="10" fill="black" />
+<text x="1250" y="350" font-size="30" fill="black">CinderHillsCoalMine(Lower)</text>
+<path d="M1250,350 L1050,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1950" cy="750" r="10" fill="black" />
+<text x="1950" y="750" font-size="30" fill="black">House(SouthCoastalTownsite)</text>
+<path d="M1950,750 L1250,350" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="2050" cy="750" r="10" fill="black" />
+<text x="2050" y="750" font-size="30" fill="black">QuonsetGarage</text>
+<path d="M2050,750 L1950,750" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="750" cy="250" r="10" fill="black" />
+<text x="750" y="250" font-size="30" fill="black">Cabin(NorthOfTooth)</text>
+<path d="M750,250 L1250,50" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<circle cx="1850" cy="1050" r="10" fill="black" />
+<text x="1850" y="1050" font-size="30" fill="black">FishHut(Eastmost)</text>
+<path d="M1850,1050 L1950,750" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="1650" cy="1150" r="10" fill="black" />
+<text x="1650" y="1150" font-size="30" fill="black">MisanthropesHomestead</text>
+<path d="M1650,1150 L1850,1050" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<path d="M1650,1150 L2050,750" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<circle cx="2000" cy="600" r="10" fill="black" />
+<text x="2000" y="600" font-size="30" fill="black">House(NorthCoastalTownsite)</text>
+<path d="M2000,600 L2050,750" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1650" cy="150" r="10" fill="black" />
+<text x="1650" y="150" font-size="30" fill="black">AbandonedLookout</text>
+<path d="M1650,150 L1250,50" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1250" cy="150" r="10" fill="black" />
+<text x="1250" y="150" font-size="30" fill="black">CinderHillsCoalMine(Aurora)</text>
+<path d="M1250,150 L1250,350" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="750" cy="350" r="10" fill="black" />
+<text x="750" y="350" font-size="30" fill="black">POI(ForkedRoad)</text>
+<path d="M750,350 L1250,350" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M750,350 L750,250" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1350" cy="1050" r="10" fill="black" />
+<text x="1350" y="1050" font-size="30" fill="black">FishHut(BetweenIslands)</text>
+<path d="M1350,1050 L1650,1150" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="950" cy="1050" r="10" fill="black" />
+<text x="950" y="1050" font-size="30" fill="black">House(Jackrabbit)</text>
+<path d="M950,1050 L1350,1050" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="450" cy="950" r="10" fill="black" />
+<text x="450" y="950" font-size="30" fill="black">FishHut(Westmost)</text>
+<path d="M450,950 L950,1050" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1150" cy="450" r="10" fill="black" />
+<text x="1150" y="450" font-size="30" fill="black">Trailer(LogSort)</text>
+<path d="M1150,450 L1250,350" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="450" cy="150" r="10" fill="black" />
+<text x="450" y="150" font-size="30" fill="black">Trailer(TrainUnloading)</text>
+<path d="M450,150 L750,250" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="50" cy="150" r="10" fill="black" />
+<text x="50" y="150" font-size="30" fill="black">Transition(CH-R)</text>
+<path d="M50,150 L450,150" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="350" cy="950" r="10" fill="black" />
+<text x="350" y="950" font-size="30" fill="black">Car(Rockfall)</text>
+<path d="M350,950 L450,950" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="50" cy="350" r="10" fill="black" />
+<text x="50" y="350" font-size="30" fill="black">Cabin(RabbitGrove)</text>
+<path d="M50,350 L350,950" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M50,350 L50,150" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="850" cy="750" r="10" fill="black" />
+<text x="850" y="750" font-size="30" fill="black">FishHut(NearFishingCamp)</text>
+<path d="M850,750 L950,1050" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1250" cy="750" r="10" fill="black" />
+<text x="1250" y="750" font-size="30" fill="black">FishHuts(Central)</text>
+<path d="M1250,750 L1150,450" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1250,750 L850,750" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<path d="M1250,750 L1850,1050" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1250,750 L950,1050" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
+<path d="M1250,750 L1350,1050" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="550" cy="650" r="10" fill="black" />
+<text x="550" y="650" font-size="30" fill="black">Cabins(FishingCamp)</text>
+<path d="M550,650 L350,950" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M550,650 L850,750" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="850" cy="450" r="10" fill="black" />
+<text x="850" y="450" font-size="30" fill="black">Car(TheTooth)</text>
+<path d="M850,450 L1150,450" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M850,450 L550,650" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1550" cy="300" r="10" fill="black" />
+<text x="1550" y="300" font-size="30" fill="black">Cabins(SouthOfLookout)</text>
+<path d="M1550,300 L1050,250" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2050" cy="450" r="10" fill="black" />
+<text x="2050" y="450" font-size="30" fill="black">Trailer(NearSilentClearing)</text>
+<path d="M2050,450 L2000,600" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M2050,450 L1550,300" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="450" cy="350" r="10" fill="black" />
+<text x="450" y="350" font-size="30" fill="black">Trailer(SouthOfTrainUnloading)</text>
+<path d="M450,350 L450,150" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M450,350 L750,350" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1950" cy="1450" r="10" fill="black" />
+<text x="1950" y="1450" font-size="30" fill="black">WaterfrontCottages</text>
+<path d="M1950,1450 L1650,1150" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<path d="M1950,1450 L2050,750" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1950" cy="1750" r="10" fill="black" />
+<text x="1950" y="1750" font-size="30" fill="black">Car(CommutersLament)</text>
+<path d="M1950,1750 L1950,1450" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="2200" cy="400" r="10" fill="black" />
+<text x="2200" y="400" font-size="30" fill="black">Climb(SC-AL)</text>
+<path d="M2200,400 L2050,450" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1600" cy="300" r="10" fill="black" />
+<text x="1600" y="300" font-size="30" fill="black">Climb(C-AL1)</text>
+<path d="M1600,300 L1550,300" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="1600" cy="250" r="10" fill="black" />
+<text x="1600" y="250" font-size="30" fill="black">Climb(C-AL2)</text>
+<path d="M1600,250 L1650,150" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<path d="M1600,250 L1600,300" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="2350" cy="850" r="10" fill="black" />
+<text x="2350" y="850" font-size="30" fill="black">CrashedPlane(CH)</text>
+<path d="M2350,850 L2050,750" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1950" cy="1850" r="10" fill="black" />
+<text x="1950" y="1850" font-size="30" fill="black">Transition(CH-OIC)</text>
+<path d="M1950,1850 L1950,1750" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="50" cy="150" r="10" fill="red" />
+<text x="50" y="150" font-size="30" fill="red">CoastalHighway--Ravine</text>
+<circle cx="1950" cy="1850" r="10" fill="red" />
+<text x="1950" y="1850" font-size="30" fill="red">CoastalHighway--OIC</text>
+</svg>

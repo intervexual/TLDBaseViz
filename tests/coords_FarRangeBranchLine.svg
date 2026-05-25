@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1950" height="500" viewBox="0 0 1950 500">
+<defs>
+</defs>
+<rect x="0" y="0" width="1950" height="500" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1900" cy="100" r="10" fill="black" />
+<text x="1900" y="100" font-size="30" fill="black">Transition(FRBL-BR)</text>
+<circle cx="1500" cy="250" r="10" fill="black" />
+<text x="1500" y="250" font-size="30" fill="black">POI(RailOffice)</text>
+<path d="M1500,250 L1900,100" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1200" cy="250" r="10" fill="black" />
+<text x="1200" y="250" font-size="30" fill="black">TrainCar(SurfeitTrestle)</text>
+<path d="M1200,250 L1500,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1100" cy="250" r="10" fill="black" />
+<text x="1100" y="250" font-size="30" fill="black">PlatelayersShortcut</text>
+<path d="M1100,250 L1200,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1250" cy="200" r="10" fill="black" />
+<text x="1250" y="200" font-size="30" fill="black">Climb(FRBL)</text>
+<path d="M1250,200 L1200,250" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="700" cy="50" r="10" fill="black" />
+<text x="700" y="50" font-size="30" fill="black">RemnantCave</text>
+<path d="M700,50 L1100,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="50" cy="450" r="10" fill="black" />
+<text x="50" y="450" font-size="30" fill="black">Transition(FRBL-TP)</text>
+<path d="M50,450 L700,50" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1700" cy="150" r="10" fill="red" />
+<text x="1700" y="150" font-size="30" fill="red">FarRangeBranchLine--BrokenRailroad</text>
+<circle cx="300" cy="450" r="10" fill="red" />
+<text x="300" y="450" font-size="30" fill="red">FarRangeBranchLine--TransferPass</text>
+</svg>

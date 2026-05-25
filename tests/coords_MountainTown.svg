@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1700" height="2250" viewBox="0 0 1700 2250">
+<defs>
+</defs>
+<rect x="0" y="0" width="1700" height="2250" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="50" cy="2200" r="10" fill="black" />
+<text x="50" y="2200" font-size="30" fill="black">Transition(MT-FM)</text>
+<circle cx="50" cy="1800" r="10" fill="black" />
+<text x="50" y="1800" font-size="30" fill="black">HermitsCabin</text>
+<path d="M50,1800 L50,2200" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350" cy="1500" r="10" fill="black" />
+<text x="350" y="1500" font-size="30" fill="black">POI(RockyRefuge)</text>
+<path d="M350,1500 L50,1800" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="250" cy="1400" r="10" fill="black" />
+<text x="250" y="1400" font-size="30" fill="black">Climb(MB-PMF1)</text>
+<path d="M250,1400 L350,1500" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="250" cy="1300" r="10" fill="black" />
+<text x="250" y="1300" font-size="30" fill="black">Climb(MB-PMF2)</text>
+<path d="M250,1300 L250,1400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="650" cy="1400" r="10" fill="black" />
+<text x="650" y="1400" font-size="30" fill="black">Climb(MP-PA)</text>
+<path d="M650,1400 L350,1500" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="650" cy="1300" r="10" fill="black" />
+<text x="650" y="1300" font-size="30" fill="black">PicnicArea</text>
+<path d="M650,1300 L650,1400" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="850" cy="1100" r="10" fill="black" />
+<text x="850" y="1100" font-size="30" fill="black">Orca</text>
+<path d="M850,1100 L650,1300" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="800" cy="900" r="10" fill="black" />
+<text x="800" y="900" font-size="30" fill="black">Houses(MiltonSE)</text>
+<path d="M800,900 L850,1100" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="700" cy="900" r="10" fill="black" />
+<text x="700" y="900" font-size="30" fill="black">Houses(MiltonSW)</text>
+<path d="M700,900 L800,900" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="750" cy="800" r="10" fill="black" />
+<text x="750" y="800" font-size="30" fill="black">PostOffice</text>
+<path d="M750,800 L800,900" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="800" cy="750" r="10" fill="black" />
+<text x="800" y="750" font-size="30" fill="black">Houses(MiltonNE)</text>
+<path d="M800,750 L750,800" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="750" cy="700" r="10" fill="black" />
+<text x="750" y="700" font-size="30" fill="black">Greymother</text>
+<path d="M750,700 L800,750" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="700" cy="700" r="10" fill="black" />
+<text x="700" y="700" font-size="30" fill="black">Houses(MiltonNW)</text>
+<path d="M700,700 L750,700" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="700" cy="750" r="10" fill="black" />
+<text x="700" y="750" font-size="30" fill="black">CreditUnion</text>
+<path d="M700,750 L750,800" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M700,750 L700,700" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="900" cy="1500" r="10" fill="black" />
+<text x="900" y="1500" font-size="30" fill="black">Cave(BetweenParkClimbs)</text>
+<path d="M900,1500 L650,1400" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
+<circle cx="900" cy="1600" r="10" fill="black" />
+<text x="900" y="1600" font-size="30" fill="black">Climb(MP-R)</text>
+<path d="M900,1600 L900,1500" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="1450" cy="1500" r="10" fill="black" />
+<text x="1450" y="1500" font-size="30" fill="black">Cave(MT-ML)</text>
+<path d="M1450,1500 L900,1600" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="650" cy="400" r="10" fill="black" />
+<text x="650" y="400" font-size="30" fill="black">Cave(Graveyard)</text>
+<path d="M650,400 L750,700" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1100" cy="850" r="10" fill="black" />
+<text x="1100" y="850" font-size="30" fill="black">Cave(RadioTower)</text>
+<path d="M1100,850 L750,700" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1650" cy="1000" r="10" fill="black" />
+<text x="1650" y="1000" font-size="30" fill="black">CrashedPlane(Mackenzie)</text>
+<path d="M1650,1000 L1100,850" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1450" cy="650" r="10" fill="black" />
+<text x="1450" y="650" font-size="30" fill="black">PrepperCache(MT)</text>
+<path d="M1450,650 L1650,1000" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="1550" cy="650" r="10" fill="black" />
+<text x="1550" y="650" font-size="30" fill="black">Cave(SpruceToCrashSouth)</text>
+<path d="M1550,650 L1450,650" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1450" cy="550" r="10" fill="black" />
+<text x="1450" y="550" font-size="30" fill="black">Cave(SpruceToCrashNorth)</text>
+<path d="M1450,550 L1550,650" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1550" cy="400" r="10" fill="black" />
+<text x="1550" y="400" font-size="30" fill="black">BearCave(SpruceFallsBridge)</text>
+<path d="M1550,400 L1450,550" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="1000" r="10" fill="black" />
+<text x="150" y="1000" font-size="30" fill="black">ParadiseMeadowsFarm</text>
+<path d="M150,1000 L650,1400" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<path d="M150,1000 L250,1300" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="950" cy="150" r="10" fill="black" />
+<text x="950" y="150" font-size="30" fill="black">Cave(MT-HRV)</text>
+<path d="M950,150 L650,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M950,150 L1550,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350" cy="400" r="10" fill="black" />
+<text x="350" y="400" font-size="30" fill="black">StChristophers</text>
+<path d="M350,400 L650,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M350,400 L700,700" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M350,400 L150,1000" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="650" cy="200" r="10" fill="black" />
+<text x="650" y="200" font-size="30" fill="black">Trailer(MT)</text>
+<path d="M650,200 L350,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M650,200 L650,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M650,200 L950,150" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1250" cy="700" r="10" fill="black" />
+<text x="1250" y="700" font-size="30" fill="black">Cave(OutOfTheWay)</text>
+<path d="M1250,700 L1100,850" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="450" cy="1800" r="10" fill="black" />
+<text x="450" y="1800" font-size="30" fill="black">Cave(MiltonBasin)</text>
+<path d="M450,1800 L350,1500" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M450,1800 L50,1800" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="850" cy="50" r="10" fill="black" />
+<text x="850" y="50" font-size="30" fill="black">Transition(MT-HRV)</text>
+<path d="M850,50 L950,150" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
+<circle cx="900" cy="1100" r="10" fill="black" />
+<text x="900" y="1100" font-size="30" fill="black">POI(WoodLotArea)</text>
+<path d="M900,1100 L850,1100" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50" cy="2200" r="10" fill="red" />
+<text x="50" y="2200" font-size="30" fill="red">MountainTown--ForlornMuskeg</text>
+<circle cx="950" cy="150" r="10" fill="red" />
+<text x="950" y="150" font-size="30" fill="red">MountainTown--HushedRiverValley</text>
+</svg>

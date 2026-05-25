@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="926.31" height="1445.92" viewBox="0 0 926.31 1445.92">
+<defs>
+</defs>
+<rect x="0" y="0" width="926.31" height="1445.92" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="258.01" cy="1395.92" r="10" fill="black" />
+<text x="258.01" y="1395.92" font-size="30" fill="black">Transition(TP-FRBL)</text>
+<circle cx="198.2" cy="899.51" r="10" fill="black" />
+<text x="198.2" y="899.51" font-size="30" fill="black">FeedwaterCave</text>
+<path d="M198.2,899.51 L258.01,1395.92" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="571.4100000000001" cy="653.1" r="10" fill="black" />
+<text x="571.4100000000001" y="653.1" font-size="30" fill="black">VacantDepot</text>
+<path d="M571.4100000000001,653.1 L198.2,899.51" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="498.2" cy="379.9" r="10" fill="black" />
+<text x="498.2" y="379.9" font-size="30" fill="black">Climb(TP-SP)</text>
+<path d="M498.2,379.9 L571.4100000000001,653.1" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="756.21" r="10" fill="black" />
+<text x="50.0" y="756.21" font-size="30" fill="black">Transition(TP-FA)</text>
+<path d="M50.0,756.21 L571.4100000000001,653.1" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="226.79000000000002" cy="50.00000000000001" r="10" fill="black" />
+<text x="226.79000000000002" y="50.00000000000001" font-size="30" fill="black">Transition(TP-SP)</text>
+<path d="M226.79000000000002,50.00000000000001 L498.2,379.9" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="876.31" cy="425.0" r="10" fill="black" />
+<text x="876.31" y="425.0" font-size="30" fill="black">Transition(TP-ZOC)</text>
+<path d="M876.31,425.0 L571.4100000000001,653.1" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="258.01" cy="1395.92" r="10" fill="red" />
+<text x="258.01" y="1395.92" font-size="30" fill="red">TransferPass--FarRangeBranchLine</text>
+<circle cx="75.0" cy="712.9100000000001" r="10" fill="red" />
+<text x="75.0" y="712.9100000000001" font-size="30" fill="red">TransferPass--ForsakenAirfield</text>
+<circle cx="201.79000000000002" cy="93.30000000000001" r="10" fill="red" />
+<text x="201.79000000000002" y="93.30000000000001" font-size="30" fill="red">TransferPass--SunderedPass</text>
+<circle cx="808.01" cy="443.29999999999995" r="10" fill="red" />
+<text x="808.01" y="443.29999999999995" font-size="30" fill="red">TransferPass--ZoneOfContamination</text>
+</svg>

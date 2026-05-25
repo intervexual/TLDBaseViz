@@ -38,8 +38,8 @@ def draw_hud_time(angle, outfile='test.svg', label='', fill='white'):
     :param fill: colour used for sun, moon, text
     :return: nothing
     """
-    sky_height = icon_size*2
-    horizon_height = icon_size
+    sky_height = icon_size*2.5
+    horizon_height = icon_size*1.5
     horizon_y = sky_height
 
     canhei = horizon_height + sky_height
@@ -82,8 +82,10 @@ def draw_hud_time(angle, outfile='test.svg', label='', fill='white'):
     d.append(draw.Text(label, text_size, text_x, text_y,
                        text_anchor='end',
                        fill=fill))
-
-    d.save_svg(outfile)
+    if outfile.endswith('.svg'):
+        d.save_svg(outfile)
+    else:
+        d.save_png(outfile)
 
 
 def ang_to_time(ang):
@@ -120,5 +122,29 @@ while ang < 360:
     draw_hud_time(ang, outfile=f'time/{hour}.svg', label=hour)
     ang += ang_inc
 
+
+reps = 2
+ang_inc = 15/2
+ang = 0
+iter = 0
+
+iter_start = 5
+while iter < iter_start:
+    draw_hud_time(ang, outfile=f'time/anim/img_{iter:03d}.png', label=hour)
+    iter += 1
+
+while ang < 360*2:
+    hour = ang_to_time(ang)
+    #print(hour, ang)
+    draw_hud_time(ang, outfile=f'time/anim/img_{iter:03d}.png', label=hour)
+    ang += ang_inc
+    iter += 1
+
+iter_end = iter + iter_start*2
+while iter < iter_end:
+    draw_hud_time(ang, outfile=f'time/anim/img_{iter:03d}.png', label=hour)
+    iter += 1
+
+# ffmpeg -framerate 5 -i img_%03d.png output5.mp4
 
 doctest.testmod()

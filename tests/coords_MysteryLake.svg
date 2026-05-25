@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800.0" height="1900.0" viewBox="0 0 1800.0 1900.0">
+<defs>
+</defs>
+<rect x="0" y="0" width="1800.0" height="1900.0" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="1550.0" cy="1850.0" r="10" fill="black" />
+<text x="1550.0" y="1850.0" font-size="30" fill="black">Transition(ML-R)</text>
+<circle cx="1600.0" cy="1750.0" r="10" fill="black" />
+<text x="1600.0" y="1750.0" font-size="30" fill="black">Trailer(DamEast)</text>
+<path d="M1600.0,1750.0 L1550.0,1850.0" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="1600.0" cy="1650.0" r="10" fill="black" />
+<text x="1600.0" y="1650.0" font-size="30" fill="black">Trailer(DamWest)</text>
+<path d="M1600.0,1650.0 L1600.0,1750.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1650.0" cy="1750.0" r="10" fill="black" />
+<text x="1650.0" y="1750.0" font-size="30" fill="black">UpperDam</text>
+<path d="M1650.0,1750.0 L1600.0,1650.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1750.0" cy="1700.0" r="10" fill="black" />
+<text x="1750.0" y="1700.0" font-size="30" fill="black">Transition(ML-WR)</text>
+<path d="M1750.0,1700.0 L1650.0,1750.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1450.0" cy="1350.0" r="10" fill="black" />
+<text x="1450.0" y="1350.0" font-size="30" fill="black">TrainCar(TrainLoading)</text>
+<path d="M1450.0,1350.0 L1600.0,1650.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1550.0" cy="850.0" r="10" fill="black" />
+<text x="1550.0" y="850.0" font-size="30" fill="black">Trailers(LoggingCamp)</text>
+<path d="M1550.0,850.0 L1450.0,1350.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1250.0" cy="850.0" r="10" fill="black" />
+<text x="1250.0" y="850.0" font-size="30" fill="black">ForestryLookout</text>
+<path d="M1250.0,850.0 L1550.0,850.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1150.0" cy="650.0" r="10" fill="black" />
+<text x="1150.0" y="650.0" font-size="30" fill="black">POI(FrozenCreek)</text>
+<path d="M1150.0,650.0 L1250.0,850.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1250.0" cy="550.0" r="10" fill="black" />
+<text x="1250.0" y="550.0" font-size="30" fill="black">Climb(FC-DL)</text>
+<path d="M1250.0,550.0 L1150.0,650.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1250.0" cy="450.0" r="10" fill="black" />
+<text x="1250.0" y="450.0" font-size="30" fill="black">POI(DestroyedLookout)</text>
+<path d="M1250.0,450.0 L1250.0,550.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1500.0" cy="400.0" r="10" fill="black" />
+<text x="1500.0" y="400.0" font-size="30" fill="black">POI(Clearcut)</text>
+<path d="M1500.0,400.0 L1250.0,450.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1150.0" cy="50.0" r="10" fill="black" />
+<text x="1150.0" y="50.0" font-size="30" fill="black">Cabin(UnnamedPond)</text>
+<path d="M1150.0,50.0 L1500.0,400.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="850.0" cy="150.0" r="10" fill="black" />
+<text x="850.0" y="150.0" font-size="30" fill="black">HuntersBlind(UnnamedPond)</text>
+<path d="M850.0,150.0 L1150.0,50.0" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="250.0" cy="50.0" r="10" fill="black" />
+<text x="250.0" y="50.0" font-size="30" fill="black">TrappersHomestead</text>
+<path d="M250.0,50.0 L850.0,150.0" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="1250.0" cy="950.0" r="10" fill="black" />
+<text x="1250.0" y="950.0" font-size="30" fill="black">PlaneCrash(ML)</text>
+<path d="M1250.0,950.0 L1250.0,850.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1350.0" cy="1500.0" r="10" fill="black" />
+<text x="1350.0" y="1500.0" font-size="30" fill="black">POI(RiverNorthernAccess)</text>
+<path d="M1350.0,1500.0 L1600.0,1650.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="850.0" cy="1300.0" r="10" fill="black" />
+<text x="850.0" y="1300.0" font-size="30" fill="black">Cave(LakeOverlook)</text>
+<path d="M850.0,1300.0 L1350.0,1500.0" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="850.0" cy="1350.0" r="10" fill="black" />
+<text x="850.0" y="1350.0" font-size="30" fill="black">Climb(ML-LO2)</text>
+<path d="M850.0,1350.0 L850.0,1300.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150.0" cy="750.0" r="10" fill="black" />
+<text x="150.0" y="750.0" font-size="30" fill="black">Transition(ML-FM)</text>
+<path d="M150.0,750.0 L250.0,50.0" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="750.0" cy="950.0" r="10" fill="black" />
+<text x="750.0" y="950.0" font-size="30" fill="black">POI(CentralMLRail)</text>
+<path d="M750.0,950.0 L850.0,1300.0" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="750.0" cy="1050.0" r="10" fill="black" />
+<text x="750.0" y="1050.0" font-size="30" fill="black">CampOffice</text>
+<path d="M750.0,1050.0 L750.0,950.0" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="450.0" cy="950.0" r="10" fill="black" />
+<text x="450.0" y="950.0" font-size="30" fill="black">POI(MidRailArea)</text>
+<path d="M450.0,950.0 L750.0,950.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M450.0,950.0 L150.0,750.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M450.0,950.0 L750.0,1050.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1150.0" cy="1050.0" r="10" fill="black" />
+<text x="1150.0" y="1050.0" font-size="30" fill="black">TrainCar(Derailment)</text>
+<path d="M1150.0,1050.0 L1450.0,1350.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M1150.0,1050.0 L750.0,950.0" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M1150.0,1050.0 L1250.0,950.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="1050.0" r="10" fill="black" />
+<text x="50.0" y="1050.0" font-size="30" fill="black">Cave(PrepperCache)</text>
+<path d="M50.0,1050.0 L150.0,750.0" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="150.0" cy="1100.0" r="10" fill="black" />
+<text x="150.0" y="1100.0" font-size="30" fill="black">PrepperCache(ML)</text>
+<path d="M150.0,1100.0 L50.0,1050.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150.0" cy="1300.0" r="10" fill="black" />
+<text x="150.0" y="1300.0" font-size="30" fill="black">Climb(ML-PC)</text>
+<path d="M150.0,1300.0 L150.0,1100.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="550.0" cy="1450.0" r="10" fill="black" />
+<text x="550.0" y="1450.0" font-size="30" fill="black">FishHuts(ML)</text>
+<path d="M550.0,1450.0 L750.0,1050.0" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
+<circle cx="850.0" cy="1450.0" r="10" fill="black" />
+<text x="850.0" y="1450.0" font-size="30" fill="black">Climb(ML-LO1)</text>
+<path d="M850.0,1450.0 L850.0,1350.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M850.0,1450.0 L550.0,1450.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350.0" cy="1650.0" r="10" fill="black" />
+<text x="350.0" y="1650.0" font-size="30" fill="black">Cabins(MiddleLake)</text>
+<path d="M350.0,1650.0 L550.0,1450.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="550.0" cy="1750.0" r="10" fill="black" />
+<text x="550.0" y="1750.0" font-size="30" fill="black">Cabin(LoneLake)</text>
+<path d="M550.0,1750.0 L350.0,1650.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150.0" cy="1350.0" r="10" fill="black" />
+<text x="150.0" y="1350.0" font-size="30" fill="black">Cave(WesternLakeCabins)</text>
+<path d="M150.0,1350.0 L150.0,1300.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1050.0" cy="1550.0" r="10" fill="black" />
+<text x="1050.0" y="1550.0" font-size="30" fill="black">HuntersBlind(AlansCave)</text>
+<path d="M1050.0,1550.0 L1350.0,1500.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1050.0,1550.0 L850.0,1450.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350.0" cy="1050.0" r="10" fill="black" />
+<text x="350.0" y="1050.0" font-size="30" fill="black">POI(DavesQuietClearing)</text>
+<path d="M350.0,1050.0 L750.0,1050.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M350.0,1050.0 L150.0,1100.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="450.0" cy="550.0" r="10" fill="black" />
+<text x="450.0" y="550.0" font-size="30" fill="black">POI(DeadfallArea)</text>
+<path d="M450.0,550.0 L850.0,150.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M450.0,550.0 L250.0,50.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150.0" cy="150.0" r="10" fill="black" />
+<text x="150.0" y="150.0" font-size="30" fill="black">Cave(ML-MT)</text>
+<path d="M150.0,150.0 L250.0,50.0" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="250.0" cy="1450.0" r="10" fill="black" />
+<text x="250.0" y="1450.0" font-size="30" fill="black">Cabins(Lake)</text>
+<path d="M250.0,1450.0 L350.0,1650.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M250.0,1450.0 L150.0,1350.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1550.0" cy="1850.0" r="10" fill="red" />
+<text x="1550.0" y="1850.0" font-size="30" fill="red">MysteryLake--Ravine</text>
+<circle cx="150.0" cy="750.0" r="10" fill="red" />
+<text x="150.0" y="750.0" font-size="30" fill="red">MysteryLake--ForlornMuskeg</text>
+</svg>

@@ -43,7 +43,7 @@
         "Cave(FarIsland)",
         "FallenLighthouse",
         "Cabin(LowerRaven)",
-        "WorkerResidence"
+        "CanneryWorkerResidences"
       ],
       "polaroid": [
         "Climb(BI)"
@@ -66,7 +66,7 @@
     },
     "CoastalHighway": {
       "hacksaw": [
-        "AbandonedMine(Upper)"
+        "CinderHillsCoalMine(Upper)"
       ],
       "hammer": [
         "FishHuts(Central)",
@@ -318,7 +318,7 @@
         "PowerPlant"
       ],
       "spelunker": [
-        "Cave(ToBRM)"
+        "Cave(BRM-TWM)"
       ]
     },
     "Blackrock(2)": {
@@ -328,7 +328,7 @@
         "Cave(FarIsland)",
         "FallenLighthouse",
         "Cabin(LowerRaven)",
-        "WorkerResidence"
+        "CanneryWorkerResidences"
       ],
       "hammer": [
         "Workshop(Cannery)"
@@ -365,7 +365,7 @@
         "House(Jackrabbit)"
       ],
       "lantern": [
-        "AbandonedMine(Upper)"
+        "CinderHillsCoalMine(Upper)"
       ],
       "polaroid": [
         "Cabin(NorthOfTooth)"
@@ -619,7 +619,7 @@
         "Cave(FarIsland)",
         "FallenLighthouse",
         "Cabin(LowerRaven)",
-        "WorkerResidence"
+        "CanneryWorkerResidences"
       ],
       "polaroid": [
         "FallenLighthouse"
@@ -920,7 +920,7 @@
         "Cave(FarIsland)",
         "FallenLighthouse",
         "Cabin(LowerRaven)",
-        "WorkerResidence"
+        "CanneryWorkerResidences"
       ],
       "hacksaw": [
         "Workshop(Cannery)"
@@ -1201,7 +1201,7 @@
       "total": 17,
       "locations": [
         "AnglersDen",
-        "Cave(FromAC)",
+        "Cave(TWM-AC)",
         "FallenLighthouse",
         "PensiveLookout",
         "MindfulCabin",
@@ -1261,7 +1261,7 @@
       "locations": [
         "MaintenanceYard",
         "MaintenanceShed",
-        "AbandonedMine(Aurora)",
+        "CinderHillsCoalMine(Aurora)",
         "CargomastersTrailer",
         "POI(ThreeStrikes)",
         "AbandonedMine(SP)",
@@ -1373,7 +1373,7 @@
         "Barn(Archery)",
         "TailSection",
         "LangstonMine(Floor3)",
-        "AbandonedMine(Upper)",
+        "CinderHillsCoalMine(Upper)",
         "TrainCar(RavineBasin)",
         "PleasantValleyChurch"
       ]
@@ -1489,7 +1489,7 @@
         "BricklayersRetreat",
         "Workshop(Cannery)",
         "HuntingLodge",
-        "MaintenanceShed",
+        "MaintenanceYard",
         "HiberniaProcessing",
         "ControlTower",
         "Cave(HushedRiver)",
@@ -1626,7 +1626,7 @@
         "IdleCamp",
         "POI(BosssSettlement)",
         "ScaffoldersHideout",
-        "AbandonedMine(Upper)",
+        "CinderHillsCoalMine(Upper)",
         "POI(RailOffice)",
         "Trailer(KPS)",
         "IceCave(KPN)"
@@ -1643,7 +1643,7 @@
         "BricklayersRetreat",
         "LastProspect",
         "CooksFarm",
-        "Tunnel(KP)"
+        "Transition(BRM-KP)"
       ]
     },
     "prybar:BI": {
@@ -1671,7 +1671,7 @@
         "Cabin(NorthOfTooth)",
         "FishHuts(Central)",
         "Trailer(SouthOfTrainUnloading)",
-        "AbandonedMine(Upper)",
+        "CinderHillsCoalMine(Upper)",
         "QuonsetGarage",
         "WaterfrontCottages"]
     },
@@ -1722,8 +1722,8 @@
       "key": "prybar",
       "total": 8,
       "locations": [
-        "No3Mine(ToDP)",
-        "No3Mine(FromDP)",
+        "Transition(OIC-DP)",
+        "Transition(OIC-DP)",
         "Cave(ThreeWay)",
         "LangstonMine(Floor2)",
         "IndolentHoppers",
@@ -1791,7 +1791,7 @@
         "House(Jackrabbit)",
         "House(SouthCoastalTownsite)",
         "House(NorthCoastalTownsite)",
-        "AbandonedMine(Aurora)",
+        "CinderHillsCoalMine(Aurora)",
         "Trailer(BetweenMines)",
         "POI(ShortwaveTower)",
         "POI(ShortwaveTower)",
@@ -1829,11 +1829,11 @@
         "Concentrator",
         "IndolentHoppers",
         "ScaffoldersHideout",
-        "AbandonedMine(Upper)",
+        "CinderHillsCoalMine(Upper)",
         "POI(RailOffice)",
         "PlatelayersShortcut",
         "PlatelayersShortcut",
-        "Cave(ConnectingZOC)",
+        "Cave(ZOC-FA-SP)",
         "Cave(KPN)",
         "Cave(KPN)"
       ],
@@ -1846,7 +1846,7 @@
         "HomesteadersRespite",
         "PensiveLookout",
         "Workshop(Cannery)",
-        "MaintenanceShed",
+        "MaintenanceYard",
         "HuntingLodge",
         "Cave(Waterfall)",
         "MainHangar",
@@ -1892,7 +1892,7 @@
         "Truck(Matts)",
         "Truck(Matts)",
         "Concentrator",
-        "Cave(ConnectingZOC)"
+        "Cave(ZOC-FA-SP)"
       ]
     },
     "preppersPie": {
@@ -1976,7 +1976,7 @@
       "total": 6,
       "note": "total is a guess, as are locations",
       "locations": [
-        "Truck(KPN)",
+        "Transition(KP-BRM)",
         "PowerPlant",
         "Cars(LongBridge)",
         "EchoOneRadioTower",
@@ -2108,7 +2108,7 @@
         "AbandonedLookout",
         "HarrisBasement",
         "Cave(RoadCollapse)",
-        "No3Mine(FromDP)",
+        "Transition(OIC-DP)",
         "POI(KatiesSecludedCorner)",
         "No5Mine(West)",
         "StoneChurch",
@@ -2139,10 +2139,10 @@
         "Houses(MiltonSW)",
         "Houses(MiltonSE)",
         "POI(WoodLotArea)",
-        "Cave(ToMT)",
+        "Cave(MT-ML)",
         "Cave(RadioTower)",
         "CrashedPlane(Mackenzie)",
-        "Cave(FromHRV)",
+        "Cave(MT-HRV)",
         "PostOffice",
         "Greymother",
         "TrappersHomestead",
@@ -2165,7 +2165,7 @@
         "Cave(BelowHilltopCave)",
         "HilltopCave",
         "HuntersBlind(HilltopCave)",
-        "Cave(ToPV)",
+        "Cave(PV-WR)",
         "FishHut(PensivePond)",
         "Barn(LowerFalls)",
         "Barn(Mollys)",

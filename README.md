@@ -46,6 +46,7 @@ The icons are specified by the list `features`: each string is a row, and each s
 * `#` is used to indicate a text box. This is useful for notes for yourself, such as if an item is coming or going far away. In the example above, `#Cannery` is a note I made to indicate the woodworkng tools are coming from the Cannery.
 * `*` is used to indicate something should be produced (crafted) for this location (e.g. a furniture workbench).
 * `?` is used to indicate something should be searched for at this location.
+* `>` is used to indicate something should be moved to the location after the `>`
 
 Connections are formatted as a list, and an excerpt looks like this:
 
@@ -120,6 +121,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Bushcraft Bow by Mask Icon](https://thenounproject.com/icon/bow-2420258/)
 * [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
 * [Cabinet by sentya irma](thenounproject.com/icon/cabinet-8048378/)
+* [Cabinet (Cupboard) by Yazmin Alanis](https://thenounproject.com/icon/drawers-632924/)
 * [Caffeine Pills by Cards Against Humanity](thenounproject.com/icon/adderall-30133/)
 * [Calendar by Galaxicon](https://thenounproject.com/icon/calendar-656473/)
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
@@ -161,6 +163,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Deer Hide based on art by Smashicons](https://thenounproject.com/icon/leather-strap-830958/)
 * [Deerskin Boots based on art by Eucalyp](https://thenounproject.com/icon/moccasin-boots-4783273/)
 * [Deerskin Pants based on art by Jajang Nurrahman](https://thenounproject.com/icon/trousers-6876585/)
+* [Delivery icon by il Capitano](https://thenounproject.com/icon/deliver-1570509/)
 * [Distress Pistol by Andy Horvath](https://thenounproject.com/icon/flare-gun-6660081/)
 * [Distress Pistol Ammunition by Dwi Budiyanto](https://thenounproject.com/icon/cylinder-8139837/)
 * [Drawer (5kg) by Vectors Market](https://thenounproject.com/icon/archives-1456746/)
@@ -399,8 +402,41 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 7. Crackers
 
 ### Maybe later
-1. Add some level of importance/priority?
 11. Item weights in legend.csv
+
+### Region tree structures (individual)
+*Plan is to stop developing these and use coordinates instead.*
+
+Decent shape:
+- Ash Canyon
+- Broken Railroad
+- Far Range Branch Line
+- Mountain Town
+- Old Island Connector
+- Ravine
+- Vacant Depot
+- Winding River
+
+"Good enough"
+- Forlorn Muskeg (muskeg overlook weirdness)
+- Keepers Pass (cave; overlap issues with BRM and PV)
+- Mystery Lake (template makes railroad go very north, maybe add transition to Ravine. Add other bear spawns?)
+
+Needs tweaking:
+- Blackrock (Cook's Farm, Last Prospect/Barracks, overlap with neighbouring regions)
+- Desolation Point (climb/Katies)
+- Forsaken Airfield (weirdness in north)
+- Sundered Pass (weather station/crash site area)
+- Timberwolf Mountain (cave systems, three-way cave, some crumpling in templates)
+- Zone of Contamination (minor crumpling in template)
+
+Needs rethink
+- Bleak Inlet (crumples in templates)
+- Coastal Highway (crumples in templates, climbs overlap)
+- Pleasant Valley (crumples in templates; add other bear spawns)
+
+Needs serious rethink
+- Hushed River Valley (tangled in both mybases and templates)
 
 ## Acknowledgments
 * See image credits!

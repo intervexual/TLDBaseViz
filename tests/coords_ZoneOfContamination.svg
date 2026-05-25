@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1747.47" height="1928.01" viewBox="0 0 1747.47 1928.01">
+<defs>
+</defs>
+<rect x="0" y="0" width="1747.47" height="1928.01" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="234.29" cy="1878.01" r="10" fill="black" />
+<text x="234.29" y="1878.01" font-size="30" fill="black">Transition(ZOC-TP)</text>
+<circle cx="50.0" cy="1492.61" r="10" fill="black" />
+<text x="50.0" y="1492.61" font-size="30" fill="black">Cave(WelkinsWindow)</text>
+<path d="M50.0,1492.61 L234.29,1878.01" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="240.52" cy="1375.56" r="10" fill="black" />
+<text x="240.52" y="1375.56" font-size="30" fill="black">POI(DubiousOverlook)</text>
+<path d="M240.52,1375.56 L50.0,1492.61" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="88.61000000000001" cy="786.56" r="10" fill="black" />
+<text x="88.61000000000001" y="786.56" font-size="30" fill="black">Cave(ZOC-FA-SP)</text>
+<path d="M88.61000000000001,786.56 L240.52,1375.56" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="577.99" cy="643.36" r="10" fill="black" />
+<text x="577.99" y="643.36" font-size="30" fill="black">Trailer(LangstonMine)</text>
+<path d="M577.99,643.36 L88.61000000000001,786.56" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="976.4700000000001" cy="608.5" r="10" fill="black" />
+<text x="976.4700000000001" y="608.5" font-size="30" fill="black">LangstonMine(Floor3)</text>
+<path d="M976.4700000000001,608.5 L577.99,643.36" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1071.73" cy="549.97" r="10" fill="black" />
+<text x="1071.73" y="549.97" font-size="30" fill="black">LangstonMine(Floor2)</text>
+<path d="M1071.73,549.97 L976.4700000000001,608.5" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1175.7099999999998" cy="591.07" r="10" fill="black" />
+<text x="1175.7099999999998" y="591.07" font-size="30" fill="black">Concentrator</text>
+<path d="M1175.7099999999998,591.07 L1071.73,549.97" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<circle cx="1166.99" cy="491.45" r="10" fill="black" />
+<text x="1166.99" y="491.45" font-size="30" fill="black">LangstonMine(Floor1)</text>
+<path d="M1166.99,491.45 L1071.73,549.97" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1166.99,491.45 L1175.7099999999998,591.07" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1284.04" cy="681.97" r="10" fill="black" />
+<text x="1284.04" y="681.97" font-size="30" fill="black">Headframe</text>
+<path d="M1284.04,681.97 L1175.7099999999998,591.07" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M1284.04,681.97 L1166.99,491.45" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1345.05" cy="1379.31" r="10" fill="black" />
+<text x="1345.05" y="1379.31" font-size="30" fill="black">IdleCamp</text>
+<path d="M1345.05,1379.31 L1175.7099999999998,591.07" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="950.9300000000001" cy="1463.98" r="10" fill="black" />
+<text x="950.9300000000001" y="1463.98" font-size="30" fill="black">POI(FlagmansGap)</text>
+<path d="M950.9300000000001,1463.98 L50.0,1492.61" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M950.9300000000001,1463.98 L1345.05,1379.31" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1374.9499999999998" cy="573.63" r="10" fill="black" />
+<text x="1374.9499999999998" y="573.63" font-size="30" fill="black">IndolentHoppers</text>
+<path d="M1374.9499999999998,573.63 L1166.99,491.45" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<path d="M1374.9499999999998,573.63 L1284.04,681.97" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="733.65" cy="127.83000000000001" r="10" fill="black" />
+<text x="733.65" y="127.83000000000001" font-size="30" fill="black">MinersFootpath</text>
+<path d="M733.65,127.83000000000001 L976.4700000000001,608.5" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="475.89" cy="50.0" r="10" fill="black" />
+<text x="475.89" y="50.0" font-size="30" fill="black">SmokersCave</text>
+<path d="M475.89,50.0 L733.65,127.83000000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1658.86" cy="950.32" r="10" fill="black" />
+<text x="1658.86" y="950.32" font-size="30" fill="black">POI(TurbulentPasture)</text>
+<path d="M1658.86,950.32 L1374.9499999999998,573.63" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1635.1899999999998" cy="1253.54" r="10" fill="black" />
+<text x="1635.1899999999998" y="1253.54" font-size="30" fill="black">ForgottenExploration</text>
+<path d="M1635.1899999999998,1253.54 L1658.86,950.32" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1697.47" cy="244.27" r="10" fill="black" />
+<text x="1697.47" y="244.27" font-size="30" fill="black">POI(OldCorral)</text>
+<path d="M1697.47,244.27 L1374.9499999999998,573.63" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="543.13" cy="244.88" r="10" fill="black" />
+<text x="543.13" y="244.88" font-size="30" fill="black">Cave(NearTrailer)</text>
+<path d="M543.13,244.88 L577.99,643.36" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M543.13,244.88 L475.89,50.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M543.13,244.88 L733.65,127.83000000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="350.73" cy="914.2" r="10" fill="black" />
+<text x="350.73" y="914.2" font-size="30" fill="black">OutdoorShelter(NearEnduringWaterfall)</text>
+<path d="M350.73,914.2 L88.61000000000001,786.56" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1171.9599999999998" cy="1695.6" r="10" fill="black" />
+<text x="1171.9599999999998" y="1695.6" font-size="30" fill="black">POI(BosssSettlement)</text>
+<path d="M1171.9599999999998,1695.6 L1345.05,1379.31" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="157.72" cy="429.17" r="10" fill="black" />
+<text x="157.72" y="429.17" font-size="30" fill="black">Climb(ZOC)</text>
+<path d="M157.72,429.17 L88.61000000000001,786.56" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1126.51" cy="1749.76" r="10" fill="black" />
+<text x="1126.51" y="1749.76" font-size="30" fill="black">ScaffoldersHideout</text>
+<path d="M1126.51,1749.76 L1171.9599999999998,1695.6" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="284.1" cy="1873.66" r="10" fill="red" />
+<text x="284.1" y="1873.66" font-size="30" fill="red">ZoneOfContamination--TransferPass</text>
+</svg>

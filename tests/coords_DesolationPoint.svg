@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+</defs>
+<rect x="0" y="0" width="1200" height="900" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="50" cy="550" r="10" fill="black" />
+<text x="50" y="550" font-size="30" fill="black">Transition(DP-OIC)</text>
+<circle cx="150" cy="550" r="10" fill="black" />
+<text x="150" y="550" font-size="30" fill="black">No3Mine</text>
+<path d="M150,550 L50,550" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
+<circle cx="450" cy="550" r="10" fill="black" />
+<text x="450" y="550" font-size="30" fill="black">No5Mine(West)</text>
+<path d="M450,550 L150,550" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="850" cy="250" r="10" fill="black" />
+<text x="850" y="250" font-size="30" fill="black">No5Mine(East)</text>
+<path d="M850,250 L450,550" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
+<circle cx="1050" cy="350" r="10" fill="black" />
+<text x="1050" y="350" font-size="30" fill="black">HiberniaProcessing</text>
+<path d="M1050,350 L850,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="950" cy="150" r="10" fill="black" />
+<text x="950" y="150" font-size="30" fill="black">Cave(BrokenBridge)</text>
+<path d="M950,150 L850,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M950,150 L1050,350" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="950" cy="50" r="10" fill="black" />
+<text x="950" y="50" font-size="30" fill="black">Cave(Scruffy)</text>
+<path d="M950,50 L950,150" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1100" cy="450" r="10" fill="black" />
+<text x="1100" y="450" font-size="30" fill="black">Trailer(SouthHibernia)</text>
+<path d="M1100,450 L1050,350" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1050" cy="650" r="10" fill="black" />
+<text x="1050" y="650" font-size="30" fill="black">TheRiken</text>
+<path d="M1050,650 L1100,450" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="1150" cy="850" r="10" fill="black" />
+<text x="1150" y="850" font-size="30" fill="black">POI(LittleIsland)</text>
+<path d="M1150,850 L1050,650" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="1050" cy="300" r="10" fill="black" />
+<text x="1050" y="300" font-size="30" fill="black">Trailer(NorthHibernia)</text>
+<path d="M1050,300 L950,150" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1050,300 L1050,350" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="750" cy="850" r="10" fill="black" />
+<text x="750" y="850" font-size="30" fill="black">LonelyLighthouse</text>
+<path d="M750,850 L1150,850" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
+<circle cx="650" cy="550" r="10" fill="black" />
+<text x="650" y="550" font-size="30" fill="black">StoneChurch</text>
+<path d="M650,550 L450,550" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M650,550 L750,850" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="850" cy="650" r="10" fill="black" />
+<text x="850" y="650" font-size="30" fill="black">Truck(Matts)</text>
+<path d="M850,650 L1050,650" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M850,650 L650,550" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="600" r="10" fill="black" />
+<text x="150" y="600" font-size="30" fill="black">Climb(DP)</text>
+<path d="M150,600 L150,550" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="250" cy="750" r="10" fill="black" />
+<text x="250" y="750" font-size="30" fill="black">POI(KatiesSecludedCorner)</text>
+<path d="M250,750 L150,600" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M250,750 L750,850" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M250,750 L450,550" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="550" r="10" fill="red" />
+<text x="150" y="550" font-size="30" fill="red">DesolationPoint--OIC</text>
+</svg>

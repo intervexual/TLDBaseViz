@@ -142,6 +142,7 @@ PROBABILITY_DELIM = '/'
 QTY_MARKER = ':'
 TOTEXT = '#'
 TABSIZE = 4
+DIR_MARKER = '>'
 
 REGION = 'region'
 INVENTORY = 'Inventory'

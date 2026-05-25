@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="650" viewBox="0 0 500 650">
+<defs>
+</defs>
+<rect x="0" y="0" width="500" height="650" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="450" cy="50" r="10" fill="black" />
+<text x="450" y="50" font-size="30" fill="black">Transition(WR-PV)</text>
+<circle cx="450" cy="150" r="10" fill="black" />
+<text x="450" y="150" font-size="30" fill="black">Cave(WR-PV)</text>
+<path d="M450,150 L450,50" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
+<circle cx="50" cy="250" r="10" fill="black" />
+<text x="50" y="250" font-size="30" fill="black">Cave(WindingRiver)</text>
+<path d="M50,250 L450,150" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="600" r="10" fill="black" />
+<text x="150" y="600" font-size="30" fill="black">Transition(WR-ML)</text>
+<circle cx="250" cy="600" r="10" fill="black" />
+<text x="250" y="600" font-size="30" fill="black">LowerDam</text>
+<path d="M250,600 L150,600" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M250,600 L50,250" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="150" cy="550" r="10" fill="red" />
+<text x="150" y="550" font-size="30" fill="red">WindingRiver--MysteryLake</text>
+</svg>

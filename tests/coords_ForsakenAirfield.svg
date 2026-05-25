@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2828.46" height="3291.8599999999997" viewBox="0 0 2828.46 3291.8599999999997">
+<defs>
+</defs>
+<rect x="0" y="0" width="2828.46" height="3291.8599999999997" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="2778.46" cy="1956.22" r="10" fill="black" />
+<text x="2778.46" y="1956.22" font-size="30" fill="black">Transition(FA-TP)</text>
+<circle cx="2578.46" cy="2302.63" r="10" fill="black" />
+<text x="2578.46" y="2302.63" font-size="30" fill="black">POI(Shortcut)</text>
+<path d="M2578.46,2302.63 L2778.46,1956.22" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2058.85" cy="2002.6299999999999" r="10" fill="black" />
+<text x="2058.85" y="2002.6299999999999" font-size="30" fill="black">MainHangar</text>
+<path d="M2058.85,2002.6299999999999 L2578.46,2302.63" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
+<circle cx="2378.46" cy="2649.04" r="10" fill="black" />
+<text x="2378.46" y="2649.04" font-size="30" fill="black">POI(WhealysTurn)</text>
+<path d="M2378.46,2649.04 L2578.46,2302.63" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="2278.46" cy="2822.24" r="10" fill="black" />
+<text x="2278.46" y="2822.24" font-size="30" fill="black">Cave(WhealysTurn)</text>
+<path d="M2278.46,2822.24 L2378.46,2649.04" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1805.2600000000002" cy="3241.8599999999997" r="10" fill="black" />
+<text x="1805.2600000000002" y="3241.8599999999997" font-size="30" fill="black">JunkersPaddock</text>
+<path d="M1805.2600000000002,3241.8599999999997 L2278.46,2822.24" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="2391.86" cy="2425.83" r="10" fill="black" />
+<text x="2391.86" y="2425.83" font-size="30" fill="black">FrostCave</text>
+<path d="M2391.86,2425.83 L2378.46,2649.04" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<circle cx="2049.04" cy="1419.6100000000001" r="10" fill="black" />
+<text x="2049.04" y="1419.6100000000001" font-size="30" fill="black">SpottersBlind</text>
+<path d="M2049.04,1419.6100000000001 L2058.85,2002.6299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2545.4500000000003" cy="1359.81" r="10" fill="black" />
+<text x="2545.4500000000003" y="1359.81" font-size="30" fill="black">Cave(BelowHovel)</text>
+<path d="M2545.4500000000003,1359.81 L2058.85,2002.6299999999999" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
+<circle cx="2608.85" cy="1050.0" r="10" fill="black" />
+<text x="2608.85" y="1050.0" font-size="30" fill="black">BunkerOmega</text>
+<path d="M2608.85,1050.0 L2049.04,1419.6100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M2608.85,1050.0 L2545.4500000000003,1359.81" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
+<circle cx="2725.35" cy="1348.1999999999998" r="10" fill="black" />
+<text x="2725.35" y="1348.1999999999998" font-size="30" fill="black">JustysHovel</text>
+<path d="M2725.35,1348.1999999999998 L2608.85,1050.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1879.42" cy="513.4" r="10" fill="black" />
+<text x="1879.42" y="513.4" font-size="30" fill="black">Cave(FA-ZOC-SP)</text>
+<path d="M1879.42,513.4 L2608.85,1050.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1642.8200000000002" cy="723.2" r="10" fill="black" />
+<text x="1642.8200000000002" y="723.2" font-size="30" fill="black">FallowDugout</text>
+<path d="M1642.8200000000002,723.2 L1879.42,513.4" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M1642.8200000000002,723.2 L2049.04,1419.6100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1972.25" cy="1952.6299999999999" r="10" fill="black" />
+<text x="1972.25" y="1952.6299999999999" font-size="30" fill="black">Terminal</text>
+<path d="M1972.25,1952.6299999999999 L2058.85,2002.6299999999999" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="1799.04" cy="1852.6299999999999" r="10" fill="black" />
+<text x="1799.04" y="1852.6299999999999" font-size="30" fill="black">ControlTower</text>
+<path d="M1799.04,1852.6299999999999 L1972.25,1952.6299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1662.44" cy="1889.23" r="10" fill="black" />
+<text x="1662.44" y="1889.23" font-size="30" fill="black">CargomastersTrailer</text>
+<path d="M1662.44,1889.23 L1799.04,1852.6299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="892.82" cy="2022.24" r="10" fill="black" />
+<text x="892.82" y="2022.24" font-size="30" fill="black">FinalApproach</text>
+<path d="M892.82,2022.24 L1662.44,1889.23" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="1882.05" r="10" fill="black" />
+<text x="50.0" y="1882.05" font-size="30" fill="black">MindfulCabin</text>
+<path d="M50.0,1882.05 L892.82,2022.24" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="51.8" cy="1478.94" r="10" fill="black" />
+<text x="51.8" y="1478.94" font-size="30" fill="black">Climb(IFH-MC)</text>
+<path d="M51.8,1478.94 L50.0,1882.05" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="450.0" cy="1189.23" r="10" fill="black" />
+<text x="450.0" y="1189.23" font-size="30" fill="black">FishHut(Mindful)</text>
+<path d="M450.0,1189.23 L51.8,1478.94" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="686.6" cy="979.42" r="10" fill="black" />
+<text x="686.6" y="979.42" font-size="30" fill="black">IslandCottage</text>
+<path d="M686.6,979.42 L450.0,1189.23" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="800.0" cy="583.01" r="10" fill="black" />
+<text x="800.0" y="583.01" font-size="30" fill="black">FishHut(Drift)</text>
+<path d="M800.0,583.01 L686.6,979.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1081.2199999999998" cy="1495.93" r="10" fill="black" />
+<text x="1081.2199999999998" y="1495.93" font-size="30" fill="black">HuntersBlind(CentralFA)</text>
+<path d="M1081.2199999999998,1495.93 L892.82,2022.24" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="183.01" cy="2651.66" r="10" fill="black" />
+<text x="183.01" y="2651.66" font-size="30" fill="black">SuddenWashout</text>
+<path d="M183.01,2651.66 L50.0,1882.05" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1356.2199999999998" cy="1019.61" r="10" fill="black" />
+<text x="1356.2199999999998" y="1019.61" font-size="30" fill="black">ShoulderLakeCrash</text>
+<path d="M1356.2199999999998,1019.61 L1081.2199999999998,1495.93" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2457.05" cy="1712.91" r="10" fill="black" />
+<text x="2457.05" y="1712.91" font-size="30" fill="black">Climb(MH-JH)</text>
+<path d="M2457.05,1712.91 L2725.35,1348.1999999999998" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="1372.25" cy="2991.8599999999997" r="10" fill="black" />
+<text x="1372.25" y="2991.8599999999997" font-size="30" fill="black">GripsCave</text>
+<path d="M1372.25,2991.8599999999997 L1805.2600000000002,3241.8599999999997" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="984.81" cy="862.91" r="10" fill="black" />
+<text x="984.81" y="862.91" font-size="30" fill="black">ArchiesCrawlspace</text>
+<path d="M984.81,862.91 L1642.8200000000002,723.2" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M984.81,862.91 L1356.2199999999998,1019.61" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M984.81,862.91 L686.6,979.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="876.8" cy="50.0" r="10" fill="black" />
+<text x="876.8" y="50.0" font-size="30" fill="black">BrittleCave</text>
+<path d="M876.8,50.0 L800.0,583.01" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2778.46" cy="1956.22" r="10" fill="red" />
+<text x="2778.46" y="1956.22" font-size="30" fill="red">ForsakenAirfield--TransferPass</text>
+</svg>

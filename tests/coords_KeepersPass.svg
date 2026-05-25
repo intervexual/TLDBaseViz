@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="777.71" height="1035.5700000000002" viewBox="0 0 777.71 1035.5700000000002">
+<defs>
+</defs>
+<rect x="0" y="0" width="777.71" height="1035.5700000000002" fill="white" stroke="#cccccc" stroke-width="5.0" />
+<circle cx="226.75" cy="985.57" r="10" fill="black" />
+<text x="226.75" y="985.57" font-size="30" fill="black">Transition(KP-PV)</text>
+<circle cx="345.45000000000005" cy="600.33" r="10" fill="black" />
+<text x="345.45000000000005" y="600.33" font-size="30" fill="black">Trailer(KPS)</text>
+<path d="M345.45000000000005,600.33 L226.75,985.57" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="493.16999999999996" cy="626.38" r="10" fill="black" />
+<text x="493.16999999999996" y="626.38" font-size="30" fill="black">FishHut(KPS)</text>
+<path d="M493.16999999999996,626.38 L345.45000000000005,600.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="281.70000000000005" cy="386.0" r="10" fill="black" />
+<text x="281.70000000000005" y="386.0" font-size="30" fill="black">IceCave(KPS)</text>
+<path d="M281.70000000000005,386.0 L345.45000000000005,600.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="50.0" cy="548.24" r="10" fill="black" />
+<text x="50.0" y="548.24" font-size="30" fill="black">IceCave(KPN)</text>
+<path d="M50.0,548.24 L281.70000000000005,386.0" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
+<circle cx="136.83" cy="55.83" r="10" fill="black" />
+<text x="136.83" y="55.83" font-size="30" fill="black">ForestersHermitage</text>
+<path d="M136.83,55.83 L50.0,548.24" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="284.54999999999995" cy="81.88" r="10" fill="black" />
+<text x="284.54999999999995" y="81.88" font-size="30" fill="black">BuildersBridge(West)</text>
+<path d="M284.54999999999995,81.88 L136.83,55.83" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="391.71000000000004" cy="50.0" r="10" fill="black" />
+<text x="391.71000000000004" y="50.0" font-size="30" fill="black">Cave(KPN)</text>
+<path d="M391.71000000000004,50.0 L284.54999999999995,81.88" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<circle cx="414.90999999999997" cy="206.41" r="10" fill="black" />
+<text x="414.90999999999997" y="206.41" font-size="30" fill="black">Climb(KPN)</text>
+<path d="M414.90999999999997,206.41 L391.71000000000004,50.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="490.19000000000005" cy="67.37" r="10" fill="black" />
+<text x="490.19000000000005" y="67.37" font-size="30" fill="black">BuildersBridge(East)</text>
+<path d="M490.19000000000005,67.37 L284.54999999999995,81.88" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M490.19000000000005,67.37 L414.90999999999997,206.41" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="727.71" cy="160.02" r="10" fill="black" />
+<text x="727.71" y="160.02" font-size="30" fill="black">Transition(KP-BRM)</text>
+<path d="M727.71,160.02 L490.19000000000005,67.37" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="727.71" cy="160.02" r="10" fill="red" />
+<text x="727.71" y="160.02" font-size="30" fill="red">KeepersPass--Blackrock</text>
+<circle cx="226.75" cy="985.57" r="10" fill="red" />
+<text x="226.75" y="985.57" font-size="30" fill="red">KeepersPass--PleasantValley</text>
+</svg>

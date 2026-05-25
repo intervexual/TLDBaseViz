@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="12000" height="9000" viewBox="0 0 12000 9000">
+<defs>
+</defs>
+<rect x="8300" y="0" width="1800" height="1800" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="9200.0" y="900.0" font-size="40">AshCanyon</text>
+<rect x="8300" y="1800" width="1800" height="1700" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="9200.0" y="2650.0" font-size="40">TimberwolfMountain</text>
+<rect x="7250" y="3500" width="2850" height="2800" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="8675.0" y="4900.0" font-size="40">PleasantValley</text>
+<rect x="7700" y="6300" width="2400" height="1900" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="8900.0" y="7250.0" font-size="40">CoastalHighway</text>
+</svg>
