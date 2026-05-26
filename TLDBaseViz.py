@@ -79,7 +79,9 @@ class Region:
 
 
 class BaseFeature:
-    def __init__(self, name, colours=(), probability=1, qty=1, source='', destination_warnings=False):
+    def __init__(self, name, colours=(),
+                 probability=1, qty=1, base_to_bring_from='Uncertainty',
+                 source='', destination_warnings=False):
         """
         Create BaseFeature object with a name and material.
         :param name: case-sensitive name
@@ -122,6 +124,8 @@ class BaseFeature:
         """
         self.source = source
         self.destination = ''
+        self.bringto = ''
+        self.bringfrom = ''
         if DIR_MARKER in name:
             dir_info = name.split(DIR_MARKER)
             name = dir_info[0]
@@ -169,6 +173,7 @@ class BaseFeature:
                 self.material = BRING
         elif self.material == BRING:
             assert self.name in MOVABLES, f'{name} is not movable'
+            self.bringfrom = base_to_bring_from
         elif self.material == REMOVE:
             if self.name in MOVABLES:
                 assert self.name in MOVABLES, f'{name} is not movable'
@@ -186,7 +191,7 @@ class BaseFeature:
         if colours:
             self.hex = colours[self.material]
         self.filepath = 'assets/' + ASSETS[self.name]
-    def reverse_take(self, colours):
+    def reverse_take(self, bring_from='Uncertainty', colours=HEXES):
         """
 
         :return:
@@ -203,7 +208,12 @@ class BaseFeature:
         >>> str(rn)
         'empty:planned:bring'
         """
-        return BaseFeature(f'+{self.name}:{self.qty}', colours=colours)
+        rev = BaseFeature(f'+{self.name}:{self.qty}',
+                          base_to_bring_from=bring_from,
+                          colours=colours)
+        assert self.destination != '', self
+        rev.bringto = self.destination
+        return rev
     def __repr__(self):
         return f'{self.name}:{self.status}:{self.material}'
     def draw(self, g, x=0, y=0, wid=20, hei=20, bg_colour=HEXES[BASE], opacity=0.5):
@@ -216,7 +226,7 @@ class BaseFeature:
                                x=mid_x, y=mid_y, fill=self.hex,
                                text_anchor='middle',
                                font_style='italic')) # , text_decoration='underline'
-        elif self.qty != 1:
+        elif self.qty != 1 or self.destination:
             scaling = .6
             new_wid = wid*scaling
             diff = hei - new_wid
@@ -228,6 +238,12 @@ class BaseFeature:
             g.append(draw.Text( str(int(self.qty)), tbox_wid*.8,
                                x = x+wid-tbox_wid*.9, y=y+tbox_wid*.75,
                                 text_anchor='middle'))
+            if self.destination:
+                tiny_font_size = font_size_for_box(self.destination, tbox_wid*.85, tbox_wid*.85)
+                g.append(draw.Rectangle(x+wid/2, y+tbox_wid, tbox_wid, tbox_wid*.5, fill=self.hex, opacity=.3))
+                g.append(draw.Text( self.destination, tiny_font_size,
+                                   x = x+wid-tbox_wid*.88, y=y+tbox_wid*1.3,
+                                    text_anchor='middle')) # , fill=self.hex
         else:
             import_svg(g, self.filepath, x=x, y=y, wid=wid,
                    hei=hei, fill=self.hex, opacity=self.probability) # shading for probabalistic features
@@ -1065,6 +1081,7 @@ def add_base(b, base_info, base_objects,
     if to_print:
         print(bob)
 
+
 def process_input(filename='bases.json', to_print=False,
                   style_file='styling.json', destination_warnings=False):
     """
@@ -1180,9 +1197,196 @@ def redraw_bases(bases, colours, icon_size=20, output='tests/rebases.svg', add_l
     draw_bases(bases, colours, icon_size=icon_size, output=output, width=new_width, height=new_height)
 
 
-def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
+def all_region_flows(bases, shortforms, longforms, colours=HEXES):
+    takes_by_region = {}
+    brings_by_region = {}
+    curr_reg = ''
+    last_base_name = ''
+    for b in bases:
+        bob = bases[b]
+        curr_reg = bob.region
+        last_base_name = b
+        for row in bob.features:
+            for feature in row:
+
+                if feature.destination:
+                    dest = shortforms[feature.destination]
+                    reg_dest = bases[dest].region
+
+                    if curr_reg not in takes_by_region:
+                        takes_by_region[curr_reg] = {}
+                    if reg_dest not in takes_by_region[curr_reg]:
+                        takes_by_region[curr_reg][reg_dest] = [BaseFeature(f'#{reg_dest}')]
+                    takes_by_region[curr_reg][reg_dest].append(feature)
+
+                if feature.bringfrom and not feature.alt_text:
+                    dest = feature.bringfrom
+                    reg_dest = bases[dest].region
+                    if curr_reg not in brings_by_region:
+                        brings_by_region[curr_reg] = {}
+                    if reg_dest not in brings_by_region[curr_reg]:
+                        brings_by_region[curr_reg][reg_dest] = [BaseFeature(f'#{reg_dest}')]
+                    brings_by_region[curr_reg][reg_dest].append(feature)
+                    #brings_by_region[curr_reg][reg_dest].append(feature.reverse_take(colours))
+
+    return takes_by_region, brings_by_region
+
+
+def per_region_flows(bases, shortforms, longforms, all_bases, colours=HEXES):
+    # bases doesn't have the info for other regions!!!
+    by_reg = {}
+    curr_reg = ''
+    last_base_name = ''
+    for b in bases:
+        bob = bases[b]
+        curr_reg = bob.region
+        last_base_name = b
+        for row in bob.features:
+            for feature in row:
+                if feature.destination:
+                    dest = shortforms[feature.destination]
+                    reg_dest = all_bases[dest].region
+                    if reg_dest not in by_reg:
+                        by_reg[reg_dest] = [BaseFeature(f'#{reg_dest}')]
+                    by_reg[reg_dest].append(feature)
+
+                    #print(feature, dest,  reg_dest, b)
+    spec_name = f'to move ({curr_reg})'
+    spec_base = BaseLocation(spec_name,
+                             {REGION: curr_reg,
+                              CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
+                              FEATURES: [],
+                              EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
+    for reg in by_reg:
+        spec_base.features.append(by_reg[reg])
+        if len(by_reg[reg]) > spec_base.longest_row:
+            spec_base.longest_row = len(by_reg[reg])
+
+    conn = BaseConnection(last_base_name, 'south', 'bottom,left',
+                          spec_name, 'top,left', 'fake', colours=colours)
+    bases[last_base_name].add_connection(conn)
+    spec_base.add_connection(conn)
+    bases[spec_name] = spec_base
+
+    return spec_base
+
+
+def per_region_both_flows(bases,
+                          region,
+                          is_taking,
+                          takes,
+                          last_base_name,
+                          no_local=False, local_only=False,
+                          no_special = False, special_only = False,
+                          colours=HEXES):
+    if is_taking:
+        dir_name = 'move from'
+    else:
+        dir_name = 'bring to'
+    spec_name = f'to {dir_name} ({region})'
+
+    if local_only:
+        spec_name = f'move within {region}'
+    if special_only:
+        spec_name = f'no source for {region}'
+
+    if region in takes:
+        by_reg = takes[region]
+    else:
+        by_reg = {}
+
+    spec_base = BaseLocation(spec_name,
+                             {REGION: region,
+                              CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
+                              FEATURES: [],
+                              EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
+    for reg in by_reg:
+        source_reg = by_reg[reg][0].alt_text.split('#')[1]
+        #print(region, source_reg)
+
+        to_add = True
+
+        if no_local:
+            if source_reg == region:
+                to_add = False
+        if local_only:
+            if source_reg != region:
+                to_add = False
+        if special_only:
+            if source_reg != 'Special':
+                to_add = False
+        if no_special:
+            if source_reg == 'Special':
+                to_add = False
+
+        if to_add:
+            spec_base.features.append(by_reg[reg])
+            if len(by_reg[reg]) > spec_base.longest_row:
+                spec_base.longest_row = len(by_reg[reg])
+
+
+
+    conn = BaseConnection(last_base_name, 'south', 'bottom,left',
+                          spec_name, 'top,left', 'fake', colours=colours)
+    bases[last_base_name].add_connection(conn)
+    spec_base.add_connection(conn)
+    bases[spec_name] = spec_base
+
+    return spec_base
+
+
+def per_region_draw_flows(d, bases, region,
+                          last_base_name,
+                          all_takes, all_brings,
+                          colours=HEXES):
+    """
+    Draw four bubbles below the last drawn base in a region
+    - things to take from the region
+    - things to take to the region
+    - things to move within the region
+    - things to bring with no known source
+    :param d:
+    :param bases:
+    :param region:
+    :param last_base_name:
+    :param all_takes:
+    :param all_brings:
+    :param colours:
+    :return:
+    """
+    # fourth permutation is unnecessary, will just duplicate the features since in-region
+    take_flags = [True, False, True, False] # , False
+    local_flags = [True, True, False, False] # , False
+    local_only_flags = [False, False, True, False] # , True
+    take_colours = [TAKE, BRING, TAKE, BRING] # , BRING
+    dicts = [all_takes, all_brings, all_takes, all_brings] # , all_brings
+    special_flags = [False, False, False, True]
+    reg_names = [region, region, region, region]
+
+    for i, to_take in enumerate(take_flags):
+        sob = per_region_both_flows(bases, reg_names[i], to_take,
+                                    dicts[i], last_base_name,
+                                    no_local=local_flags[i],
+                                    local_only=local_only_flags[i],
+                                    special_only = special_flags[i],
+                                    colours=colours)
+        bases[last_base_name].draw_connection(d, sob,
+                                              unexplored=colours[ take_colours[i] ],
+                                              border=colours[ take_colours[i] ],
+                                              fill=colours[BASE_BG])
+        last_base_name = sob.name
+
+    return last_base_name
+
+
+def draw_bases(bases, colours,
+               icon_size=20, output='tests/bases.svg',
                base_x=200, base_y=150, width=800, height=800,
-               add_legend=True, output_png=True, print_output=False, print_warnings=True):
+               shortforms = None, longforms = None,
+               all_bases=None, map_title='',
+               all_takes=None, all_brings=None,
+               add_legend=True, output_png=True,
+               print_output=False, print_warnings=True):
     """
     Draw all bases
     :param bases:
@@ -1275,21 +1479,32 @@ def draw_bases(bases, colours, icon_size=20, output='tests/bases.svg',
 
     if CURR_INVENTORY in bases:
         last_base_name = USED_UP
-    to_bring, to_take = verify_taking_numbers(bases)
-    out_bring = 'outstanding bring (needs source)'
-    out_take = 'outstanding take (needs destination)'
-    to_bring = condense_multiples_in_list(to_bring)
-    to_take = condense_multiples_in_list(to_take)
-    bob = special_base(bases, out_bring, to_bring, last_base_name, SOUTH, colours=colours)
-    tob = special_base(bases, out_take, to_take, out_bring, SOUTH, colours=colours)
-    bases[last_base_name].draw_connection(d, bob,
-                                          unexplored=colours[TAKE],
-                                          border=colours[TAKE],
-                                          fill=colours[BASE_BG])
-    bases[out_bring].draw_connection(d, tob,
-                                     unexplored=colours[BRING],
-                                     border=colours[BRING],
-                                     fill=colours[BASE_BG])
+    elif map_title:
+        #sob = per_region_flows(bases, shortforms, longforms, all_bases)
+        last_base_name = per_region_draw_flows(d, bases, map_title, last_base_name,
+                                               all_takes, all_brings,
+                                               colours=colours)
+
+
+
+    if not map_title: #CURR_INVENTORY in bases:
+        to_bring, to_take = verify_taking_numbers(bases)
+        out_bring = 'outstanding bring (missing source)'
+
+        to_bring = condense_multiples_in_list(to_bring)
+        bob = special_base(bases, out_bring, to_bring, last_base_name, SOUTH, colours=colours)
+        bases[last_base_name].draw_connection(d, bob,
+                                              unexplored=colours[BRING],
+                                              border=colours[BRING],
+                                              fill=colours[BASE_BG])
+
+        out_take = 'outstanding take (missing destination)'
+        to_take = condense_multiples_in_list(to_take)
+        tob = special_base(bases, out_take, to_take, out_bring, SOUTH, colours=colours)
+        bases[out_bring].draw_connection(d, tob,
+                                         unexplored=colours[TAKE],
+                                         border=colours[TAKE],
+                                         fill=colours[BASE_BG])
 
     if add_legend:
         first_col_break = 65
@@ -1388,6 +1603,8 @@ def bases_of_region(bases, region):
 
 
 def draw_region(region, source_info, output='tests/',
+                shortforms=None, longforms=None, all_bases=None,
+                all_takes=None, all_brings=None,
                 print_output=False, add_legend=True):
     """
     Draw only the bases of one region.
@@ -1412,13 +1629,11 @@ def draw_region(region, source_info, output='tests/',
     draw_bases(these_bases, colours,
                base_x = 1500, base_y = 1500,
                width = 2500, height = 3000,
+               shortforms=shortforms, longforms=longforms,
+               all_takes=all_takes, all_brings=all_brings,
+               all_bases=all_bases, map_title=region,
                add_legend=add_legend, print_output=print_output,
                output=output, output_png=False, print_warnings=False)
-
-
-
-
-
 
 
 
@@ -1544,9 +1759,9 @@ def verify_taking_numbers(bases):
                     issues_found = True
                 diff = to_bring[a] - to_take[a]
 
-                posn = '+'
+                posn = '-'
                 if diff > 0:
-                    posn = '-'
+                    posn = '+'
 
                 to_add = ','.join(abs(math.ceil(round(diff,3))) * [posn + a])
                 if diff > 0:
@@ -1892,9 +2107,9 @@ def update_items_to_move(bases, colours):
         for source in to_add[b]:
             assert source in longforms, f'{source} not in longforms, from {b}'
             short_source = longforms[source]
-            row = [BaseFeature(f'+deliver', colours=colours), BaseFeature(f'#+[{short_source}]', colours=colours)]
+            row = [BaseFeature(f'deliver', colours=colours), BaseFeature(f'#+[{short_source}]', colours=colours)]
             for f in to_add[b][source]:
-                rev_f = f.reverse_take(colours)
+                rev_f = f.reverse_take(bring_from=source, colours=colours)
                 row.append(rev_f)
 
                 #print(rev_f, f, b, f.source, row)
@@ -1935,22 +2150,29 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
         assert style_file.endswith('.json'), f'style file {style_file} should end with .json'
 
     bases, colours = process_input(fname, style_file=style_file, destination_warnings=True)
+    shortforms, longforms = get_shortforms_and_longforms(bases)
+    assert 'AC:WJO' in shortforms
 
     # verify the numbers BEFORE the special bases are added
     nums = count_features(bases)
     verify_fixed_numbers(bases, nums)
-
+    all_takes, all_brings = all_region_flows(bases, shortforms, longforms, colours=colours)
 
     draw_bases(bases, colours, output=outfile,
                width=5500, height=3500,
                base_x=3700, base_y=150,
+               shortforms=shortforms, longforms=longforms,
                output_png=False, print_output=to_print)
 
     # by region
 
     regions = get_regions(bases)
     for r in regions:
-        draw_region(r, fname, output=region_folder, print_output=False)
+        draw_region(r, fname,
+                    shortforms=shortforms, longforms=longforms,
+                    all_takes=all_takes, all_brings=all_brings,
+                    output=region_folder, print_output=False,
+                    all_bases=bases)
 
     super_regions = {
         'Northlands': ['PleasantValley', 'TimberwolfMountain', 'AshCanyon', 'KeepersPass', 'Blackrock', 'WindingRiver'],
@@ -1963,12 +2185,13 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
         # 'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
         }
     if len(regions) > 20:
-        bases, colours = process_input(fname, style_file=style_file, destination_warnings=False)
+        zone_bases, colours = process_input(fname, style_file=style_file, destination_warnings=False)
         for sr in super_regions:
-            these_bases = bases_of_region(bases, super_regions[sr])
+            these_bases = bases_of_region(zone_bases, super_regions[sr])
             draw_bases(these_bases, colours,
                        base_x=4000, base_y=2500,
                        width=6000, height=4500,
+                       shortforms=shortforms, longforms=longforms, all_bases=bases,
                        output= region_folder + f'ZR-{sr}.svg', output_png=False, print_output=to_print, print_warnings=False)
 
 

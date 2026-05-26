@@ -75,6 +75,7 @@
 <circle cx="157.72" cy="429.17" r="10" fill="black" />
 <text x="157.72" y="429.17" font-size="30" fill="black">Climb(ZOC)</text>
 <path d="M157.72,429.17 L88.61000000000001,786.56" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M157.72,429.17 L475.89,50.0" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1126.51" cy="1749.76" r="10" fill="black" />
 <text x="1126.51" y="1749.76" font-size="30" fill="black">ScaffoldersHideout</text>
 <path d="M1126.51,1749.76 L1171.9599999999998,1695.6" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />

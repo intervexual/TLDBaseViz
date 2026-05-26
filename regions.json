@@ -8,17 +8,15 @@
         "rotation": -60,
         "north": "left"
     },
-    "BleakInlet":
+    "TimberwolfMountain":
     {"y-flip": false, "x-flip":false,
-        "short": "BI",
-        "top": "bottom~MysteryLake",
-        "right": "left~Ravine",
-        "connections": [["Ravine", 200, 900]],
-        "north":"up",
-        "rotation": 10,
-        "truerotation": 0,
-        "comment": ["individual map rotations mean the connector cave to FM must be MUCH bigger than it feels",
-        "so rotating a little to try and account for that"]
+        "short": "TWM",
+        "top": "bottom~AshCanyon",
+        "right": "left~OIC",
+        "connections": [["AshCanyon",1900,700],
+            ["PleasantValley",200,300]],
+        "rotation": 30,
+        "north":"right"
     },
     "Blackrock":
     {"y-flip": false, "x-flip":false,
@@ -30,46 +28,78 @@
         "truerotation": 0,
         "north":"up"
     },
-    "BrokenRailroad":
+    "KeepersPass":
+    {"y-flip": true, "x-flip":true,
+        "short": "KP",
+        "top": "bottom~Blackrock",
+        "right": "left~PleasantValley",
+        "connections": [["Blackrock", 100, -100],
+            ["PleasantValley", 450, 800]
+        ],
+        "rotation": -15,
+        "truerotation": -30,
+        "comment": ["the fishing hut will overlap with Bunker Beta if not tweaked"],
+        "north":"left"
+    },
+    "PleasantValley":
     {"y-flip": true, "x-flip":false,
-        "short": "BR",
-        "top": "bottom~MountainTown",
-        "right": "left~ForlornMuskeg",
-        "connections": [["ForlornMuskeg",1700,700],
-            ["FarRangeBranchLine", 200, 800 ]
+        "short": "PV",
+        "top": "bottom~TimberwolfMountain",
+        "right": "left~OIC",
+        "connections": [["TimberwolfMountain", 2500, 200],
+            ["KeepersPass",50,1550]
+        ],
+        "rotation": -30,
+        "north":"left"
+    },
+    "WindingRiver":
+    {"y-flip": false, "x-flip":false,
+        "short": "WR",
+        "top": "bottom~PleasantValley",
+        "right": "left~CoastalHighway",
+        "connections": [
+            ["MysteryLake", 500, 300]
         ],
         "rotation": 0,
         "north":"up"
     },
-    "CoastalHighway":
+
+
+    "Ravine":
     {"y-flip": false, "x-flip":false,
-        "short": "CH",
-        "top": "bottom~PleasantValley",
-        "right": "left~OIC",
-        "connections": [["Ravine",-1200,1200],
-            ["OIC", 700, -500]],
-        "rotation": 0,
-        "north":"up"
+        "short": "R",
+        "top": "bottom~WindingRiver",
+        "right": "left~CoastalHighway",
+        "connections": [["CoastalHighway",200,-100],
+            ["MysteryLake",-1200,-100],
+            ["BleakInlet", -400,-300]],
+        "rotation": -35,
+        "truerotation": -45,
+        "comment": ["BI is a problem"],
+        "north":"left"
     },
-    "DesolationPoint":
-    {"y-flip": false,
-        "x-flip":false,
-        "short": "DP",
-        "top": "top~OIC",
-        "right": "end",
-        "connections": [["OIC",100,1100]],
-        "rotation": 0,
-        "north":"up"
+    "BleakInlet":
+    {"y-flip": false, "x-flip":false,
+        "short": "BI",
+        "top": "bottom~MysteryLake",
+        "right": "left~Ravine",
+        "connections": [["Ravine", 200, 900]],
+        "north":"up",
+        "rotation": -0,
+        "truerotation": 0,
+        "comment": ["individual map rotations mean the connector cave to FM must be MUCH bigger than it feels",
+        "so rotating a little to try and account for that?"]
     },
-    "FarRangeBranchLine":
-    {"y-flip": false, "x-flip":true,
-        "short": "FRBL",
-        "top": "bottom~TransferPass",
-        "right": "left~BrokenRailroad",
-        "connections": [["BrokenRailroad", -400, 100],
-            ["TransferPass",1000,-200]],
-        "rotation": 0,
-        "north":"up"
+    "MysteryLake":
+    {"y-flip": false, "x-flip":false,
+        "short": "ML",
+        "bottom": "top~Ravine",
+        "right": "left~PleasantValley",
+        "connections": [["Ravine", 1800 , 1300],
+            ["ForlornMuskeg", 700, -100 ]],
+        "rotation": -100,
+        "truerotation": -90,
+        "north":"left"
     },
     "ForlornMuskeg":
     {"y-flip": false, "x-flip":false,
@@ -87,60 +117,17 @@
         "slight rotation to try and bring them closer?"],
         "north":"up"
     },
-    "ForsakenAirfield":
+
+
+    "CoastalHighway":
     {"y-flip": false, "x-flip":false,
-        "short": "FA",
-        "top": "top~TransferPass",
-        "right": "left~TransferPass",
-        "connections": [["TransferPass", 500, -1300]],
-        "rotation": 60,
-        "truerotation": 30,
-        "comment": ["the far territories are a mess!",
-        "FA, SA, ZOC are all overlapping without manual tweaking"],
-        "north":"right"
-    },
-    "HushedRiverValley":
-    {"y-flip": false, "x-flip":false,
-        "short": "HRV",
-        "bottom": "top~MountainTown",
-        "left": "left~MountainTown",
-        "connections": [["MountainTown", 500, 200]],
+        "short": "CH",
+        "top": "bottom~PleasantValley",
+        "right": "left~OIC",
+        "connections": [["Ravine",-1200,1200],
+            ["OIC", 700, -500]],
         "rotation": 0,
         "north":"up"
-    },
-    "KeepersPass":
-    {"y-flip": true, "x-flip":true,
-        "short": "KP",
-        "top": "bottom~Blackrock",
-        "right": "left~PleasantValley",
-        "connections": [["Blackrock", 100, -100],
-            ["PleasantValley", 450, 800]
-        ],
-        "rotation": -10,
-        "truerotation": -30,
-        "comment": ["the fishing hut will overlap with Bunker Beta if not tweaked"],
-        "north":"left"
-    },
-    "MountainTown":
-    {"y-flip": false, "x-flip":false,
-        "short": "MT",
-        "bottom": "top~ForlornMuskeg",
-        "left": "left~ForlornMuskeg",
-        "connections": [["ForlornMuskeg",400, 300 ],
-            ["HushedRiverValley", 1300, 2350]
-        ],
-        "rotation": 0,
-        "north":"up"
-    },
-    "MysteryLake":
-    {"y-flip": false, "x-flip":false,
-        "short": "ML",
-        "bottom": "top~Ravine",
-        "right": "left~PleasantValley",
-        "connections": [["Ravine", 1800 , 1300],
-            ["ForlornMuskeg", 700, -100 ]],
-        "rotation": -90,
-        "north":"left"
     },
     "OIC":
     {"y-flip": false, "x-flip":false,
@@ -152,52 +139,59 @@
         "rotation": 0,
         "north":"up"
     },
-    "PleasantValley":
-    {"y-flip": true, "x-flip":false,
-        "short": "PV",
-        "top": "bottom~TimberwolfMountain",
-        "right": "left~OIC",
-        "connections": [["TimberwolfMountain", 2500, 200],
-            ["KeepersPass",50,1550]
-        ],
-        "rotation": -30,
-        "north":"left"
-    },
-    "Ravine":
-    {"y-flip": false, "x-flip":false,
-        "short": "R",
-        "top": "bottom~WindingRiver",
-        "right": "left~CoastalHighway",
-        "connections": [["CoastalHighway",200,-100],
-            ["MysteryLake",-1200,-100],
-            ["BleakInlet", -400,-300]],
-        "rotation": -45,
-        "truerotation": -45,
-        "comment": ["BI is a problem"],
-        "north":"left"
-    },
-    "SunderedPass":
-    {"y-flip": true, "x-flip":true,
-        "short": "SP",
-        "bottom": "top~ForsakenAirfield",
-        "right": "left~TransferPass",
-        "connections": [["TransferPass", 400, 1400]],
-        "rotation": 20,
-        "truerotation": 0,
-        "comment": ["overlaps with ZOC and FA if not tweaked",
-            "the quest area keeps going over Smoker's Cave"
-            ],
+    "DesolationPoint":
+    {"y-flip": false,
+        "x-flip":false,
+        "short": "DP",
+        "top": "top~OIC",
+        "right": "end",
+        "connections": [["OIC",100,1100]],
+        "rotation": 0,
         "north":"up"
     },
-    "TimberwolfMountain":
+
+    "MountainTown":
     {"y-flip": false, "x-flip":false,
-        "short": "TWM",
-        "top": "bottom~AshCanyon",
-        "right": "left~OIC",
-        "connections": [["AshCanyon",1900,700],
-            ["PleasantValley",200,300]],
-        "rotation": 30,
-        "north":"right"
+        "short": "MT",
+        "bottom": "top~ForlornMuskeg",
+        "left": "left~ForlornMuskeg",
+        "connections": [["ForlornMuskeg",400, 300 ],
+            ["HushedRiverValley", 1300, 2350]
+        ],
+        "rotation": 0,
+        "north":"up"
+    },
+    "HushedRiverValley":
+    {"y-flip": false, "x-flip":false,
+        "short": "HRV",
+        "bottom": "top~MountainTown",
+        "left": "left~MountainTown",
+        "connections": [["MountainTown", 500, 200]],
+        "rotation": 0,
+        "north":"up"
+    },
+
+
+    "BrokenRailroad":
+    {"y-flip": true, "x-flip":false,
+        "short": "BR",
+        "top": "bottom~MountainTown",
+        "right": "left~ForlornMuskeg",
+        "connections": [["ForlornMuskeg",1700,700],
+            ["FarRangeBranchLine", 200, 800 ]
+        ],
+        "rotation": 0,
+        "north":"up"
+    },
+    "FarRangeBranchLine":
+    {"y-flip": false, "x-flip":true,
+        "short": "FRBL",
+        "top": "bottom~TransferPass",
+        "right": "left~BrokenRailroad",
+        "connections": [["BrokenRailroad", -400, 100],
+            ["TransferPass",1000,-200]],
+        "rotation": 0,
+        "north":"up"
     },
     "TransferPass":
     {"y-flip": false, "x-flip":false,
@@ -213,15 +207,29 @@
         "rotation": -30,
         "north":"left"
     },
-    "WindingRiver":
+    "ForsakenAirfield":
     {"y-flip": false, "x-flip":false,
-        "short": "WR",
-        "top": "bottom~PleasantValley",
-        "right": "left~CoastalHighway",
-        "connections": [
-            ["MysteryLake", 500, 300]
-        ],
-        "rotation": 0,
+        "short": "FA",
+        "top": "top~TransferPass",
+        "right": "left~TransferPass",
+        "connections": [["TransferPass", 500, -1300]],
+        "rotation": 45,
+        "truerotation": 30,
+        "comment": ["the far territories are a mess!",
+        "FA, SA, ZOC are all overlapping without manual tweaking",
+        "lowering rotation to 30 makes Bunker Omega go too far into SP"],
+        "north":"right"
+    },
+    "SunderedPass":
+    {"y-flip": true, "x-flip":true,
+        "short": "SP",
+        "bottom": "top~ForsakenAirfield",
+        "right": "left~TransferPass",
+        "connections": [["TransferPass", 400, 1400]],
+        "rotation": 15,
+        "truerotation": 0,
+        "comment": ["lowering the rotation to 0 makes the quest area overlap with Smoker's Cave in ZOC"
+            ],
         "north":"up"
     },
     "ZoneOfContamination":
@@ -234,7 +242,7 @@
         ],
         "rotation": -85,
         "truerotation": -75,
-        "comment": ["overlaps with BR and SP"],
+        "comment": ["-85 is to avoid Smoker's Cave overlopping with the SP quest climb area"],
         "north":"left"
     }
 }

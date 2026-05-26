@@ -21,8 +21,8 @@
 <text x="6900.0" y="4025.0" font-size="40">KeepersPass</text>
 <rect x="7200" y="6300" width="500" height="650" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="7450.0" y="6625.0" font-size="40">WindingRiver</text>
-<rect x="6200" y="6950" width="1500" height="400" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
-<text x="6950.0" y="7150.0" font-size="40">Ravine</text>
+<rect x="6250" y="6950" width="1450" height="400" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="6975.0" y="7150.0" font-size="40">Ravine</text>
 <rect x="5350" y="5150" width="1900" height="1800" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="6300.0" y="6050.0" font-size="40">MysteryLake</text>
 <rect x="3350" y="5150" width="2000" height="1800" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
@@ -31,16 +31,16 @@
 <text x="4200.0" y="4025.0" font-size="40">MountainTown</text>
 <rect x="3350" y="1250" width="1600" height="1650" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="4150.0" y="2075.0" font-size="40">HushedRiverValley</text>
-<rect x="4300" y="6950" width="1900" height="1950" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
-<text x="5250.0" y="7925.0" font-size="40">BleakInlet</text>
+<rect x="4350" y="6950" width="1900" height="1950" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="5300.0" y="7925.0" font-size="40">BleakInlet</text>
 <rect x="1700" y="5150" width="1650" height="1100" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="2525.0" y="5700.0" font-size="40">BrokenRailroad</text>
 <rect x="-250" y="3300" width="1900" height="1850" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="700.0" y="4225.0" font-size="40">ZoneOfContamination</text>
-<rect x="-250" y="5150" width="850" height="1250" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
-<text x="175.0" y="5775.0" font-size="40">TransferPass</text>
-<rect x="-250" y="6400" width="1950" height="500" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
-<text x="725.0" y="6650.0" font-size="40">FarRangeBranchLine</text>
+<rect x="-250" y="5150" width="1000" height="1400" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="250.0" y="5850.0" font-size="40">TransferPass</text>
+<rect x="-250" y="6550" width="1950" height="500" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
+<text x="725.0" y="6800.0" font-size="40">FarRangeBranchLine</text>
 <rect x="-3050" y="5150" width="2800" height="2700" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />
 <text x="-1650.0" y="6500.0" font-size="40">ForsakenAirfield</text>
 <rect x="-2750" y="2350" width="2500" height="2800" stroke="blue" stroke-width="5" fill="white" opacity="0.5" />

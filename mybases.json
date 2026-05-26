@@ -2338,7 +2338,7 @@
 				"tier": 1,
 				"features": [
 					"environs,bear,bearhunt,deer,wolf,harvestfir:3,harvestcedar:3,radio",
-					"rockcache,rosehip:247,shaker:10,rockcache,curedmeat:99,-saltbag:9>Trap,-saltbag:3>MS,water:20,food,-water:3>CHCMU,-water:4>CH:NCab,-water:4>Unload",
+					"rockcache,rosehip:247,shaker:10,rockcache,curedmeat:99,-saltbag:9>Trap,-saltbag:3>MaintS,water:20,food,-water:3>CHCMU,-water:4>CH:NCab,-water:4>Unload",
 					"wallshelf,curing,curing,curing,curing",
 					"locker,acorns:8,acorns:3,bark:30,canopener,cattail:13,thermos:2,stickerthermos,reishi:31,#burdock:3",
 					"locker,shaker:65,-shaker:3>MHut,-shaker:1>Brick,-shaker:2>BPW,-shaker:3>Rav:W,-shaker:2>ComHall,-shaker:3>CBAP,-shaker:20>CWR",
@@ -2421,7 +2421,7 @@
 					"floor,water:10,food,battery",
 					"#YesBearBedHere,*bearbed,+fir:18",
                   "#RemoveStuffFromOven,environs,#9kgmeat,water:5",
-					"outside,-saltbag:3>MS"
+					"outside,-saltbag:3>MaintS"
 				],
 				"removed": ["lamp"],
 				"comment": ["Bear bed wanted for when trading but aurora wolves at Quonset. Would save returning to Quonset when low in health."],
@@ -3097,7 +3097,7 @@
 			},
 			"Transition(R-ML)": {
 				"region": "Ravine",
-				"coords": [-1200,-100],
+				"coords": [-1150,-150],
 				"customizable": false,
 				"loading": false,
 				"cabinfeverrisk":false,
@@ -3233,7 +3233,7 @@
 
 					"suitcase",
 
-					"suitcase,#-BI,-accelerant>PL,-cloth:15>LRCK,-blueflare:2>PL,-horseshoe>LRCK,-crate:3>PL,-suitcase>CWR",
+					"suitcase,#-BI,-accelerant>PenLook,-cloth:15>LRCK,-blueflare:2>PenLook,-horseshoe>LRCK,-crate:3>PenLook,-suitcase>CWR",
 					"contd,#-BI:WR,-calendar>CWR,-wallshelf:2>CWR,-rosehip:80>CWR",
 					"contd,#-BI:Wksh,-cedar>LRCK,-distress>LRCK,-fertilizer:3>LRCW,-dullknife>LRCW,-down:16>LRCK,-scrap:10>LRCW",
 
@@ -3385,11 +3385,11 @@
 					"trunk,arrowhead:20,cloth:40,feather:99,sapling:11,leather:2,maple:7,down:5",
 					"trunk,hammer,axe,knife,jerrycan,prybar,lantern",
 					"trunk,distress,dpammo,bow:3,arrow:4,redflare,torch:20",
-					"trunk,#BRM,-rug>BPW,#IDK,-rug:3>AD,-rug:3>FCC,-mat:2>AD,-mat:2>FCC,-mat:4>OlSub,-decor:10>IDK,-calendar>Jack,-calendar:2>IDK,#Picnic,-crate:2>Picnic",
+					"trunk,#BRM,-rug>BPW,#IDK,-rug:3>AD,-rug:3>FCC,-mat:2>AD,-mat:2>FCC,-mat:4>OlSub,-decor:10>IDK,-calendar>Jack,-calendar>AD,-calendar>Gamma,#Picnic,-crate:2>Picnic",
 					"suitcase",
 					"suitcase,#-MT&HRV,-bearhide:1>Grey,-bearhide:1>Gamma,-bearhide:2>MTFarm,-paint>Archery,-cookpot>Grey,-knife>MTFarm,-deerhide>MTFarm,-feather:40>Grey,-crate:2>Picnic",
 					"contd,#-HRV,-fir:4>Gamma,-wallshelf>Gamma,-rug:2>FCC,-down:16>Gamma,#MTFarm,-rug>Gamma",
-					"suitcase,#-BR,-deerhide:2>MY,-scrap:5>MY,-arrow:6>MY,-oats>MY,#Poacher,-cloth:15>Poacher"
+					"suitcase,#-BR,-deerhide:2>MaintY,-scrap:5>MaintY,-arrow:6>MaintY,-oats>MaintY,#Poacher,-cloth:15>Poacher"
 				],
 				"unused": ["safe,bag"],
 				"removed": ["bed,wallshelf,rug,mat"],
@@ -4033,7 +4033,7 @@
 			},
 			"PensiveLookout": {
 				"region": "BleakInlet",
-				"shortform": "PL",
+				"shortform": "PenLook",
 				"coords": [300,300],
 				"customizable": true,
 				"loading": false,
@@ -4054,7 +4054,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["bear/.33,supplybin","-mat:3>PL"],
+				"features": ["bear/.33,supplybin","-mat:3>PenLook"],
 				"removed": ["floppy"]
 			},
 			"POI(SecretMountainPath)": {
@@ -4259,7 +4259,7 @@
 					"locker,book:9,coal,blueflare:2,reclaimed:9,stick:5,torch:2",
 					"locker,cedar:2,#-Worksh,-fertilizer>LRCW,-can:5>LRCW,-axe:2>LRCW,-knife>LRCW,-scrap:2>LRCW,#-Move,-bed",
 					"$bag,harvestcloth,*builtworkbench,+vice,+cedar:15",
-					"$safe,*furnbench,+cedar:10,*bearbed,+fir:13,"
+					"$safe,*furnbench,+cedar:2,*bearbed,+fir:8,"
 				],
 				"removed": ["recipe"]
 			},
@@ -5215,7 +5215,7 @@
 				"explored":true,
 				"features": ["floor,food,water:10",
 					"rockcache,cattail:10,coal:5,shaker:3,stick:20,torch:8",
-					"contd,#-ToMY,-charcoal:19>MS,-tinder>MS,"]
+					"contd,#-ToMY,-charcoal:19>MaintS,-tinder>MaintS,"]
 			},
 			"POI(LocomotiveEngine)": {
 				"region": "BrokenRailroad",
@@ -5229,7 +5229,7 @@
 			},
 			"MaintenanceYard": {
 				"region": "BrokenRailroad",
-				"shortform": "MY",
+				"shortform": "MaintY",
 				"coords": [500,600],
 				"customizable": true,
 				"loading": true,
@@ -5368,7 +5368,7 @@
 			},
 			"MaintenanceShed": {
 				"region": "BrokenRailroad",
-				"shortform": "MS",
+				"shortform": "MaintS",
 				"coords": [600,600],
 				"customizable": true,
 				"loading": false,
@@ -5562,7 +5562,7 @@
 			},
 			"Transition(TP-SP)": {
 				"region": "TransferPass",
-				"coords": [-500, 750],
+				"coords": [-600, 900],
 				"customizable": false,
 				"loading": false,
 				"cabinfeverrisk":true,
@@ -5572,7 +5572,7 @@
 			},
 			"Transition(TP-ZOC)": {
 				"region": "TransferPass",
-				"coords": [250, 750],
+				"coords": [300, 750],
 				"customizable": false,
 				"loading": false,
 				"cabinfeverrisk":true,
@@ -7176,6 +7176,7 @@
 		["POI(DubiousOverlook)", "north", "top,right", "Cave(ZOC-FA-SP)", "bottom,left", "default"],
 		["Trailer(LangstonMine)", "west", "bottom,left", "Cave(ZOC-FA-SP)", "top,right", "default"],
 		["Cave(ZOC-FA-SP)", "north", "top,left", "Climb(ZOC)", "bottom,left", "default"],
+		["Climb(ZOC)", "north", "top,left", "SmokersCave", "top,left", "default"],
 		["Trailer(LangstonMine)", "east", "top,right", "LangstonMine(Floor3)", "top,left", "default"],
 		["LangstonMine(Floor2)", "west", "top,left", "LangstonMine(Floor3)", "top,right", "default"],
 		["LangstonMine(Floor1)", "west", "top,left", "LangstonMine(Floor2)", "top,right", "default"],

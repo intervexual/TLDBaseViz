@@ -356,10 +356,10 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ## TODOs
 
 ### Drawing-related
-1. Rethink how draw the graph so position doesn't need so much manual tweaking
-2. Stitch the coord-based maps together. Figure out how to handle the fact that AC-TWM-PV-KP-BRM does not have a shared point with most of island, and that HRV and DP are similarly only  accessed via caves.
-3. Visualize bases on this new graph
-2. Reposition the inventory
+1. For each region, have a region-by-region breakdown of incoming and outgoing gear
+3. Use the stitched-together coordinate-based map to place the bases!
+2. In each region drawing, split the flow bubbles by direction (e.g. east flow, west flow, north flow)
+3. Reposition the inventory
 1. Automatically split legend up to make it easier to fit
 4. Automatic centring and canvas sizing (two-stage drawing?)... when redrawing, put the connections under the boxes
 4. Automatic legend location

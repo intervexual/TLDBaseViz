@@ -40,12 +40,12 @@
 </g>
 <g id="deliver:TrainCar(SurfeitTrestle):0:1">
 <g id="import" transform="translate(1368.75, 1537.5) scale(0.2618912748158842)">
-<path d="M76.367566,0.0 L0.0,28.28436 L34.648227,41.71942 L48.083259,76.36762 Z" fill="#a62f5f" stroke="none" stroke-width="0" opacity="1" />
+<path d="M76.367566,0.0 L0.0,28.28436 L34.648227,41.71942 L48.083259,76.36762 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
 <g id="empty:TrainCar(SurfeitTrestle):1:1">
 <rect x="1391.25" y="1537.5" width="20" height="20" fill="none" stroke="#a62f5f" />
-<text x="1401.25" y="1547.5" font-size="6.0" fill="#a62f5f" text-anchor="middle" font-style="italic">#[MS]</text>
+<text x="1401.25" y="1547.5" font-size="3.3333333333333335" fill="#a62f5f" text-anchor="middle" font-style="italic">#[MaintS]</text>
 </g>
 <g id="stone:TrainCar(SurfeitTrestle):2:1">
 <g id="import" transform="translate(1413.75, 1545.5) scale(0.04399923895983013)">
@@ -171,32 +171,47 @@
 </g>
 </g>
 <path d="M1181.25,1521.25 L1181.25,1541.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding bring (needs source)">
-<rect x="1181.25" y="1541.25" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
-<g id="outstanding bring (needs source):features">
-<g id="deliver:outstanding bring (needs source):0:0">
-<g id="import" transform="translate(1190.0, 1557.5) scale(0.2618912748158842)">
-<path d="M76.367566,0.0 L0.0,28.28436 L34.648227,41.71942 L48.083259,76.36762 Z" fill="#0090a2" stroke="none" stroke-width="0" opacity="1" />
+<g id="to move from (FarRangeBranchLine)">
+<rect x="1181.25" y="1541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="to move from (FarRangeBranchLine):features"></g>
+<g id="to move from (FarRangeBranchLine):header">
+<text x="1191.25" y="1552.0170454545455" font-size="0.5681818181818181" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (FarRangeBranchLine)</text>
 </g>
 </g>
-<g id="stone:outstanding bring (needs source):1:0">
-<g id="import" transform="translate(1212.5, 1565.5) scale(0.04399923895983013)">
-<path d="M136.366,24.802497 C61.173997,24.802497,-2.6855469e-06,74.849497,-2.6855469e-06,136.3665 C-2.6855469e-06,197.8835,61.173997,247.9295,136.366,247.9295 C211.558,247.9295,272.732,197.8825,272.732,136.3665 C272.732,74.850497,211.559,24.802497,136.366,24.802497 Z M249.89,132.3665 C252.099,132.3665,253.89,134.1575,253.89,136.3665 C253.89,155.2255,241.367,172.7835,218.627,185.8045 C196.589,198.4235,167.375,205.3735,136.366,205.3735 C105.356,205.3735,76.141997,198.4235,54.104997,185.8045 C31.364997,172.7835,18.841997,155.2255,18.841997,136.3665 C18.841997,134.1575,20.632997,132.3665,22.841997,132.3665 C25.050997,132.3665,26.841997,134.1575,26.841997,136.3665 C26.841997,152.2355,37.935997,167.3275,58.079997,178.8625 C78.925997,190.8005,106.728,197.3745,136.366,197.3745 C166.003,197.3745,193.805,190.8005,214.652,178.8625 C234.797,167.3275,245.89,152.2355,245.89,136.3665 C245.89,134.1575,247.681,132.3665,249.89,132.3665 Z" fill="#0090a2" stroke="none" stroke-width="0" opacity="1" />
+<path d="M1181.25,1561.25 L1181.25,1581.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="to bring to (FarRangeBranchLine)">
+<rect x="1181.25" y="1581.25" width="60.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<g id="to bring to (FarRangeBranchLine):features">
+<g id="empty:to bring to (FarRangeBranchLine):0:0">
+<rect x="1190.0" y="1597.5" width="20" height="20" fill="none" stroke="#000000" />
+<text x="1200.0" y="1607.5" font-size="2.0" fill="#000000" text-anchor="middle" font-style="italic">#BrokenRailroad</text>
 </g>
-<rect x="1222.5" y="1557.5" width="7.199999999999999" height="7.199999999999999" fill="#0090a2" opacity="0.3" />
-<text x="1226.02" y="1562.9" font-size="5.76" text-anchor="middle">7</text>
+<g id="stone:to bring to (FarRangeBranchLine):1:0">
+<g id="import" transform="translate(1212.5, 1605.5) scale(0.04399923895983013)">
+<path d="M136.366,24.802497 C61.173997,24.802497,-2.6855469e-06,74.849497,-2.6855469e-06,136.3665 C-2.6855469e-06,197.8835,61.173997,247.9295,136.366,247.9295 C211.558,247.9295,272.732,197.8825,272.732,136.3665 C272.732,74.850497,211.559,24.802497,136.366,24.802497 Z M249.89,132.3665 C252.099,132.3665,253.89,134.1575,253.89,136.3665 C253.89,155.2255,241.367,172.7835,218.627,185.8045 C196.589,198.4235,167.375,205.3735,136.366,205.3735 C105.356,205.3735,76.141997,198.4235,54.104997,185.8045 C31.364997,172.7835,18.841997,155.2255,18.841997,136.3665 C18.841997,134.1575,20.632997,132.3665,22.841997,132.3665 C25.050997,132.3665,26.841997,134.1575,26.841997,136.3665 C26.841997,152.2355,37.935997,167.3275,58.079997,178.8625 C78.925997,190.8005,106.728,197.3745,136.366,197.3745 C166.003,197.3745,193.805,190.8005,214.652,178.8625 C234.797,167.3275,245.89,152.2355,245.89,136.3665 C245.89,134.1575,247.681,132.3665,249.89,132.3665 Z" fill="#a62f5f" stroke="none" stroke-width="0" opacity="1" />
+</g>
+<rect x="1222.5" y="1597.5" width="7.199999999999999" height="7.199999999999999" fill="#a62f5f" opacity="0.3" />
+<text x="1226.02" y="1602.9" font-size="5.76" text-anchor="middle">7</text>
 </g>
 </g>
-<g id="outstanding bring (needs source):header">
-<text x="1211.25" y="1551.240234375" font-size="2.4609375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
+<g id="to bring to (FarRangeBranchLine):header">
+<text x="1211.25" y="1591.240234375" font-size="2.4609375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (FarRangeBranchLine)</text>
 </g>
 </g>
-<path d="M1181.25,1581.25 L1181.25,1601.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding take (needs destination)">
-<rect x="1181.25" y="1601.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
-<g id="outstanding take (needs destination):features"></g>
-<g id="outstanding take (needs destination):header">
-<text x="1191.25" y="1612.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
+<path d="M1181.25,1621.25 L1181.25,1641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="move within FarRangeBranchLine">
+<rect x="1181.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="move within FarRangeBranchLine:features"></g>
+<g id="move within FarRangeBranchLine:header">
+<text x="1191.25" y="1652.03125" font-size="0.625" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within FarRangeBranchLine</text>
+</g>
+</g>
+<path d="M1181.25,1661.25 L1181.25,1681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="no source for FarRangeBranchLine">
+<rect x="1181.25" y="1681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<g id="no source for FarRangeBranchLine:features"></g>
+<g id="no source for FarRangeBranchLine:header">
+<text x="1191.25" y="1692.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for FarRangeBranchLine</text>
 </g>
 </g>
 <g id="legend">
@@ -232,7 +247,12 @@
 </g>
 <text x="1842.5" y="956.875" font-size="10" font-family="Arial" fill="purple">rock cache</text>
 <text x="2006.25" y="956.875" font-size="10" font-family="Arial" fill="purple">3</text>
-<g id="import" transform="translate(1831.25, 961.25) scale(0.08333333333333333)">
+<g id="import" transform="translate(1831.25, 961.25) scale(0.1309456374079421)">
+<path d="M76.367566,0.0 L0.0,28.28436 L34.648227,41.71942 L48.083259,76.36762 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
+</g>
+<text x="1842.5" y="968.125" font-size="10" font-family="Arial" fill="purple">to deliver here</text>
+<text x="2006.25" y="968.125" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(1831.25, 972.5) scale(0.08333333333333333)">
 <path d="M43.234375,2.9355469 A5.0,5.0,0.0,0,0,39.496094,3.7558594 A5.0,5.0,0.0,0,0,38.251953,10.714844 L110.89648,115.0 A5.0,5.0,0.0,0,0,117.85742,116.24414 A5.0,5.0,0.0,0,0,119.10352,109.28516 L46.457031,5.0 A5.0,5.0,0.0,0,0,43.234375,2.9355469 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M42.354729,7.8577655 L115.0,112.14224" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M60.0,41.023437 A2.5,2.5,0.0,0,0,57.5,43.523437 V63.402344 A2.5,2.5,0.0,0,0,60.0,65.902344 A2.5,2.5,0.0,0,0,62.5,63.402344 V43.523437 A2.5,2.5,0.0,0,0,60.0,41.023437 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
@@ -241,53 +261,53 @@
 <path d="M76.765625,2.9355469 A5.0,5.0,0.0,0,0,73.542969,5.0 L0.89648438,109.28516 A5.0,5.0,0.0,0,0,2.1425781,116.24414 A5.0,5.0,0.0,0,0,9.1035156,115.0 L81.748047,10.714844 A5.0,5.0,0.0,0,0,80.503906,3.7558594 A5.0,5.0,0.0,0,0,76.765625,2.9355469 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M77.645271,7.8577645 L5.0,112.14224" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="968.125" font-size="10" font-family="Arial" fill="purple">snare</text>
-<text x="2006.25" y="968.125" font-size="10" font-family="Arial" fill="purple">2</text>
-<g id="import" transform="translate(1831.25, 972.5) scale(0.036666032466525104)">
+<text x="1842.5" y="979.375" font-size="10" font-family="Arial" fill="purple">snare</text>
+<text x="2006.25" y="979.375" font-size="10" font-family="Arial" fill="purple">2</text>
+<g id="import" transform="translate(1831.25, 983.75) scale(0.036666032466525104)">
 <path d="M136.366,24.802497 C61.173997,24.802497,-2.6855469e-06,74.849497,-2.6855469e-06,136.3665 C-2.6855469e-06,197.8835,61.173997,247.9295,136.366,247.9295 C211.558,247.9295,272.732,197.8825,272.732,136.3665 C272.732,74.850497,211.559,24.802497,136.366,24.802497 Z M249.89,132.3665 C252.099,132.3665,253.89,134.1575,253.89,136.3665 C253.89,155.2255,241.367,172.7835,218.627,185.8045 C196.589,198.4235,167.375,205.3735,136.366,205.3735 C105.356,205.3735,76.141997,198.4235,54.104997,185.8045 C31.364997,172.7835,18.841997,155.2255,18.841997,136.3665 C18.841997,134.1575,20.632997,132.3665,22.841997,132.3665 C25.050997,132.3665,26.841997,134.1575,26.841997,136.3665 C26.841997,152.2355,37.935997,167.3275,58.079997,178.8625 C78.925997,190.8005,106.728,197.3745,136.366,197.3745 C166.003,197.3745,193.805,190.8005,214.652,178.8625 C234.797,167.3275,245.89,152.2355,245.89,136.3665 C245.89,134.1575,247.681,132.3665,249.89,132.3665 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="979.375" font-size="10" font-family="Arial" fill="purple">stone</text>
-<text x="2006.25" y="979.375" font-size="10" font-family="Arial" fill="purple">93</text>
-<g id="import" transform="translate(1831.25, 983.75) scale(0.06979730861577978)">
+<text x="1842.5" y="990.625" font-size="10" font-family="Arial" fill="purple">stone</text>
+<text x="2006.25" y="990.625" font-size="10" font-family="Arial" fill="purple">93</text>
+<g id="import" transform="translate(1831.25, 995.0) scale(0.06979730861577978)">
 <path d="M100.54173,115.76096 C94.103773,114.34131,90.152846,110.84178,82.912409,100.1458 C81.828824,98.545072,80.41342,96.372181,79.767061,95.317155 C79.120703,94.262129,78.529959,93.407485,78.454297,93.41795 C78.378634,93.428401,77.788959,94.512589,77.143908,95.827235 C76.498854,97.141881,74.831979,99.957449,73.439741,102.08405 C71.262551,105.40965,70.908396,106.10517,70.908396,107.05532 C70.908396,108.85838,71.633793,109.37019,76.067771,110.69563 C79.199533,111.6318,81.359437,113.35882,81.359437,114.92675 C81.359437,115.50992,78.529428,115.68851,71.040688,115.57793 C63.391859,115.46499,63.471556,115.48942,60.550096,112.36115 C58.229412,109.87619,56.78167,107.78294,56.471782,106.46445 C56.156817,105.12435,56.323298,104.013,57.695768,98.293718 C58.324347,95.674343,59.261964,91.447624,59.779365,88.901009 C60.296763,86.354395,60.781784,84.004987,60.857187,83.680106 L60.994284,83.08941 L54.971132,83.217889 C48.179211,83.36277,48.288167,83.332057,46.802741,85.520264 C46.03438,86.652146,45.316422,88.669086,43.24805,95.506367 C42.787352,97.029261,41.877818,99.470042,41.226861,100.93032 C40.575433,102.39167,39.979089,104.18416,39.900473,104.91718 C39.774304,106.09364,39.842101,106.34935,40.481723,107.10949 C41.36241,108.15613,41.971401,108.48124,45.238688,109.64902 C49.146814,111.04584,51.543095,112.79065,51.882248,114.48641 L52.04779,115.31413 L50.630177,115.48933 C49.850489,115.58568,45.690554,115.62562,41.385878,115.57808 L33.559194,115.49163 L32.26259,114.68955 C30.883195,113.83626,28.436358,111.10254,26.38412,108.12185 L25.13548,106.30831 L24.970938,101.50726 C24.88044,98.866689,24.791143,96.669353,24.772501,96.624295 C24.753847,96.579239,23.739488,97.353145,22.518346,98.344086 C21.297204,99.33503,19.458506,100.78956,18.432351,101.57637 C17.406196,102.36318,16.187936,103.53423,15.725105,104.17871 C14.684237,105.6281,14.062554,107.54797,14.41864,108.21332 C14.823982,108.97071,16.222697,110.03536,17.96501,110.91269 C18.852832,111.35975,20.092172,112.07737,20.7191,112.5074 C21.853787,113.28572,22.899309,114.90551,22.515102,115.28987 C22.404181,115.40084,18.900264,115.49163,14.728621,115.49163 C7.4039358,115.49163,7.1062214,115.47153,6.0476896,114.90541 C4.4715455,114.06246,2.9772159,112.18373,1.3882607,109.04739 L6.345156e-05,106.30732 L0.01792283,103.62343 C0.03205158,101.49964,0.16179266,100.60826,0.6396328,99.352051 C2.5881038,94.22967,2.457561,94.862119,6.6001131,70.47481 C7.6912627,64.051179,8.7062044,58.25029,8.8555352,57.583942 C9.963978,52.637843,13.53639,46.835953,18.495084,41.928523 C23.858217,36.620836,29.887799,33.533688,38.100074,31.890766 C43.417103,30.827056,47.052108,30.656725,62.574032,30.743942 L76.993823,30.824968 L79.844521,29.441428 C84.061585,27.394746,85.160137,27.117076,88.900073,27.152557 C91.861763,27.180653,92.506217,27.29154,98.492393,28.803041 C105.50939,30.574821,107.70675,30.892043,113.97821,31.038638 L118.15426,31.136253 L119.66675,29.953415 C121.41899,28.583075,122.55232,28.046843,123.6963,28.046843 C124.75799,28.046843,125.71856,29.013139,125.96553,30.329594 C126.13717,31.244547,125.86355,33.312073,125.42456,34.41714 C125.30582,34.716047,125.69389,35.139476,126.79349,35.910797 C129.29323,37.664273,132.80522,40.863318,133.67948,42.183213 C134.1637,42.914246,134.56659,43.94206,134.67343,44.71884 C134.91224,46.455197,135.74682,47.569543,139.87141,51.65921 C141.7417,53.513669,143.27194,55.236024,143.27194,55.486672 C143.27194,56.169861,139.62567,59.600022,138.11256,60.340268 C136.82188,60.971696,136.58978,60.991389,128.58756,61.148409 C119.32158,61.330228,120.38806,61.156399,109.97087,64.182865 C106.71669,65.12829,103.61496,66.125896,103.07813,66.399766 C101.47413,67.218064,99.941299,68.985727,98.750621,71.390252 C97.665832,73.580936,97.63164,73.728735,97.641986,76.1826 C97.6495,77.964849,97.862749,79.615487,98.3622,81.757259 C99.409648,86.249011,100.0752,90.571938,100.52988,95.836985 C100.85007,99.544623,101.10081,101.04272,101.72985,103.00645 C103.01289,107.01185,104.36201,108.37306,107.55319,108.88202 C109.54323,109.19941,112.32528,110.92378,113.02247,112.27199 C113.37647,112.95655,113.36795,113.0755,112.93023,113.55991 C111.03815,115.65386,104.95626,116.73442,100.54173,115.76096 Z" fill="purple" stroke="none" stroke-width="0.264583" opacity="0.5" />
 </g>
-<text x="1842.5" y="990.625" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
-<rect x="1831.25" y="995.0" width="10" height="10" fill="#6741ca" />
-<text x="1842.5" y="1001.875" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
-<rect x="1831.25" y="1006.25" width="10" height="10" fill="#a62f5f" />
-<text x="1842.5" y="1013.125" font-size="10" font-family="Arial" fill="purple">to bring here</text>
-<rect x="1831.25" y="1017.5" width="10" height="10" fill="#0090a2" />
-<text x="1842.5" y="1024.375" font-size="10" font-family="Arial" fill="purple">to take from here</text>
-<rect x="1831.25" y="1028.75" width="10" height="10" fill="#006d91" />
-<text x="1842.5" y="1035.625" font-size="10" font-family="Arial" fill="purple">to destroy</text>
-<rect x="1831.25" y="1040.0" width="10" height="10" fill="#b17000" />
-<text x="1842.5" y="1046.875" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
-<rect x="1831.25" y="1051.25" width="10" height="10" fill="#a5a600" />
-<text x="1842.5" y="1058.125" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
-<rect x="1831.25" y="1062.5" width="10" height="10" fill="#7db138" />
-<text x="1842.5" y="1069.375" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
-<path d="M1831.25,1079.375 L1841.25,1079.375" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
-<text x="1842.5" y="1080.625" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
-<path d="M1831.25,1090.625 L1841.25,1090.625" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
-<text x="1842.5" y="1091.875" font-size="10" font-family="Arial" fill="purple">tinder path</text>
-<path d="M1831.25,1101.875 L1841.25,1101.875" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
-<text x="1842.5" y="1103.125" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
-<path d="M1831.25,1113.125 L1841.25,1113.125" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="1842.5" y="1114.375" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
-<path d="M1831.25,1124.375 L1841.25,1124.375" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
-<text x="1842.5" y="1125.625" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
-<path d="M1831.25,1135.625 L1841.25,1135.625" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
-<text x="1842.5" y="1136.875" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
-<path d="M1831.25,1146.875 L1841.25,1146.875" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
-<text x="1842.5" y="1148.125" font-size="10" font-family="Arial" fill="purple">one-way route</text>
-<path d="M1831.25,1158.125 L1841.25,1158.125" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="1842.5" y="1159.375" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
-<rect x="1831.25" y="1163.75" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="1842.5" y="1170.625" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
-<rect x="1831.25" y="1175.0" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="1842.5" y="1181.875" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
-<rect x="1831.25" y="1186.25" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="1842.5" y="1193.125" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
-<text x="1842.5" y="1204.375" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<text x="1842.5" y="1001.875" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
+<rect x="1831.25" y="1006.25" width="10" height="10" fill="#6741ca" />
+<text x="1842.5" y="1013.125" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
+<rect x="1831.25" y="1017.5" width="10" height="10" fill="#a62f5f" />
+<text x="1842.5" y="1024.375" font-size="10" font-family="Arial" fill="purple">to bring here</text>
+<rect x="1831.25" y="1028.75" width="10" height="10" fill="#0090a2" />
+<text x="1842.5" y="1035.625" font-size="10" font-family="Arial" fill="purple">to take from here</text>
+<rect x="1831.25" y="1040.0" width="10" height="10" fill="#006d91" />
+<text x="1842.5" y="1046.875" font-size="10" font-family="Arial" fill="purple">to destroy</text>
+<rect x="1831.25" y="1051.25" width="10" height="10" fill="#b17000" />
+<text x="1842.5" y="1058.125" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
+<rect x="1831.25" y="1062.5" width="10" height="10" fill="#a5a600" />
+<text x="1842.5" y="1069.375" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
+<rect x="1831.25" y="1073.75" width="10" height="10" fill="#7db138" />
+<text x="1842.5" y="1080.625" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
+<path d="M1831.25,1090.625 L1841.25,1090.625" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
+<text x="1842.5" y="1091.875" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
+<path d="M1831.25,1101.875 L1841.25,1101.875" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
+<text x="1842.5" y="1103.125" font-size="10" font-family="Arial" fill="purple">tinder path</text>
+<path d="M1831.25,1113.125 L1841.25,1113.125" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
+<text x="1842.5" y="1114.375" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
+<path d="M1831.25,1124.375 L1841.25,1124.375" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="1842.5" y="1125.625" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
+<path d="M1831.25,1135.625 L1841.25,1135.625" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
+<text x="1842.5" y="1136.875" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
+<path d="M1831.25,1146.875 L1841.25,1146.875" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
+<text x="1842.5" y="1148.125" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
+<path d="M1831.25,1158.125 L1841.25,1158.125" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
+<text x="1842.5" y="1159.375" font-size="10" font-family="Arial" fill="purple">one-way route</text>
+<path d="M1831.25,1169.375 L1841.25,1169.375" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="1842.5" y="1170.625" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
+<rect x="1831.25" y="1175.0" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="1842.5" y="1181.875" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
+<rect x="1831.25" y="1186.25" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="1842.5" y="1193.125" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
+<rect x="1831.25" y="1197.5" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="1842.5" y="1204.375" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
+<text x="1842.5" y="1215.625" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
 </g>
 </svg>

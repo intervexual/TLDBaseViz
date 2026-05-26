@@ -259,19 +259,35 @@
 </g>
 </g>
 <path d="M1801.25,1341.25 L1801.25,1361.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding bring (needs source)">
+<g id="to move from (OIC)">
 <rect x="1801.25" y="1361.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
-<g id="outstanding bring (needs source):features"></g>
-<g id="outstanding bring (needs source):header">
-<text x="1811.25" y="1372.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
+<g id="to move from (OIC):features"></g>
+<g id="to move from (OIC):header">
+<text x="1811.25" y="1372.1354166666667" font-size="1.0416666666666665" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (OIC)</text>
 </g>
 </g>
 <path d="M1801.25,1381.25 L1801.25,1401.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding take (needs destination)">
+<g id="to bring to (OIC)">
 <rect x="1801.25" y="1401.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
-<g id="outstanding take (needs destination):features"></g>
-<g id="outstanding take (needs destination):header">
-<text x="1811.25" y="1412.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
+<g id="to bring to (OIC):features"></g>
+<g id="to bring to (OIC):header">
+<text x="1811.25" y="1412.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (OIC)</text>
+</g>
+</g>
+<path d="M1801.25,1421.25 L1801.25,1441.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="move within OIC">
+<rect x="1801.25" y="1441.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="move within OIC:features"></g>
+<g id="move within OIC:header">
+<text x="1811.25" y="1452.1875" font-size="1.25" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within OIC</text>
+</g>
+</g>
+<path d="M1801.25,1461.25 L1801.25,1481.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="no source for OIC">
+<rect x="1801.25" y="1481.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<g id="no source for OIC:features"></g>
+<g id="no source for OIC:header">
+<text x="1811.25" y="1492.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for OIC</text>
 </g>
 </g>
 <g id="legend">
