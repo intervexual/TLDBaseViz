@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1900" height="1950" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1350" cy="50" r="10" fill="black" />
-<text x="1350" y="50" font-size="30" fill="black">Transition(BI-R)</text>
+<text x="1350" y="50" font-size="30" fill="black">Transition(BI~R)</text>
 <circle cx="1450" cy="200" r="10" fill="black" />
 <text x="1450" y="200" font-size="30" fill="black">PrepperCache(BI)</text>
 <path d="M1450,200 L1350,50" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -56,7 +56,7 @@
 <text x="1050" y="500" font-size="30" fill="black">BunkerAlpha</text>
 <path d="M1050,500 L1050,700" stroke-width="5.0" stroke="#982f93" stroke-dasharray="4,2,2,2" />
 <circle cx="900" cy="100" r="10" fill="black" />
-<text x="900" y="100" font-size="30" fill="black">Cave(BI-FM)</text>
+<text x="900" y="100" font-size="30" fill="black">Cave(BI~FM)</text>
 <path d="M900,100 L1050,500" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="550" cy="300" r="10" fill="black" />
 <text x="550" y="300" font-size="30" fill="black">HuntersBlind(NorthBI)</text>
@@ -95,9 +95,6 @@
 <text x="750" y="1600" font-size="30" fill="black">Workshop(Cannery)</text>
 <path d="M750,1600 L750,1500" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <path d="M750,1600 L650,1500" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
-<circle cx="750" cy="1700" r="10" fill="black" />
-<text x="750" y="1700" font-size="30" fill="black">POI(CanneryPier)</text>
-<path d="M750,1700 L750,1600" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="450" cy="1400" r="10" fill="black" />
 <text x="450" y="1400" font-size="30" fill="black">Trailers(WestOfCannery)</text>
 <path d="M450,1400 L650,1400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -118,6 +115,9 @@
 <circle cx="250" cy="1700" r="10" fill="black" />
 <text x="250" y="1700" font-size="30" fill="black">Cave(FarIsland)</text>
 <path d="M250,1700 L450,1400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="750" cy="1700" r="10" fill="black" />
+<text x="750" y="1700" font-size="30" fill="black">POI(CanneryPier)</text>
+<path d="M750,1700 L750,1600" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="1350" cy="100" r="10" fill="red" />
 <text x="1350" y="100" font-size="30" fill="red">BleakInlet--Ravine</text>
 </svg>

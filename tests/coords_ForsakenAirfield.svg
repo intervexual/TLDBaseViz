@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="2893.07" height="3423.4" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="2737.01" cy="2383.45" r="10" fill="black" />
-<text x="2737.01" y="2383.45" font-size="30" fill="black">Transition(FA-TP)</text>
+<text x="2737.01" y="2383.45" font-size="30" fill="black">Transition(FA~TP)</text>
 <circle cx="2454.1600000000003" cy="2666.29" r="10" fill="black" />
 <text x="2454.1600000000003" y="2666.29" font-size="30" fill="black">POI(Shortcut)</text>
 <path d="M2454.1600000000003,2666.29 L2737.01,2383.45" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -38,7 +38,7 @@
 <text x="2843.07" y="1782.4099999999999" font-size="30" fill="black">JustysHovel</text>
 <path d="M2843.07,1782.4099999999999 L2807.7200000000003,1464.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2242.03" cy="757.1" r="10" fill="black" />
-<text x="2242.03" y="757.1" font-size="30" fill="black">Cave(FA-ZOC-SP)</text>
+<text x="2242.03" y="757.1" font-size="30" fill="black">Cave(FA~ZOC~SP)</text>
 <path d="M2242.03,757.1 L2807.7200000000003,1464.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1959.1899999999998" cy="898.53" r="10" fill="black" />
 <text x="1959.1899999999998" y="898.53" font-size="30" fill="black">FallowDugout</text>

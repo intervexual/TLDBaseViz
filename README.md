@@ -96,6 +96,7 @@ If you want to add or modify the SVG icons, please be forewarned that the SVG pa
 Icons used here are all from The Noun Project unless otherwise noted. They are all Creative Commons licensed.
 * [Accelerant by AFY Studio](thenounproject.com/icon/gasoline-6236830/)
 * [Acorns by The Icon Z](https://thenounproject.com/icon/nuts-3846958/)
+* [Acorn Grounds by omeneko](https://thenounproject.com/icon/flour-bag-7637080/)
 * [Antiseptic by projecthayat](https://thenounproject.com/icon/antiseptic-5918424/)
 * [Arrowhead by Manja](https://thenounproject.com/icon/arrowhead-6157374/)
 * [Aviator Cap by madness stock](https://thenounproject.com/icon/aviator-5501487/)
@@ -117,18 +118,22 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Birch Sapling by endang firmansyah](https://thenounproject.com/icon/twig-7095842/)
 * [Book by Dong Gyu Yang](thenounproject.com/icon/book-6380647/)
 * [Box by Elin Erkani](https://thenounproject.com/icon/archive-7281787/)
+* [Bulletin Board by murmur](https://thenounproject.com/icon/bulletin-board-5432192/)
 * [Bunker Rifle based on art by ka reemov](https://thenounproject.com/icon/shotgun-4424070/)
 * [Bushcraft Bow by Mask Icon](https://thenounproject.com/icon/bow-2420258/)
 * [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
+* [Broth based on art by b farias](https://thenounproject.com/icon/glass-jar-full-1414019/)
 * [Cabinet by sentya irma](thenounproject.com/icon/cabinet-8048378/)
 * [Cabinet (Cupboard) by Yazmin Alanis](https://thenounproject.com/icon/drawers-632924/)
 * [Caffeine Pills by Cards Against Humanity](thenounproject.com/icon/adderall-30133/)
 * [Calendar by Galaxicon](https://thenounproject.com/icon/calendar-656473/)
+* [Calendar (Wall-Only) by Setitik pixel](https://thenounproject.com/icon/wall-calendar-8325128/)
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Can of Gunpowder by fauzan akbar](https://thenounproject.com/icon/ink-bottle-4586860/)
 * [Can Opener by Amethyst Studio](https://thenounproject.com/icon/can-opener-5217861/)
-* [Cannister by Dan Hetteix](https://thenounproject.com/icon/hubcap-196261/)
+* [Canister by Dan Hetteix](https://thenounproject.com/icon/hubcap-196261/)
 * [Car Battery by ARI NOFIANA](https://thenounproject.com/icon/car-battery-7134392/)
+* [Cash by NHA](https://thenounproject.com/icon/money-bill-6716434/)
 * [Cattail Head by Mohamed Mb](https://thenounproject.com/icon/reed-switch-996890/)
 * [Cattail Stalk by ghufronagustian](https://thenounproject.com/icon/reed-3789187/)
 * [Cedar Limb by Vectors Market](https://thenounproject.com/icon/cedar-tree-1925603/)
@@ -138,9 +143,12 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Climb by Adrien Coquet](https://thenounproject.com/icon/climb-2195072/)
 * [Climbing Rope by IYIKON](https://thenounproject.com/icon/rope-7694013/)
 * [Climbing Socks by Agan24](https://thenounproject.com/icon/sock-7451160/)
+* [Clock by iconpro86](https://thenounproject.com/icon/clock-5467841/)
 * [Cloth by Rifqi Real](https://thenounproject.com/icon/cloth-5508914/)
 * [Coal Piece by Sean Maldjian](https://thenounproject.com/icon/rock-3575775/)
 * [Coal Spawn by BinikSol](https://thenounproject.com/icon/coal-6694219/)
+* [Cooked Acorns by Llisole](https://thenounproject.com/icon/roasted-chestnuts-4183152/)
+* [Cooked Meat by Vallone Design](https://thenounproject.com/icon/meat-8268887/)
 * [Cookpot by NeueDeutsche](https://thenounproject.com/icon/cooking-671176/)
 * [Combat Boots by Amethyst Studio](https://thenounproject.com/icon/combat-4284934/)
 * [Combat Pants by Amethyst Studio](https://thenounproject.com/icon/clothes-3460975/)
@@ -161,6 +169,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Decoration by metami septiana](https://thenounproject.com/icon/decoration-7426915/)
 * [Deer by Anissa](https://thenounproject.com/icon/deer-5689542/)
 * [Deer Hide based on art by Smashicons](https://thenounproject.com/icon/leather-strap-830958/)
+* [Deer Mount by Sara Saedi](https://thenounproject.com/icon/deer-mount-1217160/)
 * [Deerskin Boots based on art by Eucalyp](https://thenounproject.com/icon/moccasin-boots-4783273/)
 * [Deerskin Pants based on art by Jajang Nurrahman](https://thenounproject.com/icon/trousers-6876585/)
 * [Delivery icon by il Capitano](https://thenounproject.com/icon/deliver-1570509/)
@@ -183,6 +192,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Firearm Cleaning Kit by Maria AG](https://thenounproject.com/icon/golf-bag-7075764/)
 * [Fist Aid Container by ainul muttaqin](https://thenounproject.com/icon/first-aid-kit-4626993/)
 * [Fish by BnB Studio](https://thenounproject.com/icon/salmon-7911128/)
+* [Fish Mount by Fahrul Saptura](https://thenounproject.com/icon/fishing-trophy-7108491/)
 * [Fishing Tackle by Aidan Stonehouse](https://thenounproject.com/icon/fishing-6712276/)
 * [Fisherman's Sweater by Ayub Irawan](https://thenounproject.com/icon/wool-sweater-8116805/)
 * Fishing Tip-up is original art for this project
@@ -195,6 +205,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Forester's Revolver by Hey Rabbit](https://thenounproject.com/icon/revolver-3563944/)
 * [Foreman's Tool Belt by Dian Chandra Lesmono](https://thenounproject.com/icon/belt-8352500/)
 * [Forge by Andi Nur Abdillah](https://thenounproject.com/icon/forge-7665279/)
+* [Framed Painting by 다운 조](https://thenounproject.com/icon/boat-5810735/)
+* [Framed Portrait by b farias](https://thenounproject.com/icon/family-portrait-1868817/)
 * [Freezer by Graphicxs_Art](thenounproject.com/icon/refrigerator-4633120/)
 * [Fridge/Oven by Paonkz](https://thenounproject.com/icon/fridge-8311835/)
 * [Furniture Workbench by Deni Sudibyo](https://thenounproject.com/icon/workbench-6376294/)
@@ -204,6 +216,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Gut by Serena](https://thenounproject.com/icon/worm-7385327/)
 * [Hacksaw by omeneko](thenounproject.com/icon/hacksaw-7780613/)
 * [Handheld Shortwave Radio by Uswa KDT](https://thenounproject.com/icon/radio-4280696/)
+* [Hardhat by Phil Laver](https://thenounproject.com/icon/hard-hat-7065/)
 * [Harvestable Cloth by Solid Icon Co](https://thenounproject.com/icon/textiles-7119943/)
 * [Harvestable Leather by mangunkarsa](https://thenounproject.com/icon/sewing-scissors-8061445/)
 * [Harvestable Scrap Metal by Slamlabs](https://thenounproject.com/icon/metal-6595542/)
@@ -239,6 +252,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Matches by Zach Bogart](https://thenounproject.com/icon/matchbook-4449825/)
 * [Memento box (and key) by BGBOXXX Design](https://thenounproject.com/icon/briefcase-keys-1905055/)
 * [Metal Container by Amethyst Studio](https://thenounproject.com/icon/carton-5097479/)
+* [Metal Pail by Atif Arshad](https://thenounproject.com/icon/pail-3115895/)
 * [Military Coat by Blackonion](https://thenounproject.com/icon/coat-6501999/)
 * [Miner's Flashlight by Amethyst Studio](https://thenounproject.com/icon/flashlight-4891978/)
 * [Milling Machine by krisna agra muria](thenounproject.com/icon/milling-machine-7614302/)
@@ -247,6 +261,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Moose Hide based on art by Nhor](https://thenounproject.com/icon/leather-3394969/)
 * [Moose-Hide Cloak by Daniela Baptista](https://thenounproject.com/icon/jacket-788858/)
 * [Moose-Hide Satchel by Amethyst Studio](https://thenounproject.com/icon/waist-bag-5466991/)
+* [Moose Mount by Hey Rabbit](https://thenounproject.com/icon/moose-3585230/)
 * [Mukluks by Eucalyp](https://thenounproject.com/icon/timberland-boots-4647930/)
 * [Nearby by Bagus Kusnandar](https://thenounproject.com/icon/nearby-2310449/)
 * [Newspaper by Puspa Kusuma](https://thenounproject.com/icon/newspaper-7638057/)
@@ -262,7 +277,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Plastic Container by Ranah Pixel Studio](https://thenounproject.com/icon/plastic-containers-3765569/)
 * [Poisoned Wolf by icon trip](https://thenounproject.com/icon/wolf-6022272/)
 * [Polaroid by Alice Design](https://thenounproject.com/icon/polaroid-2059579/)
+* [Poster by Siti Masriatun](https://thenounproject.com/icon/image-5049579/)
 * [Pot Belly Stove by Andrejs Kirma](https://thenounproject.com/icon/brick-oven-754885/)
+* [Prepared Acorns by Singular](https://thenounproject.com/icon/hazelnut-4767339/)
 * [Prybar by Ben Gilman](https://thenounproject.com/icon/crowbar-4068/)
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
 * [Ptarmigan Down by Gan Khoon Lay](https://thenounproject.com/icon/bones-pieces-597205/)
@@ -273,6 +290,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Rabbitskin Mittens by Neneng Fadliyah](https://thenounproject.com/icon/mitten-6331269/)
 * [Radio by Arif Arisandi](https://thenounproject.com/icon/podcast-4678161/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
+* [Raw Meat by Muhammad Rivai](https://thenounproject.com/icon/meat-7668996/)
 * [Recipe Card by Marianna Nardella](https://thenounproject.com/icon/recipe-card-291038/)
 * [Reclaimed Wood by Adrien Coquet](https://thenounproject.com/icon/wood-3968912/)
 * [Recycled Can by S. Salinas](https://thenounproject.com/icon/can-85822/)
@@ -296,6 +314,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Sewing Kit by iconisme](https://thenounproject.com/icon/sewing-kit-7584407/)
 * [Shelf by Creative Stall](https://thenounproject.com/icon/bookshelf-6667578/)
 * [Shelf (wall-attached) by Sembodo Tioss Halala](helf-5977791)
+* [Sign Poster by Aneeque Ahmed](https://thenounproject.com/icon/frame-1205617/)
 * [Simple Arrow by Sahab Uddin](https://thenounproject.com/icon/archery-4143091/)
 * [Simple Parka by Siipkan Creative](https://thenounproject.com/icon/coat-5736592/)
 * [Simple Tools by fauzin idea](https://thenounproject.com/icon/toolbox-8083102/)
@@ -326,6 +345,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Trader by Salman Azzumardi](https://thenounproject.com/icon/sailboat-8101964/)
 * [Transmitter by IconsHome](https://thenounproject.com/icon/antenna-7788531/)
 * [Trash Can by Adeel rehman](https://thenounproject.com/icon/dustbin-5746658/)
+* Travois icon is original art for this project
 * [Trunk (rustic) by Annisa](https://thenounproject.com/icon/treasure-chest-7189699/)
 * [Trunk (premade) by Chintuza](https://thenounproject.com/icon/chest-3106198/)
 * [Urban Parka by James gibson](https://thenounproject.com/icon/padded-jumper-6393765/)
@@ -355,6 +375,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ## TODOs
 
+
+
 ### Drawing-related
 1. For each region, have a region-by-region breakdown of incoming and outgoing gear
 3. Use the stitched-together coordinate-based map to place the bases!
@@ -377,7 +399,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 13. Location tiers and minimum supplies for each
 
 ### Template creation
-1. Average across all four loot tables
+1. Add info from https://docs.google.com/spreadsheets/d/1m6h6hqMTJ0kKHV60mIDdwMTFTsFhMCSXVBvn0jxLtv8/edit?gid=2038016176#gid=2038016176
+1. Add info from https://docs.google.com/spreadsheets/d/1-NJtgMl7WCNw820yWEc2c7xBfEiJ0kCD9BNdAq7R0LI/edit?gid=576009953#gid=576009953
+2. Average across all four loot tables
 9. Add where to BRING the polaroids
 13. Tea & coffee
 15. Crackers
@@ -403,6 +427,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ### Maybe later
 11. Item weights in legend.csv
+12. Figure out north stuff better? [Relevant thread](https://www.reddit.com/r/thelongdark/comments/pbnzj4/stick_north_the_direction_a_stick_points_when/)
 
 ### Region tree structures (individual)
 *Plan is to stop developing these and use coordinates instead.*

@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="2063.66" height="1806.1699999999998" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="487.45000000000005" cy="1756.1699999999998" r="10" fill="black" />
-<text x="487.45000000000005" y="1756.1699999999998" font-size="30" fill="black">Transition(BRM-KP)</text>
+<text x="487.45000000000005" y="1756.1699999999998" font-size="30" fill="black">Transition(BRM~KP)</text>
 <circle cx="704.63" cy="1388.29" r="10" fill="black" />
 <text x="704.63" y="1388.29" font-size="30" fill="black">Car(NorthOfKPTunnel)</text>
 <path d="M704.63,1388.29 L487.45000000000005,1756.1699999999998" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -136,7 +136,7 @@
 <path d="M837.84,1208.7 L426.54999999999995,1237.72" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M837.84,1208.7 L953.69,1127.58" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1741.53" cy="1266.5" r="10" fill="black" />
-<text x="1741.53" y="1266.5" font-size="30" fill="black">Cave(BRM-TWM)</text>
+<text x="1741.53" y="1266.5" font-size="30" fill="black">Cave(BRM~TWM)</text>
 <path d="M1741.53,1266.5 L1561.9399999999998,1133.29" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <path d="M1741.53,1266.5 L1973.22,1104.27" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="487.45000000000005" cy="1756.1699999999998" r="10" fill="red" />

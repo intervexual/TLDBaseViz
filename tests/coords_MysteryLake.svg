@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1661.3" height="2098.4" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1388.29" cy="2048.4" r="10" fill="black" />
-<text x="1388.29" y="2048.4" font-size="30" fill="black">Transition(ML-R)</text>
+<text x="1388.29" y="2048.4" font-size="30" fill="black">Transition(ML~R)</text>
 <circle cx="1454.9" cy="1958.6000000000001" r="10" fill="black" />
 <text x="1454.9" y="1958.6000000000001" font-size="30" fill="black">Trailer(DamEast)</text>
 <path d="M1454.9,1958.6000000000001 L1388.29,2048.4" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
@@ -16,7 +16,7 @@
 <text x="1504.14" y="1967.28" font-size="30" fill="black">UpperDam</text>
 <path d="M1504.14,1967.28 L1472.26,1860.1200000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1611.3" cy="1935.41" r="10" fill="black" />
-<text x="1611.3" y="1935.41" font-size="30" fill="black">Transition(ML-WR)</text>
+<text x="1611.3" y="1935.41" font-size="30" fill="black">Transition(ML~WR)</text>
 <path d="M1611.3,1935.41 L1504.14,1967.28" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="1376.63" cy="1538.63" r="10" fill="black" />
 <text x="1376.63" y="1538.63" font-size="30" fill="black">TrainCar(TrainLoading)</text>
@@ -61,7 +61,7 @@
 <text x="785.75" y="1434.44" font-size="30" fill="black">Climb(ML-LO2)</text>
 <path d="M785.75,1434.44 L794.4300000000001,1385.2" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="200.57" cy="722.0" r="10" fill="black" />
-<text x="200.57" y="722.0" font-size="30" fill="black">Transition(ML-FM)</text>
+<text x="200.57" y="722.0" font-size="30" fill="black">Transition(ML~FM)</text>
 <path d="M200.57,722.0 L420.61,49.999999999999986" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
 <circle cx="756.73" cy="1023.1500000000001" r="10" fill="black" />
 <text x="756.73" y="1023.1500000000001" font-size="30" fill="black">POI(CentralMLRail)</text>
@@ -117,7 +117,7 @@
 <path d="M530.75,577.14 L994.1300000000001,252.67" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M530.75,577.14 L420.61,49.999999999999986" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="304.76" cy="131.12" r="10" fill="black" />
-<text x="304.76" y="131.12" font-size="30" fill="black">Cave(ML-MT)</text>
+<text x="304.76" y="131.12" font-size="30" fill="black">Cave(ML~MT)</text>
 <path d="M304.76,131.12 L420.61,49.999999999999986" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="177.5" cy="1428.73" r="10" fill="black" />
 <text x="177.5" y="1428.73" font-size="30" fill="black">Cabins(Lake)</text>

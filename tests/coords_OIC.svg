@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="700" height="350" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="50" cy="150" r="10" fill="black" />
-<text x="50" y="150" font-size="30" fill="black">Transition(OIC-CH)</text>
+<text x="50" y="150" font-size="30" fill="black">Transition(OIC~CH)</text>
 <circle cx="400" cy="50" r="10" fill="black" />
 <text x="400" y="50" font-size="30" fill="black">HarrisBasement</text>
 <path d="M400,50 L50,150" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -16,7 +16,7 @@
 <text x="450" y="300" font-size="30" fill="black">Cave(TheArch)</text>
 <path d="M450,300 L400,50" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="650" cy="50" r="10" fill="black" />
-<text x="650" y="50" font-size="30" fill="black">Transition(OIC-DP)</text>
+<text x="650" y="50" font-size="30" fill="black">Transition(OIC~DP)</text>
 <path d="M650,50 L500,50" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="50" cy="150" r="10" fill="red" />
 <text x="50" y="150" font-size="30" fill="red">OIC--CoastalHighway</text>

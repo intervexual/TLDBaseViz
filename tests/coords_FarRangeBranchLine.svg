@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1950" height="500" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1900" cy="100" r="10" fill="black" />
-<text x="1900" y="100" font-size="30" fill="black">Transition(FRBL-BR)</text>
+<text x="1900" y="100" font-size="30" fill="black">Transition(FRBL~BR)</text>
 <circle cx="1500" cy="250" r="10" fill="black" />
 <text x="1500" y="250" font-size="30" fill="black">POI(RailOffice)</text>
 <path d="M1500,250 L1900,100" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -22,7 +22,7 @@
 <text x="700" y="50" font-size="30" fill="black">RemnantCave</text>
 <path d="M700,50 L1100,250" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="50" cy="450" r="10" fill="black" />
-<text x="50" y="450" font-size="30" fill="black">Transition(FRBL-TP)</text>
+<text x="50" y="450" font-size="30" fill="black">Transition(FRBL~TP)</text>
 <path d="M50,450 L700,50" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="1700" cy="150" r="10" fill="red" />
 <text x="1700" y="150" font-size="30" fill="red">FarRangeBranchLine--BrokenRailroad</text>

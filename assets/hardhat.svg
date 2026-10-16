@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="98.654999"
+   height="98.654999"
+   viewBox="0 0 98.654999 98.654999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="hardhat.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.6083333"
+     inkscape:cx="48.96791"
+     inkscape:cy="54.744146"
+     inkscape:window-width="1920"
+     inkscape:window-height="1211"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <polygon
+     points="29.103999,76.964999 46.797999,73.549999 49.559999,64.00199900000001 14.073999,72.25099900000001 8.971999,74.87899900000001 11.607999000000001,83.60899900000001 24.200999,86.988999"
+     id="polygon1"
+     style="fill:#000000" />
+  <path
+     d="M 92.817999,46.355999 82.496999,45.786999 80.100999,34.228999 80.001999,34.045999 C 72.750999,20.660999 57.980999,11.665999 43.251999,11.665999 20.746999,11.665999 2.4319994,28.923999 2.4319994,50.134999 2.4319994,52.494999 2.8559994,54.779999 3.2679994,56.989999 3.7049994,59.334999 4.1189994,61.558999 3.9329994,63.510999 L -6.1035156e-7,68.190999 4.6559994,74.283999 13.658999,70.525999 63.800999,59.327999 94.896999,55.871999 98.654999,49.999999 Z M 44.782999,20.195999 C 30.472999,20.195999 17.548999,26.598999 9.7169994,36.631999 15.579999,24.587999 28.526999,16.199999 43.518999,16.199999 54.438999,16.199999 65.387999,21.639999 72.649999,30.250999 64.723999,23.947999 54.671999,20.195999 44.782999,20.195999 Z"
+     id="path1"
+     style="fill:#000000" />
+</svg>

@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1919.04" height="1762.52" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1869.04" cy="322.37" r="10" fill="black" />
-<text x="1869.04" y="322.37" font-size="30" fill="black">Transition(FM-ML)</text>
+<text x="1869.04" y="322.37" font-size="30" fill="black">Transition(FM~ML)</text>
 <circle cx="1573.6" cy="374.46999999999997" r="10" fill="black" />
 <text x="1573.6" y="374.46999999999997" font-size="30" fill="black">POI(EasternFMRailroad)</text>
 <path d="M1573.6,374.46999999999997 L1869.04,322.37" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -26,7 +26,7 @@
 <text x="1301.23" y="1133.29" font-size="30" fill="black">HighBlind</text>
 <path d="M1301.23,1133.29 L1547.43,1089.8799999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1666.13" cy="1475.12" r="10" fill="black" />
-<text x="1666.13" y="1475.12" font-size="30" fill="black">Cave(FM-BI)</text>
+<text x="1666.13" y="1475.12" font-size="30" fill="black">Cave(FM~BI)</text>
 <path d="M1666.13,1475.12 L1547.43,1089.8799999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1695.15" cy="1063.83" r="10" fill="black" />
 <text x="1695.15" y="1063.83" font-size="30" fill="black">POI(MuskegOverlook)</text>
@@ -60,7 +60,7 @@
 <text x="246.96" y="913.02" font-size="30" fill="black">POI(WesternFMRailroad)</text>
 <path d="M246.96,913.02 L313.57,1002.81" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="50.0" cy="947.75" r="10" fill="black" />
-<text x="50.0" y="947.75" font-size="30" fill="black">Transition(FM-BR)</text>
+<text x="50.0" y="947.75" font-size="30" fill="black">Transition(FM~BR)</text>
 <path d="M50.0,947.75 L246.96,913.02" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="959.52" cy="635.06" r="10" fill="black" />
 <text x="959.52" y="635.06" font-size="30" fill="black">POI(CentralFMRailroad)</text>
@@ -86,7 +86,7 @@
 <text x="501.97" y="55.709999999999994" font-size="30" fill="black">Cave(Waterfall)</text>
 <path d="M501.97,55.709999999999994 L322.37,188.91999999999996" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="305.0" cy="90.43999999999998" r="10" fill="black" />
-<text x="305.0" y="90.43999999999998" font-size="30" fill="black">Transition(FM-MT)</text>
+<text x="305.0" y="90.43999999999998" font-size="30" fill="black">Transition(FM~MT)</text>
 <path d="M305.0,90.43999999999998 L322.37,188.91999999999996" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="716.29" cy="119.46" r="10" fill="black" />
 <text x="716.29" y="119.46" font-size="30" fill="black">POI(ShortwaveTower)</text>

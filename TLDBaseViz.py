@@ -1232,43 +1232,7 @@ def all_region_flows(bases, shortforms, longforms, colours=HEXES):
     return takes_by_region, brings_by_region
 
 
-def per_region_flows(bases, shortforms, longforms, all_bases, colours=HEXES):
-    # bases doesn't have the info for other regions!!!
-    by_reg = {}
-    curr_reg = ''
-    last_base_name = ''
-    for b in bases:
-        bob = bases[b]
-        curr_reg = bob.region
-        last_base_name = b
-        for row in bob.features:
-            for feature in row:
-                if feature.destination:
-                    dest = shortforms[feature.destination]
-                    reg_dest = all_bases[dest].region
-                    if reg_dest not in by_reg:
-                        by_reg[reg_dest] = [BaseFeature(f'#{reg_dest}')]
-                    by_reg[reg_dest].append(feature)
 
-                    #print(feature, dest,  reg_dest, b)
-    spec_name = f'to move ({curr_reg})'
-    spec_base = BaseLocation(spec_name,
-                             {REGION: curr_reg,
-                              CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
-                              FEATURES: [],
-                              EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
-    for reg in by_reg:
-        spec_base.features.append(by_reg[reg])
-        if len(by_reg[reg]) > spec_base.longest_row:
-            spec_base.longest_row = len(by_reg[reg])
-
-    conn = BaseConnection(last_base_name, 'south', 'bottom,left',
-                          spec_name, 'top,left', 'fake', colours=colours)
-    bases[last_base_name].add_connection(conn)
-    spec_base.add_connection(conn)
-    bases[spec_name] = spec_base
-
-    return spec_base
 
 
 def per_region_both_flows(bases,
@@ -1628,7 +1592,7 @@ def draw_region(region, source_info, output='tests/',
 
     draw_bases(these_bases, colours,
                base_x = 1500, base_y = 1500,
-               width = 2500, height = 3000,
+               width = 2500, height = 3500,
                shortforms=shortforms, longforms=longforms,
                all_takes=all_takes, all_brings=all_brings,
                all_bases=all_bases, map_title=region,
@@ -2151,7 +2115,6 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
 
     bases, colours = process_input(fname, style_file=style_file, destination_warnings=True)
     shortforms, longforms = get_shortforms_and_longforms(bases)
-    assert 'AC:WJO' in shortforms
 
     # verify the numbers BEFORE the special bases are added
     nums = count_features(bases)

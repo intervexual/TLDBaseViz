@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1700" height="2250" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="50" cy="2200" r="10" fill="black" />
-<text x="50" y="2200" font-size="30" fill="black">Transition(MT-FM)</text>
+<text x="50" y="2200" font-size="30" fill="black">Transition(MT~FM)</text>
 <circle cx="50" cy="1800" r="10" fill="black" />
 <text x="50" y="1800" font-size="30" fill="black">HermitsCabin</text>
 <path d="M50,1800 L50,2200" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -56,7 +56,7 @@
 <text x="900" y="1600" font-size="30" fill="black">Climb(MP-R)</text>
 <path d="M900,1600 L900,1500" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
 <circle cx="1450" cy="1500" r="10" fill="black" />
-<text x="1450" y="1500" font-size="30" fill="black">Cave(MT-ML)</text>
+<text x="1450" y="1500" font-size="30" fill="black">Cave(MT~ML)</text>
 <path d="M1450,1500 L900,1600" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="650" cy="400" r="10" fill="black" />
 <text x="650" y="400" font-size="30" fill="black">Cave(Graveyard)</text>
@@ -84,7 +84,7 @@
 <path d="M150,1000 L650,1400" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <path d="M150,1000 L250,1300" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="950" cy="150" r="10" fill="black" />
-<text x="950" y="150" font-size="30" fill="black">Cave(MT-HRV)</text>
+<text x="950" y="150" font-size="30" fill="black">Cave(MT~HRV)</text>
 <path d="M950,150 L650,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M950,150 L1550,400" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="350" cy="400" r="10" fill="black" />
@@ -105,7 +105,7 @@
 <path d="M450,1800 L350,1500" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M450,1800 L50,1800" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="850" cy="50" r="10" fill="black" />
-<text x="850" y="50" font-size="30" fill="black">Transition(MT-HRV)</text>
+<text x="850" y="50" font-size="30" fill="black">Transition(MT~HRV)</text>
 <path d="M850,50 L950,150" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="900" cy="1100" r="10" fill="black" />
 <text x="900" y="1100" font-size="30" fill="black">POI(WoodLotArea)</text>

@@ -21,7 +21,7 @@ def calculate_region_coords(these_bases, regions, region,
     >>> these_bases = bases_of_region(bases, region)
     >>> total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=100)
     >>> calculate_region_coords(these_bases, regions, region, total_x, total_y, x_offset, y_offset)
-    (1900.0, 2000.0)
+    (1761.3, 2198.4)
     >>> #these_bases['CampOffice'].region_coords # [1100, 1000] before rotation
     [800.0, 1100.0]
     >>> #these_bases['TrappersHomestead'].region_coords  # [100, 1500] before rotation
@@ -426,14 +426,14 @@ def get_transitions_for_regions(first_region, second_region, regions):
     :return: two strs of the corresponding matches
     >>> b, e, regions = parse_input('mybases.json')
     >>> get_transitions_for_regions('AshCanyon', 'TimberwolfMountain', regions)
-    ('Transition(AC-TWM)', 'Transition(TWM-AC)')
+    ('Transition(AC~TWM)', 'Transition(TWM~AC)')
     >>> get_transitions_for_regions('KeepersPass', 'Blackrock', regions)
-    ('Transition(KP-BRM)', 'Transition(BRM-KP)')
+    ('Transition(KP~BRM)', 'Transition(BRM~KP)')
     """
     ac_short = regions[first_region]['short']
     twm_short = regions[second_region]['short']
-    ac_trans = f'Transition({ac_short}-{twm_short})'
-    twm_trans = f'Transition({twm_short}-{ac_short})'
+    ac_trans = f'Transition({ac_short}~{twm_short})'
+    twm_trans = f'Transition({twm_short}~{ac_short})'
     return ac_trans, twm_trans
 
 

@@ -5,9 +5,9 @@
 </defs>
 <rect x="0" y="0" width="1600" height="1650" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="350" cy="1600" r="10" fill="black" />
-<text x="350" y="1600" font-size="30" fill="black">Transition(HRV-MT)</text>
+<text x="350" y="1600" font-size="30" fill="black">Transition(HRV~MT)</text>
 <circle cx="350" cy="1550" r="10" fill="black" />
-<text x="350" y="1550" font-size="30" fill="black">Cave(HRV-MT)</text>
+<text x="350" y="1550" font-size="30" fill="black">Cave(HRV~MT)</text>
 <path d="M350,1550 L350,1600" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="150" cy="1300" r="10" fill="black" />
 <text x="150" y="1300" font-size="30" fill="black">SnowShelter(CloudtopFalls)</text>

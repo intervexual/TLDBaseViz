@@ -1,6 +1,6 @@
 {
     "bases": {
-        "Transition(TWM-AC)": {
+        "Transition(TWM~AC)": {
             "region": "TimberwolfMountain",
             "coords": [
                 1900,
@@ -125,7 +125,7 @@
                 "?rope"
             ]
         },
-        "Climb(EE-PC)": {
+        "Climb(EE~PC)": {
             "region": "TimberwolfMountain",
             "coords": [
                 1250,
@@ -198,7 +198,7 @@
                 "climb"
             ]
         },
-        "Climb(TWC-DC)": {
+        "Climb(TWC~DC)": {
             "region": "TimberwolfMountain",
             "coords": [
                 1500,
@@ -446,7 +446,7 @@
                 "ptarmigan,mine"
             ]
         },
-        "Cave(TWM-BRM)": {
+        "Cave(TWM~BRM)": {
             "region": "TimberwolfMountain",
             "coords": [
                 200,
@@ -521,7 +521,7 @@
             "explored": false,
             "features": []
         },
-        "Cave(TWM-AC)": {
+        "Cave(TWM~AC)": {
             "region": "TimberwolfMountain",
             "coords": [
                 1750,
@@ -654,7 +654,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(TWM-PV)": {
+        "Transition(TWM~PV)": {
             "region": "TimberwolfMountain",
             "coords": [
                 200,
@@ -683,7 +683,7 @@
                 "?matches/0.3333"
             ]
         },
-        "Transition(AC-TWM)": {
+        "Transition(AC~TWM)": {
             "region": "AshCanyon",
             "coords": [
                 800,
@@ -742,6 +742,7 @@
             "explored": false,
             "features": [
                 "bed,?grill",
+                "?suitcase/0.3846",
                 "?matches,?research/0.4545",
                 "?rope",
                 "?combatpants/0.125"
@@ -810,7 +811,7 @@
             "explored": false,
             "features": []
         },
-        "Cave(AC-TWM)": {
+        "Cave(AC~TWM)": {
             "region": "AshCanyon",
             "coords": [
                 -300,
@@ -920,7 +921,7 @@
             "features": [
                 "ptarmigan",
                 "bed,?grill",
-                "?pillow",
+                "?suitcase/0.3846,?pillow",
                 "?matches/0.5,?skillet/0.7368",
                 "?recipe"
             ]
@@ -1382,7 +1383,7 @@
                 "?polaroid"
             ]
         },
-        "Transition(PV-TWM)": {
+        "Transition(PV~TWM)": {
             "region": "PleasantValley",
             "coords": [
                 2500,
@@ -1590,7 +1591,7 @@
                 "!cache",
                 "bed,?workbench,?range",
                 "?plastic,?firstaid,?oven,?washer:2.0,?freezer,?bag,?shelf",
-                "?calendar:3.0,buildout,?rug:9.0,?mat:2.0",
+                "?calendar:3.0,buildout,?deermount,?rug:9.0,?mat:2.0",
                 "?maglens,?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener,?prybar/0.3829,?research/0.4545",
                 "?food:3,?food/0.875,?saltbag",
                 "?polaroid",
@@ -1669,7 +1670,7 @@
             "features": [
                 "!cache",
                 "bed",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?thermos/0.2,?canopener/0.0833,?prybar/0.1667",
                 "?socks/0.125,?underwear/0.25"
             ]
@@ -1721,7 +1722,7 @@
                 "radio",
                 "bed,?range",
                 "?chest,?oven,?freezer,?cabinet",
-                "?rug:3.0,?festive:6.0",
+                "?deermount,?moosemount,?festive:6.0,?rug:3.0",
                 "?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?prybar/0.1667",
                 "?recipe",
                 "?jersey/0.5"
@@ -1742,7 +1743,7 @@
                 "?prybar/0.1667,?research/0.4545"
             ]
         },
-        "Transition(PV-CH)": {
+        "Transition(PV~CH)": {
             "region": "PleasantValley",
             "coords": [
                 2800,
@@ -1789,7 +1790,7 @@
                 "?thermos/0.2,?research/0.4545"
             ]
         },
-        "Cave(PV-WR)": {
+        "Cave(PV~WR)": {
             "region": "PleasantValley",
             "coords": [
                 700,
@@ -1805,7 +1806,7 @@
                 "?research/0.4545"
             ]
         },
-        "Transition(PV-WR)": {
+        "Transition(PV~WR)": {
             "region": "PleasantValley",
             "coords": [
                 700,
@@ -1883,7 +1884,7 @@
                 "?research/0.4545"
             ]
         },
-        "Transition(PV-KP)": {
+        "Transition(PV~KP)": {
             "region": "PleasantValley",
             "coords": [
                 50,
@@ -1971,7 +1972,7 @@
             "explored": false,
             "features": [
                 "?bear/0.1,wolf",
-                "?jerrycan,?research/0.4545"
+                "?jerrycan/0.9,?research/0.4545"
             ]
         },
         "Barn(LowerFalls)": {
@@ -2066,7 +2067,7 @@
                 "?thermos/0.2,?bedroll,?research/0.4545"
             ]
         },
-        "Transition(KP-PV)": {
+        "Transition(KP~PV)": {
             "region": "KeepersPass",
             "coords": [
                 450,
@@ -2218,7 +2219,7 @@
                 "wolf"
             ]
         },
-        "Transition(KP-BRM)": {
+        "Transition(KP~BRM)": {
             "region": "KeepersPass",
             "coords": [
                 100,
@@ -2233,7 +2234,7 @@
                 "?battery/0.6"
             ]
         },
-        "Transition(BRM-KP)": {
+        "Transition(BRM~KP)": {
             "region": "Blackrock",
             "coords": [
                 -450,
@@ -2473,7 +2474,7 @@
             "features": [
                 "wolf",
                 "bed",
-                "?floppy:3.0,?horseshoe,?rug:3.0,?mat,?decor",
+                "?floppy:3.0,?horseshoe,?deermount,?rug:3.0,?mat,?decor",
                 "?thermos/0.1111"
             ]
         },
@@ -2912,7 +2913,7 @@
                 "climb"
             ]
         },
-        "Cave(BRM-TWM)": {
+        "Cave(BRM~TWM)": {
             "region": "Blackrock",
             "coords": [
                 700,
@@ -2960,7 +2961,7 @@
             "features": [
                 "rabbit",
                 "bed",
-                "?box,?plastic:2",
+                "?box,?plastic:3,?drawer",
                 "?pillow/0.625",
                 "?canopener/0.0833,?hammer/0.1667,?research/0.4545"
             ]
@@ -3124,7 +3125,7 @@
             "explored": false,
             "features": [
                 "mine",
-                "?jerrycan,?canopener/0.0833"
+                "?jerrycan/0.9,?canopener/0.0833"
             ]
         },
         "POI(ForkedRoad)": {
@@ -3172,7 +3173,7 @@
                 "deer,rabbit,harvestfir:3.0,saltdeposit,beachcombing",
                 "bed",
                 "?oven:2,?freezer,?cabinet:3,?cupboard:17.0,?drawer:4.0",
-                "?lamp",
+                "?suitcase/0.3846,?lamp",
                 "?canopener/0.0833,?hammer/0.1667"
             ]
         },
@@ -3229,7 +3230,7 @@
                 "?canopener/0.0833,?research/0.4545"
             ]
         },
-        "Transition(CH-R)": {
+        "Transition(CH~R)": {
             "region": "CoastalHighway",
             "coords": [
                 -1200,
@@ -3323,7 +3324,7 @@
             "features": [
                 "bed,?outworkbench",
                 "?box,?firstaid,?trash,?bag,?drawer:3.0,?shelf",
-                "?crate:2.0,?lamp:2.0",
+                "?crate:2.0,?deermount,?lamp:2.0",
                 "?matches/0.25,?hammer/0.1667",
                 "?polaroid",
                 "?rope/0.3333"
@@ -3486,7 +3487,7 @@
                 "?suitcase:2.0"
             ]
         },
-        "Transition(CH-OIC)": {
+        "Transition(CH~OIC)": {
             "region": "CoastalHighway",
             "coords": [
                 700,
@@ -3499,7 +3500,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(OIC-CH)": {
+        "Transition(OIC~CH)": {
             "region": "OIC",
             "coords": [
                 50,
@@ -3561,7 +3562,7 @@
                 "?matches/0.5"
             ]
         },
-        "Transition(OIC-DP)": {
+        "Transition(OIC~DP)": {
             "region": "OIC",
             "coords": [
                 650,
@@ -3578,7 +3579,7 @@
                 "?prybar/0.4324,?research/0.4545"
             ]
         },
-        "Transition(DP-OIC)": {
+        "Transition(DP~OIC)": {
             "region": "DesolationPoint",
             "coords": [
                 0,
@@ -3654,7 +3655,7 @@
             "features": [
                 "saltdeposit,beachcombing",
                 "bed,?workbench,?grill",
-                "?box,?plastic,?locker:4,?bag,?safe,?drawer,?shelf",
+                "?box,?plastic:2,?locker:4,?bag,?safe,?drawer,?shelf",
                 "?floppy/0.0333",
                 "?matches,?distress/0.6,?dpammo/0.1333,?hacksaw,?prybar:1,?prybar/0.216,?research/0.4545",
                 "?saltbag",
@@ -3723,7 +3724,7 @@
             "features": [
                 "beachcombing",
                 "bed,forge",
-                "?box,?file",
+                "?box,?firstaid,?file:2",
                 "?thermos,?prybar/0.2162,?research/0.4545",
                 "?mementokey"
             ]
@@ -3756,6 +3757,7 @@
             "explored": false,
             "features": [
                 "bed,?grill",
+                "?crate:2.0",
                 "?research/0.4545"
             ]
         },
@@ -3845,7 +3847,7 @@
                 "?research/0.4545"
             ]
         },
-        "Transition(R-CH)": {
+        "Transition(R~CH)": {
             "region": "Ravine",
             "coords": [
                 200,
@@ -3933,11 +3935,11 @@
                 "?rope/0.3333"
             ]
         },
-        "Transition(R-ML)": {
+        "Transition(R~ML)": {
             "region": "Ravine",
             "coords": [
-                -1200,
-                -100
+                -1150,
+                -150
             ],
             "customizable": false,
             "loading": false,
@@ -4024,7 +4026,7 @@
                 "goating"
             ]
         },
-        "Transition(R-BI)": {
+        "Transition(R~BI)": {
             "region": "Ravine",
             "coords": [
                 -400,
@@ -4037,7 +4039,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(ML-R)": {
+        "Transition(ML~R)": {
             "region": "MysteryLake",
             "coords": [
                 1800,
@@ -4108,7 +4110,7 @@
                 "?jersey/0.5"
             ]
         },
-        "Transition(ML-WR)": {
+        "Transition(ML~WR)": {
             "region": "MysteryLake",
             "coords": [
                 1650,
@@ -4354,7 +4356,7 @@
                 "climb"
             ]
         },
-        "Transition(ML-FM)": {
+        "Transition(ML~FM)": {
             "region": "MysteryLake",
             "coords": [
                 700,
@@ -4400,7 +4402,7 @@
                 "radio",
                 "bed,?workbench,?grill",
                 "?firstaid,?file:3,?drawer",
-                "?calendar:2.0,?floppy/0.0333,?crate:2.0,lights",
+                "?calendar:2.0,?floppy/0.0333,?crate:2.0,?deermount,lights",
                 "?matches/0.1042,?skillet/0.7368,?bedroll,?research/0.4545",
                 "?food:1,?food/0.25,?saltbag/0.3"
             ]
@@ -4609,7 +4611,7 @@
                 "?grill"
             ]
         },
-        "Cave(ML-MT)": {
+        "Cave(ML~MT)": {
             "region": "MysteryLake",
             "coords": [
                 100,
@@ -4640,7 +4642,7 @@
                 "?matches/0.1042,?lantern/0.25"
             ]
         },
-        "Transition(FM-ML)": {
+        "Transition(FM~ML)": {
             "region": "ForlornMuskeg",
             "coords": [
                 1800,
@@ -4744,7 +4746,7 @@
                 "?matches/0.25,?hacksaw/0.1667,?research/0.4545"
             ]
         },
-        "Cave(FM-BI)": {
+        "Cave(FM~BI)": {
             "region": "ForlornMuskeg",
             "coords": [
                 1400,
@@ -4914,7 +4916,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(FM-BR)": {
+        "Transition(FM~BR)": {
             "region": "ForlornMuskeg",
             "coords": [
                 -100,
@@ -5038,7 +5040,7 @@
                 "?rope"
             ]
         },
-        "Transition(FM-MT)": {
+        "Transition(FM~MT)": {
             "region": "ForlornMuskeg",
             "coords": [
                 300,
@@ -5130,7 +5132,7 @@
                 "?matches/0.1042"
             ]
         },
-        "Transition(BI-R)": {
+        "Transition(BI~R)": {
             "region": "BleakInlet",
             "coords": [
                 200,
@@ -5300,7 +5302,7 @@
                 "deer,timberwolf,harvestfir:6.0",
                 "bed,?grill",
                 "?chest,?box",
-                "?calendar",
+                "?calendar,?deermount",
                 "?matches/0.25,?bedroll/0.25"
             ]
         },
@@ -5408,7 +5410,7 @@
                 "?floppy/0.0333"
             ]
         },
-        "Cave(BI-FM)": {
+        "Cave(BI~FM)": {
             "region": "BleakInlet",
             "coords": [
                 -250,
@@ -5590,23 +5592,6 @@
                 "?rope"
             ]
         },
-        "POI(CanneryPier)": {
-            "region": "BleakInlet",
-            "coords": [
-                -400,
-                -700
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "timberwolf,saltdeposit,beachcombing",
-                "?chest:2",
-                "?skillet/0.7368,?thermos/0.25,?distress/0.6,?dpammo/0.1333"
-            ]
-        },
         "Trailers(WestOfCannery)": {
             "region": "BleakInlet",
             "coords": [
@@ -5702,7 +5687,24 @@
                 "?bedroll/0.25,?research/0.4545"
             ]
         },
-        "Transition(MT-FM)": {
+        "POI(CanneryPier)": {
+            "region": "BleakInlet",
+            "coords": [
+                -400,
+                -700
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "timberwolf,saltdeposit,beachcombing",
+                "?chest:2",
+                "?skillet/0.7368,?thermos/0.25,?distress/0.6,?dpammo/0.1333"
+            ]
+        },
+        "Transition(MT~FM)": {
             "region": "MountainTown",
             "coords": [
                 400,
@@ -5842,7 +5844,7 @@
             "features": [
                 "wolf,rabbit",
                 "bed:3.0",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
                 "?battery/0.1",
                 "?socks/0.125,?underwear/0.25"
@@ -5862,7 +5864,7 @@
             "features": [
                 "wolf,rabbit",
                 "bed:2.0",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
                 "?battery/0.1",
                 "?socks/0.125,?underwear/0.25"
@@ -5900,7 +5902,7 @@
             "features": [
                 "wolf",
                 "bed",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?cookpot/0.7391,?skillet/0.7368,?research/0.4545",
                 "?battery/0.1",
                 "?socks/0.125,?underwear/0.25"
@@ -5940,7 +5942,7 @@
             "features": [
                 "wolf",
                 "bed:2.0",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?cookpot/0.7391,?skillet/0.7368,?prybar/0.4662,?research/0.4545",
                 "?battery/0.1",
                 "?socks/0.125,?underwear/0.25"
@@ -5996,7 +5998,7 @@
                 "climb,goating"
             ]
         },
-        "Cave(MT-ML)": {
+        "Cave(MT~ML)": {
             "region": "MountainTown",
             "coords": [
                 1800,
@@ -6145,7 +6147,7 @@
                 "?food:3,?food/0.875"
             ]
         },
-        "Cave(MT-HRV)": {
+        "Cave(MT~HRV)": {
             "region": "MountainTown",
             "coords": [
                 1300,
@@ -6222,7 +6224,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(MT-HRV)": {
+        "Transition(MT~HRV)": {
             "region": "MountainTown",
             "coords": [
                 1200,
@@ -6251,7 +6253,7 @@
                 "?research/0.4545"
             ]
         },
-        "Transition(WR-PV)": {
+        "Transition(WR~PV)": {
             "region": "WindingRiver",
             "coords": [
                 800,
@@ -6264,7 +6266,7 @@
             "explored": false,
             "features": []
         },
-        "Cave(WR-PV)": {
+        "Cave(WR~PV)": {
             "region": "WindingRiver",
             "coords": [
                 800,
@@ -6294,7 +6296,7 @@
                 "?matches/0.25,?research/0.4545"
             ]
         },
-        "Transition(WR-ML)": {
+        "Transition(WR~ML)": {
             "region": "WindingRiver",
             "coords": [
                 500,
@@ -6325,7 +6327,7 @@
                 "?matches/0.25,?cookpot/0.7391,?canopener/0.0833"
             ]
         },
-        "Transition(HRV-MT)": {
+        "Transition(HRV~MT)": {
             "region": "HushedRiverValley",
             "coords": [
                 500,
@@ -6338,7 +6340,7 @@
             "explored": false,
             "features": []
         },
-        "Cave(HRV-MT)": {
+        "Cave(HRV~MT)": {
             "region": "HushedRiverValley",
             "coords": [
                 500,
@@ -6837,7 +6839,7 @@
                 "?matches/0.1042,?canopener/0.0833"
             ]
         },
-        "Transition(BR-FM)": {
+        "Transition(BR~FM)": {
             "region": "BrokenRailroad",
             "coords": [
                 1700,
@@ -6883,7 +6885,7 @@
                 "bed,?workbench,forge,?grill",
                 "?box:3.0,?locker:7.0,?freezer,?trash:2,?file:8.0,?drawer:10.0",
                 "?calendar,?floppy/0.0333,?lamp",
-                "?matches,?jerrycan,?canopener/0.0833,?prybar:1,?prybar/0.25,?research/0.4545",
+                "?matches,?jerrycan/0.9,?canopener/0.0833,?prybar:1,?prybar/0.25,?research/0.4545",
                 "?stim/0.25",
                 "?rope,?battery/0.6"
             ]
@@ -6935,7 +6937,7 @@
                 "bed,?workbench,?range",
                 "?supplybin",
                 "?chest,?box,?plastic:2,?firstaid,?cabinet:2,?file:2.0,?drawer:6.0",
-                "?horseshoe,?wallshelf:2.0,?crate:6.0,?rug:9.0,?mat:5.0,?lamp,?festive:5.0",
+                "?horseshoe,?wallshelf:2.0,?crate:6.0,?deermount,?festive:5.0,?rug:9.0,?mat:5.0,?lamp",
                 "?firestriker/0.25,?matches,?skillet/0.7368,?canopener/0.0833,?bedroll,?research/0.4545",
                 "?stim,?food:2.0000999999999998,?saltbag",
                 "?recipe",
@@ -7040,7 +7042,7 @@
                 "?battery/0.6"
             ]
         },
-        "Transition(BR-FRBL)": {
+        "Transition(BR~FRBL)": {
             "region": "BrokenRailroad",
             "coords": [
                 150,
@@ -7070,10 +7072,10 @@
                 "bed",
                 "?box,?plastic,?locker:3.0,?trash,?file:4.0,?drawer:4.0,?shelf:2",
                 "?calendar,?floppy,buildout",
-                "?jerrycan,?prybar/0.25"
+                "?jerrycan/0.9,?prybar/0.25"
             ]
         },
-        "Transition(FRBL-BR)": {
+        "Transition(FRBL~BR)": {
             "region": "FarRangeBranchLine",
             "coords": [
                 -600,
@@ -7163,7 +7165,7 @@
                 "wolf,rabbit"
             ]
         },
-        "Transition(FRBL-TP)": {
+        "Transition(FRBL~TP)": {
             "region": "FarRangeBranchLine",
             "coords": [
                 1250,
@@ -7176,7 +7178,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(TP-FRBL)": {
+        "Transition(TP~FRBL)": {
             "region": "TransferPass",
             "coords": [
                 200,
@@ -7201,7 +7203,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "rabbit,ptarmigan"
+                "rabbit,ptarmigan,harvestcedar:4.0,harvestfir:4.0"
             ]
         },
         "VacantDepot": {
@@ -7216,11 +7218,11 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "rabbit,ptarmigan,harvestfir:6.0",
+                "rabbit,ptarmigan,harvestfir:8.0",
                 "radio",
                 "?grill",
                 "?shelf",
-                "?suitcase/0.5",
+                "?suitcase/0.3846",
                 "?battery/0.6"
             ]
         },
@@ -7239,7 +7241,7 @@
                 "rabbit,climb"
             ]
         },
-        "Transition(TP-FA)": {
+        "Transition(TP~FA)": {
             "region": "TransferPass",
             "coords": [
                 -300,
@@ -7252,10 +7254,23 @@
             "explored": false,
             "features": []
         },
-        "Transition(TP-SP)": {
+        "Transition(TP~SP)": {
             "region": "TransferPass",
             "coords": [
-                -500,
+                -600,
+                900
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": []
+        },
+        "Transition(TP~ZOC)": {
+            "region": "TransferPass",
+            "coords": [
+                300,
                 750
             ],
             "customizable": false,
@@ -7265,20 +7280,7 @@
             "explored": false,
             "features": []
         },
-        "Transition(TP-ZOC)": {
-            "region": "TransferPass",
-            "coords": [
-                250,
-                750
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": []
-        },
-        "Transition(ZOC-TP)": {
+        "Transition(ZOC~TP)": {
             "region": "ZoneOfContamination",
             "coords": [
                 900,
@@ -7321,7 +7323,7 @@
                 "poisonwolf"
             ]
         },
-        "Cave(ZOC-FA-SP)": {
+        "Cave(ZOC~FA~SP)": {
             "region": "ZoneOfContamination",
             "coords": [
                 -200,
@@ -7353,6 +7355,7 @@
             "features": [
                 "poisonwolf",
                 "bed",
+                "?plastic",
                 "?pillow/0.625",
                 "?research/0.4545"
             ]
@@ -7370,8 +7373,9 @@
             "explored": false,
             "features": [
                 "mine",
-                "bed,?workbench",
+                "bed,?workbench,?grill",
                 "?supplybin",
+                "?box,?plastic,?firstaid,?file,?drawer:2.0,?shelf",
                 "?firestriker,?lantern,?thermos/0.25,?canopener,?distress/0.6,?dpammo/0.5332",
                 "?stim,?saltbag",
                 "?polaroid"
@@ -7392,7 +7396,7 @@
                 "mine",
                 "?workbench",
                 "?safe",
-                "?jerrycan,?prybar/0.2162"
+                "?jerrycan/0.9,?prybar/0.2162"
             ]
         },
         "Concentrator": {
@@ -7409,9 +7413,9 @@
             "features": [
                 "poisonwolf",
                 "?workbench",
-                "?safe",
+                "?box,?firstaid,?bag,?safe",
                 "?calendar:2.0,?floppy/0.0333",
-                "?matches/0.5,?jerrycan,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.216,?woodworking",
+                "?matches/0.5,?jerrycan/0.9,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.216,?woodworking",
                 "?stim/0.25,?saltbag",
                 "?respirator",
                 "?rope/0.25"
@@ -7449,8 +7453,59 @@
             "features": [
                 "poisonwolf",
                 "?workbench:2",
+                "?box,?locker:8.0,?bag",
                 "?floppy/0.0333",
                 "?matches/0.5"
+            ]
+        },
+        "TrainStation": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                -200,
+                350
+            ],
+            "customizable": true,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "?grill",
+                "?file:3.0,?drawer:4.0",
+                "?polaroid"
+            ]
+        },
+        "PumpHouse": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                -50,
+                0
+            ],
+            "customizable": true,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "?grill",
+                "?plastic"
+            ]
+        },
+        "IdleCamp(DormNearTracks)": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                400,
+                200
+            ],
+            "customizable": true,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "poisonwolf",
+                "bed:4.0",
+                "?box,?plastic,?locker"
             ]
         },
         "IdleCamp": {
@@ -7467,9 +7522,27 @@
             "features": [
                 "poisonwolf,ptarmigan",
                 "radio",
-                "bed,?range",
+                "?range",
+                "?firstaid,?oven:2,?freezer:2,?shelf",
+                "buildout",
                 "?matches/0.1042,?cookpot/0.7391,?skillet/0.7368,?canopener",
                 "?food:2.0000999999999998"
+            ]
+        },
+        "IdleCamp(OtherDorm)": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                450,
+                250
+            ],
+            "customizable": true,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "bed",
+                "?box:2.0,?plastic"
             ]
         },
         "POI(FlagmansGap)": {
@@ -7487,11 +7560,11 @@
                 "poisonwolf"
             ]
         },
-        "IndolentHoppers": {
+        "IndolentHoppers(Far)": {
             "region": "ZoneOfContamination",
             "coords": [
-                -300,
-                300
+                -400,
+                350
             ],
             "customizable": true,
             "loading": false,
@@ -7500,10 +7573,43 @@
             "explored": false,
             "features": [
                 "poisonwolf",
-                "?workbench:3",
+                "?workbench:2",
+                "?trash,?file:7.0,?drawer:10.0",
+                "buildout",
+                "?prybar/0.2162"
+            ]
+        },
+        "IndolentHoppers(Middle)": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                -250,
+                300
+            ],
+            "customizable": true,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "?workbench",
+                "?cupboard:3.0,?file,?drawer:2.0",
                 "?calendar",
-                "?canopener/0.0833,?prybar/0.2162",
-                "?polaroid"
+                "?canopener/0.0833"
+            ]
+        },
+        "IndolentHoppers(Near)": {
+            "region": "ZoneOfContamination",
+            "coords": [
+                -300,
+                250
+            ],
+            "customizable": true,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "?plastic,?locker:5.0"
             ]
         },
         "MinersFootpath": {
@@ -7519,7 +7625,9 @@
             "explored": false,
             "features": [
                 "harvestbirch,mine",
-                "?jerrycan"
+                "?supplybin",
+                "?firstaid,?bag",
+                "?jerrycan/0.9"
             ]
         },
         "SmokersCave": {
@@ -7667,7 +7775,7 @@
                 "?matches/0.1042,?canopener/0.0833"
             ]
         },
-        "Transition(FA-TP)": {
+        "Transition(FA~TP)": {
             "region": "ForsakenAirfield",
             "coords": [
                 500,
@@ -7707,9 +7815,9 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "bed,?workbench,forge",
-                "?oven:2.0,?locker,?freezer,?trash,?file:5.0,?drawer:4.0",
-                "?suitcase/0.5,?pillow:5.0,?calendar:2.0,?floppy,?crate:2.0,?rug,?festive:5.0",
+                "bed:2,?workbench,forge",
+                "?oven:2,?locker,?freezer,?trash:3,?file:5.0,?drawer:4.0",
+                "?suitcase/0.3846,?pillow:5.0,?calendar:2.0,?floppy,?crate:2.0,?festive:5.0,?rug",
                 "?matches/0.25,?canopener/0.0833,?prybar",
                 "?food:1,?food/0.875,?saltbag",
                 "?recipe",
@@ -7844,7 +7952,7 @@
                 "lights"
             ]
         },
-        "Cave(FA-ZOC-SP)": {
+        "Cave(FA~ZOC~SP)": {
             "region": "ForsakenAirfield",
             "coords": [
                 1300,
@@ -7889,7 +7997,7 @@
             "explored": false,
             "features": [
                 "radio",
-                "?suitcase:10,?suitcase/0.5",
+                "?suitcase:10,?suitcase/0.385",
                 "?matches/0.1042,?thermos/0.2222,?dpammo/0.6665",
                 "?socks/0.125,?underwear/0.25"
             ]
@@ -7907,7 +8015,8 @@
             "explored": false,
             "features": [
                 "!transmitter",
-                "?suitcase/0.5,?floppy/0.0333",
+                "?plastic",
+                "?suitcase/0.3846,?floppy/0.0333",
                 "?matches:1,?matches/0.333,?canopener/0.0833,?distress/0.6,?dpammo/0.2666,?bedroll/0.3333",
                 "?handheld",
                 "?battery"
@@ -7926,7 +8035,8 @@
             "explored": false,
             "features": [
                 "bed",
-                "?jerrycan",
+                "?firstaid",
+                "?jerrycan/0.9",
                 "?combatpants/0.125"
             ]
         },
@@ -7959,9 +8069,11 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
+                "deer,wolf,rabbit,ptarmigan,harvestcedar:2.0,harvestfir",
                 "!cache",
                 "bed,?potbelly",
-                "?horseshoe",
+                "?chest,?file:5.0",
+                "?horseshoe:2.0,?deermount",
                 "?cookpot/0.7391,?skillet/0.7368,?thermos/0.1111,?canopener/0.0833,?bedroll/0.3333"
             ]
         },
@@ -8009,6 +8121,7 @@
             "explored": false,
             "features": [
                 "bed,?outworkbench,?potbelly",
+                "?box,?firstaid,?cupboard,?trash,?drawer:6.0",
                 "?matches/0.3333,?thermos/0.1111,?research/0.4545",
                 "?polaroid"
             ]
@@ -8116,9 +8229,7 @@
             "indoors": true,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": [
-                "mine"
-            ]
+            "features": []
         },
         "BrittleCave": {
             "region": "ForsakenAirfield",
@@ -8137,7 +8248,7 @@
                 "?prybar/0.2162"
             ]
         },
-        "Cave(SP-ZOC-FA)": {
+        "Cave(SP~ZOC~FA)": {
             "region": "SunderedPass",
             "coords": [
                 1000,
@@ -8179,20 +8290,132 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "deer,wolf",
+                "deer,wolf,rabbit",
                 "bed,?outworkbench,?grill",
-                "?safe",
+                "?box,?plastic,?safe",
                 "?prybar/0.2162",
                 "?food:1,?food/0.25",
                 "?polaroid",
                 "?gloves"
             ]
         },
-        "POI(PerilousCrossing)": {
+        "POI(RouteOneWaterfall)": {
             "region": "SunderedPass",
             "coords": [
-                900,
+                400,
+                400
+            ],
+            "customizable": false,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": []
+        },
+        "CascadingGap": {
+            "region": "SunderedPass",
+            "coords": [
+                300,
+                400
+            ],
+            "customizable": false,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "mine"
+            ]
+        },
+        "PlacidNotch": {
+            "region": "SunderedPass",
+            "coords": [
+                300,
+                -100
+            ],
+            "customizable": true,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "timberwolf",
+                "bed,?potbelly",
+                "?cookpot/0.7391,?canopener/0.0833"
+            ]
+        },
+        "Basement(RudigersHideout)": {
+            "region": "SunderedPass",
+            "coords": [
+                -100,
                 -400
+            ],
+            "customizable": true,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "timberwolf",
+                "bed",
+                "?washer:2.0",
+                "?canopener/0.0833,?hammer/0.25",
+                "?polaroid"
+            ]
+        },
+        "BoltChoppersHaven": {
+            "region": "SunderedPass",
+            "coords": [
+                0,
+                -700
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "mine",
+                "bed",
+                "?cookpot/0.7391"
+            ]
+        },
+        "AbandonedMine(SP)": {
+            "region": "SunderedPass",
+            "coords": [
+                300,
+                -1200
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "mine",
+                "?box,?plastic,?locker:6.0",
+                "?matches/0.1042,?jerrycan/0.9,?canopener/0.0833",
+                "?rope:2.0"
+            ]
+        },
+        "Climb(AbandonedMine)": {
+            "region": "SunderedPass",
+            "coords": [
+                650,
+                -950
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": []
+        },
+        "POI(TreeBridgeSouthOfMine)": {
+            "region": "SunderedPass",
+            "coords": [
+                850,
+                -800
             ],
             "customizable": false,
             "loading": false,
@@ -8200,8 +8423,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "ptarmigan",
-                "!cache"
+                "ptarmigan"
             ]
         },
         "Climb(SP-WC)": {
@@ -8217,6 +8439,52 @@
             "explored": false,
             "features": [
                 "climb"
+            ]
+        },
+        "IdleHideout": {
+            "region": "SunderedPass",
+            "coords": [
+                400,
+                -400
+            ],
+            "customizable": false,
+            "loading": true,
+            "indoors": true,
+            "cabinfeverrisk": true,
+            "explored": false,
+            "features": [
+                "mine",
+                "?skillet/0.7368"
+            ]
+        },
+        "POI(PerilousCrossing)": {
+            "region": "SunderedPass",
+            "coords": [
+                900,
+                -400
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "ptarmigan"
+            ]
+        },
+        "OpenCave(OgresTeardrop)": {
+            "region": "SunderedPass",
+            "coords": [
+                1000,
+                -500
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "!cache"
             ]
         },
         "Garage(WeatherStation)": {
@@ -8250,7 +8518,7 @@
             "features": [
                 "bed,?grill",
                 "?calendar,?floppy/0.0333",
-                "?jerrycan,?cookpot/0.7391,?hammer/0.25,?bedroll/0.25",
+                "?jerrycan/0.9,?cookpot/0.7391,?hammer/0.25,?bedroll/0.25",
                 "?camera"
             ]
         },
@@ -8287,71 +8555,6 @@
                 "?bedroll/0.25"
             ]
         },
-        "Climb(AbandonedMine)": {
-            "region": "SunderedPass",
-            "coords": [
-                650,
-                -950
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": []
-        },
-        "AbandonedMine(SP)": {
-            "region": "SunderedPass",
-            "coords": [
-                300,
-                -1200
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": [
-                "mine",
-                "?matches/0.1042,?jerrycan,?canopener/0.0833",
-                "?rope"
-            ]
-        },
-        "BoltChoppersHaven": {
-            "region": "SunderedPass",
-            "coords": [
-                0,
-                -700
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": true,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "mine",
-                "bed",
-                "?cookpot/0.7391"
-            ]
-        },
-        "Basement(RudigersHideout)": {
-            "region": "SunderedPass",
-            "coords": [
-                -100,
-                -400
-            ],
-            "customizable": true,
-            "loading": true,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": [
-                "timberwolf",
-                "bed",
-                "?canopener/0.0833,?hammer/0.25",
-                "?polaroid"
-            ]
-        },
         "Cabin(SnowedIn)": {
             "region": "SunderedPass",
             "coords": [
@@ -8366,7 +8569,8 @@
             "features": [
                 "timberwolf",
                 "bed",
-                "?suitcase/0.5",
+                "?chest,?box,?trash,?bag",
+                "?suitcase/0.3846",
                 "?matches,?skillet/0.7368,?canopener/0.0833",
                 "?saltbag",
                 "?polaroid"
@@ -8386,38 +8590,6 @@
             "features": [
                 "fish",
                 "?potbelly"
-            ]
-        },
-        "PlacidNotch": {
-            "region": "SunderedPass",
-            "coords": [
-                300,
-                -100
-            ],
-            "customizable": true,
-            "loading": false,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": [
-                "timberwolf",
-                "bed,?potbelly",
-                "?cookpot/0.7391,?canopener/0.0833"
-            ]
-        },
-        "CascadingGap": {
-            "region": "SunderedPass",
-            "coords": [
-                300,
-                400
-            ],
-            "customizable": false,
-            "loading": true,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": [
-                "mine"
             ]
         },
         "LottesRest": {
@@ -8505,22 +8677,6 @@
                 "?food/0.625"
             ]
         },
-        "IdleHideout": {
-            "region": "SunderedPass",
-            "coords": [
-                400,
-                -400
-            ],
-            "customizable": false,
-            "loading": true,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": [
-                "mine",
-                "?skillet/0.7368"
-            ]
-        },
         "PrayerfulWindow": {
             "region": "SunderedPass",
             "coords": [
@@ -8551,19 +8707,6 @@
             "features": [
                 "?bedroll/0.25"
             ]
-        },
-        "POI(RouteOneWaterfall)": {
-            "region": "SunderedPass",
-            "coords": [
-                400,
-                400
-            ],
-            "customizable": false,
-            "loading": true,
-            "indoors": true,
-            "cabinfeverrisk": true,
-            "explored": false,
-            "features": []
         },
         "Climb(RC-HPP1)": {
             "region": "SunderedPass",
@@ -8673,7 +8816,7 @@
                 "*climb"
             ]
         },
-        "Transition(SP-TP)": {
+        "Transition(SP~TP)": {
             "region": "SunderedPass",
             "coords": [
                 400,
@@ -8753,7 +8896,9 @@
             "indoors": true,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?safe"
+            ]
         }
     },
     "connections": [
@@ -8769,7 +8914,7 @@
             "Camp(PillarsFootrest)",
             "west",
             "top,left",
-            "Cave(AC-TWM)",
+            "Cave(AC~TWM)",
             "bottom,right",
             "default"
         ],
@@ -8798,7 +8943,7 @@
             "default"
         ],
         [
-            "Cave(AC-TWM)",
+            "Cave(AC~TWM)",
             "north",
             "top,left",
             "Camp(AboveBirchForest)",
@@ -8806,10 +8951,10 @@
             "default"
         ],
         [
-            "Cave(AC-TWM)",
+            "Cave(AC~TWM)",
             "west",
             "bottom,left",
-            "Cave(TWM-AC)",
+            "Cave(TWM~AC)",
             "top,right",
             "default"
         ],
@@ -9209,20 +9354,20 @@
             "FishHut(BitterMarsh)",
             "west",
             "bottom,left",
-            "Transition(AC-TWM)",
+            "Transition(AC~TWM)",
             "top,right",
             "default"
         ],
         [
-            "Transition(AC-TWM)",
+            "Transition(AC~TWM)",
             "west",
             "bottom,left",
-            "Transition(TWM-AC)",
+            "Transition(TWM~AC)",
             "bottom,right",
             "default"
         ],
         [
-            "Transition(TWM-AC)",
+            "Transition(TWM~AC)",
             "west",
             "top,left",
             "POI(EchoRavineJunction)",
@@ -9230,7 +9375,7 @@
             "default"
         ],
         [
-            "Cave(TWM-AC)",
+            "Cave(TWM~AC)",
             "south",
             "bottom,right",
             "Climb(PC-DC)",
@@ -9238,7 +9383,7 @@
             "default"
         ],
         [
-            "Cave(TWM-AC)",
+            "Cave(TWM~AC)",
             "north",
             "top,left",
             "Cave(DeerClearing)",
@@ -9265,7 +9410,7 @@
             "POI(DCCargo)",
             "south",
             "bottom,left",
-            "Climb(TWC-DC)",
+            "Climb(TWC~DC)",
             "top,left",
             "default"
         ],
@@ -9353,7 +9498,7 @@
             "ChasmCave",
             "north",
             "top,right",
-            "Climb(EE-PC)",
+            "Climb(EE~PC)",
             "bottom,left",
             "default"
         ],
@@ -9374,7 +9519,7 @@
             "default"
         ],
         [
-            "Climb(EE-PC)",
+            "Climb(EE~PC)",
             "north",
             "top,right",
             "PrepperCache(TWM)",
@@ -9382,7 +9527,7 @@
             "default"
         ],
         [
-            "Climb(EE-PC)",
+            "Climb(EE~PC)",
             "north",
             "top,left",
             "Cave(ThreeWay)",
@@ -9417,7 +9562,7 @@
             "Cave(ThreeWay)",
             "north",
             "top,left",
-            "Climb(TWC-DC)",
+            "Climb(TWC~DC)",
             "bottom,right",
             "default"
         ],
@@ -9529,7 +9674,7 @@
             "MountaineersHut",
             "west",
             "bottom,left",
-            "Transition(TWM-PV)",
+            "Transition(TWM~PV)",
             "top,right",
             "default"
         ],
@@ -9582,15 +9727,15 @@
             "default"
         ],
         [
-            "Transition(TWM-PV)",
+            "Transition(TWM~PV)",
             "west",
             "bottom,left",
-            "Transition(PV-TWM)",
+            "Transition(PV~TWM)",
             "top,right",
             "default"
         ],
         [
-            "Transition(PV-TWM)",
+            "Transition(PV~TWM)",
             "west",
             "top,left",
             "Climb(PV-TWM)",
@@ -9681,15 +9826,15 @@
             "Climb(EW-WC)",
             "south",
             "bottom,left",
-            "Cave(TWM-BRM)",
+            "Cave(TWM~BRM)",
             "top,right",
             "default"
         ],
         [
-            "Cave(TWM-BRM)",
+            "Cave(TWM~BRM)",
             "west",
             "bottom,left",
-            "Cave(BRM-TWM)",
+            "Cave(BRM~TWM)",
             "top,right",
             "default"
         ],
@@ -9889,7 +10034,7 @@
             "Cave(EndOfTheRoad)",
             "south",
             "bottom,left",
-            "Transition(PV-CH)",
+            "Transition(PV~CH)",
             "top,right",
             "default"
         ],
@@ -9902,7 +10047,7 @@
             "default"
         ],
         [
-            "Transition(PV-CH)",
+            "Transition(PV~CH)",
             "south",
             "bottom,left",
             "CinderHillsCoalMine(Upper)",
@@ -9910,7 +10055,7 @@
             "default"
         ],
         [
-            "Transition(PV-CH)",
+            "Transition(PV~CH)",
             "west",
             "top,left",
             "ThomsonsCrossing",
@@ -9985,12 +10130,12 @@
             "FishHut(PensivePond)",
             "west",
             "top,left",
-            "Cave(PV-WR)",
+            "Cave(PV~WR)",
             "bottom,right",
             "default"
         ],
         [
-            "Cave(PV-WR)",
+            "Cave(PV~WR)",
             "north",
             "top,left",
             "HuntersBlind(HilltopCave)",
@@ -9998,10 +10143,10 @@
             "default"
         ],
         [
-            "Cave(PV-WR)",
+            "Cave(PV~WR)",
             "west",
             "bottom,left",
-            "Transition(PV-WR)",
+            "Transition(PV~WR)",
             "bottom,right",
             "default"
         ],
@@ -10033,7 +10178,7 @@
             "SignalHill",
             "north",
             "top,right",
-            "Transition(PV-KP)",
+            "Transition(PV~KP)",
             "bottom,right",
             "default"
         ],
@@ -10070,7 +10215,7 @@
             "default"
         ],
         [
-            "Transition(PV-KP)",
+            "Transition(PV~KP)",
             "north",
             "top,right",
             "Cave(NorthOfLongCurve)",
@@ -10078,7 +10223,7 @@
             "default"
         ],
         [
-            "Transition(PV-KP)",
+            "Transition(PV~KP)",
             "south",
             "bottom,left",
             "Cave(BelowHilltopCave)",
@@ -10086,10 +10231,10 @@
             "default"
         ],
         [
-            "Transition(PV-KP)",
+            "Transition(PV~KP)",
             "north",
             "top,left",
-            "Transition(KP-PV)",
+            "Transition(KP~PV)",
             "bottom,right",
             "default"
         ],
@@ -10142,7 +10287,7 @@
             "default"
         ],
         [
-            "Transition(KP-PV)",
+            "Transition(KP~PV)",
             "north",
             "top,left",
             "Trailer(KPS)",
@@ -10233,7 +10378,7 @@
             "BuildersBridge(East)",
             "east",
             "top,right",
-            "Transition(KP-BRM)",
+            "Transition(KP~BRM)",
             "top,left",
             "default"
         ],
@@ -10246,10 +10391,10 @@
             "default"
         ],
         [
-            "Transition(KP-BRM)",
+            "Transition(KP~BRM)",
             "north",
             "top,left",
-            "Transition(BRM-KP)",
+            "Transition(BRM~KP)",
             "bottom,left",
             "default"
         ],
@@ -10294,7 +10439,7 @@
             "default"
         ],
         [
-            "Cave(BRM-TWM)",
+            "Cave(BRM~TWM)",
             "west",
             "bottom,left",
             "ForemansClearcut",
@@ -10302,7 +10447,7 @@
             "default"
         ],
         [
-            "Cave(BRM-TWM)",
+            "Cave(BRM~TWM)",
             "north",
             "top,left",
             "BricklayersRetreat",
@@ -10545,7 +10690,7 @@
             "Car(NorthOfKPTunnel)",
             "south",
             "bottom,left",
-            "Transition(BRM-KP)",
+            "Transition(BRM~KP)",
             "top,left",
             "default"
         ],
@@ -10937,7 +11082,7 @@
             "Trailer(TrainUnloading)",
             "west",
             "top,left",
-            "Transition(CH-R)",
+            "Transition(CH~R)",
             "top,right",
             "path"
         ],
@@ -10950,7 +11095,7 @@
             "path"
         ],
         [
-            "Transition(CH-R)",
+            "Transition(CH~R)",
             "south",
             "bottom,left",
             "Cabin(RabbitGrove)",
@@ -10958,10 +11103,10 @@
             "path"
         ],
         [
-            "Transition(CH-R)",
+            "Transition(CH~R)",
             "west",
             "top,left",
-            "Transition(R-CH)",
+            "Transition(R~CH)",
             "top,right",
             "path"
         ],
@@ -11041,20 +11186,20 @@
             "Car(CommutersLament)",
             "south",
             "bottom,left",
-            "Transition(CH-OIC)",
+            "Transition(CH~OIC)",
             "top,left",
             "path"
         ],
         [
-            "Transition(CH-OIC)",
+            "Transition(CH~OIC)",
             "south",
             "bottom,left",
-            "Transition(OIC-CH)",
+            "Transition(OIC~CH)",
             "top,left",
             "path"
         ],
         [
-            "Transition(OIC-CH)",
+            "Transition(OIC~CH)",
             "east",
             "top,right",
             "HarrisBasement",
@@ -11081,20 +11226,20 @@
             "Cave(RoadCollapse)",
             "east",
             "top,right",
-            "Transition(OIC-DP)",
+            "Transition(OIC~DP)",
             "bottom,left",
             "default"
         ],
         [
-            "Transition(OIC-DP)",
+            "Transition(OIC~DP)",
             "east",
             "top,right",
-            "Transition(DP-OIC)",
+            "Transition(DP~OIC)",
             "bottom,left",
             "default"
         ],
         [
-            "Transition(DP-OIC)",
+            "Transition(DP~OIC)",
             "east",
             "top,right",
             "No3Mine",
@@ -11262,7 +11407,7 @@
             "default"
         ],
         [
-            "Transition(R-CH)",
+            "Transition(R~CH)",
             "north",
             "top,left",
             "Tunnel(RavineEast)",
@@ -11337,7 +11482,7 @@
             "Cave(WestRavine)",
             "north",
             "top,left",
-            "Transition(R-ML)",
+            "Transition(R~ML)",
             "bottom,right",
             "default"
         ],
@@ -11366,15 +11511,15 @@
             "default"
         ],
         [
-            "Transition(R-ML)",
+            "Transition(R~ML)",
             "west",
             "top,left",
-            "Transition(ML-R)",
+            "Transition(ML~R)",
             "top,right",
             "path"
         ],
         [
-            "Transition(ML-R)",
+            "Transition(ML~R)",
             "north",
             "top,right",
             "Trailer(DamEast)",
@@ -11401,7 +11546,7 @@
             "Cave(SouthRavine)",
             "south",
             "bottom,left",
-            "Transition(R-BI)",
+            "Transition(R~BI)",
             "top,left",
             "default"
         ],
@@ -11414,15 +11559,15 @@
             "oneway"
         ],
         [
-            "Transition(R-BI)",
+            "Transition(R~BI)",
             "south",
             "bottom,left",
-            "Transition(BI-R)",
+            "Transition(BI~R)",
             "top,left",
             "default"
         ],
         [
-            "Transition(BI-R)",
+            "Transition(BI~R)",
             "south",
             "bottom,left",
             "PrepperCache(BI)",
@@ -11446,15 +11591,15 @@
             "default"
         ],
         [
-            "Cave(BI-FM)",
+            "Cave(BI~FM)",
             "north",
             "top,right",
-            "Cave(FM-BI)",
+            "Cave(FM~BI)",
             "bottom,right",
             "default"
         ],
         [
-            "Cave(BI-FM)",
+            "Cave(BI~FM)",
             "south",
             "bottom,left",
             "HuntersBlind(NorthBI)",
@@ -11462,7 +11607,7 @@
             "default"
         ],
         [
-            "Cave(BI-FM)",
+            "Cave(BI~FM)",
             "south",
             "bottom,right",
             "BunkerAlpha",
@@ -11470,7 +11615,7 @@
             "default"
         ],
         [
-            "Cave(FM-BI)",
+            "Cave(FM~BI)",
             "north",
             "top,left",
             "AbandonedCamp(SE)",
@@ -11478,7 +11623,7 @@
             "default"
         ],
         [
-            "Cave(FM-BI)",
+            "Cave(FM~BI)",
             "west",
             "bottom,left",
             "Cave(MidSouthFM)",
@@ -11486,7 +11631,7 @@
             "default"
         ],
         [
-            "Cave(FM-BI)",
+            "Cave(FM~BI)",
             "east",
             "top,right",
             "POI(MuskegOverlook)",
@@ -11822,15 +11967,15 @@
             "default"
         ],
         [
-            "Transition(ML-FM)",
+            "Transition(ML~FM)",
             "west",
             "top,left",
-            "Transition(FM-ML)",
+            "Transition(FM~ML)",
             "top,right",
             "path"
         ],
         [
-            "Transition(ML-FM)",
+            "Transition(ML~FM)",
             "north",
             "top,left",
             "TrappersHomestead",
@@ -11838,7 +11983,7 @@
             "default"
         ],
         [
-            "Transition(ML-FM)",
+            "Transition(ML~FM)",
             "east",
             "top,right",
             "POI(MidRailArea)",
@@ -11846,7 +11991,7 @@
             "path"
         ],
         [
-            "Transition(ML-FM)",
+            "Transition(ML~FM)",
             "south",
             "bottom,left",
             "Cave(PrepperCache)",
@@ -11854,7 +11999,7 @@
             "oneway"
         ],
         [
-            "Transition(FM-ML)",
+            "Transition(FM~ML)",
             "west",
             "top,left",
             "POI(EasternFMRailroad)",
@@ -11921,7 +12066,7 @@
             "POI(WesternFMRailroad)",
             "west",
             "top,left",
-            "Transition(FM-BR)",
+            "Transition(FM~BR)",
             "top,right",
             "path"
         ],
@@ -11942,15 +12087,15 @@
             "default"
         ],
         [
-            "Transition(FM-BR)",
+            "Transition(FM~BR)",
             "west",
             "top,left",
-            "Transition(BR-FM)",
+            "Transition(BR~FM)",
             "top,right",
             "path"
         ],
         [
-            "Transition(FM-MT)",
+            "Transition(FM~MT)",
             "south",
             "bottom,left",
             "Cave(MarshRidge)",
@@ -11958,10 +12103,10 @@
             "default"
         ],
         [
-            "Transition(FM-MT)",
+            "Transition(FM~MT)",
             "north",
             "top,left",
-            "Transition(MT-FM)",
+            "Transition(MT~FM)",
             "bottom,right",
             "default"
         ],
@@ -11990,7 +12135,7 @@
             "default"
         ],
         [
-            "Transition(BR-FM)",
+            "Transition(BR~FM)",
             "west",
             "top,left",
             "POI(LocomotiveEngine)",
@@ -12161,7 +12306,7 @@
             "TrappersHomestead",
             "west",
             "top,left",
-            "Cave(ML-MT)",
+            "Cave(ML~MT)",
             "top,right",
             "default"
         ],
@@ -12193,7 +12338,7 @@
             "UpperDam",
             "east",
             "bottom,right",
-            "Transition(ML-WR)",
+            "Transition(ML~WR)",
             "bottom,left",
             "path"
         ],
@@ -12438,10 +12583,10 @@
             "default"
         ],
         [
-            "Cave(ML-MT)",
+            "Cave(ML~MT)",
             "east",
             "bottom,right",
-            "Cave(MT-ML)",
+            "Cave(MT~ML)",
             "top,right",
             "default"
         ],
@@ -12486,15 +12631,15 @@
             "default"
         ],
         [
-            "Transition(ML-WR)",
+            "Transition(ML~WR)",
             "east",
             "bottom,right",
-            "Transition(WR-ML)",
+            "Transition(WR~ML)",
             "bottom,left",
             "path"
         ],
         [
-            "Transition(WR-ML)",
+            "Transition(WR~ML)",
             "east",
             "bottom,right",
             "LowerDam",
@@ -12513,28 +12658,28 @@
             "Cave(WindingRiver)",
             "north",
             "top,right",
-            "Cave(WR-PV)",
+            "Cave(WR~PV)",
             "bottom,left",
             "default"
         ],
         [
-            "Cave(WR-PV)",
+            "Cave(WR~PV)",
             "east",
             "bottom,right",
-            "Transition(WR-PV)",
+            "Transition(WR~PV)",
             "bottom,left",
             "default"
         ],
         [
-            "Transition(WR-PV)",
+            "Transition(WR~PV)",
             "east",
             "bottom,right",
-            "Transition(PV-WR)",
+            "Transition(PV~WR)",
             "bottom,left",
             "default"
         ],
         [
-            "Cave(MT-ML)",
+            "Cave(MT~ML)",
             "west",
             "bottom,left",
             "Climb(MP-R)",
@@ -12793,7 +12938,7 @@
             "Cave(Graveyard)",
             "north",
             "top,right",
-            "Cave(MT-HRV)",
+            "Cave(MT~HRV)",
             "bottom,left",
             "default"
         ],
@@ -12809,12 +12954,12 @@
             "Trailer(MT)",
             "east",
             "top,right",
-            "Cave(MT-HRV)",
+            "Cave(MT~HRV)",
             "top,left",
             "path"
         ],
         [
-            "Cave(MT-HRV)",
+            "Cave(MT~HRV)",
             "east",
             "top,right",
             "BearCave(SpruceFallsBridge)",
@@ -12822,10 +12967,10 @@
             "default"
         ],
         [
-            "Cave(MT-HRV)",
+            "Cave(MT~HRV)",
             "north",
             "top,left",
-            "Transition(MT-HRV)",
+            "Transition(MT~HRV)",
             "bottom,left",
             "default"
         ],
@@ -12849,20 +12994,20 @@
             "HermitsCabin",
             "south",
             "bottom,right",
-            "Transition(MT-FM)",
+            "Transition(MT~FM)",
             "top,left",
             "default"
         ],
         [
-            "Cave(HRV-MT)",
+            "Cave(HRV~MT)",
             "south",
             "bottom,left",
-            "Transition(HRV-MT)",
+            "Transition(HRV~MT)",
             "top,left",
             "default"
         ],
         [
-            "Cave(HRV-MT)",
+            "Cave(HRV~MT)",
             "north",
             "top,left",
             "PrepperCache(HRV)",
@@ -12870,7 +13015,7 @@
             "oneway"
         ],
         [
-            "Cave(HRV-MT)",
+            "Cave(HRV~MT)",
             "west",
             "bottom,left",
             "SnowShelter(CloudtopFalls)",
@@ -12878,7 +13023,7 @@
             "default"
         ],
         [
-            "Cave(HRV-MT)",
+            "Cave(HRV~MT)",
             "north",
             "top,right",
             "LonelyCave",
@@ -12886,10 +13031,10 @@
             "oneway"
         ],
         [
-            "Transition(HRV-MT)",
+            "Transition(HRV~MT)",
             "south",
             "bottom,left",
-            "Transition(MT-HRV)",
+            "Transition(MT~HRV)",
             "top,left",
             "default"
         ],
@@ -13201,7 +13346,7 @@
             "Truck(BrokenBridge)",
             "west",
             "top,left",
-            "Transition(BR-FRBL)",
+            "Transition(BR~FRBL)",
             "top,right",
             "path"
         ],
@@ -13254,15 +13399,15 @@
             "default"
         ],
         [
-            "Transition(BR-FRBL)",
+            "Transition(BR~FRBL)",
             "west",
             "top,left",
-            "Transition(FRBL-BR)",
+            "Transition(FRBL~BR)",
             "top,right",
             "path"
         ],
         [
-            "Transition(FRBL-BR)",
+            "Transition(FRBL~BR)",
             "west",
             "top,left",
             "POI(RailOffice)",
@@ -13305,20 +13450,20 @@
             "RemnantCave",
             "west",
             "top,left",
-            "Transition(FRBL-TP)",
+            "Transition(FRBL~TP)",
             "top,right",
             "path"
         ],
         [
-            "Transition(FRBL-TP)",
+            "Transition(FRBL~TP)",
             "west",
             "top,left",
-            "Transition(TP-FRBL)",
+            "Transition(TP~FRBL)",
             "top,right",
             "path"
         ],
         [
-            "Transition(TP-FRBL)",
+            "Transition(TP~FRBL)",
             "north",
             "top,left",
             "FeedwaterCave",
@@ -13337,7 +13482,7 @@
             "VacantDepot",
             "east",
             "top,right",
-            "Transition(TP-ZOC)",
+            "Transition(TP~ZOC)",
             "top,left",
             "path"
         ],
@@ -13345,7 +13490,7 @@
             "VacantDepot",
             "west",
             "top,left",
-            "Transition(TP-FA)",
+            "Transition(TP~FA)",
             "top,right",
             "default"
         ],
@@ -13358,15 +13503,15 @@
             "default"
         ],
         [
-            "Transition(TP-ZOC)",
+            "Transition(TP~ZOC)",
             "east",
             "top,right",
-            "Transition(ZOC-TP)",
+            "Transition(ZOC~TP)",
             "top,left",
             "path"
         ],
         [
-            "Transition(ZOC-TP)",
+            "Transition(ZOC~TP)",
             "north",
             "top,right",
             "Cave(WelkinsWindow)",
@@ -13394,19 +13539,19 @@
             "east",
             "bottom,right",
             "IdleCamp",
-            "bottom,left",
+            "top,left",
             "path"
         ],
         [
             "POI(DubiousOverlook)",
             "north",
             "top,right",
-            "Cave(ZOC-FA-SP)",
+            "Cave(ZOC~FA~SP)",
             "bottom,left",
             "default"
         ],
         [
-            "Cave(ZOC-FA-SP)",
+            "Cave(ZOC~FA~SP)",
             "east",
             "top,right",
             "Trailer(LangstonMine)",
@@ -13414,7 +13559,7 @@
             "default"
         ],
         [
-            "Cave(ZOC-FA-SP)",
+            "Cave(ZOC~FA~SP)",
             "north",
             "top,left",
             "Climb(ZOC)",
@@ -13422,7 +13567,7 @@
             "default"
         ],
         [
-            "Cave(ZOC-FA-SP)",
+            "Cave(ZOC~FA~SP)",
             "south",
             "bottom,right",
             "OutdoorShelter(NearEnduringWaterfall)",
@@ -13430,10 +13575,10 @@
             "default"
         ],
         [
-            "Cave(ZOC-FA-SP)",
+            "Cave(ZOC~FA~SP)",
             "north",
             "top,left",
-            "Cave(FA-ZOC-SP)",
+            "Cave(FA~ZOC~SP)",
             "bottom,right",
             "default"
         ],
@@ -13454,12 +13599,44 @@
             "default"
         ],
         [
+            "Climb(ZOC)",
+            "north",
+            "top,left",
+            "SmokersCave",
+            "top,left",
+            "default"
+        ],
+        [
+            "SmokersCave",
+            "south",
+            "bottom,right",
+            "MinersFootpath",
+            "top,left",
+            "default"
+        ],
+        [
+            "SmokersCave",
+            "south",
+            "bottom,left",
+            "Cave(NearTrailer)",
+            "top,left",
+            "default"
+        ],
+        [
             "LangstonMine(Floor3)",
             "east",
             "top,right",
             "LangstonMine(Floor2)",
             "top,left",
             "default"
+        ],
+        [
+            "LangstonMine(Floor3)",
+            "south",
+            "bottom,left",
+            "IdleCamp",
+            "top,left",
+            "fake"
         ],
         [
             "LangstonMine(Floor3)",
@@ -13487,14 +13664,6 @@
         ],
         [
             "LangstonMine(Floor1)",
-            "east",
-            "top,right",
-            "IndolentHoppers",
-            "bottom,left",
-            "fake"
-        ],
-        [
-            "LangstonMine(Floor1)",
             "south",
             "bottom,left",
             "Concentrator",
@@ -13510,15 +13679,55 @@
             "path"
         ],
         [
-            "IndolentHoppers",
+            "Concentrator",
             "south",
             "bottom,left",
+            "PumpHouse",
+            "top,right",
+            "path"
+        ],
+        [
+            "Concentrator",
+            "south",
+            "bottom,right",
+            "IdleCamp(DormNearTracks)",
+            "top,right",
+            "path"
+        ],
+        [
+            "Concentrator",
+            "east",
+            "top,right",
+            "Headframe",
+            "top,left",
+            "path"
+        ],
+        [
+            "TrainStation",
+            "north",
+            "top,left",
+            "IndolentHoppers(Middle)",
+            "bottom,left",
+            "path"
+        ],
+        [
+            "TrainStation",
+            "north",
+            "top,right",
+            "IndolentHoppers(Far)",
+            "bottom,left",
+            "path"
+        ],
+        [
+            "TrainStation",
+            "west",
+            "top,left",
             "Headframe",
             "top,right",
             "path"
         ],
         [
-            "IndolentHoppers",
+            "IndolentHoppers(Far)",
             "north",
             "top,left",
             "POI(OldCorral)",
@@ -13526,7 +13735,7 @@
             "default"
         ],
         [
-            "IndolentHoppers",
+            "IndolentHoppers(Far)",
             "south",
             "bottom,right",
             "POI(TurbulentPasture)",
@@ -13534,20 +13743,28 @@
             "default"
         ],
         [
-            "Concentrator",
-            "south",
-            "bottom,left",
-            "IdleCamp",
+            "Headframe",
+            "north",
             "top,right",
+            "IndolentHoppers(Near)",
+            "bottom,right",
             "path"
         ],
         [
-            "Concentrator",
+            "IdleCamp",
             "east",
+            "bottom,right",
+            "IdleCamp(OtherDorm)",
+            "bottom,left",
+            "default"
+        ],
+        [
+            "IdleCamp",
+            "north",
             "top,right",
-            "Headframe",
-            "top,left",
-            "path"
+            "IdleCamp(DormNearTracks)",
+            "bottom,left",
+            "default"
         ],
         [
             "IdleCamp",
@@ -13567,26 +13784,10 @@
         ],
         [
             "MinersFootpath",
-            "north",
-            "top,left",
-            "SmokersCave",
-            "bottom,right",
-            "default"
-        ],
-        [
-            "MinersFootpath",
             "west",
             "top,left",
             "Cave(NearTrailer)",
             "top,right",
-            "default"
-        ],
-        [
-            "SmokersCave",
-            "south",
-            "bottom,left",
-            "Cave(NearTrailer)",
-            "top,left",
             "default"
         ],
         [
@@ -13598,15 +13799,15 @@
             "default"
         ],
         [
-            "Transition(TP-FA)",
+            "Transition(TP~FA)",
             "west",
             "top,left",
-            "Transition(FA-TP)",
+            "Transition(FA~TP)",
             "top,right",
             "default"
         ],
         [
-            "Transition(FA-TP)",
+            "Transition(FA~TP)",
             "west",
             "top,left",
             "POI(Shortcut)",
@@ -13729,7 +13930,7 @@
             "BunkerOmega",
             "north",
             "top,left",
-            "Cave(FA-ZOC-SP)",
+            "Cave(FA~ZOC~SP)",
             "bottom,left",
             "default"
         ],
@@ -13742,7 +13943,7 @@
             "default"
         ],
         [
-            "Cave(FA-ZOC-SP)",
+            "Cave(FA~ZOC~SP)",
             "west",
             "top,left",
             "FallowDugout",
@@ -13750,10 +13951,10 @@
             "default"
         ],
         [
-            "Cave(FA-ZOC-SP)",
+            "Cave(FA~ZOC~SP)",
             "north",
             "top,right",
-            "Cave(SP-ZOC-FA)",
+            "Cave(SP~ZOC~FA)",
             "bottom,left",
             "default"
         ],
@@ -13870,7 +14071,7 @@
             "default"
         ],
         [
-            "Cave(SP-ZOC-FA)",
+            "Cave(SP~ZOC~FA)",
             "north",
             "top,left",
             "POI(PerilousCrossing)",
@@ -13878,7 +14079,7 @@
             "default"
         ],
         [
-            "Cave(SP-ZOC-FA)",
+            "Cave(SP~ZOC~FA)",
             "south",
             "bottom,right",
             "Climb(LLH-CC)",
@@ -13894,10 +14095,26 @@
             "default"
         ],
         [
+            "POI(PerilousCrossing)",
+            "north",
+            "top,left",
+            "OpenCave(OgresTeardrop)",
+            "bottom,right",
+            "default"
+        ],
+        [
+            "Climb(SP-WC)",
+            "south",
+            "bottom,left",
+            "Garage(WeatherStation)",
+            "top,left",
+            "default"
+        ],
+        [
             "Climb(SP-WC)",
             "north",
             "top,left",
-            "Garage(WeatherStation)",
+            "POI(TreeBridgeSouthOfMine)",
             "bottom,left",
             "default"
         ],
@@ -13919,26 +14136,10 @@
         ],
         [
             "Garage(WeatherStation)",
-            "north",
-            "top,left",
-            "CrashSite(SP)",
-            "bottom,left",
-            "default"
-        ],
-        [
-            "Garage(WeatherStation)",
             "south",
             "bottom,right",
-            "IdleHideout",
-            "top,left",
-            "oneway"
-        ],
-        [
-            "Garage(WeatherStation)",
-            "north",
-            "top,right",
             "StationBunkhouse",
-            "bottom,left",
+            "top,left",
             "default"
         ],
         [
@@ -13966,10 +14167,34 @@
             "default"
         ],
         [
+            "Truck(WeatherStationBridge)",
+            "south",
+            "bottom,right",
+            "IdleHideout",
+            "top,left",
+            "oneway"
+        ],
+        [
+            "POI(TreeBridgeSouthOfMine)",
+            "north",
+            "top,left",
+            "Climb(AbandonedMine)",
+            "bottom,left",
+            "default"
+        ],
+        [
+            "Climb(AbandonedMine)",
+            "west",
+            "top,left",
             "CrashSite(SP)",
+            "top,right",
+            "default"
+        ],
+        [
+            "Climb(AbandonedMine)",
             "east",
             "top,right",
-            "Climb(AbandonedMine)",
+            "AbandonedMine(SP)",
             "top,left",
             "default"
         ],
@@ -13990,25 +14215,17 @@
             "default"
         ],
         [
-            "Climb(AbandonedMine)",
-            "east",
-            "top,right",
-            "AbandonedMine(SP)",
-            "top,left",
-            "default"
-        ],
-        [
             "AbandonedMine(SP)",
             "south",
             "bottom,right",
             "BoltChoppersHaven",
-            "top,left",
+            "top,right",
             "default"
         ],
         [
             "BoltChoppersHaven",
-            "east",
-            "top,right",
+            "south",
+            "bottom,right",
             "Basement(RudigersHideout)",
             "top,left",
             "default"
@@ -14177,7 +14394,7 @@
             "LottesRest",
             "south",
             "bottom,left",
-            "Transition(SP-TP)",
+            "Transition(SP~TP)",
             "top,left",
             "path"
         ],
@@ -14185,7 +14402,7 @@
             "Climb(TP-SP)",
             "north",
             "top,left",
-            "Transition(TP-SP)",
+            "Transition(TP~SP)",
             "bottom,left",
             "default"
         ],
@@ -14201,15 +14418,15 @@
             "MiserableHaunt",
             "south",
             "bottom,left",
-            "Transition(SP-TP)",
+            "Transition(SP~TP)",
             "top,left",
             "default"
         ],
         [
-            "Transition(SP-TP)",
+            "Transition(SP~TP)",
             "south",
             "bottom,left",
-            "Transition(TP-SP)",
+            "Transition(TP~SP)",
             "top,left",
             "default"
         ],

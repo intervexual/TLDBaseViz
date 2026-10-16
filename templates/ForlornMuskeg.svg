@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="3000" viewBox="0 0 2500 3000">
+     width="2500" height="3500" viewBox="0 0 2500 3500">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="3000" fill="#e0f3f1" />
+<rect x="0" y="0" width="2500" height="3500" fill="#e0f3f1" />
 <g id="bases">
-<g id="Transition(FM-ML)">
-<g id="Transition(FM-ML)">
+<g id="Transition(FM~ML)">
+<g id="Transition(FM~ML)">
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(FM-ML):features"></g>
-<g id="Transition(FM-ML):header">
-<text x="1511.25" y="1512.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM-ML)</text>
+<g id="Transition(FM~ML):features"></g>
+<g id="Transition(FM~ML):header">
+<text x="1511.25" y="1512.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM~ML)</text>
 </g>
 </g>
 </g>
@@ -177,10 +177,10 @@
 </g>
 <path d="M1441.25,1601.25 L1341.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M1341.25,1701.25 L1341.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Cave(FM-BI)">
+<g id="Cave(FM~BI)">
 <rect x="1341.25" y="1721.25" width="40.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Cave(FM-BI):features">
-<g id="mine:Cave(FM-BI):0:0">
+<g id="Cave(FM~BI):features">
+<g id="mine:Cave(FM~BI):0:0">
 <g id="import" transform="translate(1351.25, 1735.0) scale(0.7559093211178387)">
 <path d="M9.75213,24.3995 C9.75213,25.5364,8.8385,26.4583,7.71402,26.4583 C6.58955,26.4583,5.67176,25.5364,5.67176,24.3995 C5.67176,23.2626,6.58955,22.3366,7.71402,22.3366 C8.8385,22.3366,9.75213,23.2626,9.75213,24.3995 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 <path d="M20.7945,24.3995 C20.7945,25.5364,19.8767,26.4583,18.7522,26.4583 C17.6278,26.4583,16.71,25.5364,16.71,24.3995 C16.71,24.3458,16.71,24.3003,16.7141,24.2507 C16.7182,24.2217,16.7182,24.1928,16.7224,24.1639 C16.8423,23.1386,17.7063,22.3366,18.7522,22.3366 C19.7982,22.3366,20.6622,23.1386,20.7821,24.1639 C20.7862,24.1928,20.7862,24.2217,20.7904,24.2507 C20.7945,24.3003,20.7945,24.3458,20.7945,24.3995 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
@@ -191,7 +191,7 @@
 <path d="M22.9688,8.81371 C22.944,8.81785,22.9234,8.81785,22.8986,8.81785 C22.8779,8.81785,22.8572,8.81785,22.8283,8.81371 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
-<g id="bed:Cave(FM-BI):0:1">
+<g id="bed:Cave(FM~BI):0:1">
 <g id="import" transform="translate(1351.25, 1757.5) scale(0.7697636825494574)">
 <path d="M2.43402,10.4241 C2.43402,10.2654,2.30173,10.1066,2.11652,10.1066 L0.317357,10.1066 C0.158607,10.1066,-0.0001423,10.2389,-0.0001423,10.4241 L-0.0001423,23.9179 C-0.0001423,24.0766,0.132149,24.2354,0.317357,24.2354 L2.11652,24.2354 C2.27527,24.2354,2.43402,24.1031,2.43402,23.9179 L2.43402,21.272 L23.5477,21.272 L23.5477,23.9179 C23.5477,24.0766,23.68,24.2354,23.8652,24.2354 L25.6644,24.2354 C25.8232,24.2354,25.9819,24.1031,25.9819,23.9179 L25.9819,18.8643 L2.46048,18.8643 L2.46048,10.4241 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 <path d="M23.389,14.5252 L11.959,12.0645 C10.9536,11.8529,10.0276,12.6202,10.0276,13.6256 L10.0276,17.8589 L25.9554,17.8589 L25.9554,17.7002 C25.9554,16.1656,24.8971,14.8427,23.389,14.5252 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
@@ -201,8 +201,8 @@
 </g>
 </g>
 </g>
-<g id="Cave(FM-BI):header">
-<text x="1361.25" y="1730.4829545454545" font-size="4.431818181818182" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Cave(FM-BI)</text>
+<g id="Cave(FM~BI):header">
+<text x="1361.25" y="1730.4829545454545" font-size="4.431818181818182" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Cave(FM~BI)</text>
 </g>
 </g>
 <path d="M1301.25,1661.25 L1281.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
@@ -577,11 +577,11 @@
 </g>
 <path d="M961.25,1461.25 L1261.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
 <path d="M921.25,1461.25 L901.25,1461.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
-<g id="Transition(FM-BR)">
+<g id="Transition(FM~BR)">
 <rect x="881.25" y="1461.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(FM-BR):features"></g>
-<g id="Transition(FM-BR):header">
-<text x="891.25" y="1472.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM-BR)</text>
+<g id="Transition(FM~BR):features"></g>
+<g id="Transition(FM~BR):header">
+<text x="891.25" y="1472.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM~BR)</text>
 </g>
 </g>
 <path d="M961.25,1461.25 L961.25,1441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
@@ -688,11 +688,11 @@
 </g>
 </g>
 <path d="M921.25,1141.25 L921.25,1121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Transition(FM-MT)">
+<g id="Transition(FM~MT)">
 <rect x="921.25" y="1101.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(FM-MT):features"></g>
-<g id="Transition(FM-MT):header">
-<text x="931.25" y="1112.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM-MT)</text>
+<g id="Transition(FM~MT):features"></g>
+<g id="Transition(FM~MT):header">
+<text x="931.25" y="1112.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(FM~MT)</text>
 </g>
 </g>
 <path d="M921.25,1201.25 L901.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
@@ -778,19 +778,35 @@
 <path d="M1081.25,1201.25 L1381.25,1341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 </g>
 <path d="M1461.25,1681.25 L1461.25,1701.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding bring (needs source)">
+<g id="to move from (ForlornMuskeg)">
 <rect x="1461.25" y="1701.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
-<g id="outstanding bring (needs source):features"></g>
-<g id="outstanding bring (needs source):header">
-<text x="1471.25" y="1712.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
+<g id="to move from (ForlornMuskeg):features"></g>
+<g id="to move from (ForlornMuskeg):header">
+<text x="1471.25" y="1712.0424107142858" font-size="0.6696428571428572" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (ForlornMuskeg)</text>
 </g>
 </g>
 <path d="M1461.25,1721.25 L1461.25,1741.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding take (needs destination)">
+<g id="to bring to (ForlornMuskeg)">
 <rect x="1461.25" y="1741.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
-<g id="outstanding take (needs destination):features"></g>
-<g id="outstanding take (needs destination):header">
-<text x="1471.25" y="1752.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
+<g id="to bring to (ForlornMuskeg):features"></g>
+<g id="to bring to (ForlornMuskeg):header">
+<text x="1471.25" y="1752.048611111111" font-size="0.6944444444444444" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (ForlornMuskeg)</text>
+</g>
+</g>
+<path d="M1461.25,1761.25 L1461.25,1781.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="move within ForlornMuskeg">
+<rect x="1461.25" y="1781.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="move within ForlornMuskeg:features"></g>
+<g id="move within ForlornMuskeg:header">
+<text x="1471.25" y="1792.0625" font-size="0.75" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within ForlornMuskeg</text>
+</g>
+</g>
+<path d="M1461.25,1801.25 L1461.25,1821.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="no source for ForlornMuskeg">
+<rect x="1461.25" y="1821.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<g id="no source for ForlornMuskeg:features"></g>
+<g id="no source for ForlornMuskeg:header">
+<text x="1471.25" y="1832.048611111111" font-size="0.6944444444444444" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for ForlornMuskeg</text>
 </g>
 </g>
 <g id="legend">

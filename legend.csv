@@ -62,15 +62,27 @@ pillow	pillow	furniture	customization	customization			TRUE	TRUE
 calendar	desk calendar	furniture	customization	customization			TRUE	TRUE		
 floppy	floppy disk	furniture	customization	customization			TRUE	TRUE		
 horseshoe	horseshoe	furniture	customization	customization		3	TRUE	TRUE		
-wallshelf	wall shelf	furniture	customization	customization			TRUE	TRUE		
+wallshelf	wall shelf (portable)	furniture	customization	customization			TRUE	TRUE		
+wallshelffixed	wall shelf (non-portable)	furniture	customization	customization			TRUE	TRUE		
 crate	crate (portable)	furniture	customization	customization			TRUE	TRUE		
+bucket	metal bucket	furniture	customization	customization			TRUE	TRUE		
 buildout	outdoor customization site	furniture	customization	customization			FALSE	TRUE		
+deermount	deer mount	furniture	decoration	customization			TRUE	TRUE		
+moosemount	moose mount	furniture	decoration	customization		1	TRUE	TRUE		
+fishmount	fish mount	furniture	decoration	customization			TRUE	TRUE		
+painting	framed painting	furniture	decoration	customization			TRUE	TRUE		
+smallframe	small framed painting	furniture	decoration	customization			TRUE	TRUE		
+signposter	tourism poster	furniture	decoration	customization			TRUE	TRUE		
+poster	poster	furniture	decoration	customization			TRUE	TRUE		
+wallcalendar	wall-only poster	furniture	decoration	customization			TRUE	TRUE		
+clock	wall clock	furniture	decoration	customization			TRUE	TRUE		
+bulletin	bulletin board	furniture	decoration	customization			TRUE	TRUE		
+festive	festive lights (portable)	furniture	decoration	customization		20	TRUE	TRUE		4 sets. 4 in dam, 5 at Trapper.
+lights	lights (non-portable)	furniture	decoration	customization		3	FALSE	TRUE		
+rug	rug	furniture	decoration	customization			TRUE	TRUE		
+mat	mat (small rug)	furniture	decoration	customization			TRUE	TRUE		
 floor	on the floor	furniture	meta	customization			TRUE	TRUE	0	
-rug	rug	furniture	meta	customization			TRUE	TRUE		
-mat	mat (small rug)	furniture	meta	customization			TRUE	TRUE		
 lamp	aurora light source	furniture	meta	customization			TRUE	TRUE		
-festive	festive lights (portable)	furniture	meta	customization		20	TRUE	TRUE		4 sets. 4 in dam, 5 at Trapper.
-lights	lights (non-portable)	furniture	meta	customization		3	FALSE	TRUE		
 decor	walls are decorated	furniture	meta	customization			TRUE	TRUE		
 contd	inside last container	furniture	meta	customization			TRUE	TRUE	0	
 outside	found directly outside	furniture	meta	customization			TRUE	TRUE	0	
@@ -133,6 +145,7 @@ hook	hook	tools	exploring	tools			TRUE	TRUE
 tackle	fishing tackle	tools	exploring	tools			TRUE	TRUE		
 bedroll	cloth bedroll	tools	exploring	tools		8	TRUE	TRUE		good
 bearroll	bearskin bedroll	tools	exploring	tools			TRUE	TRUE		
+travois	travois	tools	exploring	tools			TRUE	TRUE		
 quality	quality tools	tools	crafting	tools			TRUE	TRUE		fine
 simple	simple tools	tools	crafting	tools			TRUE	TRUE		fine
 woodworking	woodworking tools	tools	crafting	tools		4	TRUE	TRUE		fine
@@ -140,7 +153,7 @@ sewing	sewing kit	tools	crafting	tools			TRUE	TRUE
 whetstone	whetstone	tools	crafting	tools			TRUE	TRUE		
 guncleaner	firearm cleaning kit	tools	crafting	tools			TRUE	FALSE		
 research	research book	tools	crafting	tools			TRUE	TRUE		
-cannister	cannister	misc	aid	consumable			TRUE	TRUE		not great
+canister	canister	misc	aid	consumable			TRUE	TRUE		not great
 bandage	bandage	misc	aid	consumable			TRUE	TRUE		
 antiseptic	antiseptic	misc	aid	consumable			TRUE	TRUE		
 dressing	old man’s beard wound dressing	misc	aid	consumable			TRUE	TRUE		
@@ -152,14 +165,20 @@ rosehip	rose hip	misc	herbs	consumable			TRUE	TRUE
 reishi	reishi mushroom	misc	herbs	consumable			TRUE	TRUE		
 lichen	old man’s beard lichen	misc	herbs	consumable			TRUE	TRUE		
 bark	birch bark	misc	herbs	consumable			TRUE	TRUE		fine
-acorns	acorns	misc	herbs	consumable			TRUE	TRUE		
+acorns	acorns (unprocessed)	misc	herbs	consumable			TRUE	TRUE		
+preppedacorns	prepared acorns	misc	herbs	consumable			TRUE	TRUE		
+cookedacorns	cooked acorns	misc	herbs	consumable			TRUE	TRUE		
+grounds	acorn grounds	misc	herbs	consumable			TRUE	TRUE		
+water	potable water	misc	cooking	consumable	other		TRUE	TRUE		
 food	food (general)	misc	cooking	consumable			TRUE	TRUE		
 shaker	salt shaker	misc	cooking	consumable			TRUE	TRUE		
 saltbag	salt bag	misc	cooking	consumable			TRUE	TRUE		
-water	potable water	misc	cooking	consumable	other		TRUE	TRUE		
+broth	broth	misc	cooking	consumable			TRUE	TRUE		
 cattail	cattail stalks	misc	cooking	consumable			TRUE	TRUE		
 oats	oats	misc	cooking	consumable			TRUE	TRUE		
 flour	old mill flour	misc	cooking	consumable			TRUE	TRUE		kind of hard to distinguish from oats
+rawmeat	raw meat (1kg)	misc	cooking	consumable			TRUE	TRUE		
+cookedmeat	cooked meat (1kg)	misc	cooking	consumable			TRUE	TRUE		
 curedfish	cured fish	misc	cooking	consumable			TRUE	TRUE		
 curedmeat	cured meat	misc	cooking	consumable			TRUE	TRUE		
 pemmican	pemmican bar	misc	cooking	consumable			TRUE	TRUE		not great
@@ -184,6 +203,7 @@ film	FastFilm-500 (any type)	misc	navigation	misc			TRUE	TRUE
 paper	newspaper or stack of papers	misc	navigation	misc			TRUE	TRUE		
 tinder	tinder plug	misc	navigation	misc			TRUE	TRUE		
 head	cattail head	misc	navigation	misc			TRUE	TRUE		
+cash	cash	misc	navigation	misc			TRUE	TRUE		
 fuse	replacement fuse	misc	navigation	misc			TRUE	TRUE		replace!
 wires	wires	misc	navigation	misc			TRUE	TRUE		
 battery	car battery	misc	navigation	misc			TRUE	TRUE		
@@ -216,6 +236,7 @@ techbalaclava	technical balaclava	clothing	head	clothing		1	TRUE	TRUE		good
 balaclava	balaclava	clothing	head	clothing			TRUE	TRUE		good
 rabbithat	rabbitskin hat	clothing	head	clothing	rabbit		TRUE	TRUE		fine
 toque	wool toque	clothing	head	clothing			TRUE	TRUE		fine
+hardhat	hardhat	clothing	head	clothing			TRUE	TRUE		
 bearcoat	bearskin coat	clothing	outer-torso	clothing			TRUE	TRUE		to-improve
 expedition	expedition parka	clothing	outer-torso	clothing			TRUE	FALSE		fine
 wolfcoat	wolfskin coat	clothing	outer-torso	clothing			TRUE	TRUE		good

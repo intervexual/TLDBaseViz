@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="3000" viewBox="0 0 2500 3000">
+     width="2500" height="3500" viewBox="0 0 2500 3500">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="3000" fill="#e0f3f1" />
+<rect x="0" y="0" width="2500" height="3500" fill="#e0f3f1" />
 <g id="bases">
-<g id="Transition(R-CH)">
-<g id="Transition(R-CH)">
+<g id="Transition(R~CH)">
+<g id="Transition(R~CH)">
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(R-CH):features"></g>
-<g id="Transition(R-CH):header">
-<text x="1511.25" y="1512.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R-CH)</text>
+<g id="Transition(R~CH):features"></g>
+<g id="Transition(R~CH):header">
+<text x="1511.25" y="1512.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R~CH)</text>
 </g>
 </g>
 </g>
@@ -192,11 +192,11 @@
 <path d="M1321.25,1321.25 L1321.25,1421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M1221.25,1421.25 L1281.25,1421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M1121.25,1321.25 L1121.25,1301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Transition(R-ML)">
+<g id="Transition(R~ML)">
 <rect x="1101.25" y="1281.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(R-ML):features"></g>
-<g id="Transition(R-ML):header">
-<text x="1111.25" y="1292.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R-ML)</text>
+<g id="Transition(R~ML):features"></g>
+<g id="Transition(R~ML):header">
+<text x="1111.25" y="1292.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R~ML)</text>
 </g>
 </g>
 <path d="M1121.25,1421.25 L1121.25,1441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
@@ -286,29 +286,45 @@
 </g>
 </g>
 <path d="M1281.25,1581.25 L1281.25,1601.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Transition(R-BI)">
+<g id="Transition(R~BI)">
 <rect x="1281.25" y="1601.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
-<g id="Transition(R-BI):features"></g>
-<g id="Transition(R-BI):header">
-<text x="1291.25" y="1612.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R-BI)</text>
+<g id="Transition(R~BI):features"></g>
+<g id="Transition(R~BI):header">
+<text x="1291.25" y="1612.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(R~BI)</text>
 </g>
 </g>
 <path d="M1341.25,1481.25 L1421.25,1461.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" />
 </g>
 <path d="M1281.25,1621.25 L1281.25,1641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding bring (needs source)">
+<g id="to move from (Ravine)">
 <rect x="1281.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
-<g id="outstanding bring (needs source):features"></g>
-<g id="outstanding bring (needs source):header">
-<text x="1291.25" y="1652.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding bring (needs source)</text>
+<g id="to move from (Ravine):features"></g>
+<g id="to move from (Ravine):header">
+<text x="1291.25" y="1652.0982142857142" font-size="0.8928571428571428" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (Ravine)</text>
 </g>
 </g>
 <path d="M1281.25,1661.25 L1281.25,1681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
-<g id="outstanding take (needs destination)">
+<g id="to bring to (Ravine)">
 <rect x="1281.25" y="1681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
-<g id="outstanding take (needs destination):features"></g>
-<g id="outstanding take (needs destination):header">
-<text x="1291.25" y="1692.0052083333333" font-size="0.5208333333333333" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding take (needs destination)</text>
+<g id="to bring to (Ravine):features"></g>
+<g id="to bring to (Ravine):header">
+<text x="1291.25" y="1692.109375" font-size="0.9375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (Ravine)</text>
+</g>
+</g>
+<path d="M1281.25,1701.25 L1281.25,1721.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="move within Ravine">
+<rect x="1281.25" y="1721.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
+<g id="move within Ravine:features"></g>
+<g id="move within Ravine:header">
+<text x="1291.25" y="1732.1354166666667" font-size="1.0416666666666665" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within Ravine</text>
+</g>
+</g>
+<path d="M1281.25,1741.25 L1281.25,1761.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" />
+<g id="no source for Ravine">
+<rect x="1281.25" y="1761.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
+<g id="no source for Ravine:features"></g>
+<g id="no source for Ravine:header">
+<text x="1291.25" y="1772.109375" font-size="0.9375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for Ravine</text>
 </g>
 </g>
 <g id="legend">

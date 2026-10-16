@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="3000" viewBox="0 0 2500 3000">
+     width="2500" height="3500" viewBox="0 0 2500 3500">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="3000" fill="#e0f3f1" />
+<rect x="0" y="0" width="2500" height="3500" fill="#e0f3f1" />
 <g id="bases">
-<g id="Transition(FRBL-BR)">
-<g id="Transition(FRBL-BR)">
+<g id="Transition(FRBL~BR)">
+<g id="Transition(FRBL~BR)">
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
-<g id="Transition(FRBL-BR):features"></g>
-<g id="Transition(FRBL-BR):header">
-<text x="1511.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL-BR)</text>
+<g id="Transition(FRBL~BR):features"></g>
+<g id="Transition(FRBL~BR):header">
+<text x="1511.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~BR)</text>
 </g>
 </g>
 </g>
@@ -162,11 +162,11 @@
 </g>
 </g>
 <path d="M1221.25,1501.25 L1201.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" />
-<g id="Transition(FRBL-TP)">
+<g id="Transition(FRBL~TP)">
 <rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
-<g id="Transition(FRBL-TP):features"></g>
-<g id="Transition(FRBL-TP):header">
-<text x="1191.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL-TP)</text>
+<g id="Transition(FRBL~TP):features"></g>
+<g id="Transition(FRBL~TP):header">
+<text x="1191.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~TP)</text>
 </g>
 </g>
 </g>

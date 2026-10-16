@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1200" height="900" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="50" cy="550" r="10" fill="black" />
-<text x="50" y="550" font-size="30" fill="black">Transition(DP-OIC)</text>
+<text x="50" y="550" font-size="30" fill="black">Transition(DP~OIC)</text>
 <circle cx="150" cy="550" r="10" fill="black" />
 <text x="150" y="550" font-size="30" fill="black">No3Mine</text>
 <path d="M150,550 L50,550" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />

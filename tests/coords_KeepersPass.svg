@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="808.97" height="1034.03" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="187.95" cy="984.03" r="10" fill="black" />
-<text x="187.95" y="984.03" font-size="30" fill="black">Transition(KP-PV)</text>
+<text x="187.95" y="984.03" font-size="30" fill="black">Transition(KP~PV)</text>
 <circle cx="339.78" cy="610.6" r="10" fill="black" />
 <text x="339.78" y="610.6" font-size="30" fill="black">Trailer(KPS)</text>
 <path d="M339.78,610.6 L187.95,984.03" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -35,7 +35,7 @@
 <path d="M530.4300000000001,92.28999999999999 L324.3,88.82" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M530.4300000000001,92.28999999999999 L443.31,224.23" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="758.97" cy="205.29" r="10" fill="black" />
-<text x="758.97" y="205.29" font-size="30" fill="black">Transition(KP-BRM)</text>
+<text x="758.97" y="205.29" font-size="30" fill="black">Transition(KP~BRM)</text>
 <path d="M758.97,205.29 L530.4300000000001,92.28999999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="758.97" cy="205.29" r="10" fill="red" />
 <text x="758.97" y="205.29" font-size="30" fill="red">KeepersPass--Blackrock</text>

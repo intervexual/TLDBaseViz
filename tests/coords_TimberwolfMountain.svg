@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="2025.8400000000001" height="2130.74" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1899.04" cy="884.3299999999999" r="10" fill="black" />
-<text x="1899.04" y="884.3299999999999" font-size="30" fill="black">Transition(TWM-AC)</text>
+<text x="1899.04" y="884.3299999999999" font-size="30" fill="black">Transition(TWM~AC)</text>
 <circle cx="1589.23" cy="947.73" r="10" fill="black" />
 <text x="1589.23" y="947.73" font-size="30" fill="black">POI(EchoRavineJunction)</text>
 <path d="M1589.23,947.73 L1899.04,884.3299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -28,7 +28,7 @@
 <text x="1183.02" y="1644.1399999999999" font-size="30" fill="black">MountaineersHut</text>
 <path d="M1183.02,1644.1399999999999 L1219.6200000000001,1507.53" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
 <circle cx="1236.13" cy="1036.1200000000001" r="10" fill="black" />
-<text x="1236.13" y="1036.1200000000001" font-size="30" fill="black">Climb(EE-PC)</text>
+<text x="1236.13" y="1036.1200000000001" font-size="30" fill="black">Climb(EE~PC)</text>
 <path d="M1236.13,1036.1200000000001 L1347.73,1029.42" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1216.03" cy="701.3100000000001" r="10" fill="black" />
 <text x="1216.03" y="701.3100000000001" font-size="30" fill="black">Cave(ThreeWay)</text>
@@ -44,7 +44,7 @@
 <text x="1375.8400000000001" y="378.11" font-size="30" fill="black">Climb(PC-DC)</text>
 <path d="M1375.8400000000001,378.11 L1637.44,631.22" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="1252.63" cy="564.71" r="10" fill="black" />
-<text x="1252.63" y="564.71" font-size="30" fill="black">Climb(TWC-DC)</text>
+<text x="1252.63" y="564.71" font-size="30" fill="black">Climb(TWC~DC)</text>
 <path d="M1252.63,564.71 L1216.03,701.3100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1102.63" cy="304.9" r="10" fill="black" />
 <text x="1102.63" y="304.9" font-size="30" fill="black">POI(DCCargo)</text>
@@ -94,7 +94,7 @@
 <path d="M398.21000000000004,884.81 L304.91,823.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M398.21000000000004,884.81 L446.41,568.3" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="76.80000000000001" cy="1128.1100000000001" r="10" fill="black" />
-<text x="76.80000000000001" y="1128.1100000000001" font-size="30" fill="black">Cave(TWM-BRM)</text>
+<text x="76.80000000000001" y="1128.1100000000001" font-size="30" fill="black">Cave(TWM~BRM)</text>
 <path d="M76.80000000000001,1128.1100000000001 L250.0,1028.1100000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="50.0" cy="681.7" r="10" fill="black" />
 <text x="50.0" y="681.7" font-size="30" fill="black">WaterfallCave</text>
@@ -111,7 +111,7 @@
 <path d="M859.81,1484.33 L1183.02,1644.1399999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <path d="M859.81,1484.33 L586.61,1411.12" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1344.14" cy="223.21" r="10" fill="black" />
-<text x="1344.14" y="223.21" font-size="30" fill="black">Cave(TWM-AC)</text>
+<text x="1344.14" y="223.21" font-size="30" fill="black">Cave(TWM~AC)</text>
 <path d="M1344.14,223.21 L1375.8400000000001,378.11" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="942.8199999999999" cy="628.11" r="10" fill="black" />
 <text x="942.8199999999999" y="628.11" font-size="30" fill="black">Cave(SecludedShelf)</text>
@@ -143,7 +143,7 @@
 <text x="1459.3300000000002" y="1022.73" font-size="30" fill="black">POI(EchoPeakEast)</text>
 <path d="M1459.3300000000002,1022.73 L1466.03,1134.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="626.8" cy="2080.7400000000002" r="10" fill="black" />
-<text x="626.8" y="2080.7400000000002" font-size="30" fill="black">Transition(TWM-PV)</text>
+<text x="626.8" y="2080.7400000000002" font-size="30" fill="black">Transition(TWM~PV)</text>
 <path d="M626.8,2080.7400000000002 L1183.02,1644.1399999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="1975.8400000000001" cy="1417.34" r="10" fill="black" />
 <text x="1975.8400000000001" y="1417.34" font-size="30" fill="black">ForestCave(TWM)</text>

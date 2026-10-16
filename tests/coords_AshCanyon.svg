@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1797.2399999999998" height="2228.94" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="600.0" cy="2178.94" r="10" fill="black" />
-<text x="600.0" y="2178.94" font-size="30" fill="black">Transition(AC-TWM)</text>
+<text x="600.0" y="2178.94" font-size="30" fill="black">Transition(AC~TWM)</text>
 <circle cx="896.41" cy="1892.34" r="10" fill="black" />
 <text x="896.41" y="1892.34" font-size="30" fill="black">FishHut(BitterMarsh)</text>
 <path d="M896.41,1892.34 L600.0,2178.94" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -28,7 +28,7 @@
 <text x="248.20000000000002" y="1169.61" font-size="30" fill="black">Camp(PillarsFootrest)</text>
 <path d="M248.20000000000002,1169.61 L150.0,1399.52" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="50.00000000000001" cy="1226.31" r="10" fill="black" />
-<text x="50.00000000000001" y="1226.31" font-size="30" fill="black">Cave(AC-TWM)</text>
+<text x="50.00000000000001" y="1226.31" font-size="30" fill="black">Cave(AC~TWM)</text>
 <path d="M50.00000000000001,1226.31 L248.20000000000002,1169.61" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="496.41" cy="1199.52" r="10" fill="black" />
 <text x="496.41" y="1199.52" font-size="30" fill="black">ClimbersCave</text>

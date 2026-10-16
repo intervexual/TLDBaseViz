@@ -1201,7 +1201,7 @@
       "total": 17,
       "locations": [
         "AnglersDen",
-        "Cave(TWM-AC)",
+        "Cave(TWM~AC)",
         "FallenLighthouse",
         "PensiveLookout",
         "MindfulCabin",
@@ -1258,6 +1258,7 @@
     },
     "jerrycan": {
       "key": "jerrycan",
+      "total": 9,
       "locations": [
         "MaintenanceYard",
         "MaintenanceShed",
@@ -1350,11 +1351,14 @@
       "total": 5,
       "note": "Total is a guess; missing locations",
       "locations": [
+        "ThomsonsCrossing",
+        "ForemansRetreat",
+        "HomesteadersRespite",
+        "House(Jackrabbit)",
         "Houses(MiltonNW)",
         "Houses(MiltonNE)",
         "Houses(MiltonSW)",
         "Houses(MiltonSE)",
-        "ThomsonsCrossing",
         "MainHangar",
         "ControlTower",
         "Terminal",
@@ -1643,7 +1647,7 @@
         "BricklayersRetreat",
         "LastProspect",
         "CooksFarm",
-        "Transition(BRM-KP)"
+        "Transition(BRM~KP)"
       ]
     },
     "prybar:BI": {
@@ -1722,11 +1726,11 @@
       "key": "prybar",
       "total": 8,
       "locations": [
-        "Transition(OIC-DP)",
-        "Transition(OIC-DP)",
+        "Transition(OIC~DP)",
+        "Transition(OIC~DP)",
         "Cave(ThreeWay)",
         "LangstonMine(Floor2)",
-        "IndolentHoppers",
+        "IndolentHoppers(Far)",
         "PVFarmhouse",
         "Truck(Matts)",
         "TheRiken",
@@ -1827,13 +1831,13 @@
         "AbandonedMine(SP)",
         "MiserableHaunt",
         "Concentrator",
-        "IndolentHoppers",
+        "IndolentHoppers(Middle)",
         "ScaffoldersHideout",
         "CinderHillsCoalMine(Upper)",
         "POI(RailOffice)",
         "PlatelayersShortcut",
         "PlatelayersShortcut",
-        "Cave(ZOC-FA-SP)",
+        "Cave(ZOC~FA~SP)",
         "Cave(KPN)",
         "Cave(KPN)"
       ],
@@ -1892,7 +1896,7 @@
         "Truck(Matts)",
         "Truck(Matts)",
         "Concentrator",
-        "Cave(ZOC-FA-SP)"
+        "Cave(ZOC~FA~SP)"
       ]
     },
     "preppersPie": {
@@ -1971,12 +1975,21 @@
         "MindfulCabin"
       ]
     },
+    "moosemount": {
+      "key": "moosemount",
+      "locations": ["CommunityHall"]
+    },
+    "deermount": {
+      "key": "deermount",
+      "locations": ["HuntingLodge",
+      "WardensOffice","PVFarmhouse","CommunityHall","Cabins(FishingCamp)","CampOffice","Cabin(LowerRaven)","MindfulCabin"]
+    },
     "batteries": {
       "key": "battery",
       "total": 6,
       "note": "total is a guess, as are locations",
       "locations": [
-        "Transition(KP-BRM)",
+        "Transition(KP~BRM)",
         "PowerPlant",
         "Cars(LongBridge)",
         "EchoOneRadioTower",
@@ -2069,7 +2082,7 @@
       "key": "polaroid",
       "total": 2,
       "locations": [
-        "IndolentHoppers",
+        "TrainStation",
         "LangstonMine(Floor3)"
       ]
     },
@@ -2108,7 +2121,7 @@
         "AbandonedLookout",
         "HarrisBasement",
         "Cave(RoadCollapse)",
-        "Transition(OIC-DP)",
+        "Transition(OIC~DP)",
         "POI(KatiesSecludedCorner)",
         "No5Mine(West)",
         "StoneChurch",
@@ -2139,10 +2152,10 @@
         "Houses(MiltonSW)",
         "Houses(MiltonSE)",
         "POI(WoodLotArea)",
-        "Cave(MT-ML)",
+        "Cave(MT~ML)",
         "Cave(RadioTower)",
         "CrashedPlane(Mackenzie)",
-        "Cave(MT-HRV)",
+        "Cave(MT~HRV)",
         "PostOffice",
         "Greymother",
         "TrappersHomestead",
@@ -2165,7 +2178,7 @@
         "Cave(BelowHilltopCave)",
         "HilltopCave",
         "HuntersBlind(HilltopCave)",
-        "Cave(PV-WR)",
+        "Cave(PV~WR)",
         "FishHut(PensivePond)",
         "Barn(LowerFalls)",
         "Barn(Mollys)",

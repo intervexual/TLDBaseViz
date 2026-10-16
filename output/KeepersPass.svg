@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="3000" viewBox="0 0 2500 3000">
+     width="2500" height="3500" viewBox="0 0 2500 3500">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="3000" fill="#e0f3f1" />
+<rect x="0" y="0" width="2500" height="3500" fill="#e0f3f1" />
 <g id="bases">
-<g id="Transition(KP-PV)">
-<g id="Transition(KP-PV)">
+<g id="Transition(KP~PV)">
+<g id="Transition(KP~PV)">
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
-<g id="Transition(KP-PV):features"></g>
-<g id="Transition(KP-PV):header">
-<text x="1511.25" y="1512.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(KP-PV)</text>
+<g id="Transition(KP~PV):features"></g>
+<g id="Transition(KP~PV):header">
+<text x="1511.25" y="1512.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(KP~PV)</text>
 </g>
 </g>
 </g>
@@ -368,10 +368,10 @@
 </g>
 <path d="M1621.25,1261.25 L1681.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M1761.25,1081.25 L1781.25,1081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" />
-<g id="Transition(KP-BRM)">
+<g id="Transition(KP~BRM)">
 <rect x="1781.25" y="1081.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
-<g id="Transition(KP-BRM):features">
-<g id="battery:Transition(KP-BRM):0:0">
+<g id="Transition(KP~BRM):features">
+<g id="battery:Transition(KP~BRM):0:0">
 <g id="import" transform="translate(1791.25, 1097.5) scale(0.25)">
 <path d="M0.0,66.4998 H80.0 V73.8982 H0.0 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 <path d="M4.398,26.1988 V63.1988 H75.597 V26.1988 Z M20.398,45.8008 H9.0 C8.10156,45.8008,7.3008,45.00002,7.3008,44.1016 C7.3008,43.20316,8.10158,42.4024,9.0,42.4024 H20.398 C21.29644,42.4024,22.0972,43.10162,22.0972,44.1016 C22.101106,45.1016,21.30032,45.8008,20.398,45.8008 Z M47.5,43.1992 L38.8008,60.0002 C38.50002,60.60176,38.00002,61.0002,37.3008,61.0002 C37.19924,61.0002,37.00002,61.0002,36.8008,60.89864 C36.00002,60.69942,35.5,59.89864,35.6016,59.09784 L36.6016,48.49584 L34.0,48.499746 C33.39844,48.499746,32.8984,48.198966,32.6016,47.698966 C32.30082,47.198966,32.30082,46.597366,32.50004,46.097366 L41.10164,29.199366 C41.50008,28.500146,42.30084,28.097766,43.10164,28.398586 C43.90242,28.597806,44.40244,29.398586,44.30084,30.199386 L43.30084,40.801386 H46.00004 C46.6016,40.801386,47.10164,41.102166,47.39844,41.602166 C47.69922,42.102166,47.69922,42.699866,47.5,43.199866 Z M71.0,45.8008 H67.0 V49.8008 C67.0,50.69924,66.30078,51.5,65.3008,51.5 C64.40236,51.5,63.6016,50.80078,63.6016,49.8008 V45.8008 H59.6016 C58.70316,45.8008,57.9024,45.00002,57.9024,44.1016 C57.9024,43.20316,58.70318,42.4024,59.6016,42.4024 H63.6016 V38.4024 C63.6016,37.50396,64.30082,36.7032,65.3008,36.7032 C66.19924,36.7032,67.0,37.40242,67.0,38.4024 V42.4024 H71.0 C71.89844,42.4024,72.6992,43.10162,72.6992,44.1016 C72.6992,45.10158,71.89842,45.8008,71.0,45.8008 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
@@ -381,8 +381,8 @@
 </g>
 </g>
 </g>
-<g id="Transition(KP-BRM):header">
-<text x="1801.25" y="1091.3020833333333" font-size="2.7083333333333335" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(KP-BRM)</text>
+<g id="Transition(KP~BRM):header">
+<text x="1801.25" y="1091.3020833333333" font-size="2.7083333333333335" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(KP~BRM)</text>
 </g>
 </g>
 </g>

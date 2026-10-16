@@ -5,7 +5,7 @@
 </defs>
 <rect x="0" y="0" width="1279.62" height="903.01" fill="white" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="1229.62" cy="853.01" r="10" fill="black" />
-<text x="1229.62" y="853.01" font-size="30" fill="black">Transition(R-CH)</text>
+<text x="1229.62" y="853.01" font-size="30" fill="black">Transition(R~CH)</text>
 <circle cx="959.31" cy="541.6600000000001" r="10" fill="black" />
 <text x="959.31" y="541.6600000000001" font-size="30" fill="black">Tunnel(RavineEast)</text>
 <path d="M959.31,541.6600000000001 L1229.62,853.01" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -22,7 +22,7 @@
 <text x="50.0" y="271.19000000000005" font-size="30" fill="black">Cave(WestRavine)</text>
 <path d="M50.0,271.19000000000005 L410.4599999999999,279.43000000000006" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="95.08000000000001" cy="119.64000000000004" r="10" fill="black" />
-<text x="95.08000000000001" y="119.64000000000004" font-size="30" fill="black">Transition(R-ML)</text>
+<text x="95.08000000000001" y="119.64000000000004" font-size="30" fill="black">Transition(R~ML)</text>
 <path d="M95.08000000000001,119.64000000000004 L50.0,271.19000000000005" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
 <circle cx="422.74" cy="349.07000000000005" r="10" fill="black" />
 <text x="422.74" y="349.07000000000005" font-size="30" fill="black">POI(TreeBridge)</text>
@@ -44,7 +44,7 @@
 <path d="M709.4499999999999,549.82 L795.48,426.94000000000005" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <path d="M709.4499999999999,549.82 L598.85,533.4200000000001" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <circle cx="652.0899999999999" cy="631.73" r="10" fill="black" />
-<text x="652.0899999999999" y="631.73" font-size="30" fill="black">Transition(R-BI)</text>
+<text x="652.0899999999999" y="631.73" font-size="30" fill="black">Transition(R~BI)</text>
 <path d="M652.0899999999999,631.73 L598.85,533.4200000000001" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1229.62" cy="853.01" r="10" fill="red" />
 <text x="1229.62" y="853.01" font-size="30" fill="red">Ravine--CoastalHighway</text>

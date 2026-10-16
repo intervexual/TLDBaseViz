@@ -6,7 +6,7 @@
 <rect x="0" y="0" width="16000" height="9000" fill="white" />
 <rect x="250" y="3000" width="2893.07" height="3423.4" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="2987.01" cy="5383.45" r="10" fill="black" />
-<text x="2987.01" y="5383.45" font-size="30" fill="black">Transition(FA-TP)</text>
+<text x="2987.01" y="5383.45" font-size="30" fill="black">Transition(FA~TP)</text>
 <circle cx="2704.1600000000003" cy="5666.29" r="10" fill="black" />
 <text x="2704.1600000000003" y="5666.29" font-size="30" fill="black">POI(Shortcut)</text>
 <path d="M2704.1600000000003,5666.29 L2987.01,5383.45" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -39,7 +39,7 @@
 <text x="3093.07" y="4782.41" font-size="30" fill="black">JustysHovel</text>
 <path d="M3093.07,4782.41 L3057.7200000000003,4464.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2492.03" cy="3757.1" r="10" fill="black" />
-<text x="2492.03" y="3757.1" font-size="30" fill="black">Cave(FA-ZOC-SP)</text>
+<text x="2492.03" y="3757.1" font-size="30" fill="black">Cave(FA~ZOC~SP)</text>
 <path d="M2492.03,3757.1 L3057.7200000000003,4464.21" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2209.1899999999996" cy="3898.5299999999997" r="10" fill="black" />
 <text x="2209.1899999999996" y="3898.5299999999997" font-size="30" fill="black">FallowDugout</text>
@@ -99,7 +99,7 @@
 <text x="2987.01" y="5383.45" font-size="30" fill="red">ForsakenAirfield--TransferPass</text>
 <rect x="2937.01" y="4447.32" width="969.61" height="1625.8400000000001" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="3195.0200000000004" cy="6023.16" r="10" fill="black" />
-<text x="3195.0200000000004" y="6023.16" font-size="30" fill="black">Transition(TP-FRBL)</text>
+<text x="3195.0200000000004" y="6023.16" font-size="30" fill="black">Transition(TP~FRBL)</text>
 <circle cx="3135.21" cy="5526.75" r="10" fill="black" />
 <text x="3135.21" y="5526.75" font-size="30" fill="black">FeedwaterCave</text>
 <path d="M3135.21,5526.75 L3195.0200000000004,6023.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -110,13 +110,13 @@
 <text x="3435.21" y="5007.129999999999" font-size="30" fill="black">Climb(TP-SP)</text>
 <path d="M3435.21,5007.129999999999 L3508.42,5280.34" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2987.01" cy="5383.45" r="10" fill="black" />
-<text x="2987.01" y="5383.45" font-size="30" fill="black">Transition(TP-FA)</text>
+<text x="2987.01" y="5383.45" font-size="30" fill="black">Transition(TP~FA)</text>
 <path d="M2987.01,5383.45 L3508.42,5280.34" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="3152.2000000000003" cy="4497.32" r="10" fill="black" />
-<text x="3152.2000000000003" y="4497.32" font-size="30" fill="black">Transition(TP-SP)</text>
+<text x="3152.2000000000003" y="4497.32" font-size="30" fill="black">Transition(TP~SP)</text>
 <path d="M3152.2000000000003,4497.32 L3435.21,5007.129999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="3856.6200000000003" cy="5077.23" r="10" fill="black" />
-<text x="3856.6200000000003" y="5077.23" font-size="30" fill="black">Transition(TP-ZOC)</text>
+<text x="3856.6200000000003" y="5077.23" font-size="30" fill="black">Transition(TP~ZOC)</text>
 <path d="M3856.6200000000003,5077.23 L3508.42,5280.34" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="3195.0200000000004" cy="6023.16" r="10" fill="red" />
 <text x="3195.0200000000004" y="6023.16" font-size="30" fill="red">TransferPass--FarRangeBranchLine</text>
@@ -128,7 +128,7 @@
 <text x="3745.02" y="5070.53" font-size="30" fill="red">TransferPass--ZoneOfContamination</text>
 <rect x="3145.0200000000004" y="5573.16" width="1950" height="500" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="5045.02" cy="5673.16" r="10" fill="black" />
-<text x="5045.02" y="5673.16" font-size="30" fill="black">Transition(FRBL-BR)</text>
+<text x="5045.02" y="5673.16" font-size="30" fill="black">Transition(FRBL~BR)</text>
 <circle cx="4645.02" cy="5823.16" r="10" fill="black" />
 <text x="4645.02" y="5823.16" font-size="30" fill="black">POI(RailOffice)</text>
 <path d="M4645.02,5823.16 L5045.02,5673.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -145,7 +145,7 @@
 <text x="3845.0200000000004" y="5623.16" font-size="30" fill="black">RemnantCave</text>
 <path d="M3845.0200000000004,5623.16 L4245.02,5823.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="3195.0200000000004" cy="6023.16" r="10" fill="black" />
-<text x="3195.0200000000004" y="6023.16" font-size="30" fill="black">Transition(FRBL-TP)</text>
+<text x="3195.0200000000004" y="6023.16" font-size="30" fill="black">Transition(FRBL~TP)</text>
 <path d="M3195.0200000000004,6023.16 L3845.0200000000004,5623.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="4845.02" cy="5723.16" r="10" fill="red" />
 <text x="4845.02" y="5723.16" font-size="30" fill="red">FarRangeBranchLine--BrokenRailroad</text>
@@ -153,7 +153,7 @@
 <text x="3445.0200000000004" y="6023.16" font-size="30" fill="red">FarRangeBranchLine--TransferPass</text>
 <rect x="4995.02" y="4623.16" width="1650" height="1100" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="6595.02" cy="5573.16" r="10" fill="black" />
-<text x="6595.02" y="5573.16" font-size="30" fill="black">Transition(BR-FM)</text>
+<text x="6595.02" y="5573.16" font-size="30" fill="black">Transition(BR~FM)</text>
 <circle cx="5695.02" cy="5673.16" r="10" fill="black" />
 <text x="5695.02" y="5673.16" font-size="30" fill="black">POI(LocomotiveEngine)</text>
 <path d="M5695.02,5673.16 L6595.02,5573.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -189,7 +189,7 @@
 <text x="5195.02" y="5673.16" font-size="30" fill="black">Truck(BrokenBridge)</text>
 <path d="M5195.02,5673.16 L5295.02,5673.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="5045.02" cy="5673.16" r="10" fill="black" />
-<text x="5045.02" y="5673.16" font-size="30" fill="black">Transition(BR-FRBL)</text>
+<text x="5045.02" y="5673.16" font-size="30" fill="black">Transition(BR~FRBL)</text>
 <path d="M5045.02,5673.16 L5195.02,5673.16" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="5495.02" cy="5473.16" r="10" fill="black" />
 <text x="5495.02" y="5473.16" font-size="30" fill="black">MaintenanceShed</text>
@@ -200,7 +200,7 @@
 <text x="5095.02" y="5673.16" font-size="30" fill="red">BrokenRailroad--FarRangeBranchLine</text>
 <rect x="6545.02" y="4625.41" width="1919.04" height="1762.52" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="8414.060000000001" cy="4947.78" r="10" fill="black" />
-<text x="8414.060000000001" y="4947.78" font-size="30" fill="black">Transition(FM-ML)</text>
+<text x="8414.060000000001" y="4947.78" font-size="30" fill="black">Transition(FM~ML)</text>
 <circle cx="8118.620000000001" cy="4999.88" r="10" fill="black" />
 <text x="8118.620000000001" y="4999.88" font-size="30" fill="black">POI(EasternFMRailroad)</text>
 <path d="M8118.620000000001,4999.88 L8414.060000000001,4947.78" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -221,7 +221,7 @@
 <text x="7846.25" y="5758.7" font-size="30" fill="black">HighBlind</text>
 <path d="M7846.25,5758.7 L8092.450000000001,5715.29" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="8211.150000000001" cy="6100.53" r="10" fill="black" />
-<text x="8211.150000000001" y="6100.53" font-size="30" fill="black">Cave(FM-BI)</text>
+<text x="8211.150000000001" y="6100.53" font-size="30" fill="black">Cave(FM~BI)</text>
 <path d="M8211.150000000001,6100.53 L8092.450000000001,5715.29" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="8240.17" cy="5689.24" r="10" fill="black" />
 <text x="8240.17" y="5689.24" font-size="30" fill="black">POI(MuskegOverlook)</text>
@@ -255,7 +255,7 @@
 <text x="6791.9800000000005" y="5538.43" font-size="30" fill="black">POI(WesternFMRailroad)</text>
 <path d="M6791.9800000000005,5538.43 L6858.59,5628.219999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="6595.02" cy="5573.16" r="10" fill="black" />
-<text x="6595.02" y="5573.16" font-size="30" fill="black">Transition(FM-BR)</text>
+<text x="6595.02" y="5573.16" font-size="30" fill="black">Transition(FM~BR)</text>
 <path d="M6595.02,5573.16 L6791.9800000000005,5538.43" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="7504.540000000001" cy="5260.469999999999" r="10" fill="black" />
 <text x="7504.540000000001" y="5260.469999999999" font-size="30" fill="black">POI(CentralFMRailroad)</text>
@@ -281,7 +281,7 @@
 <text x="7046.990000000001" y="4681.12" font-size="30" fill="black">Cave(Waterfall)</text>
 <path d="M7046.990000000001,4681.12 L6867.39,4814.33" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="6850.02" cy="4715.849999999999" r="10" fill="black" />
-<text x="6850.02" y="4715.849999999999" font-size="30" fill="black">Transition(FM-MT)</text>
+<text x="6850.02" y="4715.849999999999" font-size="30" fill="black">Transition(FM~MT)</text>
 <path d="M6850.02,4715.849999999999 L6867.39,4814.33" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="7261.31" cy="4744.87" r="10" fill="black" />
 <text x="7261.31" y="4744.87" font-size="30" fill="black">POI(ShortwaveTower)</text>
@@ -309,7 +309,7 @@
 <text x="6595.02" y="5573.16" font-size="30" fill="red">ForlornMuskeg--BrokenRailroad</text>
 <rect x="8213.490000000002" y="4225.78" width="1661.3" height="2098.4" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="9601.780000000002" cy="6274.18" r="10" fill="black" />
-<text x="9601.780000000002" y="6274.18" font-size="30" fill="black">Transition(ML-R)</text>
+<text x="9601.780000000002" y="6274.18" font-size="30" fill="black">Transition(ML~R)</text>
 <circle cx="9668.390000000001" cy="6184.38" r="10" fill="black" />
 <text x="9668.390000000001" y="6184.38" font-size="30" fill="black">Trailer(DamEast)</text>
 <path d="M9668.390000000001,6184.38 L9601.780000000002,6274.18" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
@@ -320,7 +320,7 @@
 <text x="9717.630000000001" y="6193.0599999999995" font-size="30" fill="black">UpperDam</text>
 <path d="M9717.630000000001,6193.0599999999995 L9685.750000000002,6085.9" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="9824.79" cy="6161.19" r="10" fill="black" />
-<text x="9824.79" y="6161.19" font-size="30" fill="black">Transition(ML-WR)</text>
+<text x="9824.79" y="6161.19" font-size="30" fill="black">Transition(ML~WR)</text>
 <path d="M9824.79,6161.19 L9717.630000000001,6193.0599999999995" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="9590.120000000003" cy="5764.41" r="10" fill="black" />
 <text x="9590.120000000003" y="5764.41" font-size="30" fill="black">TrainCar(TrainLoading)</text>
@@ -365,7 +365,7 @@
 <text x="8999.240000000002" y="5660.219999999999" font-size="30" fill="black">Climb(ML-LO2)</text>
 <path d="M8999.240000000002,5660.219999999999 L9007.920000000002,5610.98" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="8414.060000000001" cy="4947.78" r="10" fill="black" />
-<text x="8414.060000000001" y="4947.78" font-size="30" fill="black">Transition(ML-FM)</text>
+<text x="8414.060000000001" y="4947.78" font-size="30" fill="black">Transition(ML~FM)</text>
 <path d="M8414.060000000001,4947.78 L8634.100000000002,4275.78" stroke-width="5.0" stroke="#756127" stroke-dasharray="6,2" />
 <circle cx="8970.220000000001" cy="5248.93" r="10" fill="black" />
 <text x="8970.220000000001" y="5248.93" font-size="30" fill="black">POI(CentralMLRail)</text>
@@ -421,7 +421,7 @@
 <path d="M8744.240000000002,4802.92 L9207.620000000003,4478.45" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M8744.240000000002,4802.92 L8634.100000000002,4275.78" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="8518.250000000002" cy="4356.9" r="10" fill="black" />
-<text x="8518.250000000002" y="4356.9" font-size="30" fill="black">Cave(ML-MT)</text>
+<text x="8518.250000000002" y="4356.9" font-size="30" fill="black">Cave(ML~MT)</text>
 <path d="M8518.250000000002,4356.9 L8634.100000000002,4275.78" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="8390.990000000002" cy="5654.51" r="10" fill="black" />
 <text x="8390.990000000002" y="5654.51" font-size="30" fill="black">Cabins(Lake)</text>
@@ -433,7 +433,7 @@
 <text x="8414.060000000001" y="4947.78" font-size="30" fill="red">MysteryLake--ForlornMuskeg</text>
 <rect x="9506.700000000003" y="6154.54" width="1279.62" height="903.01" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="10736.320000000003" cy="7007.55" r="10" fill="black" />
-<text x="10736.320000000003" y="7007.55" font-size="30" fill="black">Transition(R-CH)</text>
+<text x="10736.320000000003" y="7007.55" font-size="30" fill="black">Transition(R~CH)</text>
 <circle cx="10466.010000000002" cy="6696.2" r="10" fill="black" />
 <text x="10466.010000000002" y="6696.2" font-size="30" fill="black">Tunnel(RavineEast)</text>
 <path d="M10466.010000000002,6696.2 L10736.320000000003,7007.55" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -450,7 +450,7 @@
 <text x="9556.700000000003" y="6425.73" font-size="30" fill="black">Cave(WestRavine)</text>
 <path d="M9556.700000000003,6425.73 L9917.160000000002,6433.97" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="9601.780000000002" cy="6274.18" r="10" fill="black" />
-<text x="9601.780000000002" y="6274.18" font-size="30" fill="black">Transition(R-ML)</text>
+<text x="9601.780000000002" y="6274.18" font-size="30" fill="black">Transition(R~ML)</text>
 <path d="M9601.780000000002,6274.18 L9556.700000000003,6425.73" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
 <circle cx="9929.440000000002" cy="6503.61" r="10" fill="black" />
 <text x="9929.440000000002" y="6503.61" font-size="30" fill="black">POI(TreeBridge)</text>
@@ -472,7 +472,7 @@
 <path d="M10216.150000000003,6704.36 L10302.180000000002,6581.48" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <path d="M10216.150000000003,6704.36 L10105.550000000003,6687.96" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <circle cx="10158.790000000003" cy="6786.27" r="10" fill="black" />
-<text x="10158.790000000003" y="6786.27" font-size="30" fill="black">Transition(R-BI)</text>
+<text x="10158.790000000003" y="6786.27" font-size="30" fill="black">Transition(R~BI)</text>
 <path d="M10158.790000000003,6786.27 L10105.550000000003,6687.96" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10736.320000000003" cy="7007.55" r="10" fill="red" />
 <text x="10736.320000000003" y="7007.55" font-size="30" fill="red">Ravine--CoastalHighway</text>
@@ -534,7 +534,7 @@
 <text x="11136.320000000003" y="7007.55" font-size="30" fill="black">Trailer(TrainUnloading)</text>
 <path d="M11136.320000000003,7007.55 L11436.320000000003,7107.55" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="10736.320000000003" cy="7007.55" r="10" fill="black" />
-<text x="10736.320000000003" y="7007.55" font-size="30" fill="black">Transition(CH-R)</text>
+<text x="10736.320000000003" y="7007.55" font-size="30" fill="black">Transition(CH~R)</text>
 <path d="M10736.320000000003,7007.55 L11136.320000000003,7007.55" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="11036.320000000003" cy="7807.55" r="10" fill="black" />
 <text x="11036.320000000003" y="7807.55" font-size="30" fill="black">Car(Rockfall)</text>
@@ -593,7 +593,7 @@
 <text x="13036.320000000003" y="7707.55" font-size="30" fill="black">CrashedPlane(CH)</text>
 <path d="M13036.320000000003,7707.55 L12736.320000000003,7607.55" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="12636.320000000003" cy="8707.55" r="10" fill="black" />
-<text x="12636.320000000003" y="8707.55" font-size="30" fill="black">Transition(CH-OIC)</text>
+<text x="12636.320000000003" y="8707.55" font-size="30" fill="black">Transition(CH~OIC)</text>
 <path d="M12636.320000000003,8707.55 L12636.320000000003,8607.55" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="10736.320000000003" cy="7007.55" r="10" fill="red" />
 <text x="10736.320000000003" y="7007.55" font-size="30" fill="red">CoastalHighway--Ravine</text>
@@ -601,7 +601,7 @@
 <text x="12636.320000000003" y="8707.55" font-size="30" fill="red">CoastalHighway--OIC</text>
 <rect x="12586.320000000003" y="8557.55" width="700" height="350" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="12636.320000000003" cy="8707.55" r="10" fill="black" />
-<text x="12636.320000000003" y="8707.55" font-size="30" fill="black">Transition(OIC-CH)</text>
+<text x="12636.320000000003" y="8707.55" font-size="30" fill="black">Transition(OIC~CH)</text>
 <circle cx="12986.320000000003" cy="8607.55" r="10" fill="black" />
 <text x="12986.320000000003" y="8607.55" font-size="30" fill="black">HarrisBasement</text>
 <path d="M12986.320000000003,8607.55 L12636.320000000003,8707.55" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -612,7 +612,7 @@
 <text x="13036.320000000003" y="8857.55" font-size="30" fill="black">Cave(TheArch)</text>
 <path d="M13036.320000000003,8857.55 L12986.320000000003,8607.55" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="13236.320000000003" cy="8607.55" r="10" fill="black" />
-<text x="13236.320000000003" y="8607.55" font-size="30" fill="black">Transition(OIC-DP)</text>
+<text x="13236.320000000003" y="8607.55" font-size="30" fill="black">Transition(OIC~DP)</text>
 <path d="M13236.320000000003,8607.55 L13086.320000000003,8607.55" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="12636.320000000003" cy="8707.55" r="10" fill="red" />
 <text x="12636.320000000003" y="8707.55" font-size="30" fill="red">OIC--CoastalHighway</text>
@@ -620,7 +620,7 @@
 <text x="13236.320000000003" y="8607.55" font-size="30" fill="red">OIC--DesolationPoint</text>
 <rect x="13186.320000000003" y="8057.549999999999" width="1200" height="900" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="13236.320000000003" cy="8607.55" r="10" fill="black" />
-<text x="13236.320000000003" y="8607.55" font-size="30" fill="black">Transition(DP-OIC)</text>
+<text x="13236.320000000003" y="8607.55" font-size="30" fill="black">Transition(DP~OIC)</text>
 <circle cx="13336.320000000003" cy="8607.55" r="10" fill="black" />
 <text x="13336.320000000003" y="8607.55" font-size="30" fill="black">No3Mine</text>
 <path d="M13336.320000000003,8607.55 L13236.320000000003,8607.55" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
@@ -676,7 +676,7 @@
 <text x="13336.320000000003" y="8607.55" font-size="30" fill="red">DesolationPoint--OIC</text>
 <rect x="8808.790000000003" y="6736.27" width="1900" height="1950" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="10158.790000000003" cy="6786.27" r="10" fill="black" />
-<text x="10158.790000000003" y="6786.27" font-size="30" fill="black">Transition(BI-R)</text>
+<text x="10158.790000000003" y="6786.27" font-size="30" fill="black">Transition(BI~R)</text>
 <circle cx="10258.790000000003" cy="6936.27" r="10" fill="black" />
 <text x="10258.790000000003" y="6936.27" font-size="30" fill="black">PrepperCache(BI)</text>
 <path d="M10258.790000000003,6936.27 L10158.790000000003,6786.27" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -727,7 +727,7 @@
 <text x="9858.790000000003" y="7236.27" font-size="30" fill="black">BunkerAlpha</text>
 <path d="M9858.790000000003,7236.27 L9858.790000000003,7436.27" stroke-width="5.0" stroke="#982f93" stroke-dasharray="4,2,2,2" />
 <circle cx="9708.790000000003" cy="6836.27" r="10" fill="black" />
-<text x="9708.790000000003" y="6836.27" font-size="30" fill="black">Cave(BI-FM)</text>
+<text x="9708.790000000003" y="6836.27" font-size="30" fill="black">Cave(BI~FM)</text>
 <path d="M9708.790000000003,6836.27 L9858.790000000003,7236.27" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="9358.790000000003" cy="7036.27" r="10" fill="black" />
 <text x="9358.790000000003" y="7036.27" font-size="30" fill="black">HuntersBlind(NorthBI)</text>
@@ -766,9 +766,6 @@
 <text x="9558.790000000003" y="8336.27" font-size="30" fill="black">Workshop(Cannery)</text>
 <path d="M9558.790000000003,8336.27 L9558.790000000003,8236.27" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <path d="M9558.790000000003,8336.27 L9458.790000000003,8236.27" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
-<circle cx="9558.790000000003" cy="8436.27" r="10" fill="black" />
-<text x="9558.790000000003" y="8436.27" font-size="30" fill="black">POI(CanneryPier)</text>
-<path d="M9558.790000000003,8436.27 L9558.790000000003,8336.27" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="9258.790000000003" cy="8136.27" r="10" fill="black" />
 <text x="9258.790000000003" y="8136.27" font-size="30" fill="black">Trailers(WestOfCannery)</text>
 <path d="M9258.790000000003,8136.27 L9458.790000000003,8136.27" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -789,11 +786,14 @@
 <circle cx="9058.790000000003" cy="8436.27" r="10" fill="black" />
 <text x="9058.790000000003" y="8436.27" font-size="30" fill="black">Cave(FarIsland)</text>
 <path d="M9058.790000000003,8436.27 L9258.790000000003,8136.27" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="9558.790000000003" cy="8436.27" r="10" fill="black" />
+<text x="9558.790000000003" y="8436.27" font-size="30" fill="black">POI(CanneryPier)</text>
+<path d="M9558.790000000003,8436.27 L9558.790000000003,8336.27" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="10158.790000000003" cy="6836.27" r="10" fill="red" />
 <text x="10158.790000000003" y="6836.27" font-size="30" fill="red">BleakInlet--Ravine</text>
 <rect x="6800.02" y="2515.8499999999995" width="1700" height="2250" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="6850.02" cy="4715.849999999999" r="10" fill="black" />
-<text x="6850.02" y="4715.849999999999" font-size="30" fill="black">Transition(MT-FM)</text>
+<text x="6850.02" y="4715.849999999999" font-size="30" fill="black">Transition(MT~FM)</text>
 <circle cx="6850.02" cy="4315.849999999999" r="10" fill="black" />
 <text x="6850.02" y="4315.849999999999" font-size="30" fill="black">HermitsCabin</text>
 <path d="M6850.02,4315.849999999999 L6850.02,4715.849999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -844,7 +844,7 @@
 <text x="7700.02" y="4115.849999999999" font-size="30" fill="black">Climb(MP-R)</text>
 <path d="M7700.02,4115.849999999999 L7700.02,4015.8499999999995" stroke-width="5.0" stroke="#1e0c2a" stroke-dasharray="2,1" />
 <circle cx="8250.02" cy="4015.8499999999995" r="10" fill="black" />
-<text x="8250.02" y="4015.8499999999995" font-size="30" fill="black">Cave(MT-ML)</text>
+<text x="8250.02" y="4015.8499999999995" font-size="30" fill="black">Cave(MT~ML)</text>
 <path d="M8250.02,4015.8499999999995 L7700.02,4115.849999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="7450.02" cy="2915.8499999999995" r="10" fill="black" />
 <text x="7450.02" y="2915.8499999999995" font-size="30" fill="black">Cave(Graveyard)</text>
@@ -872,7 +872,7 @@
 <path d="M6950.02,3515.8499999999995 L7450.02,3915.8499999999995" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <path d="M6950.02,3515.8499999999995 L7050.02,3815.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="7750.02" cy="2665.8499999999995" r="10" fill="black" />
-<text x="7750.02" y="2665.8499999999995" font-size="30" fill="black">Cave(MT-HRV)</text>
+<text x="7750.02" y="2665.8499999999995" font-size="30" fill="black">Cave(MT~HRV)</text>
 <path d="M7750.02,2665.8499999999995 L7450.02,2915.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M7750.02,2665.8499999999995 L8350.02,2915.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="7150.02" cy="2915.8499999999995" r="10" fill="black" />
@@ -893,7 +893,7 @@
 <path d="M7250.02,4315.849999999999 L7150.02,4015.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M7250.02,4315.849999999999 L6850.02,4315.849999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="7650.02" cy="2565.8499999999995" r="10" fill="black" />
-<text x="7650.02" y="2565.8499999999995" font-size="30" fill="black">Transition(MT-HRV)</text>
+<text x="7650.02" y="2565.8499999999995" font-size="30" fill="black">Transition(MT~HRV)</text>
 <path d="M7650.02,2565.8499999999995 L7750.02,2665.8499999999995" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="7700.02" cy="3615.8499999999995" r="10" fill="black" />
 <text x="7700.02" y="3615.8499999999995" font-size="30" fill="black">POI(WoodLotArea)</text>
@@ -904,9 +904,9 @@
 <text x="7750.02" y="2665.8499999999995" font-size="30" fill="red">MountainTown--HushedRiverValley</text>
 <rect x="7300.02" y="965.8499999999995" width="1600" height="1650" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="7650.02" cy="2565.8499999999995" r="10" fill="black" />
-<text x="7650.02" y="2565.8499999999995" font-size="30" fill="black">Transition(HRV-MT)</text>
+<text x="7650.02" y="2565.8499999999995" font-size="30" fill="black">Transition(HRV~MT)</text>
 <circle cx="7650.02" cy="2515.8499999999995" r="10" fill="black" />
-<text x="7650.02" y="2515.8499999999995" font-size="30" fill="black">Cave(HRV-MT)</text>
+<text x="7650.02" y="2515.8499999999995" font-size="30" fill="black">Cave(HRV~MT)</text>
 <path d="M7650.02,2515.8499999999995 L7650.02,2565.8499999999995" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="7450.02" cy="2265.8499999999995" r="10" fill="black" />
 <text x="7450.02" y="2265.8499999999995" font-size="30" fill="black">SnowShelter(CloudtopFalls)</text>
@@ -1009,7 +1009,7 @@
 <text x="7650.02" y="2515.8499999999995" font-size="30" fill="red">HushedRiverValley--MountainTown</text>
 <rect x="1856.65" y="1813.44" width="2612.34" height="2733.8799999999997" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="2313.83" cy="3686.6800000000003" r="10" fill="black" />
-<text x="2313.83" y="3686.6800000000003" font-size="30" fill="black">Cave(SP-ZOC-FA)</text>
+<text x="2313.83" y="3686.6800000000003" font-size="30" fill="black">Cave(SP~ZOC~FA)</text>
 <circle cx="2507.01" cy="3634.92" r="10" fill="black" />
 <text x="2507.01" y="3634.92" font-size="30" fill="black">Climb(LLH-CC)</text>
 <path d="M2507.01,3634.92 L2313.83,3686.6800000000003" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
@@ -1022,6 +1022,12 @@
 <circle cx="2418.9700000000003" cy="2726.77" r="10" fill="black" />
 <text x="2418.9700000000003" y="2726.77" font-size="30" fill="black">Climb(SP-WC)</text>
 <path d="M2418.9700000000003,2726.77 L2177.48,2791.4700000000003" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2055.01" cy="2720.76" r="10" fill="black" />
+<text x="2055.01" y="2720.76" font-size="30" fill="black">OpenCave(OgresTeardrop)</text>
+<path d="M2055.01,2720.76 L2177.48,2791.4700000000003" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="2122.25" cy="2392.16" r="10" fill="black" />
+<text x="2122.25" y="2392.16" font-size="30" fill="black">POI(TreeBridgeSouthOfMine)</text>
+<path d="M2122.25,2392.16 L2418.9700000000003,2726.77" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2428.44" cy="2568.94" r="10" fill="black" />
 <text x="2428.44" y="2568.94" font-size="30" fill="black">Garage(WeatherStation)</text>
 <path d="M2428.44,2568.94 L2418.9700000000003,2726.77" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1033,9 +1039,9 @@
 <path d="M2512.09,2494.76 L2428.44,2568.94" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="1906.65" cy="2553.46" r="10" fill="black" />
 <text x="1906.65" y="2553.46" font-size="30" fill="black">CrashSite(SP)</text>
-<path d="M1906.65,2553.46 L2428.44,2568.94" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2276.61" cy="2195.51" r="10" fill="black" />
 <text x="2276.61" y="2195.51" font-size="30" fill="black">Climb(AbandonedMine)</text>
+<path d="M2276.61,2195.51 L2122.25,2392.16" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M2276.61,2195.51 L1906.65,2553.46" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2549.98" cy="1863.44" r="10" fill="black" />
 <text x="2549.98" y="1863.44" font-size="30" fill="black">AbandonedMine(SP)</text>
@@ -1073,17 +1079,17 @@
 <circle cx="4180.05" cy="2151.36" r="10" fill="black" />
 <text x="4180.05" y="2151.36" font-size="30" fill="black">RoamersCave</text>
 <path d="M4180.05,2151.36 L3986.86,2203.12" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
-<circle cx="2660.4500000000003" cy="2662.06" r="10" fill="black" />
-<text x="2660.4500000000003" y="2662.06" font-size="30" fill="black">IdleHideout</text>
-<path d="M2660.4500000000003,2662.06 L2428.44,2568.94" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
 <circle cx="3150.34" cy="2944.9" r="10" fill="black" />
 <text x="3150.34" y="2944.9" font-size="30" fill="black">PrayerfulWindow</text>
 <path d="M3150.34,2944.9 L3265.88,2603.36" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
-<path d="M3150.34,2944.9 L2660.4500000000003,2662.06" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M3150.34,2944.9 L2964.09,3408.92" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2415.5" cy="2520.6400000000003" r="10" fill="black" />
 <text x="2415.5" y="2520.6400000000003" font-size="30" fill="black">Truck(WeatherStationBridge)</text>
 <path d="M2415.5,2520.6400000000003 L2428.44,2568.94" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="2660.4500000000003" cy="2662.06" r="10" fill="black" />
+<text x="2660.4500000000003" y="2662.06" font-size="30" fill="black">IdleHideout</text>
+<path d="M2660.4500000000003,2662.06 L2415.5,2520.6400000000003" stroke-width="5.0" stroke="#ee1300" stroke-dasharray="1,1" />
+<path d="M2660.4500000000003,2662.06 L3150.34,2944.9" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="2867.5" cy="3434.8" r="10" fill="black" />
 <text x="2867.5" y="3434.8" font-size="30" fill="black">POI(RouteOneWaterfall)</text>
 <path d="M2867.5,3434.8 L2848.55,3750.46" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
@@ -1112,7 +1118,7 @@
 <text x="4004.2000000000003" y="3233.75" font-size="30" fill="black">Climb(RC-HPP4)</text>
 <path d="M4004.2000000000003,3233.75 L4052.4900000000002,3220.8100000000004" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="3152.2000000000003" cy="4497.32" r="10" fill="black" />
-<text x="3152.2000000000003" y="4497.32" font-size="30" fill="black">Transition(SP-TP)</text>
+<text x="3152.2000000000003" y="4497.32" font-size="30" fill="black">Transition(SP~TP)</text>
 <path d="M3152.2000000000003,4497.32 L3164.21,3769.41" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <path d="M3152.2000000000003,4497.32 L2855.4900000000002,4162.71" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="3460.0" cy="3327.8100000000004" r="10" fill="black" />
@@ -1122,7 +1128,7 @@
 <text x="3126.32" y="4400.73" font-size="30" fill="red">SunderedPass--TransferPass</text>
 <rect x="3622.3300000000004" y="3199.2199999999993" width="1747.47" height="1928.01" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="3856.6200000000003" cy="5077.23" r="10" fill="black" />
-<text x="3856.6200000000003" y="5077.23" font-size="30" fill="black">Transition(ZOC-TP)</text>
+<text x="3856.6200000000003" y="5077.23" font-size="30" fill="black">Transition(ZOC~TP)</text>
 <circle cx="3672.3300000000004" cy="4691.829999999999" r="10" fill="black" />
 <text x="3672.3300000000004" y="4691.829999999999" font-size="30" fill="black">Cave(WelkinsWindow)</text>
 <path d="M3672.3300000000004,4691.829999999999 L3856.6200000000003,5077.23" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1130,7 +1136,7 @@
 <text x="3862.8500000000004" y="4574.779999999999" font-size="30" fill="black">POI(DubiousOverlook)</text>
 <path d="M3862.8500000000004,4574.779999999999 L3672.3300000000004,4691.829999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="3710.9400000000005" cy="3985.7799999999993" r="10" fill="black" />
-<text x="3710.9400000000005" y="3985.7799999999993" font-size="30" fill="black">Cave(ZOC-FA-SP)</text>
+<text x="3710.9400000000005" y="3985.7799999999993" font-size="30" fill="black">Cave(ZOC~FA~SP)</text>
 <path d="M3710.9400000000005,3985.7799999999993 L3862.8500000000004,4574.779999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="4200.320000000001" cy="3842.5799999999995" r="10" fill="black" />
 <text x="4200.320000000001" y="3842.5799999999995" font-size="30" fill="black">Trailer(LangstonMine)</text>
@@ -1152,17 +1158,35 @@
 <text x="4906.370000000001" y="3881.1899999999996" font-size="30" fill="black">Headframe</text>
 <path d="M4906.370000000001,3881.1899999999996 L4798.04,3790.2899999999995" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <path d="M4906.370000000001,3881.1899999999996 L4789.320000000001,3690.669999999999" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="5055.8" cy="3868.1199999999994" r="10" fill="black" />
+<text x="5055.8" y="3868.1199999999994" font-size="30" fill="black">TrainStation</text>
+<path d="M5055.8,3868.1199999999994 L4906.370000000001,3881.1899999999996" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="4720.210000000001" cy="4048.0499999999993" r="10" fill="black" />
+<text x="4720.210000000001" y="4048.0499999999993" font-size="30" fill="black">PumpHouse</text>
+<path d="M4720.210000000001,4048.0499999999993 L4798.04,3790.2899999999995" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="4958.67" cy="4478.91" r="10" fill="black" />
+<text x="4958.67" y="4478.91" font-size="30" fill="black">IdleCamp(DormNearTracks)</text>
+<path d="M4958.67,4478.91 L4798.04,3790.2899999999995" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="4967.38" cy="4578.529999999999" r="10" fill="black" />
 <text x="4967.38" y="4578.529999999999" font-size="30" fill="black">IdleCamp</text>
-<path d="M4967.38,4578.529999999999 L4798.04,3790.2899999999995" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<path d="M4967.38,4578.529999999999 L4598.8,3807.7199999999993" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
+<path d="M4967.38,4578.529999999999 L4958.67,4478.91" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<circle cx="5012.83" cy="4524.36" r="10" fill="black" />
+<text x="5012.83" y="4524.36" font-size="30" fill="black">IdleCamp(OtherDorm)</text>
+<path d="M5012.83,4524.36 L4967.38,4578.529999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="4573.26" cy="4663.199999999999" r="10" fill="black" />
 <text x="4573.26" y="4663.199999999999" font-size="30" fill="black">POI(FlagmansGap)</text>
 <path d="M4573.26,4663.199999999999 L3672.3300000000004,4691.829999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M4573.26,4663.199999999999 L4967.38,4578.529999999999" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
-<circle cx="4997.280000000001" cy="3772.8499999999995" r="10" fill="black" />
-<text x="4997.280000000001" y="3772.8499999999995" font-size="30" fill="black">IndolentHoppers</text>
-<path d="M4997.280000000001,3772.8499999999995 L4789.320000000001,3690.669999999999" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
-<path d="M4997.280000000001,3772.8499999999995 L4906.370000000001,3881.1899999999996" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="5038.370000000001" cy="3668.879999999999" r="10" fill="black" />
+<text x="5038.370000000001" y="3668.879999999999" font-size="30" fill="black">IndolentHoppers(Far)</text>
+<path d="M5038.370000000001,3668.879999999999 L5055.8,3868.1199999999994" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="5001.63" cy="3822.6599999999994" r="10" fill="black" />
+<text x="5001.63" y="3822.6599999999994" font-size="30" fill="black">IndolentHoppers(Middle)</text>
+<path d="M5001.63,3822.6599999999994 L5055.8,3868.1199999999994" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
+<circle cx="4947.47" cy="3777.209999999999" r="10" fill="black" />
+<text x="4947.47" y="3777.209999999999" font-size="30" fill="black">IndolentHoppers(Near)</text>
+<path d="M4947.47,3777.209999999999 L4906.370000000001,3881.1899999999996" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
 <circle cx="4355.9800000000005" cy="3327.0499999999993" r="10" fill="black" />
 <text x="4355.9800000000005" y="3327.0499999999993" font-size="30" fill="black">MinersFootpath</text>
 <path d="M4355.9800000000005,3327.0499999999993 L4598.8,3807.7199999999993" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1171,13 +1195,13 @@
 <path d="M4098.22,3249.2199999999993 L4355.9800000000005,3327.0499999999993" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="5281.1900000000005" cy="4149.539999999999" r="10" fill="black" />
 <text x="5281.1900000000005" y="4149.539999999999" font-size="30" fill="black">POI(TurbulentPasture)</text>
-<path d="M5281.1900000000005,4149.539999999999 L4997.280000000001,3772.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M5281.1900000000005,4149.539999999999 L5038.370000000001,3668.879999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="5257.52" cy="4452.759999999999" r="10" fill="black" />
 <text x="5257.52" y="4452.759999999999" font-size="30" fill="black">ForgottenExploration</text>
 <path d="M5257.52,4452.759999999999 L5281.1900000000005,4149.539999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="5319.8" cy="3443.4899999999993" r="10" fill="black" />
 <text x="5319.8" y="3443.4899999999993" font-size="30" fill="black">POI(OldCorral)</text>
-<path d="M5319.8,3443.4899999999993 L4997.280000000001,3772.8499999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
+<path d="M5319.8,3443.4899999999993 L5038.370000000001,3668.879999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="4165.46" cy="3444.0999999999995" r="10" fill="black" />
 <text x="4165.46" y="3444.0999999999995" font-size="30" fill="black">Cave(NearTrailer)</text>
 <path d="M4165.46,3444.0999999999995 L4200.320000000001,3842.5799999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1200,15 +1224,15 @@
 <text x="3906.4300000000003" y="5072.879999999999" font-size="30" fill="red">ZoneOfContamination--TransferPass</text>
 <rect x="9674.79" y="5561.19" width="500" height="650" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="10124.79" cy="5611.19" r="10" fill="black" />
-<text x="10124.79" y="5611.19" font-size="30" fill="black">Transition(WR-PV)</text>
+<text x="10124.79" y="5611.19" font-size="30" fill="black">Transition(WR~PV)</text>
 <circle cx="10124.79" cy="5711.19" r="10" fill="black" />
-<text x="10124.79" y="5711.19" font-size="30" fill="black">Cave(WR-PV)</text>
+<text x="10124.79" y="5711.19" font-size="30" fill="black">Cave(WR~PV)</text>
 <path d="M10124.79,5711.19 L10124.79,5611.19" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="9724.79" cy="5811.19" r="10" fill="black" />
 <text x="9724.79" y="5811.19" font-size="30" fill="black">Cave(WindingRiver)</text>
 <path d="M9724.79,5811.19 L10124.79,5711.19" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="9824.79" cy="6161.19" r="10" fill="black" />
-<text x="9824.79" y="6161.19" font-size="30" fill="black">Transition(WR-ML)</text>
+<text x="9824.79" y="6161.19" font-size="30" fill="black">Transition(WR~ML)</text>
 <circle cx="9924.79" cy="6161.19" r="10" fill="black" />
 <text x="9924.79" y="6161.19" font-size="30" fill="black">LowerDam</text>
 <path d="M9924.79,6161.19 L9824.79,6161.19" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -1217,7 +1241,7 @@
 <text x="9824.79" y="6111.19" font-size="30" fill="red">WindingRiver--MysteryLake</text>
 <rect x="9860.080000000002" y="3605.9299999999994" width="3160.16" height="3105.2599999999998" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="12933.640000000001" cy="4346.129999999999" r="10" fill="black" />
-<text x="12933.640000000001" y="4346.129999999999" font-size="30" fill="black">Transition(PV-TWM)</text>
+<text x="12933.640000000001" y="4346.129999999999" font-size="30" fill="black">Transition(PV~TWM)</text>
 <circle cx="12710.430000000002" cy="4332.73" r="10" fill="black" />
 <text x="12710.430000000002" y="4332.73" font-size="30" fill="black">Climb(PV-TWM)</text>
 <path d="M12710.430000000002,4332.73 L12933.640000000001,4346.129999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
@@ -1283,7 +1307,7 @@
 <text x="12293.440000000002" y="6054.969999999999" font-size="30" fill="black">Cave(EndOfTheRoad)</text>
 <path d="M12293.440000000002,6054.969999999999 L11660.430000000002,6151.379999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="11943.440000000002" cy="6661.189999999999" r="10" fill="black" />
-<text x="11943.440000000002" y="6661.189999999999" font-size="30" fill="black">Transition(PV-CH)</text>
+<text x="11943.440000000002" y="6661.189999999999" font-size="30" fill="black">Transition(PV~CH)</text>
 <path d="M11943.440000000002,6661.189999999999 L12293.440000000002,6054.969999999999" stroke-width="5.0" stroke="#982f93" stroke-dasharray="4,2,2,2" />
 <path d="M11943.440000000002,6661.189999999999 L11623.830000000002,6014.779999999999" stroke-width="5.0" stroke="#e0f3f1" stroke-dasharray="" />
 <circle cx="12320.240000000002" cy="5608.5599999999995" r="10" fill="black" />
@@ -1296,10 +1320,10 @@
 <path d="M10657.800000000001,5687.98 L11623.830000000002,6014.779999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <path d="M10657.800000000001,5687.98 L10906.010000000002,5658.08" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10124.79" cy="5611.19" r="10" fill="black" />
-<text x="10124.79" y="5611.19" font-size="30" fill="black">Cave(PV-WR)</text>
+<text x="10124.79" y="5611.19" font-size="30" fill="black">Cave(PV~WR)</text>
 <path d="M10124.79,5611.19 L10657.800000000001,5687.98" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="10124.79" cy="5611.19" r="10" fill="black" />
-<text x="10124.79" y="5611.19" font-size="30" fill="black">Transition(PV-WR)</text>
+<text x="10124.79" y="5611.19" font-size="30" fill="black">Transition(PV~WR)</text>
 <path d="M10124.79,5611.19 L10124.79,5611.19" stroke-width="5.0" stroke="#c85d00" stroke-dasharray="7.4" />
 <circle cx="11150.620000000003" cy="6434.389999999999" r="10" fill="black" />
 <text x="11150.620000000003" y="6434.389999999999" font-size="30" fill="black">Cave(WestOfUpperFalls)</text>
@@ -1317,7 +1341,7 @@
 <path d="M9910.080000000002,5083.079999999999 L10438.190000000002,4868.369999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M9910.080000000002,5083.079999999999 L10076.590000000002,5294.679999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10136.880000000001" cy="4290.259999999999" r="10" fill="black" />
-<text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="black">Transition(PV-KP)</text>
+<text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="black">Transition(PV~KP)</text>
 <path d="M10136.880000000001,4290.259999999999 L10438.190000000002,4868.369999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M10136.880000000001,4290.259999999999 L9910.080000000002,5083.079999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10341.780000000002" cy="4235.36" r="10" fill="black" />
@@ -1364,7 +1388,7 @@
 <text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="red">PleasantValley--KeepersPass</text>
 <rect x="12306.840000000002" y="2265.389999999999" width="2025.8400000000001" height="2130.74" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="14205.880000000001" cy="3149.719999999999" r="10" fill="black" />
-<text x="14205.880000000001" y="3149.719999999999" font-size="30" fill="black">Transition(TWM-AC)</text>
+<text x="14205.880000000001" y="3149.719999999999" font-size="30" fill="black">Transition(TWM~AC)</text>
 <circle cx="13896.070000000002" cy="3213.119999999999" r="10" fill="black" />
 <text x="13896.070000000002" y="3213.119999999999" font-size="30" fill="black">POI(EchoRavineJunction)</text>
 <path d="M13896.070000000002,3213.119999999999 L14205.880000000001,3149.719999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1387,7 +1411,7 @@
 <text x="13489.860000000002" y="3909.529999999999" font-size="30" fill="black">MountaineersHut</text>
 <path d="M13489.860000000002,3909.529999999999 L13526.460000000003,3772.919999999999" stroke-width="5.0" stroke="#623e29" stroke-dasharray="4,2" />
 <circle cx="13542.970000000001" cy="3301.5099999999993" r="10" fill="black" />
-<text x="13542.970000000001" y="3301.5099999999993" font-size="30" fill="black">Climb(EE-PC)</text>
+<text x="13542.970000000001" y="3301.5099999999993" font-size="30" fill="black">Climb(EE~PC)</text>
 <path d="M13542.970000000001,3301.5099999999993 L13654.570000000002,3294.809999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="13522.870000000003" cy="2966.699999999999" r="10" fill="black" />
 <text x="13522.870000000003" y="2966.699999999999" font-size="30" fill="black">Cave(ThreeWay)</text>
@@ -1403,7 +1427,7 @@
 <text x="13682.680000000002" y="2643.499999999999" font-size="30" fill="black">Climb(PC-DC)</text>
 <path d="M13682.680000000002,2643.499999999999 L13944.280000000002,2896.6099999999988" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="13559.470000000001" cy="2830.099999999999" r="10" fill="black" />
-<text x="13559.470000000001" y="2830.099999999999" font-size="30" fill="black">Climb(TWC-DC)</text>
+<text x="13559.470000000001" y="2830.099999999999" font-size="30" fill="black">Climb(TWC~DC)</text>
 <path d="M13559.470000000001,2830.099999999999 L13522.870000000003,2966.699999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="13409.470000000001" cy="2570.289999999999" r="10" fill="black" />
 <text x="13409.470000000001" y="2570.289999999999" font-size="30" fill="black">POI(DCCargo)</text>
@@ -1453,7 +1477,7 @@
 <path d="M12705.050000000003,3150.199999999999 L12611.750000000002,3088.599999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M12705.050000000003,3150.199999999999 L12753.250000000002,2833.6899999999987" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="12383.640000000001" cy="3393.499999999999" r="10" fill="black" />
-<text x="12383.640000000001" y="3393.499999999999" font-size="30" fill="black">Cave(TWM-BRM)</text>
+<text x="12383.640000000001" y="3393.499999999999" font-size="30" fill="black">Cave(TWM~BRM)</text>
 <path d="M12383.640000000001,3393.499999999999 L12556.840000000002,3293.499999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="12356.840000000002" cy="2947.0899999999992" r="10" fill="black" />
 <text x="12356.840000000002" y="2947.0899999999992" font-size="30" fill="black">WaterfallCave</text>
@@ -1470,7 +1494,7 @@
 <path d="M13166.650000000001,3749.719999999999 L13489.860000000002,3909.529999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <path d="M13166.650000000001,3749.719999999999 L12893.450000000003,3676.509999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="13650.980000000001" cy="2488.599999999999" r="10" fill="black" />
-<text x="13650.980000000001" y="2488.599999999999" font-size="30" fill="black">Cave(TWM-AC)</text>
+<text x="13650.980000000001" y="2488.599999999999" font-size="30" fill="black">Cave(TWM~AC)</text>
 <path d="M13650.980000000001,2488.599999999999 L13682.680000000002,2643.499999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="13249.660000000002" cy="2893.499999999999" r="10" fill="black" />
 <text x="13249.660000000002" y="2893.499999999999" font-size="30" fill="black">Cave(SecludedShelf)</text>
@@ -1502,7 +1526,7 @@
 <text x="13766.170000000002" y="3288.119999999999" font-size="30" fill="black">POI(EchoPeakEast)</text>
 <path d="M13766.170000000002,3288.119999999999 L13772.870000000003,3399.719999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="12933.640000000001" cy="4346.129999999999" r="10" fill="black" />
-<text x="12933.640000000001" y="4346.129999999999" font-size="30" fill="black">Transition(TWM-PV)</text>
+<text x="12933.640000000001" y="4346.129999999999" font-size="30" fill="black">Transition(TWM~PV)</text>
 <path d="M12933.640000000001,4346.129999999999 L13489.860000000002,3909.529999999999" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="14282.680000000002" cy="3682.7299999999987" r="10" fill="black" />
 <text x="14282.680000000002" y="3682.7299999999987" font-size="30" fill="black">ForestCave(TWM)</text>
@@ -1514,7 +1538,7 @@
 <text x="12933.640000000001" y="4346.129999999999" font-size="30" fill="red">TimberwolfMountain--PleasantValley</text>
 <rect x="13605.880000000001" y="970.7799999999988" width="1797.2399999999998" height="2228.94" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="14205.880000000001" cy="3149.719999999999" r="10" fill="black" />
-<text x="14205.880000000001" y="3149.719999999999" font-size="30" fill="black">Transition(AC-TWM)</text>
+<text x="14205.880000000001" y="3149.719999999999" font-size="30" fill="black">Transition(AC~TWM)</text>
 <circle cx="14502.29" cy="2863.119999999999" r="10" fill="black" />
 <text x="14502.29" y="2863.119999999999" font-size="30" fill="black">FishHut(BitterMarsh)</text>
 <path d="M14502.29,2863.119999999999 L14205.880000000001,3149.719999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1537,7 +1561,7 @@
 <text x="13854.080000000002" y="2140.3899999999985" font-size="30" fill="black">Camp(PillarsFootrest)</text>
 <path d="M13854.080000000002,2140.3899999999985 L13755.880000000001,2370.299999999999" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="13655.880000000001" cy="2197.089999999999" r="10" fill="black" />
-<text x="13655.880000000001" y="2197.089999999999" font-size="30" fill="black">Cave(AC-TWM)</text>
+<text x="13655.880000000001" y="2197.089999999999" font-size="30" fill="black">Cave(AC~TWM)</text>
 <path d="M13655.880000000001,2197.089999999999 L13854.080000000002,2140.3899999999985" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="14102.29" cy="2170.299999999999" r="10" fill="black" />
 <text x="14102.29" y="2170.299999999999" font-size="30" fill="black">ClimbersCave</text>
@@ -1663,7 +1687,7 @@
 <text x="14205.880000000001" y="3149.719999999999" font-size="30" fill="red">AshCanyon--TimberwolfMountain</text>
 <rect x="9948.93" y="3306.2299999999996" width="808.97" height="1034.03" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="10136.880000000001" cy="4290.259999999999" r="10" fill="black" />
-<text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="black">Transition(KP-PV)</text>
+<text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="black">Transition(KP~PV)</text>
 <circle cx="10288.710000000001" cy="3916.8299999999995" r="10" fill="black" />
 <text x="10288.710000000001" y="3916.8299999999995" font-size="30" fill="black">Trailer(KPS)</text>
 <path d="M10288.710000000001,3916.8299999999995 L10136.880000000001,4290.259999999999" stroke-width="5.0" stroke="#55b395" stroke-dasharray="" />
@@ -1693,7 +1717,7 @@
 <path d="M10479.36,3398.5199999999995 L10273.23,3395.0499999999997" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M10479.36,3398.5199999999995 L10392.24,3530.4599999999996" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10707.9" cy="3511.5199999999995" r="10" fill="black" />
-<text x="10707.9" y="3511.5199999999995" font-size="30" fill="black">Transition(KP-BRM)</text>
+<text x="10707.9" y="3511.5199999999995" font-size="30" fill="black">Transition(KP~BRM)</text>
 <path d="M10707.9,3511.5199999999995 L10479.36,3398.5199999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="10707.9" cy="3511.5199999999995" r="10" fill="red" />
 <text x="10707.9" y="3511.5199999999995" font-size="30" fill="red">KeepersPass--Blackrock</text>
@@ -1701,7 +1725,7 @@
 <text x="10136.880000000001" y="4290.259999999999" font-size="30" fill="red">KeepersPass--PleasantValley</text>
 <rect x="10220.449999999999" y="1755.3499999999997" width="2063.66" height="1806.1699999999998" fill="none" stroke="#cccccc" stroke-width="5.0" />
 <circle cx="10707.9" cy="3511.5199999999995" r="10" fill="black" />
-<text x="10707.9" y="3511.5199999999995" font-size="30" fill="black">Transition(BRM-KP)</text>
+<text x="10707.9" y="3511.5199999999995" font-size="30" fill="black">Transition(BRM~KP)</text>
 <circle cx="10925.079999999998" cy="3143.6399999999994" r="10" fill="black" />
 <text x="10925.079999999998" y="3143.6399999999994" font-size="30" fill="black">Car(NorthOfKPTunnel)</text>
 <path d="M10925.079999999998,3143.6399999999994 L10707.9,3511.5199999999995" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
@@ -1832,7 +1856,7 @@
 <path d="M11058.289999999999,2964.0499999999997 L10646.999999999998,2993.0699999999997" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <path d="M11058.289999999999,2964.0499999999997 L11174.14,2882.9299999999994" stroke-width="5.0" stroke="#16524f" stroke-dasharray="2,4" />
 <circle cx="11961.98" cy="3021.8499999999995" r="10" fill="black" />
-<text x="11961.98" y="3021.8499999999995" font-size="30" fill="black">Cave(BRM-TWM)</text>
+<text x="11961.98" y="3021.8499999999995" font-size="30" fill="black">Cave(BRM~TWM)</text>
 <path d="M11961.98,3021.8499999999995 L11782.39,2888.6399999999994" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <path d="M11961.98,3021.8499999999995 L12193.669999999998,2859.62" stroke-width="5.0" stroke="#3435ff" stroke-dasharray="2,1" />
 <circle cx="10707.9" cy="3511.5199999999995" r="10" fill="red" />
