@@ -87,6 +87,7 @@ def draw_just_region_from_coords(d, these_bases,
     d.append(draw.Rectangle(start_x, start_y, total_x, total_y,
                             fill=boxfill, stroke='#' + 'c'*6, stroke_width=unit_size/2))
     drawn = []
+    locations = {}
     for b in these_bases:
         bob = these_bases[b]
         x, y = bob.region_coords
@@ -94,8 +95,10 @@ def draw_just_region_from_coords(d, these_bases,
         circ_fill = 'black'
         if REGION_CONNECTOR in b:
             circ_fill = 'red'
+        bob.draw(d, icon_size=20, x=x, y=y)
         d.append(draw.Circle(x, y, unit_size, fill=circ_fill))
         d.append(draw.Text(b, 3*unit_size, x, y, fill=circ_fill))
+        locations[b] = (x, y)
         drawn.append(b)
         # draw connections?
         for c in bob.connections:
@@ -108,6 +111,7 @@ def draw_just_region_from_coords(d, these_bases,
                 p.M(x, y)
                 p.L(*these_bases[c].region_coords)
                 d.append(p)
+    return locations
 
 def draw_region_coords(region, source_info, output='tests/', print_output=False, add_legend=False):
     """
@@ -439,12 +443,13 @@ def get_transitions_for_regions(first_region, second_region, regions):
 
 def line_up_transition_POIs(first_poi, second_poi, ac_bases, twm_bases):
     """
-
-    :param first_poi:
-    :param second_poi:
-    :param ac_bases:
-    :param twm_bases:
-    :return:
+    Line up POIs like Transition(FA~TP) with Transition (TP~FA) to figure out how much to translate
+    the two maps. Assumes that region coordinates have been calculated already.
+    :param first_poi: string name like Transition(FA~TP)
+    :param second_poi: string name like Transition(TP~FA)
+    :param ac_bases: dict of BaseLocation objects
+    :param twm_bases: dict of BaseLocation objects
+    :return: x translation amount, y translation amount
     """
     ac_x, ac_y = ac_bases[first_poi].region_coords
     twm_x, twm_y = twm_bases[second_poi].region_coords
@@ -457,7 +462,8 @@ if __name__ == '__main__':
     doctest.testmod()
 
     dir = 'tests/'
-    source_info = 'mybases.json'
+    template_info = 'templates/loot0.json'
+    source_info = template_info #'mybases.json'
 
     #visit_order = ['AshCanyon', 'TimberwolfMountain', 'PleasantValley', 'KeepersPass', 'Blackrock']
     visit_order = ['ForsakenAirfield', 'TransferPass', 'FarRangeBranchLine',
@@ -498,7 +504,7 @@ if __name__ == '__main__':
     d.append(draw.Rectangle(0, 0, curr_wid, curr_hei,
                             fill='white'))
 
-
+    all_locs = {}
     prev_region = ''
     regioned_bases = {} # prev_region: ac_bases
     for i, curr_region in enumerate(visit_order):
@@ -521,9 +527,13 @@ if __name__ == '__main__':
             further_offset_region_coords(curr_bases, rd_x, rd_y)
 
         regioned_bases[curr_region] = curr_bases
-        draw_just_region_from_coords(d, curr_bases, total_x, total_y,
+        locs = draw_just_region_from_coords(d, curr_bases, total_x, total_y,
                                      unit_size, draw_bg=False,
                                      start_x=rd_x, start_y=rd_y)
+        all_locs = all_locs | locs
         prev_region = curr_region
+
+    with open('output/base_coordinates.json', 'w+') as f:
+        f.write(json.dumps(all_locs))
 
     d.save_svg(output)

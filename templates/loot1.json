@@ -1972,7 +1972,7 @@
             "explored": false,
             "features": [
                 "?bear/0.1,wolf",
-                "?jerrycan/0.9,?research/0.4545"
+                "?jerrycan/0.9091,?research/0.4545"
             ]
         },
         "Barn(LowerFalls)": {
@@ -2544,7 +2544,7 @@
             "explored": false,
             "features": [
                 "bear,deer,rabbit,ptarmigan,harvestfir:2.0",
-                "bed,?outworkbench,?grill",
+                "?outworkbench,?grill",
                 "?oven,?cabinet,?shelf",
                 "buildout",
                 "?matches:1,?matches/0.25,?lantern/0.25,?hacksaw/0.25,?prybar/0.1429"
@@ -2819,7 +2819,7 @@
                 "bed,?workbench,?grill",
                 "?box",
                 "?crate",
-                "?matches/0.25,?lantern/0.25,?hacksaw/0.25,?prybar/0.1429"
+                "?matches/0.25,?lantern/0.25,?jerrycan/0.9091,?hacksaw/0.25,?prybar/0.1429"
             ]
         },
         "ForemansClearcut": {
@@ -3125,7 +3125,7 @@
             "explored": false,
             "features": [
                 "mine",
-                "?jerrycan/0.9,?canopener/0.0833"
+                "?jerrycan/0.9091,?canopener/0.0833"
             ]
         },
         "POI(ForkedRoad)": {
@@ -6885,7 +6885,7 @@
                 "bed,?workbench,forge,?grill",
                 "?box:3.0,?locker:7.0,?freezer,?trash:2,?file:8.0,?drawer:10.0",
                 "?calendar,?floppy/0.0333,?lamp",
-                "?matches,?jerrycan/0.9,?canopener/0.0833,?prybar:1,?prybar/0.25,?research/0.4545",
+                "?matches,?jerrycan/0.9091,?canopener/0.0833,?prybar:1,?prybar/0.25,?research/0.4545",
                 "?stim/0.25",
                 "?rope,?battery/0.6"
             ]
@@ -7072,7 +7072,7 @@
                 "bed",
                 "?box,?plastic,?locker:3.0,?trash,?file:4.0,?drawer:4.0,?shelf:2",
                 "?calendar,?floppy,buildout",
-                "?jerrycan/0.9,?prybar/0.25"
+                "?jerrycan/0.9091,?prybar/0.25"
             ]
         },
         "Transition(FRBL~BR)": {
@@ -7209,8 +7209,8 @@
         "VacantDepot": {
             "region": "TransferPass",
             "coords": [
-                100,
-                400
+                135,
+                405
             ],
             "customizable": true,
             "loading": false,
@@ -7239,6 +7239,21 @@
             "explored": false,
             "features": [
                 "rabbit,climb"
+            ]
+        },
+        "POI(OakGrove)": {
+            "region": "TransferPass",
+            "coords": [
+                -540,
+                400
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "harvestcedar"
             ]
         },
         "Transition(TP~FA)": {
@@ -7396,7 +7411,7 @@
                 "mine",
                 "?workbench",
                 "?safe",
-                "?jerrycan/0.9,?prybar/0.2162"
+                "?jerrycan/0.9091,?prybar/0.2162"
             ]
         },
         "Concentrator": {
@@ -7415,7 +7430,7 @@
                 "?workbench",
                 "?box,?firstaid,?bag,?safe",
                 "?calendar:2.0,?floppy/0.0333",
-                "?matches/0.5,?jerrycan/0.9,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.216,?woodworking",
+                "?matches/0.5,?jerrycan/0.9091,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.216,?woodworking",
                 "?stim/0.25,?saltbag",
                 "?respirator",
                 "?rope/0.25"
@@ -7627,7 +7642,7 @@
                 "harvestbirch,mine",
                 "?supplybin",
                 "?firstaid,?bag",
-                "?jerrycan/0.9"
+                "?jerrycan/0.9091"
             ]
         },
         "SmokersCave": {
@@ -8036,7 +8051,7 @@
             "features": [
                 "bed",
                 "?firstaid",
-                "?jerrycan/0.9",
+                "?jerrycan/0.9091",
                 "?combatpants/0.125"
             ]
         },
@@ -8073,7 +8088,7 @@
                 "!cache",
                 "bed,?potbelly",
                 "?chest,?file:5.0",
-                "?horseshoe:2.0,?deermount",
+                "?horseshoe,?deermount",
                 "?cookpot/0.7391,?skillet/0.7368,?thermos/0.1111,?canopener/0.0833,?bedroll/0.3333"
             ]
         },
@@ -8260,7 +8275,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "mine,climb"
+                "wolf,ptarmigan,mine,climb"
             ]
         },
         "Climb(LLH-CC)": {
@@ -8394,8 +8409,8 @@
             "features": [
                 "mine",
                 "?box,?plastic,?locker:6.0",
-                "?matches/0.1042,?jerrycan/0.9,?canopener/0.0833",
-                "?rope:2.0"
+                "?matches/0.1042,?jerrycan/0.9091,?canopener/0.0833",
+                "?rope"
             ]
         },
         "Climb(AbandonedMine)": {
@@ -8409,7 +8424,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "climb"
+            ]
         },
         "POI(TreeBridgeSouthOfMine)": {
             "region": "SunderedPass",
@@ -8501,6 +8518,7 @@
             "features": [
                 "ptarmigan",
                 "?workbench,?grill",
+                "?plastic,?locker:2",
                 "?matches/0.1042,?prybar/0.2162,?hammer/0.25,?bedroll/0.25"
             ]
         },
@@ -8518,7 +8536,7 @@
             "features": [
                 "bed,?grill",
                 "?calendar,?floppy/0.0333",
-                "?jerrycan/0.9,?cookpot/0.7391,?hammer/0.25,?bedroll/0.25",
+                "?jerrycan/0.9091,?cookpot/0.7391,?hammer/0.25,?bedroll/0.25",
                 "?camera"
             ]
         },
@@ -8896,9 +8914,7 @@
             "indoors": true,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": [
-                "?safe"
-            ]
+            "features": []
         }
     },
     "connections": [
@@ -13688,14 +13704,6 @@
         ],
         [
             "Concentrator",
-            "south",
-            "bottom,right",
-            "IdleCamp(DormNearTracks)",
-            "top,right",
-            "path"
-        ],
-        [
-            "Concentrator",
             "east",
             "top,right",
             "Headframe",
@@ -13741,6 +13749,14 @@
             "POI(TurbulentPasture)",
             "top,right",
             "default"
+        ],
+        [
+            "Headframe",
+            "south",
+            "bottom,right",
+            "IdleCamp(DormNearTracks)",
+            "top,right",
+            "path"
         ],
         [
             "Headframe",
@@ -14376,14 +14392,6 @@
         ],
         [
             "LottesRest",
-            "south",
-            "bottom,right",
-            "Climb(TP-SP)",
-            "top,right",
-            "default"
-        ],
-        [
-            "LottesRest",
             "west",
             "bottom,left",
             "Climb(LLH-BB)",
@@ -14397,14 +14405,6 @@
             "Transition(SP~TP)",
             "top,left",
             "path"
-        ],
-        [
-            "Climb(TP-SP)",
-            "north",
-            "top,left",
-            "Transition(TP~SP)",
-            "bottom,left",
-            "default"
         ],
         [
             "MiserableHaunt",
@@ -14427,6 +14427,22 @@
             "south",
             "bottom,left",
             "Transition(TP~SP)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Transition(TP~SP)",
+            "south",
+            "bottom,left",
+            "POI(OakGrove)",
+            "top,left",
+            "default"
+        ],
+        [
+            "POI(OakGrove)",
+            "south",
+            "bottom,left",
+            "Climb(TP-SP)",
             "top,left",
             "default"
         ],

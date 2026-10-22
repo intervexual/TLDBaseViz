@@ -46,18 +46,36 @@ def loot_info(filename='loottables.json', round_to=4, loot_table = 'Loot4'):
 
     bases = {}
 
-    loots = data[loot_table]
-    for region in loots:
-        for thing in loots[region]:
-            n = len(loots[region][thing])
-            prob = round(1  / n, round_to)
-            for pot_loc in loots[region][thing]:
-                loc = pot_loc
-                #print(region, thing, pot_loc, n)
-                if loc not in bases:
-                    bases[loc] = []
-                bases[loc].append(TOFIND + thing + PROBABILITY_DELIM + str(prob))
+    add_json_loottable_info(loot_table, bases, data, round_to)
+    add_json_bytotal_info(per_item, bases, round_to)
 
+    return bases
+
+
+def add_json_loottable_info(loot_table, bases, data, round_to):
+    # loot_table formatted like Loot4, Loot3
+    # if supplied with one of the four, only calculate that one
+    # else: calculate all four and average them
+    loot_tables = ['Loot1', 'Loot2', 'Loot3', 'Loot4']
+    if loot_table in loot_tables:
+        loot_tables = [loot_table]
+
+    for t in loot_tables:
+        loots = data[t]
+        for region in loots:
+            for thing in loots[region]:
+                n = len(loots[region][thing]) * len(loot_tables) # four loot tables, 1/4 if calculating all four
+                prob = round(1  / n, round_to)
+                for pot_loc in loots[region][thing]:
+                    loc = pot_loc
+                    #print(region, thing, pot_loc, n)
+                    if loc not in bases:
+                        bases[loc] = []
+                    bases[loc].append(TOFIND + thing + PROBABILITY_DELIM + str(prob))
+
+
+def add_json_bytotal_info(per_item, bases, round_to):
+    # everything under ByTotal
     for thing in per_item:
         entry = per_item[thing]
         locs = entry['locations']
@@ -77,8 +95,6 @@ def loot_info(filename='loottables.json', round_to=4, loot_table = 'Loot4'):
             if loc not in bases:
                 bases[loc] = []
             bases[loc].append(TOFIND + entry['key'] + PROBABILITY_DELIM + str(prob))
-
-    return bases
 
 
 def merge_in_adds(adds, bases):
@@ -130,6 +146,7 @@ def reset_bases(bases):
     for b in bases:
         bob = bases[b]
 
+
         info = {}
         info[REGION] = bob.region
         info[COORDS] = bob.coords
@@ -141,51 +158,51 @@ def reset_bases(bases):
         info[EXPLORED] = False
 
         features = []
-        for c in bob.features:
-            for f in c:
-                # reset all caches and transmitters
-                if f.name in [ 'cache', 'transmitter', 'mementobox']:
-                    features.append(TOPREPARE + f.name)
-                elif f.name in ['climb']:
-                    if f.status == ACTUAL:
-                        if f.name not in ','.join(bob.removed):
-                            features.append(f.name)
-                elif f.name not in MOVABLES:
-                    if f.status == ACTUAL:
-                        if TODO_TYPES[f.name] in [BRING, TOBRING] and f.material != MOVED:
-                            feat = f.name
-                            if feat in CONTAINERS :
-                                feat = TOFIND + feat
-                            if f.qty > 1:
-                                feat = feat + QTY_MARKER + str(f.qty)
-                            if f.probability != 1:
-                                feat = feat + PROBABILITY_DELIM + str(f.probability)
-                            features.append(feat)
+        if not b in ['UsedUp']:
+            for c in bob.features:
+                for f in c:
+                    # reset all caches and transmitters
+                    if f.name in [ 'cache', 'transmitter', 'mementobox']:
+                        features.append(TOPREPARE + f.name)
+                    elif f.name in ['climb']:
+                        if f.status == ACTUAL:
+                            if f.name not in ','.join(bob.removed):
+                                features.append(f.name)
+                    elif f.name not in MOVABLES:
+                        if f.status == ACTUAL:
+                            if TODO_TYPES[f.name] in [BRING, TOBRING] and f.material != MOVED:
+                                feat = f.name
+                                if feat in CONTAINERS :
+                                    feat = TOFIND + feat
+                                if f.qty > 1:
+                                    feat = feat + QTY_MARKER + str(f.qty)
+                                if f.probability != 1:
+                                    feat = feat + PROBABILITY_DELIM + str(f.probability)
+                                features.append(feat)
 
-        for c in bob.unused:
-            line = c.split(',')
-            for f in line:
-                if f.startswith(TOMAKE) or f.startswith(TOPREPARE):
-                    feat = f.strip()
-                else:
-                    feat = TOFIND + f.strip()
-                if len(feat) > 1:
-                    features.append(feat)
-                    #print(b, feat)
+            for c in bob.unused:
+                line = c.split(',')
+                for f in line:
+                    if f.startswith(TOMAKE) or f.startswith(TOPREPARE):
+                        feat = f.strip()
+                    else:
+                        feat = TOFIND + f.strip()
+                    if len(feat) > 1:
+                        features.append(feat)
+                        #print(b, feat)
 
-        for c in bob.removed:
-            line = c.split(',')
-            for f in line:
-                if f.startswith(TOMAKE) or f.startswith(TOPREPARE):
-                    feat = f.strip()
-                else:
-                    feat = TOFIND + f.strip()
-                if len(feat) > 1:
-                    features.append(feat)
-                    #print(b, feat)
+            for c in bob.removed:
+                line = c.split(',')
+                for f in line:
+                    if f.startswith(TOMAKE) or f.startswith(TOPREPARE):
+                        feat = f.strip()
+                    else:
+                        feat = TOFIND + f.strip()
+                    if len(feat) > 1:
+                        features.append(feat)
+                        #print(b, feat)
 
         info[FEATURES] = features #[','.join(features)]
-
 
         data[b] = info
         #print(b, info)
@@ -386,7 +403,7 @@ def average_loottables():
     :return:
     >>> average_loottables()
     """
-    for i in [1,2,3,4]:
+    for i in [1,2,3,4,0]:
         print('Loot Table', i)
         generate_template(loot_table=f'Loot{i}', output=f'templates/loot{i}.json')
 

@@ -213,7 +213,7 @@
         "top": "top~TransferPass",
         "right": "left~TransferPass",
         "connections": [["TransferPass", 500, -1300]],
-        "rotation": 45,
+        "rotation": 50,
         "truerotation": 30,
         "comment": ["the far territories are a mess!",
         "FA, SA, ZOC are all overlapping without manual tweaking",

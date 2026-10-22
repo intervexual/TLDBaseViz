@@ -318,7 +318,7 @@
         "PowerPlant"
       ],
       "spelunker": [
-        "Cave(BRM-TWM)"
+        "Cave(BRM~TWM)"
       ]
     },
     "Blackrock(2)": {
@@ -1258,7 +1258,7 @@
     },
     "jerrycan": {
       "key": "jerrycan",
-      "total": 9,
+      "total": 10,
       "locations": [
         "MaintenanceYard",
         "MaintenanceShed",
@@ -1269,7 +1269,8 @@
         "StationBunkhouse",
         "Concentrator",
         "LangstonMine(Floor2)",
-        "MinersFootpath"
+        "MinersFootpath",
+        "CooksFarm"
       ]
     },
     "rabbithat": {

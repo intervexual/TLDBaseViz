@@ -780,7 +780,10 @@ class BaseLocation:
                             text_anchor='middle' ) )
         d.append(g)
 
-    def draw(self, d, icon_size, margin_ratio=1/8, x=0, y=0, fill=HEXES[BASE_BG], border=HEXES[BASE], unexplored=HEXES[UNEXPLORED]):
+    def draw(self, d, icon_size,
+             margin_ratio=1/8, x=0, y=0,
+             fill=HEXES[BASE_BG], border=HEXES[BASE],
+             unexplored=HEXES[UNEXPLORED]):
         """
         Draw the base with drawsvg
         :param d: Drawing object
