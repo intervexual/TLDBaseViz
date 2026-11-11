@@ -161,13 +161,19 @@ def reset_bases(bases):
         if not b in ['UsedUp']:
             for c in bob.features:
                 for f in c:
+                    assert not f.name.startswith(TOFIND), f.name
                     # reset all caches and transmitters
-                    if f.name in [ 'cache', 'transmitter', 'mementobox']:
+                    if f.name in [ 'cache', 'transmitter', 'mementobox', 'gate']:
                         features.append(TOPREPARE + f.name)
                     elif f.name in ['climb']:
                         if f.status == ACTUAL:
                             if f.name not in ','.join(bob.removed):
                                 features.append(f.name)
+                    elif TOFIND in f.original: # Iron Road
+                        if f.qty > 1:
+                            features.append(f.name + QTY_MARKER + str(f.qty))
+                        else:
+                            features.append(f.name)
                     elif f.name not in MOVABLES:
                         if f.status == ACTUAL:
                             if TODO_TYPES[f.name] in [BRING, TOBRING] and f.material != MOVED:
@@ -327,7 +333,7 @@ def reset_edges(edges):
                 source_corner = cob.source_corner
                 sink_corner = cob.sink_corner
                 path_type = cob.kind
-                if not path_type in ['default', 'fake', 'oneway', 'path']:
+                if not path_type in ['default', 'fake', 'oneway', 'path', 'rail']:
                     path_type = 'default'
                 row = [source, dir, source_corner, sink, sink_corner, path_type]
                 connections.append(row)

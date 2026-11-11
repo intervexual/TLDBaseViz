@@ -158,7 +158,6 @@ class BaseFeature:
         for pref in PREFIXES:
             self.name = self.name.replace(pref, '')
 
-
         if PROBABILITY_DELIM in self.name:
             info = self.name.split(PROBABILITY_DELIM)
             self.name = info[0]

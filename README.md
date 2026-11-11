@@ -389,7 +389,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ## TODOs
 
 ### IRON ROAD
-1. Add shortforms to templates
+1. Separate items within locations where order matters (templates reorder them)
+2. Add shortforms to templates
 2. Break up templates by region like I do in mybases.json
 3. Better guesses at coordinates
 

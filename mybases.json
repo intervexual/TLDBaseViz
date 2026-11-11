@@ -6908,7 +6908,8 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["*climb"]
+				"features": ["*climb"],
+				"removed": ["*climb"]
 			},
 			"POI(WhaleBoneShrine)": {
 				"region": "PortRemnant",
@@ -6948,7 +6949,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["coal"]
+				"features": ["mine"]
 			},
 			"Cave(ToChurch)": {
 				"region": "PortRemnant",
@@ -6958,7 +6959,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["wolf,coal"]
+				"features": ["wolf,mine"]
 			},
 			"POI(WaterfallCave)": {
 				"region": "PortRemnant",

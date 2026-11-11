@@ -563,7 +563,7 @@ if __name__ == '__main__':
         all_locs = all_locs | locs
         prev_region = curr_region
 
-    with open('output/base_coordinates.json', 'w+') as f:
+    with open('output/data/base_coordinates.json', 'w+') as f:
         f.write(json.dumps(all_locs))
 
     d.save_svg(output)
