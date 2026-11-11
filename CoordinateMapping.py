@@ -95,7 +95,7 @@ def draw_just_region_from_coords(d, these_bases,
         circ_fill = 'black'
         if REGION_CONNECTOR in b:
             circ_fill = 'red'
-        bob.draw(d, icon_size=20, x=x, y=y)
+        #bob.draw(d, icon_size=3*unit_size, x=x, y=y)
         d.append(draw.Circle(x, y, unit_size, fill=circ_fill))
         d.append(draw.Text(b, 3*unit_size, x, y, fill=circ_fill))
         locations[b] = (x, y)
@@ -140,11 +140,18 @@ def draw_region_coords(region, source_info, output='tests/', print_output=False,
     >>> draw_region_coords('ForsakenAirfield', 'mybases.json', print_output=False)
     >>> draw_region_coords('SunderedPass', 'mybases.json', print_output=False)
     >>> draw_region_coords('ZoneOfContamination', 'mybases.json', print_output=False)
-   """
+    >>> draw_region_coords('PortRemnant', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland6', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland5', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland4', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland3', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland2', 'mybases.json', print_output=False)
+    >>> draw_region_coords('AnnaIsland1', 'mybases.json', print_output=False)
+    """
     b, e, regions = parse_input(source_info)
     bases, colours = process_input(source_info)
     these_bases = bases_of_region(bases, region)
-    add_region_connections(region, regions, bases, these_bases)
+    #add_region_connections(region, regions, bases, these_bases)
 
     output = output + 'coords_' + region + '.svg'
 
@@ -458,6 +465,29 @@ def line_up_transition_POIs(first_poi, second_poi, ac_bases, twm_bases):
     return rd_x, rd_y
 
 
+def add_region_connections(region, regions, bases, these_bases):
+    # probably deprecated at this point
+    # only used in coordinate mapping before the Transition(A~B) was established
+    for connec in regions[region]["connections"]:
+        connec_reg = connec[0]
+        connec_x = connec[1]
+        connec_y = connec[2]
+        connec_name = f'{region}{REGION_CONNECTOR}{connec_reg}'
+        data = {'name': connec_name,
+                REGION: region,
+                CUSTOMIZABLE: False,
+                INDOORS: False,
+                EXPLORED: True,
+                LOADING: True,
+                CABINFEVERRISK: False,
+                COORDS:[connec_x, connec_y],
+                FEATURES: []
+                }
+        bob = BaseLocation(connec_name, data)
+        bases[connec_name] = bob
+        these_bases[connec_name] = bob
+
+
 if __name__ == '__main__':
     doctest.testmod()
 
@@ -509,7 +539,7 @@ if __name__ == '__main__':
     regioned_bases = {} # prev_region: ac_bases
     for i, curr_region in enumerate(visit_order):
         curr_bases = bases_of_region(bases, curr_region)
-        add_region_connections(curr_region, regions, bases, curr_bases)
+        #add_region_connections(curr_region, regions, bases, curr_bases)
 
         total_x, total_y, x_offset, y_offset = region_size_from_coords(curr_bases, margin=margin)
         total_x, total_y = calculate_region_coords(curr_bases, regions, curr_region, total_x, total_y, x_offset, y_offset, margin=margin)

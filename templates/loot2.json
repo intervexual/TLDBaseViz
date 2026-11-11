@@ -101,7 +101,8 @@
             "features": [
                 "fish",
                 "?potbelly",
-                "?research/0.4545"
+                "?research/0.4545",
+                "?aviator/0.0667"
             ]
         },
         "MountaineersHut": {
@@ -116,12 +117,13 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "rabbit,harvestcedar:3.0,harvestfir:2.0,harvestbirch",
+                "rabbit,harvestcedar:3,harvestfir:2,harvestbirch",
                 "bed,?workbench,?grill",
                 "?oven,?shelf",
                 "buildout",
                 "?maglens,?matches,?hacksaw/0.25,?research/0.4545",
-                "?rope"
+                "?rope",
+                "?aviator/0.0667"
             ]
         },
         "Climb(EE~PC)": {
@@ -312,12 +314,12 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "ptarmigan,harvestfir:6.0",
+                "ptarmigan,harvestfir:6",
                 "?firestriker,?matches,?thermos,?distress/0.6,?dpammo/0.2666,?hacksaw/0.5",
                 "?antiseptic,?stim,?food",
                 "?rope",
                 "?leather,?wolfhide,?deerhide,?rabbitpelt,?gut",
-                "?toque,?skijacket,?earwrap,?crampons/0.3333,?socks"
+                "?aviator/0.0667,?toque,?skijacket,?earwrap,?crampons/0.3333,?socks"
             ]
         },
         "Cave(EngineWest)": {
@@ -578,7 +580,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "deer,rabbit,harvestfir:3.0"
+                "deer,rabbit,harvestfir:3"
             ]
         },
         "POI(AndresPeak)": {
@@ -901,8 +903,8 @@
                 "!mementobox",
                 "bed,?workbench,?potbelly",
                 "?chest,?box",
-                "?matches:1,?matches/0.167,?cookpot/0.7391,?prybar/0.2162,?research/0.4545",
-                "?arrowhead:2.0"
+                "?matches:1,?matches/0.1667,?cookpot/0.7391,?prybar/0.2162,?research/0.4545",
+                "?arrowhead:2"
             ]
         },
         "ForemansRetreat": {
@@ -1077,7 +1079,9 @@
             "indoors": true,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?aviator/0.0667"
+            ]
         },
         "Climb(SSC-RB)": {
             "region": "AshCanyon",
@@ -1422,9 +1426,9 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "wolf,harvestfir:2.0",
+                "wolf,harvestfir:2",
                 "bed,?workbench,?grill",
-                "?box,?plastic:2.0,?locker:6,?file:8.0,?shelf:6.0",
+                "?box,?plastic:2,?locker:6,?file:8,?shelf:6",
                 "?pillow"
             ]
         },
@@ -1440,7 +1444,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "wolf,harvestfir:3.0",
+                "wolf,harvestfir:3",
                 "?matches/0.1042,?prybar/0.1667",
                 "?mementokey"
             ]
@@ -1475,7 +1479,7 @@
             "features": [
                 "bear,deer,harvestbirch",
                 "?workbench,?grill",
-                "?box,?firstaid,?locker:3.0,?file,?drawer:4.0,?shelf",
+                "?box,?firstaid,?locker:3,?file,?drawer:4,?shelf",
                 "?distress/0.6,?dpammo/0.2666,?hacksaw/0.1429,?hammer,?research/0.4545",
                 "?stim"
             ]
@@ -1508,7 +1512,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "?suitcase:12.0",
+                "?suitcase:12",
                 "?polaroid",
                 "?combatpants/0.125,?socks/0.125,?underwear/0.25"
             ]
@@ -1541,7 +1545,7 @@
             "explored": false,
             "features": [
                 "wolf",
-                "?washer:2.0",
+                "?washer:2",
                 "?hacksaw/0.1429,?research/0.4545"
             ]
         },
@@ -1591,10 +1595,10 @@
                 "deer",
                 "!cache",
                 "bed,?workbench,?range",
-                "?plastic,?firstaid,?oven,?washer:2.0,?freezer,?bag,?shelf",
-                "?calendar:3.0,buildout,?deermount,?rug:9.0,?mat:2.0",
+                "?plastic,?firstaid,?oven,?washer:2,?freezer,?bag,?shelf",
+                "?calendar:3,buildout,?deermount,?rug:9,?mat:2",
                 "?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener,?hacksaw/0.1429,?prybar/0.3829,?research/0.4545",
-                "?food:3,?food/0.875,?saltbag",
+                "?food:3,?food/0.8751,?saltbag",
                 "?rope",
                 "?sweater/0.3333"
             ]
@@ -1630,11 +1634,11 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "rabbit,ptarmigan,harvestcedar,harvestfir:3.0",
+                "rabbit,ptarmigan,harvestcedar,harvestfir:3",
                 "!transmitter",
                 "bed,?workbench,?grill",
                 "?supplybin",
-                "?box,?firstaid,?locker:5.0,?file:6.0,?drawer:2.0,?shelf:4.0",
+                "?box,?firstaid,?locker:5,?file:6,?drawer:2,?shelf:4",
                 "?calendar,?floppy,?rug",
                 "?canopener/0.0833,?prybar/0.1667,?research/0.4545",
                 "?battery",
@@ -1688,7 +1692,7 @@
             "explored": false,
             "features": [
                 "?matches,?research/0.4545",
-                "?food:2.0000999999999998,?saltbag/0.75"
+                "?food:2,?food/0.0001,?saltbag/0.75"
             ]
         },
         "PleasantValleyChurch": {
@@ -1722,7 +1726,7 @@
                 "radio",
                 "bed,?range",
                 "?chest,?oven,?freezer,?cabinet",
-                "?deermount,?moosemount,?festive:6.0,?rug:3.0",
+                "?deermount,?moosemount,?festive:6,?rug:3",
                 "?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?hacksaw/0.1429,?prybar/0.1667",
                 "?recipe",
                 "?jersey/0.5"
@@ -1787,7 +1791,8 @@
             "features": [
                 "fish",
                 "?potbelly",
-                "?thermos/0.2,?research/0.4545"
+                "?thermos/0.2,?research/0.4545",
+                "?aviator/0.0667"
             ]
         },
         "Cave(PV~WR)": {
@@ -2110,7 +2115,8 @@
             "explored": false,
             "features": [
                 "fish",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "IceCave(KPS)": {
@@ -2279,7 +2285,7 @@
                 "!transmitter",
                 "bed,?outworkbench,?grill",
                 "?supplybin",
-                "?firstaid,?locker:3,?trash,?file:4.0",
+                "?firstaid,?locker:3,?trash,?file:4",
                 "?matches/0.25,?hacksaw/0.25,?prybar/0.3591,?research/0.4545",
                 "?stim/0.125",
                 "?battery"
@@ -2314,7 +2320,7 @@
             "explored": false,
             "features": [
                 "bed",
-                "?box,?plastic,?firstaid,?locker:3.0,?drawer:3.0",
+                "?box,?plastic,?firstaid,?locker:3,?drawer:3",
                 "?pillow,?calendar",
                 "?research/0.4545"
             ]
@@ -2415,11 +2421,11 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "wolf,harvestcedar:2.0",
+                "wolf,harvestcedar:2",
                 "?outworkbench,milling",
                 "?locker:2,?file,?shelf",
                 "?calendar,buildout",
-                "?thermos/0.1111,?canopener/0.0833"
+                "?thermos/0.2,?canopener/0.0833"
             ]
         },
         "Barracks": {
@@ -2438,7 +2444,7 @@
                 "radio",
                 "bed",
                 "?oven:2,?freezer,?trash",
-                "?skillet/0.7368,?thermos/0.1111",
+                "?skillet/0.7368,?thermos/0.2",
                 "?food:1,?food/0.25"
             ]
         },
@@ -2454,9 +2460,9 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "?plastic:5.0,?firstaid,?freezer,?trash",
+                "?plastic:5,?firstaid,?freezer,?trash",
                 "?mat",
-                "?thermos/0.1111"
+                "?thermos/0.2"
             ]
         },
         "WardensOffice": {
@@ -2473,8 +2479,8 @@
             "features": [
                 "wolf",
                 "bed",
-                "?floppy:3.0,?horseshoe,?deermount,?rug:3.0,?mat,?decor",
-                "?thermos/0.1111"
+                "?floppy:3,?horseshoe,?deermount,?rug:3,?mat,?decor",
+                "?thermos/0.2"
             ]
         },
         "CentralPrison": {
@@ -2491,10 +2497,10 @@
             "features": [
                 "?bear/0.25,wolf,climb",
                 "bed",
-                "?crate:2.0",
-                "?thermos/0.1111",
+                "?crate:2",
+                "?thermos/0.2",
                 "?stim",
-                "?battery:5.0",
+                "?battery:5",
                 "?ballistic"
             ]
         },
@@ -2542,7 +2548,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "bear,deer,rabbit,ptarmigan,harvestfir:2.0",
+                "bear,deer,rabbit,ptarmigan,harvestfir:2",
                 "?outworkbench,?grill",
                 "?oven,?cabinet,?shelf",
                 "buildout",
@@ -2718,8 +2724,9 @@
                 "rabbit,mine",
                 "bed",
                 "?supplybin",
-                "?locker:3.0,?bag,?drawer:2.0",
-                "?prybar/0.1429,?bedroll,?research/0.4545"
+                "?locker:3,?bag,?drawer:2",
+                "?prybar/0.1429,?bedroll,?research/0.4545",
+                "?aviator/0.0667"
             ]
         },
         "SteamTunnels": {
@@ -2941,7 +2948,7 @@
             "features": [
                 "deer,wolf,rabbit,mine",
                 "?workbench",
-                "?box:4,?firstaid,?locker:3.0,?bag:2,?drawer:3.0",
+                "?box:4,?firstaid,?locker:3,?bag:2,?drawer:3",
                 "?matches/0.1042,?lantern,?canopener/0.0833,?prybar/0.1429",
                 "?stim"
             ]
@@ -2978,7 +2985,7 @@
             "explored": false,
             "features": [
                 "mine,saltdeposit",
-                "?locker:2,?file,?drawer:2.0"
+                "?locker:2,?file,?drawer:2"
             ]
         },
         "House(SouthCoastalTownsite)": {
@@ -3010,10 +3017,10 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "bear,deer,wolf,harvestcedar:3.0,harvestfir:3.0",
+                "bear,deer,wolf,harvestcedar:3,harvestfir:3",
                 "radio",
                 "bed,?workbench:2,?grill",
-                "?box,?firstaid,?locker:5,?file:17.0,?drawer:11.0,?shelf:2",
+                "?box,?firstaid,?locker:5,?file:17,?drawer:11,?shelf:2",
                 "?lamp",
                 "?matches/0.25,?hacksaw,?prybar/0.1429,?hammer/0.1667,?research/0.4545"
             ]
@@ -3030,9 +3037,9 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "rabbit,harvestcedar:2.0,harvestfir:2.0",
+                "rabbit,harvestcedar:2,harvestfir:2",
                 "?box,?freezer,?trash,?drawer",
-                "?wallshelf,?crate,?rug:2.0,?lamp,?decor",
+                "?wallshelf,?crate,?rug:2,?lamp,?decor",
                 "?prybar/0.1429",
                 "?polaroid"
             ]
@@ -3051,7 +3058,8 @@
             "features": [
                 "fish",
                 "?potbelly",
-                "?file,?drawer:2"
+                "?file,?drawer:2",
+                "?aviator/0.0667"
             ]
         },
         "MisanthropesHomestead": {
@@ -3069,7 +3077,7 @@
                 "bear,deer,harvestfir,saltdeposit,beachcombing",
                 "trader",
                 "bed",
-                "?firstaid,?oven:2,?freezer,?cabinet:3,?cupboard:11.0,?drawer:8.0",
+                "?firstaid,?oven:2,?freezer,?cabinet:3,?cupboard:11,?drawer:8",
                 "?lamp",
                 "?matches/0.25",
                 "?sweater/0.3333"
@@ -3103,7 +3111,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "deer,wolf,harvestcedar:3.0,harvestfir",
+                "deer,wolf,harvestcedar:3,harvestfir",
                 "bed,?potbelly",
                 "?supplybin",
                 "?file",
@@ -3155,7 +3163,8 @@
             "features": [
                 "fish,beachcombing",
                 "!cache",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "House(Jackrabbit)": {
@@ -3170,9 +3179,9 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "deer,rabbit,harvestfir:3.0,saltdeposit,beachcombing",
+                "deer,rabbit,harvestfir:3,saltdeposit,beachcombing",
                 "bed",
-                "?oven:2,?freezer,?cabinet:3,?cupboard:17.0,?drawer:4.0",
+                "?oven:2,?freezer,?cabinet:3,?cupboard:17,?drawer:4",
                 "?suitcase/0.3846,?lamp",
                 "?canopener/0.0833,?hammer/0.1667"
             ]
@@ -3191,7 +3200,8 @@
             "features": [
                 "fish,beachcombing",
                 "?potbelly",
-                "?matches/0.25"
+                "?matches/0.25",
+                "?aviator/0.0667"
             ]
         },
         "Trailer(LogSort)": {
@@ -3207,7 +3217,7 @@
             "explored": false,
             "features": [
                 "bed",
-                "?pillow:2.0",
+                "?pillow:2",
                 "?hammer/0.1667"
             ]
         },
@@ -3225,8 +3235,8 @@
             "features": [
                 "deer,rabbit",
                 "bed",
-                "?box:2.0,?plastic:2,?drawer",
-                "?pillow:2.0",
+                "?box:2,?plastic:2,?drawer",
+                "?pillow:2",
                 "?canopener/0.0833,?research/0.4545"
             ]
         },
@@ -3255,7 +3265,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bear,deer,harvestfir:3.0,saltdeposit,beachcombing",
+                "bear,deer,harvestfir:3,saltdeposit,beachcombing",
                 "?matches/0.25,?research/0.4545"
             ]
         },
@@ -3289,7 +3299,8 @@
             "explored": false,
             "features": [
                 "fish",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "FishHuts(Central)": {
@@ -3307,7 +3318,8 @@
                 "fish",
                 "?potbelly",
                 "?prybar/0.1429,?hammer/0.1667,?research/0.4545",
-                "?rope/0.3333"
+                "?rope/0.3333",
+                "?aviator/0.0667"
             ]
         },
         "Cabins(FishingCamp)": {
@@ -3323,8 +3335,8 @@
             "explored": false,
             "features": [
                 "bed,?outworkbench",
-                "?box,?firstaid,?trash,?bag,?drawer:3.0,?shelf",
-                "?crate:2.0,?deermount,?lamp:2.0",
+                "?box,?firstaid,?trash,?bag,?drawer:3,?shelf",
+                "?crate:2,?deermount,?lamp:2",
                 "?matches/0.25,?hammer/0.1667",
                 "?rope/0.3333"
             ]
@@ -3358,7 +3370,7 @@
             "features": [
                 "bed:3",
                 "?box,?cabinet,?trash,?bag",
-                "?crate:6.0"
+                "?crate:6"
             ]
         },
         "Trailer(NearSilentClearing)": {
@@ -3483,7 +3495,8 @@
             "explored": false,
             "features": [
                 "!cache",
-                "?suitcase:2.0"
+                "?suitcase:2",
+                "?aviator/0.0667"
             ]
         },
         "Transition(CH~OIC)": {
@@ -3656,9 +3669,9 @@
                 "bed,?workbench,?grill",
                 "?box,?plastic:2,?locker:4,?bag,?safe,?drawer,?shelf",
                 "?floppy/0.0333",
-                "?matches,?lantern,?distress/0.6,?dpammo/0.1333,?prybar:1,?prybar/0.216,?research/0.4545",
+                "?matches,?lantern,?distress/0.6,?dpammo/0.1333,?prybar:1,?prybar/0.2162,?research/0.4545",
                 "?saltbag",
-                "?battery:5.0"
+                "?battery:5"
             ]
         },
         "Cave(BrokenBridge)": {
@@ -3706,7 +3719,7 @@
             "features": [
                 "!transmitter,!mementobox",
                 "bed",
-                "?pillow:4.0",
+                "?pillow:4",
                 "?blueflare/0.25,?dpammo/0.1333,?research/0.4545"
             ]
         },
@@ -3757,7 +3770,7 @@
             "explored": false,
             "features": [
                 "bed,?grill",
-                "?crate:2.0",
+                "?crate:2",
                 "?research/0.4545"
             ]
         },
@@ -3930,7 +3943,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "deer,rabbit,harvestfir:2.0,harvestbirch",
+                "deer,rabbit,harvestfir:2,harvestbirch",
                 "?bag",
                 "?rope/0.3333"
             ]
@@ -4066,8 +4079,8 @@
             "features": [
                 "wolf",
                 "bed",
-                "?box:2.0,?firstaid,?locker:2.0,?drawer",
-                "?crate:2.0",
+                "?box:2,?firstaid,?locker:2,?drawer",
+                "?crate:2",
                 "?research/0.4545"
             ]
         },
@@ -4103,8 +4116,8 @@
             "features": [
                 "deer,ptarmigan,harvestbirch",
                 "?workbench:3,?grill",
-                "?briefcase,?box,?plastic,?firstaid,?locker:3,?trash:4.0,?safe",
-                "?floppy:6.0,?festive:4.0",
+                "?briefcase,?box,?plastic,?firstaid,?locker:3,?trash:4,?safe",
+                "?floppy:6,?festive:4",
                 "?matches/0.25,?canopener/0.0833,?prybar/0.3829,?research/0.4545",
                 "?stim/0.125",
                 "?jersey/0.5"
@@ -4152,10 +4165,10 @@
             "explored": false,
             "features": [
                 "bed:3,?grill",
-                "?box:6.0,?plastic,?firstaid,?bag,?drawer:2",
-                "?pillow:4.0,?crate:2.0,?decor",
+                "?box:6,?plastic,?firstaid,?bag,?drawer:2",
+                "?pillow:4,?crate:2,?decor",
                 "?firestriker/0.3333,?prybar/0.1667,?research/0.4545",
-                "?harvestcloth:3.0"
+                "?harvestcloth:3"
             ]
         },
         "ForestryLookout": {
@@ -4173,7 +4186,7 @@
                 "ptarmigan",
                 "bed,?grill",
                 "?box,?firstaid",
-                "?mat:2.0",
+                "?mat:2",
                 "?maglens/0.3333,?canopener/0.0833,?prybar/0.1667,?research/0.4545"
             ]
         },
@@ -4286,7 +4299,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "bear,moose,deer,harvestcedar:2.0,harvestfir:2.0,harvestbirch",
+                "bear,moose,deer,harvestcedar:2,harvestfir:2,harvestbirch",
                 "bed,?workbench,?grill",
                 "?firstaid,?locker,?bag,?safe,?shelf",
                 "?wallshelf,?rug,?mat",
@@ -4307,7 +4320,8 @@
             "features": [
                 "!cache",
                 "?dpammo/0.2666",
-                "?stim/0.125"
+                "?stim/0.125",
+                "?aviator/0.0667"
             ]
         },
         "POI(RiverNorthernAccess)": {
@@ -4337,9 +4351,9 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "ptarmigan,harvestfir:2.0",
+                "ptarmigan,harvestfir:2",
                 "!mementobox",
-                "?maglens/0.3333,?dpammo:3.0,?research/0.4545",
+                "?maglens/0.3333,?dpammo:3,?research/0.4545",
                 "?polaroid"
             ]
         },
@@ -4370,7 +4384,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "harvestfir:3.0"
+                "harvestfir:3"
             ]
         },
         "POI(CentralMLRail)": {
@@ -4404,9 +4418,10 @@
                 "radio",
                 "bed,?workbench,?grill",
                 "?firstaid,?file:3,?drawer",
-                "?calendar:2.0,?floppy/0.0333,?crate:2.0,?deermount,lights",
+                "?calendar:2,?floppy/0.0333,?crate:2,?deermount,lights",
                 "?matches/0.1042,?skillet/0.7368,?bedroll/0.25,?research/0.4545",
-                "?food:1,?food/0.25,?saltbag/0.3"
+                "?food:1,?food/0.25,?saltbag/0.3",
+                "?aviator/0.0667"
             ]
         },
         "POI(MidRailArea)": {
@@ -4502,7 +4517,8 @@
             "features": [
                 "fish",
                 "?potbelly",
-                "?research/0.4545"
+                "?research/0.4545",
+                "?aviator/0.0667"
             ]
         },
         "Climb(ML-LO1)": {
@@ -4684,7 +4700,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "harvestcedar:2.0,harvestfir",
+                "harvestcedar:2,harvestfir",
                 "?grill",
                 "?lantern/0.25,?hacksaw/0.1667,?research/0.4545"
             ]
@@ -4842,7 +4858,7 @@
             "features": [
                 "wolf,harvestbirch",
                 "bed,?workbench,forge",
-                "?box,?locker,?bag,?safe,?file,?drawer:2.0",
+                "?box,?locker,?bag,?safe,?file,?drawer:2",
                 "?lantern/0.25,?hacksaw/0.1667,?prybar/0.2162,?research/0.4545"
             ]
         },
@@ -5131,7 +5147,8 @@
             "explored": false,
             "features": [
                 "!cache",
-                "?matches/0.1042"
+                "?matches/0.1042",
+                "?aviator/0.0667"
             ]
         },
         "Transition(BI~R)": {
@@ -5235,7 +5252,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "harvestfir:8.0"
+                "harvestfir:8"
             ]
         },
         "Climb(BI)": {
@@ -5285,7 +5302,8 @@
             "explored": false,
             "features": [
                 "fish,beachcombing",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "Cabin(LowerRaven)": {
@@ -5300,7 +5318,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "deer,timberwolf,harvestfir:6.0",
+                "deer,timberwolf,harvestfir:6",
                 "bed,?grill",
                 "?chest,?box",
                 "?calendar,?deermount",
@@ -5486,7 +5504,8 @@
             "explored": false,
             "features": [
                 "timberwolf,fish,beachcombing",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "Kitchen(Cannery)": {
@@ -5538,7 +5557,7 @@
             "features": [
                 "climb",
                 "?locker",
-                "?thermos/0.25"
+                "?thermos/0.3333"
             ]
         },
         "Warehouse4": {
@@ -5554,7 +5573,7 @@
             "explored": false,
             "features": [
                 "?box,?firstaid,?bag",
-                "?thermos/0.25,?prybar/0.2"
+                "?thermos/0.3333,?prybar/0.2"
             ]
         },
         "Warehouse3": {
@@ -5608,7 +5627,7 @@
                 "timberwolf",
                 "!cache",
                 "bed",
-                "?pillow:5.0",
+                "?pillow:5",
                 "?canopener/0.0833,?prybar/0.2,?research/0.4545"
             ]
         },
@@ -5624,7 +5643,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bear,harvestcedar:2.0",
+                "bear,harvestcedar:2",
                 "?polaroid"
             ]
         },
@@ -5703,7 +5722,7 @@
             "features": [
                 "timberwolf,saltdeposit,beachcombing",
                 "?chest:2",
-                "?skillet/0.7368,?thermos/0.25,?distress/0.6,?dpammo/0.1333"
+                "?skillet/0.7368,?thermos/0.3333,?distress/0.6,?dpammo/0.1333"
             ]
         },
         "Transition(MT~FM)": {
@@ -5846,7 +5865,7 @@
             "explored": false,
             "features": [
                 "wolf,rabbit",
-                "bed:3.0",
+                "bed:3",
                 "?suitcase/0.3846",
                 "?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
                 "?battery/0.1",
@@ -5866,7 +5885,7 @@
             "explored": false,
             "features": [
                 "wolf,rabbit",
-                "bed:2.0",
+                "bed:2",
                 "?suitcase/0.3846",
                 "?matches/0.25,?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
                 "?battery/0.1",
@@ -5944,7 +5963,7 @@
             "explored": false,
             "features": [
                 "wolf",
-                "bed:2.0",
+                "bed:2",
                 "?suitcase/0.3846",
                 "?cookpot/0.7391,?skillet/0.7368,?prybar/0.4662,?research/0.4545",
                 "?battery/0.1",
@@ -5964,7 +5983,7 @@
             "explored": false,
             "features": [
                 "?safe",
-                "?calendar:3.0,?floppy:4.0",
+                "?calendar:3,?floppy:4",
                 "?matches/0.1042,?canopener/0.0833,?prybar/0.4324",
                 "?battery/0.6"
             ]
@@ -5981,7 +6000,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "harvestcedar:2.0,harvestfir:2.0",
+                "harvestcedar:2,harvestfir:2",
                 "?bag",
                 "?matches"
             ]
@@ -6066,7 +6085,8 @@
                 "ptarmigan",
                 "bed",
                 "?thermos,?bedroll/0.3333,?research/0.4545",
-                "?stim"
+                "?stim",
+                "?aviator/0.0667"
             ]
         },
         "PrepperCache(MT)": {
@@ -6144,9 +6164,9 @@
                 "deer,rabbit,ptarmigan",
                 "bed,?outworkbench,?range",
                 "?chest,?briefcase,?freezer,?cabinet",
-                "?floppy:2.0",
+                "?floppy:2",
                 "?matches/0.1042,?lantern,?cookpot/0.7391,?skillet/0.7368,?canopener/0.0833,?prybar/0.4662,?research/0.4545",
-                "?food:3,?food/0.875"
+                "?food:3,?food/0.8751"
             ]
         },
         "Cave(MT~HRV)": {
@@ -6325,7 +6345,7 @@
             "explored": false,
             "features": [
                 "?workbench",
-                "?briefcase,?box,?plastic:2,?firstaid,?locker:7.0,?trash:3.0,?file:14.0,?drawer:4.0",
+                "?briefcase,?box,?plastic:2,?firstaid,?locker:7,?trash:3,?file:14,?drawer:4",
                 "?floppy",
                 "?matches/0.25,?cookpot/0.7391,?canopener/0.0833,?hammer"
             ]
@@ -6448,7 +6468,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "harvestcedar:2.0",
+                "harvestcedar:2",
                 "bed,?workbench",
                 "?box,?plastic,?firstaid",
                 "?floppy/0.0333"
@@ -6672,7 +6692,8 @@
                 "!cache",
                 "bed",
                 "?pillow/0.3333",
-                "?recipe/0.1111"
+                "?recipe/0.1111",
+                "?aviator/0.0667"
             ]
         },
         "SnowShelter(ReclusiveFalls)": {
@@ -6884,10 +6905,10 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "wolf,ptarmigan,harvestfir:6.0",
+                "wolf,ptarmigan,harvestfir:6",
                 "!cache",
                 "bed,?workbench,forge,?grill",
-                "?box:3.0,?locker:7.0,?freezer,?trash:2,?file:8.0,?drawer:10.0",
+                "?box:3,?locker:7,?freezer,?trash:2,?file:8,?drawer:10",
                 "?calendar,?floppy/0.0333,?lamp",
                 "?matches,?jerrycan/0.9091,?canopener/0.0833,?prybar:1,?prybar/0.25,?hammer,?research/0.4545",
                 "?stim/0.25",
@@ -6906,7 +6927,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bear,wolf,harvestfir:6.0",
+                "bear,wolf,harvestfir:6",
                 "?firestriker/0.25"
             ]
         },
@@ -6922,7 +6943,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "harvestcedar:2.0,harvestfir:2.0,*climb"
+                "harvestcedar:2,harvestfir:2,*climb"
             ]
         },
         "HuntingLodge": {
@@ -6937,13 +6958,13 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "wolf,rabbit,ptarmigan,harvestcedar:2.0",
+                "wolf,rabbit,ptarmigan,harvestcedar:2",
                 "bed,?workbench,?range",
                 "?supplybin",
-                "?chest,?box,?plastic:2,?firstaid,?cabinet:2,?file:2.0,?drawer:6.0",
-                "?horseshoe,?wallshelf:2.0,?crate:6.0,?deermount,?festive:5.0,?rug:9.0,?mat:5.0,?lamp",
+                "?chest,?box,?plastic:2,?firstaid,?cabinet:2,?file:2,?drawer:6",
+                "?horseshoe,?wallshelf:2,?crate:6,?deermount,?festive:5,?rug:9,?mat:5,?lamp",
                 "?firestriker/0.25,?matches,?skillet/0.7368,?canopener/0.0833,?research/0.4545",
-                "?stim,?food:2.0000999999999998,?saltbag",
+                "?stim,?food:2,?food/0.0001,?saltbag",
                 "?recipe",
                 "?mementokey,?rope",
                 "?jersey/0.5"
@@ -6964,7 +6985,7 @@
                 "rabbit",
                 "!mementobox",
                 "?firestriker/0.25",
-                "?sapling:3.0"
+                "?sapling:3"
             ]
         },
         "Climb(BRRavine)": {
@@ -7074,7 +7095,7 @@
                 "wolf",
                 "radio",
                 "bed",
-                "?box,?plastic,?locker:3.0,?trash,?file:4.0,?drawer:4.0,?shelf:2",
+                "?box,?plastic,?locker:3,?trash,?file:4,?drawer:4,?shelf:2",
                 "?calendar,?floppy,buildout",
                 "?jerrycan/0.9091,?prybar/0.25"
             ]
@@ -7207,7 +7228,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "rabbit,ptarmigan,harvestcedar:4.0,harvestfir:4.0"
+                "rabbit,ptarmigan,harvestcedar:4,harvestfir:4"
             ]
         },
         "VacantDepot": {
@@ -7222,7 +7243,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "rabbit,ptarmigan,harvestfir:8.0",
+                "rabbit,ptarmigan,harvestfir:8",
                 "radio",
                 "?grill",
                 "?shelf",
@@ -7394,8 +7415,8 @@
                 "mine",
                 "bed,?workbench,?grill",
                 "?supplybin",
-                "?box,?plastic,?firstaid,?file,?drawer:2.0,?shelf",
-                "?firestriker,?lantern,?thermos/0.25,?canopener,?distress/0.6,?dpammo/0.5332",
+                "?box,?plastic,?firstaid,?file,?drawer:2,?shelf",
+                "?firestriker,?lantern,?thermos/0.5,?canopener,?distress/0.6,?dpammo/0.5332",
                 "?stim,?saltbag",
                 "?polaroid"
             ]
@@ -7415,7 +7436,7 @@
                 "mine",
                 "?workbench",
                 "?safe",
-                "?jerrycan/0.9091,?prybar/0.2162"
+                "?jerrycan/0.9091,?thermos/0.5,?prybar/0.2162"
             ]
         },
         "Concentrator": {
@@ -7433,8 +7454,8 @@
                 "poisonwolf",
                 "?workbench",
                 "?box,?firstaid,?bag,?safe",
-                "?calendar:2.0,?floppy/0.0333",
-                "?matches/0.5,?jerrycan/0.9091,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.216,?woodworking",
+                "?calendar:2,?floppy/0.0333",
+                "?matches/0.5,?jerrycan/0.9091,?canopener/0.0833,?dpammo/0.2666,?prybar:1,?prybar/0.2162,?woodworking",
                 "?stim/0.25,?saltbag",
                 "?respirator",
                 "?rope/0.25"
@@ -7472,7 +7493,7 @@
             "features": [
                 "poisonwolf",
                 "?workbench:2",
-                "?box,?locker:8.0,?bag",
+                "?box,?locker:8,?bag",
                 "?floppy/0.0333",
                 "?matches/0.5"
             ]
@@ -7490,7 +7511,7 @@
             "explored": false,
             "features": [
                 "?grill",
-                "?file:3.0,?drawer:4.0",
+                "?file:3,?drawer:4",
                 "?polaroid"
             ]
         },
@@ -7523,7 +7544,7 @@
             "explored": false,
             "features": [
                 "poisonwolf",
-                "bed:4.0",
+                "bed:4",
                 "?box,?plastic,?locker"
             ]
         },
@@ -7545,7 +7566,7 @@
                 "?firstaid,?oven:2,?freezer:2,?shelf",
                 "buildout",
                 "?matches/0.1042,?cookpot/0.7391,?skillet/0.7368,?canopener",
-                "?food:2.0000999999999998"
+                "?food:2,?food/0.0001"
             ]
         },
         "IdleCamp(OtherDorm)": {
@@ -7561,7 +7582,7 @@
             "explored": false,
             "features": [
                 "bed",
-                "?box:2.0,?plastic"
+                "?box:2,?plastic"
             ]
         },
         "POI(FlagmansGap)": {
@@ -7593,7 +7614,7 @@
             "features": [
                 "poisonwolf",
                 "?workbench:2",
-                "?trash,?file:7.0,?drawer:10.0",
+                "?trash,?file:7,?drawer:10",
                 "buildout",
                 "?prybar/0.2162"
             ]
@@ -7611,7 +7632,7 @@
             "explored": false,
             "features": [
                 "?workbench",
-                "?cupboard:3.0,?file,?drawer:2.0",
+                "?cupboard:3,?file,?drawer:2",
                 "?calendar",
                 "?canopener/0.0833"
             ]
@@ -7628,7 +7649,7 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "?plastic,?locker:5.0"
+                "?plastic,?locker:5"
             ]
         },
         "MinersFootpath": {
@@ -7709,7 +7730,8 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "poisonwolf"
+                "poisonwolf",
+                "?aviator/0.0667"
             ]
         },
         "Cave(NearTrailer)": {
@@ -7835,13 +7857,13 @@
             "explored": false,
             "features": [
                 "bed:2,?workbench,forge",
-                "?oven:2,?locker,?freezer,?trash:3,?file:5.0,?drawer:4.0",
-                "?suitcase/0.3846,?pillow:5.0,?calendar:2.0,?floppy,?crate:2.0,?festive:5.0,?rug",
+                "?oven:2,?locker,?freezer,?trash:3,?file:5,?drawer:4",
+                "?suitcase/0.3846,?pillow:5,?calendar:2,?floppy,?crate:2,?festive:5,?rug",
                 "?matches/0.25,?canopener/0.0833,?prybar",
                 "?food:1,?food/0.875,?saltbag",
                 "?recipe",
                 "?rope,?battery:4,?battery/0.2",
-                "?jersey/0.5,?socks/0.125,?underwear/0.25"
+                "?aviator/0.0667,?jersey/0.5,?socks/0.125,?underwear/0.25"
             ]
         },
         "POI(WhealysTurn)": {
@@ -7998,9 +8020,25 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bear,deer",
-                "!cache",
+                "bear,ptarmigan",
                 "?research/0.4545"
+            ]
+        },
+        "CrashSite(FA)": {
+            "region": "ForsakenAirfield",
+            "coords": [
+                1250,
+                400
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "ptarmigan",
+                "!cache",
+                "?aviator/0.0667"
             ]
         },
         "Terminal": {
@@ -8016,8 +8054,8 @@
             "explored": false,
             "features": [
                 "radio",
-                "?suitcase:10,?suitcase/0.385",
-                "?matches/0.1042,?thermos/0.2222,?dpammo/0.6665",
+                "?suitcase:10,?suitcase/0.3846",
+                "?matches/0.1042,?thermos/0.5,?dpammo/0.6665",
                 "?socks/0.125,?underwear/0.25"
             ]
         },
@@ -8036,7 +8074,7 @@
                 "!transmitter",
                 "?plastic",
                 "?suitcase/0.3846,?floppy/0.0333",
-                "?matches:1,?matches/0.333,?canopener/0.0833,?distress/0.6,?dpammo/0.2666,?bedroll/0.3333",
+                "?matches:1,?matches/0.3333,?canopener/0.0833,?distress/0.6,?dpammo/0.2666,?bedroll/0.3333",
                 "?handheld",
                 "?battery"
             ]
@@ -8073,7 +8111,8 @@
             "features": [
                 "!cache",
                 "bed",
-                "?distress/0.6,?dpammo/0.2666"
+                "?distress/0.6,?dpammo/0.2666",
+                "?aviator/0.0667"
             ]
         },
         "MindfulCabin": {
@@ -8088,12 +8127,13 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "deer,wolf,rabbit,ptarmigan,harvestcedar:2.0,harvestfir",
+                "deer,wolf,rabbit,ptarmigan,harvestcedar:2,harvestfir",
                 "!cache",
                 "bed,?potbelly",
-                "?chest,?file:5.0",
+                "?chest,?file:5",
                 "?horseshoe,?deermount",
-                "?cookpot/0.7391,?skillet/0.7368,?thermos/0.1111,?canopener/0.0833,?bedroll/0.3333"
+                "?cookpot/0.7391,?skillet/0.7368,?thermos/0.25,?canopener/0.0833,?bedroll/0.3333",
+                "?aviator/0.0667"
             ]
         },
         "Climb(IFH-MC)": {
@@ -8124,7 +8164,8 @@
             "explored": false,
             "features": [
                 "fish",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "IslandCottage": {
@@ -8140,8 +8181,8 @@
             "explored": false,
             "features": [
                 "bed,?outworkbench,?potbelly",
-                "?box,?firstaid,?cupboard,?trash,?drawer:6.0",
-                "?matches/0.3333,?thermos/0.1111,?research/0.4545",
+                "?box,?firstaid,?cupboard,?trash,?drawer:6",
+                "?matches/0.3333,?thermos/0.25,?research/0.4545",
                 "?polaroid"
             ]
         },
@@ -8158,7 +8199,8 @@
             "explored": false,
             "features": [
                 "fish",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "HuntersBlind(CentralFA)": {
@@ -8377,7 +8419,7 @@
             "features": [
                 "timberwolf",
                 "bed",
-                "?washer:2.0",
+                "?washer:2",
                 "?canopener/0.0833,?hammer/0.25",
                 "?polaroid"
             ]
@@ -8412,7 +8454,7 @@
             "explored": false,
             "features": [
                 "mine",
-                "?box,?plastic,?locker:6.0",
+                "?box,?plastic,?locker:6",
                 "?matches/0.1042,?jerrycan/0.9091,?canopener/0.0833",
                 "?rope"
             ]
@@ -8574,7 +8616,8 @@
             "explored": false,
             "features": [
                 "wolf,ptarmigan",
-                "?bedroll/0.25"
+                "?bedroll/0.25",
+                "?aviator/0.0667"
             ]
         },
         "Cabin(SnowedIn)": {
@@ -8598,7 +8641,7 @@
                 "?polaroid"
             ]
         },
-        "FishHut(SA)": {
+        "FishHut(SP)": {
             "region": "SunderedPass",
             "coords": [
                 -500,
@@ -8611,7 +8654,8 @@
             "explored": false,
             "features": [
                 "fish",
-                "?potbelly"
+                "?potbelly",
+                "?aviator/0.0667"
             ]
         },
         "LottesRest": {
@@ -8893,7 +8937,7 @@
             "features": []
         },
         "ToTradeFor": {
-            "region": "Special",
+            "region": "CoastalHighway",
             "coords": [
                 300,
                 100
@@ -11153,6 +11197,14 @@
             "WaterfrontCottages",
             "bottom,left",
             "default"
+        ],
+        [
+            "MisanthropesHomestead",
+            "south",
+            "bottom,left",
+            "ToTradeFor",
+            "top,left",
+            "fake"
         ],
         [
             "FishHut(BetweenIslands)",
@@ -13966,7 +14018,7 @@
             "Cave(FA~ZOC~SP)",
             "west",
             "top,left",
-            "FallowDugout",
+            "CrashSite(FA)",
             "top,right",
             "default"
         ],
@@ -13976,6 +14028,14 @@
             "top,right",
             "Cave(SP~ZOC~FA)",
             "bottom,left",
+            "default"
+        ],
+        [
+            "CrashSite(FA)",
+            "west",
+            "top,left",
+            "FallowDugout",
+            "top,right",
             "default"
         ],
         [
@@ -14278,7 +14338,7 @@
             "Cabin(SnowedIn)",
             "east",
             "top,right",
-            "FishHut(SA)",
+            "FishHut(SP)",
             "bottom,left",
             "default"
         ],
@@ -14291,7 +14351,7 @@
             "default"
         ],
         [
-            "FishHut(SA)",
+            "FishHut(SP)",
             "east",
             "top,right",
             "Climb(AL-RC)",
@@ -14299,7 +14359,7 @@
             "default"
         ],
         [
-            "FishHut(SA)",
+            "FishHut(SP)",
             "west",
             "top,left",
             "FinalRefuge",
@@ -14454,7 +14514,7 @@
             "CurrentInventory",
             "south",
             "bottom,left",
-            "ToTradeFor",
+            "UsedUp",
             "top,left",
             "default"
         ],
@@ -14463,14 +14523,6 @@
             "south",
             "bottom,right",
             "Uncertainty",
-            "top,left",
-            "default"
-        ],
-        [
-            "ToTradeFor",
-            "south",
-            "bottom,left",
-            "UsedUp",
             "top,left",
             "default"
         ]

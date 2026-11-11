@@ -209,7 +209,7 @@ def reset_bases(bases):
     return data
 
 
-def cleanup_features(bases, round_to=3):
+def cleanup_features(bases, round_to=4):
     """
 
     :param bases:
@@ -280,13 +280,13 @@ def cleanup_features(bases, round_to=3):
                         pref = ''
 
                     if feats[i.key] > 1:
-                        new_line.append(pref + i.key + ':' + str(feats[i.key]))
+                        new_line.append(pref + i.key + ':' + str(int(feats[i.key])))
                     else:
                         new_line.append(pref + i.key)
-                else:
+                else: # float amount
                     assert flags[i.key] == '', flags[i.key]
                     if feats[i.key] < 1:
-                        new_line.append(TOFIND + i.key + '/' + str(feats[i.key]) )
+                        new_line.append(TOFIND + i.key + '/' + str(round(feats[i.key], round_to)) )
                     else:
                         whole_amnt = int(feats[i.key])
                         remainder = round(feats[i.key] - whole_amnt, round_to)
@@ -403,7 +403,7 @@ def average_loottables():
     :return:
     >>> average_loottables()
     """
-    for i in [1,2,3,4,0]:
+    for i in [1,2,3,4,0]: # Loot0 is the average of the four
         print('Loot Table', i)
         generate_template(loot_table=f'Loot{i}', output=f'templates/loot{i}.json')
 

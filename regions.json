@@ -244,5 +244,90 @@
         "truerotation": -75,
         "comment": ["-85 is to avoid Smoker's Cave overlopping with the SP quest climb area"],
         "north":"left"
+    },
+
+    "AnnaIsland1":
+    {"y-flip": true, "x-flip":false,
+        "short": "A1",
+        "top": "bottom~AnnaIsland2",
+        "left": "right~PortRemnant",
+        "connections": [["PortRemnant", 1785,660],
+            ["AnnaIsland2",1660,-675]
+        ],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+        "AnnaIsland2":
+    {"y-flip": true, "x-flip":false,
+        "short": "A2",
+        "top": "bottom~AnnaIsland1",
+        "left": "right~AnnaIsland3",
+        "connections": [["AnnaIsland1",1660,-675],
+        ["AnnaIsland3",590,-470]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "AnnaIsland3":
+    {"y-flip": true, "x-flip":false,
+        "short": "A3",
+        "top": "bottom~AnnaIsland4",
+        "left": "left~AnnaIsland2",
+        "connections": [["AnnaIsland4", -500,-320],
+        ["AnnaIsland2",590,-470]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "AnnaIsland4":
+    {"y-flip": true, "x-flip":false,
+        "short": "A4",
+        "top": "top~AnnaIsland3",
+        "left": "left~AnnaIsland6",
+        "connections": [["AnnaIsland3", -500,-320],
+        ["AnnaIsland6", -360,315],
+        ["AnnaIsland5", -290,425]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "PortRemnant":
+    {"y-flip": true, "x-flip":false,
+        "short": "PR",
+        "top": "bottom~AnnaIsland1",
+        "left": "right~AnnaIsland5",
+        "connections": [
+        ["AnnaIsland5", 720,430],
+        ["AnnaIsland1", 1785,660]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "AnnaIsland5":
+    {"y-flip": true, "x-flip":false,
+        "short": "A5",
+        "top": "bottom~AnnaIsland6",
+        "left": "left~PortRemnant",
+        "connections": [["PortRemnant", 720,430],
+            ["AnnaIsland6", -360,315],
+            ["AnnaIsland4", -290,425]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "AnnaIsland6":
+    {"y-flip": true, "x-flip":false,
+        "short": "A6",
+        "top": "top~AnnaIsland5",
+        "left": "right~AnnaIsland4",
+        "connections": [["AnnaIsland5", -360,315],
+            ["AnnaIsland4", -360,315]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
     }
+
+
+
 }

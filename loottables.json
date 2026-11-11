@@ -907,14 +907,6 @@
         "CooksFarm"
       ]
     },
-    "Blackrock(2)": {
-      "hacksaw": [
-        "ForagersRemnant",
-        "OldSubstation",
-        "CooksFarm",
-        "BricklayersRetreat"
-      ]
-    },
     "BleakInlet": {
       "bedroll": [
         "Cave(FarIsland)",
@@ -1315,6 +1307,45 @@
         "Houses(MiltonSW)",
         "Houses(MiltonSE)",
         "ThomsonsCrossing"
+      ]
+    },
+    "aviator:possible": {
+      "key": "aviator",
+      "total": 2,
+      "locations": [
+        "MainHangar",
+        "MindfulCabin",
+        "CampOffice",
+        "MountaineersHut",
+        "LastProspect",
+
+        "CrashedPlane(CH)",
+        "Helicopter(MuskegOverlook)",
+        "FinalApproach",
+        "CrashSite(FA)",
+        "PrepperCache(HRV)",
+        "CrashedPlane(Mackenzie)",
+        "PlaneCrash(ML)",
+        "TailSection",
+        "CrashSite(SP)",
+        "POI(OldCorral)",
+
+        "FishHut(CRW)",
+        "FishHut(EastBI)",
+        "FishHuts(Central)",
+        "FishHut(BetweenIslands)",
+        "FishHut(Eastmost)",
+        "FishHut(Westmost)",
+        "FishHut(NearFishingCamp)",
+        "FishHut(Mindful)",
+        "FishHut(Drift)",
+        "FishHut(KPS)",
+        "FishHuts(ML)",
+        "FishHut(PensivePond)",
+        "FishHut(SP)",
+        "FishHut(TWM)",
+
+        "NarrowFallsCave"
       ]
     },
     "crampons:possible": {
@@ -2030,17 +2061,24 @@
         "FishHut(PensivePond)"
       ]
     },
-    "yellowThermos": {
+    "yellowThermosBI": {
       "key": "thermos",
       "total": 1,
       "locations": [
         "Warehouse2",
         "Warehouse4",
-        "POI(CanneryPier)",
+        "POI(CanneryPier)"
+      ]
+    },
+    "yellowThermosZOC": {
+      "key": "thermos",
+      "total": 1,
+      "locations": [
+        "LangstonMine(Floor2)",
         "LangstonMine(Floor3)"
       ]
     },
-    "redThermos": {
+    "redThermosBRM": {
       "key": "thermos",
       "total": 1,
       "locations": [
@@ -2048,7 +2086,13 @@
         "WardensOffice",
         "PrisonWorkshop",
         "Barracks",
-        "Infirmary",
+        "Infirmary"
+      ]
+    },
+    "redThermosFA": {
+      "key": "thermos",
+      "total": 1,
+      "locations": [
         "Terminal",
         "MindfulCabin",
         "IslandCottage",

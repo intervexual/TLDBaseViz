@@ -16,8 +16,17 @@ harvestbirch	birch bark spawn	natural	nonanimal	natural			FALSE	TRUE		fine
 mine	coal spawn	natural	nonanimal	natural			FALSE	TRUE		good
 saltdeposit	salt deposit	natural	nonanimal	natural			FALSE	TRUE		good
 beachcombing	beachcombing	natural	nonanimal	natural			FALSE	TRUE		good
-climb	rope climb	natural	nonanimal	natural	other	rope	FALSE	TRUE		
-goating	goating route	natural	nonanimal	natural			FALSE	TRUE		
+climb	rope climb	natural	structures	natural	other	rope	FALSE	TRUE		
+goating	goating route	natural	structures	natural			FALSE	TRUE		
+snowshelter	snow shelter	natural	structures	natural			FALSE	TRUE		
+bridge	bridge	natural	structures	natural			FALSE	TRUE		
+oiltank	whale oil refuelling	natural	train	natural			FALSE	TRUE		
+watertank	train water refuelling	natural	train	natural			FALSE	TRUE		
+switch	railway switch	natural	train	natural			FALSE	TRUE		
+gate	train gate	natural	train	natural			FALSE	TRUE		
+flatbed	train car (flatbed)	natural	train	natural			FALSE	TRUE		
+bufferstop	buffer stop	natural	train	natural			FALSE	TRUE		
+indoortrain	can take train indoors	natural	train	natural		2	FALSE	TRUE		
 radio	trader radio	furniture	dlc	dlc		10	FALSE	TRUE		good
 trader	trade drop-box	furniture	dlc	dlc		1	FALSE	TRUE		good
 transmitter	transmitter	furniture	dlc	dlc	other	6	FALSE	TRUE		
@@ -88,23 +97,25 @@ contd	inside last container	furniture	meta	customization			TRUE	TRUE	0
 outside	found directly outside	furniture	meta	customization			TRUE	TRUE	0	
 environs	found nearby	furniture	meta	customization			TRUE	TRUE	0	
 deliver	to deliver here	furniture	meta	customization			TRUE	TRUE	0	
-maglens	magnifying lens	tools	light	tools		3	TRUE	TRUE		good
-firestriker	firestriker	tools	light	tools		4	TRUE	TRUE		fine
-matches	wood matches	tools	light	tools			TRUE	TRUE		fine
-redflare	flare	tools	light	tools			TRUE	TRUE		
-blueflare	marine flare	tools	light	tools			TRUE	TRUE		
-torch	torch	tools	light	tools			TRUE	TRUE		
+maglens	magnifying lens	tools	firestarting	tools		3	TRUE	TRUE		good
+firestriker	firestriker	tools	firestarting	tools		4	TRUE	TRUE		fine
+matches	wood matches	tools	firestarting	tools			TRUE	TRUE		fine
+redflare	flare	tools	firestarting	tools			TRUE	TRUE		
+blueflare	marine flare	tools	firestarting	tools			TRUE	TRUE		
+torch	torch	tools	firestarting	tools			TRUE	TRUE		
 flashlight	flashlight	tools	light	tools			TRUE	FALSE		
 minersflashlight	miner’s flashlight	tools	light	tools			TRUE	FALSE		
 lantern	lantern	tools	light	tools		7	TRUE	TRUE		good
 spelunker	spelunker’s lantern	tools	light	tools		1	TRUE	TRUE		
-fuel	lantern fuel	tools	light	tools			TRUE	TRUE		
+fuel	lantern oil	tools	light	tools			TRUE	TRUE		
 jerrycan	jerry can	tools	light	tools		10	TRUE	TRUE		good
 accelerant	accelerant	tools	light	tools			TRUE	TRUE		
+heater	McLeod Ultra-Efficiency Whale Oil Heater	tools	light	tools		1	TRUE	TRUE		
+oilcan	whale oil can	tools	light	tools			TRUE	TRUE		
 cookpot	cookpot	tools	cooking	tools		17	TRUE	TRUE		good
 skillet	skillet	tools	cooking	tools		14	TRUE	TRUE		good
 can	recycled can	tools	cooking	tools			TRUE	TRUE		
-thermos	insulated flask	tools	cooking	tools		6	TRUE	TRUE		good
+thermos	insulated flask	tools	cooking	tools		8	TRUE	TRUE		good
 stickerthermos	insulated flask (sticker)	tools	cooking	tools			TRUE	TRUE		
 canopener	can opener	tools	cooking	tools			TRUE	TRUE		
 barbs	barb’s rifle	tools	guns	tools			TRUE	FALSE		
@@ -132,7 +143,7 @@ huntknife	hunting knife	tools	harvesting	tools			TRUE	FALSE
 clawknife	cougar claw knife	tools	harvesting	tools			TRUE	TRUE		
 knife	improvised knife	tools	harvesting	tools			TRUE	TRUE		
 survivalknife	survival knife	tools	harvesting	tools			TRUE	FALSE		
-hacksaw	hacksaw	tools	harvesting	tools		11	TRUE	TRUE		good
+hacksaw	hacksaw	tools	harvesting	tools		10	TRUE	TRUE		good
 prybar	prybar	tools	harvesting	tools		23	TRUE	TRUE		good
 hatchet	hatchet	tools	harvesting	tools			TRUE	FALSE		
 axe	improvised hatchet	tools	harvesting	tools			TRUE	TRUE		
@@ -188,7 +199,9 @@ camera	camera	misc	misc	buffs		1	TRUE	TRUE
 respirator	respirator	misc	misc	buffs		1	TRUE	TRUE		
 rucksack	technical backpack	misc	misc	buffs		1	TRUE	TRUE		good
 handheld	handheld shortwave radio	misc	misc	buffs		1	TRUE	TRUE		
+train	prototype train	misc	misc	buffs		1	TRUE	TRUE		
 mementokey	memento key	misc	misc	misc		7	TRUE	TRUE		
+wax	wax cylinder	misc	misc	misc		16	TRUE	TRUE		
 rope	climbing rope	misc	misc	misc		83	TRUE	TRUE		77+6 rope climbing positions; 19 spawns
 coal	coal piece	misc	fire	misc			TRUE	TRUE		good
 stick	stick	misc	fire	misc			TRUE	TRUE		good

@@ -42,7 +42,21 @@ BOTTOM = 'bottom'
 TOP= 'top'
 LEFT = 'left'
 RIGHT = 'right'
-REVERSE = {SOUTH:NORTH, NORTH:SOUTH, EAST:WEST, WEST:EAST, BOTTOM:TOP, TOP:BOTTOM, LEFT:RIGHT, RIGHT:LEFT}
+UP = 'up' # for curving
+DOWN = 'down'
+CURVES = [UP, DOWN]
+REVERSE = {SOUTH:NORTH, NORTH:SOUTH,
+           EAST:WEST, WEST:EAST,
+           BOTTOM:TOP, TOP:BOTTOM,
+           LEFT:RIGHT, RIGHT:LEFT,
+           UP:DOWN, DOWN:UP
+            }
+for v in [NORTH, SOUTH]:
+    for h in [EAST, WEST]:
+        REVERSE[v + h] = REVERSE[v] + REVERSE[h]
+        for c in CURVES:
+            REVERSE[v + h + c] = REVERSE[v] + REVERSE[h] + REVERSE[c]
+
 
 # the colours provided
 COLOURS = 'colours'

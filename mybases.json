@@ -848,6 +848,7 @@
 				"indoors": true,
 				"explored": false,
 				"features": [
+					"?aviator/.1"
 				]
 			},
 			"Climb(SSC-RB)":{
@@ -2429,7 +2430,7 @@
 				"features": ["environs,bear,deer,harvestfir,saltdeposit,beachcombing,trader",
 					"firstaid,antiseptic,bandage:2,cattail:10,water",
 					"drawer,harvestcloth,harvestleather",
-					"oven,*furnbench, +cedar:1, *builtworkbench, +cedar:15",
+					"oven,*furnbench, *builtworkbench, +cedar:14",
 					"freezer,cedar:9,fir,coal:5,reclaimed:2,stick:25",
 					"oven,quality,torch:12,vice",
 					"cabinet,head:12,charcoal:49,paint:3",
@@ -2437,7 +2438,7 @@
 					"mat:2, sapling",
 					"drawer,cloth:5,bearhide:2,deerhide,gut:3,leather,wolfhide,down:20",
 					"floor,water:10,food,battery",
-					"#YesBearBedHere,*bearbed,+fir:18",
+					"#YesBearBedHere,*bearbed,+fir:10",
                   "#RemoveStuffFromOven,environs,#9kgmeat,water:5",
 					"outside,-saltbag:3>MaintS"
 				],
@@ -3023,6 +3024,16 @@
 				"indoors": false,
 				"explored":true,
 				"features": [""]
+			},
+			"Fulmar": {
+				"region": "DesolationPoint",
+				"coords": [1150,1300],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?wax"]
 			},
 			"Climb(DP)":
 			{			"region": "DesolationPoint",
@@ -4266,7 +4277,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["potbelly,fish,timberwolf,beachcombing"]
+				"features": ["potbelly,fish,timberwolf,beachcombing","?aviator/.1"]
 			},
 			"Kitchen(Cannery)": {
 				"region": "BleakInlet",
@@ -4669,7 +4680,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":true,
-				"features": ["ptarmigan,bed"],
+				"features": ["ptarmigan,bed","#InCrate,?aviator/.1"],
 				"removed": ["thermos"]
 			},
 			"PrepperCache(MT)": {
@@ -5306,7 +5317,7 @@
 					"environs,wolf,rabbit,ptarmigan,harvestcedar:2",
 					"mat:2,harvestcloth,harvestmetal",
 					"rug:9,bed,range",
-					"workbench,hacksaw,simple",
+					"workbench,-hacksaw>Gold,simple",
 					"firstaid,bandage:2,dressing",
 					"box,stick:10,book",
 					"plastic,cattail:10,water",
@@ -5403,7 +5414,7 @@
 				"tier": 1,
 				"features": [
 					"environs,wolf,bearhunt,bearhunt,buildout",
-					"rockcache,shaker:30,rosehip:1375,curedmeat:99,-curedmeat:20>VD,skillet,skillet",
+					"rockcache,shaker:30,rosehip:1375,curedmeat:99,-curedmeat:20>VD,-curedmeat:20>Head,skillet,skillet",
 					"rug:7,mat:3,-bearhide:2>LLH,wolfhide:1,-wolfhide:1>MTFarm,deerhide,rabbitpelt,gut:5",
 					"shelf,saltbag:6",
 					"wallshelf:2,curing,curing,curing,curing",
@@ -5694,7 +5705,8 @@
 					"firstaid,antiseptic,canister:3",
 					"supplybin,#20%boots,chemboots,hardhat:2,minerspants,harvestcloth",
 					"#AtPitEnterance",
-					"rockcache"],
+					"rockcache",
+				"#AtCatwalkOrOffice", "?thermos/.75"],
 				"removed": []
 			},
 			"LangstonMine(Floor2)": {
@@ -5706,7 +5718,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":true,
-				"features": ["mine,workbench,safe"],
+				"features": ["mine,workbench,safe","?thermos/.25"],
 				"removed": []
 			},
 			"Concentrator": {
@@ -6154,7 +6166,17 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bear,deer","?cache"]
+				"features": ["bear,ptarmigan"]
+			},
+			"CrashSite(FA)": {
+				"region": "ForsakenAirfield",
+				"coords": [1250,400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["ptarmigan","?cache,?aviator/.1"]
 			},
 			"Terminal": {
 				"region": "ForsakenAirfield",
@@ -6263,7 +6285,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["potbelly","fish"]
+				"features": ["potbelly","fish", "?aviator/.1"]
 			},
 			"HuntersBlind(CentralFA)": {
 				"region": "ForsakenAirfield",
@@ -6586,7 +6608,7 @@
 					"trash,harvestcloth,film:6,paper,tinder:2",
 					"rug:2,-rug:4>LLH,-mat:2>LLH,wallshelf:2,-painting:3>LLH,painting:2"]
 			},
-			"FishHut(SA)": {
+			"FishHut(SP)": {
 				"region": "SunderedPass",
 				"shortform": "FSA",
 				"coords": [-500,-700],
@@ -6763,6 +6785,1235 @@
 				"features": ["bed"]
 			}
 		},
+		"% PORT REMNANT": {
+			"Lighthouse": {
+				"region": "PortRemnant",
+				"coords": [1180,1100],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed,grill", "?chest:2,?box", "?wax,?oilcan:2"]
+			},
+			"LighthouseCabin": {
+				"region": "PortRemnant",
+				"coords": [1115,1100],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed,grill",
+				"?firelog,?food", "?drawer:6"]
+			},
+			"POI(Riken-like)": {
+				"region": "PortRemnant",
+				"coords": [1200,1010],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["wolf,?wax"]
+			},
+			"RedWarehouse": {
+				"region": "PortRemnant",
+				"coords": [1400,715],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["grill,workbench"]
+			},
+			"Cabin(ByObstructed)": {
+				"region": "PortRemnant",
+				"coords": [1480,765],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed,grill",
+					"?matches",
+					"?chest,?box,?drawer","?festive,?rug:2"]
+			},
+			"Gate(OT:N)": {
+				"region": "PortRemnant",
+				"coords": [1485,700],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["!gate"]
+			},
+			"ObstructedTransit": {
+				"region": "PortRemnant",
+				"coords": [1460,667],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?oilcan:6,?wax"]
+			},
+			"Gate(OT:W)": {
+				"region": "PortRemnant",
+				"coords": [1430,640],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["!gate"]
+			},
+			"Switch(OT:W)": {
+				"region": "PortRemnant",
+				"coords": [1420,580],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+
+			"Switch(OT:N)": {
+				"region": "PortRemnant",
+				"coords": [1535,700],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"POI(BirchForest)": {
+				"region": "PortRemnant",
+				"coords": [1655,667],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["harvestbirch,rabbit"]
+			},
+			"Climb(DesecratedChurch)": {
+				"region": "PortRemnant",
+				"coords": [1700,645],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["*climb"]
+			},
+			"POI(WhaleBoneShrine)": {
+				"region": "PortRemnant",
+				"coords": [1695,570],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?wax"]
+			},
+			"Transition(PR~A1)": {
+				"region": "PortRemnant",
+				"coords": [1785,660],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["!gate"]
+			},
+			"DesecratedChurch": {
+				"region": "PortRemnant",
+				"coords": [1625,500],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["deer,rabbit,harvestbirch","?rope,?wax:3"]
+			},
+			"Cave(FromChurch)": {
+				"region": "PortRemnant",
+				"coords": [1444,300],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["coal"]
+			},
+			"Cave(ToChurch)": {
+				"region": "PortRemnant",
+				"coords": [1170,265],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["wolf,coal"]
+			},
+			"POI(WaterfallCave)": {
+				"region": "PortRemnant",
+				"coords": [1050,300],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Transition(PR~A5)": {
+				"region": "PortRemnant",
+				"coords": [760,375],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"POI(ForgottenTrestle)": {
+				"region": "PortRemnant",
+				"coords": [1390,560],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Cabin(Empty)": {
+				"region": "PortRemnant",
+				"coords": [1230,540],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed,grill","?matches"]
+			},
+			"Cabin(LootedGrotto)": {
+				"region": "PortRemnant",
+				"coords": [1300,300],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed"]
+			},
+
+			"Climb(ShelteredAccess)": {
+				"region": "PortRemnant",
+				"coords": [1340,1130],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["climb"]
+			},
+			"Cave(ShelteredAccess)": {
+				"region": "PortRemnant",
+				"coords": [1600,900],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			}
+		},
+		"% ANNA 5": {
+			"Transition(A5~PR)": {
+				"region": "AnnaIsland5",
+				"coords": [720,430],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?box"]
+			},
+			"Switch(A5:RY:E)": {
+				"region": "AnnaIsland5",
+				"coords": [580,455],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A5:WT:E)": {
+				"region": "AnnaIsland5",
+				"coords": [580,455],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"WaterTank(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [560,435],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["watertank,wolf"]
+			},
+			"Switch(A5:WT:W)": {
+				"region": "AnnaIsland5",
+				"coords": [530,425],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A5:RY:W)": {
+				"region": "AnnaIsland5",
+				"coords": [580,455],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Bypass(WaterTankA5)": {
+				"region": "AnnaIsland5",
+				"coords": [555,445],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Bypass(RailyardA5)": {
+				"region": "AnnaIsland5",
+				"coords": [555,445],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["flatbed"]
+			},
+			"Cabin(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [580,390],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["plastic,rabbit"]
+			},
+			"POI(Path)": {
+				"region": "AnnaIsland5",
+				"coords": [-20,430],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Cave(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [-80,435],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": true,
+				"explored":false,
+				"features": ["deer"]
+			},
+			"Switch(A5:OT:E)": {
+				"region": "AnnaIsland5",
+				"coords": [-195,425],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"OilTank(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [-210,420],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["oiltank,wolf"]
+			},
+			"Switch(A5:OT:W)": {
+				"region": "AnnaIsland5",
+				"coords": [-225,415],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,wolf"]
+			},
+			"Bypass(OilTankA5)": {
+				"region": "AnnaIsland5",
+				"coords": [-225,435],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Switch(A5:OT:S)": {
+				"region": "AnnaIsland5",
+				"coords": [-250,415],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Stop(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [-275,400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop"]
+			},
+			"Climb(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [-280,370],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["climb"]
+			},
+			"Transition(A5~A6)": {
+				"region": "AnnaIsland5",
+				"coords": [-260,340],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+
+			"Transition(A5~A4)": {
+				"region": "AnnaIsland5",
+				"coords": [-290,425],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["!gate"]
+			}
+		},
+		"% ANNA 1": {
+			"Transition(A1~PR)": {
+				"region": "AnnaIsland1",
+				"coords": [1785,660],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Switch(A1:PR:W)": {
+				"region": "AnnaIsland1",
+				"coords": [1830,595],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A1:PR:N)": {
+				"region": "AnnaIsland1",
+				"coords": [1850,540],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch","",""]
+			},
+			"Switch(A1:PR:S)": {
+				"region": "AnnaIsland1",
+				"coords": [1860,630],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A1:PR:E)": {
+				"region": "AnnaIsland1",
+				"coords": [1890,575],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Stop(A1:PR:S)": {
+				"region": "AnnaIsland1",
+				"coords": [1860,630],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop"]
+			},
+			"Stop(A1:PR:N)": {
+				"region": "AnnaIsland1",
+				"coords": [1890,575],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop"]
+			},
+			"Switch(A1:MT:S)": {
+				"region": "AnnaIsland1",
+				"coords": [1874,415],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"POI(HillA1)": {
+				"region": "AnnaIsland1",
+				"coords": [1895,380],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Switch(A1:MT:N)": {
+				"region": "AnnaIsland1",
+				"coords": [1834,365],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Cabin(Huts)": {
+				"region": "AnnaIsland1",
+				"coords": [1770,90],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": true,
+				"explored":false,
+				"features": ["rabbit,grill", "bed,?wax"]
+			},
+			"Cave(A1)": {
+				"region": "AnnaIsland1",
+				"coords": [1775,-20],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": true,
+				"explored":false,
+				"features": ["?bed"]
+			},
+			"Bridge(A1)": {
+				"region": "AnnaIsland1",
+				"coords": [1720,-100],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bridge"]
+			},
+			"Gate(A1)": {
+				"region": "AnnaIsland1",
+				"coords": [1700,-200],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["gate"]
+			},
+			"Switch(A1:A2)": {
+				"region": "AnnaIsland1",
+				"coords": [1725,-320],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A1:WT)": {
+				"region": "AnnaIsland1",
+				"coords": [1715,-340],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Transition(A1~A2)": {
+				"region": "AnnaIsland1",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["flatbed"]
+			},
+			"OilTank(A1)": {
+				"region": "AnnaIsland1",
+				"coords": [1725,-360],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["oiltank,bufferstop"]
+			}
+		},
+		"% ANNA 2": {
+			"Transition(A2~A1)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Switch(A2:A1:S)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A2:A1:E)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A2:A1:N)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A2:A1:W)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(TurnCircle)": {
+				"region": "AnnaIsland2",
+				"coords": [1660,-675],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"RepairStation(A2)": {
+				"region": "AnnaIsland2",
+				"coords": [1475,-290],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["indoortrain,potbelly,bed",
+					"?firstaid,?locker:6,",
+					"?cookpot,?wax:2,?heater"]
+			},
+			"WaterTank(A2)": {
+				"region": "AnnaIsland2",
+				"coords": [1415,-325],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["watertank"]
+			},
+			"Bypass(A2:RP)": {
+				"region": "AnnaIsland2",
+				"coords": [1415,-325],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["gate,deer,switch"]
+			},
+			"Gate(A2)": {
+				"region": "AnnaIsland2",
+				"coords": [1415,-325],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["gate,deer,switch"]
+			},
+			"POI(Canyon)": {
+				"region": "AnnaIsland2",
+				"coords": [1415,-225],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Tunnel(A2)": {
+				"region": "AnnaIsland2",
+				"coords": [1300,-350],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["rabbit"]
+			},
+			"Switch(Crisscross:E)": {
+				"region": "AnnaIsland2",
+				"coords": [1200,-400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,wolf"]
+			},
+			"Switch(Crisscross:N)": {
+				"region": "AnnaIsland2",
+				"coords": [1100,-300],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,wolf"]
+			},
+			"Switch(Crisscross:S)": {
+				"region": "AnnaIsland2",
+				"coords": [1200,-300],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(Crisscross:W)": {
+				"region": "AnnaIsland2",
+				"coords": [1100,-400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"POI(CanyonToWhaleShrine)": {
+				"region": "AnnaIsland2",
+				"coords": [1100,-400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"POI(WhaleShrineA2)": {
+				"region": "AnnaIsland2",
+				"coords": [1100,-400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Switch(A2DeadEnd)": {
+				"region": "AnnaIsland2",
+				"coords": [1000,-400],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Stop(A2DeadEnd)": {
+				"region": "AnnaIsland2",
+				"coords": [1000,-300],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?scrap"]
+			},
+			"Tunnel(A2:A3)": {
+				"region": "AnnaIsland2",
+				"coords": [800,-420],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["rabbit"]
+			},
+			"Campsite(A2:A3)": {
+				"region": "AnnaIsland2",
+				"coords": [800,-420],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?snowshelter,?maple:2"]
+			},
+			"Transition(A2~A3)": {
+				"region": "AnnaIsland2",
+				"coords": [590,-470],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["flatbed,switch"]
+			},
+			"Stops(A2:A3)": {
+				"region": "AnnaIsland2",
+				"coords": [590,-460],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop:2,rabbit"]
+			}
+		},
+		"% ANNA 3": {
+			"Transition(A3~A2)": {
+				"region": "AnnaIsland3",
+				"coords": [590,-470],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,wolf"]
+			},
+			"Stop(A3:A2)": {
+				"region": "AnnaIsland3",
+				"coords": [590,-460],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["flatbed,bufferstop"]
+			},
+			"Cave(A3)": {
+				"region": "AnnaIsland3",
+				"coords": [-90,-415],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": true,
+				"explored":false,
+				"features": ["bed,rabbit"]
+			},
+			"Gate(A3Refuelling:E)": {
+				"region": "AnnaIsland3",
+				"coords": [-260,-370],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,gate"]
+			},
+			"Stop(A3Refuelling)": {
+				"region": "AnnaIsland3",
+				"coords": [-260,-360],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop"]
+			},
+			"Refuelling(A3)": {
+				"region": "AnnaIsland3",
+				"coords": [-260,-370],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,oiltank,watertank,switch"]
+			},
+			"Bypass(RefuellingA3)": {
+				"region": "AnnaIsland3",
+				"coords": [-260,-360],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Gate(A3Refuelling)": {
+				"region": "AnnaIsland3",
+				"coords": [-275,-375],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["deer,gate"]
+			},
+			"POI(Cove)": {
+				"region": "AnnaIsland3",
+				"coords": [-360,-350],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Cabin(A3)": {
+				"region": "AnnaIsland3",
+				"coords": [-350,-375],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["bear,?sapling:2,?wax",
+					"?chest,?box,?drawer",
+					"bed,grill","?rug:3,?mat,?crate:2"]
+			},
+			"Switch(A3:A4:E)": {
+				"region": "AnnaIsland3",
+				"coords": [-440,-360],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch","wolf"]
+			},
+			"Switch(A3:A4:N)": {
+				"region": "AnnaIsland3",
+				"coords": [-420,-365],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,grill","flatbed,deer"]
+			},
+			"Switch(A3:A4:S)": {
+				"region": "AnnaIsland3",
+				"coords": [-420,-365],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A3:A4:W)": {
+				"region": "AnnaIsland3",
+				"coords": [-420,-350],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Stop(A3:A4:E)": {
+				"region": "AnnaIsland3",
+				"coords": [-420,-350],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bufferstop"]
+			},
+
+			"Stop(A3:A4:W)": {
+				"region": "AnnaIsland3",
+				"coords": [-420,-365],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["flatbed","bufferstop"]
+			},
+			"Transition(A3~A4)": {
+				"region": "AnnaIsland3",
+				"coords": [-500,-320],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			}
+		},
+		"% ANNA 4": {
+			"Transition(A4~A3)": {
+				"region": "AnnaIsland4",
+				"coords": [-500,-320],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["wolf"]
+			},
+			"Switch(A4:RS:E)": {
+				"region": "AnnaIsland4",
+				"coords": [-535,-295],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Switch(A4:WT:N)": {
+				"region": "AnnaIsland4",
+				"coords": [-585,-270],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch,?scrap"]
+			},
+			"Switch(A4:RS:S)": {
+				"region": "AnnaIsland4",
+				"coords": [-545,-225],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"WaterTank(A4)": {
+				"region": "AnnaIsland4",
+				"coords": [-570,-250],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["watertank,wolf"]
+			},
+			"RepairStation(A4)": {
+				"region": "AnnaIsland4",
+				"coords": [-600,-245],
+				"customizable": true,
+				"loading": true,
+				"cabinfeverrisk":true,
+				"indoors": true,
+				"explored":false,
+				"features": ["indoortrain,potbelly,bed",
+					"?cookpot,?wax",
+					"?firstaid,?locker:6,"]
+			},
+			"Switch(A4:RS:N)": {
+				"region": "AnnaIsland4",
+				"coords": [-590,-305],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"OilTank(A4)": {
+				"region": "AnnaIsland4",
+				"coords": [-575,-210],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["oiltank,deer"]
+			},
+			"Switch(A4:A6)": {
+				"region": "AnnaIsland4",
+				"coords": [-430,325],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["switch"]
+			},
+			"Transition(A4~A6)": {
+				"region": "AnnaIsland4",
+				"coords": [-360,315],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"Transition(A4~A5)": {
+				"region": "AnnaIsland4",
+				"coords": [-290,425],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"POI(CampsiteByRedBridge)": {
+				"region": "AnnaIsland4",
+				"coords": [-650,-430],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["rabbit,?maple:3,?cookpot"]
+			},
+			"RedBridge(FutureTransition)": {
+				"region": "AnnaIsland4",
+				"coords": [-660,-450],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["bridge,?wax,?supplybin"]
+			}
+		},
+		"% ANNA 6": {
+			"Transition(A6~A4)": {
+				"region": "AnnaIsland6",
+				"coords": [-360,315],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+			"POI(Junction)": {
+				"region": "AnnaIsland6",
+				"coords": [-225,225],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["!gate"]
+			},
+			"Transition(A6~A5)": {
+				"region": "AnnaIsland6",
+				"coords": [-260,340],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": [""]
+			},
+
+			"TrainShelter": {
+				"region": "AnnaIsland6",
+				"coords": [-160,285],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["grill,bed,?train,?wax:2"]
+			}
+
+		},
 		"CurrentInventory": {
 			"region": "Special",
 			"shortform": "Inventory",
@@ -6795,7 +8046,7 @@
 			"features": [""]
 		},
 		"ToTradeFor": {
-			"region": "Special",
+			"region": "CoastalHighway",
 			"shortform": "Trader",
 			"coords": [300,100],
 			"customizable": false,
@@ -6805,8 +8056,8 @@
 			"explored":true,
 			"comment": "put things in all caps here!",
 			"features": ["#CurrentTrade,",
-				"+quality>Mindful,+quality>Idle,+caffeine:5>LLH,+caffeine:5>VD,+caffeine:5>MHut",
-				"+oats:3>LLH,+oats:3>VD",
+				"?quality>Mindful,?quality>Idle,?caffeine:5>LLH,?caffeine:5>VD,?caffeine:5>MHut",
+				"?oats:3>LLH,?oats:3>VD",
 				"#Porter,?recipe,#Vagabond,?recipe"],
 			"removed": ["?recipe,?recipe,?recipe,?recipe"]
 		},
@@ -7133,6 +8384,7 @@
 		["HiberniaProcessing", "north", "top,left", "Cave(BrokenBridge)", "bottom,right", "path"],
 		["HiberniaProcessing", "north", "top,right", "Trailer(NorthHibernia)", "bottom,right", "default"],
 		["HiberniaProcessing", "south", "bottom,right", "Trailer(SouthHibernia)", "top,right", "default"],
+		["HiberniaProcessing", "east", "top,right", "Fulmar", "top,left", "default"],
 		["Cave(BrokenBridge)", "north", "top,left", "Cave(Scruffy)", "bottom,left", "default"],
 		["TheRiken", "south", "bottom,left", "POI(LittleIsland)", "top,left", "charcoal"],
 		["TheRiken", "west", "bottom,left", "Truck(Matts)", "bottom,right", "default"],
@@ -7466,7 +8718,8 @@
 		["Cave(BelowHovel)", "east", "bottom,right", "BunkerOmega", "bottom,left", "tinder"],
 		["BunkerOmega", "south", "bottom,left", "JustysHovel", "top,left", "default"],
 		["BunkerOmega", "north", "top,left", "Cave(FA~ZOC~SP)", "bottom,left", "default"],
-		["Cave(FA~ZOC~SP)", "west", "top,left", "FallowDugout", "top,right", "default"],
+		["Cave(FA~ZOC~SP)", "west", "top,left", "CrashSite(FA)", "top,right", "default"],
+		["CrashSite(FA)", "west", "top,left", "FallowDugout", "top,right", "default"],
 		["FallowDugout", "north", "top,left", "ArchiesCrawlspace", "bottom,left", "default"],
 		["FallowDugout", "south", "bottom,right", "SpottersBlind", "top,right", "default"],
 		["ArchiesCrawlspace", "south", "bottom,right", "ShoulderLakeCrash", "top,right", "default"],
@@ -7504,7 +8757,7 @@
 		["AbandonedMine(SP)", "south", "bottom,right", "BoltChoppersHaven", "top,right", "default"],
 		["BoltChoppersHaven", "south", "bottom,right", "Basement(RudigersHideout)", "top,left", "default"],
 		["Cabin(SnowedIn)", "south", "bottom,left", "PrayerfulWindow", "top,left", "oneway"],
-		["FishHut(SA)", "east", "top,right", "Climb(AL-RC)", "top,left", "default"],
+		["FishHut(SP)", "east", "top,right", "Climb(AL-RC)", "top,left", "default"],
 		["Climb(AL-RC)", "east", "top,right", "RoamersCave", "top,left", "default"],
 		["RoamersCave", "south", "bottom,left", "Climb(RC-HPP1)", "top,left", "default"],
 		["Climb(RC-HPP1)", "south", "bottom,left", "Climb(RC-HPP2)", "top,left", "default"],
@@ -7513,8 +8766,8 @@
 		["Cave(LastHorizon)", "south", "bottom,left", "POI(HighPeakPlateau)", "top,right", "default"],
 		["POI(HighPeakPlateau)", "west", "top,left", "Climb(RC-HPP4)", "top,right", "default"],
 		["Climb(RC-HPP4)", "west", "top,left", "POI(DeadEnd)", "top,right", "default"],
-		["FinalRefuge", "east", "bottom,right", "FishHut(SA)", "top,left", "default"],
-		["Cabin(SnowedIn)", "east", "top,right", "FishHut(SA)", "bottom,left", "default"],
+		["FinalRefuge", "east", "bottom,right", "FishHut(SP)", "top,left", "default"],
+		["Cabin(SnowedIn)", "east", "top,right", "FishHut(SP)", "bottom,left", "default"],
 		["Cabin(SnowedIn)", "west", "bottom,left", "Basement(RudigersHideout)", "bottom,right", "default"],
 		["LastLonelyHouse", "north", "top,right", "POI(RouteOneWaterfall)", "bottom,left", "todo"],
 		["POI(RouteOneWaterfall)", "north", "top,left", "IdleHideout", "bottom,left", "default"],
@@ -7534,10 +8787,168 @@
 		["PlacidNotch", "north", "top,right", "Basement(RudigersHideout)", "bottom,right", "default"],
 		["Climb(TP-SP)", "south","bottom,right", "VacantDepot", "top,right", "default"],
 		["Cave(FA~ZOC~SP)", "south", "bottom,right", "Cave(ZOC~FA~SP)", "top,left", "default"],
+		"-----PortRemnant------",
+		["Lighthouse", "west", "bottom,left", "LighthouseCabin", "bottom,right", "default"],
+		["Lighthouse", "north", "top,right", "POI(Riken-like)", "bottom,left", "default"],
+		["POI(Riken-like)", "north", "top,left", "RedWarehouse", "bottom,right", "default"],
+		["RedWarehouse", "north", "top,right", "Cabin(ByObstructed)", "bottom,left", "default"],
+		["Cabin(ByObstructed)", "west", "bottom,left", "Gate(OT:N)", "bottom,right", "default"],
+		["ObstructedTransit", "west", "top,left", "Gate(OT:W)", "top,right", "rail"],
+		["ObstructedTransit", "east", "top,right", "Gate(OT:N)", "top,left", "rail"],
+		["POI(BirchForest)", "west", "top,left", "Climb(DesecratedChurch)", "top,right","default"],
+		["POI(BirchForest)", "south", "bottom,right", "Switch(OT:N)", "top,left", "rail"],
+		["Switch(OT:N)", "south", "bottom,left", "Gate(OT:N)", "top,left", "rail"],
+		["Gate(OT:W)", "west", "top,left", "Switch(OT:W)", "top,right", "rail"],
+		["Switch(OT:W)", "west", "top,left", "POI(ForgottenTrestle)", "top,right", "rail"],
+		["POI(ForgottenTrestle)", "south", "bottom,left", "Cabin(Empty)", "top,right", "default"],
+		["POI(ForgottenTrestle)", "north", "top,left", "Cabin(LootedGrotto)", "bottom,left", "default"],
+		["Cabin(LootedGrotto)", "west", "bottom,left", "Cave(ToChurch)", "bottom,right", "default"],
+		["Cave(ToChurch)", "north", "top,right", "Cave(FromChurch)", "bottom,right", "default"],
+		["Cave(FromChurch)", "east", "top,right", "DesecratedChurch", "top,left", "default"],
+		["DesecratedChurch", "east", "top,right", "POI(WhaleBoneShrine)", "top,left", "default"],
+		["POI(WhaleBoneShrine)", "east", "top,right", "Climb(DesecratedChurch)", "top,left", "default"],
+		["DesecratedChurch", "south", "bottom,left", "Cabin(LootedGrotto)", "top,left", "oneway"],
+		["POI(Riken-like)", "north", "top,right", "Climb(ShelteredAccess)", "bottom,left", "default"],
+		["Transition(PR~A5)", "east", "top,right", "POI(ForgottenTrestle)", "top,left", "rail"],
+		["Transition(PR~A1)", "south", "bottom,right", "POI(BirchForest)", "top,right", "rail"],
+		["Cave(ToChurch)", "west", "bottom,left", "POI(WaterfallCave)", "bottom,right", "default"],
+		["POI(WaterfallCave)", "south", "bottom,left", "Transition(PR~A5)", "top,left", "default"],
+		["Climb(ShelteredAccess)", "north", "top,right", "Cave(ShelteredAccess)", "bottom,left", "default"],
+		["Cave(ShelteredAccess)", "west", "top,left", "Cabin(ByObstructed)", "top,right", "oneway"],
+		["Switch(OT:N)", "east", "bottom,right", "Cabin(ByObstructed)", "top,left", "default"],
+		["Switch(OT:W)", "northeastdown", "top,right", "Switch(OT:N)", "bottom,left", "rail"],
+		"-----Anna5------",
+		["Transition(PR~A5)", "west", "top,left", "Transition(A5~PR)", "top,right", "rail"],
+		["Transition(A5~PR)", "west", "top,left", "Switch(A5:RY:E)", "top,right", "rail"],
+		["Switch(A5:RY:E)", "west", "top,left", "Switch(A5:WT:E)", "top,right", "rail"],
+		["Switch(A5:WT:E)", "west", "top,left", "WaterTank(A5)", "top,right", "rail"],
+		["WaterTank(A5)", "west", "top,left", "Switch(A5:WT:W)", "top,right", "rail"],
+		["Switch(A5:WT:W)", "west", "top,left", "Switch(A5:RY:W)", "top,right", "rail"],
+		["Switch(A5:RY:W)", "west", "top,left", "POI(Path)", "top,right", "rail"],
+		["POI(Path)", "west", "top,left", "Cave(A5)", "top,right", "rail"],
+		["Cave(A5)", "west", "top,left", "Switch(A5:OT:E)", "top,right", "rail"],
+		["Switch(A5:OT:E)", "west", "top,left", "OilTank(A5)", "top,right", "rail"],
+		["OilTank(A5)", "west", "top,left", "Switch(A5:OT:W)", "top,right", "rail"],
+		["Switch(A5:OT:W)", "west", "top,left", "Switch(A5:OT:S)", "top,right", "rail"],
+		["Switch(A5:OT:S)", "west", "top,left", "Transition(A5~A4)", "top,right", "rail"],
+		["Bypass(RailyardA5)", "north", "top,left", "Cabin(A5)", "bottom,right", "default"],
+		["Switch(A5:OT:W)", "northwestdown", "top,left", "Stop(A5)", "bottom,right", "rail"],
+		["Stop(A5)", "north", "top,left", "Climb(A5)", "bottom,left", "default"],
+		["Climb(A5)", "north", "top,left", "Transition(A5~A6)", "bottom,left", "default"],
+		["Switch(A5:OT:S)", "southwestup", "bottom,right", "Bypass(OilTankA5)", "top,left","rail" ],
+		["Switch(A5:OT:E)", "southwestup", "bottom,left", "Bypass(OilTankA5)", "top,right", "rail"],
+		["Switch(A5:WT:W)", "southeastup", "bottom,right", "Bypass(WaterTankA5)", "top,left", "rail"],
+		["Switch(A5:WT:E)", "southwestup", "bottom,left", "Bypass(WaterTankA5)", "top,right", "rail"],
+		["Switch(A5:RY:W)", "northeastup", "top,right", "Bypass(RailyardA5)", "bottom,left", "rail"],
+		["Switch(A5:RY:E)", "northwestup", "top,left", "Bypass(RailyardA5)", "bottom,right", "rail"],
+		"-----Anna6------",
+		["Transition(A5~A6)", "north", "top,left", "Transition(A6~A5)", "bottom,left", "default"],
+		["Transition(A6~A5)", "north", "top,left","POI(Junction)", "bottom,right", "default"],
+		["POI(Junction)", "east", "top,right", "TrainShelter", "top,left", "rail"],
+		["POI(Junction)", "west", "top,left", "Transition(A6~A4)", "top,right", "rail"],
+		"-----Anna4------",
+		["Transition(A5~A4)", "west", "top,left", "Transition(A4~A5)", "top,right", "rail"],
+		["Transition(A4~A5)", "northwestdown", "top,left", "Switch(A4:A6)", "bottom,left", "rail"],
+		["Switch(A4:A6)", "north", "top,left", "OilTank(A4)", "bottom,left", "rail"],
+		["OilTank(A4)", "north", "top,left", "Switch(A4:RS:S)", "bottom,right", "rail"],
+		["Switch(A4:RS:S)", "northwestup", "top,right", "WaterTank(A4)", "bottom,right", "rail"],
+		["WaterTank(A4)", "north", "top,right", "Switch(A4:WT:N)", "bottom,right", "rail"],
+		["Switch(A4:WT:N)", "northwestdown", "top,left", "Switch(A4:RS:N)", "bottom,left", "rail"],
+		["Switch(A4:RS:N)", "southwestup", "bottom,left", "RepairStation(A4)", "top,right", "rail"],
+		["Switch(A4:RS:S)", "northeastup", "top,right", "Switch(A4:RS:E)", "bottom,left", "rail"],
+		["Switch(A4:RS:E)", "east", "top,right", "Transition(A4~A3)", "bottom,left", "rail"],
+		["Switch(A4:A6)", "southeastup", "bottom,left", "Transition(A4~A6)", "top,left", "rail"],
+		["Switch(A4:RS:E)", "northwestdown", "top,left", "Switch(A4:WT:N)", "bottom,right", "rail"],
+		["Switch(A4:RS:N)", "north", "top,left", "POI(CampsiteByRedBridge)", "bottom,left", "rail"],
+		["POI(CampsiteByRedBridge)", "north", "top,left", "RedBridge(FutureTransition)", "bottom,left", "rail"],
+		["Transition(A4~A6)", "east", "top,right", "Transition(A6~A4)", "top,left", "rail"],
+		["RepairStation(A4)", "east", "bottom,right", "WaterTank(A4)", "bottom,left", "default"],
+		["Transition(A4~A3)", "northeast", "top,right", "Transition(A3~A4)", "top,left", "rail"],
+		"-----Anna1------",
+		["Transition(PR~A1)", "northeastdown", "top,right", "Transition(A1~PR)", "top,left", "rail"],
+		["Transition(A1~PR)", "northeastup", "top,left", "Switch(A1:PR:W)", "bottom,left", "rail"],
+		["Switch(A1:PR:W)", "north", "top,left", "Switch(A1:PR:N)", "bottom,left", "rail"],
+
+		["Switch(A1:PR:W)", "northeastdown", "bottom,right", "Switch(A1:PR:S)", "bottom,left", "rail"],
+		["Switch(A1:PR:S)", "south", "bottom,left", "Stop(A1:PR:N)", "top,left", "rail"],
+		["Switch(A1:PR:S)", "north", "top,left", "Switch(A1:PR:E)", "bottom,left", "rail"],
+		["Switch(A1:PR:E)", "northwestup", "top,left", "Switch(A1:PR:N)", "top,right", "rail"],
+		["Switch(A1:PR:E)", "north", "top,left", "Stop(A1:PR:S)", "bottom,left", "rail"],
+
+		["Switch(A1:PR:N)", "north", "top,left", "Switch(A1:MT:S)", "bottom,left", "rail"],
+		["Switch(A1:MT:S)", "north", "top,left", "Switch(A1:MT:N)", "bottom,left", "rail"],
+		["Switch(A1:MT:S)", "northeastdown", "top,right", "POI(HillA1)", "bottom,left", "rail"],
+		["POI(HillA1)", "northwestup", "top,left", "Switch(A1:MT:N)", "top,right", "rail"],
+		["Switch(A1:MT:N)", "north", "top,left", "Cabin(Huts)", "bottom,left", "rail"],
+		["Cabin(Huts)", "north", "top,left", "Cave(A1)", "bottom,left", "rail"],
+		["Cave(A1)", "north", "top,left", "Bridge(A1)", "bottom,left", "rail"],
+		["Bridge(A1)", "north", "top,left", "Gate(A1)", "bottom,left", "rail"],
+		["Gate(A1)", "north", "top,left", "Switch(A1:A2)", "bottom,left", "rail"],
+		["Switch(A1:A2)", "north", "top,right", "Switch(A1:WT)", "bottom,left", "rail"],
+		["Switch(A1:WT)", "northeastup", "top,left", "OilTank(A1)", "bottom,left", "rail"],
+		["Switch(A1:A2)", "north", "top,left", "Transition(A1~A2)", "bottom,right", "rail"],
+		"-----Anna2------",
+		["Transition(A1~A2)", "north", "top,left", "Transition(A2~A1)", "bottom,left", "rail"],
+		["Transition(A2~A1)", "north", "top,left", "Switch(A2:A1:S)", "bottom,left", "rail"],
+		["Switch(TurnCircle)", "west", "bottom,left", "RepairStation(A2)", "top,right", "rail"],
+		["Switch(TurnCircle)", "southeastdown", "bottom,right", "Switch(A2:A1:W)", "top,right", "rail"],
+		["Switch(A2:A1:S)", "northeastdown", "top,right", "Switch(A2:A1:E)", "bottom,left", "rail"],
+		["Switch(A2:A1:E)", "northwestup", "top,left", "Switch(A2:A1:N)", "bottom,right", "rail"],
+		["Switch(A2:A1:S)", "northwestdown", "top,left", "Switch(A2:A1:W)", "bottom,right", "rail"],
+		["Switch(A2:A1:W)", "northwestup", "top,right", "Switch(A2:A1:N)", "bottom,left", "rail"],
+		["Switch(TurnCircle)", "east", "bottom,right", "Switch(A2:A1:N)", "bottom,left", "rail"],
+		["RepairStation(A2)", "west", "bottom,left", "WaterTank(A2)", "bottom,right", "rail"],
+		["WaterTank(A2)", "west", "bottom,left", "Gate(A2)", "bottom,right", "rail"],
+		["Gate(A2)", "southwest", "bottom,left", "Tunnel(A2)", "top,right", "rail"],
+		["Gate(A2)", "south", "bottom,left", "POI(Canyon)", "top,left", "default"],
+		["Gate(A2)", "northeastup", "top,right", "Bypass(A2:RP)", "bottom,left", "rail"],
+		["POI(Canyon)", "west", "top,left", "Tunnel(A2)", "top,right", "default"],
+		["Bypass(A2:RP)", "southeastdown", "bottom,right", "Switch(TurnCircle)", "top,left", "rail"],
+		["Tunnel(A2)", "west", "top,left", "Switch(Crisscross:E)", "top,right", "rail"],
+		["Bypass(A2:RP)", "south", "bottom,right", "RepairStation(A2)", "top,right", "default"],
+
+		["Switch(Crisscross:E)", "west", "top,left", "Switch(Crisscross:N)", "top,right", "rail"],
+		["Switch(Crisscross:N)", "west", "top,left", "Switch(A2DeadEnd)", "top,right", "rail"],
+		["Switch(Crisscross:E)", "southwestup", "bottom,right", "Switch(Crisscross:S)", "top,right", "rail"],
+		["Switch(Crisscross:N)", "southeastup", "bottom,left", "Switch(Crisscross:W)", "top,left", "rail"],
+		["Switch(Crisscross:W)", "northeastdown", "top,right", "Switch(Crisscross:E)", "bottom,left", "rail"],
+		["Switch(Crisscross:S)", "northwestdown", "top,left", "Switch(Crisscross:N)", "bottom,right", "rail"],
+		["Switch(Crisscross:W)", "east", "top,right", "Switch(Crisscross:S)", "top,left", "rail"],
+		["Switch(Crisscross:N)", "north", "top,right", "POI(CanyonToWhaleShrine)", "bottom,right", "default"],
+		["POI(CanyonToWhaleShrine)", "north", "top,right", "POI(WhaleShrineA2)", "bottom,right", "default"],
+
+		["Switch(A2DeadEnd)", "west", "top,left", "Tunnel(A2:A3)", "top,right", "rail"],
+		["Tunnel(A2:A3)", "north", "top,right", "Campsite(A2:A3)", "bottom,right", "default"],
+		["Switch(A2DeadEnd)", "southwestup", "bottom,right", "Stop(A2DeadEnd)", "top,right", "rail"],
+		["Tunnel(A2:A3)", "west", "top,left", "Transition(A2~A3)", "top,right", "rail"],
+		["Transition(A2~A3)", "southeastup", "bottom,left", "Stops(A2:A3)", "top,left", "rail"],
+		["Transition(A2~A3)", "west", "top,left", "Transition(A3~A2)", "top,right", "rail"],
+		"-----Anna3------",
+		["Transition(A3~A2)", "west", "top,left", "Cave(A3)", "top,right", "rail"],
+		["Transition(A3~A2)", "southwestup", "bottom,left", "Stop(A3:A2)", "top,right", "rail"],
+		["Cave(A3)", "west", "top,left", "Gate(A3Refuelling:E)", "top,right", "rail"],
+		["Gate(A3Refuelling:E)", "southeastup", "bottom,left", "Stop(A3Refuelling)", "top,left", "rail"],
+		["Gate(A3Refuelling:E)", "west", "top,left", "Refuelling(A3)", "top,right", "rail"],
+		["Refuelling(A3)", "west", "top,left", "Gate(A3Refuelling)", "top,right", "rail"],
+		["Refuelling(A3)", "southwestup", "bottom,right", "Bypass(RefuellingA3)", "top,right", "rail"],
+		["Bypass(RefuellingA3)", "northeastdown", "top,left", "Gate(A3Refuelling)", "bottom,right", "rail"],
+		["Gate(A3Refuelling)", "southwest", "bottom,left", "POI(Cove)", "top,right", "rail"],
+		["POI(Cove)", "west", "top,left", "Switch(A3:A4:E)", "top,right", "rail"],
+
+		["Switch(A3:A4:E)", "west", "top,left", "Switch(A3:A4:N)", "top,right", "rail"],
+		["Switch(A3:A4:N)", "west", "top,left", "Transition(A3~A4)", "top,right", "rail"],
+
+		["Switch(A3:A4:S)", "northwestdown", "top,right", "Switch(A3:A4:E)", "bottom,right", "rail"],
+		["Switch(A3:A4:S)", "east", "top,right", "Stop(A3:A4:E)", "top,left", "rail"],
+		["Switch(A3:A4:W)", "northwestdown", "top,left", "Switch(A3:A4:N)", "bottom,left", "rail"],
+		["Stop(A3:A4:W)", "east", "top,right", "Switch(A3:A4:W)", "top,left", "rail"],
+		["Switch(A3:A4:W)", "east", "top,right", "Switch(A3:A4:S)", "top,left", "rail"],
+
+		["POI(Cove)", "north", "top,right", "Cabin(A3)", "bottom,right", "default"],
 		"-----Special------",
-		["CurrentInventory", "south", "bottom,left", "ToTradeFor", "top,left", "default"],
+		["ToTradeFor", "north", "top,left", "MisanthropesHomestead", "bottom,left", "fake"],
+		["CurrentInventory", "south", "bottom,left", "UsedUp", "top,left", "default"],
 		["CurrentInventory", "south", "bottom,right", "Uncertainty", "top,left", "default"],
-		["ToTradeFor", "south", "bottom,left", "UsedUp", "top,left", "default"],
 		["Cave(KPN)", "north", "top,left", "BuildersBridge(West)", "bottom,left", "fake"],
 		["Transition(PV~CH)", "west", "top,left", "ThomsonsCrossing", "top,right", "fake"],
 		["Cabin(NorthOfTooth)", "east", "bottom,right", "CinderHillsCoalMine(Upper)", "bottom,left", "fake"],

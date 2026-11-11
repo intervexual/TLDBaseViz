@@ -118,11 +118,13 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Birch Sapling by endang firmansyah](https://thenounproject.com/icon/twig-7095842/)
 * [Book by Dong Gyu Yang](thenounproject.com/icon/book-6380647/)
 * [Box by Elin Erkani](https://thenounproject.com/icon/archive-7281787/)
+* [Bridge by Muhammad Nur Auliady Pamungkas](https://thenounproject.com/icon/bridge-8395539/)
+* [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
+* [Broth based on art by b farias](https://thenounproject.com/icon/glass-jar-full-1414019/)
+* [Buffer stop by MihiMihi](https://thenounproject.com/icon/obstacle-run-8364543/)
 * [Bulletin Board by murmur](https://thenounproject.com/icon/bulletin-board-5432192/)
 * [Bunker Rifle based on art by ka reemov](https://thenounproject.com/icon/shotgun-4424070/)
 * [Bushcraft Bow by Mask Icon](https://thenounproject.com/icon/bow-2420258/)
-* [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
-* [Broth based on art by b farias](https://thenounproject.com/icon/glass-jar-full-1414019/)
 * [Cabinet by sentya irma](thenounproject.com/icon/cabinet-8048378/)
 * [Cabinet (Cupboard) by Yazmin Alanis](https://thenounproject.com/icon/drawers-632924/)
 * [Caffeine Pills by Cards Against Humanity](thenounproject.com/icon/adderall-30133/)
@@ -130,6 +132,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Calendar (Wall-Only) by Setitik pixel](https://thenounproject.com/icon/wall-calendar-8325128/)
 * [Camera by Andi Nur Abdillah](https://thenounproject.com/icon/polaroid-camera-8007231/)
 * [Can of Gunpowder by fauzan akbar](https://thenounproject.com/icon/ink-bottle-4586860/)
+* [Can of Whale Oil by Jagat Kreasi](https://thenounproject.com/icon/watering-can-8387102/)
 * [Can Opener by Amethyst Studio](https://thenounproject.com/icon/can-opener-5217861/)
 * [Canister by Dan Hetteix](https://thenounproject.com/icon/hubcap-196261/)
 * [Car Battery by ARI NOFIANA](https://thenounproject.com/icon/car-battery-7134392/)
@@ -198,6 +201,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * Fishing Tip-up is original art for this project
 * [Flare by Side Project](https://thenounproject.com/icon/flare-8177887/)
 * [Flashlight by ajat sudrajat](https://thenounproject.com/icon/flashlight-8139921/)
+* [Flatbed train car by Athur Shlain](https://thenounproject.com/icon/train-163519/)
 * [Flight Jacket based on art by Zky Icon](https://thenounproject.com/icon/winter-coat-6984285/)
 * [Floor by Free Fair & Healthy](https://thenounproject.com/icon/ground-1470114/)
 * [Floppy Disk by Cuan Studio](https://thenounproject.com/icon/floppy-disk-5575706/)
@@ -250,6 +254,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Marine Flare by Amethyst Studio](https://thenounproject.com/icon/signal-flare-5217088/)
 * [Mariner's Pea Coat by Smallike](https://thenounproject.com/icon/jacket-2214264/)
 * [Matches by Zach Bogart](https://thenounproject.com/icon/matchbook-4449825/)
+* [McLeod Ultra-Efficiency Whale Oil Heater by khoiriyah](https://thenounproject.com/icon/heater-7917802/)
 * [Memento box (and key) by BGBOXXX Design](https://thenounproject.com/icon/briefcase-keys-1905055/)
 * [Metal Container by Amethyst Studio](https://thenounproject.com/icon/carton-5097479/)
 * [Metal Pail by Atif Arshad](https://thenounproject.com/icon/pail-3115895/)
@@ -280,6 +285,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Poster by Siti Masriatun](https://thenounproject.com/icon/image-5049579/)
 * [Pot Belly Stove by Andrejs Kirma](https://thenounproject.com/icon/brick-oven-754885/)
 * [Prepared Acorns by Singular](https://thenounproject.com/icon/hazelnut-4767339/)
+* [Prototype Train by Evan Shuster](https://thenounproject.com/icon/train-99122/)
 * [Prybar by Ben Gilman](https://thenounproject.com/icon/crowbar-4068/)
 * [Ptarmigan by Amethyst Studio](https://thenounproject.com/icon/willow-ptarmigan-4944602/)
 * [Ptarmigan Down by Gan Khoon Lay](https://thenounproject.com/icon/bones-pieces-597205/)
@@ -289,6 +295,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Rabbitskin Hat by DTNS Studio](https://thenounproject.com/icon/ushanka-5849964/)
 * [Rabbitskin Mittens by Neneng Fadliyah](https://thenounproject.com/icon/mitten-6331269/)
 * [Radio by Arif Arisandi](https://thenounproject.com/icon/podcast-4678161/)
+* [Railroad switch by Konkapp](https://thenounproject.com/icon/railroad-4946909/)
 * [Range (6-burner stove) by Cuby Design](https://thenounproject.com/icon/stove-1916469/)
 * [Raw Meat by Muhammad Rivai](https://thenounproject.com/icon/meat-7668996/)
 * [Recipe Card by Marianna Nardella](https://thenounproject.com/icon/recipe-card-291038/)
@@ -323,6 +330,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Skillet by icelloid](https://thenounproject.com/icon/frying-pan-6855632/)
 * [Snare by Intervex](https://commons.wikimedia.org/wiki/File:Small_game_snare_icon.svg) [Wikimedia Commons]
 * [Snowpants by Studio365](https://thenounproject.com/icon/pants-4690858/)
+* [Snow shelter by Anamika singh](https://thenounproject.com/icon/tent-8233331/)
 * [Spelunker's Lantern by Teny Septiani](https://thenounproject.com/icon/lantern-8126016/)
 * [Sport Bow by TRAVIS BIRD](https://thenounproject.com/icon/bow-1519794/)
 * [Spray Paint by Kemesh Maharjan](thenounproject.com/icon/spray-can-248886/)
@@ -343,6 +351,8 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Tinder Plug by Rikas Dzihab](thenounproject.com/icon/bowtie-7442280/)
 * [Torch by Darwin Mulya](https://thenounproject.com/icon/torch-7829127/)
 * [Trader by Salman Azzumardi](https://thenounproject.com/icon/sailboat-8101964/)
+* [Train gate by Rahmad romadoni](https://thenounproject.com/icon/gate-6250446/)
+* [Train service indoors by corpus delicti](https://thenounproject.com/icon/train-service-3111494/)
 * [Transmitter by IconsHome](https://thenounproject.com/icon/antenna-7788531/)
 * [Trash Can by Adeel rehman](https://thenounproject.com/icon/dustbin-5746658/)
 * Travois icon is original art for this project
@@ -354,6 +364,9 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Warden's Revolver by Eskak](https://thenounproject.com/icon/revolver-8168232/)
 * [Washing Machine by Yosua Bungaran](https://thenounproject.com/icon/washing-machine-8325696/)
 * [Water Bottle by Hilmy Abiyyu Asad](https://thenounproject.com/icon/water-bottle-8270656/)
+* [Water Refuelling Station by MihiMihi](https://thenounproject.com/icon/water-tank-6777521/)
+* [Wax Cylinder by M. Oki Orlando](https://thenounproject.com/icon/voice-recording-4866839/)
+* [Whale Oil Refuelling Station by Komkrit Noenpoempisut](https://thenounproject.com/icon/oil-tank-3476879/)
 * Whetstone is original art for this project
 * [Windbreaker by Lars Meiertoberens](https://thenounproject.com/icon/windbreaker-6792064/)
 * [Wires by Marie Van den Broeck](thenounproject.com/icon/plug-326742/)
@@ -375,10 +388,12 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ## TODOs
 
-
+### IRON ROAD
+1. Add shortforms to templates
+2. Break up templates by region like I do in mybases.json
+3. Better guesses at coordinates
 
 ### Drawing-related
-1. For each region, have a region-by-region breakdown of incoming and outgoing gear
 3. Use the stitched-together coordinate-based map to place the bases!
 2. In each region drawing, split the flow bubbles by direction (e.g. east flow, west flow, north flow)
 3. Reposition the inventory
@@ -401,12 +416,11 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ### Template creation
 1. Add info from https://docs.google.com/spreadsheets/d/1m6h6hqMTJ0kKHV60mIDdwMTFTsFhMCSXVBvn0jxLtv8/edit?gid=2038016176#gid=2038016176
 1. Add info from https://docs.google.com/spreadsheets/d/1-NJtgMl7WCNw820yWEc2c7xBfEiJ0kCD9BNdAq7R0LI/edit?gid=576009953#gid=576009953
-2. Average across all four loot tables
 9. Add where to BRING the polaroids
+10. Add caches for each loot table
 13. Tea & coffee
 15. Crackers
 8. RNG tables for cupboards, lockers, etc?
-9. Once features seem stable, worry about placement of bases
 10. Improve guesses as to locations of: pillows, batteries, DP ammo, the crampons in TWM, etc
 12. Add <10% matches from https://steamcommunity.com/sharedfiles/filedetails/?id=3027092241
 
@@ -416,9 +430,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 10. ALL possible bear spawns
 
 ### Icons to add
-1. Snow shelter
 1. Burdock
-2. Cooked acorns
 3. Various teas?
 4. Rustic & quilted beds
 5. Tea

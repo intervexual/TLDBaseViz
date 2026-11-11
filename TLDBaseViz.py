@@ -1,3 +1,5 @@
+from cryptography.hazmat.asn1.asn1 import NoneType
+
 from keysAndDefs import *
 
 class Region:
@@ -279,64 +281,11 @@ class BaseConnection:
         self.dasharray = DASHSTYLE[kind]
         if colours:
             self.colour = colours[kind]
-    def coord_based_direction(self, bases):
-        """
-        Redo the corner/connections based on coordinates
-        :param source_ob:
-        :param sink_ob:
-        :return:
-        >>> source_info = 'mybases.json'
-        >>> b, e, regions = parse_input(source_info)
-        >>> b, c = process_input(source_info)
-        >>> these_bases = bases_of_region(b, 'CoastalHighway')
-        >>> total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases, margin=100)
-        >>> type(x_offset)
-        <class 'int'>
-        >>> m = calculate_region_coords(b, regions, 'CoastalHighway', total_x, total_y, x_offset, y_offset)
-        >>> bob = BaseConnection("QuonsetGarage", "east", "top,left", "AbandonedMine(Lower)", "top,right", "path")
-        >>> b[bob.source].region_coords
-        [2100, 800]
-        >>> b[bob.sink].region_coords
-        [1300, 400]
-        >>> bob.direction
-        'east'
-        >>> ang = bob.coord_based_direction(b) # should be > 270 and < 350
-        >>> ang > 270 and ang < 350
-        True
-        >>> bob.direction
-        'west'
-        >>> bob = BaseConnection("QuonsetGarage", "east", "top,left", "FishHut(Eastmost)", "top,right", "path")
-        >>> bob.direction
-        'east'
-        >>> ang = bob.coord_based_direction(b) # should be > 90 and < 270
-        >>> ang > 90 and ang < 270
-        True
-        >>> bob.direction # expecting south
-        'south'
-        >>> bob.corners['QuonsetGarage']
-        >>> bob.corners['FishHut(Eastmost)']
-        """
-        source_ob = bases[self.source]
-        sink_ob = bases[self.sink]
-
-        angle = angle_between( source_ob.region_coords, sink_ob.region_coords )
-        vert, horiz, dir = direction_and_anchor(angle)
-        vert, horiz, dir = direction_and_anchor_tiebreaking(vert, horiz, dir)
-
-        self.corners[self.source] = f'{vert},{horiz}'
-        self.direction = dir
-        self.reverse = REVERSE[dir]
-
-        # TODO how to handle the corner of the sink?
-        rev_angle = angle_between(  sink_ob.region_coords, source_ob.region_coords )
-        vert, horiz, dir = direction_and_anchor(rev_angle)
-        vert, horiz, dir = direction_and_anchor_tiebreaking(vert, horiz, dir)
-        self.corners[self.sink] = f'{vert},{horiz}'
-
-        return angle
 
     def invert(self, colours):
-        return BaseConnection(self.sink, self.reverse, self.sink_corner, self.source, self.source_corner, self.kind, colours)
+        return BaseConnection(self.sink, self.reverse,
+                              self.sink_corner, self.source,
+                              self.source_corner, self.kind, colours)
     def __repr__(self):
         """
         Textual representation of the connection
@@ -403,9 +352,9 @@ class BaseConnection:
              t
         """
         s = ''
-        if self.direction in [NORTH, SOUTH]:
+        if NORTH in self.direction or SOUTH in self.direction:
             top, bottom = self.sink, self.source
-            if self.direction == SOUTH:
+            if SOUTH in self.direction:
                 bottom, top = self.sink, self.source
 
             len_diff = 0
@@ -426,9 +375,9 @@ class BaseConnection:
             s += bottom
             return s
 
-        if self.direction in [EAST, WEST]:
+        if EAST in self.direction or WEST in self.direction:
             left, right = self.sink, self.source
-            if self.direction == EAST:
+            if EAST in self.direction:
                 right, left = self.sink, self.source
 
             if self.corners[left][CORN_Y] == TOP and self.corners[right][CORN_Y] == TOP:
@@ -504,6 +453,7 @@ class BaseLocation:
         self.is_drawn = False
 
         self.features = []
+        assert REGION in data, f'{data}'
         self.region = data[REGION]
         self.customizable = data[CUSTOMIZABLE]
         self.loading = data[LOADING]
@@ -861,7 +811,9 @@ class BaseLocation:
         assert cob.source == self.name
 
         if not self.edges_drawn[neigh_name]:
-            p = draw.Path(stroke_width=self.margin_size, stroke=cob.colour, stroke_dasharray=cob.dasharray)
+            p = draw.Path(stroke_width=self.margin_size,
+                          stroke=cob.colour, stroke_dasharray=cob.dasharray,
+                          fill='none')
 
             assert cob.corners[self.name][CORN_Y] in [BOTTOM, TOP]
             if cob.corners[self.name][CORN_Y] == BOTTOM:
@@ -878,15 +830,21 @@ class BaseLocation:
 
             if not neighbour.is_drawn:
                 sink_x, sink_y = source_x, source_y
-                if cob.direction == SOUTH:
+                if SOUTH in cob.direction:
                     sink_y += arrow_size
-                if cob.direction == NORTH:
+                if NORTH in cob.direction:
                     sink_y -= arrow_size
-                if cob.direction == EAST:
+                if EAST in cob.direction:
                     sink_x += arrow_size
-                if cob.direction == WEST:
+                if WEST in cob.direction:
                     sink_x -= arrow_size
-                p.L(sink_x, sink_y)
+
+                if UP in cob.direction:
+                    p.Q(source_x, sink_y, sink_x, sink_y)
+                elif DOWN in cob.direction:
+                    p.Q(sink_x, source_y, sink_x, sink_y)
+                else:
+                    p.L(sink_x, sink_y)
                 d.append(p)
                 self.edges_drawn[neigh_name] = True
                 neighbour.edges_drawn[self.name] = True
@@ -916,7 +874,13 @@ class BaseLocation:
                     sink_x = neighbour.box_left
                 else:
                     sink_x = neighbour.box_right
-                p.L(sink_x, sink_y)
+
+                if UP in cob.direction:
+                    p.Q(source_x, sink_y, sink_x, sink_y)
+                elif DOWN in cob.direction:
+                    p.Q(sink_x, source_y, sink_x, sink_y)
+                else:
+                    p.L(sink_x, sink_y)
                 d.append(p)
 
                 if print_output:
@@ -1063,7 +1027,6 @@ def parse_edges(edges, colours=False):
                 data.append(colours)
             lob = BaseConnection(*data)
             rev_lob = lob.invert(colours)
-            assert str(lob) == str(rev_lob), lob
             if lob.source not in connections:
                 connections[lob.source] = {}
             connections[lob.source][lob.sink] = lob
@@ -1257,10 +1220,10 @@ def per_region_both_flows(bases,
     if special_only:
         spec_name = f'no source for {region}'
 
-    if region in takes:
-        by_reg = takes[region]
-    else:
-        by_reg = {}
+    by_reg = {}
+    if takes:
+        if region in takes:
+            by_reg = takes[region]
 
     spec_base = BaseLocation(spec_name,
                              {REGION: region,
@@ -1603,30 +1566,6 @@ def draw_region(region, source_info, output='tests/',
                output=output, output_png=False, print_warnings=False)
 
 
-
-def add_region_connections(region, regions, bases, these_bases):
-    for connec in regions[region]["connections"]:
-        connec_reg = connec[0]
-        connec_x = connec[1]
-        connec_y = connec[2]
-        connec_name = f'{region}{REGION_CONNECTOR}{connec_reg}'
-        data = {'name': connec_name,
-                REGION: region,
-                CUSTOMIZABLE: False,
-                INDOORS: False,
-                EXPLORED: True,
-                LOADING: True,
-                CABINFEVERRISK: False,
-                COORDS:[connec_x, connec_y],
-                FEATURES: []
-                }
-        bob = BaseLocation(connec_name, data)
-        bases[connec_name] = bob
-        these_bases[connec_name] = bob
-
-
-
-
 def count_features(bases,
                    statuses_to_count=(ACTUAL, REMOVE, FIND),
                    materials_to_count=(FIND, REMOVE),
@@ -1699,7 +1638,7 @@ def verify_fixed_numbers(bases, nums):
                     if round(i.fixednum,round_to) != round(total,round_to):
                         print('Warning: expecting', i.fixednum, 'many', i.key, f'including ({special_sources[i.key]})', 'found', total, 'instead')
                 else:
-                    print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead')
+                    print('Warning: expecting', i.fixednum, 'many', i.key, 'found', nums[i.key], 'instead; rounded was', round(nums[i.key],round_to))
 
     return all_matching
 
@@ -2149,7 +2088,8 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
                      'DesolationPoint'],
         'Crossline': ['HushedRiverValley', 'MountainTown', 'ForlornMuskeg', 'BleakInlet'],
         # 'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
-        }
+        'IronRoad':[ "PortRemnant", "AnnaIsland1",  "AnnaIsland2", "AnnaIsland3", "AnnaIsland4",  "AnnaIsland5", "AnnaIsland6",]
+        } # ,
     if len(regions) > 20:
         zone_bases, colours = process_input(fname, style_file=style_file, destination_warnings=False)
         for sr in super_regions:

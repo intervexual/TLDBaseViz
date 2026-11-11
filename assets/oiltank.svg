@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="56"
+   height="56"
+   viewBox="0 0 56 56"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="oiltank.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.6083333"
+     inkscape:cx="28.048569"
+     inkscape:cy="23.000867"
+     inkscape:window-width="1920"
+     inkscape:window-height="1211"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="rect1"
+     d="M 14,5 V 7 H 20 V 5 Z M 13,9 A 13.015,13.015 0 0 0 0,22 V 28 A 13.015,13.015 0 0 0 13,41 H 43 A 13.015,13.015 0 0 0 56,28 V 22 A 13.008,13.008 0 0 0 44,9.050781 V 36 A 1,1 0 0 1 43,37 H 33 A 1,1 0 0 1 32,36 V 9 Z M 34,9 V 11 H 42 V 9 Z M 34,13 V 15 H 42 V 13 Z M 34,17 V 19 H 42 V 17 Z M 16.931641,17.021484 A 1.033,1.033 0 0 1 17.779297,17.375 C 18.313297,18.041 23,23.975 23,27 A 6,6 0 0 1 11,27 C 11,23.975 15.686703,18.041 16.220703,17.375 A 1.033,1.033 0 0 1 16.931641,17.021484 Z M 17,19.634766 C 15.208,22.027766 13,25.479 13,27 A 4,4 0 0 0 17,31 4,4 0 0 0 21,27 C 21,25.479 18.792,22.027766 17,19.634766 Z M 34,21 V 23 H 42 V 21 Z M 34,25 V 27 H 42 V 25 Z M 34,29 V 31 H 42 V 29 Z M 34,33 V 35 H 42 V 33 Z M 13,43 V 47 H 15 V 43 Z M 41,43 V 47 H 43 V 43 Z M 0,49 V 51 H 56 V 49 Z"
+     style="fill:#000000" />
+</svg>
