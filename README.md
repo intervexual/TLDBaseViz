@@ -58,6 +58,11 @@ Connections are formatted as a list, and an excerpt looks like this:
 The format goes:
 1. Name of source base
 2. Direction from source base to sink (destination) base
+   3. options: north, south, east, west, northwest, northeast, southwest, southeast
+   4. add: "up" or "down" to turn it from a line to a quadratic Bezier curve
+   5. add "squig" to turn it into a cubic Bezier
+   6. add "wide" or "tall" to make it twice the width/height
+   7. e.g. "northwest squigup wide"
 3. Which corner of the source base's box the connection starts from
 4. Name of sink base
 5. Which corner of the sink base's box the connection ends at
@@ -391,8 +396,6 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ### IRON ROAD
 1. Separate items within locations where order matters (templates reorder them)
-2. Add shortforms to templates
-2. Break up templates by region like I do in mybases.json
 3. Better guesses at coordinates
 
 ### Drawing-related
@@ -414,6 +417,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 10. Refine the dark mode / hi contrast style
 12. High-level view vs detail view
 13. Location tiers and minimum supplies for each
+1. Verify order of regions in regions.json matches mybases.json
 
 ### Template creation
 1. Add info from https://docs.google.com/spreadsheets/d/1m6h6hqMTJ0kKHV60mIDdwMTFTsFhMCSXVBvn0jxLtv8/edit?gid=2038016176#gid=2038016176

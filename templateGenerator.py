@@ -153,6 +153,7 @@ def reset_bases(bases):
         info[LOADING] = bob.loading
         info[INDOORS] = bob.indoors
         info[CABINFEVERRISK] = bob.cabinfeverrisk
+        info[SHORTFORM] = bob.shortform
 
         info[EXPLORED] = False
 
@@ -317,7 +318,7 @@ def reset_edges(edges):
     >>> b, e, r = parse_input('tests/testinput.json')
     >>> edges = parse_edges(e)
     >>> reset_edges(edges)
-    [['Hibernia', 'north', 'top,left', 'BrokenBridge', 'bottom,left', 'path'], ['Hibernia', 'south', 'bottom,left', 'Riken', 'top,left', 'default'], ['Hibernia', 'west', 'top,left', 'No5Mine', 'bottom,right', 'path'], ['Riken', 'east', 'top,right', 'LittleIsland', 'top,left', 'default'], ['No5Mine', 'west', 'bottom,left', 'No3Mine', 'top,right', 'path'], ['No3Mine', 'west', 'top,left', 'Harris', 'top,right', 'default'], ['Harris', 'west', 'top,left', 'CommuterCar', 'top,right', 'path'], ['CommuterCar', 'west', 'top,left', 'Misanthrope', 'top,right', 'default'], ['Misanthrope', 'west', 'top,left', 'JMFishHut', 'top,right', 'default'], ['Misanthrope', 'north', 'top,left', 'QMFishHut', 'bottom,left', 'default'], ['JMFishHut', 'west', 'top, left', 'Jackrabbit', 'top,right', 'default'], ['QMFishHut', 'west', 'top,left', 'MidFishHuts', 'top,right', 'default'], ['QMFishHut', 'north', 'top,left', 'Quonset', 'bottom,left', 'default'], ['Jackrabbit', 'north', 'top,left', 'JFFishHut', 'bottom,left', 'default'], ['Jackrabbit', 'north', 'top,right', 'MidFishHuts', 'bottom,left', 'default'], ['JFFishHut', 'east', 'top,right', 'MidFishHuts', 'top,left', 'default'], ['Quonset', 'west', 'top,left', 'LowerMine', 'bottom,right', 'path'], ['LowerMine', 'north', 'top,left', 'UpperMine', 'bottom,left', 'path'], ['UpperMine', 'west', 'top,left', 'MTFarm', 'bottom,right', 'default']]
+    [['Hibernia', 'north ', 'top,left', 'BrokenBridge', 'bottom,left', 'path'], ['Hibernia', 'south ', 'bottom,left', 'Riken', 'top,left', 'default'], ['Hibernia', 'west ', 'top,left', 'No5Mine', 'bottom,right', 'path'], ['Riken', 'east ', 'top,right', 'LittleIsland', 'top,left', 'default'], ['No5Mine', 'west ', 'bottom,left', 'No3Mine', 'top,right', 'path'], ['No3Mine', 'west ', 'top,left', 'Harris', 'top,right', 'default'], ['Harris', 'west ', 'top,left', 'CommuterCar', 'top,right', 'path'], ['CommuterCar', 'west ', 'top,left', 'Misanthrope', 'top,right', 'default'], ['Misanthrope', 'west ', 'top,left', 'JMFishHut', 'top,right', 'default'], ['Misanthrope', 'north ', 'top,left', 'QMFishHut', 'bottom,left', 'default'], ['JMFishHut', 'west ', 'top, left', 'Jackrabbit', 'top,right', 'default'], ['QMFishHut', 'west ', 'top,left', 'MidFishHuts', 'top,right', 'default'], ['QMFishHut', 'north ', 'top,left', 'Quonset', 'bottom,left', 'default'], ['Jackrabbit', 'north ', 'top,left', 'JFFishHut', 'bottom,left', 'default'], ['Jackrabbit', 'north ', 'top,right', 'MidFishHuts', 'bottom,left', 'default'], ['JFFishHut', 'east ', 'top,right', 'MidFishHuts', 'top,left', 'default'], ['Quonset', 'west ', 'top,left', 'LowerMine', 'bottom,right', 'path'], ['LowerMine', 'north ', 'top,left', 'UpperMine', 'bottom,left', 'path'], ['UpperMine', 'west ', 'top,left', 'MTFarm', 'bottom,right', 'default']]
     """
     seen = []
     connections = []
@@ -344,7 +345,7 @@ def reset_edges(edges):
     return connections
 
 
-def print_template(bases, edges, outname='templates/template.json'):
+def print_template(bases, edges, regions, outname='templates/template.json'):
     """
 
     :param filename:
@@ -370,10 +371,19 @@ def print_template(bases, edges, outname='templates/template.json'):
     ['climb']
     >>> merge_in_adds(adds, rb)
     >>> bases = cleanup_features(rb)
-    >>> print_template(bases, edges)
+    >>> print_template(bases, edges, r)
     """
     data = {}
-    data[BASES] = bases
+
+    data[BASES] = {}
+    # sorts regions in the order that regions.json does
+    # and not the order that mybases.json does
+    for r in regions:
+        these_bases = bases_of_region(bases, r)
+        region_delim = f'% {r.upper()}'
+        data[BASES][region_delim] = these_bases
+
+    # put connections at the bottom
     data[CONNECTIONS] = edges
     pretty_json = json.dumps(data, indent=4, separators=(',', ': '))
     with open(outname, 'w') as outfile:
@@ -397,7 +407,7 @@ def generate_template(input='mybases.json', output='templates/loot1.json', loot_
     rb = reset_bases(bases)
     merge_in_adds(adds, rb)
     bases = cleanup_features(rb)
-    print_template(bases, edges, outname=output)
+    print_template(bases, edges, r, outname=output)
     print(output)
     draw_bases_regionally_and_together(output, region_folder='templates/')
 

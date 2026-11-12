@@ -1,13 +1,4 @@
 {
-    "AshCanyon":
-    {"y-flip": false, "x-flip":false,
-        "short": "AC",
-        "top": "0",
-        "right": "left~OIC",
-        "connections": [["TimberwolfMountain", 800, -800]],
-        "rotation": -60,
-        "north": "left"
-    },
     "TimberwolfMountain":
     {"y-flip": false, "x-flip":false,
         "short": "TWM",
@@ -18,15 +9,25 @@
         "rotation": 30,
         "north":"right"
     },
-    "Blackrock":
+    "AshCanyon":
     {"y-flip": false, "x-flip":false,
-        "short": "BRM",
-        "bottom": "top~PleasantValley",
-        "right": "left~TimberwolfMountain",
-        "connections": [["KeepersPass", -450, -1000]],
-        "rotation": -10,
-        "truerotation": 0,
-        "north":"up"
+        "short": "AC",
+        "top": "0",
+        "right": "left~OIC",
+        "connections": [["TimberwolfMountain", 800, -800]],
+        "rotation": -60,
+        "north": "left"
+    },
+    "PleasantValley":
+    {"y-flip": true, "x-flip":false,
+        "short": "PV",
+        "top": "bottom~TimberwolfMountain",
+        "right": "left~OIC",
+        "connections": [["TimberwolfMountain", 2500, 200],
+            ["KeepersPass",50,1550]
+        ],
+        "rotation": -30,
+        "north":"left"
     },
     "KeepersPass":
     {"y-flip": true, "x-flip":true,
@@ -41,17 +42,18 @@
         "comment": ["the fishing hut will overlap with Bunker Beta if not tweaked"],
         "north":"left"
     },
-    "PleasantValley":
-    {"y-flip": true, "x-flip":false,
-        "short": "PV",
-        "top": "bottom~TimberwolfMountain",
-        "right": "left~OIC",
-        "connections": [["TimberwolfMountain", 2500, 200],
-            ["KeepersPass",50,1550]
-        ],
-        "rotation": -30,
-        "north":"left"
+    "Blackrock":
+    {"y-flip": false, "x-flip":false,
+        "short": "BRM",
+        "bottom": "top~PleasantValley",
+        "right": "left~TimberwolfMountain",
+        "connections": [["KeepersPass", -450, -1000]],
+        "rotation": -10,
+        "truerotation": 0,
+        "north":"up"
     },
+
+
     "WindingRiver":
     {"y-flip": false, "x-flip":false,
         "short": "WR",
@@ -245,7 +247,30 @@
         "comment": ["-85 is to avoid Smoker's Cave overlopping with the SP quest climb area"],
         "north":"left"
     },
-
+    "PortRemnant":
+    {"y-flip": true, "x-flip":false,
+        "short": "PR",
+        "top": "bottom~AnnaIsland1",
+        "left": "right~AnnaIsland5",
+        "connections": [
+        ["AnnaIsland5", 720,430],
+        ["AnnaIsland1", 1785,660]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
+    "AnnaIsland5":
+    {"y-flip": true, "x-flip":false,
+        "short": "A5",
+        "top": "bottom~AnnaIsland6",
+        "left": "left~PortRemnant",
+        "connections": [["PortRemnant", 720,430],
+            ["AnnaIsland6", -360,315],
+            ["AnnaIsland4", -290,425]],
+        "rotation": 0,
+        "north":"up",
+        "comment": "making this up entirely"
+    },
     "AnnaIsland1":
     {"y-flip": true, "x-flip":false,
         "short": "A1",
@@ -288,30 +313,6 @@
         "connections": [["AnnaIsland3", -500,-320],
         ["AnnaIsland6", -360,315],
         ["AnnaIsland5", -290,425]],
-        "rotation": 0,
-        "north":"up",
-        "comment": "making this up entirely"
-    },
-    "PortRemnant":
-    {"y-flip": true, "x-flip":false,
-        "short": "PR",
-        "top": "bottom~AnnaIsland1",
-        "left": "right~AnnaIsland5",
-        "connections": [
-        ["AnnaIsland5", 720,430],
-        ["AnnaIsland1", 1785,660]],
-        "rotation": 0,
-        "north":"up",
-        "comment": "making this up entirely"
-    },
-    "AnnaIsland5":
-    {"y-flip": true, "x-flip":false,
-        "short": "A5",
-        "top": "bottom~AnnaIsland6",
-        "left": "left~PortRemnant",
-        "connections": [["PortRemnant", 720,430],
-            ["AnnaIsland6", -360,315],
-            ["AnnaIsland4", -290,425]],
         "rotation": 0,
         "north":"up",
         "comment": "making this up entirely"

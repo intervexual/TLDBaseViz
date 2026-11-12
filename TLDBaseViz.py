@@ -517,8 +517,8 @@ class BaseLocation:
         if 'tier' in data:
             self.tier = data['tier']
         self.shortform = self.name
-        if 'shortform' in data:
-            self.shortform = data['shortform']
+        if SHORTFORM in data:
+            self.shortform = data[SHORTFORM]
 
     def reset_drawing(self):
         self.is_drawn = False
@@ -1551,8 +1551,14 @@ def bases_of_region(bases, region):
     these_bases = {}
     for b in bases:
         bob = bases[b]
-        if bob.region == region or bob.region in region:
-            these_bases[b] = bob
+        #assert type(bob) == BaseLocation, f'{type(bob)}, {bob}'
+        if type(bob) == BaseLocation:
+            if bob.region == region or bob.region in region:
+                these_bases[b] = bob
+        else:
+            assert type(bob) == dict, f'{type(bob)}, {bob}'
+            if bob[REGION] == region:
+                these_bases[b] = bob
     return these_bases
 
 

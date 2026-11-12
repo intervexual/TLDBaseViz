@@ -33,6 +33,7 @@ EMPTY = 'empty'
 EXPLORED = 'explored'
 CABINFEVERRISK = 'cabinfeverrisk'
 COORDS = 'coords'
+SHORTFORM = 'shortform'
 
 SOUTH = 'south'
 NORTH = 'north'
