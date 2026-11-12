@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~BR):features"></g>
 <g id="Transition(FRBL~BR):header">
-<text x="1511.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~BR)</text>
+<text x="1511.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~BR)</text>
 </g>
 </g>
 </g>
@@ -19,7 +19,7 @@
 <rect x="1461.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(RailOffice):features"></g>
 <g id="POI(RailOffice):header">
-<text x="1471.25" y="1512.1875" font-size="1.25" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">POI(RailOffice)</text>
+<text x="1471.25" y="1512.1875" font-size="1.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">POI(RailOffice)</text>
 </g>
 </g>
 <path d="M1461.25,1501.25 L1441.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -56,7 +56,7 @@
 </g>
 </g>
 <g id="TrainCar(SurfeitTrestle):header">
-<text x="1401.25" y="1510.5078125" font-size="4.53125" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(SurfeitTrestle)</text>
+<text x="1401.25" y="1510.5078125" font-size="4.53125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(SurfeitTrestle)</text>
 </g>
 </g>
 <path d="M1361.25,1501.25 L1341.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -86,7 +86,7 @@
 </g>
 </g>
 <g id="PlatelayersShortcut:header">
-<text x="1321.25" y="1518.766447368421" font-size="2.5657894736842106" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">PlatelayersShortcut</text>
+<text x="1321.25" y="1518.766447368421" font-size="2.5657894736842106" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">PlatelayersShortcut</text>
 </g>
 </g>
 <path d="M1441.25,1501.25 L1441.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -100,7 +100,7 @@
 </g>
 </g>
 <g id="Climb(FRBL):header">
-<text x="1421.25" y="1451.7329545454545" font-size="4.431818181818182" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Climb(FRBL)</text>
+<text x="1421.25" y="1451.7329545454545" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Climb(FRBL)</text>
 </g>
 </g>
 <path d="M1301.25,1501.25 L1281.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -158,7 +158,7 @@
 </g>
 </g>
 <g id="RemnantCave:header">
-<text x="1251.25" y="1518.6647727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">RemnantCave</text>
+<text x="1251.25" y="1518.6647727272727" font-size="7.159090909090908" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">RemnantCave</text>
 </g>
 </g>
 <path d="M1221.25,1501.25 L1201.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -166,7 +166,7 @@
 <rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~TP):features"></g>
 <g id="Transition(FRBL~TP):header">
-<text x="1191.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~TP)</text>
+<text x="1191.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~TP)</text>
 </g>
 </g>
 </g>
@@ -175,7 +175,7 @@
 <rect x="1181.25" y="1541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (FarRangeBranchLine):features"></g>
 <g id="to move from (FarRangeBranchLine):header">
-<text x="1191.25" y="1552.0170454545455" font-size="0.5681818181818181" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (FarRangeBranchLine)</text>
+<text x="1191.25" y="1552.0170454545455" font-size="0.5681818181818181" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (FarRangeBranchLine)</text>
 </g>
 </g>
 <path d="M1181.25,1561.25 L1181.25,1581.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -195,7 +195,7 @@
 </g>
 </g>
 <g id="to bring to (FarRangeBranchLine):header">
-<text x="1211.25" y="1591.240234375" font-size="2.4609375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (FarRangeBranchLine)</text>
+<text x="1211.25" y="1591.240234375" font-size="2.4609375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (FarRangeBranchLine)</text>
 </g>
 </g>
 <path d="M1181.25,1621.25 L1181.25,1641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -203,7 +203,7 @@
 <rect x="1181.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within FarRangeBranchLine:features"></g>
 <g id="move within FarRangeBranchLine:header">
-<text x="1191.25" y="1652.03125" font-size="0.625" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within FarRangeBranchLine</text>
+<text x="1191.25" y="1652.03125" font-size="0.625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within FarRangeBranchLine</text>
 </g>
 </g>
 <path d="M1181.25,1661.25 L1181.25,1681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -211,7 +211,7 @@
 <rect x="1181.25" y="1681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for FarRangeBranchLine:features"></g>
 <g id="no source for FarRangeBranchLine:header">
-<text x="1191.25" y="1692.021484375" font-size="0.5859375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for FarRangeBranchLine</text>
+<text x="1191.25" y="1692.021484375" font-size="0.5859375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for FarRangeBranchLine</text>
 </g>
 </g>
 <g id="legend">

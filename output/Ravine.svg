@@ -16,7 +16,7 @@
 </g>
 </g>
 <g id="Transition(R~CH):header">
-<text x="1521.25" y="1511.38671875" font-size="3.046875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~CH)</text>
+<text x="1521.25" y="1511.38671875" font-size="3.046875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~CH)</text>
 </g>
 </g>
 </g>
@@ -31,7 +31,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineEast):header">
-<text x="1481.25" y="1451.3020833333333" font-size="2.7083333333333335" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Tunnel(RavineEast)</text>
+<text x="1481.25" y="1451.3020833333333" font-size="2.7083333333333335" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Tunnel(RavineEast)</text>
 </g>
 </g>
 <path d="M1461.25,1441.25 L1461.25,1421.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -45,7 +45,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineWest):header">
-<text x="1441.25" y="1391.3020833333333" font-size="2.7083333333333335" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Tunnel(RavineWest)</text>
+<text x="1441.25" y="1391.3020833333333" font-size="2.7083333333333335" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Tunnel(RavineWest)</text>
 </g>
 </g>
 <path d="M1421.25,1381.25 L1401.25,1381.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -253,7 +253,7 @@
 </g>
 </g>
 <g id="Cave(EastRavine):header">
-<text x="1301.25" y="1281.38671875" font-size="18.046875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(EastRavine)</text>
+<text x="1301.25" y="1281.38671875" font-size="18.046875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(EastRavine)</text>
 </g>
 </g>
 <path d="M1421.25,1421.25 L1421.25,1441.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
@@ -267,7 +267,7 @@
 </g>
 </g>
 <g id="Goating(Ravine):header">
-<text x="1401.25" y="1451.4375" font-size="3.25" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Goating(Ravine)</text>
+<text x="1401.25" y="1451.4375" font-size="3.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Goating(Ravine)</text>
 </g>
 </g>
 <path d="M1201.25,1261.25 L1181.25,1261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -275,7 +275,7 @@
 <rect x="1161.25" y="1241.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="TrainCar(Ravine):features"></g>
 <g id="TrainCar(Ravine):header">
-<text x="1171.25" y="1252.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(Ravine)</text>
+<text x="1171.25" y="1252.16796875" font-size="1.171875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(Ravine)</text>
 </g>
 </g>
 <path d="M1201.25,1381.25 L1181.25,1381.25" stroke-width="2.5" stroke="#756127" stroke-dasharray="6,2" fill="none" />
@@ -283,7 +283,7 @@
 <rect x="1161.25" y="1381.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(TreeBridge):features"></g>
 <g id="POI(TreeBridge):header">
-<text x="1171.25" y="1392.1875" font-size="1.25" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">POI(TreeBridge)</text>
+<text x="1171.25" y="1392.1875" font-size="1.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">POI(TreeBridge)</text>
 </g>
 </g>
 <path d="M1161.25,1261.25 L1141.25,1261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -495,7 +495,7 @@
 </g>
 </g>
 <g id="Cave(WestRavine):header">
-<text x="1051.25" y="1278.41796875" font-size="16.171875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(WestRavine)</text>
+<text x="1051.25" y="1278.41796875" font-size="16.171875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(WestRavine)</text>
 </g>
 </g>
 <path d="M1181.25,1261.25 L1181.25,1381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -505,7 +505,7 @@
 <rect x="941.25" y="1221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(R~ML):features"></g>
 <g id="Transition(R~ML):header">
-<text x="951.25" y="1232.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~ML)</text>
+<text x="951.25" y="1232.16796875" font-size="1.171875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~ML)</text>
 </g>
 </g>
 <path d="M961.25,1421.25 L961.25,1441.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -525,7 +525,7 @@
 </g>
 </g>
 <g id="Climb(Ravine):header">
-<text x="991.25" y="1452.139423076923" font-size="6.0576923076923075" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Climb(Ravine)</text>
+<text x="991.25" y="1452.139423076923" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Climb(Ravine)</text>
 </g>
 </g>
 <path d="M1161.25,1401.25 L1021.25,1441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -534,7 +534,7 @@
 <rect x="1041.25" y="1481.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="TrainCar(RavineBasin):features"></g>
 <g id="TrainCar(RavineBasin):header">
-<text x="1051.25" y="1492.0982142857142" font-size="0.8928571428571428" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(RavineBasin)</text>
+<text x="1051.25" y="1492.0982142857142" font-size="0.8928571428571428" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(RavineBasin)</text>
 </g>
 </g>
 <path d="M1061.25,1481.25 L1081.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -639,7 +639,7 @@
 </g>
 </g>
 <g id="Cave(SouthRavine):header">
-<text x="1191.25" y="1491.875" font-size="10.0" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(SouthRavine)</text>
+<text x="1191.25" y="1491.875" font-size="10.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(SouthRavine)</text>
 </g>
 </g>
 <path d="M1081.25,1541.25 L1081.25,1561.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -647,7 +647,7 @@
 <rect x="1081.25" y="1561.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(R~BI):features"></g>
 <g id="Transition(R~BI):header">
-<text x="1091.25" y="1572.16796875" font-size="1.171875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~BI)</text>
+<text x="1091.25" y="1572.16796875" font-size="1.171875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(R~BI)</text>
 </g>
 </g>
 <path d="M1301.25,1481.25 L1381.25,1441.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
@@ -745,7 +745,7 @@
 </g>
 </g>
 <g id="to move from (Ravine):header">
-<text x="1151.25" y="1620.4910714285716" font-size="9.464285714285714" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (Ravine)</text>
+<text x="1151.25" y="1620.4910714285716" font-size="9.464285714285714" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (Ravine)</text>
 </g>
 </g>
 <path d="M1081.25,1701.25 L1081.25,1721.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -767,7 +767,7 @@
 </g>
 </g>
 <g id="to bring to (Ravine):header">
-<text x="1111.25" y="1731.609375" font-size="3.9375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (Ravine)</text>
+<text x="1111.25" y="1731.609375" font-size="3.9375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (Ravine)</text>
 </g>
 </g>
 <path d="M1081.25,1761.25 L1081.25,1781.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -791,7 +791,7 @@
 </g>
 </g>
 <g id="move within Ravine:header">
-<text x="1111.25" y="1791.71875" font-size="4.375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within Ravine</text>
+<text x="1111.25" y="1791.71875" font-size="4.375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within Ravine</text>
 </g>
 </g>
 <path d="M1081.25,1821.25 L1081.25,1841.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -799,7 +799,7 @@
 <rect x="1081.25" y="1841.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for Ravine:features"></g>
 <g id="no source for Ravine:header">
-<text x="1091.25" y="1852.109375" font-size="0.9375" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for Ravine</text>
+<text x="1091.25" y="1852.109375" font-size="0.9375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for Ravine</text>
 </g>
 </g>
 <g id="legend">

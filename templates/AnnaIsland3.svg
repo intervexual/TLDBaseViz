@@ -21,7 +21,7 @@
 </g>
 </g>
 <g id="Transition(A3~A2):header">
-<text x="1531.25" y="1511.7830882352941" font-size="4.632352941176471" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(A3~A2)</text>
+<text x="1531.25" y="1511.7830882352941" font-size="4.632352941176471" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(A3~A2)</text>
 </g>
 </g>
 </g>
@@ -45,7 +45,7 @@
 </g>
 </g>
 <g id="Cave(A3):header">
-<text x="1461.25" y="1490.8984375" font-size="6.09375" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(A3)</text>
+<text x="1461.25" y="1490.8984375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(A3)</text>
 </g>
 </g>
 <path d="M1501.25,1541.25 C1491.05,1541.25,1491.45,1561.25,1481.25,1561.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -64,7 +64,7 @@
 </g>
 </g>
 <g id="Stop(A3:A2):header">
-<text x="1451.25" y="1572.4147727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A2)</text>
+<text x="1451.25" y="1572.4147727272727" font-size="7.159090909090908" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A2)</text>
 </g>
 </g>
 <path d="M1441.25,1541.25 L1401.25,1541.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -78,7 +78,7 @@
 </g>
 </g>
 <g id="Gate(A3:Cave):header">
-<text x="1381.25" y="1511.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Gate(A3:Cave)</text>
+<text x="1381.25" y="1511.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Gate(A3:Cave)</text>
 </g>
 </g>
 <path d="M1361.25,1541.25 L1341.25,1541.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -92,7 +92,7 @@
 </g>
 </g>
 <g id="Switch(A3:OTWT:E):header">
-<text x="1321.25" y="1511.3419117647059" font-size="2.8676470588235294" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:OTWT:E)</text>
+<text x="1321.25" y="1511.3419117647059" font-size="2.8676470588235294" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:OTWT:E)</text>
 </g>
 </g>
 <path d="M1341.25,1541.25 C1351.05,1541.25,1351.45,1561.25,1361.25,1561.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -106,7 +106,7 @@
 </g>
 </g>
 <g id="Stop(A3:OTWT):header">
-<text x="1381.25" y="1571.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:OTWT)</text>
+<text x="1381.25" y="1571.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:OTWT)</text>
 </g>
 </g>
 <path d="M1301.25,1541.25 L1281.25,1541.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -132,7 +132,7 @@
 </g>
 </g>
 <g id="OilWaterTanks(A3):header">
-<text x="1241.25" y="1512.2242647058824" font-size="6.397058823529411" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">OilWaterTanks(A3)</text>
+<text x="1241.25" y="1512.2242647058824" font-size="6.397058823529411" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">OilWaterTanks(A3)</text>
 </g>
 </g>
 <path d="M1201.25,1541.25 L1181.25,1541.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -151,7 +151,7 @@
 </g>
 </g>
 <g id="Gate(A3:OTWT):header">
-<text x="1151.25" y="1512.139423076923" font-size="6.0576923076923075" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Gate(A3:OTWT)</text>
+<text x="1151.25" y="1512.139423076923" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Gate(A3:OTWT)</text>
 </g>
 </g>
 <path d="M1281.25,1541.25 C1271.05,1541.25,1271.45,1561.25,1261.25,1561.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -165,7 +165,7 @@
 </g>
 </g>
 <g id="Bypass(A3:OTWT):header">
-<text x="1241.25" y="1571.4375" font-size="3.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Bypass(A3:OTWT)</text>
+<text x="1241.25" y="1571.4375" font-size="3.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Bypass(A3:OTWT)</text>
 </g>
 </g>
 <path d="M1221.25,1561.25 C1200.85,1561.25,1201.65,1541.25,1181.25,1541.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -180,7 +180,7 @@
 </g>
 </g>
 <g id="POI(Cove):header">
-<text x="1061.25" y="1571.9791666666667" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(Cove)</text>
+<text x="1061.25" y="1571.9791666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(Cove)</text>
 </g>
 </g>
 <path d="M1041.25,1601.25 L1001.25,1601.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -199,7 +199,7 @@
 </g>
 </g>
 <g id="Switch(A3:A4:E):header">
-<text x="971.25" y="1571.9375" font-size="5.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:E)</text>
+<text x="971.25" y="1571.9375" font-size="5.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:E)</text>
 </g>
 </g>
 <path d="M1081.25,1561.25 L1081.25,1541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -319,7 +319,7 @@
 </g>
 </g>
 <g id="Cabin(A3):header">
-<text x="1041.25" y="1418.6458333333333" font-size="12.083333333333332" font-family="Arial" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Cabin(A3)</text>
+<text x="1041.25" y="1418.6458333333333" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Cabin(A3)</text>
 </g>
 </g>
 <path d="M941.25,1601.25 L921.25,1601.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -361,7 +361,7 @@
 </g>
 </g>
 <g id="Switch(A3:A4:N):header">
-<text x="881.25" y="1551.1875" font-size="7.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:N)</text>
+<text x="881.25" y="1551.1875" font-size="7.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:N)</text>
 </g>
 </g>
 <path d="M1001.25,1601.25 C1011.05,1601.25,1011.45,1621.25,1021.25,1621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -375,7 +375,7 @@
 </g>
 </g>
 <g id="Switch(A3:A4:S):header">
-<text x="1001.25" y="1631.4375" font-size="3.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:S)</text>
+<text x="1001.25" y="1631.4375" font-size="3.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:S)</text>
 </g>
 </g>
 <path d="M841.25,1601.25 L821.25,1601.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -389,7 +389,7 @@
 </g>
 </g>
 <g id="Transition(A3~A4):header">
-<text x="801.25" y="1571.3419117647059" font-size="2.8676470588235294" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(A3~A4)</text>
+<text x="801.25" y="1571.3419117647059" font-size="2.8676470588235294" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(A3~A4)</text>
 </g>
 </g>
 <path d="M841.25,1601.25 C851.05,1601.25,851.45,1621.25,861.25,1621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -403,7 +403,7 @@
 </g>
 </g>
 <g id="Switch(A3:A4:W):header">
-<text x="881.25" y="1631.4375" font-size="3.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:W)</text>
+<text x="881.25" y="1631.4375" font-size="3.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Switch(A3:A4:W)</text>
 </g>
 </g>
 <path d="M1021.25,1621.25 L1041.25,1621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -417,7 +417,7 @@
 </g>
 </g>
 <g id="Stop(A3:A4:E):header">
-<text x="1061.25" y="1631.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A4:E)</text>
+<text x="1061.25" y="1631.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A4:E)</text>
 </g>
 </g>
 <path d="M981.25,1621.25 L901.25,1621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -437,7 +437,7 @@
 </g>
 </g>
 <g id="Stop(A3:A4:W):header">
-<text x="811.25" y="1632.139423076923" font-size="6.0576923076923075" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A4:W)</text>
+<text x="811.25" y="1632.139423076923" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Stop(A3:A4:W)</text>
 </g>
 </g>
 </g>
@@ -446,7 +446,7 @@
 <rect x="781.25" y="1621.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (AnnaIsland3):features"></g>
 <g id="to move from (AnnaIsland3):header">
-<text x="791.25" y="1632.0552884615386" font-size="0.7211538461538461" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (AnnaIsland3)</text>
+<text x="791.25" y="1632.0552884615386" font-size="0.7211538461538461" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (AnnaIsland3)</text>
 </g>
 </g>
 <path d="M781.25,1641.25 L781.25,1661.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -454,7 +454,7 @@
 <rect x="781.25" y="1661.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (AnnaIsland3):features"></g>
 <g id="to bring to (AnnaIsland3):header">
-<text x="791.25" y="1672.0625" font-size="0.75" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (AnnaIsland3)</text>
+<text x="791.25" y="1672.0625" font-size="0.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (AnnaIsland3)</text>
 </g>
 </g>
 <path d="M781.25,1681.25 L781.25,1701.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -462,7 +462,7 @@
 <rect x="781.25" y="1701.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within AnnaIsland3:features"></g>
 <g id="move within AnnaIsland3:header">
-<text x="791.25" y="1712.078804347826" font-size="0.8152173913043478" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within AnnaIsland3</text>
+<text x="791.25" y="1712.078804347826" font-size="0.8152173913043478" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within AnnaIsland3</text>
 </g>
 </g>
 <path d="M781.25,1721.25 L781.25,1741.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -470,7 +470,7 @@
 <rect x="781.25" y="1741.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for AnnaIsland3:features"></g>
 <g id="no source for AnnaIsland3:header">
-<text x="791.25" y="1752.0625" font-size="0.75" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for AnnaIsland3</text>
+<text x="791.25" y="1752.0625" font-size="0.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for AnnaIsland3</text>
 </g>
 </g>
 <g id="legend">

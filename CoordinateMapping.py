@@ -54,13 +54,14 @@ def calculate_region_coords(these_bases, regions, region,
 
             bob.region_coords = [x, y]
 
-    # rotated regions need new dimensions
-    if bob.region in regions and regions[bob.region]['rotation'] != 0:
-        total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases,
-                                                                       use_region=True,
-                                                                       margin=margin)
+        # rotated regions need new dimensions
+        if bob.region in regions and regions[bob.region]['rotation'] != 0:
+            total_x, total_y, x_offset, y_offset = region_size_from_coords(these_bases,
+                                                                           use_region=True,
+                                                                           margin=margin)
         for b in these_bases:
             bob = these_bases[b]
+            assert type(x_offset) in [int, float], bob
             bob.region_coords[0] -= x_offset
             bob.region_coords[0] += 2*margin
             bob.region_coords[1] += y_offset
@@ -194,7 +195,7 @@ def draw_multiple_regions_from_coords(these_regions, source_info,
     # first figure out all region Ys
     y_ordered = ['AshCanyon','TimberwolfMountain',
                  'PleasantValley',
-                 'CoastalHighway','OIC','DesolationPoint',
+                 'CoastalHighway','OldIslandConnector','DesolationPoint',
                  'Blackrock','KeepersPass',
                  'WindingRiver','Ravine',
                  'MysteryLake',

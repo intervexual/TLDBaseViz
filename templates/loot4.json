@@ -9494,6 +9494,7 @@
                 "features": [
                     "bed,?grill",
                     "?drawer:6",
+                    "?painting",
                     "?food",
                     "?firelog"
                 ]
@@ -9528,7 +9529,9 @@
                 "shortform": "RedWarehouse",
                 "explored": false,
                 "features": [
-                    "?workbench,?grill"
+                    "?workbench,?grill",
+                    "?oilcan",
+                    "?scrap"
                 ]
             },
             "Cabin(ByObstructed)": {
@@ -9720,7 +9723,7 @@
                     1444,
                     300
                 ],
-                "customizable": true,
+                "customizable": false,
                 "loading": true,
                 "indoors": true,
                 "cabinfeverrisk": true,
@@ -9736,7 +9739,7 @@
                     1170,
                     265
                 ],
-                "customizable": true,
+                "customizable": false,
                 "loading": true,
                 "indoors": true,
                 "cabinfeverrisk": true,
@@ -10430,10 +10433,10 @@
                     1770,
                     90
                 ],
-                "customizable": false,
-                "loading": false,
+                "customizable": true,
+                "loading": true,
                 "indoors": true,
-                "cabinfeverrisk": false,
+                "cabinfeverrisk": true,
                 "shortform": "Cabin(Huts)",
                 "explored": false,
                 "features": [
@@ -10717,9 +10720,11 @@
                 "features": [
                     "indoortrain",
                     "bed,?potbelly",
-                    "?firstaid,?locker:6",
-                    "?heater,?cookpot",
-                    "?wax:2"
+                    "?firstaid,?locker:9,?cupboard:4,?bag,?file:2,?drawer:6",
+                    "?calendar,?rug:3,?mat",
+                    "?matches,?heater,?cookpot",
+                    "?wax:2",
+                    "?scrap"
                 ]
             },
             "WaterTank(A2)": {
@@ -11405,7 +11410,8 @@
                 "features": [
                     "indoortrain",
                     "bed,?potbelly",
-                    "?firstaid,?locker:6",
+                    "?firstaid,?locker:9,?cupboard:4,?bag,?file:2,?drawer:6",
+                    "?calendar,?rug:3,?mat",
                     "?cookpot",
                     "?wax"
                 ]

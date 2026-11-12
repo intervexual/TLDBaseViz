@@ -222,6 +222,7 @@ cash	cash	misc	navigation	misc			TRUE	TRUE
 fuse	replacement fuse	misc	navigation	misc			TRUE	TRUE		replace!
 wires	wires	misc	navigation	misc			TRUE	TRUE		
 battery	car battery	misc	navigation	misc			TRUE	TRUE		
+brake	brake shoe	misc	navigation	misc			TRUE	TRUE		
 maple	maple sapling	misc	material	material			TRUE	TRUE		good
 sapling	birch sapling	misc	material	material			TRUE	TRUE		
 arrowhead	arrowhead	misc	material	material	other		TRUE	TRUE		

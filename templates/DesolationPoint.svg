@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Transition(DP~OIC):features"></g>
 <g id="Transition(DP~OIC):header">
-<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(DP~OIC)</text>
+<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Transition(DP~OIC)</text>
 </g>
 </g>
 </g>
@@ -44,7 +44,7 @@
 </g>
 </g>
 <g id="No3Mine:header">
-<text x="1561.25" y="1419.8660714285716" font-size="6.964285714285715" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No3Mine</text>
+<text x="1561.25" y="1419.8660714285716" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No3Mine</text>
 </g>
 </g>
 <path d="M1581.25,1501.25 L1581.25,1521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -58,7 +58,7 @@
 </g>
 </g>
 <g id="Climb(DP):header">
-<text x="1601.25" y="1531.9791666666667" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(DP)</text>
+<text x="1601.25" y="1531.9791666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(DP)</text>
 </g>
 </g>
 <path d="M1581.25,1401.25 L1601.25,1401.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -121,7 +121,7 @@
 </g>
 </g>
 <g id="No5Mine(West):header">
-<text x="1651.25" y="1420.793269230769" font-size="10.673076923076923" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No5Mine(West)</text>
+<text x="1651.25" y="1420.793269230769" font-size="10.673076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No5Mine(West)</text>
 </g>
 </g>
 <path d="M1601.25,1501.25 L1601.25,1521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -152,7 +152,7 @@
 </g>
 </g>
 <g id="POI(KatiesSecludedCorner):header">
-<text x="1561.25" y="1530.4625" font-size="4.35" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(KatiesSecludedCorner)</text>
+<text x="1561.25" y="1530.4625" font-size="4.35" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(KatiesSecludedCorner)</text>
 </g>
 </g>
 <path d="M1701.25,1401.25 L1721.25,1401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -189,7 +189,7 @@
 </g>
 </g>
 <g id="No5Mine(East):header">
-<text x="1761.25" y="1351.4663461538462" font-size="8.365384615384615" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No5Mine(East)</text>
+<text x="1761.25" y="1351.4663461538462" font-size="8.365384615384615" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No5Mine(East)</text>
 </g>
 </g>
 <path d="M1701.25,1501.25 L1701.25,1521.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -247,7 +247,7 @@
 </g>
 </g>
 <g id="StoneChurch:header">
-<text x="1731.25" y="1537.4147727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">StoneChurch</text>
+<text x="1731.25" y="1537.4147727272727" font-size="7.159090909090908" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">StoneChurch</text>
 </g>
 </g>
 <path d="M1801.25,1341.25 L1821.25,1341.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -426,7 +426,7 @@
 </g>
 </g>
 <g id="HiberniaProcessing:header">
-<text x="1931.25" y="1357.5" font-size="17.5" font-family="Arial" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">HiberniaProcessing</text>
+<text x="1931.25" y="1357.5" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">HiberniaProcessing</text>
 </g>
 </g>
 <path d="M1801.25,1341.25 L1801.25,1321.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -459,7 +459,7 @@
 </g>
 </g>
 <g id="Cave(BrokenBridge):header">
-<text x="1841.25" y="1292.1354166666667" font-size="6.041666666666666" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(BrokenBridge)</text>
+<text x="1841.25" y="1292.1354166666667" font-size="6.041666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(BrokenBridge)</text>
 </g>
 </g>
 <path d="M1821.25,1341.25 L1881.25,1321.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -508,7 +508,7 @@
 </g>
 </g>
 <g id="Trailer(NorthHibernia):header">
-<text x="2011.25" y="1239.0198863636365" font-size="3.579545454545454" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Trailer(NorthHibernia)</text>
+<text x="2011.25" y="1239.0198863636365" font-size="3.579545454545454" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Trailer(NorthHibernia)</text>
 </g>
 </g>
 <path d="M2041.25,1521.25 L2041.25,1541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -571,7 +571,7 @@
 </g>
 </g>
 <g id="Trailer(SouthHibernia):header">
-<text x="2001.25" y="1558.1107954545455" font-size="4.943181818181818" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Trailer(SouthHibernia)</text>
+<text x="2001.25" y="1558.1107954545455" font-size="4.943181818181818" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Trailer(SouthHibernia)</text>
 </g>
 </g>
 <path d="M2041.25,1341.25 L2061.25,1341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -591,7 +591,7 @@
 </g>
 </g>
 <g id="Fulmar:header">
-<text x="2081.25" y="1352.65625" font-size="8.125" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Fulmar</text>
+<text x="2081.25" y="1352.65625" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Fulmar</text>
 </g>
 </g>
 <path d="M1881.25,1321.25 L1981.25,1321.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -628,7 +628,7 @@
 </g>
 </g>
 <g id="Cave(Scruffy):header">
-<text x="1831.25" y="1210.889423076923" font-size="6.0576923076923075" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Cave(Scruffy)</text>
+<text x="1831.25" y="1210.889423076923" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Cave(Scruffy)</text>
 </g>
 </g>
 <path d="M1961.25,1661.25 L1961.25,1681.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -704,7 +704,7 @@
 </g>
 </g>
 <g id="TheRiken:header">
-<text x="2001.25" y="1699.0234375" font-size="13.59375" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">TheRiken</text>
+<text x="2001.25" y="1699.0234375" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">TheRiken</text>
 </g>
 </g>
 <path d="M1961.25,1821.25 L1961.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -749,7 +749,7 @@
 </g>
 </g>
 <g id="POI(LittleIsland):header">
-<text x="2031.25" y="1853.547794117647" font-size="11.691176470588236" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(LittleIsland)</text>
+<text x="2031.25" y="1853.547794117647" font-size="11.691176470588236" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(LittleIsland)</text>
 </g>
 </g>
 <path d="M1961.25,1821.25 L1941.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -774,7 +774,7 @@
 </g>
 </g>
 <g id="Truck(Matts):header">
-<text x="1921.25" y="1770.390625" font-size="4.0625" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Truck(Matts)</text>
+<text x="1921.25" y="1770.390625" font-size="4.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Truck(Matts)</text>
 </g>
 </g>
 <path d="M1961.25,1841.25 L1941.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -849,7 +849,7 @@
 </g>
 </g>
 <g id="LonelyLighthouse:header">
-<text x="1911.25" y="1855.60546875" font-size="4.921875" font-family="Arial" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">LonelyLighthouse</text>
+<text x="1911.25" y="1855.60546875" font-size="4.921875" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">LonelyLighthouse</text>
 </g>
 </g>
 <path d="M1881.25,1841.25 L1601.25,1581.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -862,7 +862,7 @@
 <rect x="1521.25" y="1601.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (DesolationPoint):features"></g>
 <g id="to move from (DesolationPoint):header">
-<text x="1531.25" y="1612.03125" font-size="0.625" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (DesolationPoint)</text>
+<text x="1531.25" y="1612.03125" font-size="0.625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (DesolationPoint)</text>
 </g>
 </g>
 <path d="M1521.25,1621.25 L1521.25,1641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -870,7 +870,7 @@
 <rect x="1521.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (DesolationPoint):features"></g>
 <g id="to bring to (DesolationPoint):header">
-<text x="1531.25" y="1652.0366379310344" font-size="0.646551724137931" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (DesolationPoint)</text>
+<text x="1531.25" y="1652.0366379310344" font-size="0.646551724137931" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (DesolationPoint)</text>
 </g>
 </g>
 <path d="M1521.25,1661.25 L1521.25,1681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -878,7 +878,7 @@
 <rect x="1521.25" y="1681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within DesolationPoint:features"></g>
 <g id="move within DesolationPoint:header">
-<text x="1531.25" y="1692.048611111111" font-size="0.6944444444444444" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within DesolationPoint</text>
+<text x="1531.25" y="1692.048611111111" font-size="0.6944444444444444" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within DesolationPoint</text>
 </g>
 </g>
 <path d="M1521.25,1701.25 L1521.25,1721.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -886,7 +886,7 @@
 <rect x="1521.25" y="1721.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for DesolationPoint:features"></g>
 <g id="no source for DesolationPoint:header">
-<text x="1531.25" y="1732.0366379310344" font-size="0.646551724137931" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for DesolationPoint</text>
+<text x="1531.25" y="1732.0366379310344" font-size="0.646551724137931" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for DesolationPoint</text>
 </g>
 </g>
 <g id="legend">

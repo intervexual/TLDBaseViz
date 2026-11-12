@@ -488,7 +488,7 @@
 </g>
 </g>
 <g id="Quonset:header">
-<text x="81.25" y="28.75" font-size="32.5" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Quonset</text>
+<text x="81.25" y="28.75" font-size="32.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Quonset</text>
 </g>
 </g>
 </svg>

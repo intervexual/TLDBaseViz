@@ -16,7 +16,7 @@
 </g>
 </g>
 <g id="UpperMine:header">
-<text x="221.25" y="161.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">UpperMine</text>
+<text x="221.25" y="161.97916666666666" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">UpperMine</text>
 </g>
 </g>
 </g>
@@ -31,7 +31,7 @@
 </g>
 </g>
 <g id="LowerMine:header">
-<text x="221.25" y="221.97916666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">LowerMine</text>
+<text x="221.25" y="221.97916666666666" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">LowerMine</text>
 </g>
 </g>
 <path d="M201.25,151.25 L181.25,151.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -147,7 +147,7 @@
 </g>
 </g>
 <g id="MTFarm:header">
-<text x="141.25" y="30.15625" font-size="18.125" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">MTFarm</text>
+<text x="141.25" y="30.15625" font-size="18.125" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">MTFarm</text>
 </g>
 </g>
 <path d="M241.25,251.25 L261.25,251.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -636,7 +636,7 @@
 </g>
 </g>
 <g id="Quonset:header">
-<text x="341.25" y="278.75" font-size="32.5" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Quonset</text>
+<text x="341.25" y="278.75" font-size="32.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Quonset</text>
 </g>
 </g>
 <path d="M261.25,513.75 L261.25,533.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -663,7 +663,7 @@
 </g>
 </g>
 <g id="QMFishHut:header">
-<text x="301.25" y="546.1458333333334" font-size="12.083333333333332" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">QMFishHut</text>
+<text x="301.25" y="546.1458333333334" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">QMFishHut</text>
 </g>
 </g>
 <path d="M261.25,573.75 L261.25,593.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -752,7 +752,7 @@
 </g>
 </g>
 <g id="Misanthrope:header">
-<text x="301.25" y="611.8465909090909" font-size="9.886363636363637" font-family="Arial" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Misanthrope</text>
+<text x="301.25" y="611.8465909090909" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Misanthrope</text>
 </g>
 </g>
 <path d="M261.25,533.75 L241.25,533.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -774,7 +774,7 @@
 </g>
 </g>
 <g id="MidFishHuts:header">
-<text x="211.25" y="544.9147727272727" font-size="7.159090909090908" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">MidFishHuts</text>
+<text x="211.25" y="544.9147727272727" font-size="7.159090909090908" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">MidFishHuts</text>
 </g>
 </g>
 <path d="M341.25,593.75 L361.25,593.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -782,7 +782,7 @@
 <rect x="361.25" y="593.75" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="CommuterCar:features"></g>
 <g id="CommuterCar:header">
-<text x="371.25" y="604.8011363636364" font-size="1.7045454545454546" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">CommuterCar</text>
+<text x="371.25" y="604.8011363636364" font-size="1.7045454545454546" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">CommuterCar</text>
 </g>
 </g>
 <path d="M261.25,593.75 L241.25,593.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -811,7 +811,7 @@
 </g>
 </g>
 <g id="JMFishHut:header">
-<text x="221.25" y="611.9791666666666" font-size="5.416666666666667" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">JMFishHut</text>
+<text x="221.25" y="611.9791666666666" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">JMFishHut</text>
 </g>
 </g>
 <path d="M201.25,593.75 L181.25,593.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -885,7 +885,7 @@
 </g>
 </g>
 <g id="Jackrabbit:header">
-<text x="141.25" y="612.09375" font-size="10.875" font-family="Arial" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Jackrabbit</text>
+<text x="141.25" y="612.09375" font-size="10.875" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" fill="#6741ca" text-anchor="middle">Jackrabbit</text>
 </g>
 </g>
 <path d="M101.25,593.75 L101.25,573.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -907,7 +907,7 @@
 </g>
 </g>
 <g id="JFFishHut:header">
-<text x="131.25" y="545.3125" font-size="8.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">JFFishHut</text>
+<text x="131.25" y="545.3125" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">JFFishHut</text>
 </g>
 </g>
 <path d="M181.25,593.75 L181.25,573.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -923,7 +923,7 @@
 </g>
 </g>
 <g id="Harris:header">
-<text x="421.25" y="605.15625" font-size="8.125" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Harris</text>
+<text x="421.25" y="605.15625" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Harris</text>
 </g>
 </g>
 <path d="M441.25,593.75 L461.25,593.75" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -950,7 +950,7 @@
 </g>
 </g>
 <g id="No3Mine:header">
-<text x="491.25" y="605.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No3Mine</text>
+<text x="491.25" y="605.9375" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">No3Mine</text>
 </g>
 </g>
 <path d="M521.25,593.75 L541.25,593.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -977,7 +977,7 @@
 </g>
 </g>
 <g id="No5Mine:header">
-<text x="571.25" y="565.9375" font-size="11.25" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">No5Mine</text>
+<text x="571.25" y="565.9375" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">No5Mine</text>
 </g>
 </g>
 <path d="M601.25,593.75 L621.25,593.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -1076,7 +1076,7 @@
 </g>
 </g>
 <g id="Hibernia:header">
-<text x="671.25" y="613.7109375" font-size="17.34375" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Hibernia</text>
+<text x="671.25" y="613.7109375" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">Hibernia</text>
 </g>
 </g>
 <path d="M621.25,593.75 L621.25,573.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -1103,7 +1103,7 @@
 </g>
 </g>
 <g id="BrokenBridge:header">
-<text x="651.25" y="544.765625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">BrokenBridge</text>
+<text x="651.25" y="544.765625" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">BrokenBridge</text>
 </g>
 </g>
 <path d="M621.25,713.75 L621.25,733.75" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
@@ -1152,7 +1152,7 @@
 </g>
 </g>
 <g id="Riken:header">
-<text x="651.25" y="754.5625" font-size="15.75" font-family="Arial" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Riken</text>
+<text x="651.25" y="754.5625" font-size="15.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#6741ca" text-anchor="middle">Riken</text>
 </g>
 </g>
 <g id="LonelyLighthouse">
@@ -1190,7 +1190,7 @@
 </g>
 </g>
 <g id="LonelyLighthouse:header">
-<text x="231.25" y="160.60546875" font-size="4.921875" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">LonelyLighthouse</text>
+<text x="231.25" y="160.60546875" font-size="4.921875" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">LonelyLighthouse</text>
 </g>
 </g>
 </g>
@@ -1230,7 +1230,7 @@
 </g>
 </g>
 <g id="LittleIsland:header">
-<text x="731.25" y="743.515625" font-size="6.5625" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">LittleIsland</text>
+<text x="731.25" y="743.515625" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">LittleIsland</text>
 </g>
 </g>
 </g>
@@ -1261,7 +1261,7 @@
 </g>
 </g>
 <g id="outstanding bring (missing source):header">
-<text x="151.25" y="181.6452205882353" font-size="4.080882352941177" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding bring (missing source)</text>
+<text x="151.25" y="181.6452205882353" font-size="4.080882352941177" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">outstanding bring (missing source)</text>
 </g>
 </g>
 <path d="M101.25,211.25 L101.25,231.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -1308,7 +1308,7 @@
 </g>
 </g>
 <g id="outstanding take (missing destination):header">
-<text x="171.25" y="241.9325657894737" font-size="5.230263157894737" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding take (missing destination)</text>
+<text x="171.25" y="241.9325657894737" font-size="5.230263157894737" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">outstanding take (missing destination)</text>
 </g>
 </g>
 </svg>

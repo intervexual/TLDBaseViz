@@ -761,7 +761,7 @@
 </g>
 </g>
 <g id="CurrentInventory:header">
-<text x="1881.25" y="1513.75" font-size="12.5" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">CurrentInventory</text>
+<text x="1881.25" y="1513.75" font-size="12.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">CurrentInventory</text>
 </g>
 </g>
 </g>
@@ -859,7 +859,7 @@
 </g>
 </g>
 <g id="UsedUp:header">
-<text x="1581.25" y="1763.125" font-size="25.0" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">UsedUp</text>
+<text x="1581.25" y="1763.125" font-size="25.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">UsedUp</text>
 </g>
 </g>
 <path d="M2261.25,1721.25 L2261.25,1741.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -980,7 +980,7 @@
 </g>
 </g>
 <g id="Uncertainty:header">
-<text x="2301.25" y="1758.096590909091" font-size="9.886363636363637" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Uncertainty</text>
+<text x="2301.25" y="1758.096590909091" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Uncertainty</text>
 </g>
 </g>
 </g>

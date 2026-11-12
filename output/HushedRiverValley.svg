@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(HRV~MT):features"></g>
 <g id="Transition(HRV~MT):header">
-<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(HRV~MT)</text>
+<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(HRV~MT)</text>
 </g>
 </g>
 </g>
@@ -115,7 +115,7 @@
 </g>
 </g>
 <g id="Cave(HRV~MT):header">
-<text x="1621.25" y="1431.875" font-size="10.0" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">Cave(HRV~MT)</text>
+<text x="1621.25" y="1431.875" font-size="10.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">Cave(HRV~MT)</text>
 </g>
 </g>
 <path d="M1501.25,1421.25 L1501.25,1401.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
@@ -138,7 +138,7 @@
 </g>
 </g>
 <g id="PrepperCache(HRV):header">
-<text x="1471.25" y="1371.7830882352941" font-size="4.632352941176471" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">PrepperCache(HRV)</text>
+<text x="1471.25" y="1371.7830882352941" font-size="4.632352941176471" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">PrepperCache(HRV)</text>
 </g>
 </g>
 <path d="M1501.25,1481.25 L1481.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -146,7 +146,7 @@
 <rect x="1461.25" y="1481.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="SnowShelter(CloudtopFalls):features"></g>
 <g id="SnowShelter(CloudtopFalls):header">
-<text x="1471.25" y="1492.0552884615386" font-size="0.7211538461538461" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SnowShelter(CloudtopFalls)</text>
+<text x="1471.25" y="1492.0552884615386" font-size="0.7211538461538461" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SnowShelter(CloudtopFalls)</text>
 </g>
 </g>
 <path d="M1741.25,1421.25 L1741.25,1401.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
@@ -166,7 +166,7 @@
 </g>
 </g>
 <g id="LonelyCave:header">
-<text x="1761.25" y="1371.84375" font-size="4.875" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">LonelyCave</text>
+<text x="1761.25" y="1371.84375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">LonelyCave</text>
 </g>
 </g>
 <path d="M1461.25,1481.25 L1441.25,1481.25" stroke-width="2.5" stroke="#756127" stroke-dasharray="6,2" fill="none" />
@@ -674,7 +674,7 @@
 </g>
 </g>
 <g id="BunkerGamma:header">
-<text x="1341.25" y="1203.125" font-size="25.0" font-family="Arial" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">BunkerGamma</text>
+<text x="1341.25" y="1203.125" font-size="25.0" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" fill="#2f5136" text-anchor="middle">BunkerGamma</text>
 </g>
 </g>
 <path d="M1781.25,1361.25 L1801.25,1361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -696,7 +696,7 @@
 </g>
 </g>
 <g id="IceCave(SketchySouth):header">
-<text x="1831.25" y="1371.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchySouth)</text>
+<text x="1831.25" y="1371.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchySouth)</text>
 </g>
 </g>
 <path d="M1741.25,1361.25 L1501.25,1361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -746,7 +746,7 @@
 </g>
 </g>
 <g id="IceCave(SketchyValleyViewPoint):header">
-<text x="1831.25" y="1290.0100806451612" font-size="2.5403225806451615" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchyValleyViewPoint)</text>
+<text x="1831.25" y="1290.0100806451612" font-size="2.5403225806451615" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchyValleyViewPoint)</text>
 </g>
 </g>
 <path d="M1861.25,1361.25 L1881.25,1361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -754,7 +754,7 @@
 <rect x="1881.25" y="1361.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="SignalFire(South):features"></g>
 <g id="SignalFire(South):header">
-<text x="1891.25" y="1372.1507352941176" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">SignalFire(South)</text>
+<text x="1891.25" y="1372.1507352941176" font-size="1.1029411764705883" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">SignalFire(South)</text>
 </g>
 </g>
 <path d="M1801.25,1281.25 L1781.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -807,7 +807,7 @@
 </g>
 </g>
 <g id="Cave(EastOfStairsteps):header">
-<text x="1741.25" y="1290.6107954545455" font-size="4.943181818181818" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(EastOfStairsteps)</text>
+<text x="1741.25" y="1290.6107954545455" font-size="4.943181818181818" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(EastOfStairsteps)</text>
 </g>
 </g>
 <path d="M1801.25,1281.25 L1781.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -825,7 +825,7 @@
 </g>
 </g>
 <g id="POI(CampAboveValleyViewPoint):header">
-<text x="1761.25" y="1291.0452586206898" font-size="1.6810344827586206" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(CampAboveValleyViewPoint)</text>
+<text x="1761.25" y="1291.0452586206898" font-size="1.6810344827586206" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(CampAboveValleyViewPoint)</text>
 </g>
 </g>
 <path d="M1861.25,1281.25 L1861.25,1261.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
@@ -850,7 +850,7 @@
 </g>
 </g>
 <g id="IceCave(SketchyLongShot):header">
-<text x="1831.25" y="1231.4453125" font-size="3.28125" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchyLongShot)</text>
+<text x="1831.25" y="1231.4453125" font-size="3.28125" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(SketchyLongShot)</text>
 </g>
 </g>
 <path d="M1701.25,1281.25 L1441.25,1181.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -859,7 +859,7 @@
 <rect x="1781.25" y="1241.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="SnowShelter(ValleyViewPoint):features"></g>
 <g id="SnowShelter(ValleyViewPoint):header">
-<text x="1791.25" y="1252.0424107142858" font-size="0.6696428571428572" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">SnowShelter(ValleyViewPoint)</text>
+<text x="1791.25" y="1252.0424107142858" font-size="0.6696428571428572" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">SnowShelter(ValleyViewPoint)</text>
 </g>
 </g>
 <path d="M1441.25,1181.25 L1441.25,1161.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -884,7 +884,7 @@
 </g>
 </g>
 <g id="IceCave(ReclusiveFalls):header">
-<text x="1471.25" y="1131.4809782608695" font-size="3.4239130434782608" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(ReclusiveFalls)</text>
+<text x="1471.25" y="1131.4809782608695" font-size="3.4239130434782608" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(ReclusiveFalls)</text>
 </g>
 </g>
 <path d="M1441.25,1181.25 L1461.25,1181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -892,7 +892,7 @@
 <rect x="1461.25" y="1161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="SnowShelter(ReclusiveFalls):features"></g>
 <g id="SnowShelter(ReclusiveFalls):header">
-<text x="1471.25" y="1172.048611111111" font-size="0.6944444444444444" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SnowShelter(ReclusiveFalls)</text>
+<text x="1471.25" y="1172.048611111111" font-size="0.6944444444444444" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SnowShelter(ReclusiveFalls)</text>
 </g>
 </g>
 <path d="M1441.25,1121.25 L1441.25,1101.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
@@ -920,7 +920,7 @@
 </g>
 </g>
 <g id="IceCave(West):header">
-<text x="1481.25" y="1051.4663461538462" font-size="8.365384615384615" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(West)</text>
+<text x="1481.25" y="1051.4663461538462" font-size="8.365384615384615" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(West)</text>
 </g>
 </g>
 <path d="M1501.25,1161.25 L1521.25,1161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -940,7 +940,7 @@
 </g>
 </g>
 <g id="Cave(HushedRiver):header">
-<text x="1541.25" y="1131.3419117647059" font-size="2.8676470588235294" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(HushedRiver)</text>
+<text x="1541.25" y="1131.3419117647059" font-size="2.8676470588235294" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(HushedRiver)</text>
 </g>
 </g>
 <path d="M1521.25,1041.25 L1521.25,1021.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
@@ -970,7 +970,7 @@
 </g>
 </g>
 <g id="IceCave(MammothFalls):header">
-<text x="1481.25" y="991.9196428571429" font-size="5.178571428571429" font-family="Arial" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(MammothFalls)</text>
+<text x="1481.25" y="991.9196428571429" font-size="5.178571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">IceCave(MammothFalls)</text>
 </g>
 </g>
 <path d="M1441.25,1041.25 L1421.25,1041.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -978,7 +978,7 @@
 <rect x="1401.25" y="1021.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Cave(WestOfMammothFalls):features"></g>
 <g id="Cave(WestOfMammothFalls):header">
-<text x="1411.25" y="1032.0703125" font-size="0.78125" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(WestOfMammothFalls)</text>
+<text x="1411.25" y="1032.0703125" font-size="0.78125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Cave(WestOfMammothFalls)</text>
 </g>
 </g>
 <path d="M1521.25,1101.25 L1801.25,1261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -987,7 +987,7 @@
 <rect x="1541.25" y="981.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="SignalFire(North):features"></g>
 <g id="SignalFire(North):header">
-<text x="1551.25" y="992.1507352941177" font-size="1.1029411764705883" font-family="Arial" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SignalFire(North)</text>
+<text x="1551.25" y="992.1507352941177" font-size="1.1029411764705883" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">SignalFire(North)</text>
 </g>
 </g>
 <path d="M1441.25,981.25 L1421.25,1021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1008,7 +1008,7 @@
 </g>
 </g>
 <g id="LakeCave:header">
-<text x="1541.25" y="932.1484375" font-size="6.09375" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">LakeCave</text>
+<text x="1541.25" y="932.1484375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">LakeCave</text>
 </g>
 </g>
 <path d="M1521.25,1121.25 L1521.25,1101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1022,7 +1022,7 @@
 </g>
 </g>
 <g id="Climb(HR-NWA):header">
-<text x="1501.25" y="1071.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(HR-NWA)</text>
+<text x="1501.25" y="1071.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(HR-NWA)</text>
 </g>
 </g>
 <path d="M1561.25,981.25 L1581.25,981.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1050,7 +1050,7 @@
 </g>
 </g>
 <g id="Cave(PensiveVista):header">
-<text x="1621.25" y="990.8854166666666" font-size="6.041666666666666" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(PensiveVista)</text>
+<text x="1621.25" y="990.8854166666666" font-size="6.041666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Cave(PensiveVista)</text>
 </g>
 </g>
 <path d="M1881.25,1361.25 L1881.25,1341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1064,7 +1064,7 @@
 </g>
 </g>
 <g id="Climb(MFV-SMSF):header">
-<text x="1861.25" y="1311.4375" font-size="3.25" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(MFV-SMSF)</text>
+<text x="1861.25" y="1311.4375" font-size="3.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(MFV-SMSF)</text>
 </g>
 </g>
 <g id="POI(MooseOverlook)">
@@ -1072,7 +1072,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="POI(MooseOverlook):features"></g>
 <g id="POI(MooseOverlook):header">
-<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(MooseOverlook)</text>
+<text x="1511.25" y="1512.1354166666667" font-size="1.0416666666666665" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(MooseOverlook)</text>
 </g>
 </g>
 </g>
@@ -1093,7 +1093,7 @@
 </g>
 </g>
 <g id="ValleyCave:header">
-<text x="1481.25" y="1451.84375" font-size="4.875" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">ValleyCave</text>
+<text x="1481.25" y="1451.84375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">ValleyCave</text>
 </g>
 </g>
 <path d="M1521.25,1521.25 L1521.25,1541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1107,7 +1107,7 @@
 </g>
 </g>
 <g id="Climb(VC-MFV):header">
-<text x="1541.25" y="1551.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-MFV)</text>
+<text x="1541.25" y="1551.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-MFV)</text>
 </g>
 </g>
 <path d="M1501.25,1441.25 L1501.25,1421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1121,7 +1121,7 @@
 </g>
 </g>
 <g id="Climb(VC-PV1):header">
-<text x="1481.25" y="1391.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-PV1)</text>
+<text x="1481.25" y="1391.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-PV1)</text>
 </g>
 </g>
 <path d="M1501.25,1441.25 L1521.25,1441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1129,7 +1129,7 @@
 <rect x="1521.25" y="1441.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="POI(Landslide):features"></g>
 <g id="POI(Landslide):header">
-<text x="1531.25" y="1452.2098214285716" font-size="1.3392857142857144" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(Landslide)</text>
+<text x="1531.25" y="1452.2098214285716" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">POI(Landslide)</text>
 </g>
 </g>
 <path d="M1661.25,1041.25 L1661.25,1061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1143,7 +1143,7 @@
 </g>
 </g>
 <g id="Climb(VC-PV2):header">
-<text x="1641.25" y="1071.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-PV2)</text>
+<text x="1641.25" y="1071.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(VC-PV2)</text>
 </g>
 </g>
 <path d="M1661.25,981.25 L1661.25,961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1162,7 +1162,7 @@
 </g>
 </g>
 <g id="PeakCave:header">
-<text x="1631.25" y="933.0859375" font-size="9.84375" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">PeakCave</text>
+<text x="1631.25" y="933.0859375" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">PeakCave</text>
 </g>
 </g>
 <path d="M1601.25,961.25 L1561.25,961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -1177,7 +1177,7 @@
 </g>
 </g>
 <g id="Climb(SL-SMSF):header">
-<text x="1521.25" y="1511.4955357142858" font-size="3.4821428571428577" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(SL-SMSF)</text>
+<text x="1521.25" y="1511.4955357142858" font-size="3.4821428571428577" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(SL-SMSF)</text>
 </g>
 </g>
 </g>
@@ -1194,7 +1194,7 @@
 </g>
 </g>
 <g id="Climb(NWA-MF):header">
-<text x="1521.25" y="1511.5625" font-size="3.75" font-family="Arial" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(NWA-MF)</text>
+<text x="1521.25" y="1511.5625" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#6741ca" text-anchor="middle">Climb(NWA-MF)</text>
 </g>
 </g>
 </g>
@@ -1218,7 +1218,7 @@
 </g>
 </g>
 <g id="to move from (HushedRiverValley):header">
-<text x="1771.25" y="1351.240234375" font-size="2.4609375" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (HushedRiverValley)</text>
+<text x="1771.25" y="1351.240234375" font-size="2.4609375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (HushedRiverValley)</text>
 </g>
 </g>
 <path d="M1741.25,1381.25 L1741.25,1401.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -1395,7 +1395,7 @@
 </g>
 </g>
 <g id="to bring to (HushedRiverValley):header">
-<text x="1831.25" y="1418.961693548387" font-size="8.346774193548388" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (HushedRiverValley)</text>
+<text x="1831.25" y="1418.961693548387" font-size="8.346774193548388" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (HushedRiverValley)</text>
 </g>
 </g>
 <path d="M1741.25,1521.25 L1741.25,1541.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -1484,7 +1484,7 @@
 </g>
 </g>
 <g id="move within HushedRiverValley:header">
-<text x="1831.25" y="1552.8556034482758" font-size="8.922413793103448" font-family="Arial" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within HushedRiverValley</text>
+<text x="1831.25" y="1552.8556034482758" font-size="8.922413793103448" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within HushedRiverValley</text>
 </g>
 </g>
 <path d="M1741.25,1581.25 L1741.25,1601.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -1509,7 +1509,7 @@
 </g>
 </g>
 <g id="no source for HushedRiverValley:header">
-<text x="1781.25" y="1611.5020161290322" font-size="3.5080645161290325" font-family="Arial" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for HushedRiverValley</text>
+<text x="1781.25" y="1611.5020161290322" font-size="3.5080645161290325" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for HushedRiverValley</text>
 </g>
 </g>
 <g id="legend">

@@ -740,6 +740,7 @@ class BaseLocation:
         # dominant_baseline does not appear supported for SVG???????
         g.append( draw.Text(self.name,
                             font_size, font_family=FONTFAM,
+                            font_weight='bold',
                             stroke=text_stroke, font_style=font_style,
                             x=text_x, y=text_y, fill=text_colour,
                             text_anchor='middle' ) )
@@ -776,7 +777,6 @@ class BaseLocation:
             self.box_y = self.cell_size + 2050
             x = self.box_x
             y = self.box_y
-
 
         self.draw_base_box(g, x=x, y=y, fill=fill, border=border, unexplored=unexplored)
         self.draw_feature_grid(g, x=x, y=y)
@@ -1446,7 +1446,7 @@ def draw_bases(bases, colours,
         out_bring = 'outstanding bring (missing source)'
 
         to_bring = condense_multiples_in_list(to_bring)
-        bob = special_base(bases, out_bring, to_bring, last_base_name, SOUTH, colours=colours)
+        bob = special_base(bases, out_bring, to_bring, last_base_name, EAST, colours=colours)
         bases[last_base_name].draw_connection(d, bob,
                                               unexplored=colours[BRING],
                                               border=colours[BRING],
@@ -2000,9 +2000,14 @@ def special_base(bases, name, features, connec_name, connec_dir, colours=HEXES):
                         CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
                         FEATURES: features,
                         EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
+    source_corner = 'bottom,left'
+    sink_corner = 'top,left'
+    if connec_dir ==EAST:
+        source_corner = 'top,right'
+        sink_corner = 'top,left'
     conn = BaseConnection(connec_name, connec_dir,
-                          'bottom,left', name,
-                          'top,left', 'fake', colours=colours)
+                          source_corner, name,
+                          sink_corner, 'fake', colours=colours)
     bases[connec_name].add_connection(conn)
     tob.add_connection(conn)
     bases[name] = tob

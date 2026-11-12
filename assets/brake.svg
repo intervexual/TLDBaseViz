@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81.431999"
+   height="81.431999"
+   viewBox="0 0 81.431999 81.431999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="brake.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="6.7941176"
+     inkscape:cx="54.82684"
+     inkscape:cy="63.290043"
+     inkscape:window-width="1920"
+     inkscape:window-height="1211"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     d="M 10.110714,51.763045 C 13.079149,50.606219 18.603774,47.907192 24.955007,43.305341 L 42.916226,68.097213 C 31.573525,76.308843 23.72959,79.378395 20.712368,80.544413 17.20229,81.900643 16.244869,78.949177 16.244869,78.949177 L 8.5876057,54.830476 C 8.5876057,54.830476 7.9250467,52.616523 10.110714,51.763045 Z"
+     id="path1"
+     style="fill:#000000" />
+  <path
+     d="M 52.295291,9.5798826 C 51.138464,12.546904 49.51636,16.788131 44.912388,23.137243 L 68.853609,42.335192 C 77.065241,30.992492 79.90993,23.199468 81.07595,20.182244 82.431474,16.672873 79.48001,15.71545 79.48001,15.71545 L 55.362013,8.0560676 C 55.362013,8.0560676 53.148767,7.3942156 52.295291,9.5798826 Z"
+     id="path2"
+     style="fill:#000000" />
+  <path
+     d="M 43.616968,67.632645 25.653628,42.840066 C 31.73404,38.432669 38.615603,32.364277 44.565905,23.837278 L 68.341665,43.086138 C 60.507628,53.7981 51.679401,61.796184 43.616968,67.632645 Z"
+     id="path3"
+     style="fill:#000000" />
+  <path
+     id="rect3"
+     style="stroke-width:1.5082;fill:#000000"
+     d="M 10.20192,69.41885 3.3960177,71.636846 -3.13034e-5,61.219453 6.8072547,59.000074 Z M 69.695563,9.9252086 60.105429,6.7984676 62.146644,0.53117963 71.73816,3.6565426 Z" />
+</svg>
