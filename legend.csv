@@ -21,6 +21,7 @@ goating	goating route	natural	structures	natural			FALSE	TRUE
 snowshelter	snow shelter	natural	structures	natural			FALSE	TRUE		
 tunnel	tunnel	natural	structures	natural			FALSE	TRUE		
 bridge	bridge	natural	structures	natural			FALSE	TRUE		
+shrine	whale bone shrine	natural	structures	natural			FALSE	TRUE		
 oiltank	whale oil refuelling	natural	train	natural			FALSE	TRUE		
 watertank	train water refuelling	natural	train	natural			FALSE	TRUE		
 switch	railway switch	natural	train	natural			FALSE	TRUE		

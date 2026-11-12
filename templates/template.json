@@ -5834,92 +5834,7 @@
                 ]
             }
         },
-        "% OIC": {
-            "Transition(OIC~CH)": {
-                "region": "OIC",
-                "coords": [
-                    50,
-                    400
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "Transition(OIC~CH)",
-                "explored": false,
-                "features": []
-            },
-            "HarrisBasement": {
-                "region": "OIC",
-                "coords": [
-                    400,
-                    500
-                ],
-                "customizable": true,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "HarrisBasement",
-                "explored": false,
-                "features": [
-                    "wolf",
-                    "?box,?washer:2",
-                    "?research/0.4545"
-                ]
-            },
-            "Cave(RoadCollapse)": {
-                "region": "OIC",
-                "coords": [
-                    500,
-                    500
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": true,
-                "cabinfeverrisk": false,
-                "shortform": "Cave(RoadCollapse)",
-                "explored": false,
-                "features": [
-                    "wolf",
-                    "?research/0.4545"
-                ]
-            },
-            "Cave(TheArch)": {
-                "region": "OIC",
-                "coords": [
-                    450,
-                    250
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": true,
-                "cabinfeverrisk": false,
-                "shortform": "Cave(TheArch)",
-                "explored": false,
-                "features": [
-                    "wolf,beachcombing",
-                    "?matches/0.5"
-                ]
-            },
-            "Transition(OIC~DP)": {
-                "region": "OIC",
-                "coords": [
-                    650,
-                    500
-                ],
-                "customizable": false,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "Transition(OIC~DP)",
-                "explored": false,
-                "features": [
-                    "mine,saltdeposit",
-                    "?box,?locker:2",
-                    "?prybar/0.4324,?research/0.4545"
-                ]
-            }
-        },
+        "% OLDISLANDCONNECTOR": {},
         "% DESOLATIONPOINT": {
             "Transition(DP~OIC)": {
                 "region": "DesolationPoint",
@@ -9749,7 +9664,7 @@
                     "*climb"
                 ]
             },
-            "POI(WhaleBoneShrine)": {
+            "WhaleBoneShrine(NearChurch)": {
                 "region": "PortRemnant",
                 "coords": [
                     1695,
@@ -9759,9 +9674,10 @@
                 "loading": false,
                 "indoors": false,
                 "cabinfeverrisk": false,
-                "shortform": "POI(WhaleBoneShrine)",
+                "shortform": "WhaleBoneShrine(NearChurch)",
                 "explored": false,
                 "features": [
+                    "shrine",
                     "?wax"
                 ]
             },
@@ -9830,36 +9746,20 @@
                     "wolf,mine"
                 ]
             },
-            "POI(WaterfallCave)": {
+            "Cabin(LootedGrotto)": {
                 "region": "PortRemnant",
                 "coords": [
-                    1050,
+                    1300,
                     300
                 ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "POI(WaterfallCave)",
+                "customizable": true,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "Cabin(LootedGrotto)",
                 "explored": false,
                 "features": [
-                    "?cedar"
-                ]
-            },
-            "Transition(PR~A5)": {
-                "region": "PortRemnant",
-                "coords": [
-                    760,
-                    375
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "Transition(PR~A5)",
-                "explored": false,
-                "features": [
-                    "deer"
+                    "bed"
                 ]
             },
             "POI(ForgottenTrestle)": {
@@ -9895,20 +9795,84 @@
                     "?matches"
                 ]
             },
-            "Cabin(LootedGrotto)": {
+            "WhaleBoneShrine(Central)": {
                 "region": "PortRemnant",
                 "coords": [
-                    1300,
-                    300
+                    1695,
+                    570
                 ],
-                "customizable": true,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "Cabin(LootedGrotto)",
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "WhaleBoneShrine(Central)",
                 "explored": false,
                 "features": [
-                    "bed"
+                    "shrine"
+                ]
+            },
+            "WhaleBoneShrine(NearA5)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1695,
+                    570
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "WhaleBoneShrine(NearA5)",
+                "explored": false,
+                "features": [
+                    "shrine"
+                ]
+            },
+            "POI(LastQuarrel)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1050,
+                    300
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "POI(LastQuarrel)",
+                "explored": false,
+                "features": [
+                    "?bag"
+                ]
+            },
+            "POI(RockyArea)": {
+                "region": "PortRemnant",
+                "coords": [
+                    760,
+                    375
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "POI(RockyArea)",
+                "explored": false,
+                "features": [
+                    "wolf"
+                ]
+            },
+            "Transition(PR~A5)": {
+                "region": "PortRemnant",
+                "coords": [
+                    760,
+                    375
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Transition(PR~A5)",
+                "explored": false,
+                "features": [
+                    "deer"
                 ]
             },
             "Climb(ShelteredAccess)": {
@@ -10934,7 +10898,7 @@
                     "?cedar"
                 ]
             },
-            "POI(WhaleShrineA2)": {
+            "WhaleBoneShrine(A2)": {
                 "region": "AnnaIsland2",
                 "coords": [
                     1100,
@@ -10944,10 +10908,10 @@
                 "loading": false,
                 "indoors": false,
                 "cabinfeverrisk": false,
-                "shortform": "POI(WhaleShrineA2)",
+                "shortform": "WhaleBoneShrine(A2)",
                 "explored": false,
                 "features": [
-                    "?cedar"
+                    "shrine"
                 ]
             },
             "Switch(A2:DeadEnd)": {
@@ -17358,7 +17322,7 @@
             "Climb(DesecratedChurch)",
             "west ",
             "top,left",
-            "POI(WhaleBoneShrine)",
+            "WhaleBoneShrine(NearChurch)",
             "top,right",
             "default"
         ],
@@ -17398,9 +17362,17 @@
             "POI(ForgottenTrestle)",
             "west ",
             "top,left",
-            "Transition(PR~A5)",
+            "POI(RockyArea)",
             "top,right",
             "rail"
+        ],
+        [
+            "Cabin(Empty)",
+            "west ",
+            "top,left",
+            "WhaleBoneShrine(Central)",
+            "top,right",
+            "default"
         ],
         [
             "Cabin(LootedGrotto)",
@@ -17427,14 +17399,6 @@
             "default"
         ],
         [
-            "Cave(ToChurch)",
-            "west wide",
-            "bottom,left",
-            "POI(WaterfallCave)",
-            "bottom,right",
-            "default"
-        ],
-        [
             "Cave(FromChurch)",
             "east wide",
             "top,right",
@@ -17446,7 +17410,7 @@
             "DesecratedChurch",
             "east ",
             "top,right",
-            "POI(WhaleBoneShrine)",
+            "WhaleBoneShrine(NearChurch)",
             "top,left",
             "default"
         ],
@@ -17460,10 +17424,18 @@
         ],
         [
             "Transition(PR~A5)",
-            "northeast ",
+            "east ",
+            "top,right",
+            "POI(RockyArea)",
             "top,left",
-            "POI(WaterfallCave)",
-            "bottom,left",
+            "rail"
+        ],
+        [
+            "Transition(PR~A5)",
+            "south ",
+            "bottom,right",
+            "WhaleBoneShrine(NearA5)",
+            "top,left",
             "default"
         ],
         [
@@ -17481,6 +17453,22 @@
             "Transition(A1~PR)",
             "top,left",
             "rail"
+        ],
+        [
+            "WhaleBoneShrine(NearA5)",
+            "west ",
+            "top,left",
+            "POI(LastQuarrel)",
+            "top,right",
+            "default"
+        ],
+        [
+            "WhaleBoneShrine(NearA5)",
+            "east ",
+            "top,right",
+            "WhaleBoneShrine(Central)",
+            "top,left",
+            "default"
         ],
         [
             "Transition(A5~PR)",
@@ -17836,7 +17824,7 @@
         ],
         [
             "Switch(A4:RS:E)",
-            "east ",
+            "northeast ",
             "top,right",
             "Transition(A4~A3)",
             "bottom,left",
@@ -17845,7 +17833,7 @@
         [
             "Transition(A4~A3)",
             "northeast ",
-            "bottom,right",
+            "top,right",
             "Transition(A3~A4)",
             "bottom,left",
             "rail"
@@ -18302,7 +18290,7 @@
             "POI(CanyonToWhaleShrine)",
             "north ",
             "top,right",
-            "POI(WhaleShrineA2)",
+            "WhaleBoneShrine(A2)",
             "bottom,right",
             "default"
         ],

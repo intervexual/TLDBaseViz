@@ -372,6 +372,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Water Bottle by Hilmy Abiyyu Asad](https://thenounproject.com/icon/water-bottle-8270656/)
 * [Water Refuelling Station by MihiMihi](https://thenounproject.com/icon/water-tank-6777521/)
 * [Wax Cylinder by M. Oki Orlando](https://thenounproject.com/icon/voice-recording-4866839/)
+* [Whale Bone Shrine based on art by Ary Prasetyo](https://thenounproject.com/icon/tusk-monument-4663978/)
 * [Whale Oil Refuelling Station by Komkrit Noenpoempisut](https://thenounproject.com/icon/oil-tank-3476879/)
 * Whetstone is original art for this project
 * [Windbreaker by Lars Meiertoberens](https://thenounproject.com/icon/windbreaker-6792064/)

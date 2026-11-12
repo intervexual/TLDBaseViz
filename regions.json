@@ -131,7 +131,7 @@
         "rotation": 0,
         "north":"up"
     },
-    "OIC":
+    "OldIslandConnector":
     {"y-flip": false, "x-flip":false,
         "short": "OIC",
         "bottom": "bottom~CoastalHighway",
