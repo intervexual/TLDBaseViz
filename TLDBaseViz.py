@@ -158,6 +158,7 @@ class BaseFeature:
         for pref in PREFIXES:
             self.name = self.name.replace(pref, '')
 
+
         if PROBABILITY_DELIM in self.name:
             info = self.name.split(PROBABILITY_DELIM)
             self.name = info[0]
@@ -252,7 +253,8 @@ class BaseFeature:
 class BaseConnection:
     def __init__(self,
                  source, direction, source_corner,
-                 sink, sink_corner, kind, colours=False):
+                 sink, sink_corner, kind, colours=False,
+                 height_factor = 1, width_factor = 1):
         """
         Create BaseConnection object, saving its destinations, corners, and kind of connection (road, rail, etc).
         :param source: name of source base
@@ -272,8 +274,20 @@ class BaseConnection:
         self.corners[self.source] = source_corner.replace(' ','').split(',')
         self.corners[self.sink] = sink_corner.replace(' ','').split(',')
 
-        self.direction = direction
-        self.reverse = REVERSE[direction]
+        self.add_height = height_factor
+        self.add_width = width_factor
+        self.length_modifiers = ''
+
+        self.direction = direction.replace(' ','')
+        if TALL in self.direction:
+            self.direction = self.direction.replace(TALL,'')
+            self.add_height = 2
+            self.length_modifiers += TALL
+        if WIDE in self.direction:
+            self.direction = self.direction.replace(WIDE,'')
+            self.add_width = 2
+            self.length_modifiers += WIDE
+        self.reverse = REVERSE[self.direction]
 
         self.kind = kind
         self.colour = 'green'
@@ -284,7 +298,9 @@ class BaseConnection:
     def invert(self, colours):
         return BaseConnection(self.sink, self.reverse,
                               self.sink_corner, self.source,
-                              self.source_corner, self.kind, colours)
+                              self.source_corner, self.kind, colours,
+                              width_factor=self.add_width,
+                              height_factor=self.add_height)
     def __repr__(self):
         """
         Textual representation of the connection
@@ -830,21 +846,15 @@ class BaseLocation:
             if not neighbour.is_drawn:
                 sink_x, sink_y = source_x, source_y
                 if SOUTH in cob.direction:
-                    sink_y += arrow_size
+                    sink_y += arrow_size * cob.add_height
                 if NORTH in cob.direction:
-                    sink_y -= arrow_size
+                    sink_y -= arrow_size * cob.add_height
                 if EAST in cob.direction:
-                    sink_x += arrow_size
+                    sink_x += arrow_size * cob.add_width
                 if WEST in cob.direction:
-                    sink_x -= arrow_size
+                    sink_x -= arrow_size * cob.add_width
 
-                if UP in cob.direction:
-                    p.Q(source_x, sink_y, sink_x, sink_y)
-                elif DOWN in cob.direction:
-                    p.Q(sink_x, source_y, sink_x, sink_y)
-                else:
-                    p.L(sink_x, sink_y)
-                d.append(p)
+                self.draw_connection_path(d, p, cob, source_x, source_y, sink_x, sink_y)
                 self.edges_drawn[neigh_name] = True
                 neighbour.edges_drawn[self.name] = True
 
@@ -874,21 +884,36 @@ class BaseLocation:
                 else:
                     sink_x = neighbour.box_right
 
-                if UP in cob.direction:
-                    p.Q(source_x, sink_y, sink_x, sink_y)
-                elif DOWN in cob.direction:
-                    p.Q(sink_x, source_y, sink_x, sink_y)
-                else:
-                    p.L(sink_x, sink_y)
-                d.append(p)
+                self.draw_connection_path(d, p, cob, source_x, source_y, sink_x, sink_y)
 
                 if print_output:
                     print(' '*TABSIZE*2 + 'Connecting', self.name, "to", neigh_name)
                 self.edges_drawn[neigh_name] = True
                 neighbour.edges_drawn[self.name] = True
+    def draw_connection_path(self,
+                             d, p,
+                             cob,
+                             source_x, source_y,
+                             sink_x, sink_y):
 
+        between_x = (source_x + sink_x) / 2
+        between_y = (source_y + sink_y) / 2
 
-
+        if UP in cob.direction:
+            if SQUIG in cob.direction:
+                diff = abs(source_y - sink_y) / 4
+                p.C(source_x, between_y - diff, sink_x, between_y + diff, sink_x, sink_y)
+            else:
+                p.Q(source_x, sink_y, sink_x, sink_y)
+        elif DOWN in cob.direction:
+            if SQUIG in cob.direction:
+                diff = abs(source_x - sink_x) / 100
+                p.C(between_x - diff, source_y, between_x + diff, sink_y, sink_x, sink_y)
+            else:
+                p.Q(sink_x, source_y, sink_x, sink_y)
+        else:
+            p.L(sink_x, sink_y)
+        d.append(p)
 
 def font_size_for_box(s, max_text_width, max_text_height):
     # mid_text = (min_text_top + max_text_bottom)/2

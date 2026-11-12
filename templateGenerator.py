@@ -146,7 +146,6 @@ def reset_bases(bases):
     for b in bases:
         bob = bases[b]
 
-
         info = {}
         info[REGION] = bob.region
         info[COORDS] = bob.coords
@@ -329,7 +328,7 @@ def reset_edges(edges):
 
             if key not in seen:
                 cob = edges[source][sink]
-                dir = cob.direction
+                dir = cob.direction + ' ' + cob.length_modifiers
                 source_corner = cob.source_corner
                 sink_corner = cob.sink_corner
                 path_type = cob.kind

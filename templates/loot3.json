@@ -9012,7 +9012,7 @@
                 "bed,?grill",
                 "?chest,?box,?drawer",
                 "?festive,?rug:2",
-                "?matches"
+                "?matches,?canopener"
             ]
         },
         "Gate(OT:N)": {
@@ -9042,7 +9042,8 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "?oilcan:6",
+                "?grill",
+                "?oilcan:6,?simple",
                 "?wax"
             ]
         },
@@ -9208,7 +9209,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?cedar"
+            ]
         },
         "Transition(PR~A5)": {
             "region": "PortRemnant",
@@ -9221,7 +9224,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "deer"
+            ]
         },
         "POI(ForgottenTrestle)": {
             "region": "PortRemnant",
@@ -9234,7 +9239,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "bridge"
+            ]
         },
         "Cabin(Empty)": {
             "region": "PortRemnant",
@@ -9293,7 +9300,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "tunnel"
+            ]
         },
         "Transition(A5~PR)": {
             "region": "AnnaIsland5",
@@ -9385,7 +9394,7 @@
                 "switch"
             ]
         },
-        "Bypass(WaterTankA5)": {
+        "Bypass(A5:WT)": {
             "region": "AnnaIsland5",
             "coords": [
                 555,
@@ -9396,9 +9405,11 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "wolf"
+            ]
         },
-        "Bypass(RailyardA5)": {
+        "Bypass(A5:RY)": {
             "region": "AnnaIsland5",
             "coords": [
                 555,
@@ -9440,7 +9451,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?stick"
+            ]
         },
         "Cave(A5)": {
             "region": "AnnaIsland5",
@@ -9502,7 +9515,7 @@
                 "wolf,switch"
             ]
         },
-        "Bypass(OilTankA5)": {
+        "Bypass(A5:OT)": {
             "region": "AnnaIsland5",
             "coords": [
                 -225,
@@ -9513,7 +9526,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "wolf"
+            ]
         },
         "Switch(A5:OT:S)": {
             "region": "AnnaIsland5",
@@ -9571,7 +9586,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?reclaimed"
+            ]
         },
         "Transition(A5~A4)": {
             "region": "AnnaIsland5",
@@ -9599,28 +9616,15 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "tunnel"
+            ]
         },
         "Switch(A1:PR:W)": {
             "region": "AnnaIsland1",
             "coords": [
                 1830,
                 595
-            ],
-            "customizable": false,
-            "loading": false,
-            "indoors": false,
-            "cabinfeverrisk": false,
-            "explored": false,
-            "features": [
-                "switch"
-            ]
-        },
-        "Switch(A1:PR:N)": {
-            "region": "AnnaIsland1",
-            "coords": [
-                1850,
-                540
             ],
             "customizable": false,
             "loading": false,
@@ -9659,6 +9663,36 @@
             "explored": false,
             "features": [
                 "switch"
+            ]
+        },
+        "Switch(A1:PR:N)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1850,
+                540
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "switch"
+            ]
+        },
+        "Bypass(A1:PR)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1830,
+                595
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "wolf,flatbed"
             ]
         },
         "Stop(A1:PR:S)": {
@@ -9706,7 +9740,7 @@
                 "switch"
             ]
         },
-        "POI(HillA1)": {
+        "POI(A1:MT)": {
             "region": "AnnaIsland1",
             "coords": [
                 1895,
@@ -9717,7 +9751,24 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "flatbed"
+            ]
+        },
+        "Bypass(A1:MT)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1895,
+                380
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "?stick"
+            ]
         },
         "Switch(A1:MT:N)": {
             "region": "AnnaIsland1",
@@ -9748,6 +9799,8 @@
             "features": [
                 "rabbit",
                 "bed,?grill",
+                "?box,?freezer",
+                "?crate",
                 "?wax"
             ]
         },
@@ -9763,7 +9816,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bed"
+                "wolf"
             ]
         },
         "Bridge(A1)": {
@@ -9811,7 +9864,22 @@
                 "switch"
             ]
         },
-        "Switch(A1:WT)": {
+        "Bypass(WT:A1)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1660,
+                -675
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "wolf,flatbed:2"
+            ]
+        },
+        "Switch(A1:OT)": {
             "region": "AnnaIsland1",
             "coords": [
                 1715,
@@ -9838,7 +9906,37 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "flatbed"
+                "switch,flatbed"
+            ]
+        },
+        "Switch(OT:BS)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1725,
+                -320
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "switch"
+            ]
+        },
+        "Stop(A1:OT)": {
+            "region": "AnnaIsland1",
+            "coords": [
+                1725,
+                -320
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "bufferstop"
             ]
         },
         "OilTank(A1)": {
@@ -9853,7 +9951,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "oiltank,bufferstop"
+                "deer,oiltank,bufferstop"
             ]
         },
         "Transition(A2~A1)": {
@@ -9867,7 +9965,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "deer"
+            ]
         },
         "Switch(A2:A1:S)": {
             "region": "AnnaIsland2",
@@ -9990,7 +10090,22 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "deer,switch,!gate"
+                "switch"
+            ]
+        },
+        "Switch(A2:RP:W)": {
+            "region": "AnnaIsland2",
+            "coords": [
+                1415,
+                -325
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "deer,switch"
             ]
         },
         "Gate(A2)": {
@@ -10005,7 +10120,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "deer,switch,!gate"
+                "!gate"
             ]
         },
         "POI(Canyon)": {
@@ -10019,7 +10134,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?cedar"
+            ]
         },
         "Tunnel(A2)": {
             "region": "AnnaIsland2",
@@ -10033,7 +10150,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "rabbit"
+                "rabbit,tunnel"
             ]
         },
         "Switch(Crisscross:E)": {
@@ -10107,7 +10224,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?cedar"
+            ]
         },
         "POI(WhaleShrineA2)": {
             "region": "AnnaIsland2",
@@ -10120,9 +10239,11 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?cedar"
+            ]
         },
-        "Switch(A2DeadEnd)": {
+        "Switch(A2:DeadEnd)": {
             "region": "AnnaIsland2",
             "coords": [
                 1000,
@@ -10137,7 +10258,7 @@
                 "switch"
             ]
         },
-        "Stop(A2DeadEnd)": {
+        "Stop(A2:DeadEnd)": {
             "region": "AnnaIsland2",
             "coords": [
                 1000,
@@ -10164,7 +10285,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "rabbit"
+                "rabbit,tunnel"
             ]
         },
         "Campsite(A2:A3)": {
@@ -10259,7 +10380,7 @@
                 "bed"
             ]
         },
-        "Gate(A3Refuelling:E)": {
+        "Gate(A3:Cave)": {
             "region": "AnnaIsland3",
             "coords": [
                 -260,
@@ -10271,10 +10392,25 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "switch,!gate"
+                "!gate"
             ]
         },
-        "Stop(A3Refuelling)": {
+        "Switch(A3:OTWT:E)": {
+            "region": "AnnaIsland3",
+            "coords": [
+                -260,
+                -370
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "switch"
+            ]
+        },
+        "Stop(A3:OTWT)": {
             "region": "AnnaIsland3",
             "coords": [
                 -260,
@@ -10289,7 +10425,7 @@
                 "bufferstop"
             ]
         },
-        "Refuelling(A3)": {
+        "OilWaterTanks(A3)": {
             "region": "AnnaIsland3",
             "coords": [
                 -260,
@@ -10304,7 +10440,7 @@
                 "oiltank,watertank,switch:2"
             ]
         },
-        "Bypass(RefuellingA3)": {
+        "Bypass(A3:OTWT)": {
             "region": "AnnaIsland3",
             "coords": [
                 -260,
@@ -10319,7 +10455,7 @@
                 "switch"
             ]
         },
-        "Gate(A3Refuelling)": {
+        "Gate(A3:OTWT)": {
             "region": "AnnaIsland3",
             "coords": [
                 -275,
@@ -10345,7 +10481,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "bear"
+            ]
         },
         "Cabin(A3)": {
             "region": "AnnaIsland3",
@@ -10359,7 +10497,6 @@
             "cabinfeverrisk": true,
             "explored": false,
             "features": [
-                "bear",
                 "bed,?grill",
                 "?chest,?box,?drawer",
                 "?crate:2,?rug:3,?mat",
@@ -10469,7 +10606,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?scrap"
+            ]
         },
         "Transition(A4~A3)": {
             "region": "AnnaIsland4",
@@ -10498,7 +10637,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "switch"
+                "wolf,switch"
             ]
         },
         "Switch(A4:WT:N)": {
@@ -10544,7 +10683,7 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "wolf,watertank"
+                "watertank"
             ]
         },
         "RepairStation(A4)": {
@@ -10596,6 +10735,36 @@
                 "deer,oiltank"
             ]
         },
+        "Pond(A4)": {
+            "region": "AnnaIsland4",
+            "coords": [
+                -550,
+                -250
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "bridge"
+            ]
+        },
+        "Canyon(A4)": {
+            "region": "AnnaIsland4",
+            "coords": [
+                -500,
+                0
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "?stick"
+            ]
+        },
         "Switch(A4:A6)": {
             "region": "AnnaIsland4",
             "coords": [
@@ -10622,7 +10791,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "tunnel"
+            ]
         },
         "Transition(A4~A5)": {
             "region": "AnnaIsland4",
@@ -10635,7 +10806,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "tunnel"
+            ]
         },
         "POI(CampsiteByRedBridge)": {
             "region": "AnnaIsland4",
@@ -10682,7 +10855,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "tunnel"
+            ]
         },
         "POI(Junction)": {
             "region": "AnnaIsland6",
@@ -10710,7 +10885,9 @@
             "indoors": false,
             "cabinfeverrisk": false,
             "explored": false,
-            "features": []
+            "features": [
+                "?reclaimed"
+            ]
         },
         "TrainShelter": {
             "region": "AnnaIsland6",
@@ -10724,9 +10901,25 @@
             "cabinfeverrisk": false,
             "explored": false,
             "features": [
-                "bed,?grill",
+                "?grill",
                 "?train",
-                "?wax:2"
+                "?wax"
+            ]
+        },
+        "TrainShelterOffice": {
+            "region": "AnnaIsland6",
+            "coords": [
+                -160,
+                285
+            ],
+            "customizable": false,
+            "loading": false,
+            "indoors": false,
+            "cabinfeverrisk": false,
+            "explored": false,
+            "features": [
+                "bed,?potbelly",
+                "?wax"
             ]
         },
         "CurrentInventory": {
@@ -10791,7 +10984,7 @@
     "connections": [
         [
             "Camp(PillarsFootrest)",
-            "south",
+            "south ",
             "bottom,left",
             "PrepperCache(AC)",
             "top,left",
@@ -10799,7 +10992,7 @@
         ],
         [
             "Camp(PillarsFootrest)",
-            "west",
+            "west ",
             "top,left",
             "Cave(AC~TWM)",
             "bottom,right",
@@ -10807,7 +11000,7 @@
         ],
         [
             "Camp(PillarsFootrest)",
-            "east",
+            "east ",
             "bottom,right",
             "ClimbersCave",
             "bottom,left",
@@ -10815,7 +11008,7 @@
         ],
         [
             "PrepperCache(AC)",
-            "north",
+            "north ",
             "top,right",
             "ClimbersCave",
             "bottom,left",
@@ -10823,7 +11016,7 @@
         ],
         [
             "PrepperCache(AC)",
-            "south",
+            "south ",
             "bottom,left",
             "OutdoorShelter(WindproofBed)",
             "top,left",
@@ -10831,7 +11024,7 @@
         ],
         [
             "Cave(AC~TWM)",
-            "north",
+            "north ",
             "top,left",
             "Camp(AboveBirchForest)",
             "bottom,right",
@@ -10839,7 +11032,7 @@
         ],
         [
             "Cave(AC~TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(TWM~AC)",
             "top,right",
@@ -10847,7 +11040,7 @@
         ],
         [
             "Camp(AboveBirchForest)",
-            "north",
+            "north ",
             "top,left",
             "StoneShelfCave",
             "bottom,left",
@@ -10855,7 +11048,7 @@
         ],
         [
             "Cave(SouthOfShatteredCove)",
-            "east",
+            "east ",
             "top,right",
             "Climb(SC-CC)",
             "top,left",
@@ -10863,7 +11056,7 @@
         ],
         [
             "Cave(SouthOfShatteredCove)",
-            "north",
+            "north ",
             "top,right",
             "OutdoorShelter(WindproofBed)",
             "bottom,left",
@@ -10871,7 +11064,7 @@
         ],
         [
             "Cave(SouthOfShatteredCove)",
-            "south",
+            "south ",
             "bottom,right",
             "FishHut(BitterMarsh)",
             "top,left",
@@ -10879,7 +11072,7 @@
         ],
         [
             "Climb(SC-CC)",
-            "north",
+            "north ",
             "top,right",
             "ClimbersCave",
             "bottom,right",
@@ -10887,7 +11080,7 @@
         ],
         [
             "ClimbersCave",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(SouthOfHighMeadow)",
             "bottom,left",
@@ -10895,7 +11088,7 @@
         ],
         [
             "ClimbersCave",
-            "north",
+            "north ",
             "top,left",
             "Climb(CC-RB)",
             "bottom,left",
@@ -10903,7 +11096,7 @@
         ],
         [
             "StoneShelfCave",
-            "west",
+            "west ",
             "top,left",
             "Climb(SSC-GM1)",
             "bottom,right",
@@ -10911,7 +11104,7 @@
         ],
         [
             "StoneShelfCave",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(SSC-RB)",
             "top,left",
@@ -10919,7 +11112,7 @@
         ],
         [
             "StoneShelfCave",
-            "north",
+            "north ",
             "top,right",
             "Cave(WolfsJawOverlook)",
             "bottom,left",
@@ -10927,7 +11120,7 @@
         ],
         [
             "StoneShelfCave",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(AD-SSC)",
             "bottom,left",
@@ -10935,7 +11128,7 @@
         ],
         [
             "GoldMine(West)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(SSC-GM3)",
             "top,right",
@@ -10943,7 +11136,7 @@
         ],
         [
             "GoldMine(West)",
-            "east",
+            "east ",
             "top,right",
             "GoldMine(MiningCamp)",
             "top,left",
@@ -10951,7 +11144,7 @@
         ],
         [
             "Climb(SSC-GM3)",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(SSC-GM2)",
             "top,right",
@@ -10959,7 +11152,7 @@
         ],
         [
             "Climb(SSC-GM3)",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(GM-WJO)",
             "top,left",
@@ -10967,7 +11160,7 @@
         ],
         [
             "GoldMine(MiningCamp)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(GM-WJO)",
             "top,right",
@@ -10975,7 +11168,7 @@
         ],
         [
             "GoldMine(MiningCamp)",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(LongFallsWest)",
             "top,left",
@@ -10983,7 +11176,7 @@
         ],
         [
             "Climb(SSC-GM2)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(SSC-GM1)",
             "top,left",
@@ -10991,7 +11184,7 @@
         ],
         [
             "Climb(GM-WJO)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(AboveGoldMine)",
             "top,right",
@@ -10999,7 +11192,7 @@
         ],
         [
             "Cave(LongFallsWest)",
-            "south",
+            "south ",
             "bottom,left",
             "OutdoorShelter(BroadFalls)",
             "top,right",
@@ -11007,7 +11200,7 @@
         ],
         [
             "Cave(LongFallsWest)",
-            "east",
+            "east ",
             "top,right",
             "Cave(LongFallsEast)",
             "top,left",
@@ -11015,7 +11208,7 @@
         ],
         [
             "Cave(LongFallsEast)",
-            "south",
+            "south ",
             "bottom,left",
             "Bridge(TowardBroadFalls)",
             "top,right",
@@ -11023,7 +11216,7 @@
         ],
         [
             "Cave(LongFallsEast)",
-            "east",
+            "east ",
             "bottom,right",
             "BearCave(MinersFolly)",
             "top,left",
@@ -11031,7 +11224,7 @@
         ],
         [
             "Bridge(TowardBroadFalls)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(WolfsJawOverlook)",
             "bottom,right",
@@ -11039,7 +11232,7 @@
         ],
         [
             "Cave(WolfsJawOverlook)",
-            "west",
+            "west ",
             "top,right",
             "Cave(AboveGoldMine)",
             "bottom,left",
@@ -11047,7 +11240,7 @@
         ],
         [
             "OutdoorShelter(BroadFalls)",
-            "south",
+            "south ",
             "bottom,right",
             "AnglersDen",
             "top,right",
@@ -11055,7 +11248,7 @@
         ],
         [
             "AnglersDen",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(BelowHighMeadow)",
             "top,right",
@@ -11063,7 +11256,7 @@
         ],
         [
             "AnglersDen",
-            "west",
+            "west ",
             "top,left",
             "BearCave(RunawayBridge)",
             "top,right",
@@ -11071,7 +11264,7 @@
         ],
         [
             "AnglersDen",
-            "east",
+            "east ",
             "bottom,right",
             "ForemansRetreat",
             "bottom,left",
@@ -11079,7 +11272,7 @@
         ],
         [
             "AnglersDen",
-            "south",
+            "south ",
             "bottom,left",
             "Goat(CC-AD)",
             "top,left",
@@ -11087,7 +11280,7 @@
         ],
         [
             "Cave(BelowHighMeadow)",
-            "east",
+            "east ",
             "top,right",
             "NarrowFallsCave",
             "top,left",
@@ -11095,7 +11288,7 @@
         ],
         [
             "BearCave(RunawayBridge)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(BelowPillarsFootrest)",
             "top,left",
@@ -11103,7 +11296,7 @@
         ],
         [
             "BearCave(RunawayBridge)",
-            "west",
+            "west ",
             "top,left",
             "Climb(AD-SSC)",
             "top,right",
@@ -11111,7 +11304,7 @@
         ],
         [
             "Climb(AD-SSC)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(SSC-RB)",
             "top,left",
@@ -11119,7 +11312,7 @@
         ],
         [
             "BearCave(MinersFolly)",
-            "south",
+            "south ",
             "bottom,right",
             "MinersFolly",
             "top,right",
@@ -11127,7 +11320,7 @@
         ],
         [
             "MinersFolly",
-            "west",
+            "west ",
             "bottom,left",
             "ForemansRetreat",
             "bottom,right",
@@ -11135,7 +11328,7 @@
         ],
         [
             "MinersFolly",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(FireOverlook)",
             "top,left",
@@ -11143,7 +11336,7 @@
         ],
         [
             "ForemansRetreat",
-            "south",
+            "south ",
             "bottom,right",
             "OutdoorShelter(Foremans)",
             "top,left",
@@ -11151,7 +11344,7 @@
         ],
         [
             "Cave(FireOverlook)",
-            "west",
+            "west ",
             "bottom,left",
             "POI(HighMeadow)",
             "top,right",
@@ -11159,7 +11352,7 @@
         ],
         [
             "Cave(FireOverlook)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(HR-FO)",
             "top,right",
@@ -11167,7 +11360,7 @@
         ],
         [
             "Climb(HR-FO)",
-            "south",
+            "south ",
             "bottom,left",
             "HomesteadersRespite",
             "top,right",
@@ -11175,7 +11368,7 @@
         ],
         [
             "HomesteadersRespite",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(BM-HR)",
             "top,right",
@@ -11183,7 +11376,7 @@
         ],
         [
             "POI(HighMeadow)",
-            "west",
+            "west ",
             "top,left",
             "Climb(CC-HM2)",
             "top,right",
@@ -11191,7 +11384,7 @@
         ],
         [
             "Climb(CC-HM2)",
-            "west",
+            "west ",
             "top,left",
             "Climb(CC-HM1)",
             "top,right",
@@ -11199,7 +11392,7 @@
         ],
         [
             "Climb(CC-HM1)",
-            "north",
+            "north ",
             "top,left",
             "Goat(CC-AD)",
             "bottom,left",
@@ -11207,7 +11400,7 @@
         ],
         [
             "Climb(CC-HM1)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(SouthOfHighMeadow)",
             "top,left",
@@ -11215,7 +11408,7 @@
         ],
         [
             "Climb(CC-RB)",
-            "north",
+            "north ",
             "top,left",
             "OutdoorShelter(RunawayBridge)",
             "bottom,right",
@@ -11223,7 +11416,7 @@
         ],
         [
             "OutdoorShelter(RunawayBridge)",
-            "north",
+            "north ",
             "top,left",
             "Climb(SSC-RB)",
             "bottom,left",
@@ -11231,7 +11424,7 @@
         ],
         [
             "FishHut(BitterMarsh)",
-            "east",
+            "east ",
             "top,right",
             "Climb(BM-HR)",
             "top,left",
@@ -11239,7 +11432,7 @@
         ],
         [
             "FishHut(BitterMarsh)",
-            "west",
+            "west ",
             "bottom,left",
             "Transition(AC~TWM)",
             "top,right",
@@ -11247,7 +11440,7 @@
         ],
         [
             "Transition(AC~TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "Transition(TWM~AC)",
             "bottom,right",
@@ -11255,7 +11448,7 @@
         ],
         [
             "Transition(TWM~AC)",
-            "west",
+            "west ",
             "top,left",
             "POI(EchoRavineJunction)",
             "top,right",
@@ -11263,7 +11456,7 @@
         ],
         [
             "Cave(TWM~AC)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(PC-DC)",
             "top,right",
@@ -11271,7 +11464,7 @@
         ],
         [
             "Cave(TWM~AC)",
-            "north",
+            "north ",
             "top,left",
             "Cave(DeerClearing)",
             "bottom,right",
@@ -11279,7 +11472,7 @@
         ],
         [
             "BearCave(Upper)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(DCCargo)",
             "top,left",
@@ -11287,7 +11480,7 @@
         ],
         [
             "BearCave(Upper)",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(DC-SS)",
             "top,right",
@@ -11295,7 +11488,7 @@
         ],
         [
             "POI(DCCargo)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(TWC~DC)",
             "top,left",
@@ -11303,7 +11496,7 @@
         ],
         [
             "Climb(DC-SS)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(SecludedShelf)",
             "top,right",
@@ -11311,7 +11504,7 @@
         ],
         [
             "Climb(DC-SS)",
-            "west",
+            "west ",
             "top,left",
             "Climb(DC-US)",
             "bottom,right",
@@ -11319,7 +11512,7 @@
         ],
         [
             "Cave(SecludedShelf)",
-            "south",
+            "south ",
             "top,left",
             "Cave(UpperShelf)",
             "top,right",
@@ -11327,7 +11520,7 @@
         ],
         [
             "Climb(PC-DC)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(TWMPrepperCache)",
             "top,right",
@@ -11335,7 +11528,7 @@
         ],
         [
             "Cave(TWMPrepperCache)",
-            "west",
+            "west ",
             "bottom,left",
             "PrepperCache(TWM)",
             "bottom,right",
@@ -11343,7 +11536,7 @@
         ],
         [
             "POI(WingArea)",
-            "south",
+            "south ",
             "bottom,left",
             "ForestCave(TWM)",
             "top,left",
@@ -11351,7 +11544,7 @@
         ],
         [
             "POI(WingArea)",
-            "north",
+            "north ",
             "top,left",
             "POI(EchoPeakWest)",
             "bottom,right",
@@ -11359,7 +11552,7 @@
         ],
         [
             "ForestCave(TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "POI(Grove)",
             "top,right",
@@ -11367,7 +11560,7 @@
         ],
         [
             "ChasmCave",
-            "west",
+            "west ",
             "top,left",
             "POI(EngineCargo)",
             "top,right",
@@ -11375,7 +11568,7 @@
         ],
         [
             "ChasmCave",
-            "east",
+            "east ",
             "top,right",
             "POI(EchoRavineJunction)",
             "top,left",
@@ -11383,7 +11576,7 @@
         ],
         [
             "ChasmCave",
-            "north",
+            "north ",
             "top,right",
             "Climb(EE~PC)",
             "bottom,left",
@@ -11391,7 +11584,7 @@
         ],
         [
             "POI(EngineCargo)",
-            "west",
+            "west ",
             "top,left",
             "Cave(EngineEast)",
             "bottom,right",
@@ -11399,7 +11592,7 @@
         ],
         [
             "POI(EchoRavineJunction)",
-            "south",
+            "south ",
             "bottom,left",
             "BearCave(EchoRavine)",
             "top,left",
@@ -11407,7 +11600,7 @@
         ],
         [
             "Climb(EE~PC)",
-            "north",
+            "north ",
             "top,right",
             "PrepperCache(TWM)",
             "bottom,left",
@@ -11415,7 +11608,7 @@
         ],
         [
             "Climb(EE~PC)",
-            "north",
+            "north ",
             "top,left",
             "Cave(ThreeWay)",
             "bottom,left",
@@ -11423,7 +11616,7 @@
         ],
         [
             "Cave(EngineEast)",
-            "west",
+            "west ",
             "top,left",
             "Cave(EngineWest)",
             "top,right",
@@ -11431,7 +11624,7 @@
         ],
         [
             "Cave(EngineEast)",
-            "north",
+            "north ",
             "top,right",
             "Cave(ThreeWay)",
             "bottom,left",
@@ -11439,7 +11632,7 @@
         ],
         [
             "PrepperCache(TWM)",
-            "west",
+            "west ",
             "top,left",
             "Cave(ThreeWay)",
             "top,right",
@@ -11447,7 +11640,7 @@
         ],
         [
             "Cave(ThreeWay)",
-            "north",
+            "north ",
             "top,left",
             "Climb(TWC~DC)",
             "bottom,right",
@@ -11455,7 +11648,7 @@
         ],
         [
             "Climb(CL-UAP)",
-            "south",
+            "south ",
             "bottom,right",
             "FishHut(TWM)",
             "top,left",
@@ -11463,7 +11656,7 @@
         ],
         [
             "Climb(CL-UAP)",
-            "west",
+            "west ",
             "top,left",
             "BearCave(AndresPeak)",
             "bottom,right",
@@ -11471,7 +11664,7 @@
         ],
         [
             "FishHut(TWM)",
-            "north",
+            "north ",
             "top,right",
             "POI(NECrystalLake)",
             "bottom,left",
@@ -11479,7 +11672,7 @@
         ],
         [
             "FishHut(TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "MountaineersHut",
             "top,right",
@@ -11487,7 +11680,7 @@
         ],
         [
             "BearCave(AndresPeak)",
-            "west",
+            "west ",
             "top,left",
             "Climb(UAP-AP)",
             "bottom,right",
@@ -11495,7 +11688,7 @@
         ],
         [
             "BearCave(AndresPeak)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(BelowAndresPeak)",
             "top,right",
@@ -11503,7 +11696,7 @@
         ],
         [
             "Climb(UAP-AP)",
-            "north",
+            "north ",
             "top,left",
             "Cave(EngineWest)",
             "bottom,right",
@@ -11511,7 +11704,7 @@
         ],
         [
             "Climb(UAP-AP)",
-            "west",
+            "west ",
             "bottom,left",
             "POI(AndresPeak)",
             "bottom,right",
@@ -11519,7 +11712,7 @@
         ],
         [
             "Climb(UAP-AP)",
-            "north",
+            "north ",
             "top,right",
             "TailSection",
             "bottom,left",
@@ -11527,7 +11720,7 @@
         ],
         [
             "Cave(EngineWest)",
-            "east",
+            "east ",
             "bottom,right",
             "TailSection",
             "bottom,left",
@@ -11535,7 +11728,7 @@
         ],
         [
             "Cave(EngineWest)",
-            "north",
+            "north ",
             "top,left",
             "Climb(EW-WC)",
             "bottom,right",
@@ -11543,7 +11736,7 @@
         ],
         [
             "POI(Grove)",
-            "west",
+            "west ",
             "bottom,left",
             "MountaineersHut",
             "bottom,right",
@@ -11551,7 +11744,7 @@
         ],
         [
             "MountaineersHut",
-            "west",
+            "west ",
             "top,left",
             "POI(NWCrystalLake)",
             "bottom,right",
@@ -11559,7 +11752,7 @@
         ],
         [
             "MountaineersHut",
-            "west",
+            "west ",
             "bottom,left",
             "Transition(TWM~PV)",
             "top,right",
@@ -11567,7 +11760,7 @@
         ],
         [
             "BearCave(EchoRavine)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(NECrystalLake)",
             "top,left",
@@ -11575,7 +11768,7 @@
         ],
         [
             "BearCave(EchoRavine)",
-            "west",
+            "west ",
             "top,left",
             "POI(EchoPeakEast)",
             "top,right",
@@ -11583,7 +11776,7 @@
         ],
         [
             "BearCave(EchoRavine)",
-            "east",
+            "east ",
             "top,right",
             "POI(EchoPeakWest)",
             "top,left",
@@ -11591,7 +11784,7 @@
         ],
         [
             "POI(NWCrystalLake)",
-            "north",
+            "north ",
             "top,left",
             "Cave(BelowAndresPeak)",
             "bottom,right",
@@ -11599,7 +11792,7 @@
         ],
         [
             "Cave(BelowAndresPeak)",
-            "west",
+            "west ",
             "top,left",
             "Climb(CLR-EW)",
             "bottom,right",
@@ -11607,7 +11800,7 @@
         ],
         [
             "POI(AndresPeak)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(CLR-EW)",
             "top,right",
@@ -11615,7 +11808,7 @@
         ],
         [
             "Transition(TWM~PV)",
-            "west",
+            "west ",
             "bottom,left",
             "Transition(PV~TWM)",
             "top,right",
@@ -11623,7 +11816,7 @@
         ],
         [
             "Transition(PV~TWM)",
-            "west",
+            "west ",
             "top,left",
             "Climb(PV-TWM)",
             "top,right",
@@ -11631,7 +11824,7 @@
         ],
         [
             "Climb(PV-TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "PreppersAbandonedCache(Joplin)",
             "top,right",
@@ -11639,7 +11832,7 @@
         ],
         [
             "Cave(UpperShelf)",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(WC-US)",
             "bottom,right",
@@ -11647,7 +11840,7 @@
         ],
         [
             "Cave(UpperShelf)",
-            "east",
+            "east ",
             "bottom,right",
             "ShallowCave(UnderSummit)",
             "bottom,left",
@@ -11655,7 +11848,7 @@
         ],
         [
             "Climb(WC-US)",
-            "west",
+            "west ",
             "bottom,left",
             "WaterfallCave",
             "top,right",
@@ -11663,7 +11856,7 @@
         ],
         [
             "Climb(WC-US)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(EW-WC)",
             "top,right",
@@ -11671,7 +11864,7 @@
         ],
         [
             "WaterfallCave",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(EW-WC)",
             "top,left",
@@ -11679,7 +11872,7 @@
         ],
         [
             "ShallowCave(UnderSummit)",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(US-S)",
             "bottom,left",
@@ -11687,7 +11880,7 @@
         ],
         [
             "Climb(US-S)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(Summit)",
             "top,right",
@@ -11695,7 +11888,7 @@
         ],
         [
             "Climb(US-S)",
-            "north",
+            "north ",
             "top,left",
             "Climb(DC-US)",
             "bottom,left",
@@ -11703,7 +11896,7 @@
         ],
         [
             "Cave(Summit)",
-            "south",
+            "south ",
             "bottom,right",
             "TailSection",
             "top,right",
@@ -11711,7 +11904,7 @@
         ],
         [
             "Climb(EW-WC)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(TWM~BRM)",
             "top,right",
@@ -11719,7 +11912,7 @@
         ],
         [
             "Cave(TWM~BRM)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(BRM~TWM)",
             "top,right",
@@ -11727,7 +11920,7 @@
         ],
         [
             "PreppersAbandonedCache(Joplin)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(PointOfDisagreement)",
             "top,right",
@@ -11735,7 +11928,7 @@
         ],
         [
             "PreppersAbandonedCache(Joplin)",
-            "north",
+            "north ",
             "top,left",
             "HuntersBlind(Joplin)",
             "bottom,right",
@@ -11743,7 +11936,7 @@
         ],
         [
             "PreppersAbandonedCache(Joplin)",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(MistyFalls)",
             "bottom,left",
@@ -11751,7 +11944,7 @@
         ],
         [
             "POI(PointOfDisagreement)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(DerelictCabins)",
             "top,right",
@@ -11759,7 +11952,7 @@
         ],
         [
             "POI(PointOfDisagreement)",
-            "west",
+            "west ",
             "bottom,left",
             "SkeetersRidge",
             "bottom,right",
@@ -11767,7 +11960,7 @@
         ],
         [
             "HuntersBlind(Joplin)",
-            "north",
+            "north ",
             "top,left",
             "CrashSite(PV)",
             "bottom,right",
@@ -11775,7 +11968,7 @@
         ],
         [
             "CrashSite(PV)",
-            "west",
+            "west ",
             "top,left",
             "Cave(BurnedRidge)",
             "top,right",
@@ -11783,7 +11976,7 @@
         ],
         [
             "Cave(BurnedRidge)",
-            "south",
+            "south ",
             "bottom,left",
             "SkeetersRidge",
             "top,right",
@@ -11791,7 +11984,7 @@
         ],
         [
             "Cave(BurnedRidge)",
-            "west",
+            "west ",
             "top,left",
             "PrepperCache(PV)",
             "top,right",
@@ -11799,7 +11992,7 @@
         ],
         [
             "Cave(DerelictCabins)",
-            "north",
+            "north ",
             "top,right",
             "Cave(MistyFalls)",
             "bottom,left",
@@ -11807,7 +12000,7 @@
         ],
         [
             "Cave(DerelictCabins)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(UnnamedRiverBed)",
             "top,left",
@@ -11815,7 +12008,7 @@
         ],
         [
             "Cave(DerelictCabins)",
-            "west",
+            "west ",
             "top,left",
             "Barn(Archery)",
             "top,right",
@@ -11823,7 +12016,7 @@
         ],
         [
             "SkeetersRidge",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(DDC-SR2)",
             "top,left",
@@ -11831,7 +12024,7 @@
         ],
         [
             "SkeetersRidge",
-            "west",
+            "west ",
             "bottom,left",
             "DraftDodgersCabin",
             "bottom,right",
@@ -11839,7 +12032,7 @@
         ],
         [
             "Climb(DDC-SR2)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(DDC-SR1)",
             "top,left",
@@ -11847,7 +12040,7 @@
         ],
         [
             "Climb(DDC-SR1)",
-            "south",
+            "south ",
             "bottom,left",
             "DraftDodgersCabin",
             "top,left",
@@ -11855,7 +12048,7 @@
         ],
         [
             "DraftDodgersCabin",
-            "west",
+            "west ",
             "bottom,left",
             "PVFarmhouse",
             "top,right",
@@ -11863,7 +12056,7 @@
         ],
         [
             "DraftDodgersCabin",
-            "west",
+            "west ",
             "bottom,left",
             "Barn(NorthOfArchery)",
             "bottom,right",
@@ -11871,7 +12064,7 @@
         ],
         [
             "Cave(UnnamedRiverBed)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(EndOfTheRoad)",
             "top,left",
@@ -11879,7 +12072,7 @@
         ],
         [
             "Cave(UnnamedRiverBed)",
-            "west",
+            "west ",
             "top,left",
             "Barn(Archery)",
             "top,right",
@@ -11887,7 +12080,7 @@
         ],
         [
             "Barn(Archery)",
-            "south",
+            "south ",
             "bottom,right",
             "ThomsonsCrossing",
             "top,left",
@@ -11895,7 +12088,7 @@
         ],
         [
             "Barn(Archery)",
-            "west",
+            "west ",
             "bottom,left",
             "ForestCave(PV)",
             "top,right",
@@ -11903,7 +12096,7 @@
         ],
         [
             "Barn(Archery)",
-            "west",
+            "west ",
             "top,left",
             "PVFarmhouse",
             "top,right",
@@ -11911,7 +12104,7 @@
         ],
         [
             "Barn(Archery)",
-            "north",
+            "north ",
             "top,left",
             "Barn(NorthOfArchery)",
             "bottom,right",
@@ -11919,7 +12112,7 @@
         ],
         [
             "Cave(EndOfTheRoad)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(PV~CH)",
             "top,right",
@@ -11927,7 +12120,7 @@
         ],
         [
             "Cave(EndOfTheRoad)",
-            "west",
+            "west ",
             "bottom,left",
             "CommunityHall",
             "bottom,right",
@@ -11935,7 +12128,7 @@
         ],
         [
             "Transition(PV~CH)",
-            "south",
+            "south ",
             "bottom,left",
             "CinderHillsCoalMine(Upper)",
             "top,left",
@@ -11943,7 +12136,7 @@
         ],
         [
             "Transition(PV~CH)",
-            "west",
+            "west ",
             "top,left",
             "ThomsonsCrossing",
             "top,right",
@@ -11951,7 +12144,7 @@
         ],
         [
             "ThomsonsCrossing",
-            "north",
+            "north ",
             "top,right",
             "CommunityHall",
             "bottom,left",
@@ -11959,7 +12152,7 @@
         ],
         [
             "ThomsonsCrossing",
-            "north",
+            "north ",
             "top,left",
             "FishHut(PensivePond)",
             "bottom,right",
@@ -11967,7 +12160,7 @@
         ],
         [
             "ThomsonsCrossing",
-            "south",
+            "south ",
             "bottom,left",
             "RuralStore",
             "top,left",
@@ -11975,7 +12168,7 @@
         ],
         [
             "ThomsonsCrossing",
-            "east",
+            "east ",
             "top,right",
             "PleasantValleyChurch",
             "top,left",
@@ -11983,7 +12176,7 @@
         ],
         [
             "ForestCave(PV)",
-            "west",
+            "west ",
             "top,left",
             "FishHut(PensivePond)",
             "top,right",
@@ -11991,7 +12184,7 @@
         ],
         [
             "ForestCave(PV)",
-            "north",
+            "north ",
             "top,right",
             "Barn(LowerFalls)",
             "bottom,right",
@@ -11999,7 +12192,7 @@
         ],
         [
             "CommunityHall",
-            "west",
+            "west ",
             "bottom,left",
             "RuralStore",
             "bottom,right",
@@ -12007,7 +12200,7 @@
         ],
         [
             "FishHut(PensivePond)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(WestOfUpperFalls)",
             "top,left",
@@ -12015,7 +12208,7 @@
         ],
         [
             "FishHut(PensivePond)",
-            "west",
+            "west ",
             "top,left",
             "Cave(PV~WR)",
             "bottom,right",
@@ -12023,7 +12216,7 @@
         ],
         [
             "Cave(PV~WR)",
-            "north",
+            "north ",
             "top,left",
             "HuntersBlind(HilltopCave)",
             "bottom,left",
@@ -12031,7 +12224,7 @@
         ],
         [
             "Cave(PV~WR)",
-            "west",
+            "west ",
             "bottom,left",
             "Transition(PV~WR)",
             "bottom,right",
@@ -12039,7 +12232,7 @@
         ],
         [
             "SignalHill",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(LC-SH)",
             "bottom,left",
@@ -12047,7 +12240,7 @@
         ],
         [
             "SignalHill",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MB-SH)",
             "top,left",
@@ -12055,7 +12248,7 @@
         ],
         [
             "SignalHill",
-            "south",
+            "south ",
             "bottom,left",
             "HilltopCave",
             "top,right",
@@ -12063,7 +12256,7 @@
         ],
         [
             "SignalHill",
-            "north",
+            "north ",
             "top,right",
             "Transition(PV~KP)",
             "bottom,right",
@@ -12071,7 +12264,7 @@
         ],
         [
             "SignalHill",
-            "west",
+            "west ",
             "top,left",
             "Cave(BelowHilltopCave)",
             "top,right",
@@ -12079,7 +12272,7 @@
         ],
         [
             "SignalHill",
-            "south",
+            "south ",
             "bottom,right",
             "Barn(Mollys)",
             "top,left",
@@ -12087,7 +12280,7 @@
         ],
         [
             "HilltopCave",
-            "north",
+            "north ",
             "top,left",
             "Cave(BelowHilltopCave)",
             "bottom,left",
@@ -12095,7 +12288,7 @@
         ],
         [
             "HilltopCave",
-            "west",
+            "west ",
             "bottom,right",
             "HuntersBlind(HilltopCave)",
             "bottom,left",
@@ -12103,7 +12296,7 @@
         ],
         [
             "Transition(PV~KP)",
-            "north",
+            "north ",
             "top,right",
             "Cave(NorthOfLongCurve)",
             "bottom,left",
@@ -12111,7 +12304,7 @@
         ],
         [
             "Transition(PV~KP)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(BelowHilltopCave)",
             "top,right",
@@ -12119,7 +12312,7 @@
         ],
         [
             "Transition(PV~KP)",
-            "north",
+            "north ",
             "top,left",
             "Transition(KP~PV)",
             "bottom,right",
@@ -12127,7 +12320,7 @@
         ],
         [
             "Cave(NorthOfLongCurve)",
-            "north",
+            "north ",
             "top,right",
             "BunkerBeta",
             "bottom,left",
@@ -12135,7 +12328,7 @@
         ],
         [
             "BunkerBeta",
-            "north",
+            "north ",
             "top,right",
             "POI(ThreeStrikes)",
             "bottom,left",
@@ -12143,7 +12336,7 @@
         ],
         [
             "HuntersBlind(HilltopCave)",
-            "east",
+            "east ",
             "top,right",
             "Barn(Mollys)",
             "top,left",
@@ -12151,7 +12344,7 @@
         ],
         [
             "Barn(Mollys)",
-            "east",
+            "east ",
             "bottom,right",
             "PVFarmhouse",
             "bottom,left",
@@ -12159,7 +12352,7 @@
         ],
         [
             "Barn(Mollys)",
-            "south",
+            "south ",
             "bottom,left",
             "Barn(LowerFalls)",
             "top,right",
@@ -12167,7 +12360,7 @@
         ],
         [
             "PVFarmhouse",
-            "north",
+            "north ",
             "top,left",
             "Barn(NorthOfPVFarm)",
             "bottom,left",
@@ -12175,7 +12368,7 @@
         ],
         [
             "Transition(KP~PV)",
-            "north",
+            "north ",
             "top,left",
             "Trailer(KPS)",
             "bottom,right",
@@ -12183,7 +12376,7 @@
         ],
         [
             "POI(ThreeStrikes)",
-            "west",
+            "west ",
             "top,right",
             "PrepperCache(PV)",
             "top,left",
@@ -12191,7 +12384,7 @@
         ],
         [
             "POI(ThreeStrikes)",
-            "south",
+            "south ",
             "bottom,left",
             "Barn(NorthOfPVFarm)",
             "top,left",
@@ -12199,7 +12392,7 @@
         ],
         [
             "Trailer(KPS)",
-            "north",
+            "north ",
             "top,right",
             "IceCave(KPS)",
             "bottom,right",
@@ -12207,7 +12400,7 @@
         ],
         [
             "Trailer(KPS)",
-            "east",
+            "east ",
             "top,right",
             "FishHut(KPS)",
             "bottom,left",
@@ -12215,7 +12408,7 @@
         ],
         [
             "ForestersHermitage",
-            "south",
+            "south ",
             "bottom,left",
             "IceCave(KPN)",
             "top,right",
@@ -12223,7 +12416,7 @@
         ],
         [
             "ForestersHermitage",
-            "east",
+            "east ",
             "top,right",
             "BuildersBridge(West)",
             "top,left",
@@ -12231,7 +12424,7 @@
         ],
         [
             "ForestersHermitage",
-            "north",
+            "north ",
             "top,left",
             "OldSubstation",
             "bottom,left",
@@ -12239,7 +12432,7 @@
         ],
         [
             "IceCave(KPN)",
-            "south",
+            "south ",
             "bottom,left",
             "IceCave(KPS)",
             "top,left",
@@ -12247,7 +12440,7 @@
         ],
         [
             "BuildersBridge(West)",
-            "east",
+            "east ",
             "top,right",
             "BuildersBridge(East)",
             "top,left",
@@ -12255,7 +12448,7 @@
         ],
         [
             "BuildersBridge(West)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(KPN)",
             "top,left",
@@ -12263,7 +12456,7 @@
         ],
         [
             "BuildersBridge(East)",
-            "east",
+            "east ",
             "top,right",
             "Transition(KP~BRM)",
             "top,left",
@@ -12271,7 +12464,7 @@
         ],
         [
             "BuildersBridge(East)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(KPN)",
             "top,right",
@@ -12279,7 +12472,7 @@
         ],
         [
             "Transition(KP~BRM)",
-            "north",
+            "north ",
             "top,left",
             "Transition(BRM~KP)",
             "bottom,left",
@@ -12287,7 +12480,7 @@
         ],
         [
             "Climb(KPN)",
-            "north",
+            "north ",
             "top,left",
             "Cave(KPN)",
             "bottom,left",
@@ -12295,7 +12488,7 @@
         ],
         [
             "OldSubstation",
-            "east",
+            "east ",
             "top,right",
             "Car(NorthOfKPTunnel)",
             "bottom,left",
@@ -12303,7 +12496,7 @@
         ],
         [
             "OldSubstation",
-            "north",
+            "north ",
             "top,right",
             "Climb(OSS-BP)",
             "bottom,right",
@@ -12311,7 +12504,7 @@
         ],
         [
             "OldSubstation",
-            "west",
+            "west ",
             "top,left",
             "CreekBedCave",
             "bottom,right",
@@ -12319,7 +12512,7 @@
         ],
         [
             "OldSubstation",
-            "north",
+            "north ",
             "top,left",
             "Cave(NorthOfSubstation)",
             "bottom,left",
@@ -12327,7 +12520,7 @@
         ],
         [
             "Cave(BRM~TWM)",
-            "west",
+            "west ",
             "bottom,left",
             "ForemansClearcut",
             "bottom,right",
@@ -12335,7 +12528,7 @@
         ],
         [
             "Cave(BRM~TWM)",
-            "north",
+            "north ",
             "top,left",
             "BricklayersRetreat",
             "bottom,right",
@@ -12343,7 +12536,7 @@
         ],
         [
             "ForemansClearcut",
-            "west",
+            "west ",
             "bottom,left",
             "CooksFarm",
             "top,right",
@@ -12351,7 +12544,7 @@
         ],
         [
             "ForemansClearcut",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(CC-FC)",
             "top,right",
@@ -12359,7 +12552,7 @@
         ],
         [
             "ForemansClearcut",
-            "north",
+            "north ",
             "top,right",
             "BricklayersRetreat",
             "bottom,left",
@@ -12367,7 +12560,7 @@
         ],
         [
             "ForemansClearcut",
-            "west",
+            "west ",
             "top,left",
             "CliffCave",
             "bottom,right",
@@ -12375,7 +12568,7 @@
         ],
         [
             "BricklayersRetreat",
-            "north",
+            "north ",
             "top,right",
             "WhistlingPerch",
             "bottom,right",
@@ -12383,7 +12576,7 @@
         ],
         [
             "BricklayersRetreat",
-            "west",
+            "west ",
             "bottom,left",
             "CliffCave",
             "top,right",
@@ -12391,7 +12584,7 @@
         ],
         [
             "WhistlingPerch",
-            "north",
+            "north ",
             "top,right",
             "NoRoadCave",
             "bottom,right",
@@ -12399,7 +12592,7 @@
         ],
         [
             "WhistlingPerch",
-            "west",
+            "west ",
             "top,left",
             "FoolsCorner",
             "bottom,right",
@@ -12407,7 +12600,7 @@
         ],
         [
             "CliffCave",
-            "west",
+            "west ",
             "top,left",
             "Cave(EastOfPrison)",
             "top,right",
@@ -12415,7 +12608,7 @@
         ],
         [
             "Cave(BelowFoolsCorner)",
-            "north",
+            "north ",
             "top,left",
             "Climb(MBR-LP1)",
             "bottom,right",
@@ -12423,7 +12616,7 @@
         ],
         [
             "Cave(BelowFoolsCorner)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(MBR-BP)",
             "top,right",
@@ -12431,7 +12624,7 @@
         ],
         [
             "Cave(BelowFoolsCorner)",
-            "east",
+            "east ",
             "bottom,right",
             "FoolsCorner",
             "bottom,left",
@@ -12439,7 +12632,7 @@
         ],
         [
             "Climb(MBR-LP1)",
-            "north",
+            "north ",
             "top,right",
             "Climb(MBR-LP2)",
             "bottom,right",
@@ -12447,7 +12640,7 @@
         ],
         [
             "Climb(MBR-LP2)",
-            "north",
+            "north ",
             "top,left",
             "Cave(LastProspect)",
             "bottom,right",
@@ -12455,7 +12648,7 @@
         ],
         [
             "Cave(LastProspect)",
-            "east",
+            "east ",
             "bottom,right",
             "LastProspect",
             "bottom,left",
@@ -12463,7 +12656,7 @@
         ],
         [
             "Climb(MBR-BP)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(EastOfPrison)",
             "top,right",
@@ -12471,7 +12664,7 @@
         ],
         [
             "Cave(EastOfPrison)",
-            "west",
+            "west ",
             "bottom,left",
             "PrisonGate",
             "bottom,right",
@@ -12479,7 +12672,7 @@
         ],
         [
             "PrisonGate",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(PrisonPond)",
             "top,right",
@@ -12487,7 +12680,7 @@
         ],
         [
             "PrisonGate",
-            "north",
+            "north ",
             "top,right",
             "PrisonWorkshop",
             "bottom,right",
@@ -12495,7 +12688,7 @@
         ],
         [
             "Cave(PrisonPond)",
-            "south",
+            "south ",
             "bottom,right",
             "Car(CentralJunction)",
             "top,left",
@@ -12503,7 +12696,7 @@
         ],
         [
             "Cave(PrisonPond)",
-            "west",
+            "west ",
             "top,left",
             "Climb(BP-GM)",
             "top,right",
@@ -12511,7 +12704,7 @@
         ],
         [
             "Car(CentralJunction)",
-            "east",
+            "east ",
             "bottom,right",
             "CooksFarm",
             "top,left",
@@ -12519,7 +12712,7 @@
         ],
         [
             "Car(CentralJunction)",
-            "south",
+            "south ",
             "bottom,left",
             "Car(NorthOfKPTunnel)",
             "top,left",
@@ -12527,7 +12720,7 @@
         ],
         [
             "Car(CentralJunction)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(OSS-BP)",
             "top,right",
@@ -12535,7 +12728,7 @@
         ],
         [
             "CooksFarm",
-            "north",
+            "north ",
             "top,left",
             "Cave(NorthOfCooksFarm)",
             "bottom,left",
@@ -12543,7 +12736,7 @@
         ],
         [
             "Climb(CC-FC)",
-            "south",
+            "south ",
             "bottom,left",
             "CuttysCave",
             "top,right",
@@ -12551,7 +12744,7 @@
         ],
         [
             "CuttysCave",
-            "west",
+            "west ",
             "top,left",
             "Climb(JR-CC)",
             "top,right",
@@ -12559,7 +12752,7 @@
         ],
         [
             "Climb(JR-CC)",
-            "west",
+            "west ",
             "top,left",
             "JailorsResidence",
             "top,right",
@@ -12567,7 +12760,7 @@
         ],
         [
             "JailorsResidence",
-            "north",
+            "north ",
             "top,left",
             "Car(NorthOfKPTunnel)",
             "bottom,right",
@@ -12575,7 +12768,7 @@
         ],
         [
             "Car(NorthOfKPTunnel)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(BRM~KP)",
             "top,left",
@@ -12583,7 +12776,7 @@
         ],
         [
             "PrisonWorkshop",
-            "north",
+            "north ",
             "top,right",
             "Barracks",
             "bottom,left",
@@ -12591,7 +12784,7 @@
         ],
         [
             "PrisonWorkshop",
-            "west",
+            "west ",
             "top,left",
             "SteamTunnels",
             "top,right",
@@ -12599,7 +12792,7 @@
         ],
         [
             "PrisonWorkshop",
-            "north",
+            "north ",
             "top,left",
             "Infirmary",
             "bottom,right",
@@ -12607,7 +12800,7 @@
         ],
         [
             "Barracks",
-            "north",
+            "north ",
             "top,left",
             "WardensOffice",
             "bottom,right",
@@ -12615,7 +12808,7 @@
         ],
         [
             "WardensOffice",
-            "west",
+            "west ",
             "top,left",
             "CentralPrison",
             "top,right",
@@ -12623,7 +12816,7 @@
         ],
         [
             "SteamTunnels",
-            "south",
+            "south ",
             "bottom,left",
             "PowerPlant",
             "top,left",
@@ -12631,7 +12824,7 @@
         ],
         [
             "PowerPlant",
-            "west",
+            "west ",
             "top,left",
             "ForagersRemnant",
             "top,right",
@@ -12639,7 +12832,7 @@
         ],
         [
             "PowerPlant",
-            "south",
+            "south ",
             "bottom,right",
             "Trailer(SouthOfPowerPlant)",
             "top,left",
@@ -12647,7 +12840,7 @@
         ],
         [
             "ForagersRemnant",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(FR-BB)",
             "top,left",
@@ -12655,7 +12848,7 @@
         ],
         [
             "Trailer(SouthOfPowerPlant)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(NorthOfBearBend)",
             "top,right",
@@ -12663,7 +12856,7 @@
         ],
         [
             "Trailer(SouthOfPowerPlant)",
-            "east",
+            "east ",
             "top,right",
             "Climb(BP-GM)",
             "top,left",
@@ -12671,7 +12864,7 @@
         ],
         [
             "Trailer(SouthOfPowerPlant)",
-            "south",
+            "south ",
             "bottom,right",
             "CreekBedCave",
             "top,right",
@@ -12679,7 +12872,7 @@
         ],
         [
             "Climb(FR-BB)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(NorthOfBearBend)",
             "top,left",
@@ -12687,7 +12880,7 @@
         ],
         [
             "NoRoadCave",
-            "north",
+            "north ",
             "top,right",
             "PrepperCache(BRM)",
             "bottom,right",
@@ -12695,7 +12888,7 @@
         ],
         [
             "NoRoadCave",
-            "west",
+            "west ",
             "top,left",
             "FoolsCorner",
             "top,right",
@@ -12703,7 +12896,7 @@
         ],
         [
             "CinderHillsCoalMine(Upper)",
-            "south",
+            "south ",
             "bottom,left",
             "Trailer(BetweenMines)",
             "top,left",
@@ -12711,7 +12904,7 @@
         ],
         [
             "CinderHillsCoalMine(Upper)",
-            "east",
+            "east ",
             "bottom,right",
             "AbandonedLookout",
             "bottom,left",
@@ -12719,7 +12912,7 @@
         ],
         [
             "CinderHillsCoalMine(Upper)",
-            "west",
+            "west ",
             "bottom,left",
             "Cabin(NorthOfTooth)",
             "bottom,right",
@@ -12727,7 +12920,7 @@
         ],
         [
             "Trailer(BetweenMines)",
-            "south",
+            "south ",
             "bottom,left",
             "CinderHillsCoalMine(Lower)",
             "top,left",
@@ -12735,7 +12928,7 @@
         ],
         [
             "Trailer(BetweenMines)",
-            "east",
+            "east ",
             "top,right",
             "Cabins(SouthOfLookout)",
             "top,left",
@@ -12743,7 +12936,7 @@
         ],
         [
             "AbandonedLookout",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(C-AL2)",
             "top,right",
@@ -12751,7 +12944,7 @@
         ],
         [
             "CinderHillsCoalMine(Lower)",
-            "south",
+            "south ",
             "bottom,right",
             "House(SouthCoastalTownsite)",
             "top,left",
@@ -12759,7 +12952,7 @@
         ],
         [
             "CinderHillsCoalMine(Lower)",
-            "west",
+            "west ",
             "top,left",
             "POI(ForkedRoad)",
             "bottom,right",
@@ -12767,7 +12960,7 @@
         ],
         [
             "CinderHillsCoalMine(Lower)",
-            "south",
+            "south ",
             "bottom,left",
             "Trailer(LogSort)",
             "top,left",
@@ -12775,7 +12968,7 @@
         ],
         [
             "CinderHillsCoalMine(Lower)",
-            "west",
+            "west ",
             "bottom,left",
             "CinderHillsCoalMine(Aurora)",
             "top,right",
@@ -12783,7 +12976,7 @@
         ],
         [
             "House(SouthCoastalTownsite)",
-            "south",
+            "south ",
             "bottom,left",
             "FishHut(Eastmost)",
             "top,left",
@@ -12791,7 +12984,7 @@
         ],
         [
             "House(SouthCoastalTownsite)",
-            "east",
+            "east ",
             "top,right",
             "QuonsetGarage",
             "top,left",
@@ -12799,7 +12992,7 @@
         ],
         [
             "POI(ForkedRoad)",
-            "north",
+            "north ",
             "top,left",
             "Cabin(NorthOfTooth)",
             "bottom,left",
@@ -12807,7 +13000,7 @@
         ],
         [
             "POI(ForkedRoad)",
-            "west",
+            "west ",
             "bottom,left",
             "Trailer(SouthOfTrainUnloading)",
             "bottom,right",
@@ -12815,7 +13008,7 @@
         ],
         [
             "Cabin(NorthOfTooth)",
-            "west",
+            "west ",
             "top,left",
             "Trailer(TrainUnloading)",
             "top,right",
@@ -12823,7 +13016,7 @@
         ],
         [
             "Trailer(LogSort)",
-            "south",
+            "south ",
             "bottom,left",
             "FishHuts(Central)",
             "top,left",
@@ -12831,7 +13024,7 @@
         ],
         [
             "Trailer(LogSort)",
-            "west",
+            "west ",
             "bottom,left",
             "Car(TheTooth)",
             "top,right",
@@ -12839,7 +13032,7 @@
         ],
         [
             "FishHuts(Central)",
-            "west",
+            "west ",
             "top,left",
             "FishHut(NearFishingCamp)",
             "top,right",
@@ -12847,7 +13040,7 @@
         ],
         [
             "FishHuts(Central)",
-            "east",
+            "east ",
             "top,right",
             "FishHut(Eastmost)",
             "top,left",
@@ -12855,7 +13048,7 @@
         ],
         [
             "FishHuts(Central)",
-            "south",
+            "south ",
             "bottom,left",
             "House(Jackrabbit)",
             "top,right",
@@ -12863,7 +13056,7 @@
         ],
         [
             "FishHuts(Central)",
-            "south",
+            "south ",
             "bottom,right",
             "FishHut(BetweenIslands)",
             "top,right",
@@ -12871,7 +13064,7 @@
         ],
         [
             "Car(TheTooth)",
-            "west",
+            "west ",
             "bottom,left",
             "Cabins(FishingCamp)",
             "top,right",
@@ -12879,7 +13072,7 @@
         ],
         [
             "Cabins(FishingCamp)",
-            "south",
+            "south ",
             "bottom,left",
             "Car(Rockfall)",
             "top,right",
@@ -12887,7 +13080,7 @@
         ],
         [
             "Cabins(FishingCamp)",
-            "south",
+            "south ",
             "bottom,right",
             "FishHut(NearFishingCamp)",
             "top,left",
@@ -12895,7 +13088,7 @@
         ],
         [
             "House(NorthCoastalTownsite)",
-            "south",
+            "south ",
             "bottom,left",
             "QuonsetGarage",
             "top,left",
@@ -12903,7 +13096,7 @@
         ],
         [
             "House(NorthCoastalTownsite)",
-            "north",
+            "north ",
             "top,right",
             "Trailer(NearSilentClearing)",
             "bottom,right",
@@ -12911,7 +13104,7 @@
         ],
         [
             "QuonsetGarage",
-            "east",
+            "east ",
             "top,right",
             "CrashedPlane(CH)",
             "top,left",
@@ -12919,7 +13112,7 @@
         ],
         [
             "QuonsetGarage",
-            "south",
+            "south ",
             "bottom,right",
             "WaterfrontCottages",
             "top,right",
@@ -12927,7 +13120,7 @@
         ],
         [
             "QuonsetGarage",
-            "west",
+            "west ",
             "bottom,left",
             "MisanthropesHomestead",
             "bottom,right",
@@ -12935,7 +13128,7 @@
         ],
         [
             "Trailer(NearSilentClearing)",
-            "west",
+            "west ",
             "top,left",
             "Cabins(SouthOfLookout)",
             "top,right",
@@ -12943,7 +13136,7 @@
         ],
         [
             "Trailer(NearSilentClearing)",
-            "north",
+            "north ",
             "top,right",
             "Climb(SC-AL)",
             "bottom,right",
@@ -12951,7 +13144,7 @@
         ],
         [
             "Cabins(SouthOfLookout)",
-            "north",
+            "north ",
             "top,right",
             "Climb(C-AL1)",
             "bottom,right",
@@ -12959,7 +13152,7 @@
         ],
         [
             "Climb(C-AL2)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(C-AL1)",
             "top,right",
@@ -12967,7 +13160,7 @@
         ],
         [
             "Trailer(TrainUnloading)",
-            "west",
+            "west ",
             "top,left",
             "Transition(CH~R)",
             "top,right",
@@ -12975,7 +13168,7 @@
         ],
         [
             "Trailer(TrainUnloading)",
-            "south",
+            "south ",
             "bottom,left",
             "Trailer(SouthOfTrainUnloading)",
             "top,left",
@@ -12983,7 +13176,7 @@
         ],
         [
             "Transition(CH~R)",
-            "south",
+            "south ",
             "bottom,left",
             "Cabin(RabbitGrove)",
             "top,left",
@@ -12991,7 +13184,7 @@
         ],
         [
             "Transition(CH~R)",
-            "west",
+            "west ",
             "top,left",
             "Transition(R~CH)",
             "top,right",
@@ -12999,7 +13192,7 @@
         ],
         [
             "FishHut(Eastmost)",
-            "south",
+            "south ",
             "bottom,left",
             "MisanthropesHomestead",
             "top,left",
@@ -13007,7 +13200,7 @@
         ],
         [
             "MisanthropesHomestead",
-            "west",
+            "west ",
             "top,left",
             "FishHut(BetweenIslands)",
             "top,right",
@@ -13015,7 +13208,7 @@
         ],
         [
             "MisanthropesHomestead",
-            "east",
+            "east ",
             "bottom,right",
             "WaterfrontCottages",
             "bottom,left",
@@ -13023,7 +13216,7 @@
         ],
         [
             "MisanthropesHomestead",
-            "south",
+            "south ",
             "bottom,left",
             "ToTradeFor",
             "top,left",
@@ -13031,7 +13224,7 @@
         ],
         [
             "FishHut(BetweenIslands)",
-            "west",
+            "west ",
             "top,left",
             "House(Jackrabbit)",
             "top,right",
@@ -13039,7 +13232,7 @@
         ],
         [
             "WaterfrontCottages",
-            "east",
+            "east ",
             "top,right",
             "Car(CommutersLament)",
             "bottom,left",
@@ -13047,7 +13240,7 @@
         ],
         [
             "House(Jackrabbit)",
-            "north",
+            "north ",
             "top,left",
             "FishHut(NearFishingCamp)",
             "bottom,left",
@@ -13055,7 +13248,7 @@
         ],
         [
             "House(Jackrabbit)",
-            "west",
+            "west ",
             "top,left",
             "FishHut(Westmost)",
             "top,right",
@@ -13063,7 +13256,7 @@
         ],
         [
             "FishHut(Westmost)",
-            "north",
+            "north ",
             "top,left",
             "Car(Rockfall)",
             "bottom,right",
@@ -13071,7 +13264,7 @@
         ],
         [
             "Car(Rockfall)",
-            "north",
+            "north ",
             "top,left",
             "Cabin(RabbitGrove)",
             "bottom,left",
@@ -13079,7 +13272,7 @@
         ],
         [
             "Car(CommutersLament)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(CH~OIC)",
             "top,left",
@@ -13087,7 +13280,7 @@
         ],
         [
             "Transition(CH~OIC)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(OIC~CH)",
             "top,left",
@@ -13095,7 +13288,7 @@
         ],
         [
             "Transition(OIC~CH)",
-            "east",
+            "east ",
             "top,right",
             "HarrisBasement",
             "bottom,left",
@@ -13103,7 +13296,7 @@
         ],
         [
             "HarrisBasement",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(TheArch)",
             "top,left",
@@ -13111,7 +13304,7 @@
         ],
         [
             "HarrisBasement",
-            "east",
+            "east ",
             "top,right",
             "Cave(RoadCollapse)",
             "bottom,left",
@@ -13119,7 +13312,7 @@
         ],
         [
             "Cave(RoadCollapse)",
-            "east",
+            "east ",
             "top,right",
             "Transition(OIC~DP)",
             "bottom,left",
@@ -13127,7 +13320,7 @@
         ],
         [
             "Transition(OIC~DP)",
-            "east",
+            "east ",
             "top,right",
             "Transition(DP~OIC)",
             "bottom,left",
@@ -13135,7 +13328,7 @@
         ],
         [
             "Transition(DP~OIC)",
-            "east",
+            "east ",
             "top,right",
             "No3Mine",
             "bottom,left",
@@ -13143,7 +13336,7 @@
         ],
         [
             "No3Mine",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(DP)",
             "top,left",
@@ -13151,7 +13344,7 @@
         ],
         [
             "No3Mine",
-            "east",
+            "east ",
             "top,right",
             "No5Mine(West)",
             "top,left",
@@ -13159,7 +13352,7 @@
         ],
         [
             "Climb(DP)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(KatiesSecludedCorner)",
             "top,left",
@@ -13167,7 +13360,7 @@
         ],
         [
             "POI(KatiesSecludedCorner)",
-            "east",
+            "east ",
             "bottom,right",
             "LonelyLighthouse",
             "top,left",
@@ -13175,7 +13368,7 @@
         ],
         [
             "POI(KatiesSecludedCorner)",
-            "north",
+            "north ",
             "top,right",
             "No5Mine(West)",
             "bottom,left",
@@ -13183,7 +13376,7 @@
         ],
         [
             "No5Mine(West)",
-            "east",
+            "east ",
             "top,right",
             "No5Mine(East)",
             "bottom,left",
@@ -13191,7 +13384,7 @@
         ],
         [
             "No5Mine(West)",
-            "south",
+            "south ",
             "bottom,right",
             "StoneChurch",
             "top,left",
@@ -13199,7 +13392,7 @@
         ],
         [
             "No5Mine(East)",
-            "east",
+            "east ",
             "top,right",
             "HiberniaProcessing",
             "top,left",
@@ -13207,7 +13400,7 @@
         ],
         [
             "No5Mine(East)",
-            "north",
+            "north ",
             "top,right",
             "Cave(BrokenBridge)",
             "bottom,left",
@@ -13215,7 +13408,7 @@
         ],
         [
             "HiberniaProcessing",
-            "north",
+            "north ",
             "top,left",
             "Cave(BrokenBridge)",
             "bottom,right",
@@ -13223,7 +13416,7 @@
         ],
         [
             "HiberniaProcessing",
-            "north",
+            "north ",
             "top,right",
             "Trailer(NorthHibernia)",
             "bottom,right",
@@ -13231,7 +13424,7 @@
         ],
         [
             "HiberniaProcessing",
-            "south",
+            "south ",
             "bottom,right",
             "Trailer(SouthHibernia)",
             "top,right",
@@ -13239,7 +13432,7 @@
         ],
         [
             "HiberniaProcessing",
-            "east",
+            "east ",
             "top,right",
             "Fulmar",
             "top,left",
@@ -13247,7 +13440,7 @@
         ],
         [
             "Cave(BrokenBridge)",
-            "east",
+            "east ",
             "bottom,right",
             "Trailer(NorthHibernia)",
             "bottom,left",
@@ -13255,7 +13448,7 @@
         ],
         [
             "Cave(BrokenBridge)",
-            "north",
+            "north ",
             "top,left",
             "Cave(Scruffy)",
             "bottom,left",
@@ -13263,7 +13456,7 @@
         ],
         [
             "Trailer(SouthHibernia)",
-            "south",
+            "south ",
             "bottom,left",
             "TheRiken",
             "top,left",
@@ -13271,7 +13464,7 @@
         ],
         [
             "TheRiken",
-            "south",
+            "south ",
             "bottom,left",
             "POI(LittleIsland)",
             "top,left",
@@ -13279,7 +13472,7 @@
         ],
         [
             "TheRiken",
-            "west",
+            "west ",
             "bottom,left",
             "Truck(Matts)",
             "bottom,right",
@@ -13287,7 +13480,7 @@
         ],
         [
             "POI(LittleIsland)",
-            "west",
+            "west ",
             "top,left",
             "LonelyLighthouse",
             "top,right",
@@ -13295,7 +13488,7 @@
         ],
         [
             "Truck(Matts)",
-            "west",
+            "west ",
             "top,left",
             "StoneChurch",
             "bottom,right",
@@ -13303,7 +13496,7 @@
         ],
         [
             "StoneChurch",
-            "south",
+            "south ",
             "bottom,left",
             "LonelyLighthouse",
             "top,left",
@@ -13311,7 +13504,7 @@
         ],
         [
             "Transition(R~CH)",
-            "north",
+            "north ",
             "top,left",
             "Tunnel(RavineEast)",
             "bottom,right",
@@ -13319,7 +13512,7 @@
         ],
         [
             "Tunnel(RavineEast)",
-            "north",
+            "north ",
             "top,left",
             "Tunnel(RavineWest)",
             "bottom,right",
@@ -13327,7 +13520,7 @@
         ],
         [
             "Tunnel(RavineWest)",
-            "west",
+            "west ",
             "top,left",
             "Cave(EastRavine)",
             "bottom,right",
@@ -13335,7 +13528,7 @@
         ],
         [
             "Tunnel(RavineWest)",
-            "south",
+            "south ",
             "bottom,left",
             "Goating(Ravine)",
             "top,right",
@@ -13343,7 +13536,7 @@
         ],
         [
             "Cave(EastRavine)",
-            "west",
+            "west ",
             "top,left",
             "TrainCar(Ravine)",
             "bottom,right",
@@ -13351,7 +13544,7 @@
         ],
         [
             "Cave(EastRavine)",
-            "west",
+            "west ",
             "bottom,left",
             "POI(TreeBridge)",
             "top,right",
@@ -13359,7 +13552,7 @@
         ],
         [
             "TrainCar(Ravine)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(WestRavine)",
             "top,right",
@@ -13367,7 +13560,7 @@
         ],
         [
             "TrainCar(Ravine)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(TreeBridge)",
             "top,right",
@@ -13375,7 +13568,7 @@
         ],
         [
             "Cave(WestRavine)",
-            "east",
+            "east ",
             "bottom,right",
             "POI(TreeBridge)",
             "top,left",
@@ -13383,7 +13576,7 @@
         ],
         [
             "Cave(WestRavine)",
-            "north",
+            "north ",
             "top,left",
             "Transition(R~ML)",
             "bottom,right",
@@ -13391,7 +13584,7 @@
         ],
         [
             "Cave(WestRavine)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(Ravine)",
             "top,left",
@@ -13399,7 +13592,7 @@
         ],
         [
             "POI(TreeBridge)",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(Ravine)",
             "top,right",
@@ -13407,7 +13600,7 @@
         ],
         [
             "Climb(Ravine)",
-            "east",
+            "east ",
             "bottom,right",
             "TrainCar(RavineBasin)",
             "top,left",
@@ -13415,7 +13608,7 @@
         ],
         [
             "Transition(R~ML)",
-            "west",
+            "west ",
             "top,left",
             "Transition(ML~R)",
             "top,right",
@@ -13423,7 +13616,7 @@
         ],
         [
             "Transition(ML~R)",
-            "north",
+            "north ",
             "top,right",
             "Trailer(DamEast)",
             "bottom,right",
@@ -13431,7 +13624,7 @@
         ],
         [
             "Trailer(DamEast)",
-            "west",
+            "west ",
             "top,left",
             "Trailer(DamWest)",
             "top,right",
@@ -13439,7 +13632,7 @@
         ],
         [
             "TrainCar(RavineBasin)",
-            "east",
+            "east ",
             "top,right",
             "Cave(SouthRavine)",
             "top,left",
@@ -13447,7 +13640,7 @@
         ],
         [
             "Cave(SouthRavine)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(R~BI)",
             "top,left",
@@ -13455,7 +13648,7 @@
         ],
         [
             "Cave(SouthRavine)",
-            "north",
+            "north ",
             "top,right",
             "Goating(Ravine)",
             "top,left",
@@ -13463,7 +13656,7 @@
         ],
         [
             "Transition(R~BI)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(BI~R)",
             "top,left",
@@ -13471,7 +13664,7 @@
         ],
         [
             "Transition(BI~R)",
-            "south",
+            "south ",
             "bottom,left",
             "PrepperCache(BI)",
             "top,left",
@@ -13479,7 +13672,7 @@
         ],
         [
             "PrepperCache(BI)",
-            "south",
+            "south ",
             "bottom,left",
             "PensiveLookout",
             "top,right",
@@ -13487,7 +13680,7 @@
         ],
         [
             "PrepperCache(BI)",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(UpperBI)",
             "bottom,left",
@@ -13495,7 +13688,7 @@
         ],
         [
             "Cave(BI~FM)",
-            "north",
+            "north ",
             "top,right",
             "Cave(FM~BI)",
             "bottom,right",
@@ -13503,7 +13696,7 @@
         ],
         [
             "Cave(BI~FM)",
-            "south",
+            "south ",
             "bottom,left",
             "HuntersBlind(NorthBI)",
             "top,right",
@@ -13511,7 +13704,7 @@
         ],
         [
             "Cave(BI~FM)",
-            "south",
+            "south ",
             "bottom,right",
             "BunkerAlpha",
             "top,left",
@@ -13519,7 +13712,7 @@
         ],
         [
             "Cave(FM~BI)",
-            "north",
+            "north ",
             "top,left",
             "AbandonedCamp(SE)",
             "bottom,right",
@@ -13527,7 +13720,7 @@
         ],
         [
             "Cave(FM~BI)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(MidSouthFM)",
             "bottom,right",
@@ -13535,7 +13728,7 @@
         ],
         [
             "Cave(FM~BI)",
-            "east",
+            "east ",
             "top,right",
             "POI(MuskegOverlook)",
             "bottom,left",
@@ -13543,7 +13736,7 @@
         ],
         [
             "WashedOutTrailer",
-            "north",
+            "north ",
             "top,left",
             "HuntersBlind(NorthBI)",
             "bottom,left",
@@ -13551,7 +13744,7 @@
         ],
         [
             "WashedOutTrailer",
-            "west",
+            "west ",
             "top,left",
             "HuntersBlind(SouthBI)",
             "top,right",
@@ -13559,7 +13752,7 @@
         ],
         [
             "WashedOutTrailer",
-            "south",
+            "south ",
             "bottom,right",
             "Trailer(Cannery)",
             "top,left",
@@ -13567,7 +13760,7 @@
         ],
         [
             "WashedOutTrailer",
-            "north",
+            "north ",
             "top,right",
             "HuntersBlind(FrozenDelta)",
             "bottom,right",
@@ -13575,7 +13768,7 @@
         ],
         [
             "WashedOutTrailer",
-            "east",
+            "east ",
             "top,right",
             "Cave(SaltDeposit)",
             "bottom,left",
@@ -13583,7 +13776,7 @@
         ],
         [
             "HuntersBlind(NorthBI)",
-            "west",
+            "west ",
             "top,left",
             "Cave(EastBI)",
             "top,right",
@@ -13591,7 +13784,7 @@
         ],
         [
             "HuntersBlind(SouthBI)",
-            "north",
+            "north ",
             "top,right",
             "Cave(EastBI)",
             "bottom,right",
@@ -13599,7 +13792,7 @@
         ],
         [
             "BunkerAlpha",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(SaltDeposit)",
             "top,right",
@@ -13607,7 +13800,7 @@
         ],
         [
             "BunkerAlpha",
-            "east",
+            "east ",
             "top,right",
             "POI(SecretMountainCamp)",
             "top,left",
@@ -13615,7 +13808,7 @@
         ],
         [
             "Cave(SaltDeposit)",
-            "west",
+            "west ",
             "top,left",
             "HuntersBlind(FrozenDelta)",
             "top,right",
@@ -13623,7 +13816,7 @@
         ],
         [
             "PensiveLookout",
-            "north",
+            "north ",
             "top,left",
             "POI(CampAboveCoastMountainRoad)",
             "bottom,left",
@@ -13631,7 +13824,7 @@
         ],
         [
             "PensiveLookout",
-            "north",
+            "north ",
             "top,right",
             "Cave(UpperBI)",
             "bottom,left",
@@ -13639,7 +13832,7 @@
         ],
         [
             "PensiveLookout",
-            "west",
+            "west ",
             "top,left",
             "EchoOneRadioTower",
             "top,right",
@@ -13647,7 +13840,7 @@
         ],
         [
             "PensiveLookout",
-            "south",
+            "south ",
             "top,right",
             "Climb(BI)",
             "top,left",
@@ -13655,7 +13848,7 @@
         ],
         [
             "Cave(UpperBI)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(BI)",
             "top,right",
@@ -13663,7 +13856,7 @@
         ],
         [
             "Cave(UpperBI)",
-            "south",
+            "south ",
             "bottom,right",
             "Cabin(LowerRaven)",
             "top,right",
@@ -13671,7 +13864,7 @@
         ],
         [
             "Climb(BI)",
-            "east",
+            "east ",
             "top,right",
             "Cabin(LowerRaven)",
             "top,left",
@@ -13679,7 +13872,7 @@
         ],
         [
             "Cabin(LowerRaven)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(SaltBear)",
             "top,right",
@@ -13687,7 +13880,7 @@
         ],
         [
             "EchoOneRadioTower",
-            "south",
+            "south ",
             "bottom,right",
             "POI(SecretMountainPath)",
             "top,right",
@@ -13695,7 +13888,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "west",
+            "west ",
             "top,left",
             "Cars(LongBridge)",
             "top,right",
@@ -13703,7 +13896,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "west",
+            "west ",
             "bottom,left",
             "FishHut(CRW)",
             "top,right",
@@ -13711,7 +13904,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "south",
+            "south ",
             "bottom,left",
             "FallenLighthouse",
             "top,left",
@@ -13719,7 +13912,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "east",
+            "east ",
             "top,right",
             "Cave(SaltBear)",
             "top,left",
@@ -13727,7 +13920,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "south",
+            "south ",
             "bottom,right",
             "FishHut(EastBI)",
             "top,right",
@@ -13735,7 +13928,7 @@
         ],
         [
             "CanneryWorkerResidences",
-            "north",
+            "north ",
             "top,right",
             "POI(SecretMountainPath)",
             "bottom,right",
@@ -13743,7 +13936,7 @@
         ],
         [
             "Cars(LongBridge)",
-            "west",
+            "west ",
             "top,left",
             "Trailer(Cannery)",
             "top,right",
@@ -13751,7 +13944,7 @@
         ],
         [
             "Trailer(Cannery)",
-            "west",
+            "west ",
             "top,left",
             "Trailers(WestOfCannery)",
             "top,right",
@@ -13759,7 +13952,7 @@
         ],
         [
             "Trailer(Cannery)",
-            "south",
+            "south ",
             "bottom,right",
             "Warehouse1",
             "top,right",
@@ -13767,7 +13960,7 @@
         ],
         [
             "Trailer(Cannery)",
-            "south",
+            "south ",
             "bottom,left",
             "Warehouse4",
             "top,left",
@@ -13775,7 +13968,7 @@
         ],
         [
             "FishHut(CRW)",
-            "west",
+            "west ",
             "top,left",
             "Kitchen(Cannery)",
             "bottom,right",
@@ -13783,7 +13976,7 @@
         ],
         [
             "FallenLighthouse",
-            "east",
+            "east ",
             "top,right",
             "FishHut(EastBI)",
             "top,left",
@@ -13791,7 +13984,7 @@
         ],
         [
             "FishHut(EastBI)",
-            "north",
+            "north ",
             "top,right",
             "Cave(SaltBear)",
             "bottom,right",
@@ -13799,7 +13992,7 @@
         ],
         [
             "Kitchen(Cannery)",
-            "north",
+            "north ",
             "top,left",
             "Warehouse2",
             "bottom,left",
@@ -13807,7 +14000,7 @@
         ],
         [
             "Kitchen(Cannery)",
-            "west",
+            "west ",
             "top,left",
             "Workshop(Cannery)",
             "top,right",
@@ -13815,7 +14008,7 @@
         ],
         [
             "Warehouse2",
-            "north",
+            "north ",
             "top,right",
             "Warehouse1",
             "bottom,right",
@@ -13823,7 +14016,7 @@
         ],
         [
             "Warehouse2",
-            "west",
+            "west ",
             "bottom,left",
             "Warehouse4",
             "bottom,right",
@@ -13831,7 +14024,7 @@
         ],
         [
             "Trailers(WestOfCannery)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(FarIsland)",
             "bottom,right",
@@ -13839,7 +14032,7 @@
         ],
         [
             "Workshop(Cannery)",
-            "east",
+            "east ",
             "bottom,right",
             "POI(CanneryPier)",
             "bottom,left",
@@ -13847,7 +14040,7 @@
         ],
         [
             "Workshop(Cannery)",
-            "north",
+            "north ",
             "top,left",
             "Warehouse3",
             "bottom,left",
@@ -13855,7 +14048,7 @@
         ],
         [
             "Warehouse4",
-            "south",
+            "south ",
             "bottom,left",
             "Warehouse3",
             "top,left",
@@ -13863,7 +14056,7 @@
         ],
         [
             "POI(SecretMountainPath)",
-            "west",
+            "west ",
             "top,left",
             "POI(SecretMountainCamp)",
             "bottom,right",
@@ -13871,7 +14064,7 @@
         ],
         [
             "Transition(ML~FM)",
-            "west",
+            "west ",
             "top,left",
             "Transition(FM~ML)",
             "top,right",
@@ -13879,7 +14072,7 @@
         ],
         [
             "Transition(ML~FM)",
-            "north",
+            "north ",
             "top,left",
             "TrappersHomestead",
             "bottom,left",
@@ -13887,7 +14080,7 @@
         ],
         [
             "Transition(ML~FM)",
-            "east",
+            "east ",
             "top,right",
             "POI(MidRailArea)",
             "top,left",
@@ -13895,7 +14088,7 @@
         ],
         [
             "Transition(ML~FM)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(PrepperCache)",
             "top,left",
@@ -13903,7 +14096,7 @@
         ],
         [
             "Transition(FM~ML)",
-            "west",
+            "west ",
             "top,left",
             "POI(EasternFMRailroad)",
             "top,right",
@@ -13911,7 +14104,7 @@
         ],
         [
             "PoachersCamp",
-            "east",
+            "east ",
             "top,right",
             "POI(EasternFMRailroad)",
             "top,left",
@@ -13919,7 +14112,7 @@
         ],
         [
             "PoachersCamp",
-            "west",
+            "west ",
             "top,left",
             "POI(CentralFMRailroad)",
             "top,right",
@@ -13927,7 +14120,7 @@
         ],
         [
             "PoachersCamp",
-            "south",
+            "south ",
             "bottom,left",
             "POI(IslandsSouthOfPoacher)",
             "top,left",
@@ -13935,7 +14128,7 @@
         ],
         [
             "PoachersCamp",
-            "north",
+            "north ",
             "top,right",
             "ShallowBearCave(EastFM)",
             "bottom,right",
@@ -13943,7 +14136,7 @@
         ],
         [
             "POI(EasternFMRailroad)",
-            "south",
+            "south ",
             "bottom,left",
             "AbandonedCamp(NE)",
             "top,left",
@@ -13951,7 +14144,7 @@
         ],
         [
             "POI(CentralFMRailroad)",
-            "west",
+            "west ",
             "top,left",
             "POI(WesternFMRailroad)",
             "top,right",
@@ -13959,7 +14152,7 @@
         ],
         [
             "POI(CentralFMRailroad)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(CentralFMIsland)",
             "top,right",
@@ -13967,7 +14160,7 @@
         ],
         [
             "POI(WesternFMRailroad)",
-            "west",
+            "west ",
             "top,left",
             "Transition(FM~BR)",
             "top,right",
@@ -13975,7 +14168,7 @@
         ],
         [
             "POI(WesternFMRailroad)",
-            "north",
+            "north ",
             "top,right",
             "LowBlind",
             "bottom,right",
@@ -13983,7 +14176,7 @@
         ],
         [
             "POI(WesternFMRailroad)",
-            "south",
+            "south ",
             "bottom,left",
             "AbandonedCamp(SW)",
             "top,right",
@@ -13991,7 +14184,7 @@
         ],
         [
             "Transition(FM~BR)",
-            "west",
+            "west ",
             "top,left",
             "Transition(BR~FM)",
             "top,right",
@@ -13999,7 +14192,7 @@
         ],
         [
             "Transition(FM~MT)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(MarshRidge)",
             "top,left",
@@ -14007,7 +14200,7 @@
         ],
         [
             "Transition(FM~MT)",
-            "north",
+            "north ",
             "top,left",
             "Transition(MT~FM)",
             "bottom,right",
@@ -14015,7 +14208,7 @@
         ],
         [
             "Cave(MarshRidge)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MarshRidge)",
             "top,right",
@@ -14023,7 +14216,7 @@
         ],
         [
             "Cave(MarshRidge)",
-            "west",
+            "west ",
             "bottom,left",
             "Shelter(MarshRidge)",
             "bottom,right",
@@ -14031,7 +14224,7 @@
         ],
         [
             "Cave(MarshRidge)",
-            "east",
+            "east ",
             "top,right",
             "Cave(Waterfall)",
             "top,left",
@@ -14039,7 +14232,7 @@
         ],
         [
             "Transition(BR~FM)",
-            "west",
+            "west ",
             "top,left",
             "POI(LocomotiveEngine)",
             "top,right",
@@ -14047,7 +14240,7 @@
         ],
         [
             "POI(IslandsSouthOfPoacher)",
-            "south",
+            "south ",
             "bottom,left",
             "AbandonedCamp(SE)",
             "top,right",
@@ -14055,7 +14248,7 @@
         ],
         [
             "AbandonedCamp(SE)",
-            "north",
+            "north ",
             "top,right",
             "AbandonedCamp(NE)",
             "bottom,left",
@@ -14063,7 +14256,7 @@
         ],
         [
             "AbandonedCamp(SE)",
-            "west",
+            "west ",
             "top,left",
             "HighBlind",
             "bottom,right",
@@ -14071,7 +14264,7 @@
         ],
         [
             "LowBlind",
-            "north",
+            "north ",
             "top,left",
             "AbandonedCamp(NW)",
             "bottom,left",
@@ -14079,7 +14272,7 @@
         ],
         [
             "AbandonedCamp(NW)",
-            "north",
+            "north ",
             "top,left",
             "Climb(MarshRidge)",
             "bottom,left",
@@ -14087,7 +14280,7 @@
         ],
         [
             "ShallowBearCave(EastFM)",
-            "north",
+            "north ",
             "top,right",
             "Cave(NortheastFM)",
             "bottom,right",
@@ -14095,7 +14288,7 @@
         ],
         [
             "Cave(NortheastFM)",
-            "west",
+            "west ",
             "top,left",
             "POI(ShortwaveTower)",
             "top,right",
@@ -14103,7 +14296,7 @@
         ],
         [
             "Cave(Waterfall)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(ShortwaveTower)",
             "top,left",
@@ -14111,7 +14304,7 @@
         ],
         [
             "SpenceFarmstead",
-            "north",
+            "north ",
             "top,left",
             "Cave(WestAntenna)",
             "bottom,right",
@@ -14119,7 +14312,7 @@
         ],
         [
             "SpenceFarmstead",
-            "east",
+            "east ",
             "bottom,right",
             "PrepperCache(FM)",
             "bottom,left",
@@ -14127,7 +14320,7 @@
         ],
         [
             "SpenceFarmstead",
-            "north",
+            "north ",
             "top,right",
             "Barn(NorthOfSpence)",
             "bottom,left",
@@ -14135,7 +14328,7 @@
         ],
         [
             "Cave(WestAntenna)",
-            "north",
+            "north ",
             "top,left",
             "AbandonedCamp(SW)",
             "bottom,left",
@@ -14143,7 +14336,7 @@
         ],
         [
             "PrepperCache(FM)",
-            "east",
+            "east ",
             "top,right",
             "POI(Bunkhouses)",
             "top,left",
@@ -14151,7 +14344,7 @@
         ],
         [
             "POI(Bunkhouses)",
-            "east",
+            "east ",
             "top,right",
             "Cave(MidSouthFM)",
             "top,left",
@@ -14159,7 +14352,7 @@
         ],
         [
             "Barn(NorthOfSpence)",
-            "north",
+            "north ",
             "top,left",
             "POI(CentralFMIsland)",
             "bottom,left",
@@ -14167,7 +14360,7 @@
         ],
         [
             "POI(CentralFMIsland)",
-            "east",
+            "east ",
             "bottom,right",
             "POI(RockArch)",
             "top,left",
@@ -14175,7 +14368,7 @@
         ],
         [
             "POI(RockArch)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(MidSouthFM)",
             "top,left",
@@ -14183,7 +14376,7 @@
         ],
         [
             "POI(RockArch)",
-            "east",
+            "east ",
             "bottom,right",
             "HighBlind",
             "bottom,left",
@@ -14191,7 +14384,7 @@
         ],
         [
             "Cave(MidSouthFM)",
-            "north",
+            "north ",
             "top,right",
             "HighBlind",
             "bottom,right",
@@ -14199,7 +14392,7 @@
         ],
         [
             "POI(MuskegOverlook)",
-            "east",
+            "east ",
             "top,right",
             "Helicopter(MuskegOverlook)",
             "top,left",
@@ -14207,7 +14400,7 @@
         ],
         [
             "TrappersHomestead",
-            "west",
+            "west ",
             "top,left",
             "Cave(ML~MT)",
             "top,right",
@@ -14215,7 +14408,7 @@
         ],
         [
             "TrappersHomestead",
-            "east",
+            "east ",
             "top,right",
             "HuntersBlind(UnnamedPond)",
             "top,left",
@@ -14223,7 +14416,7 @@
         ],
         [
             "TrappersHomestead",
-            "east",
+            "east ",
             "bottom,right",
             "POI(DeadfallArea)",
             "bottom,left",
@@ -14231,7 +14424,7 @@
         ],
         [
             "UpperDam",
-            "south",
+            "south ",
             "bottom,left",
             "Trailer(DamWest)",
             "top,left",
@@ -14239,7 +14432,7 @@
         ],
         [
             "UpperDam",
-            "east",
+            "east ",
             "bottom,right",
             "Transition(ML~WR)",
             "bottom,left",
@@ -14247,7 +14440,7 @@
         ],
         [
             "Trailer(DamWest)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(RiverNorthernAccess)",
             "top,right",
@@ -14255,7 +14448,7 @@
         ],
         [
             "Trailer(DamWest)",
-            "west",
+            "west ",
             "top,left",
             "TrainCar(TrainLoading)",
             "top,right",
@@ -14263,7 +14456,7 @@
         ],
         [
             "POI(RiverNorthernAccess)",
-            "south",
+            "south ",
             "bottom,right",
             "HuntersBlind(AlansCave)",
             "top,right",
@@ -14271,7 +14464,7 @@
         ],
         [
             "POI(RiverNorthernAccess)",
-            "west",
+            "west ",
             "top,left",
             "Cave(LakeOverlook)",
             "top,right",
@@ -14279,7 +14472,7 @@
         ],
         [
             "TrainCar(TrainLoading)",
-            "west",
+            "west ",
             "top,left",
             "TrainCar(Derailment)",
             "top,right",
@@ -14287,7 +14480,7 @@
         ],
         [
             "TrainCar(TrainLoading)",
-            "north",
+            "north ",
             "top,right",
             "Trailers(LoggingCamp)",
             "bottom,right",
@@ -14295,7 +14488,7 @@
         ],
         [
             "HuntersBlind(AlansCave)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(ML-LO1)",
             "top,right",
@@ -14303,7 +14496,7 @@
         ],
         [
             "Cave(LakeOverlook)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(ML-LO2)",
             "top,right",
@@ -14311,7 +14504,7 @@
         ],
         [
             "Cave(LakeOverlook)",
-            "west",
+            "west ",
             "top,left",
             "POI(CentralMLRail)",
             "bottom,right",
@@ -14319,7 +14512,7 @@
         ],
         [
             "Climb(ML-LO2)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(ML-LO1)",
             "top,right",
@@ -14327,7 +14520,7 @@
         ],
         [
             "POI(DestroyedLookout)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(FC-DL)",
             "top,left",
@@ -14335,7 +14528,7 @@
         ],
         [
             "POI(DestroyedLookout)",
-            "north",
+            "north ",
             "top,left",
             "POI(Clearcut)",
             "bottom,left",
@@ -14343,7 +14536,7 @@
         ],
         [
             "Climb(FC-DL)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(FrozenCreek)",
             "top,left",
@@ -14351,7 +14544,7 @@
         ],
         [
             "POI(FrozenCreek)",
-            "south",
+            "south ",
             "bottom,left",
             "ForestryLookout",
             "top,left",
@@ -14359,7 +14552,7 @@
         ],
         [
             "ForestryLookout",
-            "south",
+            "south ",
             "bottom,left",
             "PlaneCrash(ML)",
             "top,left",
@@ -14367,7 +14560,7 @@
         ],
         [
             "ForestryLookout",
-            "east",
+            "east ",
             "bottom,right",
             "Trailers(LoggingCamp)",
             "top,left",
@@ -14375,7 +14568,7 @@
         ],
         [
             "Climb(ML-LO1)",
-            "west",
+            "west ",
             "bottom,left",
             "FishHuts(ML)",
             "top,right",
@@ -14383,7 +14576,7 @@
         ],
         [
             "FishHuts(ML)",
-            "south",
+            "south ",
             "bottom,left",
             "Cabins(MiddleLake)",
             "top,left",
@@ -14391,7 +14584,7 @@
         ],
         [
             "FishHuts(ML)",
-            "north",
+            "north ",
             "top,left",
             "CampOffice",
             "bottom,left",
@@ -14399,7 +14592,7 @@
         ],
         [
             "TrainCar(Derailment)",
-            "west",
+            "west ",
             "top,left",
             "POI(CentralMLRail)",
             "top,right",
@@ -14407,7 +14600,7 @@
         ],
         [
             "TrainCar(Derailment)",
-            "north",
+            "north ",
             "top,left",
             "PlaneCrash(ML)",
             "bottom,right",
@@ -14415,7 +14608,7 @@
         ],
         [
             "POI(CentralMLRail)",
-            "west",
+            "west ",
             "top,left",
             "POI(MidRailArea)",
             "top,right",
@@ -14423,7 +14616,7 @@
         ],
         [
             "POI(CentralMLRail)",
-            "west",
+            "west ",
             "bottom,left",
             "CampOffice",
             "top,right",
@@ -14431,7 +14624,7 @@
         ],
         [
             "Cabins(MiddleLake)",
-            "east",
+            "east ",
             "top,right",
             "Cabin(LoneLake)",
             "top,left",
@@ -14439,7 +14632,7 @@
         ],
         [
             "Cabins(MiddleLake)",
-            "west",
+            "west ",
             "top,left",
             "Cabins(Lake)",
             "top,right",
@@ -14447,7 +14640,7 @@
         ],
         [
             "POI(MidRailArea)",
-            "east",
+            "east ",
             "bottom,right",
             "CampOffice",
             "top,left",
@@ -14455,7 +14648,7 @@
         ],
         [
             "POI(Clearcut)",
-            "west",
+            "west ",
             "top,left",
             "Cabin(UnnamedPond)",
             "bottom,right",
@@ -14463,7 +14656,7 @@
         ],
         [
             "Cabin(UnnamedPond)",
-            "west",
+            "west ",
             "top,left",
             "HuntersBlind(UnnamedPond)",
             "top,right",
@@ -14471,7 +14664,7 @@
         ],
         [
             "Cabins(Lake)",
-            "north",
+            "north ",
             "top,left",
             "Cave(WesternLakeCabins)",
             "bottom,right",
@@ -14479,7 +14672,7 @@
         ],
         [
             "CampOffice",
-            "west",
+            "west ",
             "bottom,left",
             "POI(DavesQuietClearing)",
             "bottom,right",
@@ -14487,7 +14680,7 @@
         ],
         [
             "Cave(ML~MT)",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(MT~ML)",
             "top,right",
@@ -14495,7 +14688,7 @@
         ],
         [
             "HuntersBlind(UnnamedPond)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(DeadfallArea)",
             "top,left",
@@ -14503,7 +14696,7 @@
         ],
         [
             "POI(DavesQuietClearing)",
-            "west",
+            "west ",
             "top,left",
             "PrepperCache(ML)",
             "bottom,right",
@@ -14511,7 +14704,7 @@
         ],
         [
             "PrepperCache(ML)",
-            "west",
+            "west ",
             "top,left",
             "Cave(PrepperCache)",
             "top,right",
@@ -14519,7 +14712,7 @@
         ],
         [
             "PrepperCache(ML)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(ML-PC)",
             "top,left",
@@ -14527,7 +14720,7 @@
         ],
         [
             "Climb(ML-PC)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(WesternLakeCabins)",
             "top,left",
@@ -14535,7 +14728,7 @@
         ],
         [
             "Transition(ML~WR)",
-            "east",
+            "east ",
             "bottom,right",
             "Transition(WR~ML)",
             "bottom,left",
@@ -14543,7 +14736,7 @@
         ],
         [
             "Transition(WR~ML)",
-            "east",
+            "east ",
             "bottom,right",
             "LowerDam",
             "bottom,left",
@@ -14551,7 +14744,7 @@
         ],
         [
             "LowerDam",
-            "north",
+            "north ",
             "top,right",
             "Cave(WindingRiver)",
             "bottom,left",
@@ -14559,7 +14752,7 @@
         ],
         [
             "Cave(WindingRiver)",
-            "north",
+            "north ",
             "top,right",
             "Cave(WR~PV)",
             "bottom,left",
@@ -14567,7 +14760,7 @@
         ],
         [
             "Cave(WR~PV)",
-            "east",
+            "east ",
             "bottom,right",
             "Transition(WR~PV)",
             "bottom,left",
@@ -14575,7 +14768,7 @@
         ],
         [
             "Transition(WR~PV)",
-            "east",
+            "east ",
             "bottom,right",
             "Transition(PV~WR)",
             "bottom,left",
@@ -14583,7 +14776,7 @@
         ],
         [
             "Cave(MT~ML)",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(MP-R)",
             "top,right",
@@ -14591,7 +14784,7 @@
         ],
         [
             "Climb(MP-PA)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(RockyRefuge)",
             "top,right",
@@ -14599,7 +14792,7 @@
         ],
         [
             "Climb(MP-PA)",
-            "east",
+            "east ",
             "bottom,right",
             "PicnicArea",
             "bottom,left",
@@ -14607,7 +14800,7 @@
         ],
         [
             "Climb(MP-PA)",
-            "west",
+            "west ",
             "bottom,left",
             "ParadiseMeadowsFarm",
             "bottom,right",
@@ -14615,7 +14808,7 @@
         ],
         [
             "Climb(MP-PA)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(BetweenParkClimbs)",
             "top,left",
@@ -14623,7 +14816,7 @@
         ],
         [
             "POI(RockyRefuge)",
-            "north",
+            "north ",
             "top,left",
             "Climb(MB-PMF1)",
             "bottom,right",
@@ -14631,7 +14824,7 @@
         ],
         [
             "POI(RockyRefuge)",
-            "south",
+            "south ",
             "bottom,right",
             "Cave(MiltonBasin)",
             "top,left",
@@ -14639,7 +14832,7 @@
         ],
         [
             "POI(RockyRefuge)",
-            "south",
+            "south ",
             "bottom,left",
             "HermitsCabin",
             "top,right",
@@ -14647,7 +14840,7 @@
         ],
         [
             "PicnicArea",
-            "north",
+            "north ",
             "top,left",
             "Orca",
             "bottom,left",
@@ -14655,7 +14848,7 @@
         ],
         [
             "ParadiseMeadowsFarm",
-            "north",
+            "north ",
             "top,left",
             "StChristophers",
             "bottom,left",
@@ -14663,7 +14856,7 @@
         ],
         [
             "ParadiseMeadowsFarm",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MB-PMF2)",
             "top,right",
@@ -14671,7 +14864,7 @@
         ],
         [
             "Cave(BetweenParkClimbs)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MP-R)",
             "top,right",
@@ -14679,7 +14872,7 @@
         ],
         [
             "Orca",
-            "north",
+            "north ",
             "top,left",
             "Houses(MiltonSE)",
             "bottom,left",
@@ -14687,7 +14880,7 @@
         ],
         [
             "Orca",
-            "east",
+            "east ",
             "bottom,right",
             "POI(WoodLotArea)",
             "bottom,left",
@@ -14695,7 +14888,7 @@
         ],
         [
             "Houses(MiltonSE)",
-            "west",
+            "west ",
             "bottom,left",
             "Houses(MiltonSW)",
             "bottom,right",
@@ -14703,7 +14896,7 @@
         ],
         [
             "Houses(MiltonSE)",
-            "north",
+            "north ",
             "top,left",
             "PostOffice",
             "bottom,right",
@@ -14711,7 +14904,7 @@
         ],
         [
             "Houses(MiltonNE)",
-            "north",
+            "north ",
             "top,right",
             "Greymother",
             "bottom,right",
@@ -14719,7 +14912,7 @@
         ],
         [
             "Houses(MiltonNE)",
-            "south",
+            "south ",
             "bottom,left",
             "PostOffice",
             "top,right",
@@ -14727,7 +14920,7 @@
         ],
         [
             "Greymother",
-            "south",
+            "south ",
             "bottom,left",
             "Houses(MiltonNW)",
             "top,right",
@@ -14735,7 +14928,7 @@
         ],
         [
             "Greymother",
-            "east",
+            "east ",
             "top,right",
             "Cave(RadioTower)",
             "top,left",
@@ -14743,7 +14936,7 @@
         ],
         [
             "Greymother",
-            "west",
+            "west ",
             "top,left",
             "Cave(Graveyard)",
             "top,right",
@@ -14751,7 +14944,7 @@
         ],
         [
             "PostOffice",
-            "west",
+            "west ",
             "bottom,left",
             "CreditUnion",
             "bottom,right",
@@ -14759,7 +14952,7 @@
         ],
         [
             "CreditUnion",
-            "north",
+            "north ",
             "top,left",
             "Houses(MiltonNW)",
             "bottom,right",
@@ -14767,7 +14960,7 @@
         ],
         [
             "Houses(MiltonNW)",
-            "west",
+            "west ",
             "top,left",
             "StChristophers",
             "top,right",
@@ -14775,7 +14968,7 @@
         ],
         [
             "Cave(RadioTower)",
-            "east",
+            "east ",
             "top,right",
             "CrashedPlane(Mackenzie)",
             "top,left",
@@ -14783,7 +14976,7 @@
         ],
         [
             "Cave(RadioTower)",
-            "north",
+            "north ",
             "top,right",
             "Cave(OutOfTheWay)",
             "bottom,right",
@@ -14791,7 +14984,7 @@
         ],
         [
             "CrashedPlane(Mackenzie)",
-            "north",
+            "north ",
             "top,left",
             "PrepperCache(MT)",
             "bottom,left",
@@ -14799,7 +14992,7 @@
         ],
         [
             "PrepperCache(MT)",
-            "east",
+            "east ",
             "top,right",
             "Cave(SpruceToCrashSouth)",
             "top,left",
@@ -14807,7 +15000,7 @@
         ],
         [
             "Cave(SpruceToCrashSouth)",
-            "north",
+            "north ",
             "top,right",
             "Cave(SpruceToCrashNorth)",
             "bottom,right",
@@ -14815,7 +15008,7 @@
         ],
         [
             "Cave(SpruceToCrashNorth)",
-            "west",
+            "west ",
             "top,left",
             "BearCave(SpruceFallsBridge)",
             "bottom,right",
@@ -14823,7 +15016,7 @@
         ],
         [
             "Cave(Graveyard)",
-            "west",
+            "west ",
             "bottom,left",
             "StChristophers",
             "top,right",
@@ -14831,7 +15024,7 @@
         ],
         [
             "Cave(Graveyard)",
-            "north",
+            "north ",
             "top,left",
             "Trailer(MT)",
             "bottom,right",
@@ -14839,7 +15032,7 @@
         ],
         [
             "Cave(Graveyard)",
-            "north",
+            "north ",
             "top,right",
             "Cave(MT~HRV)",
             "bottom,left",
@@ -14847,7 +15040,7 @@
         ],
         [
             "StChristophers",
-            "north",
+            "north ",
             "top,left",
             "Trailer(MT)",
             "bottom,left",
@@ -14855,7 +15048,7 @@
         ],
         [
             "Trailer(MT)",
-            "east",
+            "east ",
             "top,right",
             "Cave(MT~HRV)",
             "top,left",
@@ -14863,7 +15056,7 @@
         ],
         [
             "Cave(MT~HRV)",
-            "east",
+            "east ",
             "top,right",
             "BearCave(SpruceFallsBridge)",
             "top,left",
@@ -14871,7 +15064,7 @@
         ],
         [
             "Cave(MT~HRV)",
-            "north",
+            "north ",
             "top,left",
             "Transition(MT~HRV)",
             "bottom,left",
@@ -14879,7 +15072,7 @@
         ],
         [
             "Climb(MB-PMF2)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MB-PMF1)",
             "top,right",
@@ -14887,7 +15080,7 @@
         ],
         [
             "Cave(MiltonBasin)",
-            "west",
+            "west ",
             "top,left",
             "HermitsCabin",
             "top,right",
@@ -14895,7 +15088,7 @@
         ],
         [
             "HermitsCabin",
-            "south",
+            "south ",
             "bottom,right",
             "Transition(MT~FM)",
             "top,left",
@@ -14903,7 +15096,7 @@
         ],
         [
             "Cave(HRV~MT)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(HRV~MT)",
             "top,left",
@@ -14911,7 +15104,7 @@
         ],
         [
             "Cave(HRV~MT)",
-            "north",
+            "north ",
             "top,left",
             "PrepperCache(HRV)",
             "bottom,right",
@@ -14919,7 +15112,7 @@
         ],
         [
             "Cave(HRV~MT)",
-            "west",
+            "west ",
             "bottom,left",
             "SnowShelter(CloudtopFalls)",
             "top,right",
@@ -14927,7 +15120,7 @@
         ],
         [
             "Cave(HRV~MT)",
-            "north",
+            "north ",
             "top,right",
             "LonelyCave",
             "bottom,left",
@@ -14935,7 +15128,7 @@
         ],
         [
             "Transition(HRV~MT)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(MT~HRV)",
             "top,left",
@@ -14943,7 +15136,7 @@
         ],
         [
             "SnowShelter(CloudtopFalls)",
-            "west",
+            "west ",
             "top,left",
             "BunkerGamma",
             "bottom,right",
@@ -14951,7 +15144,7 @@
         ],
         [
             "BunkerGamma",
-            "north",
+            "north ",
             "top,right",
             "IceCave(ReclusiveFalls)",
             "bottom,left",
@@ -14959,7 +15152,7 @@
         ],
         [
             "BunkerGamma",
-            "east",
+            "east ",
             "top,right",
             "Cave(EastOfStairsteps)",
             "top,left",
@@ -14967,7 +15160,7 @@
         ],
         [
             "BunkerGamma",
-            "east",
+            "east ",
             "top,right",
             "SnowShelter(ReclusiveFalls)",
             "bottom,left",
@@ -14975,7 +15168,7 @@
         ],
         [
             "PrepperCache(HRV)",
-            "east",
+            "east ",
             "top,right",
             "LonelyCave",
             "top,left",
@@ -14983,7 +15176,7 @@
         ],
         [
             "IceCave(ReclusiveFalls)",
-            "north",
+            "north ",
             "top,left",
             "IceCave(West)",
             "bottom,left",
@@ -14991,7 +15184,7 @@
         ],
         [
             "IceCave(ReclusiveFalls)",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(HushedRiver)",
             "bottom,left",
@@ -14999,7 +15192,7 @@
         ],
         [
             "Cave(EastOfStairsteps)",
-            "north",
+            "north ",
             "top,right",
             "SnowShelter(ValleyViewPoint)",
             "bottom,left",
@@ -15007,7 +15200,7 @@
         ],
         [
             "Cave(EastOfStairsteps)",
-            "east",
+            "east ",
             "top,right",
             "IceCave(SketchyValleyViewPoint)",
             "top,left",
@@ -15015,7 +15208,7 @@
         ],
         [
             "IceCave(SketchyValleyViewPoint)",
-            "west",
+            "west ",
             "top,left",
             "POI(CampAboveValleyViewPoint)",
             "top,right",
@@ -15023,7 +15216,7 @@
         ],
         [
             "IceCave(SketchyValleyViewPoint)",
-            "south",
+            "south ",
             "bottom,right",
             "IceCave(SketchySouth)",
             "top,right",
@@ -15031,7 +15224,7 @@
         ],
         [
             "IceCave(SketchyValleyViewPoint)",
-            "north",
+            "north ",
             "top,right",
             "IceCave(SketchyLongShot)",
             "bottom,right",
@@ -15039,7 +15232,7 @@
         ],
         [
             "IceCave(SketchySouth)",
-            "east",
+            "east ",
             "top,right",
             "SignalFire(South)",
             "top,left",
@@ -15047,7 +15240,7 @@
         ],
         [
             "IceCave(SketchySouth)",
-            "west",
+            "west ",
             "top,left",
             "LonelyCave",
             "top,right",
@@ -15055,7 +15248,7 @@
         ],
         [
             "SignalFire(South)",
-            "north",
+            "north ",
             "top,left",
             "Climb(MFV-SMSF)",
             "bottom,right",
@@ -15063,7 +15256,7 @@
         ],
         [
             "IceCave(West)",
-            "north",
+            "north ",
             "top,right",
             "IceCave(MammothFalls)",
             "bottom,right",
@@ -15071,7 +15264,7 @@
         ],
         [
             "IceCave(West)",
-            "west",
+            "west ",
             "top,left",
             "Cave(WestOfMammothFalls)",
             "bottom,right",
@@ -15079,7 +15272,7 @@
         ],
         [
             "IceCave(West)",
-            "east",
+            "east ",
             "bottom,right",
             "IceCave(SketchyLongShot)",
             "bottom,left",
@@ -15087,7 +15280,7 @@
         ],
         [
             "Cave(HushedRiver)",
-            "north",
+            "north ",
             "top,left",
             "Climb(HR-NWA)",
             "bottom,right",
@@ -15095,7 +15288,7 @@
         ],
         [
             "IceCave(MammothFalls)",
-            "east",
+            "east ",
             "top,right",
             "SignalFire(North)",
             "top,left",
@@ -15103,7 +15296,7 @@
         ],
         [
             "IceCave(MammothFalls)",
-            "west",
+            "west ",
             "top,left",
             "Cave(WestOfMammothFalls)",
             "top,right",
@@ -15111,7 +15304,7 @@
         ],
         [
             "IceCave(MammothFalls)",
-            "north",
+            "north ",
             "top,right",
             "LakeCave",
             "bottom,left",
@@ -15119,7 +15312,7 @@
         ],
         [
             "SignalFire(North)",
-            "east",
+            "east ",
             "top,right",
             "Cave(PensiveVista)",
             "top,left",
@@ -15127,7 +15320,7 @@
         ],
         [
             "Cave(PensiveVista)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(VC-PV2)",
             "top,right",
@@ -15135,7 +15328,7 @@
         ],
         [
             "Cave(PensiveVista)",
-            "north",
+            "north ",
             "top,right",
             "PeakCave",
             "bottom,right",
@@ -15143,7 +15336,7 @@
         ],
         [
             "Climb(VC-PV2)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(VC-PV1)",
             "top,right",
@@ -15151,7 +15344,7 @@
         ],
         [
             "Climb(VC-PV1)",
-            "south",
+            "south ",
             "bottom,right",
             "ValleyCave",
             "top,right",
@@ -15159,7 +15352,7 @@
         ],
         [
             "ValleyCave",
-            "east",
+            "east ",
             "top,right",
             "POI(Landslide)",
             "top,left",
@@ -15167,7 +15360,7 @@
         ],
         [
             "ValleyCave",
-            "south",
+            "south ",
             "bottom,right",
             "POI(MooseOverlook)",
             "top,left",
@@ -15175,7 +15368,7 @@
         ],
         [
             "PeakCave",
-            "north",
+            "north ",
             "bottom,left",
             "LakeCave",
             "bottom,right",
@@ -15183,7 +15376,7 @@
         ],
         [
             "POI(MooseOverlook)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(VC-MFV)",
             "top,left",
@@ -15191,7 +15384,7 @@
         ],
         [
             "Climb(VC-MFV)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(MFV-SMSF)",
             "top,left",
@@ -15199,7 +15392,7 @@
         ],
         [
             "POI(LocomotiveEngine)",
-            "west",
+            "west ",
             "top,left",
             "MaintenanceYard",
             "top,right",
@@ -15207,7 +15400,7 @@
         ],
         [
             "MaintenanceYard",
-            "west",
+            "west ",
             "top,left",
             "TrainCar(BrokenBridge)",
             "top,right",
@@ -15215,7 +15408,7 @@
         ],
         [
             "MaintenanceYard",
-            "east",
+            "east ",
             "bottom,right",
             "MaintenanceShed",
             "top,right",
@@ -15223,7 +15416,7 @@
         ],
         [
             "MaintenanceYard",
-            "north",
+            "north ",
             "top,left",
             "Cave(BRHuntersBlind)",
             "bottom,left",
@@ -15231,7 +15424,7 @@
         ],
         [
             "MaintenanceYard",
-            "north",
+            "north ",
             "top,right",
             "Climb(RFB)",
             "bottom,left",
@@ -15239,7 +15432,7 @@
         ],
         [
             "TrainCar(BrokenBridge)",
-            "west",
+            "west ",
             "top,left",
             "Truck(BrokenBridge)",
             "top,right",
@@ -15247,7 +15440,7 @@
         ],
         [
             "Truck(BrokenBridge)",
-            "west",
+            "west ",
             "top,left",
             "Transition(BR~FRBL)",
             "top,right",
@@ -15255,7 +15448,7 @@
         ],
         [
             "Cave(BRHuntersBlind)",
-            "north",
+            "north ",
             "top,left",
             "Climb(HB-HL)",
             "bottom,left",
@@ -15263,7 +15456,7 @@
         ],
         [
             "Cave(BRHuntersBlind)",
-            "west",
+            "west ",
             "top,left",
             "Climb(BRRavine)",
             "top,right",
@@ -15271,7 +15464,7 @@
         ],
         [
             "Climb(HB-HL)",
-            "north",
+            "north ",
             "top,left",
             "HuntingLodge",
             "bottom,left",
@@ -15279,7 +15472,7 @@
         ],
         [
             "HuntingLodge",
-            "east",
+            "east ",
             "top,right",
             "Cave(NorthernBR)",
             "top,left",
@@ -15287,7 +15480,7 @@
         ],
         [
             "Cave(NorthernBR)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(RFB)",
             "top,right",
@@ -15295,7 +15488,7 @@
         ],
         [
             "Climb(BRRavine)",
-            "west",
+            "west ",
             "top,left",
             "POI(BRRavine)",
             "bottom,right",
@@ -15303,7 +15496,7 @@
         ],
         [
             "Transition(BR~FRBL)",
-            "west",
+            "west ",
             "top,left",
             "Transition(FRBL~BR)",
             "top,right",
@@ -15311,7 +15504,7 @@
         ],
         [
             "Transition(FRBL~BR)",
-            "west",
+            "west ",
             "top,left",
             "POI(RailOffice)",
             "top,right",
@@ -15319,7 +15512,7 @@
         ],
         [
             "POI(RailOffice)",
-            "west",
+            "west ",
             "top,left",
             "TrainCar(SurfeitTrestle)",
             "top,right",
@@ -15327,7 +15520,7 @@
         ],
         [
             "TrainCar(SurfeitTrestle)",
-            "west",
+            "west ",
             "top,left",
             "PlatelayersShortcut",
             "top,right",
@@ -15335,7 +15528,7 @@
         ],
         [
             "TrainCar(SurfeitTrestle)",
-            "north",
+            "north ",
             "top,right",
             "Climb(FRBL)",
             "bottom,right",
@@ -15343,7 +15536,7 @@
         ],
         [
             "PlatelayersShortcut",
-            "west",
+            "west ",
             "top,left",
             "RemnantCave",
             "top,right",
@@ -15351,7 +15544,7 @@
         ],
         [
             "RemnantCave",
-            "west",
+            "west ",
             "top,left",
             "Transition(FRBL~TP)",
             "top,right",
@@ -15359,7 +15552,7 @@
         ],
         [
             "Transition(FRBL~TP)",
-            "west",
+            "west ",
             "top,left",
             "Transition(TP~FRBL)",
             "top,right",
@@ -15367,7 +15560,7 @@
         ],
         [
             "Transition(TP~FRBL)",
-            "north",
+            "north ",
             "top,left",
             "FeedwaterCave",
             "bottom,right",
@@ -15375,7 +15568,7 @@
         ],
         [
             "FeedwaterCave",
-            "north",
+            "north ",
             "top,right",
             "VacantDepot",
             "bottom,left",
@@ -15383,7 +15576,7 @@
         ],
         [
             "VacantDepot",
-            "east",
+            "east ",
             "top,right",
             "Transition(TP~ZOC)",
             "top,left",
@@ -15391,7 +15584,7 @@
         ],
         [
             "VacantDepot",
-            "west",
+            "west ",
             "top,left",
             "Transition(TP~FA)",
             "top,right",
@@ -15399,7 +15592,7 @@
         ],
         [
             "VacantDepot",
-            "north",
+            "north ",
             "top,right",
             "Climb(TP-SP)",
             "bottom,right",
@@ -15407,7 +15600,7 @@
         ],
         [
             "Transition(TP~ZOC)",
-            "east",
+            "east ",
             "top,right",
             "Transition(ZOC~TP)",
             "top,left",
@@ -15415,7 +15608,7 @@
         ],
         [
             "Transition(ZOC~TP)",
-            "north",
+            "north ",
             "top,right",
             "Cave(WelkinsWindow)",
             "bottom,left",
@@ -15423,7 +15616,7 @@
         ],
         [
             "Cave(WelkinsWindow)",
-            "east",
+            "east ",
             "bottom,right",
             "POI(FlagmansGap)",
             "bottom,left",
@@ -15431,7 +15624,7 @@
         ],
         [
             "Cave(WelkinsWindow)",
-            "north",
+            "north ",
             "top,left",
             "POI(DubiousOverlook)",
             "bottom,right",
@@ -15439,7 +15632,7 @@
         ],
         [
             "POI(FlagmansGap)",
-            "east",
+            "east ",
             "bottom,right",
             "IdleCamp",
             "top,left",
@@ -15447,7 +15640,7 @@
         ],
         [
             "POI(DubiousOverlook)",
-            "north",
+            "north ",
             "top,right",
             "Cave(ZOC~FA~SP)",
             "bottom,left",
@@ -15455,7 +15648,7 @@
         ],
         [
             "Cave(ZOC~FA~SP)",
-            "east",
+            "east ",
             "top,right",
             "Trailer(LangstonMine)",
             "bottom,left",
@@ -15463,7 +15656,7 @@
         ],
         [
             "Cave(ZOC~FA~SP)",
-            "north",
+            "north ",
             "top,left",
             "Climb(ZOC)",
             "bottom,left",
@@ -15471,7 +15664,7 @@
         ],
         [
             "Cave(ZOC~FA~SP)",
-            "south",
+            "south ",
             "bottom,right",
             "OutdoorShelter(NearEnduringWaterfall)",
             "top,left",
@@ -15479,7 +15672,7 @@
         ],
         [
             "Cave(ZOC~FA~SP)",
-            "north",
+            "north ",
             "top,left",
             "Cave(FA~ZOC~SP)",
             "bottom,right",
@@ -15487,7 +15680,7 @@
         ],
         [
             "Trailer(LangstonMine)",
-            "east",
+            "east ",
             "top,right",
             "LangstonMine(Floor3)",
             "top,left",
@@ -15495,7 +15688,7 @@
         ],
         [
             "Trailer(LangstonMine)",
-            "north",
+            "north ",
             "top,left",
             "Cave(NearTrailer)",
             "bottom,right",
@@ -15503,7 +15696,7 @@
         ],
         [
             "Climb(ZOC)",
-            "north",
+            "north ",
             "top,left",
             "SmokersCave",
             "top,left",
@@ -15511,7 +15704,7 @@
         ],
         [
             "SmokersCave",
-            "south",
+            "south ",
             "bottom,right",
             "MinersFootpath",
             "top,left",
@@ -15519,7 +15712,7 @@
         ],
         [
             "SmokersCave",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(NearTrailer)",
             "top,left",
@@ -15527,7 +15720,7 @@
         ],
         [
             "LangstonMine(Floor3)",
-            "east",
+            "east ",
             "top,right",
             "LangstonMine(Floor2)",
             "top,left",
@@ -15535,7 +15728,7 @@
         ],
         [
             "LangstonMine(Floor3)",
-            "south",
+            "south ",
             "bottom,left",
             "IdleCamp",
             "top,left",
@@ -15543,7 +15736,7 @@
         ],
         [
             "LangstonMine(Floor3)",
-            "north",
+            "north ",
             "top,left",
             "MinersFootpath",
             "bottom,left",
@@ -15551,7 +15744,7 @@
         ],
         [
             "LangstonMine(Floor2)",
-            "east",
+            "east ",
             "top,right",
             "LangstonMine(Floor1)",
             "top,left",
@@ -15559,7 +15752,7 @@
         ],
         [
             "LangstonMine(Floor2)",
-            "south",
+            "south ",
             "bottom,right",
             "Concentrator",
             "top,right",
@@ -15567,7 +15760,7 @@
         ],
         [
             "LangstonMine(Floor1)",
-            "south",
+            "south ",
             "bottom,left",
             "Concentrator",
             "top,left",
@@ -15575,7 +15768,7 @@
         ],
         [
             "LangstonMine(Floor1)",
-            "south",
+            "south ",
             "bottom,left",
             "Headframe",
             "top,left",
@@ -15583,7 +15776,7 @@
         ],
         [
             "Concentrator",
-            "south",
+            "south ",
             "bottom,left",
             "PumpHouse",
             "top,right",
@@ -15591,7 +15784,7 @@
         ],
         [
             "Concentrator",
-            "east",
+            "east ",
             "top,right",
             "Headframe",
             "top,left",
@@ -15599,7 +15792,7 @@
         ],
         [
             "TrainStation",
-            "north",
+            "north ",
             "top,left",
             "IndolentHoppers(Middle)",
             "bottom,left",
@@ -15607,7 +15800,7 @@
         ],
         [
             "TrainStation",
-            "north",
+            "north ",
             "top,right",
             "IndolentHoppers(Far)",
             "bottom,left",
@@ -15615,7 +15808,7 @@
         ],
         [
             "TrainStation",
-            "west",
+            "west ",
             "top,left",
             "Headframe",
             "top,right",
@@ -15623,7 +15816,7 @@
         ],
         [
             "IndolentHoppers(Far)",
-            "north",
+            "north ",
             "top,left",
             "POI(OldCorral)",
             "bottom,left",
@@ -15631,7 +15824,7 @@
         ],
         [
             "IndolentHoppers(Far)",
-            "south",
+            "south ",
             "bottom,right",
             "POI(TurbulentPasture)",
             "top,right",
@@ -15639,7 +15832,7 @@
         ],
         [
             "Headframe",
-            "south",
+            "south ",
             "bottom,right",
             "IdleCamp(DormNearTracks)",
             "top,right",
@@ -15647,7 +15840,7 @@
         ],
         [
             "Headframe",
-            "north",
+            "north ",
             "top,right",
             "IndolentHoppers(Near)",
             "bottom,right",
@@ -15655,7 +15848,7 @@
         ],
         [
             "IdleCamp",
-            "east",
+            "east ",
             "bottom,right",
             "IdleCamp(OtherDorm)",
             "bottom,left",
@@ -15663,7 +15856,7 @@
         ],
         [
             "IdleCamp",
-            "north",
+            "north ",
             "top,right",
             "IdleCamp(DormNearTracks)",
             "bottom,left",
@@ -15671,7 +15864,7 @@
         ],
         [
             "IdleCamp",
-            "south",
+            "south ",
             "bottom,right",
             "POI(BosssSettlement)",
             "top,right",
@@ -15679,7 +15872,7 @@
         ],
         [
             "POI(BosssSettlement)",
-            "south",
+            "south ",
             "bottom,left",
             "ScaffoldersHideout",
             "top,right",
@@ -15687,7 +15880,7 @@
         ],
         [
             "MinersFootpath",
-            "west",
+            "west ",
             "top,left",
             "Cave(NearTrailer)",
             "top,right",
@@ -15695,7 +15888,7 @@
         ],
         [
             "POI(TurbulentPasture)",
-            "south",
+            "south ",
             "bottom,right",
             "ForgottenExploration",
             "top,left",
@@ -15703,7 +15896,7 @@
         ],
         [
             "Transition(TP~FA)",
-            "west",
+            "west ",
             "top,left",
             "Transition(FA~TP)",
             "top,right",
@@ -15711,7 +15904,7 @@
         ],
         [
             "Transition(FA~TP)",
-            "west",
+            "west ",
             "top,left",
             "POI(Shortcut)",
             "top,right",
@@ -15719,7 +15912,7 @@
         ],
         [
             "POI(Shortcut)",
-            "north",
+            "north ",
             "top,left",
             "MainHangar",
             "bottom,right",
@@ -15727,7 +15920,7 @@
         ],
         [
             "POI(Shortcut)",
-            "west",
+            "west ",
             "bottom,left",
             "POI(WhealysTurn)",
             "top,right",
@@ -15735,7 +15928,7 @@
         ],
         [
             "MainHangar",
-            "west",
+            "west ",
             "top,left",
             "Terminal",
             "top,right",
@@ -15743,7 +15936,7 @@
         ],
         [
             "MainHangar",
-            "east",
+            "east ",
             "top,right",
             "SpottersBlind",
             "bottom,left",
@@ -15751,7 +15944,7 @@
         ],
         [
             "MainHangar",
-            "east",
+            "east ",
             "bottom,right",
             "Cave(BelowHovel)",
             "bottom,left",
@@ -15759,7 +15952,7 @@
         ],
         [
             "Cave(WhealysTurn)",
-            "west",
+            "west ",
             "top,left",
             "JunkersPaddock",
             "top,right",
@@ -15767,7 +15960,7 @@
         ],
         [
             "Cave(WhealysTurn)",
-            "east",
+            "east ",
             "top,right",
             "POI(WhealysTurn)",
             "top,left",
@@ -15775,7 +15968,7 @@
         ],
         [
             "JunkersPaddock",
-            "north",
+            "north ",
             "top,left",
             "GripsCave",
             "bottom,left",
@@ -15783,7 +15976,7 @@
         ],
         [
             "POI(WhealysTurn)",
-            "north",
+            "north ",
             "top,left",
             "FrostCave",
             "bottom,left",
@@ -15791,7 +15984,7 @@
         ],
         [
             "Terminal",
-            "north",
+            "north ",
             "top,left",
             "ControlTower",
             "bottom,left",
@@ -15799,7 +15992,7 @@
         ],
         [
             "SpottersBlind",
-            "east",
+            "east ",
             "top,right",
             "BunkerOmega",
             "top,left",
@@ -15807,7 +16000,7 @@
         ],
         [
             "SpottersBlind",
-            "north",
+            "north ",
             "top,right",
             "FallowDugout",
             "bottom,right",
@@ -15815,7 +16008,7 @@
         ],
         [
             "BunkerOmega",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(BelowHovel)",
             "bottom,right",
@@ -15823,7 +16016,7 @@
         ],
         [
             "BunkerOmega",
-            "south",
+            "south ",
             "bottom,left",
             "JustysHovel",
             "top,left",
@@ -15831,7 +16024,7 @@
         ],
         [
             "BunkerOmega",
-            "north",
+            "north ",
             "top,left",
             "Cave(FA~ZOC~SP)",
             "bottom,left",
@@ -15839,7 +16032,7 @@
         ],
         [
             "JustysHovel",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(MH-JH)",
             "top,right",
@@ -15847,7 +16040,7 @@
         ],
         [
             "Cave(FA~ZOC~SP)",
-            "west",
+            "west ",
             "top,left",
             "CrashSite(FA)",
             "top,right",
@@ -15855,7 +16048,7 @@
         ],
         [
             "Cave(FA~ZOC~SP)",
-            "north",
+            "north ",
             "top,right",
             "Cave(SP~ZOC~FA)",
             "bottom,left",
@@ -15863,7 +16056,7 @@
         ],
         [
             "CrashSite(FA)",
-            "west",
+            "west ",
             "top,left",
             "FallowDugout",
             "top,right",
@@ -15871,7 +16064,7 @@
         ],
         [
             "FallowDugout",
-            "north",
+            "north ",
             "top,left",
             "ArchiesCrawlspace",
             "bottom,left",
@@ -15879,7 +16072,7 @@
         ],
         [
             "ArchiesCrawlspace",
-            "south",
+            "south ",
             "bottom,right",
             "ShoulderLakeCrash",
             "top,right",
@@ -15887,7 +16080,7 @@
         ],
         [
             "ArchiesCrawlspace",
-            "north",
+            "north ",
             "top,left",
             "IslandCottage",
             "bottom,right",
@@ -15895,7 +16088,7 @@
         ],
         [
             "ShoulderLakeCrash",
-            "south",
+            "south ",
             "bottom,left",
             "HuntersBlind(CentralFA)",
             "top,right",
@@ -15903,7 +16096,7 @@
         ],
         [
             "ControlTower",
-            "north",
+            "north ",
             "top,left",
             "CargomastersTrailer",
             "bottom,left",
@@ -15911,7 +16104,7 @@
         ],
         [
             "CargomastersTrailer",
-            "north",
+            "north ",
             "top,left",
             "FinalApproach",
             "bottom,left",
@@ -15919,7 +16112,7 @@
         ],
         [
             "FinalApproach",
-            "north",
+            "north ",
             "top,left",
             "MindfulCabin",
             "bottom,left",
@@ -15927,7 +16120,7 @@
         ],
         [
             "FinalApproach",
-            "east",
+            "east ",
             "top,right",
             "HuntersBlind(CentralFA)",
             "bottom,left",
@@ -15935,7 +16128,7 @@
         ],
         [
             "MindfulCabin",
-            "east",
+            "east ",
             "top,right",
             "Climb(IFH-MC)",
             "top,left",
@@ -15943,7 +16136,7 @@
         ],
         [
             "MindfulCabin",
-            "south",
+            "south ",
             "bottom,left",
             "SuddenWashout",
             "top,right",
@@ -15951,7 +16144,7 @@
         ],
         [
             "Climb(IFH-MC)",
-            "east",
+            "east ",
             "top,right",
             "FishHut(Mindful)",
             "top,left",
@@ -15959,7 +16152,7 @@
         ],
         [
             "FishHut(Mindful)",
-            "east",
+            "east ",
             "top,right",
             "IslandCottage",
             "top,left",
@@ -15967,7 +16160,7 @@
         ],
         [
             "IslandCottage",
-            "east",
+            "east ",
             "top,right",
             "FishHut(Drift)",
             "top,left",
@@ -15975,7 +16168,7 @@
         ],
         [
             "FishHut(Drift)",
-            "east",
+            "east ",
             "top,right",
             "BrittleCave",
             "top,left",
@@ -15983,7 +16176,7 @@
         ],
         [
             "Cave(SP~ZOC~FA)",
-            "north",
+            "north ",
             "top,left",
             "POI(PerilousCrossing)",
             "bottom,left",
@@ -15991,7 +16184,7 @@
         ],
         [
             "Cave(SP~ZOC~FA)",
-            "south",
+            "south ",
             "bottom,right",
             "Climb(LLH-CC)",
             "top,left",
@@ -15999,7 +16192,7 @@
         ],
         [
             "POI(PerilousCrossing)",
-            "north",
+            "north ",
             "top,left",
             "Climb(SP-WC)",
             "bottom,left",
@@ -16007,7 +16200,7 @@
         ],
         [
             "POI(PerilousCrossing)",
-            "north",
+            "north ",
             "top,left",
             "OpenCave(OgresTeardrop)",
             "bottom,right",
@@ -16015,7 +16208,7 @@
         ],
         [
             "Climb(SP-WC)",
-            "south",
+            "south ",
             "bottom,left",
             "Garage(WeatherStation)",
             "top,left",
@@ -16023,7 +16216,7 @@
         ],
         [
             "Climb(SP-WC)",
-            "north",
+            "north ",
             "top,left",
             "POI(TreeBridgeSouthOfMine)",
             "bottom,left",
@@ -16031,7 +16224,7 @@
         ],
         [
             "Garage(WeatherStation)",
-            "east",
+            "east ",
             "top,right",
             "RadarBuilding",
             "top,left",
@@ -16039,7 +16232,7 @@
         ],
         [
             "Garage(WeatherStation)",
-            "north",
+            "north ",
             "top,right",
             "Truck(WeatherStationBridge)",
             "bottom,right",
@@ -16047,7 +16240,7 @@
         ],
         [
             "Garage(WeatherStation)",
-            "south",
+            "south ",
             "bottom,right",
             "StationBunkhouse",
             "top,left",
@@ -16055,7 +16248,7 @@
         ],
         [
             "Climb(LLH-CC)",
-            "south",
+            "south ",
             "bottom,right",
             "LastLonelyHouse",
             "top,left",
@@ -16063,7 +16256,7 @@
         ],
         [
             "LastLonelyHouse",
-            "north",
+            "north ",
             "top,right",
             "POI(RouteOneWaterfall)",
             "bottom,left",
@@ -16071,7 +16264,7 @@
         ],
         [
             "LastLonelyHouse",
-            "south",
+            "south ",
             "bottom,left",
             "MiserableHaunt",
             "top,left",
@@ -16079,7 +16272,7 @@
         ],
         [
             "Truck(WeatherStationBridge)",
-            "south",
+            "south ",
             "bottom,right",
             "IdleHideout",
             "top,left",
@@ -16087,7 +16280,7 @@
         ],
         [
             "POI(TreeBridgeSouthOfMine)",
-            "north",
+            "north ",
             "top,left",
             "Climb(AbandonedMine)",
             "bottom,left",
@@ -16095,7 +16288,7 @@
         ],
         [
             "Climb(AbandonedMine)",
-            "west",
+            "west ",
             "top,left",
             "CrashSite(SP)",
             "top,right",
@@ -16103,7 +16296,7 @@
         ],
         [
             "Climb(AbandonedMine)",
-            "east",
+            "east ",
             "top,right",
             "AbandonedMine(SP)",
             "top,left",
@@ -16111,7 +16304,7 @@
         ],
         [
             "IdleHideout",
-            "south",
+            "south ",
             "bottom,left",
             "POI(RouteOneWaterfall)",
             "top,left",
@@ -16119,7 +16312,7 @@
         ],
         [
             "IdleHideout",
-            "east",
+            "east ",
             "top,right",
             "PrayerfulWindow",
             "bottom,left",
@@ -16127,7 +16320,7 @@
         ],
         [
             "AbandonedMine(SP)",
-            "south",
+            "south ",
             "bottom,right",
             "BoltChoppersHaven",
             "top,right",
@@ -16135,7 +16328,7 @@
         ],
         [
             "BoltChoppersHaven",
-            "south",
+            "south ",
             "bottom,right",
             "Basement(RudigersHideout)",
             "top,left",
@@ -16143,7 +16336,7 @@
         ],
         [
             "Basement(RudigersHideout)",
-            "east",
+            "east ",
             "bottom,right",
             "Cabin(SnowedIn)",
             "bottom,left",
@@ -16151,7 +16344,7 @@
         ],
         [
             "Basement(RudigersHideout)",
-            "south",
+            "south ",
             "bottom,right",
             "PlacidNotch",
             "top,right",
@@ -16159,7 +16352,7 @@
         ],
         [
             "Cabin(SnowedIn)",
-            "south",
+            "south ",
             "bottom,left",
             "PrayerfulWindow",
             "top,left",
@@ -16167,7 +16360,7 @@
         ],
         [
             "Cabin(SnowedIn)",
-            "east",
+            "east ",
             "top,right",
             "FishHut(SP)",
             "bottom,left",
@@ -16175,7 +16368,7 @@
         ],
         [
             "PrayerfulWindow",
-            "west",
+            "west ",
             "bottom,left",
             "CascadingGap",
             "top,right",
@@ -16183,7 +16376,7 @@
         ],
         [
             "FishHut(SP)",
-            "east",
+            "east ",
             "top,right",
             "Climb(AL-RC)",
             "top,left",
@@ -16191,7 +16384,7 @@
         ],
         [
             "FishHut(SP)",
-            "west",
+            "west ",
             "top,left",
             "FinalRefuge",
             "bottom,right",
@@ -16199,7 +16392,7 @@
         ],
         [
             "Climb(AL-RC)",
-            "east",
+            "east ",
             "top,right",
             "RoamersCave",
             "top,left",
@@ -16207,7 +16400,7 @@
         ],
         [
             "RoamersCave",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(RC-HPP1)",
             "top,left",
@@ -16215,7 +16408,7 @@
         ],
         [
             "Climb(RC-HPP1)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(RC-HPP2)",
             "top,left",
@@ -16223,7 +16416,7 @@
         ],
         [
             "Climb(RC-HPP2)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(RC-HPP3)",
             "top,left",
@@ -16231,7 +16424,7 @@
         ],
         [
             "Climb(RC-HPP3)",
-            "south",
+            "south ",
             "bottom,left",
             "Cave(LastHorizon)",
             "top,left",
@@ -16239,7 +16432,7 @@
         ],
         [
             "Cave(LastHorizon)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(HighPeakPlateau)",
             "top,right",
@@ -16247,7 +16440,7 @@
         ],
         [
             "POI(HighPeakPlateau)",
-            "west",
+            "west ",
             "top,left",
             "Climb(RC-HPP4)",
             "top,right",
@@ -16255,7 +16448,7 @@
         ],
         [
             "Climb(RC-HPP4)",
-            "west",
+            "west ",
             "top,left",
             "POI(DeadEnd)",
             "top,right",
@@ -16263,7 +16456,7 @@
         ],
         [
             "POI(RouteOneWaterfall)",
-            "east",
+            "east ",
             "top,right",
             "CascadingGap",
             "top,left",
@@ -16271,7 +16464,7 @@
         ],
         [
             "CascadingGap",
-            "south",
+            "south ",
             "bottom,right",
             "LottesRest",
             "top,left",
@@ -16279,7 +16472,7 @@
         ],
         [
             "CascadingGap",
-            "north",
+            "north ",
             "top,right",
             "PlacidNotch",
             "bottom,right",
@@ -16287,7 +16480,7 @@
         ],
         [
             "LottesRest",
-            "west",
+            "west ",
             "bottom,left",
             "Climb(LLH-BB)",
             "bottom,right",
@@ -16295,7 +16488,7 @@
         ],
         [
             "LottesRest",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(SP~TP)",
             "top,left",
@@ -16303,7 +16496,7 @@
         ],
         [
             "MiserableHaunt",
-            "east",
+            "east ",
             "bottom,right",
             "Climb(LLH-BB)",
             "bottom,left",
@@ -16311,7 +16504,7 @@
         ],
         [
             "MiserableHaunt",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(SP~TP)",
             "top,left",
@@ -16319,7 +16512,7 @@
         ],
         [
             "Transition(SP~TP)",
-            "south",
+            "south ",
             "bottom,left",
             "Transition(TP~SP)",
             "top,left",
@@ -16327,7 +16520,7 @@
         ],
         [
             "Transition(TP~SP)",
-            "south",
+            "south ",
             "bottom,left",
             "POI(OakGrove)",
             "top,left",
@@ -16335,7 +16528,7 @@
         ],
         [
             "POI(OakGrove)",
-            "south",
+            "south ",
             "bottom,left",
             "Climb(TP-SP)",
             "top,left",
@@ -16343,7 +16536,7 @@
         ],
         [
             "Lighthouse",
-            "west",
+            "west ",
             "bottom,left",
             "LighthouseCabin",
             "bottom,right",
@@ -16351,7 +16544,7 @@
         ],
         [
             "Lighthouse",
-            "north",
+            "north ",
             "top,right",
             "POI(Riken-like)",
             "bottom,left",
@@ -16359,7 +16552,7 @@
         ],
         [
             "POI(Riken-like)",
-            "north",
+            "north ",
             "top,left",
             "RedWarehouse",
             "bottom,right",
@@ -16367,7 +16560,7 @@
         ],
         [
             "POI(Riken-like)",
-            "north",
+            "north ",
             "top,right",
             "Climb(ShelteredAccess)",
             "bottom,left",
@@ -16375,7 +16568,7 @@
         ],
         [
             "RedWarehouse",
-            "north",
+            "north ",
             "top,right",
             "Cabin(ByObstructed)",
             "bottom,left",
@@ -16383,7 +16576,7 @@
         ],
         [
             "Cabin(ByObstructed)",
-            "west",
+            "west ",
             "bottom,left",
             "Gate(OT:N)",
             "bottom,right",
@@ -16391,7 +16584,7 @@
         ],
         [
             "Cabin(ByObstructed)",
-            "east",
+            "east ",
             "top,right",
             "Cave(ShelteredAccess)",
             "top,left",
@@ -16399,7 +16592,7 @@
         ],
         [
             "Cabin(ByObstructed)",
-            "west",
+            "west ",
             "top,left",
             "Switch(OT:N)",
             "bottom,right",
@@ -16407,7 +16600,7 @@
         ],
         [
             "Gate(OT:N)",
-            "west",
+            "west ",
             "top,left",
             "ObstructedTransit",
             "top,right",
@@ -16415,7 +16608,7 @@
         ],
         [
             "Gate(OT:N)",
-            "north",
+            "north ",
             "top,left",
             "Switch(OT:N)",
             "bottom,left",
@@ -16423,7 +16616,7 @@
         ],
         [
             "ObstructedTransit",
-            "west",
+            "west ",
             "top,left",
             "Gate(OT:W)",
             "top,right",
@@ -16431,7 +16624,7 @@
         ],
         [
             "Gate(OT:W)",
-            "west",
+            "west ",
             "top,left",
             "Switch(OT:W)",
             "top,right",
@@ -16439,7 +16632,7 @@
         ],
         [
             "POI(BirchForest)",
-            "west",
+            "west ",
             "top,left",
             "Climb(DesecratedChurch)",
             "top,right",
@@ -16447,7 +16640,7 @@
         ],
         [
             "POI(BirchForest)",
-            "south",
+            "south ",
             "bottom,right",
             "Switch(OT:N)",
             "top,left",
@@ -16455,7 +16648,7 @@
         ],
         [
             "POI(BirchForest)",
-            "north",
+            "north ",
             "top,right",
             "Transition(PR~A1)",
             "bottom,right",
@@ -16463,7 +16656,7 @@
         ],
         [
             "Climb(DesecratedChurch)",
-            "west",
+            "west ",
             "top,left",
             "POI(WhaleBoneShrine)",
             "top,right",
@@ -16471,7 +16664,7 @@
         ],
         [
             "Switch(OT:N)",
-            "southwestup",
+            "southwestup ",
             "bottom,left",
             "Switch(OT:W)",
             "top,right",
@@ -16479,7 +16672,7 @@
         ],
         [
             "Switch(OT:W)",
-            "west",
+            "west ",
             "top,left",
             "POI(ForgottenTrestle)",
             "top,right",
@@ -16487,7 +16680,7 @@
         ],
         [
             "POI(ForgottenTrestle)",
-            "south",
+            "south ",
             "bottom,left",
             "Cabin(Empty)",
             "top,right",
@@ -16495,7 +16688,7 @@
         ],
         [
             "POI(ForgottenTrestle)",
-            "north",
+            "north ",
             "top,left",
             "Cabin(LootedGrotto)",
             "bottom,left",
@@ -16503,7 +16696,7 @@
         ],
         [
             "POI(ForgottenTrestle)",
-            "west",
+            "west ",
             "top,left",
             "Transition(PR~A5)",
             "top,right",
@@ -16511,7 +16704,7 @@
         ],
         [
             "Cabin(LootedGrotto)",
-            "west",
+            "west ",
             "bottom,left",
             "Cave(ToChurch)",
             "bottom,right",
@@ -16519,7 +16712,7 @@
         ],
         [
             "Cabin(LootedGrotto)",
-            "north",
+            "north ",
             "top,left",
             "DesecratedChurch",
             "bottom,left",
@@ -16527,7 +16720,7 @@
         ],
         [
             "Cave(ToChurch)",
-            "north",
+            "north ",
             "top,right",
             "Cave(FromChurch)",
             "bottom,right",
@@ -16535,7 +16728,7 @@
         ],
         [
             "Cave(ToChurch)",
-            "west",
+            "west wide",
             "bottom,left",
             "POI(WaterfallCave)",
             "bottom,right",
@@ -16543,7 +16736,7 @@
         ],
         [
             "Cave(FromChurch)",
-            "east",
+            "east wide",
             "top,right",
             "DesecratedChurch",
             "top,left",
@@ -16551,7 +16744,7 @@
         ],
         [
             "DesecratedChurch",
-            "east",
+            "east ",
             "top,right",
             "POI(WhaleBoneShrine)",
             "top,left",
@@ -16559,7 +16752,7 @@
         ],
         [
             "Climb(ShelteredAccess)",
-            "north",
+            "north ",
             "top,right",
             "Cave(ShelteredAccess)",
             "bottom,left",
@@ -16567,7 +16760,7 @@
         ],
         [
             "Transition(PR~A5)",
-            "north",
+            "northeast ",
             "top,left",
             "POI(WaterfallCave)",
             "bottom,left",
@@ -16575,7 +16768,7 @@
         ],
         [
             "Transition(PR~A5)",
-            "west",
+            "west ",
             "top,left",
             "Transition(A5~PR)",
             "top,right",
@@ -16583,7 +16776,7 @@
         ],
         [
             "Transition(PR~A1)",
-            "northeastdown",
+            "northeastdown ",
             "top,right",
             "Transition(A1~PR)",
             "top,left",
@@ -16591,7 +16784,7 @@
         ],
         [
             "Transition(A5~PR)",
-            "west",
+            "west wide",
             "top,left",
             "Switch(A5:RY:E)",
             "top,right",
@@ -16599,7 +16792,7 @@
         ],
         [
             "Switch(A5:RY:E)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:WT:E)",
             "top,right",
@@ -16607,15 +16800,15 @@
         ],
         [
             "Switch(A5:RY:E)",
-            "northwestup",
+            "northwestsquigdown tall",
             "top,left",
-            "Bypass(RailyardA5)",
+            "Bypass(A5:RY)",
             "bottom,right",
             "rail"
         ],
         [
             "Switch(A5:WT:E)",
-            "west",
+            "west ",
             "top,left",
             "WaterTank(A5)",
             "top,right",
@@ -16623,15 +16816,15 @@
         ],
         [
             "Switch(A5:WT:E)",
-            "southwestup",
+            "southwestsquigdown ",
             "bottom,left",
-            "Bypass(WaterTankA5)",
+            "Bypass(A5:WT)",
             "top,right",
             "rail"
         ],
         [
             "WaterTank(A5)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:WT:W)",
             "top,right",
@@ -16639,7 +16832,7 @@
         ],
         [
             "Switch(A5:WT:W)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:RY:W)",
             "top,right",
@@ -16647,15 +16840,15 @@
         ],
         [
             "Switch(A5:WT:W)",
-            "southeastup",
+            "southeastsquigdown ",
             "bottom,right",
-            "Bypass(WaterTankA5)",
+            "Bypass(A5:WT)",
             "top,left",
             "rail"
         ],
         [
             "Switch(A5:RY:W)",
-            "west",
+            "west wide",
             "top,left",
             "POI(Path)",
             "top,right",
@@ -16663,15 +16856,15 @@
         ],
         [
             "Switch(A5:RY:W)",
-            "northeastup",
+            "northeastsquigdown ",
             "top,right",
-            "Bypass(RailyardA5)",
+            "Bypass(A5:RY)",
             "bottom,left",
             "rail"
         ],
         [
             "POI(Path)",
-            "west",
+            "west wide",
             "top,left",
             "Cave(A5)",
             "top,right",
@@ -16679,7 +16872,7 @@
         ],
         [
             "Cave(A5)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:OT:E)",
             "top,right",
@@ -16687,7 +16880,7 @@
         ],
         [
             "Switch(A5:OT:E)",
-            "west",
+            "west ",
             "top,left",
             "OilTank(A5)",
             "top,right",
@@ -16695,15 +16888,15 @@
         ],
         [
             "Switch(A5:OT:E)",
-            "southwestup",
+            "southwestsquigdown ",
             "bottom,left",
-            "Bypass(OilTankA5)",
+            "Bypass(A5:OT)",
             "top,right",
             "rail"
         ],
         [
             "OilTank(A5)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:OT:W)",
             "top,right",
@@ -16711,7 +16904,7 @@
         ],
         [
             "Switch(A5:OT:W)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A5:OT:S)",
             "top,right",
@@ -16719,7 +16912,7 @@
         ],
         [
             "Switch(A5:OT:W)",
-            "northwestdown",
+            "northwestdown ",
             "top,left",
             "Stop(A5)",
             "bottom,right",
@@ -16727,7 +16920,7 @@
         ],
         [
             "Switch(A5:OT:S)",
-            "west",
+            "west ",
             "top,left",
             "Transition(A5~A4)",
             "top,right",
@@ -16735,23 +16928,23 @@
         ],
         [
             "Switch(A5:OT:S)",
-            "southwestup",
+            "southwestsquigup ",
             "bottom,right",
-            "Bypass(OilTankA5)",
+            "Bypass(A5:OT)",
             "top,left",
             "rail"
         ],
         [
             "Transition(A5~A4)",
-            "west",
+            "west ",
             "top,left",
             "Transition(A4~A5)",
             "top,right",
             "rail"
         ],
         [
-            "Bypass(RailyardA5)",
-            "north",
+            "Bypass(A5:RY)",
+            "north ",
             "top,left",
             "Cabin(A5)",
             "bottom,right",
@@ -16759,7 +16952,7 @@
         ],
         [
             "Stop(A5)",
-            "north",
+            "north ",
             "top,left",
             "Climb(A5)",
             "bottom,left",
@@ -16767,7 +16960,7 @@
         ],
         [
             "Climb(A5)",
-            "north",
+            "north ",
             "top,left",
             "Transition(A5~A6)",
             "bottom,left",
@@ -16775,7 +16968,7 @@
         ],
         [
             "Transition(A5~A6)",
-            "north",
+            "north ",
             "top,left",
             "Transition(A6~A5)",
             "bottom,left",
@@ -16783,7 +16976,7 @@
         ],
         [
             "Transition(A6~A5)",
-            "north",
+            "north ",
             "top,left",
             "POI(Junction)",
             "bottom,right",
@@ -16791,7 +16984,7 @@
         ],
         [
             "POI(Junction)",
-            "east",
+            "east ",
             "top,right",
             "TrainShelter",
             "top,left",
@@ -16799,15 +16992,23 @@
         ],
         [
             "POI(Junction)",
-            "west",
+            "west ",
             "top,left",
             "Transition(A6~A4)",
             "top,right",
             "rail"
         ],
         [
+            "TrainShelter",
+            "east ",
+            "top,right",
+            "TrainShelterOffice",
+            "top,left",
+            "default"
+        ],
+        [
             "Transition(A6~A4)",
-            "west",
+            "west ",
             "top,left",
             "Transition(A4~A6)",
             "top,right",
@@ -16815,7 +17016,7 @@
         ],
         [
             "Transition(A4~A5)",
-            "northwestdown",
+            "northwestdown tall",
             "top,left",
             "Switch(A4:A6)",
             "bottom,left",
@@ -16823,23 +17024,39 @@
         ],
         [
             "Switch(A4:A6)",
-            "north",
+            "north tall",
             "top,left",
-            "OilTank(A4)",
+            "Canyon(A4)",
             "bottom,left",
             "rail"
         ],
         [
             "Switch(A4:A6)",
-            "southeastup",
+            "southeastup ",
             "bottom,left",
             "Transition(A4~A6)",
             "top,left",
             "rail"
         ],
         [
+            "Canyon(A4)",
+            "north tall",
+            "top,left",
+            "Pond(A4)",
+            "bottom,left",
+            "rail"
+        ],
+        [
+            "Pond(A4)",
+            "north tall",
+            "top,left",
             "OilTank(A4)",
-            "north",
+            "bottom,left",
+            "rail"
+        ],
+        [
+            "OilTank(A4)",
+            "north ",
             "top,left",
             "Switch(A4:RS:S)",
             "bottom,right",
@@ -16847,7 +17064,7 @@
         ],
         [
             "Switch(A4:RS:S)",
-            "northwestup",
+            "northwestup ",
             "top,right",
             "WaterTank(A4)",
             "bottom,right",
@@ -16855,7 +17072,7 @@
         ],
         [
             "Switch(A4:RS:S)",
-            "northeastup",
+            "northeastup ",
             "top,right",
             "Switch(A4:RS:E)",
             "bottom,left",
@@ -16863,7 +17080,7 @@
         ],
         [
             "WaterTank(A4)",
-            "north",
+            "north ",
             "top,right",
             "Switch(A4:WT:N)",
             "bottom,right",
@@ -16871,7 +17088,7 @@
         ],
         [
             "WaterTank(A4)",
-            "west",
+            "west ",
             "bottom,left",
             "RepairStation(A4)",
             "bottom,right",
@@ -16879,7 +17096,7 @@
         ],
         [
             "Switch(A4:WT:N)",
-            "northwestdown",
+            "northwestdown tall",
             "top,left",
             "Switch(A4:RS:N)",
             "bottom,left",
@@ -16887,7 +17104,15 @@
         ],
         [
             "Switch(A4:WT:N)",
-            "southeastup",
+            "west ",
+            "top,left",
+            "RepairStation(A4)",
+            "top,right",
+            "default"
+        ],
+        [
+            "Switch(A4:WT:N)",
+            "southeastup ",
             "bottom,right",
             "Switch(A4:RS:E)",
             "top,left",
@@ -16895,7 +17120,7 @@
         ],
         [
             "Switch(A4:RS:N)",
-            "southwestup",
+            "southwestup ",
             "bottom,left",
             "RepairStation(A4)",
             "top,right",
@@ -16903,7 +17128,7 @@
         ],
         [
             "Switch(A4:RS:N)",
-            "north",
+            "north ",
             "top,left",
             "POI(CampsiteByRedBridge)",
             "bottom,left",
@@ -16911,7 +17136,7 @@
         ],
         [
             "Switch(A4:RS:E)",
-            "east",
+            "east ",
             "top,right",
             "Transition(A4~A3)",
             "bottom,left",
@@ -16919,15 +17144,15 @@
         ],
         [
             "Transition(A4~A3)",
-            "northeast",
-            "top,right",
+            "northeast ",
+            "bottom,right",
             "Transition(A3~A4)",
-            "top,left",
+            "bottom,left",
             "rail"
         ],
         [
             "POI(CampsiteByRedBridge)",
-            "north",
+            "north ",
             "top,left",
             "RedBridge(FutureTransition)",
             "bottom,left",
@@ -16935,15 +17160,15 @@
         ],
         [
             "Transition(A3~A4)",
-            "east",
-            "top,right",
+            "east ",
+            "bottom,right",
             "Switch(A3:A4:N)",
-            "top,left",
+            "bottom,left",
             "rail"
         ],
         [
             "Transition(A1~PR)",
-            "northeastup",
+            "northeastup ",
             "top,left",
             "Switch(A1:PR:W)",
             "bottom,left",
@@ -16951,31 +17176,39 @@
         ],
         [
             "Switch(A1:PR:W)",
-            "north",
-            "top,left",
-            "Switch(A1:PR:N)",
-            "bottom,left",
-            "rail"
-        ],
-        [
-            "Switch(A1:PR:W)",
-            "northeastdown",
+            "north ",
+            "top,right",
+            "Bypass(A1:PR)",
             "bottom,right",
+            "rail"
+        ],
+        [
+            "Switch(A1:PR:W)",
+            "northeastsquigdown ",
+            "top,right",
             "Switch(A1:PR:S)",
             "bottom,left",
             "rail"
         ],
         [
-            "Switch(A1:PR:N)",
-            "southeastdown",
+            "Bypass(A1:PR)",
+            "north ",
             "top,right",
+            "Switch(A1:PR:N)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Switch(A1:PR:N)",
+            "southeastsquigup ",
+            "bottom,right",
             "Switch(A1:PR:E)",
             "top,left",
             "rail"
         ],
         [
             "Switch(A1:PR:N)",
-            "north",
+            "north ",
             "top,left",
             "Switch(A1:MT:S)",
             "bottom,left",
@@ -16983,7 +17216,7 @@
         ],
         [
             "Switch(A1:PR:S)",
-            "south",
+            "south ",
             "bottom,left",
             "Stop(A1:PR:N)",
             "top,left",
@@ -16991,7 +17224,7 @@
         ],
         [
             "Switch(A1:PR:S)",
-            "north",
+            "north ",
             "top,left",
             "Switch(A1:PR:E)",
             "bottom,left",
@@ -16999,7 +17232,7 @@
         ],
         [
             "Switch(A1:PR:E)",
-            "north",
+            "north ",
             "top,left",
             "Stop(A1:PR:S)",
             "bottom,left",
@@ -17007,31 +17240,39 @@
         ],
         [
             "Switch(A1:MT:S)",
-            "north",
+            "north ",
             "top,left",
-            "Switch(A1:MT:N)",
+            "Bypass(A1:MT)",
             "bottom,left",
             "rail"
         ],
         [
             "Switch(A1:MT:S)",
-            "northeastdown",
-            "top,right",
-            "POI(HillA1)",
+            "northwestsquigdown ",
+            "top,left",
+            "POI(A1:MT)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Bypass(A1:MT)",
+            "north ",
+            "top,left",
+            "Switch(A1:MT:N)",
             "bottom,left",
             "rail"
         ],
         [
             "Switch(A1:MT:N)",
-            "southeastdown",
+            "southwestsquigdown ",
+            "bottom,left",
+            "POI(A1:MT)",
             "top,right",
-            "POI(HillA1)",
-            "top,left",
             "rail"
         ],
         [
             "Switch(A1:MT:N)",
-            "north",
+            "north ",
             "top,left",
             "Cabin(Huts)",
             "bottom,left",
@@ -17039,7 +17280,7 @@
         ],
         [
             "Cabin(Huts)",
-            "north",
+            "north ",
             "top,left",
             "Cave(A1)",
             "bottom,left",
@@ -17047,7 +17288,7 @@
         ],
         [
             "Cave(A1)",
-            "north",
+            "north ",
             "top,left",
             "Bridge(A1)",
             "bottom,left",
@@ -17055,7 +17296,7 @@
         ],
         [
             "Bridge(A1)",
-            "north",
+            "north ",
             "top,left",
             "Gate(A1)",
             "bottom,left",
@@ -17063,7 +17304,7 @@
         ],
         [
             "Gate(A1)",
-            "north",
+            "north ",
             "top,left",
             "Switch(A1:A2)",
             "bottom,left",
@@ -17071,31 +17312,63 @@
         ],
         [
             "Switch(A1:A2)",
-            "north",
-            "top,right",
-            "Switch(A1:WT)",
+            "northeastsquigup ",
+            "top,left",
+            "Switch(A1:OT)",
             "bottom,left",
             "rail"
         ],
         [
             "Switch(A1:A2)",
-            "north",
+            "north ",
+            "top,left",
+            "Bypass(WT:A1)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Switch(A1:OT)",
+            "northeastsquigup ",
+            "top,left",
+            "Switch(OT:BS)",
+            "bottom,left",
+            "rail"
+        ],
+        [
+            "Switch(A1:OT)",
+            "northwestsquigup ",
             "top,left",
             "Transition(A1~A2)",
             "bottom,right",
             "rail"
         ],
         [
-            "Switch(A1:WT)",
-            "northeastup",
-            "top,left",
+            "Switch(OT:BS)",
+            "north ",
+            "top,right",
             "OilTank(A1)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Switch(OT:BS)",
+            "northeastsquigup ",
+            "top,right",
+            "Stop(A1:OT)",
             "bottom,left",
             "rail"
         ],
         [
             "Transition(A1~A2)",
-            "north",
+            "south ",
+            "bottom,right",
+            "Bypass(WT:A1)",
+            "top,right",
+            "rail"
+        ],
+        [
+            "Transition(A1~A2)",
+            "north ",
             "top,left",
             "Transition(A2~A1)",
             "bottom,left",
@@ -17103,7 +17376,7 @@
         ],
         [
             "Transition(A2~A1)",
-            "north",
+            "north ",
             "top,left",
             "Switch(A2:A1:S)",
             "bottom,left",
@@ -17111,7 +17384,7 @@
         ],
         [
             "Switch(A2:A1:S)",
-            "northeastdown",
+            "northeastdown ",
             "top,right",
             "Switch(A2:A1:E)",
             "bottom,left",
@@ -17119,7 +17392,7 @@
         ],
         [
             "Switch(A2:A1:S)",
-            "northwestdown",
+            "northwestdown ",
             "top,left",
             "Switch(A2:A1:W)",
             "bottom,right",
@@ -17127,7 +17400,7 @@
         ],
         [
             "Switch(TurnCircle)",
-            "west",
+            "west ",
             "bottom,left",
             "RepairStation(A2)",
             "top,right",
@@ -17135,7 +17408,7 @@
         ],
         [
             "Switch(TurnCircle)",
-            "southeastdown",
+            "southeastdown ",
             "bottom,right",
             "Switch(A2:A1:W)",
             "top,right",
@@ -17143,7 +17416,7 @@
         ],
         [
             "Switch(TurnCircle)",
-            "east",
+            "east ",
             "bottom,right",
             "Switch(A2:A1:N)",
             "bottom,left",
@@ -17151,23 +17424,23 @@
         ],
         [
             "Switch(TurnCircle)",
-            "northwestup",
-            "top,left",
+            "northwestsquigdown ",
+            "bottom,left",
             "Bypass(A2:RP)",
             "bottom,right",
             "rail"
         ],
         [
             "RepairStation(A2)",
-            "west",
-            "bottom,left",
+            "west ",
+            "top,left",
             "WaterTank(A2)",
-            "bottom,right",
+            "top,right",
             "rail"
         ],
         [
             "RepairStation(A2)",
-            "north",
+            "north ",
             "top,right",
             "Bypass(A2:RP)",
             "bottom,right",
@@ -17175,7 +17448,7 @@
         ],
         [
             "Switch(A2:A1:W)",
-            "northwestup",
+            "northwestup ",
             "top,right",
             "Switch(A2:A1:N)",
             "bottom,left",
@@ -17183,7 +17456,7 @@
         ],
         [
             "Switch(A2:A1:E)",
-            "northwestup",
+            "northwestup ",
             "top,left",
             "Switch(A2:A1:N)",
             "bottom,right",
@@ -17191,39 +17464,47 @@
         ],
         [
             "WaterTank(A2)",
-            "west",
-            "bottom,left",
-            "Gate(A2)",
-            "bottom,right",
-            "rail"
-        ],
-        [
-            "Gate(A2)",
-            "southwest",
-            "bottom,left",
-            "Tunnel(A2)",
+            "west ",
+            "top,left",
+            "Switch(A2:RP:W)",
             "top,right",
             "rail"
         ],
         [
-            "Gate(A2)",
-            "south",
-            "bottom,left",
-            "POI(Canyon)",
+            "Switch(A2:RP:W)",
+            "west ",
             "top,left",
-            "default"
+            "Gate(A2)",
+            "top,right",
+            "rail"
         ],
         [
-            "Gate(A2)",
-            "northeastup",
+            "Switch(A2:RP:W)",
+            "northeastsquigup ",
             "top,right",
             "Bypass(A2:RP)",
             "bottom,left",
             "rail"
         ],
         [
+            "Gate(A2)",
+            "southwest ",
+            "bottom,left",
             "Tunnel(A2)",
-            "east",
+            "top,right",
+            "rail"
+        ],
+        [
+            "Gate(A2)",
+            "south ",
+            "bottom,left",
+            "POI(Canyon)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Tunnel(A2)",
+            "east ",
             "top,right",
             "POI(Canyon)",
             "top,left",
@@ -17231,23 +17512,23 @@
         ],
         [
             "Tunnel(A2)",
-            "west",
-            "top,left",
+            "west ",
+            "bottom,left",
             "Switch(Crisscross:E)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(Crisscross:E)",
-            "west",
-            "top,left",
+            "west ",
+            "bottom,left",
             "Switch(Crisscross:N)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(Crisscross:E)",
-            "southwestup",
+            "southwestsquigdown ",
             "bottom,right",
             "Switch(Crisscross:S)",
             "top,right",
@@ -17255,7 +17536,7 @@
         ],
         [
             "Switch(Crisscross:E)",
-            "southwestup",
+            "southwestsquigup ",
             "bottom,left",
             "Switch(Crisscross:W)",
             "top,right",
@@ -17263,15 +17544,15 @@
         ],
         [
             "Switch(Crisscross:N)",
-            "west",
-            "top,left",
-            "Switch(A2DeadEnd)",
-            "top,right",
+            "west ",
+            "bottom,left",
+            "Switch(A2:DeadEnd)",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(Crisscross:N)",
-            "southeastup",
+            "southeastsquigdown ",
             "bottom,left",
             "Switch(Crisscross:W)",
             "top,left",
@@ -17279,7 +17560,7 @@
         ],
         [
             "Switch(Crisscross:N)",
-            "southeastup",
+            "southeastsquigup ",
             "bottom,right",
             "Switch(Crisscross:S)",
             "top,left",
@@ -17287,31 +17568,31 @@
         ],
         [
             "Switch(Crisscross:N)",
-            "north",
+            "north ",
             "top,right",
             "POI(CanyonToWhaleShrine)",
             "bottom,right",
             "default"
         ],
         [
-            "Switch(A2DeadEnd)",
-            "west",
-            "top,left",
+            "Switch(A2:DeadEnd)",
+            "west wide",
+            "bottom,left",
             "Tunnel(A2:A3)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
-            "Switch(A2DeadEnd)",
-            "southwestup",
-            "bottom,right",
-            "Stop(A2DeadEnd)",
+            "Switch(A2:DeadEnd)",
+            "southwestsquigdown ",
+            "bottom,left",
+            "Stop(A2:DeadEnd)",
             "top,right",
             "rail"
         ],
         [
             "Switch(Crisscross:S)",
-            "west",
+            "west ",
             "top,left",
             "Switch(Crisscross:W)",
             "top,right",
@@ -17319,7 +17600,7 @@
         ],
         [
             "POI(CanyonToWhaleShrine)",
-            "north",
+            "north ",
             "top,right",
             "POI(WhaleShrineA2)",
             "bottom,right",
@@ -17327,7 +17608,7 @@
         ],
         [
             "Tunnel(A2:A3)",
-            "north",
+            "north ",
             "top,right",
             "Campsite(A2:A3)",
             "bottom,right",
@@ -17335,39 +17616,39 @@
         ],
         [
             "Tunnel(A2:A3)",
-            "west",
-            "top,left",
+            "west wide",
+            "bottom,left",
             "Transition(A2~A3)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Transition(A2~A3)",
-            "southeastup",
-            "bottom,left",
+            "southeastsquigdown ",
+            "bottom,right",
             "Stops(A2:A3)",
             "top,left",
             "rail"
         ],
         [
             "Transition(A2~A3)",
-            "west",
-            "top,left",
+            "west ",
+            "bottom,left",
             "Transition(A3~A2)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Transition(A3~A2)",
-            "west",
-            "top,left",
+            "west ",
+            "bottom,left",
             "Cave(A3)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Transition(A3~A2)",
-            "southwestup",
+            "southwestsquigdown ",
             "bottom,left",
             "Stop(A3:A2)",
             "top,right",
@@ -17375,55 +17656,63 @@
         ],
         [
             "Cave(A3)",
-            "west",
-            "top,left",
-            "Gate(A3Refuelling:E)",
-            "top,right",
-            "rail"
-        ],
-        [
-            "Gate(A3Refuelling:E)",
-            "southeastup",
+            "west wide",
             "bottom,left",
-            "Stop(A3Refuelling)",
-            "top,left",
-            "rail"
-        ],
-        [
-            "Gate(A3Refuelling:E)",
-            "west",
-            "top,left",
-            "Refuelling(A3)",
-            "top,right",
-            "rail"
-        ],
-        [
-            "Refuelling(A3)",
-            "west",
-            "top,left",
-            "Gate(A3Refuelling)",
-            "top,right",
-            "rail"
-        ],
-        [
-            "Refuelling(A3)",
-            "southwestup",
+            "Gate(A3:Cave)",
             "bottom,right",
-            "Bypass(RefuellingA3)",
-            "top,right",
             "rail"
         ],
         [
-            "Gate(A3Refuelling)",
-            "southwestup",
+            "Gate(A3:Cave)",
+            "west ",
+            "bottom,left",
+            "Switch(A3:OTWT:E)",
             "bottom,right",
-            "Bypass(RefuellingA3)",
+            "rail"
+        ],
+        [
+            "Switch(A3:OTWT:E)",
+            "southeastsquigdown ",
+            "bottom,right",
+            "Stop(A3:OTWT)",
             "top,left",
             "rail"
         ],
         [
-            "Gate(A3Refuelling)",
-            "southwest",
+            "Switch(A3:OTWT:E)",
+            "west ",
+            "bottom,left",
+            "OilWaterTanks(A3)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "OilWaterTanks(A3)",
+            "west ",
+            "bottom,left",
+            "Gate(A3:OTWT)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "OilWaterTanks(A3)",
+            "southwestsquigdown ",
+            "bottom,right",
+            "Bypass(A3:OTWT)",
+            "top,right",
+            "rail"
+        ],
+        [
+            "Gate(A3:OTWT)",
+            "southwestsquigup ",
+            "bottom,right",
+            "Bypass(A3:OTWT)",
+            "top,left",
+            "rail"
+        ],
+        [
+            "Gate(A3:OTWT)",
+            "southwest wide",
             "bottom,left",
             "POI(Cove)",
             "top,right",
@@ -17431,15 +17720,15 @@
         ],
         [
             "POI(Cove)",
-            "west",
-            "top,left",
+            "west wide",
+            "bottom,left",
             "Switch(A3:A4:E)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "POI(Cove)",
-            "north",
+            "north ",
             "top,right",
             "Cabin(A3)",
             "bottom,right",
@@ -17447,15 +17736,15 @@
         ],
         [
             "Switch(A3:A4:E)",
-            "west",
-            "top,left",
+            "west ",
+            "bottom,left",
             "Switch(A3:A4:N)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(A3:A4:E)",
-            "southeastup",
+            "southeastsquigdown ",
             "bottom,right",
             "Switch(A3:A4:S)",
             "top,right",
@@ -17463,7 +17752,7 @@
         ],
         [
             "Switch(A3:A4:N)",
-            "southeastup",
+            "southeastsquigdown ",
             "bottom,left",
             "Switch(A3:A4:W)",
             "top,left",
@@ -17471,7 +17760,7 @@
         ],
         [
             "Switch(A3:A4:S)",
-            "east",
+            "east ",
             "top,right",
             "Stop(A3:A4:E)",
             "top,left",
@@ -17479,7 +17768,7 @@
         ],
         [
             "Switch(A3:A4:S)",
-            "west",
+            "west ",
             "top,left",
             "Switch(A3:A4:W)",
             "top,right",
@@ -17487,7 +17776,7 @@
         ],
         [
             "Switch(A3:A4:W)",
-            "west",
+            "west ",
             "top,left",
             "Stop(A3:A4:W)",
             "top,right",
@@ -17495,7 +17784,7 @@
         ],
         [
             "CurrentInventory",
-            "south",
+            "south ",
             "bottom,left",
             "UsedUp",
             "top,left",
@@ -17503,7 +17792,7 @@
         ],
         [
             "CurrentInventory",
-            "south",
+            "south ",
             "bottom,right",
             "Uncertainty",
             "top,left",

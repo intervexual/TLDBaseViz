@@ -44,7 +44,10 @@ LEFT = 'left'
 RIGHT = 'right'
 UP = 'up' # for curving
 DOWN = 'down'
+SQUIG = 'squig'
 CURVES = [UP, DOWN]
+WIDE = 'wide'
+TALL = 'tall'
 REVERSE = {SOUTH:NORTH, NORTH:SOUTH,
            EAST:WEST, WEST:EAST,
            BOTTOM:TOP, TOP:BOTTOM,
@@ -56,6 +59,7 @@ for v in [NORTH, SOUTH]:
         REVERSE[v + h] = REVERSE[v] + REVERSE[h]
         for c in CURVES:
             REVERSE[v + h + c] = REVERSE[v] + REVERSE[h] + REVERSE[c]
+            REVERSE[v + h + SQUIG + c] = REVERSE[v] + REVERSE[h] + SQUIG + REVERSE[c]
 
 
 # the colours provided

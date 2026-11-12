@@ -19,6 +19,7 @@ beachcombing	beachcombing	natural	nonanimal	natural			FALSE	TRUE		good
 climb	rope climb	natural	structures	natural	other	rope	FALSE	TRUE		
 goating	goating route	natural	structures	natural			FALSE	TRUE		
 snowshelter	snow shelter	natural	structures	natural			FALSE	TRUE		
+tunnel	tunnel	natural	structures	natural			FALSE	TRUE		
 bridge	bridge	natural	structures	natural			FALSE	TRUE		
 oiltank	whale oil refuelling	natural	train	natural			FALSE	TRUE		
 watertank	train water refuelling	natural	train	natural			FALSE	TRUE		

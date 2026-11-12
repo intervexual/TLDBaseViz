@@ -4,8 +4,8 @@ Visualization for safehouses in The Long Dark. _This is a work in progress!_
 
 The purpose of this vizualizer is to give a bird's eye view of all one's bases in the game. Everything is SVG, meaning you can zoom in and out and the icons will scale nicely.
 
-I'm currently using this vizualizer to keep track of all my bases in my current interloper game. Right now, it looks like:
-![my bases](mybases.svg)
+I'm currently using this vizualizer to keep track of all my bases in my main interloper game, and a side interloper game for the Iron Road DLC. I'm mapping out the DLC areas:
+![Anna Island and Port Remnant](output/ZR-IronRoad.svg)
 
 ## Dependencies
 * [DrawSVG](https://github.com/cduck/drawsvg)
@@ -358,6 +358,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * Travois icon is original art for this project
 * [Trunk (rustic) by Annisa](https://thenounproject.com/icon/treasure-chest-7189699/)
 * [Trunk (premade) by Chintuza](https://thenounproject.com/icon/chest-3106198/)
+* [Tunnel by Muhammad Nur Auliady Pamungkas](https://thenounproject.com/icon/tunnel-8395549/)
 * [Urban Parka by James gibson](https://thenounproject.com/icon/padded-jumper-6393765/)
 * [Vaughn's Rife by ka reemov](https://thenounproject.com/icon/shotgun-4424071/)
 * [Vitamin-C Pills by Studio 365](https://thenounproject.com/icon/diet-supplement-4482553/)
