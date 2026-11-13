@@ -123,7 +123,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 * [Birch Sapling by endang firmansyah](https://thenounproject.com/icon/twig-7095842/)
 * [Book by Dong Gyu Yang](thenounproject.com/icon/book-6380647/)
 * [Box by Elin Erkani](https://thenounproject.com/icon/archive-7281787/)
-* [Brake Shoe by jon trillana](https://thenounproject.com/icon/disc-brake-pads-1565644/)
+* [Brake Shoe based on art by Kipasangin Stock](https://thenounproject.com/icon/brake-2913390/)
 * [Bridge by Muhammad Nur Auliady Pamungkas](https://thenounproject.com/icon/bridge-8395539/)
 * [Briefcase by Dwi ridwanto](https://thenounproject.com/icon/suitcase-7787091/)
 * [Broth based on art by b farias](https://thenounproject.com/icon/glass-jar-full-1414019/)
@@ -398,8 +398,6 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ### IRON ROAD
 0. Minimal canvas
-1. Bigger text size: separate lines by camel case
-1. Separate items within locations where order matters (templates reorder them)
 3. Better guesses at coordinates
 
 ### Drawing-related

@@ -98,7 +98,7 @@
 </g>
 </g>
 <g id="Hibernia:header">
-<text x="153.75" y="138.75" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle"><tspan x="153.75" dy="0em">Hibernia</tspan></text>
+<text x="153.75" y="142.4609375" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Hibernia</text>
 </g>
 </g>
 <path d="M103.75,243.75 L103.75,263.75" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
@@ -147,7 +147,7 @@
 </g>
 </g>
 <g id="Riken:header">
-<text x="133.75" y="280.0" font-size="15.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle"><tspan x="133.75" dy="0em">Riken</tspan></text>
+<text x="133.75" y="283.3125" font-size="15.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">Riken</text>
 </g>
 </g>
 <path d="M103.75,123.75 L103.75,103.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -174,7 +174,7 @@
 </g>
 </g>
 <g id="BrokenBridge:header">
-<text x="133.75" y="62.5" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#6741ca" text-anchor="middle"><tspan x="133.75" dy="0em">Broken</tspan><tspan x="133.75" dy="1em">Bridge</tspan></text>
+<text x="133.75" y="55.3125" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="133.75" dy="0em">Broken</tspan><tspan x="133.75" dy="1em">Bridge</tspan></text>
 </g>
 </g>
 <path d="M103.75,123.75 L83.75,123.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -201,7 +201,7 @@
 </g>
 </g>
 <g id="No5Mine:header">
-<text x="53.75" y="82.5" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">No5</tspan><tspan x="53.75" dy="1em">Mine</tspan></text>
+<text x="53.75" y="73.125" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">No5</tspan><tspan x="53.75" dy="1em">Mine</tspan></text>
 </g>
 </g>
 <path d="M163.75,263.75 L183.75,263.75" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
@@ -240,7 +240,7 @@
 </g>
 </g>
 <g id="LittleIsland:header">
-<text x="213.75" y="281.25" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#6741ca" text-anchor="middle"><tspan x="213.75" dy="0em">Little</tspan><tspan x="213.75" dy="1em">Island</tspan></text>
+<text x="213.75" y="274.0625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="213.75" dy="0em">Little</tspan><tspan x="213.75" dy="1em">Island</tspan></text>
 </g>
 </g>
 <path d="M83.75,63.75 L103.75,43.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -279,7 +279,7 @@
 </g>
 </g>
 <g id="LonelyLighthouse:header">
-<text x="53.75" y="261.25" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">Lonely</tspan><tspan x="53.75" dy="1em">Lighthouse</tspan></text>
+<text x="53.75" y="256.6875" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">Lonely</tspan><tspan x="53.75" dy="1em">Lighthouse</tspan></text>
 </g>
 </g>
 </svg>

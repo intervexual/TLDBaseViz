@@ -10793,7 +10793,7 @@
                     "?firstaid,?locker:9,?cupboard:4,?bag,?file:2,?drawer:6",
                     "?calendar,?rug:3,?mat",
                     "?matches,?heater,?cookpot",
-                    "?wax:2",
+                    "?wax:2,?brake",
                     "?scrap"
                 ]
             },
@@ -11483,7 +11483,8 @@
                     "?firstaid,?locker:9,?cupboard:4,?bag,?file:2,?drawer:6",
                     "?calendar,?rug:3,?mat",
                     "?cookpot",
-                    "?wax"
+                    "?wax,?brake",
+                    "?scrap"
                 ]
             },
             "Switch(A4:RS:N)": {
@@ -17421,7 +17422,7 @@
         [
             "POI(BirchForest)",
             "west ",
-            "top,left",
+            "bottom,left",
             "Switch(OT:N)",
             "top,right",
             "rail"
@@ -17429,7 +17430,7 @@
         [
             "POI(BirchForest)",
             "east ",
-            "top,right",
+            "bottom,right",
             "Transition(PR~A1)",
             "top,left",
             "rail"
