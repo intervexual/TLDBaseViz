@@ -98,6 +98,7 @@ def parse_styling(fname):
     'tinder path'
     >>> cs['destroy']
     'to destroy'
+    >>> cs['default']
     """
     data = {}
     with open(fname, 'r') as f:
@@ -124,7 +125,7 @@ def parse_colours(colours):
     :return: same mappings but everything is hex codes
     >>> c, d, cs, ps = parse_styling('styling.json')
     >>> parse_colours(c).keys()
-    dict_keys(['bg', 'fake', 'base', 'basebg', 'outdoor', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cattail', 'cedar', 'other', 'path', 'default', 'take', 'destroy', 'clearpath', 'todo', 'find', 'charcoal', 'mixed'])
+    dict_keys(['bg', 'fake', 'base', 'moved-customization', 'basebg', 'outdoor', 'bring', 'oneway', 'paint', 'tinder', 'fir', 'cattail', 'cedar', 'other', 'prepare', 'path', 'rail', 'default', 'take', 'destroy', 'clearpath', 'todo', 'find', 'charcoal', 'mixed'])
     >>> parse_colours(c)['tinder']
     '#623e29'
     """

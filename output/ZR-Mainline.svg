@@ -167,7 +167,7 @@
 <text x="4101.25" y="2508.375" font-size="13.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="4101.25" dy="0em">Cinder</tspan><tspan x="4101.25" dy="1em">Hills</tspan><tspan x="4101.25" dy="1em">Coal</tspan><tspan x="4101.25" dy="1em">Mine</tspan><tspan x="4101.25" dy="1em">(Upper)</tspan></text>
 </g>
 </g>
-<path d="M4001.25,2681.25 L4001.25,2701.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4001.25,2681.25 L4001.25,2701.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="CinderHillsCoalMine(Upper):Trailer(BetweenMines)">
 <g id="BASE:Trailer(BetweenMines)">
 <rect x="4001.25" y="2701.25" width="160.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -276,7 +276,7 @@
 </g>
 </g>
 </g>
-<path d="M4201.25,2681.25 L4221.25,2681.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4201.25,2681.25 L4221.25,2681.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="CinderHillsCoalMine(Upper):AbandonedLookout">
 <g id="BASE:AbandonedLookout">
 <rect x="4221.25" y="2561.25" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -468,7 +468,7 @@
 </g>
 </g>
 <g id="Trailer(BetweenMines):CinderHillsCoalMine(Upper)"></g>
-<path d="M4001.25,2821.25 L4001.25,2841.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4001.25,2821.25 L4001.25,2841.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Trailer(BetweenMines):CinderHillsCoalMine(Lower)">
 <g id="BASE:CinderHillsCoalMine(Lower)">
 <rect x="4001.25" y="2841.25" width="180.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -573,7 +573,7 @@
 </g>
 </g>
 </g>
-<path d="M4161.25,2701.25 L4181.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4161.25,2701.25 L4181.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(BetweenMines):Cabins(SouthOfLookout)">
 <g id="BASE:Cabins(SouthOfLookout)">
 <rect x="4181.25" y="2701.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -594,7 +594,7 @@
 </g>
 </g>
 <g id="CinderHillsCoalMine(Lower):Trailer(BetweenMines)"></g>
-<path d="M4181.25,2981.25 L4181.25,3001.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4181.25,2981.25 L4181.25,3001.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="CinderHillsCoalMine(Lower):House(SouthCoastalTownsite)">
 <g id="BASE:House(SouthCoastalTownsite)">
 <rect x="4181.25" y="3001.25" width="100.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -631,7 +631,7 @@
 </g>
 </g>
 </g>
-<path d="M4001.25,2841.25 L3981.25,2841.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4001.25,2841.25 L3981.25,2841.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="CinderHillsCoalMine(Lower):POI(ForkedRoad)">
 <g id="BASE:POI(ForkedRoad)">
 <rect x="3961.25" y="2821.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -641,7 +641,7 @@
 </g>
 </g>
 </g>
-<path d="M4001.25,2981.25 L4001.25,3001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4001.25,2981.25 L4001.25,3001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CinderHillsCoalMine(Lower):Trailer(LogSort)">
 <g id="BASE:Trailer(LogSort)">
 <rect x="4001.25" y="3001.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -661,7 +661,7 @@
 </g>
 </g>
 </g>
-<path d="M4001.25,2981.25 L3981.25,2981.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4001.25,2981.25 L3981.25,2981.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CinderHillsCoalMine(Lower):CinderHillsCoalMine(Aurora)">
 <g id="BASE:CinderHillsCoalMine(Aurora)">
 <rect x="3941.25" y="2981.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -786,7 +786,7 @@
 </g>
 </g>
 </g>
-<path d="M4281.25,3001.25 L4301.25,3001.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4281.25,3001.25 L4301.25,3001.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="House(SouthCoastalTownsite):QuonsetGarage">
 <g id="BASE:QuonsetGarage">
 <rect x="4301.25" y="3001.25" width="260.0" height="860.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -2563,7 +2563,7 @@
 </g>
 </g>
 </g>
-<path d="M4301.25,3001.25 L4301.25,2981.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4301.25,3001.25 L4301.25,2981.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="QuonsetGarage:House(NorthCoastalTownsite)">
 <g id="BASE:House(NorthCoastalTownsite)">
 <rect x="4301.25" y="2901.25" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -2600,7 +2600,7 @@
 </g>
 </g>
 </g>
-<path d="M4561.25,3001.25 L4581.25,3001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4561.25,3001.25 L4581.25,3001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="QuonsetGarage:CrashedPlane(CH)">
 <g id="BASE:CrashedPlane(CH)">
 <rect x="4581.25" y="3001.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -2617,7 +2617,7 @@
 </g>
 </g>
 <g id="QuonsetGarage:House(SouthCoastalTownsite)"></g>
-<path d="M4561.25,3861.25 L4561.25,3881.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4561.25,3861.25 L4561.25,3881.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="QuonsetGarage:WaterfrontCottages">
 <g id="BASE:WaterfrontCottages">
 <rect x="4481.25" y="3881.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3149,9 +3149,9 @@
 </g>
 </g>
 <g id="Cabin(NorthOfTooth):POI(ForkedRoad)">
-<path d="M3841.25,2681.25 L3961.25,2821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3841.25,2681.25 L3961.25,2821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
-<path d="M3841.25,2541.25 L3821.25,2541.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M3841.25,2541.25 L3821.25,2541.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="Cabin(NorthOfTooth):Trailer(TrainUnloading)">
 <g id="BASE:Trailer(TrainUnloading)">
 <rect x="3641.25" y="2541.25" width="180.0" height="160.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3316,7 +3316,7 @@
 <g id="FishHut(Eastmost):MisanthropesHomestead">
 <path d="M4181.25,3281.25 L4081.25,3481.25" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
 </g>
-<path d="M4181.25,3101.25 L4161.25,3101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4181.25,3101.25 L4161.25,3101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="FishHut(Eastmost):FishHuts(Central)">
 <g id="BASE:FishHuts(Central)">
 <rect x="4081.25" y="3101.25" width="80.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3355,7 +3355,7 @@
 </g>
 </g>
 <g id="MisanthropesHomestead:FishHut(Eastmost)"></g>
-<path d="M4081.25,3481.25 L4061.25,3481.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M4081.25,3481.25 L4061.25,3481.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="MisanthropesHomestead:FishHut(BetweenIslands)">
 <g id="BASE:FishHut(BetweenIslands)">
 <rect x="4021.25" y="3481.25" width="40.0" height="220.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3413,7 +3413,7 @@
 </g>
 </g>
 <g id="MisanthropesHomestead:WaterfrontCottages">
-<path d="M4281.25,3861.25 L4481.25,3941.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M4281.25,3861.25 L4481.25,3941.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 </g>
 <path d="M4081.25,3861.25 L4081.25,3881.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
 <g id="MisanthropesHomestead:ToTradeFor">
@@ -3566,7 +3566,7 @@
 </g>
 <g id="MisanthropesHomestead:QuonsetGarage"></g>
 <g id="House(NorthCoastalTownsite):QuonsetGarage"></g>
-<path d="M4361.25,2901.25 L4361.25,2881.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4361.25,2901.25 L4361.25,2881.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="House(NorthCoastalTownsite):Trailer(NearSilentClearing)">
 <g id="BASE:Trailer(NearSilentClearing)">
 <rect x="4321.25" y="2841.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3606,7 +3606,7 @@
 <g id="CinderHillsCoalMine(Aurora):CinderHillsCoalMine(Lower)"></g>
 <g id="POI(ForkedRoad):CinderHillsCoalMine(Lower)"></g>
 <g id="POI(ForkedRoad):Cabin(NorthOfTooth)"></g>
-<path d="M3961.25,2841.25 L3941.25,2841.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3961.25,2841.25 L3941.25,2841.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(ForkedRoad):Trailer(SouthOfTrainUnloading)">
 <g id="BASE:Trailer(SouthOfTrainUnloading)">
 <rect x="3901.25" y="2801.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -3627,7 +3627,7 @@
 </g>
 </g>
 <g id="FishHut(BetweenIslands):MisanthropesHomestead"></g>
-<path d="M4021.25,3481.25 L4001.25,3481.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M4021.25,3481.25 L4001.25,3481.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="FishHut(BetweenIslands):House(Jackrabbit)">
 <g id="BASE:House(Jackrabbit)">
 <rect x="3801.25" y="3481.25" width="200.0" height="480.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4277,10 +4277,10 @@
 </g>
 </g>
 <g id="FishHut(BetweenIslands):FishHuts(Central)">
-<path d="M4061.25,3481.25 L4161.25,3201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4061.25,3481.25 L4161.25,3201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="House(Jackrabbit):FishHut(BetweenIslands)"></g>
-<path d="M3801.25,3481.25 L3801.25,3461.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M3801.25,3481.25 L3801.25,3461.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="House(Jackrabbit):FishHut(NearFishingCamp)">
 <g id="BASE:FishHut(NearFishingCamp)">
 <rect x="3801.25" y="3341.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4309,7 +4309,7 @@
 </g>
 </g>
 </g>
-<path d="M3801.25,3481.25 L3781.25,3481.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M3801.25,3481.25 L3781.25,3481.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="House(Jackrabbit):FishHut(Westmost)">
 <g id="BASE:FishHut(Westmost)">
 <rect x="3741.25" y="3481.25" width="40.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4349,7 +4349,7 @@
 <path d="M4001.25,3481.25 L4081.25,3201.25" stroke-width="2.5" stroke="#623e29" stroke-dasharray="4,2" fill="none" />
 </g>
 <g id="FishHut(Westmost):House(Jackrabbit)"></g>
-<path d="M3741.25,3481.25 L3741.25,3461.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M3741.25,3481.25 L3741.25,3461.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="FishHut(Westmost):Car(Rockfall)">
 <g id="BASE:Car(Rockfall)">
 <rect x="3681.25" y="3361.25" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4400,9 +4400,9 @@
 </g>
 <g id="Trailer(LogSort):CinderHillsCoalMine(Lower)"></g>
 <g id="Trailer(LogSort):FishHuts(Central)">
-<path d="M4001.25,3041.25 L4081.25,3101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4001.25,3041.25 L4081.25,3101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
-<path d="M4001.25,3041.25 L3981.25,3041.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4001.25,3041.25 L3981.25,3041.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Trailer(LogSort):Car(TheTooth)">
 <g id="BASE:Car(TheTooth)">
 <rect x="3961.25" y="3041.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4413,7 +4413,7 @@
 </g>
 </g>
 <g id="Trailer(TrainUnloading):Cabin(NorthOfTooth)"></g>
-<path d="M3641.25,2541.25 L3621.25,2541.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3641.25,2541.25 L3621.25,2541.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Trailer(TrainUnloading):Transition(CH~R)">
 <g id="BASE:Transition(CH~R)">
 <rect x="3521.25" y="2541.25" width="100.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4451,10 +4451,10 @@
 </g>
 </g>
 <g id="Trailer(TrainUnloading):Trailer(SouthOfTrainUnloading)">
-<path d="M3641.25,2701.25 L3901.25,2801.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3641.25,2701.25 L3901.25,2801.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
 <g id="Transition(CH~R):Trailer(TrainUnloading)"></g>
-<path d="M3521.25,2601.25 L3521.25,2621.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3521.25,2601.25 L3521.25,2621.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(CH~R):Cabin(RabbitGrove)">
 <g id="BASE:Cabin(RabbitGrove)">
 <rect x="3521.25" y="2621.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4474,7 +4474,7 @@
 </g>
 </g>
 </g>
-<path d="M3521.25,2541.25 L3501.25,2541.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3521.25,2541.25 L3501.25,2541.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(CH~R):Transition(R~CH)">
 <g id="BASE:Transition(R~CH)">
 <rect x="3461.25" y="2541.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -4492,9 +4492,9 @@
 </g>
 <g id="Car(Rockfall):FishHut(Westmost)"></g>
 <g id="Car(Rockfall):Cabin(RabbitGrove)">
-<path d="M3681.25,3361.25 L3521.25,2661.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3681.25,3361.25 L3521.25,2661.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
-<path d="M3741.25,3361.25 L3741.25,3341.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3741.25,3361.25 L3741.25,3341.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Car(Rockfall):Cabins(FishingCamp)">
 <g id="BASE:Cabins(FishingCamp)">
 <rect x="3741.25" y="3001.25" width="220.0" height="340.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5024,7 +5024,7 @@
 <path d="M3861.25,3341.25 L4081.25,3101.25" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
 </g>
 <g id="FishHut(NearFishingCamp):Cabins(FishingCamp)">
-<path d="M3801.25,3341.25 L3961.25,3341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3801.25,3341.25 L3961.25,3341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="FishHuts(Central):Trailer(LogSort)"></g>
 <g id="FishHuts(Central):FishHut(NearFishingCamp)"></g>
@@ -5032,14 +5032,14 @@
 <g id="FishHuts(Central):House(Jackrabbit)"></g>
 <g id="FishHuts(Central):FishHut(BetweenIslands)"></g>
 <g id="Cabins(FishingCamp):Car(TheTooth)">
-<path d="M3961.25,3001.25 L3961.25,3061.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3961.25,3001.25 L3961.25,3061.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
 <g id="Cabins(FishingCamp):Car(Rockfall)"></g>
 <g id="Cabins(FishingCamp):FishHut(NearFishingCamp)"></g>
 <g id="Car(TheTooth):Trailer(LogSort)"></g>
 <g id="Car(TheTooth):Cabins(FishingCamp)"></g>
 <g id="Cabins(SouthOfLookout):Trailer(NearSilentClearing)">
-<path d="M4221.25,2701.25 L4321.25,2841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4221.25,2701.25 L4321.25,2841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <path d="M4221.25,2701.25 L4221.25,2681.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
 <g id="Cabins(SouthOfLookout):Climb(C-AL1)">
@@ -5060,7 +5060,7 @@
 <g id="Cabins(SouthOfLookout):Trailer(BetweenMines)"></g>
 <g id="Trailer(NearSilentClearing):House(NorthCoastalTownsite)"></g>
 <g id="Trailer(NearSilentClearing):Cabins(SouthOfLookout)"></g>
-<path d="M4361.25,2841.25 L4361.25,2821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4361.25,2841.25 L4361.25,2821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(NearSilentClearing):Climb(SC-AL)">
 <g id="BASE:Climb(SC-AL)">
 <rect x="4321.25" y="2781.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -5080,7 +5080,7 @@
 <g id="Trailer(SouthOfTrainUnloading):POI(ForkedRoad)"></g>
 <g id="WaterfrontCottages:MisanthropesHomestead"></g>
 <g id="WaterfrontCottages:QuonsetGarage"></g>
-<path d="M4561.25,3881.25 L4581.25,3881.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4561.25,3881.25 L4581.25,3881.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="WaterfrontCottages:Car(CommutersLament)">
 <g id="BASE:Car(CommutersLament)">
 <rect x="4581.25" y="3821.25" width="100.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5119,7 +5119,7 @@
 </g>
 </g>
 <g id="Car(CommutersLament):WaterfrontCottages"></g>
-<path d="M4581.25,3881.25 L4581.25,3901.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4581.25,3881.25 L4581.25,3901.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Car(CommutersLament):Transition(CH~OIC)">
 <g id="BASE:Transition(CH~OIC)">
 <rect x="4581.25" y="3901.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5138,7 +5138,7 @@
 <g id="Climb(C-AL2):Climb(C-AL1)"></g>
 <g id="CrashedPlane(CH):QuonsetGarage"></g>
 <g id="Transition(CH~OIC):Car(CommutersLament)"></g>
-<path d="M4581.25,3921.25 L4581.25,3941.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4581.25,3921.25 L4581.25,3941.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(CH~OIC):Transition(OIC~CH)">
 <g id="BASE:Transition(OIC~CH)">
 <rect x="4581.25" y="3941.25" width="100.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5189,7 +5189,7 @@
 </g>
 </g>
 <g id="Transition(OIC~CH):Transition(CH~OIC)"></g>
-<path d="M4681.25,3941.25 L4701.25,3941.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M4681.25,3941.25 L4701.25,3941.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(OIC~CH):HarrisBasement">
 <g id="BASE:HarrisBasement">
 <rect x="4701.25" y="3821.25" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5288,7 +5288,7 @@
 </g>
 </g>
 <g id="HarrisBasement:Transition(OIC~CH)"></g>
-<path d="M4801.25,3941.25 L4801.25,3961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4801.25,3941.25 L4801.25,3961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HarrisBasement:Cave(TheArch)">
 <g id="BASE:Cave(TheArch)">
 <rect x="4801.25" y="3961.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5311,7 +5311,7 @@
 </g>
 </g>
 </g>
-<path d="M4801.25,3821.25 L4821.25,3821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4801.25,3821.25 L4821.25,3821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HarrisBasement:Cave(RoadCollapse)">
 <g id="BASE:Cave(RoadCollapse)">
 <rect x="4821.25" y="3781.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5328,7 +5328,7 @@
 </g>
 </g>
 <g id="Cave(RoadCollapse):HarrisBasement"></g>
-<path d="M4861.25,3781.25 L4881.25,3781.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M4861.25,3781.25 L4881.25,3781.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(RoadCollapse):Transition(OIC~DP)">
 <g id="BASE:Transition(OIC~DP)">
 <rect x="4881.25" y="3661.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5404,7 +5404,7 @@
 </g>
 <g id="Cave(TheArch):HarrisBasement"></g>
 <g id="Transition(OIC~DP):Cave(RoadCollapse)"></g>
-<path d="M4961.25,3661.25 L4981.25,3661.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
+<path d="M4961.25,3661.25 L4981.25,3661.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7,4" fill="none" />
 <g id="Transition(OIC~DP):Transition(DP~OIC)">
 <g id="BASE:Transition(DP~OIC)">
 <rect x="4981.25" y="3621.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5425,7 +5425,7 @@
 </g>
 </g>
 <g id="Transition(DP~OIC):Transition(OIC~DP)"></g>
-<path d="M5021.25,3621.25 L5041.25,3621.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
+<path d="M5021.25,3621.25 L5041.25,3621.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7,4" fill="none" />
 <g id="Transition(DP~OIC):No3Mine">
 <g id="BASE:No3Mine">
 <rect x="5041.25" y="3481.25" width="140.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5512,7 +5512,7 @@
 </g>
 </g>
 <g id="No3Mine:Transition(DP~OIC)"></g>
-<path d="M5181.25,3621.25 L5181.25,3641.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5181.25,3621.25 L5181.25,3641.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="No3Mine:Climb(DP)">
 <g id="BASE:Climb(DP)">
 <rect x="5181.25" y="3641.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5528,7 +5528,7 @@
 </g>
 </g>
 </g>
-<path d="M5181.25,3481.25 L5221.25,3481.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M5181.25,3481.25 L5221.25,3481.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No3Mine:No5Mine(West)">
 <g id="BASE:No5Mine(West)">
 <rect x="5221.25" y="3481.25" width="160.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5696,7 +5696,7 @@
 </g>
 </g>
 <g id="No5Mine(West):No3Mine"></g>
-<path d="M5381.25,3481.25 L5401.25,3481.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
+<path d="M5381.25,3481.25 L5401.25,3481.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7,4" fill="none" />
 <g id="No5Mine(West):No5Mine(East)">
 <g id="BASE:No5Mine(East)">
 <rect x="5401.25" y="3321.25" width="80.0" height="160.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5785,7 +5785,7 @@
 </g>
 </g>
 </g>
-<path d="M5381.25,3661.25 L5381.25,3681.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M5381.25,3661.25 L5381.25,3681.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(West):StoneChurch">
 <g id="BASE:StoneChurch">
 <rect x="5381.25" y="3681.25" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5829,7 +5829,7 @@
 </g>
 </g>
 </g>
-<path d="M5221.25,3661.25 L5221.25,3701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5221.25,3661.25 L5221.25,3701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="No5Mine(West):POI(KatiesSecludedCorner)">
 <g id="BASE:POI(KatiesSecludedCorner)">
 <rect x="5161.25" y="3701.25" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -5858,7 +5858,7 @@
 </g>
 </g>
 <g id="No5Mine(East):No5Mine(West)"></g>
-<path d="M5481.25,3321.25 L5501.25,3321.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M5481.25,3321.25 L5501.25,3321.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(East):HiberniaProcessing">
 <g id="BASE:HiberniaProcessing">
 <rect x="5501.25" y="3321.25" width="200.0" height="500.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6481,7 +6481,7 @@
 </g>
 </g>
 </g>
-<path d="M5481.25,3321.25 L5481.25,3301.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M5481.25,3321.25 L5481.25,3301.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(East):Cave(BrokenBridge)">
 <g id="BASE:Cave(BrokenBridge)">
 <rect x="5481.25" y="3241.25" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6518,9 +6518,9 @@
 </g>
 <g id="HiberniaProcessing:No5Mine(East)"></g>
 <g id="HiberniaProcessing:Cave(BrokenBridge)">
-<path d="M5501.25,3321.25 L5561.25,3301.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M5501.25,3321.25 L5561.25,3301.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
-<path d="M5701.25,3321.25 L5701.25,3301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5701.25,3321.25 L5701.25,3301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Trailer(NorthHibernia)">
 <g id="BASE:Trailer(NorthHibernia)">
 <rect x="5641.25" y="3241.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6558,7 +6558,7 @@
 </g>
 </g>
 </g>
-<path d="M5701.25,3821.25 L5701.25,3841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5701.25,3821.25 L5701.25,3841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Trailer(SouthHibernia)">
 <g id="BASE:Trailer(SouthHibernia)">
 <rect x="5601.25" y="3841.25" width="100.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6597,7 +6597,7 @@
 </g>
 </g>
 </g>
-<path d="M5701.25,3321.25 L5721.25,3321.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5701.25,3321.25 L5721.25,3321.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Fulmar">
 <g id="BASE:Fulmar">
 <rect x="5721.25" y="3321.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -6621,10 +6621,10 @@
 </g>
 <g id="Cave(BrokenBridge):No5Mine(East)"></g>
 <g id="Cave(BrokenBridge):Trailer(NorthHibernia)">
-<path d="M5561.25,3301.25 L5641.25,3301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5561.25,3301.25 L5641.25,3301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Cave(BrokenBridge):HiberniaProcessing"></g>
-<path d="M5481.25,3241.25 L5481.25,3221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5481.25,3241.25 L5481.25,3221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BrokenBridge):Cave(Scruffy)">
 <g id="BASE:Cave(Scruffy)">
 <rect x="5481.25" y="3161.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6911,7 +6911,7 @@
 </g>
 </g>
 </g>
-<path d="M5601.25,4101.25 L5581.25,4101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5601.25,4101.25 L5581.25,4101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TheRiken:Truck(Matts)">
 <g id="BASE:Truck(Matts)">
 <rect x="5561.25" y="4081.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6922,7 +6922,7 @@
 </g>
 </g>
 <g id="POI(LittleIsland):TheRiken"></g>
-<path d="M5601.25,4121.25 L5581.25,4121.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M5601.25,4121.25 L5581.25,4121.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="POI(LittleIsland):LonelyLighthouse">
 <g id="BASE:LonelyLighthouse">
 <rect x="5481.25" y="4121.25" width="100.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -6966,13 +6966,13 @@
 <g id="Trailer(NorthHibernia):HiberniaProcessing"></g>
 <g id="LonelyLighthouse:POI(LittleIsland)"></g>
 <g id="LonelyLighthouse:StoneChurch">
-<path d="M5481.25,4121.25 L5381.25,3761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5481.25,4121.25 L5381.25,3761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="LonelyLighthouse:POI(KatiesSecludedCorner)">
-<path d="M5481.25,4121.25 L5221.25,3801.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5481.25,4121.25 L5221.25,3801.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="StoneChurch:Truck(Matts)">
-<path d="M5441.25,3761.25 L5561.25,4081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5441.25,3761.25 L5561.25,4081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="StoneChurch:No5Mine(West)"></g>
 <g id="StoneChurch:LonelyLighthouse"></g>
@@ -6981,13 +6981,13 @@
 <g id="Fulmar:HiberniaProcessing"></g>
 <g id="Climb(DP):No3Mine"></g>
 <g id="Climb(DP):POI(KatiesSecludedCorner)">
-<path d="M5181.25,3681.25 L5161.25,3701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M5181.25,3681.25 L5161.25,3701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="POI(KatiesSecludedCorner):Climb(DP)"></g>
 <g id="POI(KatiesSecludedCorner):LonelyLighthouse"></g>
 <g id="POI(KatiesSecludedCorner):No5Mine(West)"></g>
 <g id="Transition(R~CH):Transition(CH~R)"></g>
-<path d="M3461.25,2541.25 L3461.25,2521.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3461.25,2541.25 L3461.25,2521.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(R~CH):Tunnel(RavineEast)">
 <g id="BASE:Tunnel(RavineEast)">
 <rect x="3421.25" y="2481.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7004,7 +7004,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineEast):Transition(R~CH)"></g>
-<path d="M3421.25,2481.25 L3421.25,2461.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3421.25,2481.25 L3421.25,2461.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Tunnel(RavineEast):Tunnel(RavineWest)">
 <g id="BASE:Tunnel(RavineWest)">
 <rect x="3381.25" y="2421.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7021,7 +7021,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineWest):Tunnel(RavineEast)"></g>
-<path d="M3381.25,2421.25 L3361.25,2421.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M3381.25,2421.25 L3361.25,2421.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Tunnel(RavineWest):Cave(EastRavine)">
 <g id="BASE:Cave(EastRavine)">
 <rect x="3161.25" y="2281.25" width="200.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7248,7 +7248,7 @@
 </g>
 </g>
 <g id="Cave(EastRavine):Tunnel(RavineWest)"></g>
-<path d="M3161.25,2281.25 L3141.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3161.25,2281.25 L3141.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(EastRavine):TrainCar(Ravine)">
 <g id="BASE:TrainCar(Ravine)">
 <rect x="3121.25" y="2261.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7269,7 +7269,7 @@
 </g>
 </g>
 <g id="TrainCar(Ravine):Cave(EastRavine)"></g>
-<path d="M3121.25,2281.25 L3101.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3121.25,2281.25 L3101.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TrainCar(Ravine):Cave(WestRavine)">
 <g id="BASE:Cave(WestRavine)">
 <rect x="2921.25" y="2281.25" width="180.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7484,7 +7484,7 @@
 </g>
 </g>
 <g id="TrainCar(Ravine):POI(TreeBridge)">
-<path d="M3141.25,2281.25 L3141.25,2421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3141.25,2281.25 L3141.25,2421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Cave(WestRavine):TrainCar(Ravine)"></g>
 <g id="Cave(WestRavine):POI(TreeBridge)">
@@ -7500,7 +7500,7 @@
 </g>
 </g>
 </g>
-<path d="M2921.25,2461.25 L2921.25,2481.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M2921.25,2461.25 L2921.25,2481.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="Cave(WestRavine):Climb(Ravine)">
 <g id="BASE:Climb(Ravine)">
 <rect x="2921.25" y="2481.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7523,7 +7523,7 @@
 </g>
 </g>
 <g id="Transition(R~ML):Cave(WestRavine)"></g>
-<path d="M2901.25,2241.25 L2881.25,2241.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2901.25,2241.25 L2881.25,2241.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(R~ML):Transition(ML~R)">
 <g id="BASE:Transition(ML~R)">
 <rect x="2861.25" y="2241.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7537,11 +7537,11 @@
 <g id="POI(TreeBridge):Cave(EastRavine)"></g>
 <g id="POI(TreeBridge):Cave(WestRavine)"></g>
 <g id="POI(TreeBridge):Climb(Ravine)">
-<path d="M3121.25,2441.25 L2981.25,2481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3121.25,2441.25 L2981.25,2481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Climb(Ravine):POI(TreeBridge)"></g>
 <g id="Climb(Ravine):Cave(WestRavine)"></g>
-<path d="M2981.25,2541.25 L3001.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2981.25,2541.25 L3001.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(Ravine):TrainCar(RavineBasin)">
 <g id="BASE:TrainCar(RavineBasin)">
 <rect x="3001.25" y="2541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7552,7 +7552,7 @@
 </g>
 </g>
 <g id="TrainCar(RavineBasin):Climb(Ravine)"></g>
-<path d="M3021.25,2541.25 L3041.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3021.25,2541.25 L3041.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TrainCar(RavineBasin):Cave(SouthRavine)">
 <g id="BASE:Cave(SouthRavine)">
 <rect x="3041.25" y="2541.25" width="220.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7660,7 +7660,7 @@
 </g>
 </g>
 <g id="Cave(SouthRavine):TrainCar(RavineBasin)"></g>
-<path d="M3041.25,2641.25 L3041.25,2661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M3041.25,2641.25 L3041.25,2661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(SouthRavine):Transition(R~BI)">
 <g id="BASE:Transition(R~BI)">
 <rect x="3041.25" y="2661.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7677,7 +7677,7 @@
 <g id="Goating(Ravine):Cave(SouthRavine)"></g>
 <g id="Transition(R~BI):Cave(SouthRavine)"></g>
 <g id="Transition(ML~R):Transition(R~ML)"></g>
-<path d="M2881.25,2241.25 L2881.25,2221.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M2881.25,2241.25 L2881.25,2221.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="Transition(ML~R):Trailer(DamEast)">
 <g id="BASE:Trailer(DamEast)">
 <rect x="2741.25" y="2121.25" width="140.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7746,7 +7746,7 @@
 </g>
 </g>
 <g id="Trailer(DamEast):Transition(ML~R)"></g>
-<path d="M2741.25,2121.25 L2721.25,2121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2741.25,2121.25 L2721.25,2121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(DamEast):Trailer(DamWest)">
 <g id="BASE:Trailer(DamWest)">
 <rect x="2581.25" y="2121.25" width="140.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -7814,7 +7814,7 @@
 </g>
 </g>
 </g>
-<path d="M2581.25,2121.25 L2581.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2581.25,2121.25 L2581.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(DamWest):UpperDam">
 <g id="BASE:UpperDam">
 <rect x="2581.25" y="1601.25" width="220.0" height="500.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8628,7 +8628,7 @@
 </g>
 </g>
 <g id="Trailer(DamWest):Trailer(DamEast)"></g>
-<path d="M2581.25,2221.25 L2581.25,2241.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2581.25,2221.25 L2581.25,2241.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(DamWest):POI(RiverNorthernAccess)">
 <g id="BASE:POI(RiverNorthernAccess)">
 <rect x="2501.25" y="2241.25" width="80.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8655,7 +8655,7 @@
 </g>
 </g>
 </g>
-<path d="M2581.25,2121.25 L2561.25,2121.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2581.25,2121.25 L2561.25,2121.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Trailer(DamWest):TrainCar(TrainLoading)">
 <g id="BASE:TrainCar(TrainLoading)">
 <rect x="2521.25" y="2121.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8672,7 +8672,7 @@
 </g>
 </g>
 <g id="UpperDam:Trailer(DamWest)"></g>
-<path d="M2801.25,2101.25 L2821.25,2101.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2801.25,2101.25 L2821.25,2101.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="UpperDam:Transition(ML~WR)">
 <g id="BASE:Transition(ML~WR)">
 <rect x="2821.25" y="2081.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8684,7 +8684,7 @@
 </g>
 <g id="Transition(ML~WR):UpperDam"></g>
 <g id="TrainCar(TrainLoading):Trailer(DamWest)"></g>
-<path d="M2521.25,2121.25 L2501.25,2121.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2521.25,2121.25 L2501.25,2121.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="TrainCar(TrainLoading):TrainCar(Derailment)">
 <g id="BASE:TrainCar(Derailment)">
 <rect x="2461.25" y="2121.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8700,7 +8700,7 @@
 </g>
 </g>
 </g>
-<path d="M2561.25,2121.25 L2561.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2561.25,2121.25 L2561.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TrainCar(TrainLoading):Trailers(LoggingCamp)">
 <g id="BASE:Trailers(LoggingCamp)">
 <rect x="2481.25" y="2001.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8749,7 +8749,7 @@
 </g>
 </g>
 <g id="Trailers(LoggingCamp):TrainCar(TrainLoading)"></g>
-<path d="M2481.25,2001.25 L2461.25,2001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2481.25,2001.25 L2461.25,2001.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailers(LoggingCamp):ForestryLookout">
 <g id="BASE:ForestryLookout">
 <rect x="2401.25" y="1901.25" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8808,7 +8808,7 @@
 </g>
 </g>
 </g>
-<path d="M2401.25,1901.25 L2401.25,1881.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,1901.25 L2401.25,1881.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ForestryLookout:POI(FrozenCreek)">
 <g id="BASE:POI(FrozenCreek)">
 <rect x="2401.25" y="1841.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8824,7 +8824,7 @@
 </g>
 </g>
 </g>
-<path d="M2401.25,2001.25 L2401.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,2001.25 L2401.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ForestryLookout:PlaneCrash(ML)">
 <g id="BASE:PlaneCrash(ML)">
 <rect x="2401.25" y="2021.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8841,7 +8841,7 @@
 </g>
 </g>
 <g id="ForestryLookout:Trailers(LoggingCamp)"></g>
-<path d="M2401.25,1841.25 L2401.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,1841.25 L2401.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(FrozenCreek):Climb(FC-DL)">
 <g id="BASE:Climb(FC-DL)">
 <rect x="2401.25" y="1761.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -8878,7 +8878,7 @@
 </g>
 </g>
 <g id="POI(FrozenCreek):ForestryLookout"></g>
-<path d="M2401.25,1761.25 L2401.25,1741.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,1761.25 L2401.25,1741.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(FC-DL):POI(DestroyedLookout)">
 <g id="BASE:POI(DestroyedLookout)">
 <rect x="2401.25" y="1681.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8904,7 +8904,7 @@
 </g>
 <g id="Climb(FC-DL):POI(FrozenCreek)"></g>
 <g id="POI(DestroyedLookout):Climb(FC-DL)"></g>
-<path d="M2401.25,1681.25 L2401.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,1681.25 L2401.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(DestroyedLookout):POI(Clearcut)">
 <g id="BASE:POI(Clearcut)">
 <rect x="2401.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -8915,7 +8915,7 @@
 </g>
 </g>
 <g id="POI(Clearcut):POI(DestroyedLookout)"></g>
-<path d="M2401.25,1641.25 L2381.25,1641.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2401.25,1641.25 L2381.25,1641.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(Clearcut):Cabin(UnnamedPond)">
 <g id="BASE:Cabin(UnnamedPond)">
 <rect x="2281.25" y="1521.25" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10309,7 +10309,7 @@
 </g>
 </g>
 </g>
-<path d="M2181.25,1581.25 L2181.25,1601.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2181.25,1581.25 L2181.25,1601.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntersBlind(UnnamedPond):POI(DeadfallArea)">
 <g id="BASE:POI(DeadfallArea)">
 <rect x="2181.25" y="1601.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10406,7 +10406,7 @@
 </g>
 </g>
 </g>
-<path d="M1881.25,1521.25 L1861.25,1521.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M1881.25,1521.25 L1861.25,1521.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="TrappersHomestead:Cave(ML~MT)">
 <g id="BASE:Cave(ML~MT)">
 <rect x="1821.25" y="1521.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10430,14 +10430,14 @@
 </g>
 <g id="TrappersHomestead:HuntersBlind(UnnamedPond)"></g>
 <g id="TrappersHomestead:POI(DeadfallArea)">
-<path d="M2161.25,2121.25 L2181.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2161.25,2121.25 L2181.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="PlaneCrash(ML):TrainCar(Derailment)">
-<path d="M2441.25,2061.25 L2461.25,2121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2441.25,2061.25 L2461.25,2121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="PlaneCrash(ML):ForestryLookout"></g>
 <g id="POI(RiverNorthernAccess):Trailer(DamWest)"></g>
-<path d="M2581.25,2321.25 L2581.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2581.25,2321.25 L2581.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(RiverNorthernAccess):HuntersBlind(AlansCave)">
 <g id="BASE:HuntersBlind(AlansCave)">
 <rect x="2541.25" y="2341.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10575,7 +10575,7 @@
 </g>
 </g>
 <g id="Cave(LakeOverlook):POI(RiverNorthernAccess)"></g>
-<path d="M2481.25,2421.25 L2481.25,2441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2481.25,2421.25 L2481.25,2441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(LakeOverlook):Climb(ML-LO2)">
 <g id="BASE:Climb(ML-LO2)">
 <rect x="2441.25" y="2441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -10613,7 +10613,7 @@
 </g>
 </g>
 <g id="Climb(ML-LO2):Cave(LakeOverlook)"></g>
-<path d="M2481.25,2481.25 L2481.25,2501.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2481.25,2481.25 L2481.25,2501.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(ML-LO2):Climb(ML-LO1)">
 <g id="BASE:Climb(ML-LO1)">
 <rect x="2441.25" y="2501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -10629,7 +10629,7 @@
 </g>
 </g>
 </g>
-<path d="M1881.25,2141.25 L1861.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1881.25,2141.25 L1861.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(ML~FM):Transition(FM~ML)">
 <g id="BASE:Transition(FM~ML)">
 <rect x="1841.25" y="2141.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10640,7 +10640,7 @@
 </g>
 </g>
 <g id="Transition(ML~FM):TrappersHomestead"></g>
-<path d="M1961.25,2141.25 L1981.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1961.25,2141.25 L1981.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(ML~FM):POI(MidRailArea)">
 <g id="BASE:POI(MidRailArea)">
 <rect x="1981.25" y="2141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -10673,10 +10673,10 @@
 </g>
 </g>
 <g id="POI(CentralMLRail):TrainCar(Derailment)">
-<path d="M2361.25,2181.25 L2461.25,2121.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2361.25,2181.25 L2461.25,2121.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
 <g id="POI(CentralMLRail):POI(MidRailArea)">
-<path d="M2301.25,2181.25 L2021.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M2301.25,2181.25 L2021.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
 <g id="POI(CentralMLRail):Cave(LakeOverlook)"></g>
 <path d="M2301.25,2241.25 L2281.25,2241.25" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
@@ -11151,7 +11151,7 @@
 </g>
 <g id="CampOffice:POI(CentralMLRail)"></g>
 <g id="CampOffice:POI(MidRailArea)">
-<path d="M2141.25,2241.25 L2021.25,2181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2141.25,2241.25 L2021.25,2181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <path d="M2141.25,2601.25 L2141.25,2621.25" stroke-width="2.5" stroke="#623e29" stroke-dasharray="4,2" fill="none" />
 <g id="CampOffice:FishHuts(ML)">
@@ -11182,7 +11182,7 @@
 </g>
 </g>
 </g>
-<path d="M2141.25,2601.25 L2121.25,2601.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2141.25,2601.25 L2121.25,2601.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CampOffice:POI(DavesQuietClearing)">
 <g id="BASE:POI(DavesQuietClearing)">
 <rect x="2101.25" y="2581.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11198,7 +11198,7 @@
 <g id="TrainCar(Derailment):TrainCar(TrainLoading)"></g>
 <g id="TrainCar(Derailment):POI(CentralMLRail)"></g>
 <g id="TrainCar(Derailment):PlaneCrash(ML)"></g>
-<path d="M1921.25,2261.25 L1941.25,2261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1921.25,2261.25 L1941.25,2261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(PrepperCache):PrepperCache(ML)">
 <g id="BASE:PrepperCache(ML)">
 <rect x="1941.25" y="2261.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11220,10 +11220,10 @@
 </g>
 <g id="Cave(PrepperCache):Transition(ML~FM)"></g>
 <g id="PrepperCache(ML):POI(DavesQuietClearing)">
-<path d="M1981.25,2301.25 L2101.25,2581.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1981.25,2301.25 L2101.25,2581.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="PrepperCache(ML):Cave(PrepperCache)"></g>
-<path d="M1941.25,2301.25 L1941.25,2321.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1941.25,2301.25 L1941.25,2321.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PrepperCache(ML):Climb(ML-PC)">
 <g id="BASE:Climb(ML-PC)">
 <rect x="1941.25" y="2321.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -11240,7 +11240,7 @@
 </g>
 </g>
 <g id="Climb(ML-PC):PrepperCache(ML)"></g>
-<path d="M1941.25,2361.25 L1941.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1941.25,2361.25 L1941.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(ML-PC):Cave(WesternLakeCabins)">
 <g id="BASE:Cave(WesternLakeCabins)">
 <rect x="1941.25" y="2381.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -11251,9 +11251,9 @@
 </g>
 </g>
 <g id="FishHuts(ML):Climb(ML-LO1)">
-<path d="M2221.25,2621.25 L2441.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2221.25,2621.25 L2441.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
-<path d="M2141.25,2681.25 L2141.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2141.25,2681.25 L2141.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="FishHuts(ML):Cabins(MiddleLake)">
 <g id="BASE:Cabins(MiddleLake)">
 <rect x="2141.25" y="2701.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11277,10 +11277,10 @@
 <g id="Climb(ML-LO1):Climb(ML-LO2)"></g>
 <g id="Climb(ML-LO1):FishHuts(ML)"></g>
 <g id="Climb(ML-LO1):HuntersBlind(AlansCave)">
-<path d="M2481.25,2501.25 L2541.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2481.25,2501.25 L2541.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Cabins(MiddleLake):FishHuts(ML)"></g>
-<path d="M2181.25,2701.25 L2201.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2181.25,2701.25 L2201.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cabins(MiddleLake):Cabin(LoneLake)">
 <g id="BASE:Cabin(LoneLake)">
 <rect x="2201.25" y="2701.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11300,7 +11300,7 @@
 </g>
 </g>
 </g>
-<path d="M2141.25,2701.25 L2121.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M2141.25,2701.25 L2121.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cabins(MiddleLake):Cabins(Lake)">
 <g id="BASE:Cabins(Lake)">
 <rect x="2081.25" y="2701.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11323,7 +11323,7 @@
 <g id="Cabin(LoneLake):Cabins(MiddleLake)"></g>
 <g id="Cave(WesternLakeCabins):Climb(ML-PC)"></g>
 <g id="Cave(WesternLakeCabins):Cabins(Lake)">
-<path d="M1961.25,2401.25 L2081.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1961.25,2401.25 L2081.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="HuntersBlind(AlansCave):POI(RiverNorthernAccess)"></g>
 <g id="HuntersBlind(AlansCave):Climb(ML-LO1)"></g>
@@ -11335,7 +11335,7 @@
 <g id="Cabins(Lake):Cabins(MiddleLake)"></g>
 <g id="Cabins(Lake):Cave(WesternLakeCabins)"></g>
 <g id="Transition(FM~ML):Transition(ML~FM)"></g>
-<path d="M1841.25,2141.25 L1821.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1841.25,2141.25 L1821.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(FM~ML):POI(EasternFMRailroad)">
 <g id="BASE:POI(EasternFMRailroad)">
 <rect x="1781.25" y="2141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11351,7 +11351,7 @@
 </g>
 </g>
 </g>
-<path d="M1781.25,2141.25 L1761.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1781.25,2141.25 L1761.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(EasternFMRailroad):PoachersCamp">
 <g id="BASE:PoachersCamp">
 <rect x="1541.25" y="2141.25" width="220.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11529,7 +11529,7 @@
 </g>
 </g>
 <g id="POI(EasternFMRailroad):Transition(FM~ML)"></g>
-<path d="M1781.25,2181.25 L1781.25,2201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1781.25,2181.25 L1781.25,2201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(EasternFMRailroad):AbandonedCamp(NE)">
 <g id="BASE:AbandonedCamp(NE)">
 <rect x="1781.25" y="2201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -11540,7 +11540,7 @@
 </g>
 </g>
 <g id="PoachersCamp:POI(EasternFMRailroad)"></g>
-<path d="M1541.25,2141.25 L1521.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1541.25,2141.25 L1521.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="PoachersCamp:POI(CentralFMRailroad)">
 <g id="BASE:POI(CentralFMRailroad)">
 <rect x="1481.25" y="2141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11556,7 +11556,7 @@
 </g>
 </g>
 </g>
-<path d="M1541.25,2281.25 L1541.25,2301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1541.25,2281.25 L1541.25,2301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PoachersCamp:POI(IslandsSouthOfPoacher)">
 <g id="BASE:POI(IslandsSouthOfPoacher)">
 <rect x="1541.25" y="2301.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -11612,7 +11612,7 @@
 </g>
 </g>
 <g id="POI(IslandsSouthOfPoacher):PoachersCamp"></g>
-<path d="M1541.25,2321.25 L1541.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1541.25,2321.25 L1541.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(IslandsSouthOfPoacher):AbandonedCamp(SE)">
 <g id="BASE:AbandonedCamp(SE)">
 <rect x="1521.25" y="2341.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -11624,10 +11624,10 @@
 </g>
 <g id="AbandonedCamp(NE):POI(EasternFMRailroad)"></g>
 <g id="AbandonedCamp(NE):AbandonedCamp(SE)">
-<path d="M1781.25,2221.25 L1541.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1781.25,2221.25 L1541.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="AbandonedCamp(SE):POI(IslandsSouthOfPoacher)"></g>
-<path d="M1541.25,2361.25 L1541.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1541.25,2361.25 L1541.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="AbandonedCamp(SE):Cave(FM~BI)">
 <g id="BASE:Cave(FM~BI)">
 <rect x="1541.25" y="2381.25" width="200.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11733,7 +11733,7 @@
 </g>
 </g>
 <g id="AbandonedCamp(SE):AbandonedCamp(NE)"></g>
-<path d="M1521.25,2341.25 L1501.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1521.25,2341.25 L1501.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="AbandonedCamp(SE):HighBlind">
 <g id="BASE:HighBlind">
 <rect x="1461.25" y="2301.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11749,7 +11749,7 @@
 </g>
 </g>
 </g>
-<path d="M1461.25,2341.25 L1441.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1461.25,2341.25 L1441.25,2341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HighBlind:POI(RockArch)">
 <g id="BASE:POI(RockArch)">
 <rect x="1421.25" y="2321.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11759,7 +11759,7 @@
 </g>
 </g>
 </g>
-<path d="M1501.25,2341.25 L1501.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1501.25,2341.25 L1501.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HighBlind:Cave(MidSouthFM)">
 <g id="BASE:Cave(MidSouthFM)">
 <rect x="1361.25" y="2361.25" width="140.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11809,9 +11809,9 @@
 <g id="HighBlind:AbandonedCamp(SE)"></g>
 <g id="Cave(FM~BI):AbandonedCamp(SE)"></g>
 <g id="Cave(FM~BI):Cave(MidSouthFM)">
-<path d="M1541.25,2461.25 L1501.25,2421.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M1541.25,2461.25 L1501.25,2421.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 </g>
-<path d="M1741.25,2381.25 L1761.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1741.25,2381.25 L1761.25,2381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(FM~BI):POI(MuskegOverlook)">
 <g id="BASE:POI(MuskegOverlook)">
 <rect x="1761.25" y="2281.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11850,7 +11850,7 @@
 </g>
 </g>
 </g>
-<path d="M1841.25,2281.25 L1861.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1841.25,2281.25 L1861.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(MuskegOverlook):Helicopter(MuskegOverlook)">
 <g id="BASE:Helicopter(MuskegOverlook)">
 <rect x="1861.25" y="2281.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11870,7 +11870,7 @@
 <g id="Cave(MidSouthFM):POI(RockArch)">
 <path d="M1361.25,2361.25 L1441.25,2341.25" stroke-width="2.5" stroke="#756127" stroke-dasharray="6,2" fill="none" />
 </g>
-<path d="M1361.25,2361.25 L1341.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1361.25,2361.25 L1341.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(MidSouthFM):POI(Bunkhouses)">
 <g id="BASE:POI(Bunkhouses)">
 <rect x="1301.25" y="2361.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11888,7 +11888,7 @@
 </g>
 <g id="Cave(MidSouthFM):HighBlind"></g>
 <g id="Cave(MidSouthFM):Cave(FM~BI)"></g>
-<path d="M1301.25,2361.25 L1281.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1301.25,2361.25 L1281.25,2361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(Bunkhouses):PrepperCache(FM)">
 <g id="BASE:PrepperCache(FM)">
 <rect x="1241.25" y="2361.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -11909,7 +11909,7 @@
 </g>
 </g>
 <g id="POI(Bunkhouses):Cave(MidSouthFM)"></g>
-<path d="M1241.25,2401.25 L1221.25,2401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1241.25,2401.25 L1221.25,2401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PrepperCache(FM):SpenceFarmstead">
 <g id="BASE:SpenceFarmstead">
 <rect x="1061.25" y="2281.25" width="160.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12020,7 +12020,7 @@
 </g>
 </g>
 <g id="PrepperCache(FM):POI(Bunkhouses)"></g>
-<path d="M1061.25,2281.25 L1061.25,2261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1061.25,2281.25 L1061.25,2261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SpenceFarmstead:Cave(WestAntenna)">
 <g id="BASE:Cave(WestAntenna)">
 <rect x="1041.25" y="2241.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12031,7 +12031,7 @@
 </g>
 </g>
 <g id="SpenceFarmstead:PrepperCache(FM)"></g>
-<path d="M1221.25,2281.25 L1221.25,2261.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1221.25,2281.25 L1221.25,2261.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="SpenceFarmstead:Barn(NorthOfSpence)">
 <g id="BASE:Barn(NorthOfSpence)">
 <rect x="1221.25" y="2221.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12079,7 +12079,7 @@
 <path d="M1241.25,2201.25 L1421.25,2321.25" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
 </g>
 <g id="Cave(WestAntenna):SpenceFarmstead"></g>
-<path d="M1041.25,2241.25 L1041.25,2221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1041.25,2241.25 L1041.25,2221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(WestAntenna):AbandonedCamp(SW)">
 <g id="BASE:AbandonedCamp(SW)">
 <rect x="1041.25" y="2201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12090,7 +12090,7 @@
 </g>
 </g>
 <g id="AbandonedCamp(SW):Cave(WestAntenna)"></g>
-<path d="M1061.25,2201.25 L1061.25,2181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1061.25,2201.25 L1061.25,2181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="AbandonedCamp(SW):POI(WesternFMRailroad)">
 <g id="BASE:POI(WesternFMRailroad)">
 <rect x="1061.25" y="2161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12101,9 +12101,9 @@
 </g>
 </g>
 <g id="POI(WesternFMRailroad):POI(CentralFMRailroad)">
-<path d="M1081.25,2161.25 L1481.25,2141.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1081.25,2161.25 L1481.25,2141.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 </g>
-<path d="M1061.25,2161.25 L1041.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1061.25,2161.25 L1041.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(WesternFMRailroad):Transition(FM~BR)">
 <g id="BASE:Transition(FM~BR)">
 <rect x="1021.25" y="2161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12113,7 +12113,7 @@
 </g>
 </g>
 </g>
-<path d="M1081.25,2161.25 L1081.25,2141.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1081.25,2161.25 L1081.25,2141.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(WesternFMRailroad):LowBlind">
 <g id="BASE:LowBlind">
 <rect x="1041.25" y="2101.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12131,7 +12131,7 @@
 </g>
 <g id="POI(WesternFMRailroad):AbandonedCamp(SW)"></g>
 <g id="Transition(FM~BR):POI(WesternFMRailroad)"></g>
-<path d="M1021.25,2161.25 L1001.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1021.25,2161.25 L1001.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(FM~BR):Transition(BR~FM)">
 <g id="BASE:Transition(BR~FM)">
 <rect x="841.25" y="2161.25" width="160.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12247,7 +12247,7 @@
 <g id="POI(CentralFMRailroad):POI(WesternFMRailroad)"></g>
 <g id="POI(CentralFMRailroad):POI(CentralFMIsland)"></g>
 <g id="ShallowBearCave(EastFM):PoachersCamp"></g>
-<path d="M1761.25,2021.25 L1761.25,2001.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M1761.25,2021.25 L1761.25,2001.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="ShallowBearCave(EastFM):Cave(NortheastFM)">
 <g id="BASE:Cave(NortheastFM)">
 <rect x="1721.25" y="1961.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12264,7 +12264,7 @@
 </g>
 </g>
 <g id="LowBlind:POI(WesternFMRailroad)"></g>
-<path d="M1041.25,2101.25 L1041.25,2081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1041.25,2101.25 L1041.25,2081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="LowBlind:AbandonedCamp(NW)">
 <g id="BASE:AbandonedCamp(NW)">
 <rect x="1041.25" y="2041.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12281,7 +12281,7 @@
 </g>
 </g>
 <g id="AbandonedCamp(NW):LowBlind"></g>
-<path d="M1041.25,2041.25 L1041.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1041.25,2041.25 L1041.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="AbandonedCamp(NW):Climb(MarshRidge)">
 <g id="BASE:Climb(MarshRidge)">
 <rect x="1041.25" y="1961.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12303,7 +12303,7 @@
 </g>
 </g>
 <g id="Climb(MarshRidge):AbandonedCamp(NW)"></g>
-<path d="M1101.25,1961.25 L1101.25,1941.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1101.25,1961.25 L1101.25,1941.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(MarshRidge):Cave(MarshRidge)">
 <g id="BASE:Cave(MarshRidge)">
 <rect x="1021.25" y="1821.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12348,7 +12348,7 @@
 </g>
 </g>
 </g>
-<path d="M1021.25,1821.25 L1021.25,1801.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1021.25,1821.25 L1021.25,1801.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(MarshRidge):Transition(FM~MT)">
 <g id="BASE:Transition(FM~MT)">
 <rect x="1021.25" y="1781.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12359,7 +12359,7 @@
 </g>
 </g>
 <g id="Cave(MarshRidge):Climb(MarshRidge)"></g>
-<path d="M1021.25,1941.25 L1001.25,1941.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1021.25,1941.25 L1001.25,1941.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(MarshRidge):Shelter(MarshRidge)">
 <g id="BASE:Shelter(MarshRidge)">
 <rect x="981.25" y="1921.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12369,7 +12369,7 @@
 </g>
 </g>
 </g>
-<path d="M1101.25,1821.25 L1121.25,1821.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7.4" fill="none" />
+<path d="M1101.25,1821.25 L1121.25,1821.25" stroke-width="2.5" stroke="#c85d00" stroke-dasharray="7,4" fill="none" />
 <g id="Cave(MarshRidge):Cave(Waterfall)">
 <g id="BASE:Cave(Waterfall)">
 <rect x="1121.25" y="1821.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12380,7 +12380,7 @@
 </g>
 </g>
 <g id="Cave(Waterfall):Cave(MarshRidge)"></g>
-<path d="M1141.25,1841.25 L1141.25,1861.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1141.25,1841.25 L1141.25,1861.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(Waterfall):POI(ShortwaveTower)">
 <g id="BASE:POI(ShortwaveTower)">
 <rect x="1141.25" y="1861.25" width="80.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12418,7 +12418,7 @@
 <g id="Transition(FM~MT):Cave(MarshRidge)"></g>
 <g id="POI(ShortwaveTower):Cave(Waterfall)"></g>
 <g id="POI(ShortwaveTower):Cave(NortheastFM)">
-<path d="M1221.25,1861.25 L1721.25,1961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1221.25,1861.25 L1721.25,1961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Cave(NortheastFM):ShallowBearCave(EastFM)"></g>
 <g id="Cave(NortheastFM):POI(ShortwaveTower)"></g>
@@ -12428,7 +12428,7 @@
 <g id="Shelter(MarshRidge):Cave(MarshRidge)"></g>
 <g id="Helicopter(MuskegOverlook):POI(MuskegOverlook)"></g>
 <g id="Transition(BR~FM):Transition(FM~BR)"></g>
-<path d="M841.25,2161.25 L821.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M841.25,2161.25 L821.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(BR~FM):POI(LocomotiveEngine)">
 <g id="BASE:POI(LocomotiveEngine)">
 <rect x="781.25" y="2161.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12445,7 +12445,7 @@
 </g>
 </g>
 <g id="POI(LocomotiveEngine):Transition(BR~FM)"></g>
-<path d="M781.25,2161.25 L761.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M781.25,2161.25 L761.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(LocomotiveEngine):MaintenanceYard">
 <g id="BASE:MaintenanceYard">
 <rect x="621.25" y="2161.25" width="140.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12586,7 +12586,7 @@
 </g>
 </g>
 <g id="MaintenanceYard:POI(LocomotiveEngine)"></g>
-<path d="M621.25,2161.25 L601.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M621.25,2161.25 L601.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="MaintenanceYard:TrainCar(BrokenBridge)">
 <g id="BASE:TrainCar(BrokenBridge)">
 <rect x="561.25" y="2161.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -12602,7 +12602,7 @@
 </g>
 </g>
 </g>
-<path d="M761.25,2301.25 L781.25,2301.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M761.25,2301.25 L781.25,2301.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="MaintenanceYard:MaintenanceShed">
 <g id="BASE:MaintenanceShed">
 <rect x="541.25" y="2301.25" width="240.0" height="660.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -13879,7 +13879,7 @@
 </g>
 </g>
 </g>
-<path d="M621.25,2161.25 L621.25,2141.25" stroke-width="2.5" stroke="#3435ff" stroke-dasharray="2,1" fill="none" />
+<path d="M621.25,2161.25 L621.25,2141.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
 <g id="MaintenanceYard:Cave(BRHuntersBlind)">
 <g id="BASE:Cave(BRHuntersBlind)">
 <rect x="621.25" y="2061.25" width="80.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -13908,7 +13908,7 @@
 </g>
 </g>
 </g>
-<path d="M761.25,2161.25 L761.25,2141.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M761.25,2161.25 L761.25,2141.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="MaintenanceYard:Climb(RFB)">
 <g id="BASE:Climb(RFB)">
 <rect x="761.25" y="2101.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -13925,7 +13925,7 @@
 </g>
 </g>
 <g id="Cave(BRHuntersBlind):MaintenanceYard"></g>
-<path d="M621.25,2061.25 L621.25,2041.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M621.25,2061.25 L621.25,2041.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BRHuntersBlind):Climb(HB-HL)">
 <g id="BASE:Climb(HB-HL)">
 <rect x="621.25" y="1981.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -13956,7 +13956,7 @@
 </g>
 </g>
 </g>
-<path d="M621.25,2061.25 L601.25,2061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M621.25,2061.25 L601.25,2061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BRHuntersBlind):Climb(BRRavine)">
 <g id="BASE:Climb(BRRavine)">
 <rect x="561.25" y="2061.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -13973,7 +13973,7 @@
 </g>
 </g>
 <g id="Climb(HB-HL):Cave(BRHuntersBlind)"></g>
-<path d="M621.25,1981.25 L621.25,1961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M621.25,1981.25 L621.25,1961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(HB-HL):HuntingLodge">
 <g id="BASE:HuntingLodge">
 <rect x="621.25" y="1721.25" width="140.0" height="240.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -14212,7 +14212,7 @@
 </g>
 </g>
 <g id="HuntingLodge:Climb(HB-HL)"></g>
-<path d="M761.25,1721.25 L781.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M761.25,1721.25 L781.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntingLodge:Cave(NorthernBR)">
 <g id="BASE:Cave(NorthernBR)">
 <rect x="781.25" y="1721.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -14235,10 +14235,10 @@
 </g>
 <g id="Cave(NorthernBR):HuntingLodge"></g>
 <g id="Cave(NorthernBR):Climb(RFB)">
-<path d="M841.25,1781.25 L801.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M841.25,1781.25 L801.25,2101.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 </g>
 <g id="Climb(BRRavine):Cave(BRHuntersBlind)"></g>
-<path d="M561.25,2061.25 L541.25,2061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M561.25,2061.25 L541.25,2061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(BRRavine):POI(BRRavine)">
 <g id="BASE:POI(BRRavine)">
 <rect x="521.25" y="2041.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -14252,7 +14252,7 @@
 <g id="Climb(RFB):Cave(NorthernBR)"></g>
 <g id="POI(BRRavine):Climb(BRRavine)"></g>
 <g id="TrainCar(BrokenBridge):MaintenanceYard"></g>
-<path d="M561.25,2161.25 L541.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M561.25,2161.25 L541.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="TrainCar(BrokenBridge):Truck(BrokenBridge)">
 <g id="BASE:Truck(BrokenBridge)">
 <rect x="501.25" y="2161.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -14274,7 +14274,7 @@
 </g>
 </g>
 <g id="Truck(BrokenBridge):TrainCar(BrokenBridge)"></g>
-<path d="M501.25,2161.25 L481.25,2161.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M501.25,2161.25 L481.25,2161.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Truck(BrokenBridge):Transition(BR~FRBL)">
 <g id="BASE:Transition(BR~FRBL)">
 <rect x="441.25" y="2161.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
@@ -15988,49 +15988,44 @@
 </g>
 <text x="6532.5" y="1984.375" font-size="10" font-family="Arial" fill="purple">thermal underwear</text>
 <text x="6721.25" y="1984.375" font-size="10" font-family="Arial" fill="purple">2</text>
-<g id="import" transform="translate(6521.25, 1988.75) scale(0.06979730861577978)">
-<path d="M100.54173,115.76096 C94.103773,114.34131,90.152846,110.84178,82.912409,100.1458 C81.828824,98.545072,80.41342,96.372181,79.767061,95.317155 C79.120703,94.262129,78.529959,93.407485,78.454297,93.41795 C78.378634,93.428401,77.788959,94.512589,77.143908,95.827235 C76.498854,97.141881,74.831979,99.957449,73.439741,102.08405 C71.262551,105.40965,70.908396,106.10517,70.908396,107.05532 C70.908396,108.85838,71.633793,109.37019,76.067771,110.69563 C79.199533,111.6318,81.359437,113.35882,81.359437,114.92675 C81.359437,115.50992,78.529428,115.68851,71.040688,115.57793 C63.391859,115.46499,63.471556,115.48942,60.550096,112.36115 C58.229412,109.87619,56.78167,107.78294,56.471782,106.46445 C56.156817,105.12435,56.323298,104.013,57.695768,98.293718 C58.324347,95.674343,59.261964,91.447624,59.779365,88.901009 C60.296763,86.354395,60.781784,84.004987,60.857187,83.680106 L60.994284,83.08941 L54.971132,83.217889 C48.179211,83.36277,48.288167,83.332057,46.802741,85.520264 C46.03438,86.652146,45.316422,88.669086,43.24805,95.506367 C42.787352,97.029261,41.877818,99.470042,41.226861,100.93032 C40.575433,102.39167,39.979089,104.18416,39.900473,104.91718 C39.774304,106.09364,39.842101,106.34935,40.481723,107.10949 C41.36241,108.15613,41.971401,108.48124,45.238688,109.64902 C49.146814,111.04584,51.543095,112.79065,51.882248,114.48641 L52.04779,115.31413 L50.630177,115.48933 C49.850489,115.58568,45.690554,115.62562,41.385878,115.57808 L33.559194,115.49163 L32.26259,114.68955 C30.883195,113.83626,28.436358,111.10254,26.38412,108.12185 L25.13548,106.30831 L24.970938,101.50726 C24.88044,98.866689,24.791143,96.669353,24.772501,96.624295 C24.753847,96.579239,23.739488,97.353145,22.518346,98.344086 C21.297204,99.33503,19.458506,100.78956,18.432351,101.57637 C17.406196,102.36318,16.187936,103.53423,15.725105,104.17871 C14.684237,105.6281,14.062554,107.54797,14.41864,108.21332 C14.823982,108.97071,16.222697,110.03536,17.96501,110.91269 C18.852832,111.35975,20.092172,112.07737,20.7191,112.5074 C21.853787,113.28572,22.899309,114.90551,22.515102,115.28987 C22.404181,115.40084,18.900264,115.49163,14.728621,115.49163 C7.4039358,115.49163,7.1062214,115.47153,6.0476896,114.90541 C4.4715455,114.06246,2.9772159,112.18373,1.3882607,109.04739 L6.345156e-05,106.30732 L0.01792283,103.62343 C0.03205158,101.49964,0.16179266,100.60826,0.6396328,99.352051 C2.5881038,94.22967,2.457561,94.862119,6.6001131,70.47481 C7.6912627,64.051179,8.7062044,58.25029,8.8555352,57.583942 C9.963978,52.637843,13.53639,46.835953,18.495084,41.928523 C23.858217,36.620836,29.887799,33.533688,38.100074,31.890766 C43.417103,30.827056,47.052108,30.656725,62.574032,30.743942 L76.993823,30.824968 L79.844521,29.441428 C84.061585,27.394746,85.160137,27.117076,88.900073,27.152557 C91.861763,27.180653,92.506217,27.29154,98.492393,28.803041 C105.50939,30.574821,107.70675,30.892043,113.97821,31.038638 L118.15426,31.136253 L119.66675,29.953415 C121.41899,28.583075,122.55232,28.046843,123.6963,28.046843 C124.75799,28.046843,125.71856,29.013139,125.96553,30.329594 C126.13717,31.244547,125.86355,33.312073,125.42456,34.41714 C125.30582,34.716047,125.69389,35.139476,126.79349,35.910797 C129.29323,37.664273,132.80522,40.863318,133.67948,42.183213 C134.1637,42.914246,134.56659,43.94206,134.67343,44.71884 C134.91224,46.455197,135.74682,47.569543,139.87141,51.65921 C141.7417,53.513669,143.27194,55.236024,143.27194,55.486672 C143.27194,56.169861,139.62567,59.600022,138.11256,60.340268 C136.82188,60.971696,136.58978,60.991389,128.58756,61.148409 C119.32158,61.330228,120.38806,61.156399,109.97087,64.182865 C106.71669,65.12829,103.61496,66.125896,103.07813,66.399766 C101.47413,67.218064,99.941299,68.985727,98.750621,71.390252 C97.665832,73.580936,97.63164,73.728735,97.641986,76.1826 C97.6495,77.964849,97.862749,79.615487,98.3622,81.757259 C99.409648,86.249011,100.0752,90.571938,100.52988,95.836985 C100.85007,99.544623,101.10081,101.04272,101.72985,103.00645 C103.01289,107.01185,104.36201,108.37306,107.55319,108.88202 C109.54323,109.19941,112.32528,110.92378,113.02247,112.27199 C113.37647,112.95655,113.36795,113.0755,112.93023,113.55991 C111.03815,115.65386,104.95626,116.73442,100.54173,115.76096 Z" fill="purple" stroke="none" stroke-width="0.264583" opacity="0.5" />
-</g>
-<text x="6532.5" y="1995.625" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
-<rect x="6521.25" y="2000.0" width="10" height="10" fill="#6741ca" />
-<text x="6532.5" y="2006.875" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
-<rect x="6521.25" y="2011.25" width="10" height="10" fill="#a62f5f" />
-<text x="6532.5" y="2018.125" font-size="10" font-family="Arial" fill="purple">to bring here</text>
-<rect x="6521.25" y="2022.5" width="10" height="10" fill="#0090a2" />
-<text x="6532.5" y="2029.375" font-size="10" font-family="Arial" fill="purple">to take from here</text>
-<rect x="6521.25" y="2033.75" width="10" height="10" fill="#006d91" />
-<text x="6532.5" y="2040.625" font-size="10" font-family="Arial" fill="purple">to destroy</text>
-<rect x="6521.25" y="2045.0" width="10" height="10" fill="#b17000" />
-<text x="6532.5" y="2051.875" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
-<rect x="6521.25" y="2056.25" width="10" height="10" fill="#a5a600" />
-<text x="6532.5" y="2063.125" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
-<rect x="6521.25" y="2067.5" width="10" height="10" fill="#7db138" />
-<text x="6532.5" y="2074.375" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
-<path d="M6521.25,2084.375 L6531.25,2084.375" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
-<text x="6532.5" y="2085.625" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
-<path d="M6521.25,2095.625 L6531.25,2095.625" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
-<text x="6532.5" y="2096.875" font-size="10" font-family="Arial" fill="purple">railway</text>
-<path d="M6521.25,2106.875 L6531.25,2106.875" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
-<text x="6532.5" y="2108.125" font-size="10" font-family="Arial" fill="purple">tinder path</text>
-<path d="M6521.25,2118.125 L6531.25,2118.125" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
-<text x="6532.5" y="2119.375" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
-<path d="M6521.25,2129.375 L6531.25,2129.375" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="6532.5" y="2130.625" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
-<path d="M6521.25,2140.625 L6531.25,2140.625" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
-<text x="6532.5" y="2141.875" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
-<path d="M6521.25,2151.875 L6531.25,2151.875" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
-<text x="6532.5" y="2153.125" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
-<path d="M6521.25,2163.125 L6531.25,2163.125" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
-<text x="6532.5" y="2164.375" font-size="10" font-family="Arial" fill="purple">one-way route</text>
-<path d="M6521.25,2174.375 L6531.25,2174.375" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="6532.5" y="2175.625" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
-<rect x="6521.25" y="2180.0" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="6532.5" y="2186.875" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
-<rect x="6521.25" y="2191.25" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="6532.5" y="2198.125" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
-<rect x="6521.25" y="2202.5" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="6532.5" y="2209.375" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
-<text x="6532.5" y="2220.625" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<rect x="6521.25" y="1988.75" width="10" height="10" fill="#6741ca" />
+<text x="6532.5" y="1995.625" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
+<rect x="6521.25" y="2000.0" width="10" height="10" fill="#a62f5f" />
+<text x="6532.5" y="2006.875" font-size="10" font-family="Arial" fill="purple">to bring here</text>
+<rect x="6521.25" y="2011.25" width="10" height="10" fill="#0090a2" />
+<text x="6532.5" y="2018.125" font-size="10" font-family="Arial" fill="purple">to take from here</text>
+<rect x="6521.25" y="2022.5" width="10" height="10" fill="#006d91" />
+<text x="6532.5" y="2029.375" font-size="10" font-family="Arial" fill="purple">to destroy</text>
+<rect x="6521.25" y="2033.75" width="10" height="10" fill="#b17000" />
+<text x="6532.5" y="2040.625" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
+<rect x="6521.25" y="2045.0" width="10" height="10" fill="#a5a600" />
+<text x="6532.5" y="2051.875" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
+<rect x="6521.25" y="2056.25" width="10" height="10" fill="#7db138" />
+<text x="6532.5" y="2063.125" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
+<path d="M6521.25,2073.125 L6531.25,2073.125" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
+<text x="6532.5" y="2074.375" font-size="10" font-family="Arial" fill="purple">road other provided path</text>
+<path d="M6521.25,2084.375 L6531.25,2084.375" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
+<text x="6532.5" y="2085.625" font-size="10" font-family="Arial" fill="purple">tinder path</text>
+<path d="M6521.25,2095.625 L6531.25,2095.625" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
+<text x="6532.5" y="2096.875" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
+<path d="M6521.25,2106.875 L6531.25,2106.875" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="6532.5" y="2108.125" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
+<path d="M6521.25,2118.125 L6531.25,2118.125" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7,4" />
+<text x="6532.5" y="2119.375" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
+<path d="M6521.25,2129.375 L6531.25,2129.375" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
+<text x="6532.5" y="2130.625" font-size="10" font-family="Arial" fill="purple">one-way route</text>
+<path d="M6521.25,2140.625 L6531.25,2140.625" stroke="#00a883" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="6532.5" y="2141.875" font-size="10" font-family="Arial" fill="purple">path to mark</text>
+<path d="M6521.25,2151.875 L6531.25,2151.875" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
+<text x="6532.5" y="2153.125" font-size="10" font-family="Arial" fill="purple">default connection</text>
+<rect x="6521.25" y="2157.5" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="6532.5" y="2164.375" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
+<rect x="6521.25" y="2168.75" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="6532.5" y="2175.625" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
+<rect x="6521.25" y="2180.0" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="6532.5" y="2186.875" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
+<text x="6532.5" y="2198.125" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<text x="6532.5" y="2209.375" font-size="10" font-family="Arial" fill="purple">Icons by various contributors to The Noun Project</text>
 </g>
 </g>
 </svg>

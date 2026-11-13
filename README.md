@@ -4,8 +4,12 @@ Visualization for safehouses in The Long Dark. _This is a work in progress!_
 
 The purpose of this vizualizer is to give a bird's eye view of all one's bases in the game. Everything is SVG, meaning you can zoom in and out and the icons will scale nicely.
 
-I'm currently using this vizualizer to keep track of all my bases in my main interloper game, and a side interloper game for the Iron Road DLC. I'm mapping out the DLC areas:
+I'm mapping out the new DLC areas:
 ![Anna Island and Port Remnant](output/ZR-IronRoad.svg)
+
+I'm mostly using this vizualizer to keep track of all my bases in my main interloper game. I get region-by-region maps that show me what I have in every base, and what needs to be moved where. For example:
+![DesolationPoint.svg](output/DesolationPoint.svg)
+![MysteryLake.svg](output/MysteryLake.svg)
 
 ## Dependencies
 * [DrawSVG](https://github.com/cduck/drawsvg)
@@ -15,7 +19,10 @@ You can install them with:
 `pip install drawsvg beautifulsoup`
 
 ## How to use
-The visualizer takes its data from a JSON file which you provide as a command-line argument. Two example JSON files are provided: `mybases.json` and `loottable4.json`.
+The visualizer takes its data from a JSON file which you provide as a command-line argument. 
+The JSON file for my main interloper game is `mybases.json`. 
+Five templates are provided, one for each loot table (e.g. `templates/loottable4.json`) and
+one which is an averaging of the four loot tables: `templates/loottable0.json`.
 
 To run the visualizer: `python3 TLDBaseViz.py <inputFile.json>`
 
@@ -397,8 +404,6 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ## TODOs
 
 ### IRON ROAD
-1. Legend: only what is needed for colour, paths, etc
-2. Add to legend: Noun Project note
 4. Better guesses at coordinates
 5. Update verificaton numbers with DLC additions for climbs, hammers, etc
 

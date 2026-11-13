@@ -15,13 +15,12 @@
 	    "cedar":"oklch(0.7 0.2 110)",
 		"other": "oklch(0.7 0.16 130)",
 	    "prepare":"oklch(0.5 0.18 150)",
-	    "path":"oklch(0.7 0.1 170)",
-	    "rail":"oklch(0.5 0.15 260)",
+		"todo":"oklch(0.65 0.15 170)",
 	  	"default": "oklch(0.4 0.06 190)",
 		"take":"oklch(0.6 0.12 210)",
 		"destroy":"oklch(0.5 0.2 230)",
-		"clearpath":"oklch(0.7 0.18 250)",
-		"todo":"oklch(0.5 0.3 270)",
+	    "path":"oklch(0.65 0.075 240)",
+	    "rail":"oklch(0.5 0.15 260)",
 	  	"find": "oklch(0.5 0.2 290)",
 		"charcoal":"oklch(0.2 0.06 310)",
 		"mixed":"oklch(0.5 0.18 330)"
@@ -31,13 +30,13 @@
         "charcoal": "2,1",
         "cattail": "6,2",
         "tinder": "4,2",
-        "paint": "7.4",
+        "paint": "7,4",
         "mixed": "4,2,2,2",
         "path": "",
 	  	"fake": "",
         "oneway": "1,1",
         "rail": "9,2",
-	  	"default": "2,4"
+	  	"default": "2,3"
   },
 	"descriptions":{
 		"find": "to search for here (unexplored)",
@@ -47,14 +46,15 @@
 		"fir": "to make from fir",
 		"cedar": "to make from cedar",
 		"other": "to make form other materials",
-		"path": "road, rail, or other provided path",
 		"rail": "railway",
+		"path": "road other provided path",
 		"tinder": "tinder path",
 		"cattail": "cattail head path",
 		"charcoal": "charcoal path",
 		"paint": "spray paint path",
 		"mixed": "mixed marking path",
 		"oneway": "one-way route",
-		"todo": "unmarked path"
+		"todo": "path to mark",
+		"default": "default connection"
 	}
 }

@@ -13,7 +13,7 @@
 <text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(TP~FRBL)</tspan></text>
 </g>
 </g>
-<path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(TP~FRBL):FeedwaterCave">
 <g id="BASE:FeedwaterCave">
 <rect x="1401.25" y="1421.25" width="100.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -53,7 +53,7 @@
 </g>
 </g>
 <g id="FeedwaterCave:Transition(TP~FRBL)"></g>
-<path d="M1501.25,1421.25 L1501.25,1401.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1501.25,1421.25 L1501.25,1401.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="FeedwaterCave:VacantDepot">
 <g id="BASE:VacantDepot">
 <rect x="1501.25" y="1221.25" width="80.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -142,7 +142,7 @@
 </g>
 </g>
 <g id="VacantDepot:FeedwaterCave"></g>
-<path d="M1581.25,1221.25 L1601.25,1221.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+<path d="M1581.25,1221.25 L1601.25,1221.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="VacantDepot:Transition(TP~ZOC)">
 <g id="BASE:Transition(TP~ZOC)">
 <rect x="1601.25" y="1221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -152,7 +152,7 @@
 </g>
 </g>
 </g>
-<path d="M1501.25,1221.25 L1481.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1501.25,1221.25 L1481.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="VacantDepot:Transition(TP~FA)">
 <g id="BASE:Transition(TP~FA)">
 <rect x="1461.25" y="1221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -162,7 +162,7 @@
 </g>
 </g>
 </g>
-<path d="M1581.25,1221.25 L1581.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1581.25,1221.25 L1581.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="VacantDepot:Climb(TP-SP)">
 <g id="BASE:Climb(TP-SP)">
 <rect x="1521.25" y="1141.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -184,7 +184,7 @@
 </g>
 </g>
 <g id="Climb(TP-SP):VacantDepot"></g>
-<path d="M1521.25,1141.25 L1521.25,1121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1521.25,1141.25 L1521.25,1121.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(TP-SP):POI(OakGrove)">
 <g id="BASE:POI(OakGrove)">
 <rect x="1521.25" y="1081.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -200,7 +200,7 @@
 </g>
 </g>
 </g>
-<path d="M1521.25,1081.25 L1521.25,1061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
+<path d="M1521.25,1081.25 L1521.25,1061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(OakGrove):Transition(TP~SP)">
 <g id="BASE:Transition(TP~SP)">
 <rect x="1521.25" y="1041.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
@@ -354,43 +354,18 @@
 <text x="372.5" y="195.625" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
 <rect x="361.25" y="200.0" width="10" height="10" fill="#6741ca" />
 <text x="372.5" y="206.875" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
-<rect x="361.25" y="211.25" width="10" height="10" fill="#a62f5f" />
-<text x="372.5" y="218.125" font-size="10" font-family="Arial" fill="purple">to bring here</text>
-<rect x="361.25" y="222.5" width="10" height="10" fill="#0090a2" />
-<text x="372.5" y="229.375" font-size="10" font-family="Arial" fill="purple">to take from here</text>
-<rect x="361.25" y="233.75" width="10" height="10" fill="#006d91" />
-<text x="372.5" y="240.625" font-size="10" font-family="Arial" fill="purple">to destroy</text>
-<rect x="361.25" y="245.0" width="10" height="10" fill="#b17000" />
-<text x="372.5" y="251.875" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
-<rect x="361.25" y="256.25" width="10" height="10" fill="#a5a600" />
-<text x="372.5" y="263.125" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
-<rect x="361.25" y="267.5" width="10" height="10" fill="#7db138" />
-<text x="372.5" y="274.375" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
-<path d="M361.25,284.375 L371.25,284.375" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
-<text x="372.5" y="285.625" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
-<path d="M361.25,295.625 L371.25,295.625" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
-<text x="372.5" y="296.875" font-size="10" font-family="Arial" fill="purple">railway</text>
-<path d="M361.25,306.875 L371.25,306.875" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
-<text x="372.5" y="308.125" font-size="10" font-family="Arial" fill="purple">tinder path</text>
-<path d="M361.25,318.125 L371.25,318.125" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
-<text x="372.5" y="319.375" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
-<path d="M361.25,329.375 L371.25,329.375" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="372.5" y="330.625" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
-<path d="M361.25,340.625 L371.25,340.625" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
-<text x="372.5" y="341.875" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
-<path d="M361.25,351.875 L371.25,351.875" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
-<text x="372.5" y="353.125" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
-<path d="M361.25,363.125 L371.25,363.125" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
-<text x="372.5" y="364.375" font-size="10" font-family="Arial" fill="purple">one-way route</text>
-<path d="M361.25,374.375 L371.25,374.375" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="372.5" y="375.625" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
-<rect x="361.25" y="380.0" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="372.5" y="386.875" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
-<rect x="361.25" y="391.25" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="372.5" y="398.125" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
-<rect x="361.25" y="402.5" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="372.5" y="409.375" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
-<text x="372.5" y="420.625" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<path d="M361.25,216.875 L371.25,216.875" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
+<text x="372.5" y="218.125" font-size="10" font-family="Arial" fill="purple">road other provided path</text>
+<path d="M361.25,228.125 L371.25,228.125" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
+<text x="372.5" y="229.375" font-size="10" font-family="Arial" fill="purple">default connection</text>
+<rect x="361.25" y="233.75" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="372.5" y="240.625" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
+<rect x="361.25" y="245.0" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="372.5" y="251.875" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
+<rect x="361.25" y="256.25" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="372.5" y="263.125" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
+<text x="372.5" y="274.375" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<text x="372.5" y="285.625" font-size="10" font-family="Arial" fill="purple">Icons by various contributors to The Noun Project</text>
 </g>
 </g>
 </svg>

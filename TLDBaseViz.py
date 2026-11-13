@@ -1234,7 +1234,7 @@ def graph_size(bases, most_north=BIGNUM, most_south = 0, most_west=BIGNUM, most_
     >>> bases, colours = process_input('tests/testinput.json')
     >>> draw_bases(bases, colours, add_legend=False)
     >>> graph_size(bases)
-    (660.0, 842.5, 101.25, 761.25, 11.25, 853.75)
+    (820.0, 842.5, 101.25, 921.25, 11.25, 853.75)
     """
     for b in bases:
         bob = bases[b]
@@ -1621,6 +1621,7 @@ def draw_bases(bases, colours,
         leg_wid = draw_legend(gl, colours, x=wid, y=margin,
                               height = hei,
                     counts=counts,
+                    bases=bases,
                     column_breaks=(first_col_break, first_col_break + second_col_break))
         wid += leg_wid + margin
 
@@ -1805,6 +1806,84 @@ def count_features(bases,
     return count
 
 
+def features_present(bases, fills=FILLS):
+    """
+    Are features of a given fill colour present in bases? (For whether to include in legend)
+    :param bases:
+    :return:
+    >>> bases, colours = process_input('tests/testinput.json')
+    >>> features_present(bases)
+    {'find': True, 'bring': True, 'take': True, 'destroy': False, 'fir': True, 'cedar': True, 'other': False}
+    >>> bases, colours = process_input('mybases.json')
+    >>> features_present(bases)
+    {'find': True, 'bring': True, 'take': True, 'destroy': True, 'fir': True, 'cedar': True, 'other': True}
+    >>> bases, colours = process_input('templates/loot4.json')
+    >>> features_present(bases)
+    {'find': True, 'bring': False, 'take': False, 'destroy': False, 'fir': False, 'cedar': False, 'other': True}
+    """
+    finds = {}
+    for fill_type in fills:
+        finds[fill_type] = False
+        for b in bases:
+            if not finds[fill_type]: # can stop iterating if found
+                for row in bases[b].features:
+                    for feature in row:
+                        if feature.material == fill_type or feature.status == fill_type:
+                            finds[fill_type] = True
+    return finds
+
+
+def probablistic_features_present(bases):
+    """
+    Are there probabilistic features in the bases? (For whether to include in legend)
+    :param bases:
+    :return:
+    >>> bases, colours = process_input('tests/testinput.json')
+    >>> probablistic_features_present(bases)
+    False
+    >>> bases, colours = process_input('mybases.json')
+    >>> probablistic_features_present(bases)
+    True
+    >>> bases, colours = process_input('templates/loot4.json')
+    >>> probablistic_features_present(bases)
+    True
+    """
+    for b in bases:
+        for row in bases[b].features:
+            for feature in row:
+                if feature.probability != 1:
+                    return True
+    return False
+
+
+def connection_types_present(bases, path_types=STROKES):
+    """
+    Which path types are present in bases? (For whether to include in legend)
+    :param bases:
+    :param path_types:
+    :return:
+    >>> bases, colours = process_input('tests/testinput.json')
+    >>> connection_types_present(bases)
+    {'path': True, 'rail': False, 'tinder': False, 'cattail': False, 'charcoal': True, 'paint': False, 'mixed': False, 'oneway': False, 'todo': True}
+    >>> bases, colours = process_input('mybases.json')
+    >>> connection_types_present(bases)
+    {'path': True, 'rail': True, 'tinder': True, 'cattail': True, 'charcoal': True, 'paint': True, 'mixed': True, 'oneway': True, 'todo': True}
+    >>> bases, colours = process_input('templates/loot4.json')
+    >>> connection_types_present(bases)
+    {'path': True, 'rail': True, 'tinder': False, 'cattail': False, 'charcoal': False, 'paint': False, 'mixed': False, 'oneway': True, 'todo': False}
+    """
+    finds = {}
+    for path_type in path_types:
+        finds[path_type] = False
+        for b in bases:
+            if not finds[path_type]:
+                for c in bases[b].connections:
+                    cob = bases[b].edges[c]
+                    if cob.kind == path_type:
+                        finds[path_type] = True
+    return finds
+
+
 def verify_fixed_numbers(bases, nums):
     """
 
@@ -1961,6 +2040,7 @@ def draw_legend(d, colours, x=0, y=0,
                 icon_size=10, margin_ratio=1 / 8,
                 legend_colour='purple', background_colour='white',
                 height = BIGNUM,
+                bases=(),
                 column_breaks=(), counts=()):
     """
     Draw a legend
@@ -2035,34 +2115,39 @@ def draw_legend(d, colours, x=0, y=0,
                                    x=count_x, y=text_y,
                                    fill=legend_colour))
 
-    icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width, start_y=start_y, delimiting_margin=margin_size)
-    import_svg(g, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
-               hei=icon_size, fill=legend_colour, opacity=0.5)
-    pb = 'opacity indicates probability (0.5 -> 50%)'
-    g.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
-                       x=icon_x + cell_size, y=text_y,
-                       fill=legend_colour))
+    if probablistic_features_present(bases):
+        icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width, start_y=start_y, delimiting_margin=margin_size)
+        import_svg(g, 'assets/bear.svg', x=icon_x, y=icon_y, wid=icon_size,
+                   hei=icon_size, fill=legend_colour, opacity=0.5)
+        pb = 'opacity indicates probability (0.5 -> 50%)'
+        g.append(draw.Text(pb, legend_font_size, font_family=FONTFAM,
+                           x=icon_x + cell_size, y=text_y,
+                           fill=legend_colour))
 
     colour_types = FILLS
+    which_fills_present = features_present(bases, FILLS)
     for j, a in enumerate(colour_types):
-        icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width,
-                                                      start_y=start_y, delimiting_margin=margin_size)
-        g.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
-        g.append(draw.Text(colour_types[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=text_y,
-                           fill=legend_colour))
+        if which_fills_present[a]:
+            icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width,
+                                                          start_y=start_y, delimiting_margin=margin_size)
+            g.append(draw.Rectangle(fill=colours[a], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
+            g.append(draw.Text(colour_types[a], legend_font_size, font_family=FONTFAM,
+                               x=icon_x+cell_size, y=text_y,
+                               fill=legend_colour))
 
     path_types = STROKES
+    which_lines_present = connection_types_present(bases, STROKES)
     for j, a in enumerate(path_types):
-        icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width,
-                                                      start_y=start_y, delimiting_margin=margin_size)
-        p = draw.Path(stroke=colours[a], stroke_width=margin_size, stroke_dasharray=DASHSTYLE[a] )
-        p.M(icon_x, icon_y+cell_size/2)
-        p.L(icon_x+icon_size, icon_y+cell_size/2)
-        g.append(p)
-        g.append(draw.Text(path_types[a], legend_font_size, font_family=FONTFAM,
-                           x=icon_x+cell_size, y=text_y,
-                           fill=legend_colour))
+        if which_lines_present[a]:
+            icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width,
+                                                          start_y=start_y, delimiting_margin=margin_size)
+            p = draw.Path(stroke=colours[a], stroke_width=margin_size, stroke_dasharray=DASHSTYLE[a] )
+            p.M(icon_x, icon_y+cell_size/2)
+            p.L(icon_x+icon_size, icon_y+cell_size/2)
+            g.append(p)
+            g.append(draw.Text(path_types[a], legend_font_size, font_family=FONTFAM,
+                               x=icon_x+cell_size, y=text_y,
+                               fill=legend_colour))
 
     icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width, start_y=start_y, delimiting_margin=margin_size)
     g.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size))
@@ -2088,6 +2173,12 @@ def draw_legend(d, colours, x=0, y=0,
     g.append(draw.Text('italics mean no loading screen', legend_font_size, font_family=FONTFAM,
                        x=icon_x+cell_size, y=text_y,
                        fill=legend_colour, font_style='italic'))
+
+    icon_x, icon_y, text_y = update_legend_coords(cell_size, height, icon_x, icon_y, text_y, legend_width, start_y=start_y, delimiting_margin=margin_size)
+    #d.append(draw.Rectangle(fill='none', stroke=colours[BASE], x=icon_x, y=icon_y, width=icon_size, height=icon_size, opacity=OUTDOOR_OPACITY))
+    g.append(draw.Text('Icons by various contributors to The Noun Project', legend_font_size, font_family=FONTFAM,
+                       x=icon_x+cell_size, y=text_y,
+                       fill=legend_colour))
 
     d.append(g)
     return (icon_x - initial_icon_x) + legend_width #+ margin_size #icon_y + cell_size
