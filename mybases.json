@@ -6794,7 +6794,8 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["bed,grill", "?chest:2,?box", "?wax,?oilcan:2"]
+				"features": ["bed,grill",
+					"?chest:2,?box:2,?rug:3", "?wax,?oilcan:2", "?simpleparka,?fuel", "?reclaimed:2,?cedar:2,?scrap"]
 			},
 			"LighthouseCabin": {
 				"region": "PortRemnant",
@@ -6805,7 +6806,7 @@
 				"indoors": true,
 				"explored":false,
 				"features": ["bed,grill",
-				"?firelog,?food", "?drawer:6,?painting"]
+				"?firelog:2,?food,?scrap", "?drawer:9,?cupboard:4,?painting:5"]
 			},
 			"POI(RikenLike)": {
 				"region": "PortRemnant",
@@ -6825,7 +6826,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bed,?hammer","?reclaimed,?brake"]
+				"features": ["bed,?hammer,?sewing","?reclaimed,?brake"]
 			},
 			"RedWarehouse": {
 				"region": "PortRemnant",
@@ -6855,7 +6856,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["?box"]
+				"features": ["?reclaimed"]
 			},
 			"Warehouse(NoRoof)": {
 				"region": "PortRemnant",
@@ -6865,7 +6866,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["?box"]
+				"features": ["?box,?scrap","?coal:2,?reclaimed"]
 			},
 
 			"Cabin(ByObstructed)": {
@@ -6878,7 +6879,7 @@
 				"explored":false,
 				"features": ["bed,grill",
 					"?matches,?canopener",
-					"?chest,?box,?drawer","?festive,?rug:2"]
+					"?chest,?box,?drawer","?festive:2,?rug:2,?deermount,?crate:2"]
 			},
 			"Gate(OT:N)": {
 				"region": "PortRemnant",
@@ -6979,7 +6980,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["bed"]
+				"features": ["bed,grill", "?matches", "?box,?plastic",  "?rug,?mat"]
 			},
 						"Cave(ToChurch)": {
 				"region": "PortRemnant",
@@ -7061,7 +7062,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["deer,rabbit,harvestbirch","?rope,?wax:3"]
+				"features": ["deer,rabbit,harvestbirch","?rope,?wax:3,?firelog"]
 			},
 			"WhaleBoneShrine(NearChurch)": {
 				"region": "PortRemnant",
@@ -8551,8 +8552,8 @@
 		["Transition(OIC~DP)", "east", "top,right", "Transition(DP~OIC)", "bottom,left", "paint"],
 		["Transition(DP~OIC)", "east", "top,right", "No3Mine", "bottom,left", "paint"],
 		["No3Mine", "south", "bottom,right", "Climb(DP)", "top,left", "default"],
-		["Climb(DP)", "south", "bottom,right", "POI(KatiesSecludedCorner)", "top,left", "default"],
-		["No3Mine", "east", "top,right", "No5Mine(West)", "top,left", "path"],
+		["Climb(DP)", "south", "bottom,left", "POI(KatiesSecludedCorner)", "top,left", "default"],
+		["No3Mine", "east wide", "top,right", "No5Mine(West)", "top,left", "path"],
 		["No5Mine(West)", "east", "top,right", "No5Mine(East)", "bottom,left", "paint"],
 		["No5Mine(East)", "east", "top,right", "HiberniaProcessing", "top,left", "path"],
 		["No5Mine(East)", "north", "top,right", "Cave(BrokenBridge)", "bottom,left", "path"],
@@ -8570,7 +8571,7 @@
 		["No5Mine(West)", "south", "bottom,right", "StoneChurch", "top,left", "path"],
 		["StoneChurch", "south", "bottom,left", "LonelyLighthouse", "top,left", "default"],
 		["LonelyLighthouse", "west", "top,left", "POI(KatiesSecludedCorner)", "bottom,right", "default"],
-		["POI(KatiesSecludedCorner)", "north", "top,right", "No5Mine(West)", "bottom,left", "default"],
+		["POI(KatiesSecludedCorner)", "north tall", "top,right", "No5Mine(West)", "bottom,left", "default"],
 		"--------Ravine--------",
 		["Transition(CH~R)", "west", "top,left", "Transition(R~CH)", "top,right", "path"],
 		["Transition(R~CH)", "north", "top,left", "Tunnel(RavineEast)", "bottom,right", "path"],

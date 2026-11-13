@@ -1384,7 +1384,9 @@ def per_region_both_flows(bases,
 def per_region_draw_flows(d, bases, region,
                           last_base_name,
                           all_takes, all_brings,
-                          colours=HEXES):
+                          colours=HEXES,
+                          special_bases=(),
+                          ):
     """
     Draw four bubbles below the last drawn base in a region
     - things to take from the region
@@ -1423,6 +1425,7 @@ def per_region_draw_flows(d, bases, region,
                                               fill=colours[BASE_BG])
         g.append(cob)
         last_base_name = sob.name
+        special_bases[sob.name] = sob
 
     return g, last_base_name
 
@@ -1431,14 +1434,30 @@ def draw_special_elements(bases, last_base_name,
                           colours,
                           map_title='',
                           all_takes = None,
-                          all_brings = None,):
+                          all_brings = None,
+                          east=0.0, north=0.0):
     gs = draw.Group(id='specials')
+
+    special_bases = {}
+
+    specials = 'SPECIALS'
+    bases[specials] = BaseLocation(specials,
+                     {REGION: bases[last_base_name].region,
+                      CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
+                      FEATURES: [],
+                      EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
+    bases[specials].draw(gs, bases[last_base_name].icon_size,
+                         x=east,y=north)
+    special_bases[specials] = bases[specials]
+    last_base_name = specials
+
     if CURR_INVENTORY in bases:
         last_base_name = USED_UP
     elif map_title:
         #sob = per_region_flows(bases, shortforms, longforms, all_bases)
         gf, last_base_name = per_region_draw_flows(gs, bases, map_title, last_base_name,
                                                all_takes, all_brings,
+                                               special_bases=special_bases,
                                                colours=colours)
         #d.append(gs)
         gs.append(gf)
@@ -1455,6 +1474,7 @@ def draw_special_elements(bases, last_base_name,
                                               border=colours[BRING],
                                               fill=colours[BASE_BG])
         gs.append(cob)
+        special_bases[out_bring] = bases[out_bring]
 
         out_take = 'outstanding take (missing destination)'
         to_take = condense_multiples_in_list(to_take)
@@ -1464,8 +1484,9 @@ def draw_special_elements(bases, last_base_name,
                                          border=colours[TAKE],
                                          fill=colours[BASE_BG])
         gs.append(cob2)
+        special_bases[out_take] = bases[out_take]
         #d.append(gs)
-    return gs
+    return gs, special_bases
 
 def draw_bases_by_connections(bases,
                               colours,
@@ -1576,10 +1597,7 @@ def draw_bases(bases, colours,
     if add_legend: # count before the special bases are added
         counts = count_features(bases)
 
-    gs = draw_special_elements(bases, last_base_name, colours,
-                               map_title=map_title,
-                               all_takes=all_takes, all_brings=all_brings,)
-    gb.append(gs)
+
     margin = icon_size * 2
     wid, hei, west, east, north, south = graph_size(bases)
     wid += margin*2
@@ -1587,6 +1605,13 @@ def draw_bases(bases, colours,
 
     g = draw.Group(transform=f'translate({-west+margin},{-north+margin})')
     g.append(gb)
+
+    gs, special_bases = draw_special_elements(bases, last_base_name, colours,
+                               map_title=map_title,
+                               all_takes=all_takes, all_brings=all_brings,
+                               east=wid, north=margin)
+    s_wid, s_hei, west, east, north, south = graph_size(special_bases)
+    wid += s_wid  + margin
 
     gl = None
     if add_legend:
@@ -1602,6 +1627,7 @@ def draw_bases(bases, colours,
     d = draw.Drawing(wid, hei)
     d.append(draw.Rectangle(0,0,d.width,d.height,fill=colours[BG]))
     d.append(g)
+    d.append(gs)
     if add_legend:
         d.append(gl)
     d.save_svg(output)
@@ -1982,7 +2008,8 @@ def draw_legend(d, colours, x=0, y=0,
                 to_draw = False
 
         if to_draw:
-            if lines_drawn in column_breaks or icon_y+cell_size*5 > height:
+            # lines_drawn in column_breaks or
+            if icon_y+cell_size*5 > height:
                 icon_y = start_y
                 legend_column_size = text_wid + cell_size * 5 + 4 * margin_size
                 icon_x += legend_column_size

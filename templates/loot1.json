@@ -9469,9 +9469,12 @@
                 "explored": false,
                 "features": [
                     "bed,?grill",
-                    "?chest:2,?box",
-                    "?oilcan:2",
-                    "?wax"
+                    "?chest:2,?box:2",
+                    "?rug:3",
+                    "?fuel,?oilcan:2",
+                    "?wax,?cedar:2,?reclaimed:2",
+                    "?scrap",
+                    "?simpleparka"
                 ]
             },
             "LighthouseCabin": {
@@ -9488,10 +9491,11 @@
                 "explored": false,
                 "features": [
                     "bed,?grill",
-                    "?drawer:6",
-                    "?painting",
+                    "?cupboard:4,?drawer:9",
+                    "?painting:5",
                     "?food",
-                    "?firelog"
+                    "?firelog:2",
+                    "?scrap"
                 ]
             },
             "POI(RikenLike)": {
@@ -9525,7 +9529,7 @@
                 "explored": false,
                 "features": [
                     "bed",
-                    "?hammer",
+                    "?hammer,?sewing",
                     "?reclaimed,?brake"
                 ]
             },
@@ -9580,7 +9584,7 @@
                 "shortform": "Warehouse(Terraced)",
                 "explored": false,
                 "features": [
-                    "?box"
+                    "?reclaimed"
                 ]
             },
             "Warehouse(NoRoof)": {
@@ -9596,7 +9600,9 @@
                 "shortform": "Warehouse(NoRoof)",
                 "explored": false,
                 "features": [
-                    "?box"
+                    "?box",
+                    "?coal:2,?reclaimed",
+                    "?scrap"
                 ]
             },
             "Cabin(ByObstructed)": {
@@ -9614,7 +9620,7 @@
                 "features": [
                     "bed,?grill",
                     "?chest,?box,?drawer",
-                    "?festive,?rug:2",
+                    "?crate:2,?deermount,?festive:2,?rug:2",
                     "?matches,?canopener"
                 ]
             },
@@ -9778,7 +9784,10 @@
                 "shortform": "Cabin(LootedGrotto)",
                 "explored": false,
                 "features": [
-                    "bed"
+                    "bed,?grill",
+                    "?box,?plastic",
+                    "?rug,?mat",
+                    "?matches"
                 ]
             },
             "Cave(ToChurch)": {
@@ -9907,7 +9916,7 @@
                 "explored": false,
                 "features": [
                     "deer,rabbit,harvestbirch",
-                    "?wax:3,?rope"
+                    "?wax:3,?rope,?firelog"
                 ]
             },
             "WhaleBoneShrine(NearChurch)": {
@@ -14081,7 +14090,7 @@
         ],
         [
             "No3Mine",
-            "east ",
+            "east wide",
             "top,right",
             "No5Mine(West)",
             "top,left",
@@ -14090,7 +14099,7 @@
         [
             "Climb(DP)",
             "south ",
-            "bottom,right",
+            "bottom,left",
             "POI(KatiesSecludedCorner)",
             "top,left",
             "default"
@@ -14105,7 +14114,7 @@
         ],
         [
             "POI(KatiesSecludedCorner)",
-            "north ",
+            "north tall",
             "top,right",
             "No5Mine(West)",
             "bottom,left",

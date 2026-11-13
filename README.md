@@ -398,7 +398,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 
 ### IRON ROAD
 1. Legend: only what is needed for colour, paths, etc
-3. Better locations for in/outflows for regions
+2. Add to legend: Noun Project note
 4. Better guesses at coordinates
 5. Update verificaton numbers with DLC additions for climbs, hammers, etc
 
