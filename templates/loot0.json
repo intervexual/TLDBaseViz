@@ -9549,7 +9549,7 @@
                     "?firelog"
                 ]
             },
-            "POI(Riken-like)": {
+            "POI(RikenLike)": {
                 "region": "PortRemnant",
                 "coords": [
                     1200,
@@ -9559,18 +9559,36 @@
                 "loading": false,
                 "indoors": false,
                 "cabinfeverrisk": false,
-                "shortform": "POI(Riken-like)",
+                "shortform": "POI(RikenLike)",
                 "explored": false,
                 "features": [
                     "wolf",
                     "?wax"
                 ]
             },
+            "Warehouse(HasSecondLevel)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1300,
+                    750
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Warehouse(HasSecondLevel)",
+                "explored": false,
+                "features": [
+                    "bed",
+                    "?hammer",
+                    "?reclaimed,?brake"
+                ]
+            },
             "RedWarehouse": {
                 "region": "PortRemnant",
                 "coords": [
                     1400,
-                    715
+                    705
                 ],
                 "customizable": false,
                 "loading": false,
@@ -9579,16 +9597,68 @@
                 "shortform": "RedWarehouse",
                 "explored": false,
                 "features": [
-                    "?workbench,?grill",
+                    "bed,?workbench,?grill",
                     "?oilcan",
-                    "?scrap"
+                    "?bark",
+                    "?firelog,?reclaimed:2,?brake:2",
+                    "?scrap:3"
+                ]
+            },
+            "Shed(DeparturesMemory)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1445,
+                    715
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Shed(DeparturesMemory)",
+                "explored": false,
+                "features": [
+                    "rabbit",
+                    "?prybar",
+                    "?reclaimed"
+                ]
+            },
+            "Warehouse(Terraced)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1440,
+                    745
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Warehouse(Terraced)",
+                "explored": false,
+                "features": [
+                    "?box"
+                ]
+            },
+            "Warehouse(NoRoof)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1300,
+                    700
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Warehouse(NoRoof)",
+                "explored": false,
+                "features": [
+                    "?box"
                 ]
             },
             "Cabin(ByObstructed)": {
                 "region": "PortRemnant",
                 "coords": [
-                    1480,
-                    765
+                    1500,
+                    755
                 ],
                 "customizable": true,
                 "loading": true,
@@ -9701,39 +9771,6 @@
                     "rabbit,harvestbirch"
                 ]
             },
-            "Climb(DesecratedChurch)": {
-                "region": "PortRemnant",
-                "coords": [
-                    1700,
-                    645
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "Climb(DesecratedChurch)",
-                "explored": false,
-                "features": [
-                    "*climb"
-                ]
-            },
-            "WhaleBoneShrine(NearChurch)": {
-                "region": "PortRemnant",
-                "coords": [
-                    1695,
-                    570
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "WhaleBoneShrine(NearChurch)",
-                "explored": false,
-                "features": [
-                    "shrine",
-                    "?wax"
-                ]
-            },
             "Transition(PR~A1)": {
                 "region": "PortRemnant",
                 "coords": [
@@ -9748,71 +9785,6 @@
                 "explored": false,
                 "features": [
                     "!gate"
-                ]
-            },
-            "DesecratedChurch": {
-                "region": "PortRemnant",
-                "coords": [
-                    1625,
-                    500
-                ],
-                "customizable": true,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "DesecratedChurch",
-                "explored": false,
-                "features": [
-                    "deer,rabbit,harvestbirch",
-                    "?wax:3,?rope"
-                ]
-            },
-            "Cave(FromChurch)": {
-                "region": "PortRemnant",
-                "coords": [
-                    1444,
-                    300
-                ],
-                "customizable": false,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "Cave(FromChurch)",
-                "explored": false,
-                "features": [
-                    "mine"
-                ]
-            },
-            "Cave(ToChurch)": {
-                "region": "PortRemnant",
-                "coords": [
-                    1170,
-                    265
-                ],
-                "customizable": false,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "Cave(ToChurch)",
-                "explored": false,
-                "features": [
-                    "wolf,mine"
-                ]
-            },
-            "Cabin(LootedGrotto)": {
-                "region": "PortRemnant",
-                "coords": [
-                    1300,
-                    300
-                ],
-                "customizable": true,
-                "loading": true,
-                "indoors": true,
-                "cabinfeverrisk": true,
-                "shortform": "Cabin(LootedGrotto)",
-                "explored": false,
-                "features": [
-                    "bed"
                 ]
             },
             "POI(ForgottenTrestle)": {
@@ -9846,6 +9818,38 @@
                 "features": [
                     "bed,?grill",
                     "?matches"
+                ]
+            },
+            "Cabin(LootedGrotto)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1300,
+                    300
+                ],
+                "customizable": true,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "Cabin(LootedGrotto)",
+                "explored": false,
+                "features": [
+                    "bed"
+                ]
+            },
+            "Cave(ToChurch)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1170,
+                    265
+                ],
+                "customizable": false,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "Cave(ToChurch)",
+                "explored": false,
+                "features": [
+                    "wolf,mine"
                 ]
             },
             "WhaleBoneShrine(Central)": {
@@ -9928,6 +9932,72 @@
                     "deer"
                 ]
             },
+            "Cave(FromChurch)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1444,
+                    300
+                ],
+                "customizable": false,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "Cave(FromChurch)",
+                "explored": false,
+                "features": [
+                    "mine"
+                ]
+            },
+            "DesecratedChurch": {
+                "region": "PortRemnant",
+                "coords": [
+                    1625,
+                    500
+                ],
+                "customizable": true,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "DesecratedChurch",
+                "explored": false,
+                "features": [
+                    "deer,rabbit,harvestbirch",
+                    "?wax:3,?rope"
+                ]
+            },
+            "WhaleBoneShrine(NearChurch)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1695,
+                    570
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "WhaleBoneShrine(NearChurch)",
+                "explored": false,
+                "features": [
+                    "shrine",
+                    "?wax"
+                ]
+            },
+            "Climb(DesecratedChurch)": {
+                "region": "PortRemnant",
+                "coords": [
+                    1700,
+                    645
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Climb(DesecratedChurch)",
+                "explored": false,
+                "features": [
+                    "*climb"
+                ]
+            },
             "Climb(ShelteredAccess)": {
                 "region": "PortRemnant",
                 "coords": [
@@ -9957,7 +10027,8 @@
                 "shortform": "Cave(ShelteredAccess)",
                 "explored": false,
                 "features": [
-                    "tunnel"
+                    "tunnel",
+                    "?bedroll"
                 ]
             }
         },
@@ -17264,40 +17335,88 @@
         ],
         [
             "Lighthouse",
-            "north ",
+            "northeast ",
             "top,right",
-            "POI(Riken-like)",
+            "POI(RikenLike)",
             "bottom,left",
             "default"
         ],
         [
-            "POI(Riken-like)",
-            "north ",
+            "POI(RikenLike)",
+            "north tall",
             "top,left",
-            "RedWarehouse",
+            "Warehouse(HasSecondLevel)",
             "bottom,right",
             "default"
         ],
         [
-            "POI(Riken-like)",
-            "north ",
+            "POI(RikenLike)",
+            "east wide",
             "top,right",
             "Climb(ShelteredAccess)",
             "bottom,left",
             "default"
         ],
         [
-            "RedWarehouse",
+            "Warehouse(HasSecondLevel)",
             "north ",
             "top,right",
-            "Cabin(ByObstructed)",
+            "RedWarehouse",
+            "bottom,right",
+            "default"
+        ],
+        [
+            "Warehouse(HasSecondLevel)",
+            "east ",
+            "top,right",
+            "Warehouse(Terraced)",
+            "top,left",
+            "default"
+        ],
+        [
+            "Warehouse(HasSecondLevel)",
+            "west ",
+            "top,left",
+            "Warehouse(NoRoof)",
+            "top,right",
+            "default"
+        ],
+        [
+            "RedWarehouse",
+            "east ",
+            "top,right",
+            "Shed(DeparturesMemory)",
+            "top,left",
+            "default"
+        ],
+        [
+            "RedWarehouse",
+            "south ",
+            "bottom,right",
+            "Warehouse(NoRoof)",
+            "top,right",
+            "default"
+        ],
+        [
+            "Warehouse(Terraced)",
+            "south ",
+            "top,left",
+            "Shed(DeparturesMemory)",
             "bottom,left",
             "default"
         ],
         [
+            "Shed(DeparturesMemory)",
+            "east ",
+            "top,right",
             "Cabin(ByObstructed)",
-            "west ",
-            "bottom,left",
+            "top,left",
+            "default"
+        ],
+        [
+            "Cabin(ByObstructed)",
+            "north ",
+            "top,left",
             "Gate(OT:N)",
             "bottom,right",
             "default"
@@ -17311,72 +17430,64 @@
             "oneway"
         ],
         [
-            "Cabin(ByObstructed)",
-            "west ",
-            "top,left",
-            "Switch(OT:N)",
-            "bottom,right",
-            "default"
-        ],
-        [
             "Gate(OT:N)",
-            "west ",
+            "northwest ",
             "top,left",
             "ObstructedTransit",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Gate(OT:N)",
+            "east ",
+            "top,right",
+            "Switch(OT:N)",
+            "top,left",
+            "rail"
+        ],
+        [
+            "ObstructedTransit",
             "north ",
             "top,left",
-            "Switch(OT:N)",
-            "bottom,left",
+            "Gate(OT:W)",
+            "bottom,right",
             "rail"
         ],
         [
-            "ObstructedTransit",
-            "west ",
-            "top,left",
             "Gate(OT:W)",
+            "north ",
             "top,right",
-            "rail"
-        ],
-        [
-            "Gate(OT:W)",
-            "west ",
-            "top,left",
             "Switch(OT:W)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "POI(BirchForest)",
-            "west ",
+            "north ",
             "top,left",
             "Climb(DesecratedChurch)",
-            "top,right",
+            "bottom,right",
             "default"
         ],
         [
             "POI(BirchForest)",
-            "south ",
-            "bottom,right",
-            "Switch(OT:N)",
+            "west ",
             "top,left",
+            "Switch(OT:N)",
+            "top,right",
             "rail"
         ],
         [
             "POI(BirchForest)",
-            "north ",
+            "east ",
             "top,right",
             "Transition(PR~A1)",
-            "bottom,right",
+            "top,left",
             "rail"
         ],
         [
             "Climb(DesecratedChurch)",
-            "west ",
+            "northwest ",
             "top,left",
             "WhaleBoneShrine(NearChurch)",
             "top,right",
@@ -17384,15 +17495,15 @@
         ],
         [
             "Switch(OT:N)",
-            "southwestup ",
-            "bottom,left",
+            "southwestsquigup ",
+            "top,left",
             "Switch(OT:W)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(OT:W)",
-            "west ",
+            "northwest ",
             "top,left",
             "POI(ForgottenTrestle)",
             "top,right",
@@ -17404,7 +17515,7 @@
             "bottom,left",
             "Cabin(Empty)",
             "top,right",
-            "default"
+            "path"
         ],
         [
             "POI(ForgottenTrestle)",
@@ -17412,7 +17523,7 @@
             "top,left",
             "Cabin(LootedGrotto)",
             "bottom,left",
-            "default"
+            "path"
         ],
         [
             "POI(ForgottenTrestle)",
@@ -17459,13 +17570,13 @@
             "east wide",
             "top,right",
             "DesecratedChurch",
-            "top,left",
+            "bottom,left",
             "default"
         ],
         [
             "DesecratedChurch",
             "east ",
-            "top,right",
+            "bottom,right",
             "WhaleBoneShrine(NearChurch)",
             "top,left",
             "default"
@@ -17475,7 +17586,7 @@
             "north ",
             "top,right",
             "Cave(ShelteredAccess)",
-            "bottom,left",
+            "bottom,right",
             "default"
         ],
         [
@@ -17496,7 +17607,7 @@
         ],
         [
             "Transition(PR~A5)",
-            "west ",
+            "west wide",
             "top,left",
             "Transition(A5~PR)",
             "top,right",
@@ -17504,7 +17615,7 @@
         ],
         [
             "Transition(PR~A1)",
-            "northeastdown ",
+            "east ",
             "top,right",
             "Transition(A1~PR)",
             "top,left",
@@ -17632,7 +17743,7 @@
         ],
         [
             "Switch(A5:OT:E)",
-            "southwestsquigdown ",
+            "southwestsquigdown tall",
             "bottom,left",
             "Bypass(A5:OT)",
             "top,right",
@@ -17643,13 +17754,13 @@
             "west ",
             "top,left",
             "Switch(A5:OT:W)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(A5:OT:W)",
             "west ",
-            "top,left",
+            "bottom,left",
             "Switch(A5:OT:S)",
             "top,right",
             "rail"
@@ -17657,7 +17768,7 @@
         [
             "Switch(A5:OT:W)",
             "northwestdown ",
-            "top,left",
+            "bottom,left",
             "Stop(A5)",
             "bottom,right",
             "rail"
@@ -17704,18 +17815,18 @@
         ],
         [
             "Climb(A5)",
-            "north ",
+            "west ",
             "top,left",
             "Transition(A5~A6)",
-            "bottom,left",
+            "top,right",
             "default"
         ],
         [
             "Transition(A5~A6)",
-            "north ",
+            "west ",
             "top,left",
             "Transition(A6~A5)",
-            "bottom,left",
+            "top,right",
             "default"
         ],
         [
@@ -17728,7 +17839,7 @@
         ],
         [
             "POI(Junction)",
-            "east ",
+            "east wide",
             "top,right",
             "TrainShelter",
             "top,left",
@@ -17784,7 +17895,7 @@
         ],
         [
             "Canyon(A4)",
-            "north tall",
+            "north ",
             "top,left",
             "Pond(A4)",
             "bottom,left",
@@ -17912,8 +18023,8 @@
         ],
         [
             "Transition(A1~PR)",
-            "northeastup ",
-            "top,left",
+            "northeast ",
+            "top,right",
             "Switch(A1:PR:W)",
             "bottom,left",
             "rail"

@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~BR):features"></g>
 <g id="Transition(FRBL~BR):header">
-<text x="1511.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~BR)</text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(FRBL~BR)</tspan></text>
 </g>
 </g>
 </g>
@@ -19,44 +19,44 @@
 <rect x="1461.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(RailOffice):features"></g>
 <g id="POI(RailOffice):header">
-<text x="1471.25" y="1512.1875" font-size="1.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">POI(RailOffice)</text>
+<text x="1471.25" y="1510.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">POI</tspan><tspan x="1471.25" dy="1em">(Rail</tspan><tspan x="1471.25" dy="1em">Office)</tspan></text>
 </g>
 </g>
 <path d="M1461.25,1501.25 L1441.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
 <g id="TrainCar(SurfeitTrestle)">
-<rect x="1361.25" y="1501.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
+<rect x="1361.25" y="1501.25" width="80.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="TrainCar(SurfeitTrestle):features">
 <g id="rockcache:TrainCar(SurfeitTrestle):0:0">
-<g id="import" transform="translate(1368.75, 1515.0) scale(0.24615384615384617)">
+<g id="import" transform="translate(1368.75, 1555.0) scale(0.24615384615384617)">
 <path d="M13.543,77.6057 C6.0625,77.6057,0.0,71.5432,0.0,64.0627 C0.0,56.5822,6.0625,50.5197,13.543,50.5197 C21.0235,50.5197,27.086,56.5822,27.086,64.0627 C27.086,71.5432,21.0235,77.6057,13.543,77.6057 Z M13.543,54.7657 C13.0547,54.7657,12.6602,55.1602,12.6602,55.6485 C12.6602,56.1367,13.0547,56.5313,13.543,56.5313 C15.1758,56.5313,16.7032,57.0782,17.9258,58.0196 C19.1485,58.9571,20.0742,60.293,20.4922,61.8673 C20.6172,62.3399,21.1016,62.6173,21.5703,62.4923 C22.039,62.3673,22.3203,61.8829,22.1953,61.4142 C21.6719,59.4572,20.5195,57.7931,18.9922,56.6212 C17.4649,55.4493,15.5664,54.7696,13.5391,54.7696 Z M40.625,77.6057 C33.1445,77.6057,27.082,71.5432,27.082,64.0627 C27.082,56.5822,33.1445,50.5197,40.625,50.5197 C48.1055,50.5197,54.168,56.5822,54.168,64.0627 C54.168,71.5432,48.1055,77.6057,40.625,77.6057 Z M40.625,54.7657 C40.1367,54.7657,39.7422,55.1602,39.7422,55.6485 C39.7422,56.1367,40.1367,56.5313,40.625,56.5313 C42.2539,56.5313,43.7852,57.0782,45.0078,58.0196 C46.2305,58.9571,47.1562,60.293,47.5781,61.8673 C47.7031,62.3399,48.1875,62.6173,48.6562,62.4923 C49.1289,62.3673,49.4062,61.8829,49.2812,61.4142 C48.7578,59.4572,47.6054,57.7931,46.0781,56.6212 C44.5508,55.4493,42.6523,54.7696,40.625,54.7696 Z M67.707,77.6057 C60.2265,77.6057,54.164,71.5432,54.164,64.0627 C54.164,56.5822,60.2265,50.5197,67.707,50.5197 C75.1875,50.5197,81.25,56.5822,81.25,64.0627 C81.25,71.5432,75.1875,77.6057,67.707,77.6057 Z M67.707,54.7657 C67.2187,54.7657,66.8242,55.1602,66.8242,55.6485 C66.8242,56.1367,67.2187,56.5313,67.707,56.5313 C69.3359,56.5313,70.8672,57.0782,72.0898,58.0196 C73.3125,58.9571,74.2343,60.293,74.6562,61.8673 C74.7812,62.3399,75.2656,62.6173,75.7343,62.4923 C76.207,62.3673,76.4843,61.8829,76.3593,61.4142 C75.8359,59.4572,74.6835,57.7931,73.1562,56.6212 C71.6289,55.4493,69.7304,54.7696,67.7031,54.7696 Z M27.082,54.1524 C19.6015,54.1524,13.539,48.0899,13.539,40.6094 C13.539,33.1289,19.6015,27.0664,27.082,27.0664 C34.5625,27.0664,40.625,33.1289,40.625,40.6094 C40.625,48.0899,34.5625,54.1524,27.082,54.1524 Z M27.082,31.3124 C26.5937,31.3124,26.1992,31.7069,26.1992,32.1952 C26.1992,32.6835,26.5937,33.078,27.082,33.078 C28.7109,33.078,30.2422,33.6249,31.4648,34.5663 C32.6875,35.5038,33.6132,36.8397,34.0312,38.414 C34.1562,38.8827,34.6406,39.164,35.1093,39.039 C35.578,38.914,35.8593,38.4296,35.7343,37.9609 C35.2109,36.0039,34.0585,34.3398,32.5312,33.1679 C31.0039,31.996,29.1054,31.3163,27.0781,31.3163 Z M54.164,54.1524 C46.6835,54.1524,40.621,48.0899,40.621,40.6094 C40.621,33.1289,46.6835,27.0664,54.164,27.0664 C61.6445,27.0664,67.707,33.1289,67.707,40.6094 C67.707,48.0899,61.6445,54.1524,54.164,54.1524 Z M54.164,31.3124 C53.6757,31.3124,53.2812,31.7069,53.2812,32.1952 C53.2812,32.6835,53.6757,33.078,54.164,33.078 C55.7968,33.078,57.3242,33.6249,58.5468,34.5663 C59.7695,35.5038,60.6952,36.8397,61.1171,38.414 C61.2421,38.8827,61.7265,39.164,62.1952,39.039 C62.6639,38.914,62.9452,38.4296,62.8202,37.9609 C62.2968,36.0039,61.1444,34.3398,59.6171,33.1679 C58.0898,31.996,56.1913,31.3163,54.164,31.3163 Z M40.621,30.7303 C33.1405,30.7303,27.078,24.6678,27.078,17.1873 C27.078,9.70684,33.1405,3.64434,40.621,3.64434 C48.1015,3.64434,54.164,9.70684,54.164,17.1873 C54.164,24.6678,48.1015,30.7303,40.621,30.7303 Z M40.621,7.89034 C40.1327,7.89034,39.7382,8.28487,39.7382,8.77315 C39.7382,9.26144,40.1327,9.65597,40.621,9.65597 C42.2499,9.65597,43.7812,10.2028,45.0038,11.1443 C46.2265,12.0818,47.1522,13.4177,47.5741,14.992 C47.6991,15.4607,48.1835,15.742,48.6522,15.617 C49.1249,15.492,49.4022,15.0076,49.2772,14.5389 C48.7538,12.5819,47.6014,10.9178,46.0741,9.74587 C44.5468,8.57396,42.6483,7.89426,40.621,7.89426 Z" fill="#7db138" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
 <g id="stone:TrainCar(SurfeitTrestle):1:0">
-<g id="import" transform="translate(1391.25, 1523.0) scale(0.04399923895983013)">
+<g id="import" transform="translate(1391.25, 1563.0) scale(0.04399923895983013)">
 <path d="M136.366,24.802497 C61.173997,24.802497,-2.6855469e-06,74.849497,-2.6855469e-06,136.3665 C-2.6855469e-06,197.8835,61.173997,247.9295,136.366,247.9295 C211.558,247.9295,272.732,197.8825,272.732,136.3665 C272.732,74.850497,211.559,24.802497,136.366,24.802497 Z M249.89,132.3665 C252.099,132.3665,253.89,134.1575,253.89,136.3665 C253.89,155.2255,241.367,172.7835,218.627,185.8045 C196.589,198.4235,167.375,205.3735,136.366,205.3735 C105.356,205.3735,76.141997,198.4235,54.104997,185.8045 C31.364997,172.7835,18.841997,155.2255,18.841997,136.3665 C18.841997,134.1575,20.632997,132.3665,22.841997,132.3665 C25.050997,132.3665,26.841997,134.1575,26.841997,136.3665 C26.841997,152.2355,37.935997,167.3275,58.079997,178.8625 C78.925997,190.8005,106.728,197.3745,136.366,197.3745 C166.003,197.3745,193.805,190.8005,214.652,178.8625 C234.797,167.3275,245.89,152.2355,245.89,136.3665 C245.89,134.1575,247.681,132.3665,249.89,132.3665 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 </g>
-<rect x="1401.25" y="1515.0" width="7.199999999999999" height="7.199999999999999" fill="#2f5136" opacity="0.3" />
-<text x="1404.77" y="1520.4" font-size="5.76" text-anchor="middle">43</text>
+<rect x="1401.25" y="1555.0" width="7.199999999999999" height="7.199999999999999" fill="#2f5136" opacity="0.3" />
+<text x="1404.77" y="1560.4" font-size="5.76" text-anchor="middle">43</text>
 </g>
 <g id="deliver:TrainCar(SurfeitTrestle):0:1">
-<g id="import" transform="translate(1368.75, 1537.5) scale(0.2618912748158842)">
+<g id="import" transform="translate(1368.75, 1577.5) scale(0.2618912748158842)">
 <path d="M76.367566,0.0 L0.0,28.28436 L34.648227,41.71942 L48.083259,76.36762 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
 <g id="empty:TrainCar(SurfeitTrestle):1:1">
-<rect x="1391.25" y="1537.5" width="20" height="20" fill="none" stroke="#a62f5f" />
-<text x="1401.25" y="1547.5" font-size="3.3333333333333335" fill="#a62f5f" text-anchor="middle" font-style="italic">#[MaintS]</text>
+<rect x="1391.25" y="1577.5" width="20" height="20" fill="none" stroke="#a62f5f" />
+<text x="1401.25" y="1587.5" font-size="3.3333333333333335" fill="#a62f5f" text-anchor="middle" font-style="italic">#[MaintS]</text>
 </g>
 <g id="stone:TrainCar(SurfeitTrestle):2:1">
-<g id="import" transform="translate(1413.75, 1545.5) scale(0.04399923895983013)">
+<g id="import" transform="translate(1413.75, 1585.5) scale(0.04399923895983013)">
 <path d="M136.366,24.802497 C61.173997,24.802497,-2.6855469e-06,74.849497,-2.6855469e-06,136.3665 C-2.6855469e-06,197.8835,61.173997,247.9295,136.366,247.9295 C211.558,247.9295,272.732,197.8825,272.732,136.3665 C272.732,74.850497,211.559,24.802497,136.366,24.802497 Z M249.89,132.3665 C252.099,132.3665,253.89,134.1575,253.89,136.3665 C253.89,155.2255,241.367,172.7835,218.627,185.8045 C196.589,198.4235,167.375,205.3735,136.366,205.3735 C105.356,205.3735,76.141997,198.4235,54.104997,185.8045 C31.364997,172.7835,18.841997,155.2255,18.841997,136.3665 C18.841997,134.1575,20.632997,132.3665,22.841997,132.3665 C25.050997,132.3665,26.841997,134.1575,26.841997,136.3665 C26.841997,152.2355,37.935997,167.3275,58.079997,178.8625 C78.925997,190.8005,106.728,197.3745,136.366,197.3745 C166.003,197.3745,193.805,190.8005,214.652,178.8625 C234.797,167.3275,245.89,152.2355,245.89,136.3665 C245.89,134.1575,247.681,132.3665,249.89,132.3665 Z" fill="#a62f5f" stroke="none" stroke-width="0" opacity="1" />
 </g>
-<rect x="1423.75" y="1537.5" width="7.199999999999999" height="7.199999999999999" fill="#a62f5f" opacity="0.3" />
-<text x="1427.27" y="1542.9" font-size="5.76" text-anchor="middle">7</text>
+<rect x="1423.75" y="1577.5" width="7.199999999999999" height="7.199999999999999" fill="#a62f5f" opacity="0.3" />
+<text x="1427.27" y="1582.9" font-size="5.76" text-anchor="middle">7</text>
 </g>
 </g>
 <g id="TrainCar(SurfeitTrestle):header">
-<text x="1401.25" y="1510.5078125" font-size="4.53125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">TrainCar(SurfeitTrestle)</text>
+<text x="1401.25" y="1508.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1401.25" dy="0em">Train</tspan><tspan x="1401.25" dy="1em">Car</tspan><tspan x="1401.25" dy="1em">(Surfeit</tspan><tspan x="1401.25" dy="1em">Trestle)</tspan></text>
 </g>
 </g>
 <path d="M1361.25,1501.25 L1341.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -86,7 +86,7 @@
 </g>
 </g>
 <g id="PlatelayersShortcut:header">
-<text x="1321.25" y="1518.766447368421" font-size="2.5657894736842106" font-family="Arial" font-weight="bold" stroke="none" font-style="" fill="#2f5136" text-anchor="middle">PlatelayersShortcut</text>
+<text x="1321.25" y="1514.659090909091" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Platelayers</tspan><tspan x="1321.25" dy="1em">Shortcut</tspan></text>
 </g>
 </g>
 <path d="M1441.25,1501.25 L1441.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,4" fill="none" />
@@ -100,7 +100,7 @@
 </g>
 </g>
 <g id="Climb(FRBL):header">
-<text x="1421.25" y="1451.7329545454545" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Climb(FRBL)</text>
+<text x="1421.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1421.25" dy="0em">Climb</tspan><tspan x="1421.25" dy="1em">(FRBL)</tspan></text>
 </g>
 </g>
 <path d="M1301.25,1501.25 L1281.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -158,7 +158,7 @@
 </g>
 </g>
 <g id="RemnantCave:header">
-<text x="1251.25" y="1518.6647727272727" font-size="7.159090909090908" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">RemnantCave</text>
+<text x="1251.25" y="1510.0" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1251.25" dy="0em">Remnant</tspan><tspan x="1251.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 <path d="M1221.25,1501.25 L1201.25,1501.25" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
@@ -166,7 +166,7 @@
 <rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~TP):features"></g>
 <g id="Transition(FRBL~TP):header">
-<text x="1191.25" y="1512.1217105263158" font-size="0.986842105263158" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#2f5136" text-anchor="middle">Transition(FRBL~TP)</text>
+<text x="1191.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1191.25" dy="0em">Transition</tspan><tspan x="1191.25" dy="1em">(FRBL~TP)</tspan></text>
 </g>
 </g>
 </g>
@@ -175,7 +175,7 @@
 <rect x="1181.25" y="1541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (FarRangeBranchLine):features"></g>
 <g id="to move from (FarRangeBranchLine):header">
-<text x="1191.25" y="1552.0170454545455" font-size="0.5681818181818181" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">to move from (FarRangeBranchLine)</text>
+<text x="1191.25" y="1550.2403846153845" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1191.25" dy="0em">to move from </tspan><tspan x="1191.25" dy="1em">(Far</tspan><tspan x="1191.25" dy="1em">Range</tspan><tspan x="1191.25" dy="1em">Branch</tspan><tspan x="1191.25" dy="1em">Line)</tspan></text>
 </g>
 </g>
 <path d="M1181.25,1561.25 L1181.25,1581.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -195,7 +195,7 @@
 </g>
 </g>
 <g id="to bring to (FarRangeBranchLine):header">
-<text x="1211.25" y="1591.240234375" font-size="2.4609375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">to bring to (FarRangeBranchLine)</text>
+<text x="1211.25" y="1585.875" font-size="3.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1211.25" dy="0em">to bring to </tspan><tspan x="1211.25" dy="1em">(Far</tspan><tspan x="1211.25" dy="1em">Range</tspan><tspan x="1211.25" dy="1em">Branch</tspan><tspan x="1211.25" dy="1em">Line)</tspan></text>
 </g>
 </g>
 <path d="M1181.25,1621.25 L1181.25,1641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -203,7 +203,7 @@
 <rect x="1181.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within FarRangeBranchLine:features"></g>
 <g id="move within FarRangeBranchLine:header">
-<text x="1191.25" y="1652.03125" font-size="0.625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#0090a2" text-anchor="middle">move within FarRangeBranchLine</text>
+<text x="1191.25" y="1650.0" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1191.25" dy="0em">move within </tspan><tspan x="1191.25" dy="1em">Far</tspan><tspan x="1191.25" dy="1em">Range</tspan><tspan x="1191.25" dy="1em">Branch</tspan><tspan x="1191.25" dy="1em">Line</tspan></text>
 </g>
 </g>
 <path d="M1181.25,1661.25 L1181.25,1681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
@@ -211,7 +211,7 @@
 <rect x="1181.25" y="1681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for FarRangeBranchLine:features"></g>
 <g id="no source for FarRangeBranchLine:header">
-<text x="1191.25" y="1692.021484375" font-size="0.5859375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" fill="#a62f5f" text-anchor="middle">no source for FarRangeBranchLine</text>
+<text x="1191.25" y="1690.4464285714284" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1191.25" dy="0em">no source for </tspan><tspan x="1191.25" dy="1em">Far</tspan><tspan x="1191.25" dy="1em">Range</tspan><tspan x="1191.25" dy="1em">Branch</tspan><tspan x="1191.25" dy="1em">Line</tspan></text>
 </g>
 </g>
 <g id="legend">

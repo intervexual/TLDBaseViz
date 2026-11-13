@@ -465,6 +465,7 @@ class BaseLocation:
         ---
         """
         self.name = name
+        self.header = break_string_by_camel_case(self.name)
         self.is_drawn = False
 
         self.features = []
@@ -578,6 +579,9 @@ class BaseLocation:
 
         border_and_margin = self.margin_size*4 #10
         minimal_text_header_height = self.margin_size*2
+        if len(self.header) > 1:
+            if self.num_features > 1:
+                minimal_text_header_height += (self.cell_size/2)*(len(self.header)-1)
 
         # need at least this height
         feature_grid_height = self.cell_size*(len(self.features))
@@ -713,19 +717,43 @@ class BaseLocation:
         """
         g = draw.Group(id=self.name + ":header")
 
-        min_text_top = y + 2 * self.margin_size
+        min_text_top = y + 1 * self.margin_size
+        #min_text_top += self.margin_size*len(header_text)
         max_text_bottom = self.feature_grid_top
         max_text_height = max_text_bottom - min_text_top
 
         max_text_width = self.box_width - self.margin_size * 4
 
-        font_size = font_size_for_box(self.name,
+        is_header_uniline = True
+        uniline_font_size = font_size_for_box(self.name,
                                       max_text_width, max_text_height)
+        multiline_font_size = font_size_for_box(longest_str(self.header),
+                                      max_text_width, max_text_height/len(self.header))
+        font_size = uniline_font_size
+        effective_header = self.name
+        if multiline_font_size > uniline_font_size:
+            is_header_uniline = False
+            font_size = multiline_font_size
+            effective_header = self.header
+        #elif len(self.header) > 1:
+        #    print('Bigger on one line', self.header, effective_header)
 
-        text_x = x + self.box_width / 2  # + margin_size/2
-        high_possible = min_text_top + font_size - self.margin_size / 2
-        low_possible = max_text_bottom - font_size / 2
-        text_y = (high_possible + low_possible) / 2
+        if is_header_uniline:
+            text_x = x + self.box_width / 2  # + margin_size/2
+            high_possible = min_text_top + font_size - self.margin_size / 2
+            low_possible = max_text_bottom - font_size / 2
+            text_y = (high_possible + low_possible) / 2
+            baseline = 'auto'
+        else:
+            baseline = 'middle'
+            text_x = x + self.box_width / 2  # + margin_size/2
+            text_height = font_size*len(self.header)
+            high_possible = min_text_top + font_size - self.margin_size / 2
+            low_possible = max_text_bottom - text_height #- font_size
+            #    text_y = high_possible + self.margin_size
+            text_y = (high_possible + low_possible) / 2
+            if self.num_features < 2:
+                text_y += self.margin_size
 
         font_style = ''
         if not self.loading:
@@ -738,10 +766,12 @@ class BaseLocation:
             text_stroke = text_colour
 
         # dominant_baseline does not appear supported for SVG???????
-        g.append( draw.Text(self.name,
+        g.append( draw.Text(effective_header,
                             font_size, font_family=FONTFAM,
                             font_weight='bold',
-                            stroke=text_stroke, font_style=font_style,
+                            stroke=text_stroke,
+                            font_style=font_style,
+                            dominant_baseline=baseline,
                             x=text_x, y=text_y, fill=text_colour,
                             text_anchor='middle' ) )
         d.append(g)
@@ -928,6 +958,48 @@ def font_size_for_box(s, max_text_width, max_text_height):
     return font_size
 
 
+def longest_str(lst):
+    max_s = ''
+    for s in lst:
+        if len(max_s) < len(s):
+            max_s = s
+    return max_s
+
+def break_string_by_camel_case(s):
+    """
+
+    :param s:
+    :return:
+    >>> break_string_by_camel_case('PortRemnant')
+    ['Port', 'Remnant']
+    >>> break_string_by_camel_case('Port')
+    ['Port']
+    >>> break_string_by_camel_case('RepairStation(A2)')
+    ['Repair', 'Station', '(A2)']
+    >>> break_string_by_camel_case('Gate(OT:N)')
+    ['Gate', '(OT:N)']
+    >>> break_string_by_camel_case('Transition(PR~A1)')
+    ['Transition', '(PR~A1)']
+    >>> break_string_by_camel_case('Cabin(ByObstructed)')
+    ['Cabin', '(By', 'Obstructed)']
+    """
+    new_s = []
+    curr_s = ''
+    for i, c in enumerate(s):
+        if i < len(s) - 1:
+            nc = s[i+1]
+            to_break = c == '('
+            if c == c.upper() and nc == nc.lower() and (c+nc).isalpha() and curr_s:
+                if s[i-1] != '(':
+                    to_break = True
+            if to_break:
+                new_s.append(curr_s)
+                curr_s = ''
+            curr_s += c
+    curr_s += s[-1]
+    if curr_s:
+        new_s.append(curr_s)
+    return new_s
 
 def status_from_prefixes(s):
     """
@@ -1482,7 +1554,7 @@ def get_regions(bases):
     ['CoastalHighway', 'DesolationPoint', 'MountainTown', 'OIC']
     >>> bases, edges = process_input('templates/loot4.json')
     >>> get_regions(bases)
-    ['AshCanyon', 'Blackrock', 'BleakInlet', 'BrokenRailroad', 'CoastalHighway', 'DesolationPoint', 'FarRangeBranchLine', 'ForlornMuskeg', 'ForsakenAirfield', 'HushedRiverValley', 'KeepersPass', 'MountainTown', 'MysteryLake', 'OIC', 'PleasantValley', 'Ravine', 'SunderedPass', 'TimberwolfMountain', 'TransferPass', 'WindingRiver', 'ZoneOfContamination']
+    ['AnnaIsland1', 'AnnaIsland2', 'AnnaIsland3', 'AnnaIsland4', 'AnnaIsland5', 'AnnaIsland6', 'AshCanyon', 'Blackrock', 'BleakInlet', 'BrokenRailroad', 'CoastalHighway', 'DesolationPoint', 'FarRangeBranchLine', 'ForlornMuskeg', 'ForsakenAirfield', 'HushedRiverValley', 'KeepersPass', 'MountainTown', 'MysteryLake', 'PleasantValley', 'PortRemnant', 'Ravine', 'SunderedPass', 'TimberwolfMountain', 'TransferPass', 'WindingRiver', 'ZoneOfContamination']
     """
     regions = []
     to_exclude = [NOTINGAME ] # 'NotInGame', CURR_INVENTORY, USED_UP,, INVENTORY
