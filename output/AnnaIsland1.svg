@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="2500" height="3500" viewBox="0 0 2500 3500">
+     width="540.0" height="1160.0" viewBox="0 0 540.0 1160.0">
 <defs>
 </defs>
-<rect x="0" y="0" width="2500" height="3500" fill="#e0f3f1" />
+<rect x="0" y="0" width="540.0" height="1160.0" fill="#e0f3f1" />
+<g transform="translate(-1461.25,-421.25)">
 <g id="bases">
-<g id="Transition(A1~PR)">
-<g id="Transition(A1~PR)">
+<g id="BASE:Transition(A1~PR)">
 <rect x="1501.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Transition(A1~PR):features">
 <g id="tunnel:Transition(A1~PR):0:0">
@@ -19,9 +19,9 @@
 <text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(A1~PR)</tspan></text>
 </g>
 </g>
-</g>
 <path d="M1541.25,1501.25 L1561.25,1481.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:PR:W)">
+<g id="Transition(A1~PR):Switch(A1:PR:W)">
+<g id="BASE:Switch(A1:PR:W)">
 <rect x="1561.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:PR:W):features">
 <g id="switch:Switch(A1:PR:W):0:0">
@@ -34,8 +34,11 @@
 <text x="1581.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:W)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:PR:W):Transition(A1~PR)"></g>
 <path d="M1601.25,1441.25 L1601.25,1421.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Bypass(A1:PR)">
+<g id="Switch(A1:PR:W):Bypass(A1:PR)">
+<g id="BASE:Bypass(A1:PR)">
 <rect x="1561.25" y="1341.25" width="40.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Bypass(A1:PR):features">
 <g id="flatbed:Bypass(A1:PR):0:0">
@@ -53,8 +56,10 @@
 <text x="1581.25" y="1354.6428571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Bypass</tspan><tspan x="1581.25" dy="1em">(A1:PR)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1601.25,1441.25 C1611.05,1441.25,1611.45,1421.25,1621.25,1421.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:PR:S)">
+<g id="Switch(A1:PR:W):Switch(A1:PR:S)">
+<g id="BASE:Switch(A1:PR:S)">
 <rect x="1621.25" y="1381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:PR:S):features">
 <g id="switch:Switch(A1:PR:S):0:0">
@@ -67,8 +72,11 @@
 <text x="1641.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:PR:S):Switch(A1:PR:W)"></g>
 <path d="M1621.25,1421.25 L1621.25,1441.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Stop(A1:PR:N)">
+<g id="Switch(A1:PR:S):Stop(A1:PR:N)">
+<g id="BASE:Stop(A1:PR:N)">
 <rect x="1621.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Stop(A1:PR:N):features">
 <g id="bufferstop:Stop(A1:PR:N):0:0">
@@ -81,8 +89,10 @@
 <text x="1641.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:N)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1621.25,1381.25 L1621.25,1361.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:PR:E)">
+<g id="Switch(A1:PR:S):Switch(A1:PR:E)">
+<g id="BASE:Switch(A1:PR:E)">
 <rect x="1621.25" y="1321.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:PR:E):features">
 <g id="switch:Switch(A1:PR:E):0:0">
@@ -95,8 +105,11 @@
 <text x="1641.25" y="1329.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:E)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:PR:E):Switch(A1:PR:S)"></g>
 <path d="M1621.25,1321.25 C1611.05,1321.25,1611.45,1301.25,1601.25,1301.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:PR:N)">
+<g id="Switch(A1:PR:E):Switch(A1:PR:N)">
+<g id="BASE:Switch(A1:PR:N)">
 <rect x="1561.25" y="1261.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:PR:N):features">
 <g id="switch:Switch(A1:PR:N):0:0">
@@ -109,8 +122,10 @@
 <text x="1581.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:N)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1621.25,1321.25 L1621.25,1301.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Stop(A1:PR:S)">
+<g id="Switch(A1:PR:E):Stop(A1:PR:S)">
+<g id="BASE:Stop(A1:PR:S)">
 <rect x="1621.25" y="1261.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Stop(A1:PR:S):features">
 <g id="bufferstop:Stop(A1:PR:S):0:0">
@@ -123,9 +138,14 @@
 <text x="1641.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:PR:N):Bypass(A1:PR)">
 <path d="M1601.25,1301.25 L1601.25,1341.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
+</g>
+<g id="Switch(A1:PR:N):Switch(A1:PR:E)"></g>
 <path d="M1561.25,1261.25 L1561.25,1241.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:MT:S)">
+<g id="Switch(A1:PR:N):Switch(A1:MT:S)">
+<g id="BASE:Switch(A1:MT:S)">
 <rect x="1561.25" y="1201.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:MT:S):features">
 <g id="switch:Switch(A1:MT:S):0:0">
@@ -138,8 +158,15 @@
 <text x="1581.25" y="1209.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:S)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Bypass(A1:PR):Switch(A1:PR:W)"></g>
+<g id="Bypass(A1:PR):Switch(A1:PR:N)"></g>
+<g id="Stop(A1:PR:S):Switch(A1:PR:E)"></g>
+<g id="Stop(A1:PR:N):Switch(A1:PR:S)"></g>
+<g id="Switch(A1:MT:S):Switch(A1:PR:N)"></g>
 <path d="M1561.25,1201.25 L1561.25,1181.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Bypass(A1:MT)">
+<g id="Switch(A1:MT:S):Bypass(A1:MT)">
+<g id="BASE:Bypass(A1:MT)">
 <rect x="1561.25" y="1141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Bypass(A1:MT):features">
 <g id="stick:Bypass(A1:MT):0:0">
@@ -152,8 +179,10 @@
 <text x="1581.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Bypass</tspan><tspan x="1581.25" dy="1em">(A1:MT)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1561.25,1201.25 C1551.05,1201.25,1551.45,1181.25,1541.25,1181.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="POI(A1:MT)">
+<g id="Switch(A1:MT:S):POI(A1:MT)">
+<g id="BASE:POI(A1:MT)">
 <rect x="1501.25" y="1141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="POI(A1:MT):features">
 <g id="flatbed:POI(A1:MT):0:0">
@@ -166,8 +195,11 @@
 <text x="1521.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1521.25" dy="0em">POI</tspan><tspan x="1521.25" dy="1em">(A1:MT)</tspan></text>
 </g>
 </g>
+</g>
+<g id="POI(A1:MT):Switch(A1:MT:S)"></g>
 <path d="M1541.25,1141.25 C1541.25,1126.25,1561.25,1136.25,1561.25,1121.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:MT:N)">
+<g id="POI(A1:MT):Switch(A1:MT:N)">
+<g id="BASE:Switch(A1:MT:N)">
 <rect x="1561.25" y="1081.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:MT:N):features">
 <g id="switch:Switch(A1:MT:N):0:0">
@@ -180,9 +212,16 @@
 <text x="1581.25" y="1089.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:N)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Bypass(A1:MT):Switch(A1:MT:S)"></g>
+<g id="Bypass(A1:MT):Switch(A1:MT:N)">
 <path d="M1561.25,1141.25 L1561.25,1121.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
+</g>
+<g id="Switch(A1:MT:N):Bypass(A1:MT)"></g>
+<g id="Switch(A1:MT:N):POI(A1:MT)"></g>
 <path d="M1561.25,1081.25 L1561.25,1061.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Cabin(Huts)">
+<g id="Switch(A1:MT:N):Cabin(Huts)">
+<g id="BASE:Cabin(Huts)">
 <rect x="1561.25" y="961.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Cabin(Huts):features">
 <g id="rabbit:Cabin(Huts):0:0">
@@ -256,8 +295,11 @@
 <text x="1601.25" y="969.375" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1601.25" dy="0em">Cabin</tspan><tspan x="1601.25" dy="1em">(Huts)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Cabin(Huts):Switch(A1:MT:N)"></g>
 <path d="M1561.25,961.25 L1561.25,941.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Cave(A1)">
+<g id="Cabin(Huts):Cave(A1)">
+<g id="BASE:Cave(A1)">
 <rect x="1561.25" y="901.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Cave(A1):features">
 <g id="wolf:Cave(A1):0:0">
@@ -270,8 +312,11 @@
 <text x="1581.25" y="908.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Cave</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Cave(A1):Cabin(Huts)"></g>
 <path d="M1561.25,901.25 L1561.25,881.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Bridge(A1)">
+<g id="Cave(A1):Bridge(A1)">
+<g id="BASE:Bridge(A1)">
 <rect x="1561.25" y="841.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Bridge(A1):features">
 <g id="bridge:Bridge(A1):0:0">
@@ -284,8 +329,11 @@
 <text x="1581.25" y="848.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Bridge</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Bridge(A1):Cave(A1)"></g>
 <path d="M1561.25,841.25 L1561.25,821.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Gate(A1)">
+<g id="Bridge(A1):Gate(A1)">
+<g id="BASE:Gate(A1)">
 <rect x="1561.25" y="781.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Gate(A1):features">
 <g id="gate:Gate(A1):0:0">
@@ -298,8 +346,11 @@
 <text x="1581.25" y="788.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Gate</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Gate(A1):Bridge(A1)"></g>
 <path d="M1561.25,781.25 L1561.25,761.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:A2)">
+<g id="Gate(A1):Switch(A1:A2)">
+<g id="BASE:Switch(A1:A2)">
 <rect x="1561.25" y="721.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:A2):features">
 <g id="switch:Switch(A1:A2):0:0">
@@ -312,8 +363,11 @@
 <text x="1581.25" y="728.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:A2)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:A2):Gate(A1)"></g>
 <path d="M1561.25,721.25 C1561.25,706.25,1581.25,716.25,1581.25,701.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(A1:OT)">
+<g id="Switch(A1:A2):Switch(A1:OT)">
+<g id="BASE:Switch(A1:OT)">
 <rect x="1581.25" y="661.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(A1:OT):features">
 <g id="switch:Switch(A1:OT):0:0">
@@ -326,8 +380,10 @@
 <text x="1601.25" y="668.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1601.25" dy="0em">Switch</tspan><tspan x="1601.25" dy="1em">(A1:OT)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1561.25,721.25 L1561.25,701.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Bypass(WT:A1)">
+<g id="Switch(A1:A2):Bypass(WT:A1)">
+<g id="BASE:Bypass(WT:A1)">
 <rect x="1501.25" y="641.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Bypass(WT:A1):features">
 <g id="wolf:Bypass(WT:A1):0:0">
@@ -347,8 +403,11 @@
 <text x="1531.25" y="653.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1531.25" dy="0em">Bypass</tspan><tspan x="1531.25" dy="1em">(WT:A1)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Bypass(WT:A1):Switch(A1:A2)"></g>
 <path d="M1561.25,641.25 L1561.25,621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Transition(A1~A2)">
+<g id="Bypass(WT:A1):Transition(A1~A2)">
+<g id="BASE:Transition(A1~A2)">
 <rect x="1501.25" y="561.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Transition(A1~A2):features">
 <g id="switch:Transition(A1~A2):0:0">
@@ -366,8 +425,11 @@
 <text x="1531.25" y="575.4375" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1531.25" dy="0em">Transition</tspan><tspan x="1531.25" dy="1em">(A1~A2)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:OT):Switch(A1:A2)"></g>
 <path d="M1581.25,661.25 C1581.25,646.25,1601.25,656.25,1601.25,641.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Switch(OT:BS)">
+<g id="Switch(A1:OT):Switch(OT:BS)">
+<g id="BASE:Switch(OT:BS)">
 <rect x="1601.25" y="601.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Switch(OT:BS):features">
 <g id="switch:Switch(OT:BS):0:0">
@@ -380,9 +442,16 @@
 <text x="1621.25" y="608.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1621.25" dy="0em">Switch</tspan><tspan x="1621.25" dy="1em">(OT:BS)</tspan></text>
 </g>
 </g>
+</g>
+<g id="Switch(A1:OT):Transition(A1~A2)">
 <path d="M1581.25,661.25 C1581.25,631.25,1561.25,651.25,1561.25,621.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
+</g>
+<g id="Transition(A1~A2):Switch(A1:OT)"></g>
+<g id="Transition(A1~A2):Bypass(WT:A1)"></g>
+<g id="Switch(OT:BS):Switch(A1:OT)"></g>
 <path d="M1641.25,601.25 L1641.25,581.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="OilTank(A1)">
+<g id="Switch(OT:BS):OilTank(A1)">
+<g id="BASE:OilTank(A1)">
 <rect x="1601.25" y="461.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="OilTank(A1):features">
 <g id="deer:OilTank(A1):0:0">
@@ -405,8 +474,10 @@
 <text x="1621.25" y="474.6875" font-size="12.1875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1621.25" dy="0em">Oil</tspan><tspan x="1621.25" dy="1em">Tank</tspan><tspan x="1621.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
+</g>
 <path d="M1641.25,601.25 C1641.25,586.25,1661.25,596.25,1661.25,581.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
-<g id="Stop(A1:OT)">
+<g id="Switch(OT:BS):Stop(A1:OT)">
+<g id="BASE:Stop(A1:OT)">
 <rect x="1661.25" y="541.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Stop(A1:OT):features">
 <g id="bufferstop:Stop(A1:OT):0:0">
@@ -420,100 +491,117 @@
 </g>
 </g>
 </g>
+<g id="Stop(A1:OT):Switch(OT:BS)"></g>
+<g id="OilTank(A1):Switch(OT:BS)"></g>
+<g id="specials">
 <path d="M1601.25,581.25 L1601.25,601.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
-<g id="to move from (AnnaIsland1)">
+<path d="M1601.25,621.25 L1601.25,641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
+<path d="M1601.25,661.25 L1601.25,681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
+<path d="M1601.25,701.25 L1601.25,721.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
+<g id="From:OilTank(A1)inAnnaIsland1">
+<g id="OilTank(A1):to move from (AnnaIsland1)">
+<g id="BASE:to move from (AnnaIsland1)">
 <rect x="1601.25" y="601.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (AnnaIsland1):features"></g>
 <g id="to move from (AnnaIsland1):header">
 <text x="1611.25" y="611.6826923076924" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1611.25" dy="0em">to move from </tspan><tspan x="1611.25" dy="1em">(Anna</tspan><tspan x="1611.25" dy="1em">Island1)</tspan></text>
 </g>
 </g>
-<path d="M1601.25,621.25 L1601.25,641.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
-<g id="to bring to (AnnaIsland1)">
+</g>
+<g id="to move from (AnnaIsland1):to bring to (AnnaIsland1)">
+<g id="BASE:to bring to (AnnaIsland1)">
 <rect x="1601.25" y="641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (AnnaIsland1):features"></g>
 <g id="to bring to (AnnaIsland1):header">
 <text x="1611.25" y="651.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1611.25" dy="0em">to bring to </tspan><tspan x="1611.25" dy="1em">(Anna</tspan><tspan x="1611.25" dy="1em">Island1)</tspan></text>
 </g>
 </g>
-<path d="M1601.25,661.25 L1601.25,681.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
-<g id="move within AnnaIsland1">
+</g>
+<g id="to bring to (AnnaIsland1):move within AnnaIsland1">
+<g id="BASE:move within AnnaIsland1">
 <rect x="1601.25" y="681.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within AnnaIsland1:features"></g>
 <g id="move within AnnaIsland1:header">
 <text x="1611.25" y="691.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1611.25" dy="0em">move within </tspan><tspan x="1611.25" dy="1em">Anna</tspan><tspan x="1611.25" dy="1em">Island1</tspan></text>
 </g>
 </g>
-<path d="M1601.25,701.25 L1601.25,721.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
-<g id="no source for AnnaIsland1">
+</g>
+<g id="move within AnnaIsland1:no source for AnnaIsland1">
+<g id="BASE:no source for AnnaIsland1">
 <rect x="1601.25" y="721.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for AnnaIsland1:features"></g>
 <g id="no source for AnnaIsland1:header">
 <text x="1611.25" y="731.7857142857142" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1611.25" dy="0em">no source for </tspan><tspan x="1611.25" dy="1em">Anna</tspan><tspan x="1611.25" dy="1em">Island1</tspan></text>
 </g>
 </g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="LEGEND">
 <g id="legend">
-<text x="1831.25" y="899.375" font-size="10" font-family="Arial" fill="purple" stroke="purple">LEGEND</text>
-<g id="import" transform="translate(1831.25, 905.0) scale(0.47303691925434815)">
+<text x="281.25" y="59.375" font-size="10" font-family="Arial" fill="purple" stroke="purple">LEGEND</text>
+<g id="import" transform="translate(281.25, 65.0) scale(0.47303691925434815)">
 <path d="M18.9584,1.42855 C18.9584,1.45501,18.932,1.48147,18.9055,1.48147 C18.8791,1.48147,18.8526,1.48147,18.8261,1.45501 C18.6674,0.92584,18.3234,0.47605,17.7943,0.05272 C18.2705,0.55543,18.6409,1.16397,18.6938,1.93126 C18.7203,2.75147,18.4822,3.36001,17.953,3.83626 C17.7678,4.04793,17.6091,4.1273,17.4503,4.10084 C17.2386,4.04793,17.1063,3.8098,16.9741,3.36001 C16.7359,2.35459,16.4184,1.61376,15.9951,1.08459 C16.5507,2.03709,16.7624,2.77793,16.7359,3.4923 C16.7359,3.51876,16.7095,3.54522,16.683,3.54522 C16.3126,3.57168,15.8893,3.4923,15.413,3.25418 C15.8628,3.65105,16.3391,3.88918,16.8682,3.99501 C16.8947,3.99501,16.8947,4.02147,16.9211,4.04793 L17.027,4.47126 C17.027,4.49772,17.027,4.52418,17.0005,4.52418 C16.2332,5.26501,16.2068,5.26501,16.2068,5.26501 L16.1538,5.26501 C16.1274,5.26501,16.1009,5.23855,15.9157,4.70938 C15.9157,5.00043,15.8893,5.29147,15.8893,5.42376 C15.4924,5.34438,15.1484,5.37084,14.8309,5.50313 C14.778,5.31793,14.7251,5.0798,14.7251,4.81522 L14.5663,5.10626 C14.5663,5.13272,14.5399,5.15918,14.487,5.13272 C14.4605,5.13272,14.4341,5.10626,14.4341,5.0798 L14.5399,2.80438 L14.5663,2.75147 C14.9632,2.48688,15.2013,2.14293,15.3336,1.64022 C15.1484,2.06355,14.8574,2.46043,14.3547,2.61918 C14.3282,2.61918,14.3018,2.61918,14.3018,2.59272 C13.9843,2.30168,13.6932,1.77251,13.3757,0.9523 C13.4551,1.77251,13.7461,2.40751,14.2224,2.8573 C14.2224,2.8573,14.2488,2.88376,14.2488,2.91022 C14.2488,3.4923,14.2224,3.91563,14.143,4.23313 C14.1166,4.4448,14.0107,4.60355,13.8784,4.65647 C13.6668,4.7623,13.3757,4.68293,12.9788,4.4448 C12.1057,3.8098,11.6559,2.91022,11.6559,1.71959 C11.5236,2.61918,11.6824,3.43938,12.1586,4.25959 L12.1586,4.31251 C12.1586,4.33897,12.1322,4.33897,12.1057,4.33897 C11.6295,4.31251,11.1797,4.02147,10.7828,3.46584 C11.0209,4.07438,11.4707,4.47126,12.1851,4.68293 C12.8995,4.81522,13.4551,4.94751,13.9049,5.10626 C14.2224,5.21209,14.4076,5.37084,14.5399,5.60897 C14.4605,5.66188,14.4076,5.68834,14.3282,5.76772 C14.3018,5.79418,14.2753,5.79418,14.2488,5.76772 C13.9313,5.42376,13.5345,5.21209,13.0318,5.10626 C13.1641,5.66188,13.4286,6.0323,13.8784,6.32334 C13.9049,6.32334,13.9049,6.3498,13.9049,6.37626 C13.8784,6.74668,13.7461,7.03772,13.4551,7.24938 C13.4022,7.27584,13.3493,7.3023,13.3228,7.32876 C13.1111,7.43459,12.8466,7.54043,12.8201,7.64626 C12.8201,7.64626,12.8201,7.69918,12.873,7.72563 L13.1111,7.99022 C13.217,8.04313,13.2964,8.14897,13.3493,8.33418 C13.3757,8.38709,13.508,8.41355,13.7461,8.33418 C14.1959,8.2548,14.5399,8.2548,14.8045,8.30772 C14.9632,8.36063,15.0691,8.51938,15.0161,8.70459 C14.8838,9.28668,14.4076,9.60418,13.6403,9.63063 L8.26927,9.71001 C6.7876,9.81584,5.78218,10.2656,5.30593,11.0065 C5.04135,11.4033,4.96197,11.9325,5.06781,12.4088 L5.09427,12.4617 C5.25302,12.3029,5.38531,12.0383,5.54406,11.6415 C5.54406,11.615,5.57052,11.5885,5.62343,11.5885 C5.64989,11.5885,5.67635,11.615,5.67635,11.6415 C5.67635,11.906,5.67635,12.1442,5.70281,12.4088 C5.72927,13.6788,5.75573,14.8694,5.41177,15.3721 C5.22656,15.769,4.82968,16.1394,4.22114,16.5098 C4.03593,16.6156,3.87718,16.7744,3.77135,16.986 L3.6126,17.2242 L2.39552,20.3992 C2.39552,20.4256,2.36906,20.4256,2.3426,20.4256 C2.31614,20.4256,2.26322,20.4521,2.23676,20.5844 L1.99864,21.14 L3.00406,21.14 L2.87176,20.6902 C2.81885,20.5579,2.89822,20.4256,2.95114,20.2933 L3.74489,18.4148 C3.87718,18.0973,4.30052,17.7533,5.01489,17.3565 C5.43822,17.1183,5.75573,16.7744,6.04677,16.4833 C6.28489,16.2452,6.60239,15.9806,6.97281,15.8483 C7.63427,15.5838,8.08406,15.0546,8.42802,14.5519 C8.45448,14.5254,8.48093,14.5254,8.50739,14.5254 C8.53385,14.5254,8.53385,14.5519,8.53385,14.6048 C8.32218,15.5044,7.7401,16.2452,6.81406,16.8538 C6.76114,16.8802,6.73468,16.9596,6.73468,17.039 C6.99927,18.1767,7.4226,19.2615,8.03114,20.2404 C8.08406,20.3198,8.11052,20.4256,8.11052,20.5315 L8.13698,20.8754 L9.19531,20.8754 C8.79843,20.4785,8.53385,20.0817,8.3751,19.6848 C8.08406,19.0233,7.89885,18.3883,7.84593,17.7533 C7.84593,17.621,7.89885,17.4888,8.00468,17.3829 C8.90427,16.8802,9.69802,16.1923,10.4389,15.2133 C10.4918,15.134,10.5711,15.1075,10.6505,15.134 L10.677,15.134 C11.2855,15.5308,12.0793,15.6367,13.1111,15.5044 C13.1376,15.5044,13.1641,15.5044,13.1641,15.5308 C13.6403,16.1394,13.9843,16.8538,14.143,17.7269 C14.3547,18.6265,14.5928,19.5525,14.487,20.2404 C14.487,20.2404,14.487,20.2669,14.4605,20.2669 C14.4076,20.3463,14.3811,20.3992,14.3811,20.4521 L14.3811,20.4785 L14.3018,20.849 L14.9368,20.849 L14.9368,20.3992 L14.8045,20.2404 C14.778,20.2404,14.778,20.214,14.778,20.1875 C14.8574,19.3673,14.8309,18.4942,14.7516,17.5946 L14.6722,15.4779 L14.6722,15.4515 C14.778,15.3192,14.8574,15.2398,14.9632,15.2398 L14.9632,15.2398 C15.0691,15.2398,15.1484,15.3192,15.2278,15.4515 L15.2278,15.4779 L15.122,17.4888 C15.122,17.5946,15.122,17.7004,15.1484,17.8327 C15.2278,18.6,15.3072,19.3938,15.3072,20.2404 L15.3072,20.2669 C15.3866,20.3463,15.3601,20.4256,15.3601,20.4521 L15.3601,20.4785 L15.3336,20.9283 L15.9686,20.9548 L15.7834,20.505 C15.757,20.4521,15.757,20.3727,15.757,20.3198 L15.7834,18.4148 C15.7834,18.256,15.8099,18.0708,15.8363,17.9121 L16.3655,15.769 C16.4449,15.4515,16.5772,15.1604,16.7624,14.8694 C17.027,14.499,17.3445,14.1021,17.7149,13.7052 C18.0324,13.3613,18.1911,12.7792,18.1647,11.9325 L18.1647,11.6944 C18.1382,10.4773,18.0853,9.2073,17.9795,8.73105 C17.9266,8.22834,17.7678,7.80501,17.5032,7.43459 C17.2122,7.06418,16.7888,6.56147,17.0534,6.32334 C17.4503,6.0323,17.7149,5.66188,17.8736,5.21209 C17.9266,5.02688,17.953,4.89459,17.9266,4.7623 C17.3974,4.94751,16.9211,5.23855,16.5507,5.58251 L16.5243,5.58251 L16.4978,5.58251 L16.4978,5.58251 L16.4714,5.58251 L16.4714,5.58251 L16.4449,5.58251 C16.5243,5.42376,16.8153,5.13272,17.3974,4.65647 C17.5032,4.57709,17.5826,4.49772,17.6884,4.41834 C18.2705,3.91563,18.7468,3.22772,19.0378,2.38105 C19.2759,1.37563,19.0643,0.68772,18.7997,-0.0002 Z" fill="purple" stroke="none" stroke-width="0.264583" opacity="1.0" />
 </g>
-<text x="1842.5" y="911.875" font-size="10" font-family="Arial" fill="purple">deer</text>
-<text x="2031.25" y="911.875" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 916.25) scale(0.0755886465852829)">
+<text x="292.5" y="71.875" font-size="10" font-family="Arial" fill="purple">deer</text>
+<text x="481.25" y="71.875" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 76.25) scale(0.0755886465852829)">
 <path d="M131.921,17.7126 C131.339,16.813,127.212,19.2471,127.212,19.2471 C126.974,17.448,127.37,15.6224,128.349,14.1142 L128.429,14.0084 C128.588,13.7703,128.588,13.4792,128.482,13.2411 C127.926,12.1299,125.995,8.82257,124.037,10.3042 C121.973,11.8653,117.025,18.083,117.025,18.083 C117.025,18.083,115.676,18.1624,114.644,18.7709 C113.639,19.353,110.569,22.5015,110.569,22.5015 L109.59,23.6392 C107.844,25.703,105.648,27.3169,103.188,28.4017 C102.235,28.8251,101.256,29.2749,100.436,29.6982 C99.9067,29.9892,99.9861,30.7565,100.568,30.9153 L103.505,31.6826 C103.505,31.6826,99.2188,40.1492,91.2284,44.4619 C88.5825,45.8907,82.7617,47.2665,79.6925,47.8486 C76.6498,48.4307,68.1567,49.8859,68.1567,49.8859 C61.3305,50.759,52.8109,52.1613,47.4134,55.4157 C44.9263,56.8974,42.2011,57.9822,39.423,58.8024 C35.7188,59.9136,32.729,61.5805,29.3688,63.9617 C16.3513,73.1692,12.6471,91.5578,4.6e-05,101.321 C5.7415,101.109,11.3507,98.5692,15.3194,94.4153 C15.4517,95.5001,15.6105,96.5584,15.7428,97.6432 C19.4734,95.5794,22.4896,92.2192,24.1036,88.2769 C24.1036,89.0971,24.3946,89.8909,24.8973,90.5524 C28.3369,88.3828,30.5594,84.4405,30.6388,80.3659 C31.3267,80.9744,31.9882,81.583,32.6761,82.1915 C34.5017,80.3924,34.4488,77.5084,35.1632,75.0478 C35.9305,72.349,37.7296,70.0736,39.9786,68.4067 C39.7934,69.0946,39.6346,69.809,39.5023,70.5234 C39.0525,72.693,38.8409,74.8626,38.788,77.0586 C38.735,79.1224,38.735,81.1861,38.5234,83.2234 C38.1265,87.1921,36.8565,91.108,35.6659,94.8915 C35.1103,96.6378,34.5282,98.3311,33.8403,100.024 L33.6021,102.326 C33.6021,102.326,32.5967,105.104,31.9088,110.449 C31.2209,115.794,28.5221,121.694,29.8715,121.958 C31.2209,122.223,37.3328,122.726,38.3382,121.958 C38.6557,121.72,38.5763,121.165,38.2853,120.556 C37.0153,117.725,36.5125,114.603,37.0417,111.56 C37.518,108.756,38.2588,105.607,39.37,103.676 C41.7513,99.5217,50.218,93.8597,50.218,93.8597 L50.218,98.9396 C49.9798,101.03,50.2709,103.12,51.0382,105.078 C53.1548,110.37,56.9119,118.704,57.9967,118.916 C59.3461,119.18,67.9715,120.265,68.1038,118.307 C68.2096,116.64,67.7069,115.132,65.8019,114.524 C64.6378,114.153,63.4207,115.291,61.3834,113.836 C60.4309,113.148,59.4784,110.475,58.7111,107.856 C57.7057,104.284,58.1025,100.448,59.7959,97.1405 L62.1771,92.4838 C65.2728,86.3984,71.4111,82.4296,78.2638,82.0592 C84.3757,81.7417,90.9638,81.5036,92.2338,81.7947 C92.9217,81.9534,94.0065,84.1759,95.1707,87.1392 C95.6205,84.7051,97.2609,83.7261,97.2609,83.7261 C95.9115,89.0442,96.8375,91.743,97.0757,92.4044 C97.8165,90.2613,99.6951,88.9649,99.6951,88.9649 C99.0865,90.7111,98.1076,93.7538,98.6103,97.1934 C99.1659,95.6059,100.409,94.4682,100.409,94.4682 C100.092,95.7117,99.3511,98.0136,99.3246,99.3101 C99.3246,99.4424,99.3246,99.6011,99.3511,99.7334 C99.8803,101.559,100.198,102.855,100.198,103.094 C100.145,104.946,100.277,111.904,100.409,116.402 L100.436,116.402 C99.8803,119.207,100.859,121.456,101.627,121.614 C103.161,121.932,109.564,122.144,110.728,121.191 C111.654,120.424,108.744,117.408,107.738,116.27 C106.707,113.121,106.865,105.157,107.13,102.062 C107.791,94.574,109.908,81.3184,110.569,79.6251 C111.257,77.9317,113.903,76.6617,115.305,74.889 C119.036,70.153,119.698,60.3634,120.412,59.4109 C120.491,59.3051,121.708,60.7603,124.407,60.3105 C123.243,58.4584,122.502,56.4211,122.899,54.0663 C122.925,53.934,123.349,55.8919,125.809,56.2888 C124.143,52.7963,124.804,49.0657,124.883,49.2509 C125.386,50.3886,126.868,51.6321,128.058,52.0819 C126.577,49.4361,125.73,41.6574,125.836,41.7897 C126.762,43.1126,127.291,43.4565,128.799,43.483 C126.497,41.1017,125.624,36.0482,125.704,36.2069 C126.418,37.6621,127.953,37.8474,127.926,37.7944 C126.1,34.5665,125.942,32.1588,125.942,31.0476 C125.942,28.9309,129.884,24.7769,129.884,24.7769 C129.884,24.7769,133.429,19.9615,131.921,17.7126 Z" fill="purple" stroke="none" stroke-width="0.264583" opacity="1.0" />
 </g>
-<text x="1842.5" y="923.125" font-size="10" font-family="Arial" fill="purple">wolf</text>
-<text x="2031.25" y="923.125" font-size="10" font-family="Arial" fill="purple">3</text>
-<g id="import" transform="translate(1831.25, 927.5) scale(0.5105948690627965)">
+<text x="292.5" y="83.125" font-size="10" font-family="Arial" fill="purple">wolf</text>
+<text x="481.25" y="83.125" font-size="10" font-family="Arial" fill="purple">3</text>
+<g id="import" transform="translate(281.25, 87.5) scale(0.5105948690627965)">
 <path d="M1.9485383,16.011273 C2.3651213,16.926087,2.9062823,17.210073,3.2866583,17.287752 C3.7300523,17.378796,4.1834093,17.229513,4.5705083,16.914666 C4.5718853,17.116923,4.6354703,17.291721,4.7667713,17.457204 C4.7928533,17.490009,4.8330293,17.509449,4.8759593,17.509449 H10.57938 C10.664438,17.509449,10.728064,17.433714,10.716675,17.351337 C10.602157,16.538988,10.196291,16.131801,9.4796753,15.975066 C9.8607806,15.673746,10.188936,15.262509,10.694578,15.160044 C11.052201,16.080933,11.525719,16.750641,12.154571,17.461902 C12.182038,17.492763,12.221542,17.510097,12.26307,17.508801 C12.269769,17.508801,12.979677,17.484663,13.995571,17.508801 C14.061878,17.509449,14.118132,17.465952,14.133539,17.402286 C14.273507,16.807584,13.900469,16.289913,13.283662,16.389705 C12.762606,15.926871,12.599868,15.449376,12.714394,14.718027 C14.313699,13.770408,15.331747,12.096057,15.742887,9.7393382 C16.635629,9.8505107,17.299324,9.441971,17.571233,8.9664686 C17.818356,8.5331672,17.76411,8.0368964,17.425895,7.6350554 C16.729386,6.1784081,15.735508,5.3633537,14.338428,5.1195437 C14.586223,3.7948211,14.281501,2.7801098,13.432281,2.1051141 C13.406159,2.0850212,13.375354,2.0743066,13.341197,2.0756471 C12.944054,2.0890413,12.656066,2.229684,12.484614,2.4915505 C12.196626,2.3120594,11.831632,2.1975481,11.370191,2.1787909 C11.326654,2.1767813,11.283797,2.1962035,11.256338,2.2303604 C10.76743,2.8404791,10.646886,3.4432244,10.877946,4.1283062 C11.066814,4.6895309,11.489407,5.3110439,12.286374,6.1951346 C12.045286,6.7168637,11.920708,7.1816417,11.912664,7.5781205 C11.368174,7.7957837,10.881964,7.7890931,10.220939,7.7783768 C9.981179,7.7750315,9.7092539,7.7710058,9.4065323,7.7777045 C5.1463373,7.8714701,2.2793423,10.623396,2.8197743,14.854674 C2.5894103,14.775618,2.3529713,14.811096,2.1607583,14.963781 C1.8634073,15.199572,1.7756843,15.630816,1.9484573,16.011273 Z" fill="purple" stroke="none" stroke-width="0.171449" opacity="1.0" />
 </g>
-<text x="1842.5" y="934.375" font-size="10" font-family="Arial" fill="purple">rabbit</text>
-<text x="2031.25" y="934.375" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 938.75) scale(0.10669739551657544)">
+<text x="292.5" y="94.375" font-size="10" font-family="Arial" fill="purple">rabbit</text>
+<text x="481.25" y="94.375" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 98.75) scale(0.10669739551657544)">
 <path d="M33.14261,78.10116 L33.92386,74.97616 H37.14266 L36.36141,78.10116 Z M36.26761,65.60516 L37.23636,61.72236 C37.4473,60.88642,38.29496,60.37856,39.13086,60.58566 C39.9668,60.7966,40.47466,61.64426,40.26756,62.48016 L39.48631,65.60516 Z M34.02151,87.47216 L32.75591,92.53856 C32.54497,93.3745,31.69731,93.88236,30.86141,93.67526 C30.02547,93.46432,29.51761,92.61666,29.72471,91.78076 L30.80281,87.47216 Z M54.23251,65.60516 L53.45126,62.48016 C53.24032,61.64422,53.75204,60.79656,54.58796,60.58566 C55.4239,60.37472,56.27156,60.88644,56.48246,61.72236 L57.45121,65.60516 Z M59.79501,74.97626 L60.57626,78.10126 H57.35746 L56.57621,74.97626 Z M62.92001,87.47226 L63.99811,91.78086 C64.20905,92.6168,63.69733,93.46446,62.86141,93.67536 C62.02547,93.8863,61.17781,93.37458,60.96691,92.53866 L59.70131,87.47226 Z M59.81061,67.16726 C60.23639,67.16726,60.6153,67.4446,60.7442,67.85085 L62.088,72.14775 C62.18175,72.44463,62.127062,72.76884,61.94347,73.01884 C61.75988,73.26884,61.46691,73.41728,61.15831,73.41728 H32.57231 C32.25981,73.41728,31.97075,73.26884,31.78715,73.01884 C31.60356,72.76884,31.54887,72.44462,31.64262,72.14775 L32.98642,67.85085 C33.11533,67.4446,33.49033,67.16726,33.92001,67.16726 H59.81801 Z M62.93561,79.66326 C63.36139,79.66326,63.7403,79.9406,63.8692,80.34685 L65.213,84.64375 C65.30675,84.94063,65.252062,85.26484,65.06847,85.51484 C64.88488,85.76484,64.59191,85.91328,64.28331,85.91328 H29.45131 C29.14272,85.91328,28.84975,85.76484,28.66615,85.51484 C28.48256,85.26484,28.42787,84.94062,28.52162,84.64375 L29.86542,80.34685 C29.99433,79.9406,30.36933,79.66326,30.79901,79.66326 H62.94701 Z M17.18161,82.00706 V92.74506 C17.18161,93.28412,16.74411,93.72162,16.20505,93.72162 H11.90815 C11.36909,93.72162,10.93159,93.28412,10.93159,92.74506 V82.00706 Z M10.93551,80.44456 V69.51056 H17.18161 V80.44456 Z M10.93551,67.94856 V57.01456 H17.18161 V67.94856 Z M10.93551,55.45256 V44.51856 H17.18161 V55.45256 Z M10.93551,42.95656 V35.92926 C10.93551,34.60896,11.005822,33.30816,11.14645,32.02306 H17.43945 C17.27148,33.30036,17.18554,34.60506,17.18554,35.92926 V42.95656 Z M11.34957,30.46056 C12.00582,26.15586,13.42767,22.10506,15.47067,18.44456 L21.23627,20.95236 C19.54097,23.84686,18.32217,27.05006,17.68937,30.46406 H11.35347 Z M16.26757,17.08556 C18.52147,13.42936,21.41597,10.21056,24.78707,7.58166 L28.94727,12.26526 C26.25977,14.30436,23.92777,16.78866,22.06837,19.61296 L16.26757,17.08956 Z M26.04487,6.64456 C29.56047,4.14066,33.54877,2.25396,37.84587,1.14066 L39.49037,7.17186 C36.13877,8.02733,33.01377,9.45706,30.22477,11.34766 Z M39.36487,0.78516 C41.78287,0.27344,44.29067,0.0,46.86097,0.0 C49.43127,0.0,51.93907,0.26953,54.35707,0.78516 L52.70867,6.82426 C50.81807,6.44535,48.86097,6.24614,46.86097,6.24614 C44.85707,6.24614,42.90397,6.44536,41.01327,6.82426 Z M55.88087,1.14454 C60.17777,2.25394,64.16607,4.14064,67.68187,6.64844 L63.50217,11.35154 C60.71697,9.46094,57.59197,8.03514,54.23657,7.17574 Z M68.93987,7.58204 C72.31487,10.21484,75.20547,13.43364,77.45937,17.08594 L71.65857,19.60934 C69.79917,16.78514,67.46717,14.30074,64.77967,12.26164 L68.93987,7.57804 Z M78.25627,18.44504 C80.29927,22.10524,81.72107,26.15594,82.37737,30.46104 H76.04147 C75.40475,27.05084,74.18597,23.84384,72.49457,20.94934 L78.26017,18.44154 Z M82.58047,32.02304 C82.71719,33.30424,82.79141,34.60894,82.79141,35.92924 V42.95654 H76.54531 V35.92924 C76.54531,34.60504,76.459373,33.30034,76.2914,32.02304 H82.5844 Z M82.79141,44.51904 V55.45304 H76.54531 V44.51904 Z M82.79141,57.01504 V67.94904 H76.54531 V57.01504 Z M82.79141,69.51104 V80.44504 H76.54531 V69.51104 Z M82.79141,82.00704 V92.74504 C82.79141,93.2841,82.35391,93.7216,81.81485,93.7216 H77.51795 C76.97889,93.7216,76.54139,93.2841,76.54139,92.74504 V82.00704 Z M74.98281,89.81564 L64.04881,62.47964 V35.92464 C64.04881,26.43634,56.35741,18.74064,46.86481,18.74064 C42.30621,18.74064,37.93901,20.54924,34.71681,23.77184 C31.49411,26.99454,29.68561,31.36564,29.68561,35.91984 V62.47484 L18.75161,89.81084 V35.91984 C18.75161,34.40814,18.8688,32.92374,19.09927,31.47844 C19.69693,27.71674,21.04067,24.20114,22.97427,21.09144 C24.93127,17.94304,27.49377,15.21254,30.49767,13.05624 C33.48207,10.91564,36.90387,9.34144,40.60267,8.50154 C42.61827,8.04451,44.71597,7.80232,46.87217,7.80232 C49.02837,7.80232,51.12607,8.04451,53.14167,8.50154 C56.84087,9.34529,60.26277,10.91564,63.24667,13.05624 C66.25057,15.21244,68.81307,17.94294,70.77007,21.09144 C72.70367,24.20084,74.04737,27.71254,74.64507,31.47844 C74.87554,32.92374,74.99273,34.40814,74.99273,35.91984 V89.81084 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="945.625" font-size="10" font-family="Arial" fill="purple">tunnel</text>
-<text x="2031.25" y="945.625" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 950.0) scale(0.10451941643088916)">
+<text x="292.5" y="105.625" font-size="10" font-family="Arial" fill="purple">tunnel</text>
+<text x="481.25" y="105.625" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 110.0) scale(0.10451941643088916)">
 <path d="M94.025601,41.588116 H1.6466013 L17.263601,8.1271163 C17.290945,8.0646163,17.326101,8.0060263,17.361257,7.9474263 C17.646417,7.4982063,18.142507,7.2247663,18.677657,7.2247663 H76.993657 C77.528817,7.2247663,78.024857,7.4982063,78.310057,7.9474263 C78.345214,8.0060203,78.38037,8.0646163,78.407714,8.1271163 Z M21.130601,10.350116 L33.255601,36.334116 L45.380601,10.350116 H21.126601 Z M18.677501,12.482916 L6.5525013,38.466916 H30.806501 L18.681501,12.482916 Z M47.833501,12.482916 L35.708501,38.466916 H59.962501 L47.837501,12.482916 Z M76.989501,12.482916 L64.864501,38.466916 H89.118501 L76.993501,12.482916 Z M50.286501,10.350116 L62.411501,36.334116 L74.536501,10.350116 H50.282501 Z M24.989501,66.584116 C25.528561,66.584116,25.966061,67.021616,25.966061,67.560676 V87.474676 C25.966061,88.013736,25.528561,88.451236,24.989501,88.451236 H14.446501 C13.907441,88.451236,13.469941,88.013736,13.469941,87.474676 V67.560676 C13.469941,67.021616,13.907441,66.584116,14.446501,66.584116 Z M81.223501,66.584116 C81.762561,66.584116,82.200061,67.021616,82.200061,67.560676 V87.474676 C82.200061,88.013736,81.762561,88.451236,81.223501,88.451236 H70.680501 C70.141441,88.451236,69.703941,88.013736,69.703941,87.474676 V67.560676 C69.703941,67.021616,70.141441,66.584116,70.680501,66.584116 Z M24.989501,57.213016 H14.446501 C13.907441,57.213016,13.469941,56.775516,13.469941,56.236456 V50.963056 H25.965941 V56.236456 C25.965941,56.775516,25.528441,57.213016,24.989381,57.213016 Z M81.223501,57.213016 H70.680501 C70.141441,57.213016,69.703941,56.775516,69.703941,56.236456 V50.963056 H82.199941 V56.236456 C82.199941,56.775516,81.762441,57.213016,81.223381,57.213016 Z M23.625501,58.775516 V65.021616 H15.816901 V58.775516 Z M79.859501,58.775516 V65.021616 H72.050901 V58.775516 Z M94.699501,43.154516 C95.238561,43.154516,95.676061,43.592016,95.676061,44.131076 V48.427976 C95.676061,48.967036,95.238561,49.404536,94.699501,49.404536 H0.97650125 C0.43744125,49.404536,-5.8748779e-05,48.967036,-5.8748779e-05,48.427976 V44.131076 C-5.8748779e-05,43.592016,0.43744125,43.154516,0.97650125,43.154516 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="956.875" font-size="10" font-family="Arial" fill="purple">bridge</text>
-<text x="2031.25" y="956.875" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 961.25) scale(0.17857142857142858)">
+<text x="292.5" y="116.875" font-size="10" font-family="Arial" fill="purple">bridge</text>
+<text x="481.25" y="116.875" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 121.25) scale(0.17857142857142858)">
 <path d="M14.0,5.0 V7.0 H20.0 V5.0 Z M13.0,9.0 A13.015,13.015,0.0,0,0,0.0,22.0 V28.0 A13.015,13.015,0.0,0,0,13.0,41.0 H43.0 A13.015,13.015,0.0,0,0,56.0,28.0 V22.0 A13.008,13.008,0.0,0,0,44.0,9.050781 V36.0 A1.0,1.0,0.0,0,1,43.0,37.0 H33.0 A1.0,1.0,0.0,0,1,32.0,36.0 V9.0 Z M34.0,9.0 V11.0 H42.0 V9.0 Z M34.0,13.0 V15.0 H42.0 V13.0 Z M34.0,17.0 V19.0 H42.0 V17.0 Z M16.931641,17.021484 A1.033,1.033,0.0,0,1,17.779297,17.375 C18.313297,18.041,23.0,23.975,23.0,27.0 A6.0,6.0,0.0,0,1,11.0,27.0 C11.0,23.975,15.686703,18.041,16.220703,17.375 A1.033,1.033,0.0,0,1,16.931641,17.021484 Z M17.0,19.634766 C15.208,22.027766,13.0,25.479,13.0,27.0 A4.0,4.0,0.0,0,0,17.0,31.0 A4.0,4.0,0.0,0,0,21.0,27.0 C21.0,25.479,18.792,22.027766,17.0,19.634766 Z M34.0,21.0 V23.0 H42.0 V21.0 Z M34.0,25.0 V27.0 H42.0 V25.0 Z M34.0,29.0 V31.0 H42.0 V29.0 Z M34.0,33.0 V35.0 H42.0 V33.0 Z M13.0,43.0 V47.0 H15.0 V43.0 Z M41.0,43.0 V47.0 H43.0 V43.0 Z M0.0,49.0 V51.0 H56.0 V49.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="968.125" font-size="10" font-family="Arial" fill="purple">whale oil refuelling</text>
-<text x="2031.25" y="968.125" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 972.5) scale(0.16666666666666666)">
+<text x="292.5" y="128.125" font-size="10" font-family="Arial" fill="purple">whale oil refuelling</text>
+<text x="481.25" y="128.125" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 132.5) scale(0.16666666666666666)">
 <path d="M52.5,11.4 A0.9,0.9,0.0,0,0,53.4,10.5 V6.9000002 A0.9,0.9,0.0,0,0,52.5,6.0000002 A42.1074,42.1074,0.0,0,0,37.7886,8.6424002 L36.5421,6.4824002 A0.9,0.9,0.0,0,0,35.31,6.1530002 L31.8,8.1807002 V6.9000002 A0.9,0.9,0.0,0,0,30.9,6.0000002 H27.3 A0.9,0.9,0.0,0,0,26.4,6.9000002 V10.5 H15.6 V6.9000002 A0.9,0.9,0.0,0,0,14.7,6.0000002 H11.1 A0.9,0.9,0.0,0,0,10.2,6.9000002 V10.5 H7.5 A0.9,0.9,0.0,0,0,6.6,11.4 V16.8 A0.9,0.9,0.0,0,0,7.5,17.7 H10.2 V23.1 H7.5 A0.9,0.9,0.0,0,0,6.6,24.0 V29.4 A0.9,0.9,0.0,0,0,7.5,30.3 H10.2 V35.7 H7.5 A0.9,0.9,0.0,0,0,6.6,36.6 V42.0 A0.9,0.9,0.0,0,0,7.5,42.9 H10.2 V48.3 H7.5 A0.9,0.9,0.0,0,0,6.6,49.2 V54.6 A0.9,0.9,0.0,0,0,7.5,55.5 H10.2 V59.1 A0.9,0.9,0.0,0,0,11.1,60.0 H14.7 A0.9,0.9,0.0,0,0,15.6,59.1 V55.5 H26.4 V59.1 A0.9,0.9,0.0,0,0,27.3,60.0 H30.9 A0.9,0.9,0.0,0,0,31.8,59.1 V55.5 H34.5 A0.9,0.9,0.0,0,0,35.4,54.6 V49.2 A0.9,0.9,0.0,0,0,34.5,48.3 H31.8 A20.6892,20.6892,0.0,0,1,32.4363,43.2033 L34.4235,44.3499 A0.9,0.9,0.0,0,0,34.8735,44.4705 A0.9315,0.9315,0.0,0,0,35.1066,44.4399 A0.9,0.9,0.0,0,0,35.6529,44.0205 L38.8929,38.4117 A0.9,0.9,0.0,0,0,38.5635,37.1814 L36.0642,35.7414 A20.8539,20.8539,0.0,0,1,42.06,30.4404 L43.4253,32.8056 A0.9,0.9,0.0,0,0,44.6547,33.135 L49.3347,30.435 A0.9,0.9,0.0,0,0,49.6641,29.2056 L48.9216,27.9195 A20.7135,20.7135,0.0,0,1,52.5,27.6 A0.9,0.9,0.0,0,0,53.4,26.7 V23.1 A0.9,0.9,0.0,0,0,52.5,22.2 A26.0586,26.0586,0.0,0,0,46.0785,23.0019 L40.5363,13.4016 A36.7326,36.7326,0.0,0,1,52.5,11.4 Z M35.4324,8.1600002 L36.0957,9.3093002 C34.9833,9.7800002,33.8988,10.2993,32.8368,10.8636 L32.3148,9.9636002 Z M26.4,32.2395 V37.6395 L18.8166,33.261 A36.7119,36.7119,0.0,0,1,20.991,29.1165 Z M19.4403,35.7 H17.8203 C17.9103,35.4426,18.0192,35.1897,18.1182,34.935 Z M15.6,27.6549 V26.0043 L16.3137,26.4156 C16.0662,26.8233,15.8331,27.24,15.6,27.6549 Z M17.22,37.5 H22.5615 L26.4,39.7176 V41.1 H16.3101 A36.6156,36.6156,0.0,0,1,17.22,37.5 Z M31.8,30.3 H33.627 A26.3979,26.3979,0.0,0,0,31.8,32.4294 Z M33.6,28.5 H31.8 V24.9 H33.6 Z M26.4,28.5 H23.52 L21.9648,27.6 Q22.9152,26.2032,23.9871,24.9 H26.4 Z M25.581,23.1 C25.851,22.8111,26.121,22.5213,26.4,22.2414 V23.1 Z M26.4,12.3 V15.0495 C26.0445,15.3285,25.6908,15.6093,25.3452,15.9 H15.6 V12.3 Z M8.4,15.9 V12.3 H10.2 V15.9 Z M15.6,17.7 H23.34 A42.687,42.687,0.0,0,0,18.5475,23.1 H15.6 Z M8.4,28.5 V24.9 H10.2 V28.5 Z M8.4,41.1 V37.5 H10.2 V41.1 Z M8.4,53.7 V50.1 H10.2 V53.7 Z M15.6,53.7 V50.1 H26.4 V53.7 Z M33.6,50.1 V53.7 H31.8 V50.1 Z M15.6,48.3 A37.1043,37.1043,0.0,0,1,15.9987,42.9 H26.4 V48.3 Z M36.8814,38.2911 L34.5414,42.3411 L32.9718,41.4348 A20.5731,20.5731,0.0,0,1,35.0256,37.221 Z M35.4,28.6071 V24.0 A0.9,0.9,0.0,0,0,34.5,23.1 H31.8 V17.7702 C32.502,17.2923,33.2265,16.8441,33.96,16.4148 L39.36,25.764 A26.19,26.19,0.0,0,0,35.4,28.6071 Z M47.6499,29.3271 L44.5323,31.1271 L43.6485,29.5971 A20.5263,20.5263,0.0,0,1,47.0748,28.3308 Z M44.3028,23.5293 A26.01,26.01,0.0,0,0,40.9431,24.9099 L35.5431,15.5499 Q37.1424,14.7183,38.8299,14.0424 Z" fill="purple" stroke="none" stroke-width="0.9" opacity="1.0" />
 </g>
-<text x="1842.5" y="979.375" font-size="10" font-family="Arial" fill="purple">railway switch</text>
-<text x="2031.25" y="979.375" font-size="10" font-family="Arial" fill="purple">10</text>
-<g id="import" transform="translate(1831.25, 983.75) scale(0.12495782673347745)">
+<text x="292.5" y="139.375" font-size="10" font-family="Arial" fill="purple">railway switch</text>
+<text x="481.25" y="139.375" font-size="10" font-family="Arial" fill="purple">10</text>
+<g id="import" transform="translate(281.25, 143.75) scale(0.12495782673347745)">
 <path d="M79.700201,62.0635 H76.800201 V25.2635 C76.800201,25.0635,76.600201,24.8635,76.400201,24.8635 H73.800201 V23.0635 C76.300201,22.6635,78.100201,20.5635,78.100201,17.9635 C78.100201,15.0635,75.800201,12.7635,72.900201,12.7635 C70.000201,12.7635,67.700201,15.0635,67.700201,17.9635 C67.700201,20.5635,69.600201,22.6635,72.000201,23.0635 V24.8635 H69.400201 C69.200201,24.8635,69.000201,25.0635,69.000201,25.2635 V36.9635 H66.600201 V31.5635 C66.600201,31.3635,66.400201,31.1635,66.200201,31.1635 H62.500201 C62.300201,31.1635,62.100201,31.3635,62.100201,31.5635 V36.9635 H59.800201 V31.5635 C59.800201,31.3635,59.600201,31.1635,59.400201,31.1635 H55.600201 C55.400201,31.1635,55.200201,31.3635,55.200201,31.5635 V36.9635 H52.900201 V31.5635 C52.900201,31.3635,52.700201,31.1635,52.500201,31.1635 H48.800201 C48.600201,31.1635,48.400201,31.3635,48.400201,31.5635 V36.9635 H46.100201 V31.5635 C46.100201,31.3635,45.900201,31.1635,45.700201,31.1635 H42.000201 C41.800201,31.1635,41.600201,31.3635,41.600201,31.5635 V37.3635 C41.600201,37.3635,41.600201,37.3635,41.600201,37.3635 V40.4635 C41.600201,40.4635,41.600201,40.4635,41.600201,40.4635 V48.7635 C41.600201,48.7635,41.600201,48.7635,41.600201,48.7635 V51.8635 C41.600201,51.8635,41.600201,51.8635,41.600201,51.8635 V57.6635 C41.600201,57.8635,41.800201,58.0635,42.000201,58.0635 H45.700201 C45.900201,58.0635,46.100201,57.8635,46.100201,57.6635 V52.2635 H48.400201 V57.6635 C48.400201,57.8635,48.600201,58.0635,48.800201,58.0635 H52.500201 C52.700201,58.0635,52.900201,57.8635,52.900201,57.6635 V52.2635 H55.200201 V57.6635 C55.200201,57.8635,55.400201,58.0635,55.600201,58.0635 H59.400201 C59.600201,58.0635,59.800201,57.8635,59.800201,57.6635 V52.2635 H62.100201 V57.6635 C62.100201,57.8635,62.300201,58.0635,62.500201,58.0635 H66.200201 C66.400201,58.0635,66.600201,57.8635,66.600201,57.6635 V52.2635 H69.100201 V62.0635 H66.100201 C65.900201,62.0635,65.700201,62.2635,65.700201,62.4635 V65.6635 H14.500201 V62.4635 C14.500201,62.2635,14.300201,62.0635,14.100201,62.0635 H11.100201 V52.3635 H13.500201 V57.7635 C13.500201,57.9635,13.700201,58.1635,13.900201,58.1635 H17.600201 C17.800201,58.1635,18.000201,57.9635,18.000201,57.7635 V52.3635 H20.300201 V57.7635 C20.300201,57.9635,20.500201,58.1635,20.700201,58.1635 H24.500201 C24.700201,58.1635,24.900201,57.9635,24.900201,57.7635 V52.3635 H27.200201 V57.7635 C27.200201,57.9635,27.400201,58.1635,27.600201,58.1635 H31.300201 C31.500201,58.1635,31.700201,57.9635,31.700201,57.7635 V52.3635 H34.100201 V57.7635 C34.100201,57.9635,34.300201,58.1635,34.500201,58.1635 H38.200201 C38.400201,58.1635,38.600201,57.9635,38.600201,57.7635 V51.9635 C38.600201,51.9635,38.600201,51.9635,38.600201,51.9635 V48.8635 C38.600201,48.8635,38.600201,48.8635,38.600201,48.8635 V40.5635 C38.600201,40.5635,38.600201,40.5635,38.600201,40.5635 V37.4635 C38.600201,37.4635,38.600201,37.4635,38.600201,37.4635 V31.6635 C38.600201,31.4635,38.400201,31.2635,38.200201,31.2635 H34.500201 C34.300201,31.2635,34.100201,31.4635,34.100201,31.6635 V37.0635 H31.800201 V31.6635 C31.800201,31.4635,31.600201,31.2635,31.400201,31.2635 H27.700201 C27.500201,31.2635,27.300201,31.4635,27.300201,31.6635 V37.0635 H25.000201 V31.6635 C25.000201,31.4635,24.800201,31.2635,24.600201,31.2635 H20.800201 C20.600201,31.2635,20.400201,31.4635,20.400201,31.6635 V37.0635 H18.100201 V31.6635 C18.100201,31.4635,17.900201,31.2635,17.700201,31.2635 H14.000201 C13.800201,31.2635,13.600201,31.4635,13.600201,31.6635 V37.0635 H11.100201 V25.2635 C11.100201,25.0635,10.900201,24.8635,10.700201,24.8635 H8.1002009 V23.0635 C10.600201,22.6635,12.400201,20.5635,12.400201,17.9635 C12.400201,15.0635,10.100201,12.7635,7.2002009,12.7635 C4.3002009,12.7635,2.0002009,15.0635,2.0002009,17.9635 C2.0002009,20.5635,3.9002009,22.6635,6.3002009,23.0635 V24.8635 H3.7002009 C3.5002009,24.8635,3.3002009,25.0635,3.3002009,25.2635 V62.0635 H0.4002009 C0.2002009,62.0635,0.00020089744,62.2635,0.00020089744,62.4635 V66.8635 C0.00020089744,67.0635,0.2002009,67.2635,0.4002009,67.2635 H13.500201 H14.100201 H66.100201 H66.500201 H79.600201 C79.800201,67.2635,80.000201,67.0635,80.000201,66.8635 V62.4635 C80.100201,62.2635,79.900201,62.0635,79.700201,62.0635 Z M48.400201,48.3635 H46.100201 V40.9635 H48.400201 Z M55.200201,48.3635 H52.900201 V40.9635 H55.200201 Z M62.100201,48.3635 H59.800201 V40.9635 H62.100201 Z M31.800201,40.9635 H34.100201 V48.3635 H31.800201 Z M25.000201,40.9635 H27.300201 V48.3635 H25.000201 Z M18.100201,40.9635 H20.400201 V48.3635 H18.100201 Z M11.100201,40.9635 H13.500201 V48.3635 H11.100201 Z M69.100201,48.3635 H66.700201 V40.9635 H69.100201 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="990.625" font-size="10" font-family="Arial" fill="purple">train gate</text>
-<text x="2031.25" y="990.625" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 995.0) scale(0.5)">
+<text x="292.5" y="150.625" font-size="10" font-family="Arial" fill="purple">train gate</text>
+<text x="481.25" y="150.625" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 155.0) scale(0.5)">
 <path d="M13.0,10.0 H7.0 H1.0 H0.0 V11.0 H1.0 V12.0 C1.0,12.552,1.448,13.0,2.0,13.0 C2.552,13.0,3.0,12.552,3.0,12.0 H5.0 C5.0,12.552,5.448,13.0,6.0,13.0 C6.552,13.0,7.0,12.552,7.0,12.0 V11.0 H13.0 V12.0 C13.0,12.552,13.448,13.0,14.0,13.0 C14.552,13.0,15.0,12.552,15.0,12.0 H17.0 C17.0,12.552,17.448,13.0,18.0,13.0 C18.552,13.0,19.0,12.552,19.0,12.0 V11.0 H20.0 V10.0 H19.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1001.875" font-size="10" font-family="Arial" fill="purple">train car (flatbed)</text>
-<text x="2031.25" y="1001.875" font-size="10" font-family="Arial" fill="purple">5</text>
-<g id="import" transform="translate(1831.25, 1006.25) scale(0.10000099900998011)">
+<text x="292.5" y="161.875" font-size="10" font-family="Arial" fill="purple">train car (flatbed)</text>
+<text x="481.25" y="161.875" font-size="10" font-family="Arial" fill="purple">5</text>
+<g id="import" transform="translate(281.25, 166.25) scale(0.10000099900998011)">
 <path d="M21.19985,12.536995 V17.935395 H9.2268503 L9.2307573,12.536995 C9.2307573,10.908095,10.543257,9.5955953,12.172157,9.5955953 H18.258057 C19.886957,9.5955953,21.199457,10.908095,21.199457,12.536995 Z M9.2308503,75.567995 H21.20385 V50.766995 H9.2308503 Z M87.80085,9.5949953 H81.74225 C80.11335,9.5949953,78.80085,10.907495,78.80085,12.536395 V17.934795 H90.77385 L90.76994,12.536395 C90.76994,10.907495,89.457443,9.5949953,87.797243,9.5949953 Z M78.80085,75.567995 H90.77385 V50.766995 H78.80085 Z M24.80485,87.571995 V81.236095 C24.80485,79.673595,23.53925,78.407995,21.97675,78.407995 L8.4497503,78.411901 C6.8872503,78.411901,5.6216503,79.677501,5.6216503,81.240001 V87.575901 C5.6216503,89.138401,6.8872503,90.404005,8.4497503,90.404005 H21.98075 C23.54325,90.404005,24.80885,89.138401,24.80885,87.575901 Z M94.37085,87.571995 V81.236095 C94.37085,79.673595,93.10525,78.407995,91.54275,78.407995 H78.01175 C76.44925,78.407995,75.18365,79.673595,75.18365,81.236095 V87.571995 C75.18365,89.134495,76.44925,90.400095,78.01175,90.400095 H91.54275 C93.10525,90.400095,94.37085,89.134495,94.37085,87.571995 Z M5.1718503,20.794995 C2.3163503,20.794995,-4.9725342e-05,23.107495,-4.9725342e-05,25.994195 V35.650395 L10.68795,20.795395 Z M14.19915,20.794995 L0.00015027466,40.536995 V42.736195 C0.00015027466,45.591695,2.3126503,47.908095,5.1720503,47.908095 H10.08615 L29.62915,20.795095 Z M33.14415,20.794995 L13.62815,47.907995 H28.97215 L48.51515,20.794995 Z M52.05815,20.794995 L32.54215,47.907995 H47.94015 L67.45615,20.794995 Z M70.97215,20.794995 L51.45615,47.907995 H66.85415 L86.37015,20.794995 Z M94.82715,20.794995 H89.88575 L70.36975,47.907995 H85.76775 L99.99775,28.137995 V25.993495 C99.99775,23.106795,97.68525,20.794295,94.82585,20.794295 Z M94.82715,47.907995 C97.68265,47.907995,99.99905,45.595495,99.99905,42.736095 V33.048595 L89.28405,47.903595 H94.82705 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1013.125" font-size="10" font-family="Arial" fill="purple">buffer stop</text>
-<text x="2031.25" y="1013.125" font-size="10" font-family="Arial" fill="purple">4</text>
-<g id="import" transform="translate(1831.25, 1017.5) scale(0.3848818412747287)">
+<text x="292.5" y="173.125" font-size="10" font-family="Arial" fill="purple">buffer stop</text>
+<text x="481.25" y="173.125" font-size="10" font-family="Arial" fill="purple">4</text>
+<g id="import" transform="translate(281.25, 177.5) scale(0.3848818412747287)">
 <path d="M2.43402,10.4241 C2.43402,10.2654,2.30173,10.1066,2.11652,10.1066 L0.317357,10.1066 C0.158607,10.1066,-0.0001423,10.2389,-0.0001423,10.4241 L-0.0001423,23.9179 C-0.0001423,24.0766,0.132149,24.2354,0.317357,24.2354 L2.11652,24.2354 C2.27527,24.2354,2.43402,24.1031,2.43402,23.9179 L2.43402,21.272 L23.5477,21.272 L23.5477,23.9179 C23.5477,24.0766,23.68,24.2354,23.8652,24.2354 L25.6644,24.2354 C25.8232,24.2354,25.9819,24.1031,25.9819,23.9179 L25.9819,18.8643 L2.46048,18.8643 L2.46048,10.4241 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M23.389,14.5252 L11.959,12.0645 C10.9536,11.8529,10.0276,12.6202,10.0276,13.6256 L10.0276,17.8589 L25.9554,17.8589 L25.9554,17.7002 C25.9554,16.1656,24.8971,14.8427,23.389,14.5252 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M6.11172,10.186 L8.9163,10.186 C9.0486,10.186,9.15443,10.0802,9.15443,9.94788 L9.15443,9.10121 C9.15443,8.96892,9.0486,8.86309,8.9163,8.86309 L7.59339,8.86309 L9.0486,6.13788 C9.20735,5.84684,8.99568,5.52934,8.67818,5.52934 L6.08527,5.52934 C5.95298,5.52934,5.84714,5.63518,5.84714,5.76747 L5.84714,6.61413 C5.84714,6.74642,5.95298,6.85226,6.08527,6.85226 L7.22297,6.85226 L5.76777,9.57746 C5.58256,9.84205,5.79423,10.186,6.11172,10.186 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M10.8742,7.51371 L13.1761,7.51371 C13.3084,7.51371,13.4142,7.40788,13.4142,7.27559 L13.4142,6.66705 C13.4142,6.53476,13.3084,6.42892,13.1761,6.42892 L12.1178,6.42892 L13.3348,4.17997 C13.4671,3.94184,13.2819,3.67726,13.0173,3.67726 L10.9007,3.67726 C10.7684,3.67726,10.6626,3.78309,10.6626,3.91539 L10.6626,4.52393 C10.6626,4.65622,10.7684,4.76205,10.9007,4.76205 L11.8003,4.76205 L10.5832,7.01101 C10.4244,7.22267,10.6096,7.51371,10.8742,7.51371 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M15.0282,4.84143 L16.8273,4.84143 C16.9596,4.84143,17.0655,4.73559,17.0655,4.6033 L17.0655,4.20643 C17.0655,4.07414,16.9596,3.9683,16.8273,3.9683 L16.0071,3.9683 L16.9861,2.16914 C17.0919,1.98393,16.9596,1.74581,16.748,1.74581 L15.0811,1.74581 C14.9488,1.74581,14.843,1.85164,14.843,1.98393 L14.843,2.3808 C14.843,2.5131,14.9488,2.61893,15.0811,2.61893 L15.7425,2.61893 L14.7636,4.41809 C14.6842,4.6033,14.8165,4.84143,15.0282,4.84143 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1024.375" font-size="10" font-family="Arial" fill="purple">location with a bed</text>
-<text x="2031.25" y="1024.375" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1028.75) scale(0.1214240569688648)">
+<text x="292.5" y="184.375" font-size="10" font-family="Arial" fill="purple">location with a bed</text>
+<text x="481.25" y="184.375" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 188.75) scale(0.1214240569688648)">
 <path d="M78.569,11.758 L78.569,11.735 L78.569,11.727 C78.562,9.056,75.037,6.255,69.056,4.108 L69.056,19.361 C75.027,17.219,78.549,14.425,78.569,11.758 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M31.146,0.52 C28.841,0.727,26.593,1.009,24.437,1.361 L24.437,22.111 C26.595,22.463,28.843,22.745,31.146,22.952 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M22.223,1.75 C19.809,2.209,17.561,2.755,15.512,3.378 L15.512,20.091 C17.562,20.715,19.811,21.261,22.223,21.72 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
@@ -529,14 +617,14 @@
 <path d="M5.152,80.745 L7.138,81.891 L27.965,49.082 C26.218,48.464,24.509,47.722,22.862,46.861 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M38.619,51.261 L40.028,82.273 L42.326,82.273 L43.735,51.261 C42.885,51.315,42.029,51.345,41.177,51.345 C40.325,51.345,39.469,51.315,38.619,51.261 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1035.625" font-size="10" font-family="Arial" fill="purple">2-slot stove</text>
-<text x="2031.25" y="1035.625" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1040.0) scale(0.01984126984126984)">
+<text x="292.5" y="195.625" font-size="10" font-family="Arial" fill="purple">2-slot stove</text>
+<text x="481.25" y="195.625" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 200.0) scale(0.01984126984126984)">
 <path d="M503.429,188.23 L503.442,188.222 L438.182,77.962 C437.462,76.746,436.154,76.0,434.74,76.0 H69.26 C67.846,76.0,66.538,76.746,65.818,77.962 L0.558,188.222 L0.571,188.23 C0.217,188.827,0.0,189.515,0.0,190.26 V269.64 C0.0,271.849,1.791,273.64,4.0,273.64 H13.05 V397.52 C13.05,414.327,26.567,428.0,43.18,428.0 H460.82 C477.434,428.0,490.95,414.326,490.95,397.52 V273.64 H500.0 C502.209,273.64,504.0,271.849,504.0,269.64 V190.26 C504.0,189.515,503.783,188.827,503.429,188.23 Z M317.61,305.33 H186.39 V273.64 H317.61 Z M496.0,265.64 H8.0 V194.26 H496.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1046.875" font-size="10" font-family="Arial" fill="purple">metal container (green, 15kg)</text>
-<text x="2031.25" y="1046.875" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1051.25) scale(0.002836863336945606)">
+<text x="292.5" y="206.875" font-size="10" font-family="Arial" fill="purple">metal container (green, 15kg)</text>
+<text x="481.25" y="206.875" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 211.25) scale(0.002836863336945606)">
 <path d="M2420.052,1052.51 H1104.965 C1044.224,1052.51,994.80701,1003.093,994.80701,942.352 V110.157 C994.80701,49.416,1044.224,0.0,1104.965,0.0 H2420.051 C2480.792,0.0,2530.208,49.416,2530.208,110.157 V942.352 C2530.209,1003.093,2480.793,1052.51,2420.052,1052.51 Z M1115.838,931.479 H2409.178 V121.031 H1115.838 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M2420.052,3034.212 H1104.965 C1044.224,3034.212,994.80801,2984.796,994.80801,2924.055 V1218.433 C994.80801,1157.692,1044.224,1108.275,1104.965,1108.275 H2420.051 C2480.792,1108.275,2530.208,1157.692,2530.208,1218.433 V2924.055 C2530.209,2984.796,2480.792,3034.212,2420.052,3034.212 Z M1115.839,2913.181 H2409.178 V1229.306 H1115.839 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M1136.459,1229.465 C1103.037,1229.465,1075.944,1202.372,1075.944,1168.95 V991.837 C1075.944,958.415,1103.037,931.322,1136.459,931.322 C1169.881,931.322,1196.975,958.415,1196.975,991.837 V1168.95 C1196.975,1202.372,1169.881,1229.465,1136.459,1229.465 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
@@ -547,14 +635,14 @@
 <path d="M1291.585,717.913 C1258.163,717.913,1231.07,690.82,1231.07,657.398 V395.112 C1231.07,361.69,1258.163,334.597,1291.585,334.597 C1325.007,334.597,1352.101,361.69,1352.101,395.112 V657.398 C1352.101,690.82,1325.007,717.913,1291.585,717.913 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M1291.585,2725.478 C1258.163,2725.478,1231.07,2698.384,1231.07,2664.962 V1477.524 C1231.07,1444.102,1258.163,1417.008,1291.585,1417.008 C1325.007,1417.008,1352.1,1444.102,1352.1,1477.524 V2664.962 C1352.1,2698.385,1325.007,2725.478,1291.585,2725.478 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1058.125" font-size="10" font-family="Arial" fill="purple">freezer/cooler (20kg)</text>
-<text x="2031.25" y="1058.125" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1062.5) scale(0.10527202623185193)">
+<text x="292.5" y="218.125" font-size="10" font-family="Arial" fill="purple">freezer/cooler (20kg)</text>
+<text x="481.25" y="218.125" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 222.5) scale(0.10527202623185193)">
 <path d="M11.336052,26.735057 H14.269652 C14.156372,26.438177,14.050902,26.129587,13.957152,25.820997 C13.621212,24.695997,13.441532,23.508497,13.441532,22.289797 C13.441532,20.059297,14.035282,17.961697,15.070432,16.153097 H12.906332 L6.4883324,31.641097 H9.8360324 V28.234897 C9.8360324,27.406777,10.507912,26.734897,11.336032,26.734897 Z M24.250052,6.7040567 C25.043022,1.9579567,28.820352,-0.2647433,35.574052,0.0438567 C36.355302,0.0751067,36.968552,0.7079167,37.003752,1.4735567 C37.195162,5.6688567,36.324062,8.7313567,34.398252,10.657157 C33.867002,11.188407,33.261552,11.629817,32.589652,11.973557 C33.288872,12.434497,34.038852,13.028257,34.609152,13.641557 C35.406032,14.454057,36.089652,15.375957,36.640352,16.383757 C37.210662,15.340757,37.925552,14.387657,38.757552,13.555657 C40.609152,11.848657,42.343452,10.770457,44.839552,10.223657 C44.612992,9.8330267,44.359082,9.4580267,44.077832,9.1064567 C43.456742,8.3291167,42.691132,7.6416567,41.816132,7.0908567 C41.116912,6.6533567,40.905972,5.7314567,41.339572,5.0322567 C41.777072,4.3330367,42.698972,4.1220967,43.398172,4.5556967 C44.378642,5.1689767,45.249772,5.9111967,45.999772,6.7509967 C46.312272,5.0907967,47.011472,3.7197967,48.089572,2.6415967 C50.019272,0.7118967,53.081772,-0.1553033,57.273172,0.0360967 C58.054422,0.0673467,58.667672,0.7001567,58.702872,1.4657967 C58.894282,5.6610967,58.027092,8.7196967,56.097372,10.649397 C55.562212,11.184557,54.960672,11.622057,54.284872,11.969697 C54.984092,12.430637,55.632572,12.957977,56.222372,13.547797 L56.230185,13.55561 C57.058305,14.38373,57.769285,15.32901,58.335685,16.36421 C58.902095,15.32511,59.616885,14.37591,60.448985,13.54391 L60.538828,13.461879 C62.163828,11.868079,64.230228,10.719679,66.531028,10.211879 C66.304468,9.8212587,66.050558,9.4462587,65.773218,9.0985787 C65.148218,8.3173287,64.386518,7.6337787,63.511518,7.0829787 C62.812298,6.6454787,62.601358,5.7235787,63.034958,5.0243787 C63.472458,4.3251587,64.394358,4.1142187,65.093558,4.5478187 C66.050588,5.1493787,66.906058,5.8720187,67.644358,6.6884187 C68.437328,1.9423187,72.214658,-0.2803813,78.968358,0.0282187 C79.749608,0.0594687,80.362858,0.6922787,80.398058,1.4579187 C80.589468,5.6532187,79.722278,8.7118187,77.792558,10.641519 C77.261308,11.172769,76.655858,11.614179,75.983958,11.957919 C76.523018,12.313389,77.026958,12.707919,77.503458,13.137619 H83.073758 C83.659698,13.141525,84.218258,13.489179,84.456558,14.063399 L92.085458,32.465399 C92.183118,32.664619,92.237798,32.887279,92.237798,33.121649 V48.234649 C92.237798,49.062769,91.565918,49.734649,90.737798,49.734649 H85.143998 V51.797149 H90.737798 C91.565918,51.797149,92.237798,52.469029,92.237798,53.297149 V68.410149 C92.237798,69.238269,91.565918,69.910149,90.737798,69.910149 H85.143998 V71.972649 H90.737798 C91.565918,71.972649,92.237798,72.644519,92.237798,73.472649 V88.585649 C92.237798,89.413769,91.565918,90.085649,90.737798,90.085649 H85.143998 V93.491849 C85.143998,94.319969,84.472118,94.991849,83.643998,94.991849 H71.870998 C71.042878,94.991849,70.370998,94.319969,70.370998,93.491849 V90.085649 H62.355398 C61.527268,90.085649,60.855398,89.413769,60.855398,88.585649 C60.855398,87.757529,61.527268,87.085649,62.355398,87.085649 H70.370998 V74.972649 H24.616998 V87.085649 H51.288998 C52.117118,87.085649,52.788998,87.757529,52.788998,88.585649 C52.788998,89.413769,52.117118,90.085649,51.288998,90.085649 H24.616998 V93.491849 C24.616998,94.319969,23.945118,94.991849,23.116998,94.991849 H11.343998 C10.515878,94.991849,9.8439984,94.319969,9.8439984,93.491849 V90.085649 H4.2541984 C3.4260784,90.085649,2.7541984,89.413769,2.7541984,88.585649 V73.472649 C2.7541984,72.644519,3.4260784,71.972649,4.2541984,71.972649 H9.8439984 V69.910149 H4.2541984 C3.4260784,69.910149,2.7541984,69.238269,2.7541984,68.410149 V53.297149 C2.7541984,52.469029,3.4260784,51.797149,4.2541984,51.797149 H9.8439984 V49.734649 H4.2541984 C3.4260784,49.734649,2.7541984,49.062769,2.7541984,48.234649 V33.121649 C2.7541984,32.887269,2.8088854,32.664619,2.9065384,32.465399 L10.500338,14.145399 C10.703458,13.555559,11.262058,13.133699,11.918338,13.133699 H17.496438 C19.066738,11.703999,21.004238,10.672799,23.148738,10.203999 C22.922178,9.8133787,22.668268,9.4383787,22.390928,9.0906987 C21.769838,8.3133587,21.004228,7.6258987,20.129228,7.0750987 C19.430008,6.6375987,19.219068,5.7156987,19.652668,5.0164987 C20.090168,4.3172787,21.012068,4.1063387,21.711268,4.5399387 C22.668298,5.1414987,23.523768,5.8641387,24.262068,6.6805387 Z M34.035252,3.0165567 C29.148552,3.1649967,26.851652,5.4618567,27.152452,9.9032567 C29.476652,10.082947,31.187652,9.6259167,32.281352,8.5360567 C33.394652,7.4227567,33.980552,5.5790567,34.039152,3.0165567 Z M17.562252,26.735557 H23.109152 C23.937272,26.735557,24.609152,27.407437,24.609152,28.235557 V31.567557 H24.624777 C27.468577,31.923027,30.347477,30.962087,32.409977,28.899557 C34.066177,27.251157,35.101377,24.977657,35.148277,22.458157 V22.114407 C35.105309,19.798007,34.120977,17.270607,32.409977,15.669107 C30.718577,13.977707,28.378777,12.930807,25.796677,12.930807 C23.245877,12.930807,20.937277,13.946407,19.257577,15.594907 C17.448977,17.524607,16.448977,19.587107,16.448977,22.286307 C16.448977,23.219897,16.581787,24.122207,16.835697,24.962107 C17.015387,25.579297,17.265387,26.169107,17.570077,26.731607 Z M33.859252,31.641757 H39.433452 C39.202982,31.442537,38.980332,31.239417,38.769392,31.024567 L38.76158,31.016754 C37.92955,30.184724,37.21858,29.231554,36.64828,28.192554 C36.07797,29.235554,35.36308,30.188654,34.53108,31.020654 C34.31624,31.235494,34.09358,31.442534,33.86311,31.641744 Z M38.144452,22.122257 V22.466007 C38.191327,24.981607,39.226452,27.259007,40.874952,28.907407 C42.566352,30.602707,44.906152,31.645707,47.492152,31.645707 C50.074152,31.645707,52.414052,30.598807,54.105452,28.907407 C55.710952,27.309707,56.730452,25.126207,56.835952,22.704307 L56.82814,22.294147 L56.835952,21.891807 C56.734392,19.466007,55.710952,17.278507,54.109352,15.677007 C52.421852,13.985607,50.082052,12.942607,47.492152,12.942607 C45.109352,12.942607,42.523352,13.926977,40.878852,15.680907 C39.226552,17.333207,38.187452,19.610607,38.140552,22.122307 Z M77.425448,3.0202567 C72.538748,3.1686967,70.241848,5.4655567,70.542648,9.9069567 C72.866848,10.086647,74.577848,9.6296167,75.671548,8.5397567 C76.784848,7.4264567,77.370748,5.5827567,77.429348,3.0202567 Z M59.839452,21.891257 L59.847265,22.293597 L59.839452,22.692037 C59.941012,25.082637,60.933252,27.242837,62.495652,28.832637 L62.569871,28.90295 C64.667571,31.00065,67.495671,31.90685,70.355068,31.57095 H70.362888 V28.23895 C70.362888,27.41083,71.034758,26.73895,71.862888,26.73895 H77.413678 C77.718378,26.18036,77.964458,25.58665,78.148068,24.96945 C78.398068,24.12961,78.534788,23.23115,78.534788,22.29365 C78.534788,17.12955,74.351178,12.94205,69.183188,12.94205 C66.636283,12.94205,64.323783,13.95765,62.640183,15.60615 L62.56987,15.680369 C60.96827,17.281969,59.94097,19.469469,59.83937,21.891269 Z M58.339452,28.203757 C57.769142,29.242857,57.058252,30.192057,56.226152,31.024057 C56.011312,31.238897,55.788652,31.445937,55.558182,31.645147 H61.112882 C60.882412,31.445927,60.659762,31.242807,60.448822,31.027957 L60.36679,30.938113 C59.57382,30.129523,58.88629,29.207613,58.33949,28.203713 Z M80.710448,26.738957 H83.640148 C84.468268,26.738957,85.140148,27.410837,85.140148,28.238957 V31.645157 H88.491748 L82.073748,16.157157 H79.913548 C80.948748,17.965757,81.542448,20.059457,81.542448,22.293857 C81.542448,23.512657,81.362758,24.700057,81.026818,25.825057 C80.933068,26.133647,80.831508,26.438337,80.714318,26.739117 Z M50.218452,4.7739567 C49.124652,5.8677567,48.667652,7.5786567,48.851252,9.9067567 C51.179352,10.086447,52.894252,9.6294167,53.984052,8.5395567 C55.097352,7.4262567,55.683252,5.5825567,55.741852,3.0161567 C53.175452,3.0747507,51.331652,3.6606867,50.218452,4.7739567 Z M76.253448,81.043957 C76.253448,80.215837,76.925328,79.543957,77.753448,79.543957 C78.581568,79.543957,79.253448,80.215837,79.253448,81.043957 V81.059582 C79.253448,81.887702,78.581568,82.559582,77.753448,82.559582 C76.925328,82.559582,76.253448,81.887702,76.253448,81.059582 Z M76.253448,40.695957 C76.253448,39.867837,76.925328,39.195957,77.753448,39.195957 C78.581568,39.195957,79.253448,39.867837,79.253448,40.695957 V40.711582 C79.253448,41.539702,78.581568,42.211582,77.753448,42.211582 C76.925328,42.211582,76.253448,41.539702,76.253448,40.711582 Z M76.253448,60.871957 C76.253448,60.043837,76.925328,59.371957,77.753448,59.371957 C78.581568,59.371957,79.253448,60.043837,79.253448,60.871957 V60.887582 C79.253448,61.715702,78.581568,62.387582,77.753448,62.387582 C76.925328,62.387582,76.253448,61.715702,76.253448,60.887582 Z M15.730452,81.047957 C15.730452,80.219837,16.402322,79.547957,17.230452,79.547957 C18.058572,79.547957,18.730452,80.219837,18.730452,81.047957 V81.063582 C18.730452,81.891702,18.058572,82.563582,17.230452,82.563582 C16.402322,82.563582,15.730452,81.891702,15.730452,81.063582 Z M15.730452,40.699957 C15.730452,39.871837,16.402322,39.199957,17.230452,39.199957 C18.058572,39.199957,18.730452,39.871837,18.730452,40.699957 V40.715582 C18.730452,41.543702,18.058572,42.215582,17.230452,42.215582 C16.402322,42.215582,15.730452,41.543702,15.730452,40.715582 Z M15.730452,60.875957 C15.730452,60.047837,16.402322,59.375957,17.230452,59.375957 C18.058572,59.375957,18.730452,60.047837,18.730452,60.875957 V60.891582 C18.730452,61.719702,18.058572,62.391582,17.230452,62.391582 C16.402322,62.391582,15.730452,61.719702,15.730452,60.891582 Z M85.140448,75.000957 V87.113957 H89.234248 V75.000957 Z M70.367448,72.000957 V69.938457 H24.613452 V72.000957 Z M9.8404524,87.113957 V75.000957 H5.7506524 V87.113957 Z M56.930452,87.113957 C57.758572,87.113957,58.430452,87.785837,58.430452,88.613957 C58.430452,89.442087,57.758572,90.113957,56.930452,90.113957 H56.707792 C55.879672,90.113957,55.207792,89.442087,55.207792,88.613957 C55.207792,87.785837,55.879672,87.113957,56.707792,87.113957 Z M24.614452,34.648957 V46.761957 H70.368448 V34.648957 H47.497452 Z M24.614452,49.761957 V51.824457 H70.368448 V49.761957 Z M85.141448,34.648957 V46.761957 H89.235248 V34.648957 Z M9.8444524,46.761957 V34.648957 H5.7546524 V46.761957 Z M24.617452,54.824457 V66.937457 H70.371448 V54.824457 Z M9.8444524,66.937457 V54.824457 H5.7546524 V66.937457 Z M85.141448,66.937457 H89.235248 V54.824457 H85.141448 Z M82.141448,29.742457 H73.368048 V92.019457 H82.141448 Z M21.614452,29.742457 H12.841052 V92.019457 H21.614452 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1069.375" font-size="10" font-family="Arial" fill="purple">crate (portable)</text>
-<text x="2031.25" y="1069.375" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1073.75) scale(0.35714285714285715)">
+<text x="292.5" y="229.375" font-size="10" font-family="Arial" fill="purple">crate (portable)</text>
+<text x="481.25" y="229.375" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 233.75) scale(0.35714285714285715)">
 <path d="M5.637695,3.77002 C6.062988,3.417969,6.122559,2.787598,5.77002,2.362305 C5.417969,1.937012,4.788086,1.876953,4.362305,2.22998 C3.483887,2.95752,3.0,3.941406,3.0,5.0 C3.0,6.058594,3.483887,7.04248,4.362305,7.77002 C4.548828,7.924805,4.774902,8.0,4.999512,8.0 C5.287109,8.0,5.572266,7.876465,5.77002,7.637695 C6.122559,7.212402,6.062988,6.582031,5.637695,6.22998 C5.226562,5.88916,5.0,5.452148,5.0,5.0 C5.0,4.547852,5.226562,4.11084,5.637695,3.77002 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M2.0,5.0 C2.0,3.791992,2.581543,2.64502,3.638184,1.77002 C4.063477,1.417969,4.122559,0.787109,3.77002,0.361816 C3.417969,-0.062012,2.788086,-0.123047,2.361816,0.22998 C0.838867,1.491699,0.0,3.185547,0.0,5.0 C0.0,6.814453,0.838867,8.508301,2.361816,9.77002 C2.548828,9.924805,2.774902,10.0,2.999512,10.0 C3.287109,10.0,3.572266,9.876465,3.77002,9.638184 C4.122559,9.212891,4.063476,8.582031,3.638184,8.229981 C2.581543,7.35498,2.0,6.208008,2.0,5.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M23.637695,2.22998 C23.212891,1.876953,22.581543,1.937012,22.22998,2.362305 C21.877441,2.787598,21.937012,3.417969,22.362305,3.77002 C22.773437,4.11084,23.0,4.547852,23.0,5.0 C23.0,5.452148,22.773437,5.88916,22.362305,6.22998 C21.937012,6.582031,21.877441,7.212402,22.22998,7.637695 C22.427734,7.876465,22.712891,8.0,23.000488,8.0 C23.225098,8.0,23.451172,7.924805,23.637695,7.77002 C24.516113,7.04248,25.0,6.058594,25.0,5.0 C25.0,3.941406,24.516113,2.95752,23.637695,2.22998 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
@@ -563,55 +651,56 @@
 <path d="M18.0,4.0 C18.0,1.794434,16.205566,0.0,14.0,0.0 C11.794434,0.0,10.0,1.794434,10.0,4.0 V7.0 H18.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M15.0,14.920166 C18.386597,14.432373,21.0,11.51947,21.0,8.0 C21.0,7.447754,20.552246,7.0,20.0,7.0 C19.447754,7.0,19.0,7.447754,19.0,8.0 C19.0,10.756836,16.756836,13.0,14.0,13.0 C11.243164,13.0,9.0,10.756836,9.0,8.0 C9.0,7.447754,8.552246,7.0,8.0,7.0 C7.447754,7.0,7.0,7.447754,7.0,8.0 C7.0,11.51947,9.613403,14.432373,13.0,14.920166 V16.0 C13.0,16.031067,13.014954,16.057251,13.0177,16.087585 C10.175903,16.558594,8.0,19.026672,8.0,22.0 C8.0,25.308594,10.691406,28.0,14.0,28.0 C17.308594,28.0,20.0,25.308594,20.0,22.0 C20.0,19.026672,17.824097,16.558594,14.9823,16.087585 C14.985046,16.057251,15.0,16.031067,15.0,16.0 Z M17.0,22.0 C17.0,23.654297,15.654297,25.0,14.0,25.0 C12.345703,25.0,11.0,23.654297,11.0,22.0 C11.0,20.345703,12.345703,19.0,14.0,19.0 C15.654297,19.0,17.0,20.345703,17.0,22.0 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1080.625" font-size="10" font-family="Arial" fill="purple">wax cylinder</text>
-<text x="2031.25" y="1080.625" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1085.0) scale(0.02)">
+<text x="292.5" y="240.625" font-size="10" font-family="Arial" fill="purple">wax cylinder</text>
+<text x="481.25" y="240.625" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 245.0) scale(0.02)">
 <path d="M275.69468,32.705645 C287.26938,34.417404,298.81342,42.715449,294.47771,53.469601 C271.34849,110.00746,223.02942,230.34019,193.59142,290.27296 C260.16742,234.29858,400.39735,182.49763,476.98555,153.82568 C503.16647,143.99018,508.28995,182.98172,485.46152,188.78198 C398.75144,210.78845,267.36314,276.4431,191.8949,326.55425 C118.5732,377.81532,113.94733,397.43319,54.681163,452.64163 C55.09065,444.30304,52.802093,435.73958,47.794017,428.36536 C40.406596,417.47564,28.421207,411.325,16.370491,411.34004 C82.305091,359.4152,103.21156,354.62672,158.01349,296.28132 C189.1606,228.11454,243.12174,112.43167,256.10362,42.612904 C257.66684,34.021673,266.69262,31.370984,275.69468,32.705645 Z M18.768867,429.43804 C24.133669,430.08525,29.320572,433.1342,32.931158,438.46464 C39.419845,447.99705,37.392024,459.52173,29.658919,464.87794 C21.842691,470.11974,10.364953,467.79564,3.8606213,458.36197 C-2.5449407,448.94397,-0.51711873,437.4193,7.2159823,432.06309 C10.617064,429.76687,14.703701,428.89545,18.768867,429.43804 Z" fill="purple" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
-<text x="1842.5" y="1091.875" font-size="10" font-family="Arial" fill="purple">stick</text>
-<text x="2031.25" y="1091.875" font-size="10" font-family="Arial" fill="purple">1</text>
-<g id="import" transform="translate(1831.25, 1096.25) scale(0.06979730861577978)">
+<text x="292.5" y="251.875" font-size="10" font-family="Arial" fill="purple">stick</text>
+<text x="481.25" y="251.875" font-size="10" font-family="Arial" fill="purple">1</text>
+<g id="import" transform="translate(281.25, 256.25) scale(0.06979730861577978)">
 <path d="M100.54173,115.76096 C94.103773,114.34131,90.152846,110.84178,82.912409,100.1458 C81.828824,98.545072,80.41342,96.372181,79.767061,95.317155 C79.120703,94.262129,78.529959,93.407485,78.454297,93.41795 C78.378634,93.428401,77.788959,94.512589,77.143908,95.827235 C76.498854,97.141881,74.831979,99.957449,73.439741,102.08405 C71.262551,105.40965,70.908396,106.10517,70.908396,107.05532 C70.908396,108.85838,71.633793,109.37019,76.067771,110.69563 C79.199533,111.6318,81.359437,113.35882,81.359437,114.92675 C81.359437,115.50992,78.529428,115.68851,71.040688,115.57793 C63.391859,115.46499,63.471556,115.48942,60.550096,112.36115 C58.229412,109.87619,56.78167,107.78294,56.471782,106.46445 C56.156817,105.12435,56.323298,104.013,57.695768,98.293718 C58.324347,95.674343,59.261964,91.447624,59.779365,88.901009 C60.296763,86.354395,60.781784,84.004987,60.857187,83.680106 L60.994284,83.08941 L54.971132,83.217889 C48.179211,83.36277,48.288167,83.332057,46.802741,85.520264 C46.03438,86.652146,45.316422,88.669086,43.24805,95.506367 C42.787352,97.029261,41.877818,99.470042,41.226861,100.93032 C40.575433,102.39167,39.979089,104.18416,39.900473,104.91718 C39.774304,106.09364,39.842101,106.34935,40.481723,107.10949 C41.36241,108.15613,41.971401,108.48124,45.238688,109.64902 C49.146814,111.04584,51.543095,112.79065,51.882248,114.48641 L52.04779,115.31413 L50.630177,115.48933 C49.850489,115.58568,45.690554,115.62562,41.385878,115.57808 L33.559194,115.49163 L32.26259,114.68955 C30.883195,113.83626,28.436358,111.10254,26.38412,108.12185 L25.13548,106.30831 L24.970938,101.50726 C24.88044,98.866689,24.791143,96.669353,24.772501,96.624295 C24.753847,96.579239,23.739488,97.353145,22.518346,98.344086 C21.297204,99.33503,19.458506,100.78956,18.432351,101.57637 C17.406196,102.36318,16.187936,103.53423,15.725105,104.17871 C14.684237,105.6281,14.062554,107.54797,14.41864,108.21332 C14.823982,108.97071,16.222697,110.03536,17.96501,110.91269 C18.852832,111.35975,20.092172,112.07737,20.7191,112.5074 C21.853787,113.28572,22.899309,114.90551,22.515102,115.28987 C22.404181,115.40084,18.900264,115.49163,14.728621,115.49163 C7.4039358,115.49163,7.1062214,115.47153,6.0476896,114.90541 C4.4715455,114.06246,2.9772159,112.18373,1.3882607,109.04739 L6.345156e-05,106.30732 L0.01792283,103.62343 C0.03205158,101.49964,0.16179266,100.60826,0.6396328,99.352051 C2.5881038,94.22967,2.457561,94.862119,6.6001131,70.47481 C7.6912627,64.051179,8.7062044,58.25029,8.8555352,57.583942 C9.963978,52.637843,13.53639,46.835953,18.495084,41.928523 C23.858217,36.620836,29.887799,33.533688,38.100074,31.890766 C43.417103,30.827056,47.052108,30.656725,62.574032,30.743942 L76.993823,30.824968 L79.844521,29.441428 C84.061585,27.394746,85.160137,27.117076,88.900073,27.152557 C91.861763,27.180653,92.506217,27.29154,98.492393,28.803041 C105.50939,30.574821,107.70675,30.892043,113.97821,31.038638 L118.15426,31.136253 L119.66675,29.953415 C121.41899,28.583075,122.55232,28.046843,123.6963,28.046843 C124.75799,28.046843,125.71856,29.013139,125.96553,30.329594 C126.13717,31.244547,125.86355,33.312073,125.42456,34.41714 C125.30582,34.716047,125.69389,35.139476,126.79349,35.910797 C129.29323,37.664273,132.80522,40.863318,133.67948,42.183213 C134.1637,42.914246,134.56659,43.94206,134.67343,44.71884 C134.91224,46.455197,135.74682,47.569543,139.87141,51.65921 C141.7417,53.513669,143.27194,55.236024,143.27194,55.486672 C143.27194,56.169861,139.62567,59.600022,138.11256,60.340268 C136.82188,60.971696,136.58978,60.991389,128.58756,61.148409 C119.32158,61.330228,120.38806,61.156399,109.97087,64.182865 C106.71669,65.12829,103.61496,66.125896,103.07813,66.399766 C101.47413,67.218064,99.941299,68.985727,98.750621,71.390252 C97.665832,73.580936,97.63164,73.728735,97.641986,76.1826 C97.6495,77.964849,97.862749,79.615487,98.3622,81.757259 C99.409648,86.249011,100.0752,90.571938,100.52988,95.836985 C100.85007,99.544623,101.10081,101.04272,101.72985,103.00645 C103.01289,107.01185,104.36201,108.37306,107.55319,108.88202 C109.54323,109.19941,112.32528,110.92378,113.02247,112.27199 C113.37647,112.95655,113.36795,113.0755,112.93023,113.55991 C111.03815,115.65386,104.95626,116.73442,100.54173,115.76096 Z" fill="purple" stroke="none" stroke-width="0.264583" opacity="0.5" />
 </g>
-<text x="1842.5" y="1103.125" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
-<rect x="1831.25" y="1107.5" width="10" height="10" fill="#6741ca" />
-<text x="1842.5" y="1114.375" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
-<rect x="1831.25" y="1118.75" width="10" height="10" fill="#a62f5f" />
-<text x="1842.5" y="1125.625" font-size="10" font-family="Arial" fill="purple">to bring here</text>
-<rect x="1831.25" y="1130.0" width="10" height="10" fill="#0090a2" />
-<text x="1842.5" y="1136.875" font-size="10" font-family="Arial" fill="purple">to take from here</text>
-<rect x="1831.25" y="1141.25" width="10" height="10" fill="#006d91" />
-<text x="1842.5" y="1148.125" font-size="10" font-family="Arial" fill="purple">to destroy</text>
-<rect x="1831.25" y="1152.5" width="10" height="10" fill="#b17000" />
-<text x="1842.5" y="1159.375" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
-<rect x="1831.25" y="1163.75" width="10" height="10" fill="#a5a600" />
-<text x="1842.5" y="1170.625" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
-<rect x="1831.25" y="1175.0" width="10" height="10" fill="#7db138" />
-<text x="1842.5" y="1181.875" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
-<path d="M1831.25,1191.875 L1841.25,1191.875" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
-<text x="1842.5" y="1193.125" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
-<path d="M1831.25,1203.125 L1841.25,1203.125" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
-<text x="1842.5" y="1204.375" font-size="10" font-family="Arial" fill="purple">railway</text>
-<path d="M1831.25,1214.375 L1841.25,1214.375" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
-<text x="1842.5" y="1215.625" font-size="10" font-family="Arial" fill="purple">tinder path</text>
-<path d="M1831.25,1225.625 L1841.25,1225.625" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
-<text x="1842.5" y="1226.875" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
-<path d="M1831.25,1236.875 L1841.25,1236.875" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="1842.5" y="1238.125" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
-<path d="M1831.25,1248.125 L1841.25,1248.125" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
-<text x="1842.5" y="1249.375" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
-<path d="M1831.25,1259.375 L1841.25,1259.375" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
-<text x="1842.5" y="1260.625" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
-<path d="M1831.25,1270.625 L1841.25,1270.625" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
-<text x="1842.5" y="1271.875" font-size="10" font-family="Arial" fill="purple">one-way route</text>
-<path d="M1831.25,1281.875 L1841.25,1281.875" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="1842.5" y="1283.125" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
-<rect x="1831.25" y="1287.5" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="1842.5" y="1294.375" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
-<rect x="1831.25" y="1298.75" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="1842.5" y="1305.625" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
-<rect x="1831.25" y="1310.0" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="1842.5" y="1316.875" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
-<text x="1842.5" y="1328.125" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+<text x="292.5" y="263.125" font-size="10" font-family="Arial" fill="purple">opacity indicates probability (0.5 -&gt; 50%)</text>
+<rect x="281.25" y="267.5" width="10" height="10" fill="#6741ca" />
+<text x="292.5" y="274.375" font-size="10" font-family="Arial" fill="purple">to search for here (unexplored)</text>
+<rect x="281.25" y="278.75" width="10" height="10" fill="#a62f5f" />
+<text x="292.5" y="285.625" font-size="10" font-family="Arial" fill="purple">to bring here</text>
+<rect x="281.25" y="290.0" width="10" height="10" fill="#0090a2" />
+<text x="292.5" y="296.875" font-size="10" font-family="Arial" fill="purple">to take from here</text>
+<rect x="281.25" y="301.25" width="10" height="10" fill="#006d91" />
+<text x="292.5" y="308.125" font-size="10" font-family="Arial" fill="purple">to destroy</text>
+<rect x="281.25" y="312.5" width="10" height="10" fill="#b17000" />
+<text x="292.5" y="319.375" font-size="10" font-family="Arial" fill="purple">to make from fir</text>
+<rect x="281.25" y="323.75" width="10" height="10" fill="#a5a600" />
+<text x="292.5" y="330.625" font-size="10" font-family="Arial" fill="purple">to make from cedar</text>
+<rect x="281.25" y="335.0" width="10" height="10" fill="#7db138" />
+<text x="292.5" y="341.875" font-size="10" font-family="Arial" fill="purple">to make form other materials</text>
+<path d="M281.25,351.875 L291.25,351.875" stroke="#55b395" stroke-width="1.25" stroke-dasharray="" />
+<text x="292.5" y="353.125" font-size="10" font-family="Arial" fill="purple">road, rail, or other provided path</text>
+<path d="M281.25,363.125 L291.25,363.125" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
+<text x="292.5" y="364.375" font-size="10" font-family="Arial" fill="purple">railway</text>
+<path d="M281.25,374.375 L291.25,374.375" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
+<text x="292.5" y="375.625" font-size="10" font-family="Arial" fill="purple">tinder path</text>
+<path d="M281.25,385.625 L291.25,385.625" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
+<text x="292.5" y="386.875" font-size="10" font-family="Arial" fill="purple">cattail head path</text>
+<path d="M281.25,396.875 L291.25,396.875" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="292.5" y="398.125" font-size="10" font-family="Arial" fill="purple">charcoal path</text>
+<path d="M281.25,408.125 L291.25,408.125" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7.4" />
+<text x="292.5" y="409.375" font-size="10" font-family="Arial" fill="purple">spray paint path</text>
+<path d="M281.25,419.375 L291.25,419.375" stroke="#982f93" stroke-width="1.25" stroke-dasharray="4,2,2,2" />
+<text x="292.5" y="420.625" font-size="10" font-family="Arial" fill="purple">mixed marking path</text>
+<path d="M281.25,430.625 L291.25,430.625" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
+<text x="292.5" y="431.875" font-size="10" font-family="Arial" fill="purple">one-way route</text>
+<path d="M281.25,441.875 L291.25,441.875" stroke="#3435ff" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="292.5" y="443.125" font-size="10" font-family="Arial" fill="purple">unmarked path</text>
+<rect x="281.25" y="447.5" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="292.5" y="454.375" font-size="10" font-family="Arial" fill="purple">customizable indoor location</text>
+<rect x="281.25" y="458.75" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="292.5" y="465.625" font-size="10" font-family="Arial" fill="purple">non-customizable indoor location</text>
+<rect x="281.25" y="470.0" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="292.5" y="476.875" font-size="10" font-family="Arial" fill="purple">outdoors (cannot cure hides)</text>
+<text x="292.5" y="488.125" font-size="10" font-family="Arial" fill="purple" font-style="italic">italics mean no loading screen</text>
+</g>
 </g>
 </svg>

@@ -11750,8 +11750,8 @@
                 "explored": false,
                 "features": [
                     "?grill",
-                    "?train",
-                    "?wax"
+                    "?wax",
+                    "?train"
                 ]
             },
             "TrainShelterOffice": {

@@ -3,7 +3,7 @@
      width="307.5" height="367.5" viewBox="0 0 307.5 367.5">
 <defs>
 </defs>
-<g id="Hibernia">
+<g id="BASE:Hibernia">
 <rect x="103.75" y="123.75" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="Hibernia:features">
 <g id="saltdeposit:Hibernia:0:0">
@@ -102,7 +102,8 @@
 </g>
 </g>
 <path d="M103.75,243.75 L103.75,263.75" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
-<g id="Riken">
+<g id="Hibernia:Riken">
+<g id="BASE:Riken">
 <rect x="103.75" y="263.75" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="Riken:features">
 <g id="beachcombing:Riken:0:0">
@@ -150,8 +151,10 @@
 <text x="133.75" y="283.3125" font-size="15.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">Riken</text>
 </g>
 </g>
+</g>
 <path d="M103.75,123.75 L103.75,103.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
-<g id="BrokenBridge">
+<g id="Hibernia:BrokenBridge">
+<g id="BASE:BrokenBridge">
 <rect x="103.75" y="43.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="BrokenBridge:features">
 <g id="bear:BrokenBridge:0:0">
@@ -177,8 +180,10 @@
 <text x="133.75" y="55.3125" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="133.75" dy="0em">Broken</tspan><tspan x="133.75" dy="1em">Bridge</tspan></text>
 </g>
 </g>
+</g>
 <path d="M103.75,123.75 L83.75,123.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
-<g id="No5Mine">
+<g id="Hibernia:No5Mine">
+<g id="BASE:No5Mine">
 <rect x="23.75" y="63.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="No5Mine:features">
 <g id="coal:No5Mine:0:0">
@@ -204,8 +209,10 @@
 <text x="53.75" y="73.125" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">No5</tspan><tspan x="53.75" dy="1em">Mine</tspan></text>
 </g>
 </g>
+</g>
 <path d="M163.75,263.75 L183.75,263.75" stroke-width="2.5" stroke="#1e0c2a" stroke-dasharray="2,1" fill="none" />
-<g id="LittleIsland">
+<g id="Riken:LittleIsland">
+<g id="BASE:LittleIsland">
 <rect x="183.75" y="263.75" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f0fdf1" stroke-width="2.5" stroke="#6741ca" />
 <g id="LittleIsland:features">
 <g id="deer:LittleIsland:0:0">
@@ -243,9 +250,13 @@
 <text x="213.75" y="274.0625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="213.75" dy="0em">Little</tspan><tspan x="213.75" dy="1em">Island</tspan></text>
 </g>
 </g>
+</g>
+<g id="No5Mine:BrokenBridge">
 <path d="M83.75,63.75 L103.75,43.75" stroke-width="2.5" stroke="#55b395" stroke-dasharray="" fill="none" />
+</g>
 <path d="M103.75,243.75 L83.75,243.75" stroke-width="2.5" stroke="#623e29" stroke-dasharray="4,2" fill="none" />
-<g id="LonelyLighthouse">
+<g id="Hibernia:LonelyLighthouse">
+<g id="BASE:LonelyLighthouse">
 <rect x="23.75" y="243.75" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f0fdf1" stroke-width="2.5" stroke="#2f5136" />
 <g id="LonelyLighthouse:features">
 <g id="bed:LonelyLighthouse:0:0">
@@ -280,6 +291,7 @@
 </g>
 <g id="LonelyLighthouse:header">
 <text x="53.75" y="256.6875" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="53.75" dy="0em">Lonely</tspan><tspan x="53.75" dy="1em">Lighthouse</tspan></text>
+</g>
 </g>
 </g>
 </svg>

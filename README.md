@@ -397,8 +397,10 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ## TODOs
 
 ### IRON ROAD
-0. Minimal canvas
-3. Better guesses at coordinates
+1. Legend: only what is needed for colour, paths, etc
+3. Better locations for in/outflows for regions
+4. Better guesses at coordinates
+5. Update verificaton numbers with DLC additions for climbs, hammers, etc
 
 ### Drawing-related
 3. Use the stitched-together coordinate-based map to place the bases!
