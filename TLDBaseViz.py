@@ -2392,7 +2392,8 @@ def get_shortforms_and_longforms(bases):
 
 
 def draw_bases_regionally_and_together(fname,
-                                       region_folder='output/'):
+                                       region_folder='output/',
+                                       current_region=''):
     outfile = fname.replace('.json', '.svg')
 
     # TODO automatically centre the base system rather than manually specifying
@@ -2423,6 +2424,8 @@ def draw_bases_regionally_and_together(fname,
     # by region
 
     regions = get_regions(bases)
+    if current_region:
+        assert current_region in regions, f'{current_region} not in regions. Options are {regions}'
     for r in regions:
         draw_region(r, fname,
                     shortforms=shortforms, longforms=longforms,
@@ -2445,7 +2448,9 @@ def draw_bases_regionally_and_together(fname,
         zone_bases, colours = process_input(fname, style_file=style_file, destination_warnings=False)
         for sr in super_regions:
             these_bases = bases_of_region(zone_bases, super_regions[sr])
-            special_bases = bases_of_region(bases, SPECIAL)
+            special_bases = []
+            if current_region in super_regions[sr]:
+                special_bases = bases_of_region(bases, SPECIAL)
             draw_bases(these_bases, colours,
                        base_x=4000, base_y=2500,
                        width=6000, height=4500,
@@ -2467,8 +2472,15 @@ if __name__ == '__main__':
             if not os.path.exists(region_folder):
                 os.mkdir(region_folder)
 
+        current_region = ''
+        if '-c' in sys.argv:
+            out_i = sys.argv.index('-c') + 1
+            current_region = sys.argv[out_i]
+            print('Current region is', current_region)
+
         if fname.endswith('.json'):
-            draw_bases_regionally_and_together(fname, region_folder=region_folder)
+            draw_bases_regionally_and_together(fname, region_folder=region_folder,
+                                               current_region=current_region)
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
     elif '--testing' in sys.argv:
@@ -2479,4 +2491,5 @@ if __name__ == '__main__':
         print('\t-v \t\t verbose mode')
         print('\t-s {filename} \t use alternate style file')
         print('\t-o {output/side/} \t output to this directory')
+        print('\t-c {name of current region} \t current region in game')
         print('\t--testing \t run doctests')

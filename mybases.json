@@ -8213,6 +8213,19 @@
 				"#FindMeansHave,#NoTakeIsUsed,#Breyerhouse,?recipe,#Camber,?recipe,#Coastal,?recipe,#Dockworker,?recipe,#LastResort,?recipe,#Lily,?recipe,#Pemmican,recipe,#Prepper,?recipe,#Ranger,?recipe,#Stalker,?recipe,#Thomson,?recipe,"
 			]
 		},
+		"PrototypeTrain": {
+			"region": "Special",
+			"shortform": "Train",
+			"coords": [0,2000000],
+			"customizable": false,
+			"loading": false,
+			"cabinfeverrisk":false,
+			"indoors": false,
+			"explored":true,
+			"features": [
+                "potbelly"
+			]
+		},
 		"Uncertainty": {
 			"region": "Special",
 			"shortform": "IDK",
