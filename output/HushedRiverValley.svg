@@ -1929,7 +1929,7 @@
 <rect x="961.25" y="638.75" width="10" height="10" fill="#a5a600" />
 <text x="972.5" y="645.625" font-size="10" font-family="Arial" fill="default connection">to make from cedar</text>
 <rect x="961.25" y="650.0" width="10" height="10" fill="#007835" />
-<text x="972.5" y="656.875" font-size="10" font-family="Arial" fill="default connection">to unlock</text>
+<text x="972.5" y="656.875" font-size="10" font-family="Arial" fill="default connection">to harvest or unlock</text>
 <path d="M961.25,666.875 L971.25,666.875" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="972.5" y="668.125" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M961.25,678.125 L971.25,678.125" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />

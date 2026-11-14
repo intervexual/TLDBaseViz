@@ -232,7 +232,7 @@
 <rect x="1315.0" y="1377.5" width="7.199999999999999" height="7.199999999999999" fill="#0090a2" opacity="0.3" />
 <text x="1318.52" y="1382.9" font-size="5.76" text-anchor="middle">1</text>
 <rect x="1315.0" y="1384.7" width="7.199999999999999" height="3.5999999999999996" fill="#0090a2" opacity="0.3" />
-<text x="1318.664" y="1386.86" font-size="3.0599999999999996" text-anchor="middle">A3C</text>
+<text x="1318.664" y="1386.86" font-size="1.8359999999999996" text-anchor="middle">Train</text>
 </g>
 <g id="antiseptic:Cabin(A5):5:1">
 <g id="import" transform="translate(1327.5, 1377.5) scale(0.4878048780487805)">
@@ -479,7 +479,7 @@
 <g id="to move from (AnnaIsland5):features">
 <g id="empty:to move from (AnnaIsland5):0:0">
 <rect x="1007.5" y="95.0" width="20" height="20" fill="none" stroke="#000000" />
-<text x="1017.5" y="105.0" font-size="2.5" fill="#000000" text-anchor="middle" font-style="italic">#AnnaIsland3</text>
+<text x="1017.5" y="105.0" font-size="3.75" fill="#000000" text-anchor="middle" font-style="italic">#Special</text>
 </g>
 <g id="canopener:to move from (AnnaIsland5):1:0">
 <g id="import" transform="translate(1030.0, 103.0) scale(0.023808579497015585)">
@@ -488,7 +488,7 @@
 <rect x="1040.0" y="95.0" width="7.199999999999999" height="7.199999999999999" fill="#0090a2" opacity="0.3" />
 <text x="1043.52" y="100.4" font-size="5.76" text-anchor="middle">1</text>
 <rect x="1040.0" y="102.2" width="7.199999999999999" height="3.5999999999999996" fill="#0090a2" opacity="0.3" />
-<text x="1043.664" y="104.36" font-size="3.0599999999999996" text-anchor="middle">A3C</text>
+<text x="1043.664" y="104.36" font-size="1.8359999999999996" text-anchor="middle">Train</text>
 </g>
 <g id="empty:to move from (AnnaIsland5):0:1">
 <rect x="1007.5" y="117.5" width="20" height="20" fill="none" stroke="#000000" />

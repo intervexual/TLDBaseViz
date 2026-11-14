@@ -6972,7 +6972,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["bed,grill","?matches/0.5,?reclaimed:2", "?box,?buildout"]
+				"features": ["bed,grill","?matches/0.5,?reclaimed:2", "?box"]
 			},
 			"Cabin(LootedGrotto)": {
 				"region": "PortRemnant",
@@ -6992,7 +6992,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["wolf,mine"]
+				"features": ["mine","wolf,!cattail"]
 			},
 			"WhaleBoneShrine(Central)": {
 				"region": "PortRemnant",
@@ -8123,7 +8123,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bridge"]
+				"features": ["bridge,!cattail"]
 			},
 			"Canyon(A4)": {
 				"region": "AnnaIsland4",

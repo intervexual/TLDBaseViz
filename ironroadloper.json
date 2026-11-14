@@ -9697,16 +9697,16 @@
                 "loading": true,
                 "indoors": true,
                 "cabinfeverrisk": true,
-                "shortform": "Cabin(ByObstructed)",
+                "shortform": "PROC",
                 "explored": true,
                 "features": [
                     "bed,grill,?food",
                     "box,book:2,cedar,coal:6,firelog,reclaimed:10,paper,stick:45,tinder:4",
-                    "trunk,arrowhead:6,brake:3,bucket,cattail:20,charcoal:12,cloth:12,crate:2,feather:34,leather,harvestleather",
+                    "chest,arrowhead:6,brake:3,bucket,cattail:20,charcoal:12,cloth:12,-crate:2>PREC,feather:34,leather,harvestleather",
                     "contd,stim,harvestcloth,hook,prybar,quality,can:3,rosehip:188,scrap:4,stone:32,torch:2,whetstone",
                     "rug,antiseptic,food,water:10",
-                    "rug,deerhide,gut:2,maple:3,rabbitpelt,gut",
-                    "deermount,festive:2"
+                    "rug,deerhide,gut:2,#d93,maple:3,rabbitpelt,gut",
+                    "drawer,deermount,festive:2"
                 ]
             },
             "Gate(OT:N)": {
@@ -9847,7 +9847,7 @@
                 "loading": false,
                 "indoors": true,
                 "cabinfeverrisk": true,
-                "shortform": "Cabin(Empty)",
+                "shortform": "PREC",
                 "explored": true,
                 "features": [
                     "bed,grill,?buildout",
@@ -10211,7 +10211,7 @@
                 "explored": true,
                 "features": [
                     "rabbit",
-                    "plastic,head,can,tinder,-canopener>A3C,antiseptic"
+                    "plastic,head,can,tinder,-canopener>Train,antiseptic"
                 ]
             },
             "POI(Path)": {
@@ -10640,7 +10640,7 @@
                 "shortform": "Bridge(A1)",
                 "explored": true,
                 "features": [
-                    "bridge"
+                    "bridge,#?UpwardPath?"
                 ]
             },
             "Gate(A1)": {
@@ -11290,7 +11290,7 @@
                 "shortform": "OilWaterTanks(A3)",
                 "explored": true,
                 "features": [
-                    "oiltank,watertank,switch:2"
+                    "oiltank,watertank,switch:2,?sapling"
                 ]
             },
             "Bypass(A3:OTWT)": {
@@ -11357,9 +11357,9 @@
                 "features": [
                     "environs,cookedmeat:13,rawmeat:13,food:2",
                     "mat,bed,grill",
-                    "rug:3,bearhide,deerhide,gut:8,maple:2,sapling:2",
+                    "rug:3,#d103,bearhide,deerhide,gut:8,maple:2,sapling:2",
                     "chest,cedar:2,oilcan,rosehip:159,reishi:4,paper",
-                    "box,drawer,crate:2"
+                    "box,drawer,-crate:2>PREC"
                 ]
             },
             "Switch(A3:A4:E)": {
@@ -11628,7 +11628,7 @@
                 "shortform": "Pond(A4)",
                 "explored": false,
                 "features": [
-                    "bridge"
+                    "bridge,!cattail"
                 ]
             },
             "Canyon(A4)": {
@@ -11847,7 +11847,7 @@
                 "contd,cattail:4,shaker,cookedmeat:4,water",
                 "contd,arrowhead,charcoal:5,hacksaw,hammer,fuel,blueflare,heater,prybar",
                 "contd,sewing,arrow,simple,paint,stone,torch:5,oilcan",
-                "contd,brake:5,cloth:6,feather:7,gut:4,reishi:7,rosehip:90,scrap:16,stick:20"
+                "contd,brake:5,cloth:6,feather:7,gut:4,reishi:7,rosehip:90,scrap:16"
 			]
 		},
 		"UsedUp": {

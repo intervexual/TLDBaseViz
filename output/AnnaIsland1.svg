@@ -733,7 +733,7 @@
 <rect x="381.25" y="323.75" width="10" height="10" fill="#6741ca" />
 <text x="392.5" y="330.625" font-size="10" font-family="Arial" fill="default connection">to search for here (unexplored)</text>
 <rect x="381.25" y="335.0" width="10" height="10" fill="#007835" />
-<text x="392.5" y="341.875" font-size="10" font-family="Arial" fill="default connection">to unlock</text>
+<text x="392.5" y="341.875" font-size="10" font-family="Arial" fill="default connection">to harvest or unlock</text>
 <path d="M381.25,351.875 L391.25,351.875" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
 <text x="392.5" y="353.125" font-size="10" font-family="Arial" fill="default connection">railway</text>
 <path d="M381.25,363.125 L391.25,363.125" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
