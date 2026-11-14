@@ -1435,18 +1435,21 @@ def draw_special_elements(bases, last_base_name,
                           map_title='',
                           all_takes = None,
                           all_brings = None,
+                          inventory_bases = (),
                           east=0.0, north=0.0):
     gs = draw.Group(id='specials')
+    icon_size = bases[last_base_name].icon_size
 
     special_bases = {}
 
     specials = 'SPECIALS'
+    assert last_base_name in bases, last_base_name
     bases[specials] = BaseLocation(specials,
                      {REGION: bases[last_base_name].region,
                       CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
                       FEATURES: [],
                       EXPLORED: False, CABINFEVERRISK: False}, colours=colours)
-    bases[specials].draw(gs, bases[last_base_name].icon_size,
+    bases[specials].draw(gs, icon_size,
                          x=east,y=north)
     special_bases[specials] = bases[specials]
     last_base_name = specials
@@ -1463,12 +1466,33 @@ def draw_special_elements(bases, last_base_name,
         gs.append(gf)
 
     if not map_title: #CURR_INVENTORY in bases:
+        for inv in inventory_bases:
+            if inv != SPECIAL and inv != 'SPECIALS':
+                inventory_bases[inv].reset_drawing()
+                #inventory_bases[inv].draw(gs, icon_size)
+                bases[inv] = inventory_bases[inv]
+
+                conn = BaseConnection(last_base_name, SOUTH,
+                                    'bottom,left',
+                                      inv, 'top,left',
+                                      'fake', colours=colours)
+                bases[last_base_name].add_connection(conn)
+                bases[inv].add_connection(conn)
+
+                cob = bases[last_base_name].draw_connection(gs, bases[inv],
+                                                            unexplored=colours[BRING],
+                                                            border=colours[BASE],
+                                                            fill=colours[BASE_BG])
+                gs.append(cob)
+                special_bases[inv] = bases[inv]
+                last_base_name = inv
+
         to_bring, to_take = verify_taking_numbers(bases)
         out_bring = 'outstanding bring (missing source)'
 
         to_bring = condense_multiples_in_list(to_bring)
         bob = special_base(bases, out_bring, to_bring, last_base_name,
-                           EAST, colours=colours)
+                           SOUTH, colours=colours)
         cob = bases[last_base_name].draw_connection(gs, bob,
                                               unexplored=colours[BRING],
                                               border=colours[BRING],
@@ -1538,6 +1562,7 @@ def draw_bases(bases, colours,
                all_bases=None, map_title='',
                all_takes=None, all_brings=None,
                add_legend=True, output_png=True,
+               special_bases = (),
                print_output=False, print_warnings=True):
     """
     Draw all bases
@@ -1608,6 +1633,7 @@ def draw_bases(bases, colours,
 
     gs, special_bases = draw_special_elements(bases, last_base_name, colours,
                                map_title=map_title,
+                               inventory_bases=special_bases,
                                all_takes=all_takes, all_brings=all_brings,
                                east=wid, north=margin)
     s_wid, s_hei, west, east, north, south = graph_size(special_bases)
@@ -1691,7 +1717,7 @@ def get_bases_by_tier(bases):
         if i in by_tier:
             print(i, len(by_tier[i]), by_tier[i])
 
-def bases_of_region(bases, region):
+def bases_of_region(bases, region, include_special=False):
     """
     Filter bases to just those from a region.
     :param bases: dict of bases {str: BaseLocation}
@@ -1716,14 +1742,23 @@ def bases_of_region(bases, region):
     these_bases = {}
     for b in bases:
         bob = bases[b]
+        to_add = False
         #assert type(bob) == BaseLocation, f'{type(bob)}, {bob}'
         if type(bob) == BaseLocation:
             if bob.region == region or bob.region in region:
-                these_bases[b] = bob
+                to_add = True
+            elif include_special:
+                if bob.region == SPECIAL:
+                    to_add = True
         else:
             assert type(bob) == dict, f'{type(bob)}, {bob}'
             if bob[REGION] == region:
-                these_bases[b] = bob
+                to_add = True
+            elif include_special:
+                if bob[REGION] == SPECIAL:
+                    to_add = True
+        if to_add:
+            these_bases[b] = bob
     return these_bases
 
 
@@ -2060,6 +2095,7 @@ def draw_legend(d, colours, x=0, y=0,
     icon_x = x + margin_size
     g = draw.Group(id="legend")
 
+    legend_colour = STROKES['default']
     legend_width = 0
 
     assert  len(ASSETS) - len(ORDERING) <= 1, len(ASSETS) - len(ORDERING)
@@ -2272,7 +2308,8 @@ def legends_for_documentation(icon_wid=50):
     theme_n = list(set(theme_n))
 
 
-def special_base(bases, name, features, connec_name, connec_dir, colours=HEXES):
+def special_base(bases, name, features,
+                 connec_name, connec_dir, colours=HEXES):
     tob = BaseLocation(name,
                        {REGION: NOTINGAME,
                         CUSTOMIZABLE: False, LOADING: False, INDOORS: False,
@@ -2354,7 +2391,8 @@ def get_shortforms_and_longforms(bases):
     return shortforms, longforms
 
 
-def draw_bases_regionally_and_together(fname, region_folder='output/'):
+def draw_bases_regionally_and_together(fname,
+                                       region_folder='output/'):
     outfile = fname.replace('.json', '.svg')
 
     # TODO automatically centre the base system rather than manually specifying
@@ -2397,19 +2435,21 @@ def draw_bases_regionally_and_together(fname, region_folder='output/'):
         'FarTerritory': ['SunderedPass', 'ForsakenAirfield', 'ZoneOfContamination', 'TransferPass',
                          'FarRangeBranchLine'],
         # 'Miltonlands':['HushedRiverValley', 'MountainTown'],
-        'Mainline': ['BrokenRailroad', 'ForlornMuskeg', 'MysteryLake', 'Ravine', 'CoastalHighway', 'OIC',
+        'Mainline': ['BrokenRailroad', 'ForlornMuskeg', 'MysteryLake', 'Ravine', 'CoastalHighway', 'OldIslandConnector',
                      'DesolationPoint'],
         'Crossline': ['HushedRiverValley', 'MountainTown', 'ForlornMuskeg', 'BleakInlet'],
         # 'Coastline':['DesolationPoint', 'OIC', 'CoastalHighway', 'Ravine', 'BleakInlet']
-        'IronRoad':[ "PortRemnant", "AnnaIsland1",  "AnnaIsland2", "AnnaIsland3", "AnnaIsland4",  "AnnaIsland5", "AnnaIsland6",]
+        'IronRoad':[ "PortRemnant", "AnnaIsland1",  "AnnaIsland2", "AnnaIsland3", "AnnaIsland4",  "AnnaIsland5", "AnnaIsland6"]
         } # ,
     if len(regions) > 20:
         zone_bases, colours = process_input(fname, style_file=style_file, destination_warnings=False)
         for sr in super_regions:
             these_bases = bases_of_region(zone_bases, super_regions[sr])
+            special_bases = bases_of_region(bases, SPECIAL)
             draw_bases(these_bases, colours,
                        base_x=4000, base_y=2500,
                        width=6000, height=4500,
+                       special_bases=special_bases,
                        shortforms=shortforms, longforms=longforms, all_bases=bases,
                        output= region_folder + f'ZR-{sr}.svg', output_png=False, print_output=to_print, print_warnings=False)
 
@@ -2418,13 +2458,25 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         fname = sys.argv[1]
         print('Drawing', fname)
+        region_folder = 'output/'
+
+        if '-o' in sys.argv:
+            out_i = sys.argv.index('-o') + 1
+            region_folder = sys.argv[out_i]
+            # make folder if not already present
+            if not os.path.exists(region_folder):
+                os.mkdir(region_folder)
+
         if fname.endswith('.json'):
-            draw_bases_regionally_and_together(fname)
+            draw_bases_regionally_and_together(fname, region_folder=region_folder)
         else:
             print('To run: python3 TLDBaseViz.py mybases.json')
-    else:
+    elif '--testing' in sys.argv:
         doctest.testmod()
+    else:
         print('To run: python3 TLDBaseViz.py mybases.json')
         print('Optional parameters to add after the input json filename:')
         print('\t-v \t\t verbose mode')
         print('\t-s {filename} \t use alternate style file')
+        print('\t-o {output/side/} \t output to this directory')
+        print('\t--testing \t run doctests')

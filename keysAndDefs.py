@@ -68,6 +68,8 @@ COLOURS = 'colours'
 DASHES = 'dashes'
 DESCRIPTIONS = 'descriptions'
 
+SPECIAL = 'Special'
+
 BASE = 'base'
 BASE_BG = 'basebg'
 BG = 'bg'

@@ -7,6 +7,9 @@ The purpose of this vizualizer is to give a bird's eye view of all one's bases i
 I'm mapping out the new DLC areas:
 ![Anna Island and Port Remnant](output/ZR-IronRoad.svg)
 
+Here's my progress with the side interloper game I'm using to explore the Iron Road (`ironroadloper.json`):
+![Anna Island and Port Remnant](output/side/ZR-IronRoad.svg)
+
 I'm mostly using this vizualizer to keep track of all my bases in my main interloper game. I get region-by-region maps that show me what I have in every base, and what needs to be moved where. For example:
 ![DesolationPoint.svg](output/DesolationPoint.svg)
 ![MysteryLake.svg](output/MysteryLake.svg)
@@ -404,6 +407,7 @@ Icons used here are all from The Noun Project unless otherwise noted. They are a
 ## TODOs
 
 ### IRON ROAD
+1. Dynamic placement of PrototypeTrain base
 4. Better guesses at coordinates
 5. Update verificaton numbers with DLC additions for climbs, hammers, etc
 

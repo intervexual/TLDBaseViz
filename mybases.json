@@ -2774,7 +2774,7 @@
 		},
 		"% OLD ISLAND CONNECTOR": {
 			"Transition(OIC~CH)": {
-				"region": "OIC",
+				"region": "OldIslandConnector",
 				"shorthand": "T-OIC-CH",
 				"coords": [50, 400],
 				"customizable": false,
@@ -2786,7 +2786,7 @@
 					"*rockcache,stone:24"]
 			},
 			"HarrisBasement": {
-				"region": "OIC",
+				"region": "OldIslandConnector",
 				"coords": [400,500],
 				"customizable": true,
 				"loading": true,
@@ -2798,7 +2798,7 @@
 					"box,stone:50,washer"]
 			},
 			"Cave(RoadCollapse)": {
-				"region": "OIC",
+				"region": "OldIslandConnector",
 				"coords": [500,500],
 				"customizable": false,
 				"loading": false,
@@ -2808,7 +2808,7 @@
 				"features": ["wolf"]
 			},
 			"Cave(TheArch)": {
-				"region": "OIC",
+				"region": "OldIslandConnector",
 				"coords": [450,250],
 				"customizable": false,
 				"loading": false,
@@ -2818,7 +2818,7 @@
 				"features": ["wolf,beachcombing"]
 			},
 			"Transition(OIC~DP)": {
-				"region": "OIC",
+				"region": "OldIslandConnector",
 				"coords": [650,500],
 				"customizable": false,
 				"loading": true,
@@ -6970,7 +6970,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["bed,grill","?matches"]
+				"features": ["bed,grill","?matches,?box"]
 			},
 			"Cabin(LootedGrotto)": {
 				"region": "PortRemnant",
@@ -8045,7 +8045,8 @@
 				"explored":false,
 				"features": ["indoortrain,potbelly,bed",
 					"?cookpot,?wax,?brake,?scrap",
-					"?firstaid,?locker:9,?cupboard:4,?file:2,?drawer:6,?bag",
+					"?firstaid,?locker:9,?cupboard:4,?bag",
+					"?drawer:4,?file,?plastic,?file:8,?file:4,?drawer:4,?drawer",
 					"?rug:3,?mat,?calendar"]
 			},
 			"Switch(A4:RS:N)": {
@@ -8248,6 +8249,7 @@
 			"cabinfeverrisk":false,
 			"indoors": true,
 			"explored":true,
+			"comment": "RIP",
 			"comment": "RIP",
 			"features": ["#ConsumedAndLogged,#MT,stim,#Trader,jerrycan",
 				"#ConsumedAndLocated,#Quonset,prybar,",

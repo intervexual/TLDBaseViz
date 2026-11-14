@@ -5875,7 +5875,92 @@
                 ]
             }
         },
-        "% OLDISLANDCONNECTOR": {},
+        "% OLDISLANDCONNECTOR": {
+            "Transition(OIC~CH)": {
+                "region": "OldIslandConnector",
+                "coords": [
+                    50,
+                    400
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Transition(OIC~CH)",
+                "explored": false,
+                "features": []
+            },
+            "HarrisBasement": {
+                "region": "OldIslandConnector",
+                "coords": [
+                    400,
+                    500
+                ],
+                "customizable": true,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "HarrisBasement",
+                "explored": false,
+                "features": [
+                    "wolf",
+                    "?box,?washer:2",
+                    "?research/0.4545"
+                ]
+            },
+            "Cave(RoadCollapse)": {
+                "region": "OldIslandConnector",
+                "coords": [
+                    500,
+                    500
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": true,
+                "cabinfeverrisk": false,
+                "shortform": "Cave(RoadCollapse)",
+                "explored": false,
+                "features": [
+                    "wolf",
+                    "?research/0.4545"
+                ]
+            },
+            "Cave(TheArch)": {
+                "region": "OldIslandConnector",
+                "coords": [
+                    450,
+                    250
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": true,
+                "cabinfeverrisk": false,
+                "shortform": "Cave(TheArch)",
+                "explored": false,
+                "features": [
+                    "wolf,beachcombing",
+                    "?matches/0.5"
+                ]
+            },
+            "Transition(OIC~DP)": {
+                "region": "OldIslandConnector",
+                "coords": [
+                    650,
+                    500
+                ],
+                "customizable": false,
+                "loading": true,
+                "indoors": true,
+                "cabinfeverrisk": true,
+                "shortform": "Transition(OIC~DP)",
+                "explored": false,
+                "features": [
+                    "mine,saltdeposit",
+                    "?box,?locker:2",
+                    "?prybar/0.4324,?research/0.4545"
+                ]
+            }
+        },
         "% DESOLATIONPOINT": {
             "Transition(DP~OIC)": {
                 "region": "DesolationPoint",
@@ -9823,6 +9908,7 @@
                 "explored": false,
                 "features": [
                     "bed,?grill",
+                    "?box",
                     "?matches"
                 ]
             },
@@ -11540,7 +11626,7 @@
                 "features": [
                     "indoortrain",
                     "bed,?potbelly",
-                    "?firstaid,?locker:9,?cupboard:4,?bag,?file:2,?drawer:6",
+                    "?plastic,?firstaid,?locker:9,?cupboard:4,?bag,?file:13,?drawer:9",
                     "?calendar,?rug:3,?mat",
                     "?cookpot",
                     "?wax,?brake",
@@ -13649,7 +13735,7 @@
         ],
         [
             "Trailer(SouthOfPowerPlant)",
-            "south ",
+            "southwest ",
             "bottom,left",
             "Cave(NorthOfBearBend)",
             "top,right",
@@ -13665,7 +13751,7 @@
         ],
         [
             "Trailer(SouthOfPowerPlant)",
-            "south ",
+            "southeast ",
             "bottom,right",
             "CreekBedCave",
             "top,right",

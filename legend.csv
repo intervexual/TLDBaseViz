@@ -1,5 +1,5 @@
 %KEYWORD	DESCRIPTION	GROUP	THEME	CLUSTER	MATERIAL	FIXEDNUM	MOVABLE	INTERLOPER	STORAGE	NOTE
-bear	bear	natural	animal	natural		29.38	FALSE	TRUE		good
+bear	bear	natural	animal	natural		30.38	FALSE	TRUE		good
 moose	moose	natural	animal	natural			FALSE	TRUE		good
 deer	deer	natural	animal	natural			FALSE	TRUE		good
 wolf	wolf	natural	animal	natural			FALSE	TRUE		good

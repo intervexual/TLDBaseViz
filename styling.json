@@ -1,10 +1,10 @@
 {
   "colours":{
-		"bg":"oklch(0.95 0.02 190)",
+		"bg":"oklch(0.94 0.015 200)",
 	  	"fake":"oklch(0.95 0.02 190)",
 		"base":"oklch(0.4 0.06 150)",
 	  	"moved-customization":"oklch(0.4 0.06 130)",
-		"basebg":"oklch(0.98 0.02 150)",
+		"basebg":"oklch(0.99 0.02 150)",
 		"outdoor":"oklch(0.5 0.02 150)",
 	    "bring":"oklch(0.5 0.16 0)",
 		"oneway":"oklch(0.6 0.25 30)",
