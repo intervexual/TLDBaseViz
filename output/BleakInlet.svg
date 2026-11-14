@@ -1475,7 +1475,7 @@
 <path d="M1281.25,2261.25 L1281.25,2281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CanneryWorkerResidences:FishHut(EastBI)">
 <g id="BASE:FishHut(EastBI)">
-<rect x="1181.25" y="2281.25" width="100.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1181.25" y="2281.25" width="100.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="FishHut(EastBI):features">
 <g id="potbelly:FishHut(EastBI):0:0">
 <g id="import" transform="translate(1187.5, 2335.0) scale(1.7179178835251676)">
@@ -1516,7 +1516,7 @@
 </g>
 </g>
 <g id="FishHut(EastBI):header">
-<text x="1231.25" y="2290.78125" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1231.25" dy="0em">Fish</tspan><tspan x="1231.25" dy="1em">Hut</tspan><tspan x="1231.25" dy="1em">(EastBI)</tspan></text>
+<text x="1231.25" y="2290.78125" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1231.25" dy="0em">Fish</tspan><tspan x="1231.25" dy="1em">Hut</tspan><tspan x="1231.25" dy="1em">(EastBI)</tspan></text>
 </g>
 </g>
 </g>
@@ -2188,7 +2188,7 @@
 <path d="M621.25,1721.25 L621.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(NorthBI)">
 <g id="BASE:HuntersBlind(NorthBI)">
-<rect x="621.25" y="1661.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="621.25" y="1661.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="HuntersBlind(NorthBI):features">
 <g id="harvestbirch:HuntersBlind(NorthBI):0:0">
 <g id="import" transform="translate(631.25, 1677.5) scale(0.24883668538536483)">
@@ -2198,14 +2198,14 @@
 </g>
 </g>
 <g id="HuntersBlind(NorthBI):header">
-<text x="641.25" y="1666.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="641.25" dy="0em">Hunters</tspan><tspan x="641.25" dy="1em">Blind</tspan><tspan x="641.25" dy="1em">(NorthBI)</tspan></text>
+<text x="641.25" y="1666.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="641.25" dy="0em">Hunters</tspan><tspan x="641.25" dy="1em">Blind</tspan><tspan x="641.25" dy="1em">(NorthBI)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M621.25,1721.25 L601.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(SouthBI)">
 <g id="BASE:HuntersBlind(SouthBI)">
-<rect x="541.25" y="1721.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="541.25" y="1721.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="HuntersBlind(SouthBI):features">
 <g id="bear:HuntersBlind(SouthBI):0:0">
 <g id="import" transform="translate(550.0, 1757.5) scale(0.13959461723155955)">
@@ -2221,7 +2221,7 @@
 </g>
 </g>
 <g id="HuntersBlind(SouthBI):header">
-<text x="571.25" y="1730.625" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="571.25" dy="0em">Hunters</tspan><tspan x="571.25" dy="1em">Blind</tspan><tspan x="571.25" dy="1em">(SouthBI)</tspan></text>
+<text x="571.25" y="1730.625" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="571.25" dy="0em">Hunters</tspan><tspan x="571.25" dy="1em">Blind</tspan><tspan x="571.25" dy="1em">(SouthBI)</tspan></text>
 </g>
 </g>
 </g>
@@ -2229,7 +2229,7 @@
 <path d="M721.25,1721.25 L721.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(FrozenDelta)">
 <g id="BASE:HuntersBlind(FrozenDelta)">
-<rect x="661.25" y="1621.25" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="661.25" y="1621.25" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="HuntersBlind(FrozenDelta):features">
 <g id="rabbit:HuntersBlind(FrozenDelta):0:0">
 <g id="import" transform="translate(670.0, 1677.5) scale(1.021189738125593)">
@@ -2248,7 +2248,7 @@
 </g>
 </g>
 <g id="HuntersBlind(FrozenDelta):header">
-<text x="691.25" y="1632.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="691.25" dy="0em">Hunters</tspan><tspan x="691.25" dy="1em">Blind</tspan><tspan x="691.25" dy="1em">(Frozen</tspan><tspan x="691.25" dy="1em">Delta)</tspan></text>
+<text x="691.25" y="1632.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="691.25" dy="0em">Hunters</tspan><tspan x="691.25" dy="1em">Blind</tspan><tspan x="691.25" dy="1em">(Frozen</tspan><tspan x="691.25" dy="1em">Delta)</tspan></text>
 </g>
 </g>
 </g>
@@ -2637,7 +2637,7 @@
 <path d="M621.25,1661.25 L601.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntersBlind(NorthBI):Cave(EastBI)">
 <g id="BASE:Cave(EastBI)">
-<rect x="561.25" y="1661.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="561.25" y="1661.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Cave(EastBI):features">
 <g id="bed:Cave(EastBI):0:0">
 <g id="import" transform="translate(571.25, 1677.5) scale(0.7697636825494574)">
@@ -2650,7 +2650,7 @@
 </g>
 </g>
 <g id="Cave(EastBI):header">
-<text x="581.25" y="1668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="581.25" dy="0em">Cave</tspan><tspan x="581.25" dy="1em">(EastBI)</tspan></text>
+<text x="581.25" y="1668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="581.25" dy="0em">Cave</tspan><tspan x="581.25" dy="1em">(EastBI)</tspan></text>
 </g>
 </g>
 </g>

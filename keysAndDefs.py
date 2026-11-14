@@ -49,6 +49,7 @@ SQUIG = 'squig'
 CURVES = [UP, DOWN]
 WIDE = 'wide'
 TALL = 'tall'
+VERY = 'very'
 REVERSE = {SOUTH:NORTH, NORTH:SOUTH,
            EAST:WEST, WEST:EAST,
            BOTTOM:TOP, TOP:BOTTOM,

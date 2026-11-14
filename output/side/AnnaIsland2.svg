@@ -55,7 +55,7 @@
 <path d="M1501.25,1441.25 Q1481.25,1441.25,1481.25,1421.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(A2:A1:S):Switch(A2:A1:W)">
 <g id="BASE:Switch(A2:A1:W)">
-<rect x="1441.25" y="1381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1441.25" y="1381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Switch(A2:A1:W):features">
 <g id="switch:Switch(A2:A1:W):0:0">
 <g id="import" transform="translate(1451.25, 1397.5) scale(0.3333333333333333)">
@@ -64,7 +64,7 @@
 </g>
 </g>
 <g id="Switch(A2:A1:W):header">
-<text x="1461.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1461.25" dy="0em">Switch</tspan><tspan x="1461.25" dy="1em">(A2:A1:W)</tspan></text>
+<text x="1461.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1461.25" dy="0em">Switch</tspan><tspan x="1461.25" dy="1em">(A2:A1:W)</tspan></text>
 </g>
 </g>
 </g>
@@ -381,7 +381,7 @@
 <path d="M1441.25,1361.25 C1431.05,1361.25,1431.45,1341.25,1421.25,1341.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(TurnCircle):Bypass(A2:RP)">
 <g id="BASE:Bypass(A2:RP)">
-<rect x="1381.25" y="1301.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1381.25" y="1301.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Bypass(A2:RP):features">
 <g id="switch:Bypass(A2:RP):0:0">
 <g id="import" transform="translate(1391.25, 1317.5) scale(0.3333333333333333)">
@@ -390,7 +390,7 @@
 </g>
 </g>
 <g id="Bypass(A2:RP):header">
-<text x="1401.25" y="1308.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1401.25" dy="0em">Bypass</tspan><tspan x="1401.25" dy="1em">(A2:RP)</tspan></text>
+<text x="1401.25" y="1308.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1401.25" dy="0em">Bypass</tspan><tspan x="1401.25" dy="1em">(A2:RP)</tspan></text>
 </g>
 </g>
 </g>
@@ -484,7 +484,7 @@
 <path d="M1021.25,1401.25 L1021.25,1421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Gate(A2):POI(Canyon)">
 <g id="BASE:POI(Canyon)">
-<rect x="1021.25" y="1421.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1021.25" y="1421.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="POI(Canyon):features">
 <g id="cedar:POI(Canyon):0:0">
 <g id="import" transform="translate(1031.25, 1437.5) scale(0.0726852474387536)">
@@ -493,7 +493,7 @@
 </g>
 </g>
 <g id="POI(Canyon):header">
-<text x="1041.25" y="1428.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1041.25" dy="0em">POI</tspan><tspan x="1041.25" dy="1em">(Canyon)</tspan></text>
+<text x="1041.25" y="1428.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1041.25" dy="0em">POI</tspan><tspan x="1041.25" dy="1em">(Canyon)</tspan></text>
 </g>
 </g>
 </g>
@@ -549,7 +549,7 @@
 <path d="M921.25,1481.25 C911.05,1481.25,911.45,1501.25,901.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(Crisscross:E):Switch(Crisscross:S)">
 <g id="BASE:Switch(Crisscross:S)">
-<rect x="861.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="861.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Switch(Crisscross:S):features">
 <g id="switch:Switch(Crisscross:S):0:0">
 <g id="import" transform="translate(871.25, 1517.5) scale(0.3333333333333333)">
@@ -558,14 +558,14 @@
 </g>
 </g>
 <g id="Switch(Crisscross:S):header">
-<text x="881.25" y="1510.1339285714284" font-size="3.4821428571428577" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="881.25" dy="0em">Switch</tspan><tspan x="881.25" dy="1em">(Crisscross:S)</tspan></text>
+<text x="881.25" y="1510.1339285714284" font-size="3.4821428571428577" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="881.25" dy="0em">Switch</tspan><tspan x="881.25" dy="1em">(Crisscross:S)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M861.25,1481.25 C861.25,1486.25,841.25,1496.25,841.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(Crisscross:E):Switch(Crisscross:W)">
 <g id="BASE:Switch(Crisscross:W)">
-<rect x="801.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="801.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Switch(Crisscross:W):features">
 <g id="switch:Switch(Crisscross:W):0:0">
 <g id="import" transform="translate(811.25, 1517.5) scale(0.3333333333333333)">
@@ -574,7 +574,7 @@
 </g>
 </g>
 <g id="Switch(Crisscross:W):header">
-<text x="821.25" y="1510.1339285714284" font-size="3.4821428571428577" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="821.25" dy="0em">Switch</tspan><tspan x="821.25" dy="1em">(Crisscross:W)</tspan></text>
+<text x="821.25" y="1510.1339285714284" font-size="3.4821428571428577" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="821.25" dy="0em">Switch</tspan><tspan x="821.25" dy="1em">(Crisscross:W)</tspan></text>
 </g>
 </g>
 </g>
@@ -662,7 +662,7 @@
 <path d="M721.25,1481.25 C711.05,1481.25,711.45,1501.25,701.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(A2:DeadEnd):Stop(A2:DeadEnd)">
 <g id="BASE:Stop(A2:DeadEnd)">
-<rect x="661.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="661.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Stop(A2:DeadEnd):features">
 <g id="scrap:Stop(A2:DeadEnd):0:0">
 <g id="import" transform="translate(671.25, 1517.5) scale(0.37037037037037035)">
@@ -671,7 +671,7 @@
 </g>
 </g>
 <g id="Stop(A2:DeadEnd):header">
-<text x="681.25" y="1506.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="681.25" dy="0em">Stop</tspan><tspan x="681.25" dy="1em">(A2:</tspan><tspan x="681.25" dy="1em">Dead</tspan><tspan x="681.25" dy="1em">End)</tspan></text>
+<text x="681.25" y="1506.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="681.25" dy="0em">Stop</tspan><tspan x="681.25" dy="1em">(A2:</tspan><tspan x="681.25" dy="1em">Dead</tspan><tspan x="681.25" dy="1em">End)</tspan></text>
 </g>
 </g>
 </g>
@@ -719,7 +719,7 @@
 <path d="M581.25,1481.25 C591.05,1481.25,591.45,1501.25,601.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Transition(A2~A3):Stops(A2:A3)">
 <g id="BASE:Stops(A2:A3)">
-<rect x="601.25" y="1501.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="601.25" y="1501.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Stops(A2:A3):features">
 <g id="rabbit:Stops(A2:A3):0:0">
 <g id="import" transform="translate(610.0, 1537.5) scale(1.021189738125593)">
@@ -735,7 +735,7 @@
 </g>
 </g>
 <g id="Stops(A2:A3):header">
-<text x="631.25" y="1513.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="631.25" dy="0em">Stops</tspan><tspan x="631.25" dy="1em">(A2:A3)</tspan></text>
+<text x="631.25" y="1513.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="631.25" dy="0em">Stops</tspan><tspan x="631.25" dy="1em">(A2:A3)</tspan></text>
 </g>
 </g>
 </g>

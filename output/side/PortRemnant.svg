@@ -181,7 +181,7 @@
 <path d="M1581.25,1501.25 L1601.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Lighthouse:POI(RikenLike)">
 <g id="BASE:POI(RikenLike)">
-<rect x="1601.25" y="1381.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1601.25" y="1381.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="POI(RikenLike):features">
 <g id="wolf:POI(RikenLike):0:0">
 <g id="import" transform="translate(1611.25, 1435.0) scale(0.1511772931705658)">
@@ -201,7 +201,7 @@
 </g>
 </g>
 <g id="POI(RikenLike):header">
-<text x="1621.25" y="1400.0" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1621.25" dy="0em">POI</tspan><tspan x="1621.25" dy="1em">(Riken</tspan><tspan x="1621.25" dy="1em">Like)</tspan></text>
+<text x="1621.25" y="1400.0" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1621.25" dy="0em">POI</tspan><tspan x="1621.25" dy="1em">(Riken</tspan><tspan x="1621.25" dy="1em">Like)</tspan></text>
 </g>
 </g>
 </g>
@@ -210,7 +210,7 @@
 <path d="M1601.25,1381.25 L1601.25,1341.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(RikenLike):Warehouse(HasSecondLevel)">
 <g id="BASE:Warehouse(HasSecondLevel)">
-<rect x="1541.25" y="1221.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1541.25" y="1221.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Warehouse(HasSecondLevel):features">
 <g id="bed:Warehouse(HasSecondLevel):0:0">
 <g id="import" transform="translate(1550.0, 1272.5) scale(0.7697636825494574)">
@@ -248,14 +248,14 @@
 </g>
 </g>
 <g id="Warehouse(HasSecondLevel):header">
-<text x="1571.25" y="1233.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1571.25" dy="0em">Warehouse</tspan><tspan x="1571.25" dy="1em">(Has</tspan><tspan x="1571.25" dy="1em">Second</tspan><tspan x="1571.25" dy="1em">Level)</tspan></text>
+<text x="1571.25" y="1233.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1571.25" dy="0em">Warehouse</tspan><tspan x="1571.25" dy="1em">(Has</tspan><tspan x="1571.25" dy="1em">Second</tspan><tspan x="1571.25" dy="1em">Level)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1641.25,1381.25 L1681.25,1381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(RikenLike):Climb(ShelteredAccess)">
 <g id="BASE:Climb(ShelteredAccess)">
-<rect x="1681.25" y="1341.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1681.25" y="1341.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Climb(ShelteredAccess):features">
 <g id="climb:Climb(ShelteredAccess):0:0">
 <g id="import" transform="translate(1691.25, 1357.5) scale(0.21045321763345)">
@@ -264,7 +264,7 @@
 </g>
 </g>
 <g id="Climb(ShelteredAccess):header">
-<text x="1701.25" y="1347.0" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1701.25" dy="0em">Climb</tspan><tspan x="1701.25" dy="1em">(Sheltered</tspan><tspan x="1701.25" dy="1em">Access)</tspan></text>
+<text x="1701.25" y="1347.0" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1701.25" dy="0em">Climb</tspan><tspan x="1701.25" dy="1em">(Sheltered</tspan><tspan x="1701.25" dy="1em">Access)</tspan></text>
 </g>
 </g>
 </g>
@@ -272,7 +272,7 @@
 <path d="M1601.25,1221.25 L1601.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Warehouse(HasSecondLevel):RedWarehouse">
 <g id="BASE:RedWarehouse">
-<rect x="1521.25" y="1061.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1521.25" y="1061.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="RedWarehouse:features">
 <g id="bed:RedWarehouse:0:0">
 <g id="import" transform="translate(1528.75, 1087.5) scale(0.7697636825494574)">
@@ -352,14 +352,14 @@
 </g>
 </g>
 <g id="RedWarehouse:header">
-<text x="1561.25" y="1068.3333333333333" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1561.25" dy="0em">Red</tspan><tspan x="1561.25" dy="1em">Warehouse</tspan></text>
+<text x="1561.25" y="1068.3333333333333" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1561.25" dy="0em">Red</tspan><tspan x="1561.25" dy="1em">Warehouse</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1601.25,1221.25 L1621.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Warehouse(HasSecondLevel):Warehouse(Terraced)">
 <g id="BASE:Warehouse(Terraced)">
-<rect x="1621.25" y="1221.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1621.25" y="1221.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Warehouse(Terraced):features">
 <g id="reclaimed:Warehouse(Terraced):0:0">
 <g id="import" transform="translate(1631.25, 1237.5) scale(0.21052631578947367)">
@@ -368,14 +368,14 @@
 </g>
 </g>
 <g id="Warehouse(Terraced):header">
-<text x="1641.25" y="1229.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1641.25" dy="0em">Warehouse</tspan><tspan x="1641.25" dy="1em">(Terraced)</tspan></text>
+<text x="1641.25" y="1229.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1641.25" dy="0em">Warehouse</tspan><tspan x="1641.25" dy="1em">(Terraced)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1541.25,1221.25 L1521.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Warehouse(HasSecondLevel):Warehouse(NoRoof)">
 <g id="BASE:Warehouse(NoRoof)">
-<rect x="1461.25" y="1221.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1461.25" y="1221.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Warehouse(NoRoof):features">
 <g id="box:Warehouse(NoRoof):0:0">
 <g id="import" transform="translate(1470.0, 1272.5) scale(0.03968253968253968)">
@@ -401,7 +401,7 @@
 </g>
 </g>
 <g id="Warehouse(NoRoof):header">
-<text x="1491.25" y="1238.125" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1491.25" dy="0em">Warehouse</tspan><tspan x="1491.25" dy="1em">(No</tspan><tspan x="1491.25" dy="1em">Roof)</tspan></text>
+<text x="1491.25" y="1238.125" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1491.25" dy="0em">Warehouse</tspan><tspan x="1491.25" dy="1em">(No</tspan><tspan x="1491.25" dy="1em">Roof)</tspan></text>
 </g>
 </g>
 </g>
@@ -409,7 +409,7 @@
 <path d="M1601.25,1061.25 L1621.25,1061.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="RedWarehouse:Shed(DeparturesMemory)">
 <g id="BASE:Shed(DeparturesMemory)">
-<rect x="1621.25" y="1061.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1621.25" y="1061.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Shed(DeparturesMemory):features">
 <g id="rabbit:Shed(DeparturesMemory):0:0">
 <g id="import" transform="translate(1631.25, 1112.5) scale(1.021189738125593)">
@@ -428,7 +428,7 @@
 </g>
 </g>
 <g id="Shed(DeparturesMemory):header">
-<text x="1641.25" y="1082.443181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1641.25" dy="0em">Shed</tspan><tspan x="1641.25" dy="1em">(Departures</tspan><tspan x="1641.25" dy="1em">Memory)</tspan></text>
+<text x="1641.25" y="1082.443181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1641.25" dy="0em">Shed</tspan><tspan x="1641.25" dy="1em">(Departures</tspan><tspan x="1641.25" dy="1em">Memory)</tspan></text>
 </g>
 </g>
 </g>
@@ -906,7 +906,7 @@
 <path d="M1961.25,1061.25 L1981.25,1061.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
 <g id="Cabin(ByObstructed):Cave(ShelteredAccess)">
 <g id="BASE:Cave(ShelteredAccess)">
-<rect x="1981.25" y="1061.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1981.25" y="1061.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Cave(ShelteredAccess):features">
 <g id="tunnel:Cave(ShelteredAccess):0:0">
 <g id="import" transform="translate(1991.25, 1115.0) scale(0.21339479103315087)">
@@ -923,7 +923,7 @@
 </g>
 </g>
 <g id="Cave(ShelteredAccess):header">
-<text x="2001.25" y="1083.25" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="2001.25" dy="0em">Cave</tspan><tspan x="2001.25" dy="1em">(Sheltered</tspan><tspan x="2001.25" dy="1em">Access)</tspan></text>
+<text x="2001.25" y="1083.25" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="2001.25" dy="0em">Cave</tspan><tspan x="2001.25" dy="1em">(Sheltered</tspan><tspan x="2001.25" dy="1em">Access)</tspan></text>
 </g>
 </g>
 </g>
@@ -1152,7 +1152,7 @@
 <path d="M1481.25,801.25 L1481.25,781.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(ForgottenTrestle):Cabin(LootedGrotto)">
 <g id="BASE:Cabin(LootedGrotto)">
-<rect x="1481.25" y="641.25" width="60.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1481.25" y="641.25" width="60.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Cabin(LootedGrotto):features">
 <g id="bed:Cabin(LootedGrotto):0:0">
 <g id="import" transform="translate(1490.0, 690.0) scale(0.7697636825494574)">
@@ -1227,7 +1227,7 @@
 </g>
 </g>
 <g id="Cabin(LootedGrotto):header">
-<text x="1511.25" y="654.375" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1511.25" dy="0em">Cabin</tspan><tspan x="1511.25" dy="1em">(Looted</tspan><tspan x="1511.25" dy="1em">Grotto)</tspan></text>
+<text x="1511.25" y="654.375" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1511.25" dy="0em">Cabin</tspan><tspan x="1511.25" dy="1em">(Looted</tspan><tspan x="1511.25" dy="1em">Grotto)</tspan></text>
 </g>
 </g>
 </g>
@@ -1251,7 +1251,7 @@
 <path d="M1401.25,861.25 L1381.25,861.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cabin(Empty):WhaleBoneShrine(Central)">
 <g id="BASE:WhaleBoneShrine(Central)">
-<rect x="1341.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1341.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="WhaleBoneShrine(Central):features">
 <g id="shrine:WhaleBoneShrine(Central):0:0">
 <g id="import" transform="translate(1351.25, 877.5) scale(0.32474913656917376)">
@@ -1260,7 +1260,7 @@
 </g>
 </g>
 <g id="WhaleBoneShrine(Central):header">
-<text x="1361.25" y="866.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1361.25" dy="0em">Whale</tspan><tspan x="1361.25" dy="1em">Bone</tspan><tspan x="1361.25" dy="1em">Shrine</tspan><tspan x="1361.25" dy="1em">(Central)</tspan></text>
+<text x="1361.25" y="866.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1361.25" dy="0em">Whale</tspan><tspan x="1361.25" dy="1em">Bone</tspan><tspan x="1361.25" dy="1em">Shrine</tspan><tspan x="1361.25" dy="1em">(Central)</tspan></text>
 </g>
 </g>
 </g>
@@ -1351,7 +1351,7 @@
 <path d="M1341.25,861.25 L1321.25,861.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WhaleBoneShrine(Central):WhaleBoneShrine(NearA5)">
 <g id="BASE:WhaleBoneShrine(NearA5)">
-<rect x="1281.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1281.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="WhaleBoneShrine(NearA5):features">
 <g id="shrine:WhaleBoneShrine(NearA5):0:0">
 <g id="import" transform="translate(1291.25, 877.5) scale(0.32474913656917376)">
@@ -1360,7 +1360,7 @@
 </g>
 </g>
 <g id="WhaleBoneShrine(NearA5):header">
-<text x="1301.25" y="866.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1301.25" dy="0em">Whale</tspan><tspan x="1301.25" dy="1em">Bone</tspan><tspan x="1301.25" dy="1em">Shrine</tspan><tspan x="1301.25" dy="1em">(NearA5)</tspan></text>
+<text x="1301.25" y="866.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1301.25" dy="0em">Whale</tspan><tspan x="1301.25" dy="1em">Bone</tspan><tspan x="1301.25" dy="1em">Shrine</tspan><tspan x="1301.25" dy="1em">(NearA5)</tspan></text>
 </g>
 </g>
 </g>
@@ -1383,7 +1383,7 @@
 <path d="M1281.25,861.25 L1261.25,861.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WhaleBoneShrine(NearA5):POI(LastQuarrel)">
 <g id="BASE:POI(LastQuarrel)">
-<rect x="1221.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1221.25" y="861.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="POI(LastQuarrel):features">
 <g id="bag:POI(LastQuarrel):0:0">
 <g id="import" transform="translate(1231.25, 877.5) scale(0.22827141992287667)">
@@ -1392,7 +1392,7 @@
 </g>
 </g>
 <g id="POI(LastQuarrel):header">
-<text x="1241.25" y="866.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1241.25" dy="0em">POI</tspan><tspan x="1241.25" dy="1em">(Last</tspan><tspan x="1241.25" dy="1em">Quarrel)</tspan></text>
+<text x="1241.25" y="866.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1241.25" dy="0em">POI</tspan><tspan x="1241.25" dy="1em">(Last</tspan><tspan x="1241.25" dy="1em">Quarrel)</tspan></text>
 </g>
 </g>
 </g>

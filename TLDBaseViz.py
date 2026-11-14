@@ -285,10 +285,18 @@ class BaseConnection:
         if TALL in self.direction:
             self.direction = self.direction.replace(TALL,'')
             self.add_height = 2
+            if VERY in self.direction:
+                self.add_height += 2
+                self.direction = self.direction.replace(VERY, '')
+                self.length_modifiers += VERY
             self.length_modifiers += TALL
         if WIDE in self.direction:
             self.direction = self.direction.replace(WIDE,'')
             self.add_width = 2
+            if VERY in self.direction:
+                self.add_width += 2
+                self.direction = self.direction.replace(VERY, '')
+                self.length_modifiers += VERY
             self.length_modifiers += WIDE
         self.reverse = REVERSE[self.direction]
 

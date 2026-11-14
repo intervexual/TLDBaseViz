@@ -1680,7 +1680,7 @@
 <path d="M1321.25,1201.25 L1321.25,1181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(DCCargo):BearCave(Upper)">
 <g id="BASE:BearCave(Upper)">
-<rect x="1281.25" y="1141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1281.25" y="1141.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="BearCave(Upper):features">
 <g id="bear:BearCave(Upper):0:0">
 <g id="import" transform="translate(1291.25, 1157.5) scale(0.13959461723155955)">
@@ -1689,7 +1689,7 @@
 </g>
 </g>
 <g id="BearCave(Upper):header">
-<text x="1301.25" y="1146.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1301.25" dy="0em">Bear</tspan><tspan x="1301.25" dy="1em">Cave</tspan><tspan x="1301.25" dy="1em">(Upper)</tspan></text>
+<text x="1301.25" y="1146.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1301.25" dy="0em">Bear</tspan><tspan x="1301.25" dy="1em">Cave</tspan><tspan x="1301.25" dy="1em">(Upper)</tspan></text>
 </g>
 </g>
 </g>

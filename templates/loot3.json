@@ -9744,8 +9744,8 @@
                 "explored": false,
                 "features": [
                     "?grill",
-                    "?oilcan:6,?simple",
-                    "?wax"
+                    "?oilcan:11,?prybar,?simple",
+                    "?wax,?reclaimed:3,?brake:2"
                 ]
             },
             "Gate(OT:W)": {
@@ -10599,6 +10599,24 @@
                     "switch"
                 ]
             },
+            "POI(UpwardPath)": {
+                "region": "AnnaIsland1",
+                "coords": [
+                    1834,
+                    365
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "POI(UpwardPath)",
+                "explored": false,
+                "features": [
+                    "snowshelter",
+                    "?cookpot",
+                    "?cedar"
+                ]
+            },
             "Cabin(Huts)": {
                 "region": "AnnaIsland1",
                 "coords": [
@@ -10614,8 +10632,9 @@
                 "features": [
                     "rabbit",
                     "bed,?grill",
-                    "?box,?freezer",
+                    "?box,?plastic,?freezer,?trash",
                     "?crate",
+                    "?accelerant",
                     "?wax"
                 ]
             },
@@ -11222,6 +11241,54 @@
                     "flatbed,bufferstop"
                 ]
             },
+            "Switch(A3:C:E)": {
+                "region": "AnnaIsland3",
+                "coords": [
+                    -260,
+                    -370
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Switch(A3:C:E)",
+                "explored": false,
+                "features": [
+                    "switch"
+                ]
+            },
+            "Switch(A3:C:W)": {
+                "region": "AnnaIsland3",
+                "coords": [
+                    -260,
+                    -370
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Switch(A3:C:W)",
+                "explored": false,
+                "features": [
+                    "switch"
+                ]
+            },
+            "Bypass(A3:C)": {
+                "region": "AnnaIsland3",
+                "coords": [
+                    -90,
+                    -415
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": true,
+                "cabinfeverrisk": false,
+                "shortform": "Bypass(A3:C)",
+                "explored": false,
+                "features": [
+                    "flatbed"
+                ]
+            },
             "Cave(A3)": {
                 "region": "AnnaIsland3",
                 "coords": [
@@ -11236,7 +11303,9 @@
                 "explored": false,
                 "features": [
                     "rabbit",
-                    "bed"
+                    "bed",
+                    "?box",
+                    "?cedar"
                 ]
             },
             "Gate(A3:Cave)": {
@@ -18194,6 +18263,14 @@
             "rail"
         ],
         [
+            "Switch(A1:MT:N)",
+            "west ",
+            "bottom,left",
+            "POI(UpwardPath)",
+            "bottom,right",
+            "default"
+        ],
+        [
             "Cabin(Huts)",
             "north ",
             "top,left",
@@ -18555,9 +18632,9 @@
         ],
         [
             "Transition(A3~A2)",
-            "west ",
+            "west wide",
             "bottom,left",
-            "Cave(A3)",
+            "Switch(A3:C:E)",
             "bottom,right",
             "rail"
         ],
@@ -18570,7 +18647,23 @@
             "rail"
         ],
         [
-            "Cave(A3)",
+            "Switch(A3:C:E)",
+            "west verywide",
+            "bottom,left",
+            "Switch(A3:C:W)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Switch(A3:C:E)",
+            "southwestsquigdown ",
+            "bottom,left",
+            "Bypass(A3:C)",
+            "top,right",
+            "rail"
+        ],
+        [
+            "Switch(A3:C:W)",
             "west wide",
             "bottom,left",
             "Gate(A3:Cave)",
@@ -18578,10 +18671,26 @@
             "rail"
         ],
         [
+            "Switch(A3:C:W)",
+            "southeastsquigdown ",
+            "bottom,right",
+            "Bypass(A3:C)",
+            "top,left",
+            "rail"
+        ],
+        [
             "Gate(A3:Cave)",
             "west ",
             "bottom,left",
             "Switch(A3:OTWT:E)",
+            "bottom,right",
+            "rail"
+        ],
+        [
+            "Cave(A3)",
+            "north ",
+            "top,right",
+            "Bypass(A3:C)",
             "bottom,right",
             "rail"
         ],

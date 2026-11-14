@@ -350,7 +350,7 @@
 <path d="M1561.25,741.25 L1561.25,721.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(A1:A2):Bypass(WT:A1)">
 <g id="BASE:Bypass(WT:A1)">
-<rect x="1501.25" y="661.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1501.25" y="661.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
 <g id="Bypass(WT:A1):features">
 <g id="wolf:Bypass(WT:A1):0:0">
 <g id="import" transform="translate(1510.0, 697.5) scale(0.1511772931705658)">
@@ -366,7 +366,7 @@
 </g>
 </g>
 <g id="Bypass(WT:A1):header">
-<text x="1531.25" y="673.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1531.25" dy="0em">Bypass</tspan><tspan x="1531.25" dy="1em">(WT:A1)</tspan></text>
+<text x="1531.25" y="673.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1531.25" dy="0em">Bypass</tspan><tspan x="1531.25" dy="1em">(WT:A1)</tspan></text>
 </g>
 </g>
 </g>
