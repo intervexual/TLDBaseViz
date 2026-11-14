@@ -9618,6 +9618,7 @@
                 "shortform": "Warehouse(HasSecondLevel)",
                 "explored": false,
                 "features": [
+                    "rabbit",
                     "bed",
                     "?hammer,?sewing",
                     "?reclaimed,?brake"
@@ -9711,7 +9712,7 @@
                     "bed,?grill",
                     "?chest,?box,?drawer",
                     "?crate:2,?deermount,?festive:2,?rug:2",
-                    "?matches,?canopener"
+                    "?matches,?blueflare,?canopener"
                 ]
             },
             "Gate(OT:N)": {
@@ -9851,7 +9852,7 @@
                     540
                 ],
                 "customizable": true,
-                "loading": true,
+                "loading": false,
                 "indoors": true,
                 "cabinfeverrisk": true,
                 "shortform": "Cabin(Empty)",
@@ -9859,7 +9860,9 @@
                 "features": [
                     "bed,?grill",
                     "?box",
-                    "?matches"
+                    "buildout",
+                    "?matches",
+                    "?reclaimed:2"
                 ]
             },
             "Cabin(LootedGrotto)": {
@@ -10139,7 +10142,9 @@
                 "shortform": "WaterTank(A5)",
                 "explored": false,
                 "features": [
-                    "wolf,watertank"
+                    "watertank",
+                    "?grill",
+                    "?box"
                 ]
             },
             "Switch(A5:WT:W)": {
@@ -10220,7 +10225,8 @@
                 "explored": false,
                 "features": [
                     "rabbit",
-                    "?plastic"
+                    "?box,?plastic",
+                    "?cedar"
                 ]
             },
             "POI(Path)": {
@@ -10236,7 +10242,7 @@
                 "shortform": "POI(Path)",
                 "explored": false,
                 "features": [
-                    "?stick"
+                    "deer"
                 ]
             },
             "Cave(A5)": {
@@ -10252,7 +10258,8 @@
                 "shortform": "Cave(A5)",
                 "explored": false,
                 "features": [
-                    "deer"
+                    "deer",
+                    "?box"
                 ]
             },
             "Switch(A5:OT:E)": {
@@ -10380,7 +10387,7 @@
                 "shortform": "Transition(A5~A6)",
                 "explored": false,
                 "features": [
-                    "?reclaimed"
+                    "?stick"
                 ]
             },
             "Transition(A5~A4)": {
@@ -11443,7 +11450,8 @@
                 "shortform": "Stop(A3:A4:E)",
                 "explored": false,
                 "features": [
-                    "bufferstop"
+                    "bufferstop",
+                    "?grill"
                 ]
             },
             "Stop(A3:A4:W)": {
@@ -11574,13 +11582,13 @@
                 "shortform": "RepairStation(A4)",
                 "explored": false,
                 "features": [
-                    "indoortrain",
-                    "bed,?potbelly",
+                    "harvestfir,indoortrain",
+                    "bed,?potbelly,?grill",
                     "?plastic,?firstaid,?locker:9,?cupboard:4,?bag,?file:13,?drawer:9",
                     "?calendar,?rug:3,?mat",
-                    "?cookpot",
-                    "?wax,?brake",
-                    "?scrap"
+                    "?matches,?cookpot,?prybar",
+                    "?wax,?reclaimed:5,?book:12,?brake:4",
+                    "?scrap:2"
                 ]
             },
             "Switch(A4:RS:N)": {
@@ -11746,7 +11754,7 @@
                 "shortform": "Transition(A6~A4)",
                 "explored": false,
                 "features": [
-                    "tunnel"
+                    "bridge"
                 ]
             },
             "POI(Junction)": {
@@ -11778,6 +11786,7 @@
                 "shortform": "Transition(A6~A5)",
                 "explored": false,
                 "features": [
+                    "?bag",
                     "?reclaimed"
                 ]
             },
@@ -11795,8 +11804,11 @@
                 "explored": false,
                 "features": [
                     "?grill",
+                    "?box:2",
                     "?wax",
-                    "?train"
+                    "?train",
+                    "?reclaimed:2",
+                    "?scrap:4"
                 ]
             },
             "TrainShelterOffice": {
@@ -11813,7 +11825,10 @@
                 "explored": false,
                 "features": [
                     "bed,?potbelly",
-                    "?wax"
+                    "?cupboard,?drawer:5",
+                    "?matches,?hammer",
+                    "?food",
+                    "?wax,?reclaimed"
                 ]
             }
         }
@@ -17717,7 +17732,7 @@
         ],
         [
             "Switch(A5:WT:E)",
-            "southwestsquigdown ",
+            "southwestsquigdown tallwide",
             "bottom,left",
             "Bypass(A5:WT)",
             "top,right",
@@ -17888,7 +17903,7 @@
             "east wide",
             "top,right",
             "TrainShelter",
-            "top,left",
+            "bottom,left",
             "rail"
         ],
         [
@@ -17902,9 +17917,9 @@
         [
             "TrainShelter",
             "east ",
-            "top,right",
+            "bottom,right",
             "TrainShelterOffice",
-            "top,left",
+            "bottom,left",
             "default"
         ],
         [

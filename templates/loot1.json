@@ -11445,7 +11445,8 @@
                 "shortform": "Stop(A3:A4:E)",
                 "explored": false,
                 "features": [
-                    "bufferstop"
+                    "bufferstop",
+                    "?grill"
                 ]
             },
             "Stop(A3:A4:W)": {
@@ -11576,13 +11577,13 @@
                 "shortform": "RepairStation(A4)",
                 "explored": false,
                 "features": [
-                    "indoortrain",
-                    "bed,?potbelly",
+                    "harvestfir,indoortrain",
+                    "bed,?potbelly,?grill",
                     "?plastic,?firstaid,?locker:9,?cupboard:4,?bag,?file:13,?drawer:9",
                     "?calendar,?rug:3,?mat",
-                    "?cookpot",
-                    "?wax,?brake",
-                    "?scrap"
+                    "?matches,?cookpot,?prybar",
+                    "?wax,?reclaimed:5,?book:12,?brake:4",
+                    "?scrap:2"
                 ]
             },
             "Switch(A4:RS:N)": {

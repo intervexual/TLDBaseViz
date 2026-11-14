@@ -9844,13 +9844,13 @@
                     540
                 ],
                 "customizable": true,
-                "loading": true,
+                "loading": false,
                 "indoors": true,
                 "cabinfeverrisk": true,
                 "shortform": "Cabin(Empty)",
                 "explored": true,
                 "features": [
-                    "bed,grill",
+                    "bed,grill,?buildout",
                     "box,reclaimed:2,stick:10"
                 ]
             },
@@ -10130,7 +10130,7 @@
                 "shortform": "WaterTank(A5)",
                 "explored": false,
                 "features": [
-                    "wolf,watertank"
+                    "wolf,watertank,?grill,?box"
                 ]
             },
             "Switch(A5:WT:W)": {
@@ -10227,7 +10227,7 @@
                 "shortform": "POI(Path)",
                 "explored": false,
                 "features": [
-                    "?stick"
+                    "deer"
                 ]
             },
             "Cave(A5)": {
@@ -11430,7 +11430,7 @@
                 "shortform": "Stop(A3:A4:E)",
                 "explored": false,
                 "features": [
-                    "bufferstop"
+                    "bufferstop,grill"
                 ]
             },
             "Stop(A3:A4:W)": {
@@ -11559,6 +11559,7 @@
                 "shortform": "A4RS",
                 "explored": true,
                 "features": [
+                    "environs,grill,harvestfir",
                     "indoortrain,train",
                     "rug:3,bed",
                     "mat,cookedmeat:4",
@@ -11733,7 +11734,7 @@
                 "shortform": "Transition(A6~A4)",
                 "explored": true,
                 "features": [
-                    "tunnel"
+                    "bridge"
                 ]
             },
             "POI(Junction)": {
@@ -11765,7 +11766,7 @@
                 "shortform": "Transition(A6~A5)",
                 "explored": true,
                 "features": [
-                    ""
+                    "bag"
                 ]
             },
             "TrainShelter": {
@@ -11781,7 +11782,7 @@
                 "shortform": "TrainShelter",
                 "explored": true,
                 "features": [
-                    "grill",
+                    "grill,box",
                     "?wax"
                 ]
             },
@@ -11831,12 +11832,12 @@
 			"explored":true,
 			"features": [
                 "potbelly,cookpot",
-                "coal:15,stick:20",
-                "reishi:4",
-                "cattail:4,shaker,cookedmeat:4,water",
-                "arrowhead,charcoal:5,hacksaw,hammer,fuel,blueflare,heater,prybar",
+                "oven,coal:15,stick:20",
+                "contd,reishi:4",
+                "contd,cattail:4,shaker,cookedmeat:4,water",
+                "contd,arrowhead,charcoal:5,hacksaw,hammer,fuel,blueflare,heater,prybar",
                 "contd,sewing,arrow,simple,paint,stone,torch:5,oilcan",
-                "brake:5,cloth:6,feather:7,gut:4,reishi:7,rosehip:90,scrap:16,stick:20"
+                "contd,brake:5,cloth:6,feather:7,gut:4,reishi:7,rosehip:90,scrap:16,stick:20"
 			]
 		},
 		"UsedUp": {
@@ -17749,7 +17750,7 @@
         ],
         [
             "Switch(A5:WT:E)",
-            "southwestsquigdown ",
+            "southwestsquigdown tallwide",
             "bottom,left",
             "Bypass(A5:WT)",
             "top,right",
@@ -17920,7 +17921,7 @@
             "east wide",
             "top,right",
             "TrainShelter",
-            "top,left",
+            "bottom,left",
             "rail"
         ],
         [
@@ -17934,9 +17935,9 @@
         [
             "TrainShelter",
             "east ",
-            "top,right",
+            "bottom,right",
             "TrainShelterOffice",
-            "top,left",
+            "bottom,left",
             "default"
         ],
         [

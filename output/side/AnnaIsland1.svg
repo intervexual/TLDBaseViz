@@ -16,7 +16,7 @@
 </g>
 </g>
 <g id="Transition(A1~PR):header">
-<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(A1~PR)</tspan></text>
+<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(A1~PR)</tspan></text>
 </g>
 </g>
 <path d="M1541.25,1501.25 L1561.25,1481.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
@@ -31,7 +31,7 @@
 </g>
 </g>
 <g id="Switch(A1:PR:W):header">
-<text x="1581.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:W)</tspan></text>
+<text x="1581.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:W)</tspan></text>
 </g>
 </g>
 </g>
@@ -53,7 +53,7 @@
 </g>
 </g>
 <g id="Bypass(A1:PR):header">
-<text x="1571.25" y="1373.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1571.25" dy="0em">Bypass</tspan><tspan x="1571.25" dy="1em">(A1:PR)</tspan></text>
+<text x="1571.25" y="1373.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1571.25" dy="0em">Bypass</tspan><tspan x="1571.25" dy="1em">(A1:PR)</tspan></text>
 </g>
 </g>
 </g>
@@ -69,7 +69,7 @@
 </g>
 </g>
 <g id="Switch(A1:PR:S):header">
-<text x="1641.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
+<text x="1641.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
 </g>
 </g>
 </g>
@@ -86,7 +86,7 @@
 </g>
 </g>
 <g id="Stop(A1:PR:N):header">
-<text x="1641.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:N)</tspan></text>
+<text x="1641.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:N)</tspan></text>
 </g>
 </g>
 </g>
@@ -102,7 +102,7 @@
 </g>
 </g>
 <g id="Switch(A1:PR:E):header">
-<text x="1641.25" y="1329.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:E)</tspan></text>
+<text x="1641.25" y="1329.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Switch</tspan><tspan x="1641.25" dy="1em">(A1:PR:E)</tspan></text>
 </g>
 </g>
 </g>
@@ -118,7 +118,7 @@
 </g>
 </g>
 <g id="Switch(A1:PR:N):header">
-<text x="1581.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:N)</tspan></text>
+<text x="1581.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:PR:N)</tspan></text>
 </g>
 </g>
 </g>
@@ -135,7 +135,7 @@
 </g>
 </g>
 <g id="Stop(A1:PR:S):header">
-<text x="1641.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
+<text x="1641.25" y="1269.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Stop</tspan><tspan x="1641.25" dy="1em">(A1:PR:S)</tspan></text>
 </g>
 </g>
 </g>
@@ -155,7 +155,7 @@
 </g>
 </g>
 <g id="Switch(A1:MT:S):header">
-<text x="1581.25" y="1209.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:S)</tspan></text>
+<text x="1581.25" y="1209.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:S)</tspan></text>
 </g>
 </g>
 </g>
@@ -176,7 +176,7 @@
 </g>
 </g>
 <g id="Bypass(A1:MT):header">
-<text x="1581.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Bypass</tspan><tspan x="1581.25" dy="1em">(A1:MT)</tspan></text>
+<text x="1581.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Bypass</tspan><tspan x="1581.25" dy="1em">(A1:MT)</tspan></text>
 </g>
 </g>
 </g>
@@ -192,7 +192,7 @@
 </g>
 </g>
 <g id="POI(A1:MT):header">
-<text x="1521.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">POI</tspan><tspan x="1521.25" dy="1em">(A1:MT)</tspan></text>
+<text x="1521.25" y="1148.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">POI</tspan><tspan x="1521.25" dy="1em">(A1:MT)</tspan></text>
 </g>
 </g>
 </g>
@@ -209,7 +209,7 @@
 </g>
 </g>
 <g id="Switch(A1:MT:N):header">
-<text x="1581.25" y="1089.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:N)</tspan></text>
+<text x="1581.25" y="1089.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:MT:N)</tspan></text>
 </g>
 </g>
 </g>
@@ -258,7 +258,7 @@
 </g>
 </g>
 <g id="Cabin(Huts):header">
-<text x="1591.25" y="991.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1591.25" dy="0em">Cabin</tspan><tspan x="1591.25" dy="1em">(Huts)</tspan></text>
+<text x="1591.25" y="991.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1591.25" dy="0em">Cabin</tspan><tspan x="1591.25" dy="1em">(Huts)</tspan></text>
 </g>
 </g>
 </g>
@@ -275,7 +275,7 @@
 </g>
 </g>
 <g id="Cave(A1):header">
-<text x="1581.25" y="928.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Cave</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
+<text x="1581.25" y="928.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Cave</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
 </g>
@@ -292,7 +292,7 @@
 </g>
 </g>
 <g id="Bridge(A1):header">
-<text x="1581.25" y="868.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Bridge</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
+<text x="1581.25" y="868.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Bridge</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
 </g>
@@ -309,7 +309,7 @@
 </g>
 </g>
 <g id="Gate(A1):header">
-<text x="1581.25" y="808.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Gate</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
+<text x="1581.25" y="808.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Gate</tspan><tspan x="1581.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
 </g>
@@ -326,7 +326,7 @@
 </g>
 </g>
 <g id="Switch(A1:A2):header">
-<text x="1581.25" y="748.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:A2)</tspan></text>
+<text x="1581.25" y="748.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Switch</tspan><tspan x="1581.25" dy="1em">(A1:A2)</tspan></text>
 </g>
 </g>
 </g>
@@ -343,14 +343,14 @@
 </g>
 </g>
 <g id="Switch(A1:OT):header">
-<text x="1601.25" y="688.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Switch</tspan><tspan x="1601.25" dy="1em">(A1:OT)</tspan></text>
+<text x="1601.25" y="688.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Switch</tspan><tspan x="1601.25" dy="1em">(A1:OT)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1561.25,741.25 L1561.25,721.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(A1:A2):Bypass(WT:A1)">
 <g id="BASE:Bypass(WT:A1)">
-<rect x="1501.25" y="661.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1501.25" y="661.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Bypass(WT:A1):features">
 <g id="wolf:Bypass(WT:A1):0:0">
 <g id="import" transform="translate(1510.0, 697.5) scale(0.1511772931705658)">
@@ -366,7 +366,7 @@
 </g>
 </g>
 <g id="Bypass(WT:A1):header">
-<text x="1531.25" y="673.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1531.25" dy="0em">Bypass</tspan><tspan x="1531.25" dy="1em">(WT:A1)</tspan></text>
+<text x="1531.25" y="673.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1531.25" dy="0em">Bypass</tspan><tspan x="1531.25" dy="1em">(WT:A1)</tspan></text>
 </g>
 </g>
 </g>
@@ -388,7 +388,7 @@
 </g>
 </g>
 <g id="Transition(A1~A2):header">
-<text x="1531.25" y="595.4375" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1531.25" dy="0em">Transition</tspan><tspan x="1531.25" dy="1em">(A1~A2)</tspan></text>
+<text x="1531.25" y="595.4375" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1531.25" dy="0em">Transition</tspan><tspan x="1531.25" dy="1em">(A1~A2)</tspan></text>
 </g>
 </g>
 </g>
@@ -405,7 +405,7 @@
 </g>
 </g>
 <g id="Switch(OT:BS):header">
-<text x="1621.25" y="628.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1621.25" dy="0em">Switch</tspan><tspan x="1621.25" dy="1em">(OT:BS)</tspan></text>
+<text x="1621.25" y="628.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1621.25" dy="0em">Switch</tspan><tspan x="1621.25" dy="1em">(OT:BS)</tspan></text>
 </g>
 </g>
 </g>
@@ -437,7 +437,7 @@
 </g>
 </g>
 <g id="OilTank(A1):header">
-<text x="1601.25" y="547.7083333333333" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Oil</tspan><tspan x="1601.25" dy="1em">Tank</tspan><tspan x="1601.25" dy="1em">(A1)</tspan></text>
+<text x="1601.25" y="547.7083333333333" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Oil</tspan><tspan x="1601.25" dy="1em">Tank</tspan><tspan x="1601.25" dy="1em">(A1)</tspan></text>
 </g>
 </g>
 </g>
@@ -453,7 +453,7 @@
 </g>
 </g>
 <g id="Stop(A1:OT):header">
-<text x="1681.25" y="568.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1681.25" dy="0em">Stop</tspan><tspan x="1681.25" dy="1em">(A1:OT)</tspan></text>
+<text x="1681.25" y="568.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1681.25" dy="0em">Stop</tspan><tspan x="1681.25" dy="1em">(A1:OT)</tspan></text>
 </g>
 </g>
 </g>
@@ -472,7 +472,7 @@
 <rect x="281.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (AnnaIsland1):features"></g>
 <g id="to move from (AnnaIsland1):header">
-<text x="291.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="291.25" dy="0em">to move from </tspan><tspan x="291.25" dy="1em">(Anna</tspan><tspan x="291.25" dy="1em">Island1)</tspan></text>
+<text x="291.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="291.25" dy="0em">to move from </tspan><tspan x="291.25" dy="1em">(Anna</tspan><tspan x="291.25" dy="1em">Island1)</tspan></text>
 </g>
 </g>
 </g>
@@ -481,7 +481,7 @@
 <rect x="281.25" y="121.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (AnnaIsland1):features"></g>
 <g id="to bring to (AnnaIsland1):header">
-<text x="291.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="291.25" dy="0em">to bring to </tspan><tspan x="291.25" dy="1em">(Anna</tspan><tspan x="291.25" dy="1em">Island1)</tspan></text>
+<text x="291.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="291.25" dy="0em">to bring to </tspan><tspan x="291.25" dy="1em">(Anna</tspan><tspan x="291.25" dy="1em">Island1)</tspan></text>
 </g>
 </g>
 </g>
@@ -490,7 +490,7 @@
 <rect x="281.25" y="161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within AnnaIsland1:features"></g>
 <g id="move within AnnaIsland1:header">
-<text x="291.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="291.25" dy="0em">move within </tspan><tspan x="291.25" dy="1em">Anna</tspan><tspan x="291.25" dy="1em">Island1</tspan></text>
+<text x="291.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="291.25" dy="0em">move within </tspan><tspan x="291.25" dy="1em">Anna</tspan><tspan x="291.25" dy="1em">Island1</tspan></text>
 </g>
 </g>
 </g>
@@ -499,7 +499,7 @@
 <rect x="281.25" y="201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for AnnaIsland1:features"></g>
 <g id="no source for AnnaIsland1:header">
-<text x="291.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="291.25" dy="0em">no source for </tspan><tspan x="291.25" dy="1em">Anna</tspan><tspan x="291.25" dy="1em">Island1</tspan></text>
+<text x="291.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="291.25" dy="0em">no source for </tspan><tspan x="291.25" dy="1em">Anna</tspan><tspan x="291.25" dy="1em">Island1</tspan></text>
 </g>
 </g>
 </g>

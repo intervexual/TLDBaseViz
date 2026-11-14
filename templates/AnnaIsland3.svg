@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="1400.0" height="360.0" viewBox="0 0 1400.0 360.0">
+     width="1400.0" height="380.0" viewBox="0 0 1400.0 380.0">
 <defs>
 </defs>
-<rect x="0" y="0" width="1400.0" height="360.0" fill="#e0eeef" />
+<rect x="0" y="0" width="1400.0" height="380.0" fill="#e0eeef" />
 <g transform="translate(-741.25,-1381.25)">
 <g id="bases">
 <g id="BASE:Transition(A3~A2)">
@@ -454,16 +454,34 @@
 <path d="M1021.25,1641.25 L1041.25,1641.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Switch(A3:A4:S):Stop(A3:A4:E)">
 <g id="BASE:Stop(A3:A4:E)">
-<rect x="1041.25" y="1641.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
+<rect x="1041.25" y="1641.25" width="40.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Stop(A3:A4:E):features">
 <g id="bufferstop:Stop(A3:A4:E):0:0">
-<g id="import" transform="translate(1051.25, 1657.5) scale(0.20000199801996021)">
+<g id="import" transform="translate(1051.25, 1675.0) scale(0.20000199801996021)">
 <path d="M21.19985,12.536995 V17.935395 H9.2268503 L9.2307573,12.536995 C9.2307573,10.908095,10.543257,9.5955953,12.172157,9.5955953 H18.258057 C19.886957,9.5955953,21.199457,10.908095,21.199457,12.536995 Z M9.2308503,75.567995 H21.20385 V50.766995 H9.2308503 Z M87.80085,9.5949953 H81.74225 C80.11335,9.5949953,78.80085,10.907495,78.80085,12.536395 V17.934795 H90.77385 L90.76994,12.536395 C90.76994,10.907495,89.457443,9.5949953,87.797243,9.5949953 Z M78.80085,75.567995 H90.77385 V50.766995 H78.80085 Z M24.80485,87.571995 V81.236095 C24.80485,79.673595,23.53925,78.407995,21.97675,78.407995 L8.4497503,78.411901 C6.8872503,78.411901,5.6216503,79.677501,5.6216503,81.240001 V87.575901 C5.6216503,89.138401,6.8872503,90.404005,8.4497503,90.404005 H21.98075 C23.54325,90.404005,24.80885,89.138401,24.80885,87.575901 Z M94.37085,87.571995 V81.236095 C94.37085,79.673595,93.10525,78.407995,91.54275,78.407995 H78.01175 C76.44925,78.407995,75.18365,79.673595,75.18365,81.236095 V87.571995 C75.18365,89.134495,76.44925,90.400095,78.01175,90.400095 H91.54275 C93.10525,90.400095,94.37085,89.134495,94.37085,87.571995 Z M5.1718503,20.794995 C2.3163503,20.794995,-4.9725342e-05,23.107495,-4.9725342e-05,25.994195 V35.650395 L10.68795,20.795395 Z M14.19915,20.794995 L0.00015027466,40.536995 V42.736195 C0.00015027466,45.591695,2.3126503,47.908095,5.1720503,47.908095 H10.08615 L29.62915,20.795095 Z M33.14415,20.794995 L13.62815,47.907995 H28.97215 L48.51515,20.794995 Z M52.05815,20.794995 L32.54215,47.907995 H47.94015 L67.45615,20.794995 Z M70.97215,20.794995 L51.45615,47.907995 H66.85415 L86.37015,20.794995 Z M94.82715,20.794995 H89.88575 L70.36975,47.907995 H85.76775 L99.99775,28.137995 V25.993495 C99.99775,23.106795,97.68525,20.794295,94.82585,20.794295 Z M94.82715,47.907995 C97.68265,47.907995,99.99905,45.595495,99.99905,42.736095 V33.048595 L89.28405,47.903595 H94.82705 Z" fill="#2f5136" stroke="none" stroke-width="0" opacity="1" />
+</g>
+</g>
+<g id="grill:Stop(A3:A4:E):0:1">
+<g id="import" transform="translate(1051.25, 1697.5) scale(0.2428481139377296)">
+<path d="M78.569,11.758 L78.569,11.735 L78.569,11.727 C78.562,9.056,75.037,6.255,69.056,4.108 L69.056,19.361 C75.027,17.219,78.549,14.425,78.569,11.758 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M31.146,0.52 C28.841,0.727,26.593,1.009,24.437,1.361 L24.437,22.111 C26.595,22.463,28.843,22.745,31.146,22.952 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M22.223,1.75 C19.809,2.209,17.561,2.755,15.512,3.378 L15.512,20.091 C17.562,20.715,19.811,21.261,22.223,21.72 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M13.298,19.362 L13.298,4.109 C7.315,6.257,3.789,9.059,3.785,11.731 L3.785,11.736 L3.785,11.75 C3.798,14.419,7.322,17.217,13.298,19.362 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M48.996,0.344 C46.794,0.191,44.546,0.103,42.284,0.082 L42.284,23.387 C44.543,23.366,46.794,23.279,48.996,23.126 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M66.843,3.379 C64.793,2.755,62.545,2.209,60.131,1.751 L60.131,21.721 C62.545,21.262,64.793,20.716,66.843,20.093 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M57.918,1.36 C55.76,1.008,53.512,0.726,51.209,0.519 L51.209,22.95 C53.513,22.743,55.761,22.461,57.918,22.109 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M40.071,0.082 C37.81,0.104,35.561,0.192,33.359,0.344 L33.359,23.126 C35.561,23.278,37.812,23.365,40.071,23.387 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M64.581,30.11 L64.581,28.912 C64.581,26.98,66.153,25.409,68.084,25.409 L75.99,25.409 C77.084,22.628,77.832,19.746,78.229,16.794 C76.128,18.764,72.768,20.525,68.288,21.962 L68.284,21.963 C68.28,21.964,68.276,21.965,68.273,21.967 C65.586,22.831,62.549,23.56,59.25,24.132 L59.244,24.133 C59.234,24.135,59.224,24.137,59.214,24.138 C56.346,24.639,53.309,25.016,50.189,25.259 C47.258,25.49,44.232,25.608,41.196,25.609 C41.19,25.609,41.184,25.61,41.178,25.61 C41.172,25.61,41.166,25.609,41.16,25.609 C38.124,25.608,35.098,25.491,32.166,25.259 C29.047,25.016,26.009,24.639,23.14,24.138 C23.131,24.136,23.122,24.135,23.113,24.133 L23.105,24.132 C19.808,23.56,16.773,22.832,14.085,21.968 C14.079,21.966,14.074,21.965,14.068,21.963 L14.067,21.962 C9.587,20.525,6.228,18.763,4.126,16.794 C4.524,19.747,5.272,22.629,6.366,25.41 L14.272,25.41 C16.204,25.41,17.775,26.982,17.775,28.913 L17.775,30.111 C17.775,32.043,16.203,33.614,14.272,33.614 L10.854,33.614 C14.043,38.026,18.187,41.728,22.942,44.39 C25.18,45.644,27.55,46.666,29.987,47.427 C32.442,48.195,34.991,48.711,37.564,48.959 C39.945,49.188,42.411,49.188,44.793,48.959 C47.366,48.711,49.915,48.195,52.369,47.427 C54.806,46.666,57.176,45.644,59.414,44.39 C64.17,41.727,68.313,38.025,71.502,33.613 L68.084,33.613 C66.152,33.613,64.581,32.041,64.581,30.11 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M81.065,27.621 L68.084,27.621 C67.373,27.621,66.794,28.2,66.794,28.911 L66.794,30.109 C66.794,30.82,67.373,31.399,68.084,31.399 L73.564,31.399 L73.604,31.399 L81.066,31.399 C81.777,31.399,82.356,30.82,82.356,30.109 L82.356,28.911 C82.355,28.2,81.776,27.621,81.065,27.621 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M15.561,30.11 L15.561,28.912 C15.561,28.201,14.982,27.622,14.271,27.622 L1.29,27.622 C0.579,27.622,0.0,28.201,0.0,28.912 L0.0,30.11 C0.0,30.821,0.579,31.4,1.29,31.4 L8.758,31.4 L8.789,31.4 L14.271,31.4 C14.983,31.399,15.561,30.821,15.561,30.11 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M54.39,49.082 L75.217,81.89 L77.203,80.744 L59.494,46.86 C57.846,47.722,56.137,48.465,54.39,49.082 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M5.152,80.745 L7.138,81.891 L27.965,49.082 C26.218,48.464,24.509,47.722,22.862,46.861 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
+<path d="M38.619,51.261 L40.028,82.273 L42.326,82.273 L43.735,51.261 C42.885,51.315,42.029,51.345,41.177,51.345 C40.325,51.345,39.469,51.315,38.619,51.261 Z" fill="#6741ca" stroke="none" stroke-width="0" opacity="1" />
 </g>
 </g>
 </g>
 <g id="Stop(A3:A4:E):header">
-<text x="1061.25" y="1649.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1061.25" dy="0em">Stop</tspan><tspan x="1061.25" dy="1em">(A3:A4:E)</tspan></text>
+<text x="1061.25" y="1655.4166666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1061.25" dy="0em">Stop</tspan><tspan x="1061.25" dy="1em">(A3:A4:E)</tspan></text>
 </g>
 </g>
 </g>
@@ -621,7 +639,7 @@
 <path d="M38.619,51.261 L40.028,82.273 L42.326,82.273 L43.735,51.261 C42.885,51.315,42.029,51.345,41.177,51.345 C40.325,51.345,39.469,51.315,38.619,51.261 Z" fill="default connection" stroke="none" stroke-width="0" opacity="1.0" />
 </g>
 <text x="932.5" y="195.625" font-size="10" font-family="Arial" fill="default connection">2-slot stove</text>
-<text x="1121.25" y="195.625" font-size="10" font-family="Arial" fill="default connection">2</text>
+<text x="1121.25" y="195.625" font-size="10" font-family="Arial" fill="default connection">3</text>
 <g id="import" transform="translate(921.25, 200.0) scale(0.2777777777777778)">
 <path d="M32.86586,31.23527 H35.36473 A0.63719,0.63719,0.0,0,0,36.0,30.59998 V28.10113 A3.58313,3.58313,0.0,0,0,33.94588,29.11763 A3.64874,3.64874,0.0,0,0,32.86586,31.23527 Z" fill="default connection" stroke="none" stroke-width="0" opacity="1.0" />
 <path d="M0.0,28.10113 V30.59998 A0.63719,0.63719,0.0,0,0,0.63527,31.23531 H3.13414 A3.64874,3.64874,0.0,0,0,2.05414,29.11767 A3.58313,3.58313,0.0,0,0,0.0,28.10113 Z" fill="default connection" stroke="none" stroke-width="0" opacity="1.0" />
@@ -709,16 +727,16 @@
 <text x="932.5" y="308.125" font-size="10" font-family="Arial" fill="default connection">to search for here (unexplored)</text>
 <path d="M921.25,318.125 L931.25,318.125" stroke="#2a5fb7" stroke-width="1.25" stroke-dasharray="9,2" />
 <text x="932.5" y="319.375" font-size="10" font-family="Arial" fill="default connection">railway</text>
-<path d="M1141.25,59.375 L1151.25,59.375" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
-<text x="1152.5" y="60.625" font-size="10" font-family="Arial" fill="default connection">default connection</text>
-<rect x="1141.25" y="65.0" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="1152.5" y="71.875" font-size="10" font-family="Arial" fill="default connection">customizable indoor location</text>
-<rect x="1141.25" y="76.25" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="1152.5" y="83.125" font-size="10" font-family="Arial" fill="default connection">non-customizable indoor location</text>
-<rect x="1141.25" y="87.5" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="1152.5" y="94.375" font-size="10" font-family="Arial" fill="default connection">outdoors (cannot cure hides)</text>
-<text x="1152.5" y="105.625" font-size="10" font-family="Arial" fill="default connection" font-style="italic">italics mean no loading screen</text>
-<text x="1152.5" y="116.875" font-size="10" font-family="Arial" fill="default connection">Icons by various contributors to The Noun Project</text>
+<path d="M921.25,329.375 L931.25,329.375" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
+<text x="932.5" y="330.625" font-size="10" font-family="Arial" fill="default connection">default connection</text>
+<rect x="921.25" y="335.0" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="932.5" y="341.875" font-size="10" font-family="Arial" fill="default connection">customizable indoor location</text>
+<rect x="1141.25" y="53.75" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="1152.5" y="60.625" font-size="10" font-family="Arial" fill="default connection">non-customizable indoor location</text>
+<rect x="1141.25" y="65.0" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="1152.5" y="71.875" font-size="10" font-family="Arial" fill="default connection">outdoors (cannot cure hides)</text>
+<text x="1152.5" y="83.125" font-size="10" font-family="Arial" fill="default connection" font-style="italic">italics mean no loading screen</text>
+<text x="1152.5" y="94.375" font-size="10" font-family="Arial" fill="default connection">Icons by various contributors to The Noun Project</text>
 </g>
 </g>
 </svg>

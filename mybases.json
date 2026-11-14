@@ -7960,7 +7960,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bufferstop"]
+				"features": ["bufferstop,grill"]
 			},
 
 			"Stop(A3:A4:W)": {
@@ -8043,8 +8043,9 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["indoortrain,potbelly,bed",
-					"?cookpot,?wax,?brake,?scrap",
+				"features": ["environs,harvestfir,?grill,?reclaimed,?scrap",
+					"indoortrain,potbelly,bed",
+					"?matches,?cookpot,?prybar/0.5,?wax,?brake:4,?reclaimed:4,?book:12,?scrap",
 					"?firstaid,?locker:9,?cupboard:4,?bag",
 					"?drawer:4,?file,?plastic,?file:8,?file:4,?drawer:4,?drawer",
 					"?rug:3,?mat,?calendar"]
@@ -8228,7 +8229,7 @@
 			"indoors": false,
 			"explored":true,
 			"features": [
-                "potbelly"
+                "potbelly,oven"
 			]
 		},
 		"Uncertainty": {
