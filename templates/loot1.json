@@ -9741,7 +9741,8 @@
                 "features": [
                     "?grill",
                     "?oilcan:11,?prybar,?simple",
-                    "?wax,?reclaimed:3,?brake:2"
+                    "?wax,?reclaimed:3,?brake:2",
+                    "?scrap:2"
                 ]
             },
             "Gate(OT:W)": {

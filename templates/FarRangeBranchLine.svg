@@ -7,16 +7,16 @@
 <g transform="translate(-1121.25,-1401.25)">
 <g id="bases">
 <g id="BASE:Transition(FRBL~BR)">
-<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Transition(FRBL~BR):features"></g>
 <g id="Transition(FRBL~BR):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(FRBL~BR)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(FRBL~BR)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1481.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(FRBL~BR):POI(RailOffice)">
 <g id="BASE:POI(RailOffice)">
-<rect x="1401.25" y="1501.25" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1401.25" y="1501.25" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(RailOffice):features">
 <g id="matches:POI(RailOffice):0:0">
 <g id="import" transform="translate(1408.75, 1537.5) scale(0.2222222222222222)">
@@ -36,7 +36,7 @@
 </g>
 </g>
 <g id="POI(RailOffice):header">
-<text x="1441.25" y="1507.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1441.25" dy="0em">POI</tspan><tspan x="1441.25" dy="1em">(Rail</tspan><tspan x="1441.25" dy="1em">Office)</tspan></text>
+<text x="1441.25" y="1507.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1441.25" dy="0em">POI</tspan><tspan x="1441.25" dy="1em">(Rail</tspan><tspan x="1441.25" dy="1em">Office)</tspan></text>
 </g>
 </g>
 </g>
@@ -44,7 +44,7 @@
 <path d="M1401.25,1501.25 L1381.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(RailOffice):TrainCar(SurfeitTrestle)">
 <g id="BASE:TrainCar(SurfeitTrestle)">
-<rect x="1341.25" y="1501.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1341.25" y="1501.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="TrainCar(SurfeitTrestle):features">
 <g id="prybar:TrainCar(SurfeitTrestle):0:0">
 <g id="import" transform="translate(1351.25, 1555.0) scale(0.20000199801996021)">
@@ -64,7 +64,7 @@
 </g>
 </g>
 <g id="TrainCar(SurfeitTrestle):header">
-<text x="1361.25" y="1518.984375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1361.25" dy="0em">Train</tspan><tspan x="1361.25" dy="1em">Car</tspan><tspan x="1361.25" dy="1em">(Surfeit</tspan><tspan x="1361.25" dy="1em">Trestle)</tspan></text>
+<text x="1361.25" y="1518.984375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1361.25" dy="0em">Train</tspan><tspan x="1361.25" dy="1em">Car</tspan><tspan x="1361.25" dy="1em">(Surfeit</tspan><tspan x="1361.25" dy="1em">Trestle)</tspan></text>
 </g>
 </g>
 </g>
@@ -72,7 +72,7 @@
 <path d="M1341.25,1501.25 L1321.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="TrainCar(SurfeitTrestle):PlatelayersShortcut">
 <g id="BASE:PlatelayersShortcut">
-<rect x="1281.25" y="1501.25" width="40.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1281.25" y="1501.25" width="40.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="PlatelayersShortcut:features">
 <g id="mine:PlatelayersShortcut:0:0">
 <g id="import" transform="translate(1291.25, 1535.0) scale(0.7559093211178387)">
@@ -92,14 +92,14 @@
 </g>
 </g>
 <g id="PlatelayersShortcut:header">
-<text x="1301.25" y="1515.909090909091" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1301.25" dy="0em">Platelayers</tspan><tspan x="1301.25" dy="1em">Shortcut</tspan></text>
+<text x="1301.25" y="1515.909090909091" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1301.25" dy="0em">Platelayers</tspan><tspan x="1301.25" dy="1em">Shortcut</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1381.25,1501.25 L1381.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TrainCar(SurfeitTrestle):Climb(FRBL)">
 <g id="BASE:Climb(FRBL)">
-<rect x="1341.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1341.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(FRBL):features">
 <g id="climb:Climb(FRBL):0:0">
 <g id="import" transform="translate(1351.25, 1457.5) scale(0.21045321763345)">
@@ -108,7 +108,7 @@
 </g>
 </g>
 <g id="Climb(FRBL):header">
-<text x="1361.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1361.25" dy="0em">Climb</tspan><tspan x="1361.25" dy="1em">(FRBL)</tspan></text>
+<text x="1361.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1361.25" dy="0em">Climb</tspan><tspan x="1361.25" dy="1em">(FRBL)</tspan></text>
 </g>
 </g>
 </g>
@@ -116,7 +116,7 @@
 <path d="M1281.25,1501.25 L1261.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="PlatelayersShortcut:RemnantCave">
 <g id="BASE:RemnantCave">
-<rect x="1201.25" y="1501.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1201.25" y="1501.25" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="RemnantCave:features">
 <g id="wolf:RemnantCave:0:0">
 <g id="import" transform="translate(1210.0, 1537.5) scale(0.1511772931705658)">
@@ -130,7 +130,7 @@
 </g>
 </g>
 <g id="RemnantCave:header">
-<text x="1231.25" y="1513.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1231.25" dy="0em">Remnant</tspan><tspan x="1231.25" dy="1em">Cave</tspan></text>
+<text x="1231.25" y="1513.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1231.25" dy="0em">Remnant</tspan><tspan x="1231.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -139,10 +139,10 @@
 <path d="M1201.25,1501.25 L1181.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="RemnantCave:Transition(FRBL~TP)">
 <g id="BASE:Transition(FRBL~TP)">
-<rect x="1161.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1161.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Transition(FRBL~TP):features"></g>
 <g id="Transition(FRBL~TP):header">
-<text x="1171.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1171.25" dy="0em">Transition</tspan><tspan x="1171.25" dy="1em">(FRBL~TP)</tspan></text>
+<text x="1171.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1171.25" dy="0em">Transition</tspan><tspan x="1171.25" dy="1em">(FRBL~TP)</tspan></text>
 </g>
 </g>
 </g>

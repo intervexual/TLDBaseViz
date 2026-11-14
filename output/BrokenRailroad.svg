@@ -3192,7 +3192,7 @@
 <rect x="1122.5" y="200.0" width="10" height="10" fill="#006d91" />
 <text x="1133.75" y="206.875" font-size="10" font-family="Arial" fill="default connection">to destroy</text>
 <rect x="1122.5" y="211.25" width="10" height="10" fill="#7db138" />
-<text x="1133.75" y="218.125" font-size="10" font-family="Arial" fill="default connection">to make form other materials</text>
+<text x="1133.75" y="218.125" font-size="10" font-family="Arial" fill="default connection">to make from other materials</text>
 <path d="M1122.5,228.125 L1132.5,228.125" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="1133.75" y="229.375" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M1122.5,239.375 L1132.5,239.375" stroke="#00a883" stroke-width="1.25" stroke-dasharray="2,1" />

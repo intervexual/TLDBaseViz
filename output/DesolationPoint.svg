@@ -2346,7 +2346,7 @@
 <rect x="1241.25" y="65.0" width="10" height="10" fill="#0090a2" />
 <text x="1252.5" y="71.875" font-size="10" font-family="Arial" fill="default connection">to take from here</text>
 <rect x="1241.25" y="76.25" width="10" height="10" fill="#7db138" />
-<text x="1252.5" y="83.125" font-size="10" font-family="Arial" fill="default connection">to make form other materials</text>
+<text x="1252.5" y="83.125" font-size="10" font-family="Arial" fill="default connection">to make from other materials</text>
 <path d="M1241.25,93.125 L1251.25,93.125" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="1252.5" y="94.375" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M1241.25,104.375 L1251.25,104.375" stroke="#1e0c2a" stroke-width="1.25" stroke-dasharray="2,1" />

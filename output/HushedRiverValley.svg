@@ -1928,26 +1928,28 @@
 <text x="972.5" y="634.375" font-size="10" font-family="Arial" fill="default connection">to make from fir</text>
 <rect x="961.25" y="638.75" width="10" height="10" fill="#a5a600" />
 <text x="972.5" y="645.625" font-size="10" font-family="Arial" fill="default connection">to make from cedar</text>
-<path d="M961.25,655.625 L971.25,655.625" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
-<text x="972.5" y="656.875" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
-<path d="M961.25,666.875 L971.25,666.875" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
-<text x="972.5" y="668.125" font-size="10" font-family="Arial" fill="default connection">cattail head path</text>
-<path d="M961.25,678.125 L971.25,678.125" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7,4" />
-<text x="972.5" y="679.375" font-size="10" font-family="Arial" fill="default connection">spray paint path</text>
-<path d="M961.25,689.375 L971.25,689.375" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
-<text x="972.5" y="690.625" font-size="10" font-family="Arial" fill="default connection">one-way route</text>
-<path d="M961.25,700.625 L971.25,700.625" stroke="#00a883" stroke-width="1.25" stroke-dasharray="2,1" />
-<text x="972.5" y="701.875" font-size="10" font-family="Arial" fill="default connection">path to mark</text>
-<path d="M961.25,711.875 L971.25,711.875" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
-<text x="972.5" y="713.125" font-size="10" font-family="Arial" fill="default connection">default connection</text>
-<rect x="961.25" y="717.5" width="10" height="10" fill="none" stroke="#2f5136" />
-<text x="972.5" y="724.375" font-size="10" font-family="Arial" fill="default connection">customizable indoor location</text>
-<rect x="961.25" y="728.75" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
-<text x="972.5" y="735.625" font-size="10" font-family="Arial" fill="default connection">non-customizable indoor location</text>
-<rect x="961.25" y="740.0" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
-<text x="972.5" y="746.875" font-size="10" font-family="Arial" fill="default connection">outdoors (cannot cure hides)</text>
-<text x="972.5" y="758.125" font-size="10" font-family="Arial" fill="default connection" font-style="italic">italics mean no loading screen</text>
-<text x="972.5" y="769.375" font-size="10" font-family="Arial" fill="default connection">Icons by various contributors to The Noun Project</text>
+<rect x="961.25" y="650.0" width="10" height="10" fill="#007835" />
+<text x="972.5" y="656.875" font-size="10" font-family="Arial" fill="default connection">to unlock</text>
+<path d="M961.25,666.875 L971.25,666.875" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
+<text x="972.5" y="668.125" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
+<path d="M961.25,678.125 L971.25,678.125" stroke="#756127" stroke-width="1.25" stroke-dasharray="6,2" />
+<text x="972.5" y="679.375" font-size="10" font-family="Arial" fill="default connection">cattail head path</text>
+<path d="M961.25,689.375 L971.25,689.375" stroke="#c85d00" stroke-width="1.25" stroke-dasharray="7,4" />
+<text x="972.5" y="690.625" font-size="10" font-family="Arial" fill="default connection">spray paint path</text>
+<path d="M961.25,700.625 L971.25,700.625" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />
+<text x="972.5" y="701.875" font-size="10" font-family="Arial" fill="default connection">one-way route</text>
+<path d="M961.25,711.875 L971.25,711.875" stroke="#00a883" stroke-width="1.25" stroke-dasharray="2,1" />
+<text x="972.5" y="713.125" font-size="10" font-family="Arial" fill="default connection">path to mark</text>
+<path d="M961.25,723.125 L971.25,723.125" stroke="#16524f" stroke-width="1.25" stroke-dasharray="2,3" />
+<text x="972.5" y="724.375" font-size="10" font-family="Arial" fill="default connection">default connection</text>
+<rect x="961.25" y="728.75" width="10" height="10" fill="none" stroke="#2f5136" />
+<text x="972.5" y="735.625" font-size="10" font-family="Arial" fill="default connection">customizable indoor location</text>
+<rect x="961.25" y="740.0" width="10" height="10" fill="none" stroke="#2f5136" opacity="0.25" />
+<text x="972.5" y="746.875" font-size="10" font-family="Arial" fill="default connection">non-customizable indoor location</text>
+<rect x="961.25" y="751.25" width="10" height="10" fill="none" stroke="#2f5136" rx="4.0" ry="4.0" opacity="0.25" />
+<text x="972.5" y="758.125" font-size="10" font-family="Arial" fill="default connection">outdoors (cannot cure hides)</text>
+<text x="972.5" y="769.375" font-size="10" font-family="Arial" fill="default connection" font-style="italic">italics mean no loading screen</text>
+<text x="972.5" y="780.625" font-size="10" font-family="Arial" fill="default connection">Icons by various contributors to The Noun Project</text>
 </g>
 </g>
 </svg>

@@ -7181,7 +7181,7 @@
 <rect x="1982.5" y="188.75" width="10" height="10" fill="#a5a600" />
 <text x="1993.75" y="195.625" font-size="10" font-family="Arial" fill="default connection">to make from cedar</text>
 <rect x="1982.5" y="200.0" width="10" height="10" fill="#7db138" />
-<text x="1993.75" y="206.875" font-size="10" font-family="Arial" fill="default connection">to make form other materials</text>
+<text x="1993.75" y="206.875" font-size="10" font-family="Arial" fill="default connection">to make from other materials</text>
 <path d="M1982.5,216.875 L1992.5,216.875" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="1993.75" y="218.125" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M1982.5,228.125 L1992.5,228.125" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />

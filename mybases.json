@@ -7483,7 +7483,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["gate"]
+				"features": ["!gate"]
 			},
 			"Switch(A1:A2)": {
 				"region": "AnnaIsland1",
@@ -7670,7 +7670,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["gate"]
+				"features": ["!gate"]
 			},
 			"POI(Canyon)": {
 				"region": "AnnaIsland2",
@@ -7883,7 +7883,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["gate"]
+				"features": ["!gate"]
 			},
 			"Switch(A3:OTWT:E)": {
 				"region": "AnnaIsland3",
@@ -7933,7 +7933,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["deer,gate"]
+				"features": ["deer,!gate"]
 			},
 			"POI(Cove)": {
 				"region": "AnnaIsland3",

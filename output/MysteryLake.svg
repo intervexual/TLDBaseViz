@@ -5412,7 +5412,7 @@
 <rect x="1862.5" y="357.5" width="10" height="10" fill="#0090a2" />
 <text x="1873.75" y="364.375" font-size="10" font-family="Arial" fill="default connection">to take from here</text>
 <rect x="1862.5" y="368.75" width="10" height="10" fill="#7db138" />
-<text x="1873.75" y="375.625" font-size="10" font-family="Arial" fill="default connection">to make form other materials</text>
+<text x="1873.75" y="375.625" font-size="10" font-family="Arial" fill="default connection">to make from other materials</text>
 <path d="M1862.5,385.625 L1872.5,385.625" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="1873.75" y="386.875" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M1862.5,396.875 L1872.5,396.875" stroke="#623e29" stroke-width="1.25" stroke-dasharray="4,2" />
