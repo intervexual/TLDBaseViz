@@ -765,14 +765,17 @@ class BaseLocation:
         if not self.explored:
             text_colour = unexplored
         text_stroke = 'none'
+        stroke_size = 0
         if self.indoors and self.customizable and self.num_features > 7:
             text_stroke = text_colour
+            stroke_size = self.icon_size/20
 
         # dominant_baseline does not appear supported for SVG???????
         g.append( draw.Text(effective_header,
                             font_size, font_family=FONTFAM,
                             font_weight='bold',
                             stroke=text_stroke,
+                            stroke_width=stroke_size,
                             font_style=font_style,
                             dominant_baseline=baseline,
                             x=text_x, y=text_y, fill=text_colour,

@@ -22,6 +22,7 @@
 	    "path":"oklch(0.65 0.075 240)",
 	    "rail":"oklch(0.5 0.15 260)",
 	  	"find": "oklch(0.5 0.2 290)",
+	  	"unexplored": "oklch(0.05 0.2 290)",
 		"charcoal":"oklch(0.2 0.06 310)",
 		"mixed":"oklch(0.5 0.18 330)"
   },

@@ -7,16 +7,16 @@
 <g transform="translate(-1461.25,-1081.25)">
 <g id="bases">
 <g id="BASE:Transition(DP~OIC)">
-<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(DP~OIC):features"></g>
 <g id="Transition(DP~OIC):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(DP~OIC)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(DP~OIC)</tspan></text>
 </g>
 </g>
 <path d="M1521.25,1501.25 L1541.25,1501.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Transition(DP~OIC):No3Mine">
 <g id="BASE:No3Mine">
-<rect x="1541.25" y="1401.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1541.25" y="1401.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="No3Mine:features">
 <g id="mine:No3Mine:0:0">
 <g id="import" transform="translate(1551.25, 1432.5) scale(0.7559093211178387)">
@@ -44,7 +44,7 @@
 </g>
 </g>
 <g id="No3Mine:header">
-<text x="1561.25" y="1410.78125" font-size="12.1875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1561.25" dy="0em">No3</tspan><tspan x="1561.25" dy="1em">Mine</tspan></text>
+<text x="1561.25" y="1410.78125" font-size="12.1875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1561.25" dy="0em">No3</tspan><tspan x="1561.25" dy="1em">Mine</tspan></text>
 </g>
 </g>
 </g>
@@ -52,7 +52,7 @@
 <path d="M1581.25,1501.25 L1581.25,1521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="No3Mine:Climb(DP)">
 <g id="BASE:Climb(DP)">
-<rect x="1581.25" y="1521.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1581.25" y="1521.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(DP):features">
 <g id="climb:Climb(DP):0:0">
 <g id="import" transform="translate(1591.25, 1537.5) scale(0.21045321763345)">
@@ -61,14 +61,14 @@
 </g>
 </g>
 <g id="Climb(DP):header">
-<text x="1601.25" y="1528.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1601.25" dy="0em">Climb</tspan><tspan x="1601.25" dy="1em">(DP)</tspan></text>
+<text x="1601.25" y="1528.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1601.25" dy="0em">Climb</tspan><tspan x="1601.25" dy="1em">(DP)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1581.25,1401.25 L1621.25,1401.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No3Mine:No5Mine(West)">
 <g id="BASE:No5Mine(West)">
-<rect x="1621.25" y="1401.25" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1621.25" y="1401.25" width="100.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="No5Mine(West):features">
 <g id="rabbit:No5Mine(West):0:0">
 <g id="import" transform="translate(1627.5, 1452.5) scale(1.021189738125593)">
@@ -126,7 +126,7 @@
 </g>
 </g>
 <g id="No5Mine(West):header">
-<text x="1671.25" y="1410.2083333333335" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1671.25" dy="0em">No5</tspan><tspan x="1671.25" dy="1em">Mine</tspan><tspan x="1671.25" dy="1em">(West)</tspan></text>
+<text x="1671.25" y="1410.2083333333335" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1671.25" dy="0em">No5</tspan><tspan x="1671.25" dy="1em">Mine</tspan><tspan x="1671.25" dy="1em">(West)</tspan></text>
 </g>
 </g>
 </g>
@@ -134,7 +134,7 @@
 <path d="M1621.25,1521.25 L1621.25,1561.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="No5Mine(West):POI(KatiesSecludedCorner)">
 <g id="BASE:POI(KatiesSecludedCorner)">
-<rect x="1541.25" y="1561.25" width="80.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1541.25" y="1561.25" width="80.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(KatiesSecludedCorner):features">
 <g id="wolf:POI(KatiesSecludedCorner):0:0">
 <g id="import" transform="translate(1548.75, 1615.0) scale(0.1511772931705658)">
@@ -160,14 +160,14 @@
 </g>
 </g>
 <g id="POI(KatiesSecludedCorner):header">
-<text x="1581.25" y="1568.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1581.25" dy="0em">POI</tspan><tspan x="1581.25" dy="1em">(Katies</tspan><tspan x="1581.25" dy="1em">Secluded</tspan><tspan x="1581.25" dy="1em">Corner)</tspan></text>
+<text x="1581.25" y="1568.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1581.25" dy="0em">POI</tspan><tspan x="1581.25" dy="1em">(Katies</tspan><tspan x="1581.25" dy="1em">Secluded</tspan><tspan x="1581.25" dy="1em">Corner)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1721.25,1401.25 L1741.25,1401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="No5Mine(West):No5Mine(East)">
 <g id="BASE:No5Mine(East)">
-<rect x="1741.25" y="1301.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1741.25" y="1301.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="No5Mine(East):features">
 <g id="wolf:No5Mine(East):0:0">
 <g id="import" transform="translate(1748.75, 1355.0) scale(0.1511772931705658)">
@@ -199,14 +199,14 @@
 </g>
 </g>
 <g id="No5Mine(East):header">
-<text x="1781.25" y="1310.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1781.25" dy="0em">No5</tspan><tspan x="1781.25" dy="1em">Mine</tspan><tspan x="1781.25" dy="1em">(East)</tspan></text>
+<text x="1781.25" y="1310.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1781.25" dy="0em">No5</tspan><tspan x="1781.25" dy="1em">Mine</tspan><tspan x="1781.25" dy="1em">(East)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1721.25,1521.25 L1721.25,1541.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(West):StoneChurch">
 <g id="BASE:StoneChurch">
-<rect x="1721.25" y="1541.25" width="60.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1721.25" y="1541.25" width="60.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="StoneChurch:features">
 <g id="wolf:StoneChurch:0:0">
 <g id="import" transform="translate(1730.0, 1567.5) scale(0.1511772931705658)">
@@ -259,7 +259,7 @@
 </g>
 </g>
 <g id="StoneChurch:header">
-<text x="1751.25" y="1548.125" font-size="12.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1751.25" dy="0em">Stone</tspan><tspan x="1751.25" dy="1em">Church</tspan></text>
+<text x="1751.25" y="1548.125" font-size="12.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1751.25" dy="0em">Stone</tspan><tspan x="1751.25" dy="1em">Church</tspan></text>
 </g>
 </g>
 </g>
@@ -267,7 +267,7 @@
 <path d="M1821.25,1301.25 L1841.25,1301.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(East):HiberniaProcessing">
 <g id="BASE:HiberniaProcessing">
-<rect x="1841.25" y="1301.25" width="220.0" height="200.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1841.25" y="1301.25" width="220.0" height="200.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="HiberniaProcessing:features">
 <g id="saltdeposit:HiberniaProcessing:0:0">
 <g id="import" transform="translate(1851.25, 1342.5) scale(0.8772699359592947)">
@@ -441,14 +441,14 @@
 </g>
 </g>
 <g id="HiberniaProcessing:header">
-<text x="1951.25" y="1311.875" font-size="20.0" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1951.25" dy="0em">Hibernia</tspan><tspan x="1951.25" dy="1em">Processing</tspan></text>
+<text x="1951.25" y="1311.875" font-size="20.0" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1951.25" dy="0em">Hibernia</tspan><tspan x="1951.25" dy="1em">Processing</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1821.25,1301.25 L1821.25,1281.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="No5Mine(East):Cave(BrokenBridge)">
 <g id="BASE:Cave(BrokenBridge)">
-<rect x="1821.25" y="1221.25" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1821.25" y="1221.25" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(BrokenBridge):features">
 <g id="bear:Cave(BrokenBridge):0:0">
 <g id="import" transform="translate(1828.75, 1257.5) scale(0.13959461723155955)">
@@ -476,7 +476,7 @@
 </g>
 </g>
 <g id="Cave(BrokenBridge):header">
-<text x="1861.25" y="1227.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1861.25" dy="0em">Cave</tspan><tspan x="1861.25" dy="1em">(Broken</tspan><tspan x="1861.25" dy="1em">Bridge)</tspan></text>
+<text x="1861.25" y="1227.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1861.25" dy="0em">Cave</tspan><tspan x="1861.25" dy="1em">(Broken</tspan><tspan x="1861.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -487,7 +487,7 @@
 <path d="M2061.25,1301.25 L2061.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Trailer(NorthHibernia)">
 <g id="BASE:Trailer(NorthHibernia)">
-<rect x="2001.25" y="1161.25" width="60.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="2001.25" y="1161.25" width="60.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Trailer(NorthHibernia):features">
 <g id="bed:Trailer(NorthHibernia):0:0">
 <g id="import" transform="translate(2010.0, 1212.5) scale(0.7697636825494574)">
@@ -530,14 +530,14 @@
 </g>
 </g>
 <g id="Trailer(NorthHibernia):header">
-<text x="2031.25" y="1178.125" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="2031.25" dy="0em">Trailer</tspan><tspan x="2031.25" dy="1em">(North</tspan><tspan x="2031.25" dy="1em">Hibernia)</tspan></text>
+<text x="2031.25" y="1178.125" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="2031.25" dy="0em">Trailer</tspan><tspan x="2031.25" dy="1em">(North</tspan><tspan x="2031.25" dy="1em">Hibernia)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M2061.25,1501.25 L2061.25,1521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Trailer(SouthHibernia)">
 <g id="BASE:Trailer(SouthHibernia)">
-<rect x="1981.25" y="1521.25" width="80.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1981.25" y="1521.25" width="80.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Trailer(SouthHibernia):features">
 <g id="transmitter:Trailer(SouthHibernia):0:0">
 <g id="import" transform="translate(1988.75, 1570.0) scale(0.23330417575512805)">
@@ -595,14 +595,14 @@
 </g>
 </g>
 <g id="Trailer(SouthHibernia):header">
-<text x="2021.25" y="1533.5416666666665" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="2021.25" dy="0em">Trailer</tspan><tspan x="2021.25" dy="1em">(South</tspan><tspan x="2021.25" dy="1em">Hibernia)</tspan></text>
+<text x="2021.25" y="1533.5416666666665" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="2021.25" dy="0em">Trailer</tspan><tspan x="2021.25" dy="1em">(South</tspan><tspan x="2021.25" dy="1em">Hibernia)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M2061.25,1301.25 L2081.25,1301.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HiberniaProcessing:Fulmar">
 <g id="BASE:Fulmar">
-<rect x="2081.25" y="1301.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="2081.25" y="1301.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Fulmar:features">
 <g id="wax:Fulmar:0:0">
 <g id="import" transform="translate(2091.25, 1317.5) scale(0.7142857142857143)">
@@ -617,7 +617,7 @@
 </g>
 </g>
 <g id="Fulmar:header">
-<text x="2101.25" y="1311.40625" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">Fulmar</text>
+<text x="2101.25" y="1311.40625" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#010003" text-anchor="middle">Fulmar</text>
 </g>
 </g>
 </g>
@@ -629,7 +629,7 @@
 <path d="M1821.25,1221.25 L1821.25,1201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BrokenBridge):Cave(Scruffy)">
 <g id="BASE:Cave(Scruffy)">
-<rect x="1821.25" y="1121.25" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1821.25" y="1121.25" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(Scruffy):features">
 <g id="harvestfir:Cave(Scruffy):0:0">
 <g id="import" transform="translate(1830.0, 1155.0) scale(0.41644974840396676)">
@@ -660,7 +660,7 @@
 </g>
 </g>
 <g id="Cave(Scruffy):header">
-<text x="1851.25" y="1133.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1851.25" dy="0em">Cave</tspan><tspan x="1851.25" dy="1em">(Scruffy)</tspan></text>
+<text x="1851.25" y="1133.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1851.25" dy="0em">Cave</tspan><tspan x="1851.25" dy="1em">(Scruffy)</tspan></text>
 </g>
 </g>
 </g>
@@ -669,7 +669,7 @@
 <path d="M1981.25,1661.25 L1981.25,1681.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(SouthHibernia):TheRiken">
 <g id="BASE:TheRiken">
-<rect x="1981.25" y="1681.25" width="80.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1981.25" y="1681.25" width="80.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="TheRiken:features">
 <g id="beachcombing:TheRiken:0:0">
 <g id="import" transform="translate(1988.75, 1707.5) scale(0.870056988732762)">
@@ -740,7 +740,7 @@
 </g>
 </g>
 <g id="TheRiken:header">
-<text x="2021.25" y="1697.7734375" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">TheRiken</text>
+<text x="2021.25" y="1697.7734375" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="auto" fill="#010003" text-anchor="middle">TheRiken</text>
 </g>
 </g>
 </g>
@@ -748,7 +748,7 @@
 <path d="M1981.25,1821.25 L1981.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TheRiken:POI(LittleIsland)">
 <g id="BASE:POI(LittleIsland)">
-<rect x="1981.25" y="1841.25" width="140.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1981.25" y="1841.25" width="140.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(LittleIsland):features">
 <g id="deer:POI(LittleIsland):0:0">
 <g id="import" transform="translate(1996.25, 1877.5) scale(0.9460738385086963)">
@@ -788,14 +788,14 @@
 </g>
 </g>
 <g id="POI(LittleIsland):header">
-<text x="2051.25" y="1862.297794117647" font-size="11.691176470588236" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">POI(LittleIsland)</text>
+<text x="2051.25" y="1862.297794117647" font-size="11.691176470588236" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#010003" text-anchor="middle">POI(LittleIsland)</text>
 </g>
 </g>
 </g>
 <path d="M1981.25,1821.25 L1961.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TheRiken:Truck(Matts)">
 <g id="BASE:Truck(Matts)">
-<rect x="1921.25" y="1741.25" width="40.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1921.25" y="1741.25" width="40.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Truck(Matts):features">
 <g id="prybar:Truck(Matts):0:0">
 <g id="import" transform="translate(1931.25, 1775.0) scale(0.20000199801996021)">
@@ -815,7 +815,7 @@
 </g>
 </g>
 <g id="Truck(Matts):header">
-<text x="1941.25" y="1754.6428571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1941.25" dy="0em">Truck</tspan><tspan x="1941.25" dy="1em">(Matts)</tspan></text>
+<text x="1941.25" y="1754.6428571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1941.25" dy="0em">Truck</tspan><tspan x="1941.25" dy="1em">(Matts)</tspan></text>
 </g>
 </g>
 </g>
@@ -823,7 +823,7 @@
 <path d="M1981.25,1841.25 L1961.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(LittleIsland):LonelyLighthouse">
 <g id="BASE:LonelyLighthouse">
-<rect x="1901.25" y="1841.25" width="60.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1901.25" y="1841.25" width="60.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="LonelyLighthouse:features">
 <g id="moose:LonelyLighthouse:0:0">
 <g id="import" transform="translate(1910.0, 1885.0) scale(0.7770913470878502)">
@@ -893,7 +893,7 @@
 </g>
 </g>
 <g id="LonelyLighthouse:header">
-<text x="1931.25" y="1859.1875" font-size="7.875" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1931.25" dy="0em">Lonely</tspan><tspan x="1931.25" dy="1em">Lighthouse</tspan></text>
+<text x="1931.25" y="1859.1875" font-size="7.875" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1931.25" dy="0em">Lonely</tspan><tspan x="1931.25" dy="1em">Lighthouse</tspan></text>
 </g>
 </g>
 </g>
@@ -934,7 +934,7 @@
 <rect x="701.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (DesolationPoint):features"></g>
 <g id="to move from (DesolationPoint):header">
-<text x="711.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">to move from </tspan><tspan x="711.25" dy="1em">(Desolation</tspan><tspan x="711.25" dy="1em">Point)</tspan></text>
+<text x="711.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">to move from </tspan><tspan x="711.25" dy="1em">(Desolation</tspan><tspan x="711.25" dy="1em">Point)</tspan></text>
 </g>
 </g>
 </g>
@@ -943,7 +943,7 @@
 <rect x="701.25" y="121.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (DesolationPoint):features"></g>
 <g id="to bring to (DesolationPoint):header">
-<text x="711.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">to bring to </tspan><tspan x="711.25" dy="1em">(Desolation</tspan><tspan x="711.25" dy="1em">Point)</tspan></text>
+<text x="711.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">to bring to </tspan><tspan x="711.25" dy="1em">(Desolation</tspan><tspan x="711.25" dy="1em">Point)</tspan></text>
 </g>
 </g>
 </g>
@@ -952,7 +952,7 @@
 <rect x="701.25" y="161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within DesolationPoint:features"></g>
 <g id="move within DesolationPoint:header">
-<text x="711.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">move within </tspan><tspan x="711.25" dy="1em">Desolation</tspan><tspan x="711.25" dy="1em">Point</tspan></text>
+<text x="711.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">move within </tspan><tspan x="711.25" dy="1em">Desolation</tspan><tspan x="711.25" dy="1em">Point</tspan></text>
 </g>
 </g>
 </g>
@@ -961,7 +961,7 @@
 <rect x="701.25" y="201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for DesolationPoint:features"></g>
 <g id="no source for DesolationPoint:header">
-<text x="711.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">no source for </tspan><tspan x="711.25" dy="1em">Desolation</tspan><tspan x="711.25" dy="1em">Point</tspan></text>
+<text x="711.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">no source for </tspan><tspan x="711.25" dy="1em">Desolation</tspan><tspan x="711.25" dy="1em">Point</tspan></text>
 </g>
 </g>
 </g>

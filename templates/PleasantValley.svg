@@ -7,16 +7,16 @@
 <g transform="translate(-641.25,-1241.25)">
 <g id="bases">
 <g id="BASE:Transition(PV~TWM)">
-<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(PV~TWM):features"></g>
 <g id="Transition(PV~TWM):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(PV~TWM)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(PV~TWM)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1481.25,1501.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Transition(PV~TWM):Climb(PV-TWM)">
 <g id="BASE:Climb(PV-TWM)">
-<rect x="1441.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1441.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(PV-TWM):features">
 <g id="climb:Climb(PV-TWM):0:0">
 <g id="import" transform="translate(1451.25, 1517.5) scale(0.21045321763345)">
@@ -25,7 +25,7 @@
 </g>
 </g>
 <g id="Climb(PV-TWM):header">
-<text x="1461.25" y="1508.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1461.25" dy="0em">Climb</tspan><tspan x="1461.25" dy="1em">(PV-TWM)</tspan></text>
+<text x="1461.25" y="1508.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1461.25" dy="0em">Climb</tspan><tspan x="1461.25" dy="1em">(PV-TWM)</tspan></text>
 </g>
 </g>
 </g>
@@ -33,7 +33,7 @@
 <path d="M1441.25,1541.25 L1421.25,1541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(PV-TWM):PreppersAbandonedCache(Joplin)">
 <g id="BASE:PreppersAbandonedCache(Joplin)">
-<rect x="1281.25" y="1541.25" width="140.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1281.25" y="1541.25" width="140.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="PreppersAbandonedCache(Joplin):features">
 <g id="wolf:PreppersAbandonedCache(Joplin):0:0">
 <g id="import" transform="translate(1296.25, 1590.0) scale(0.1511772931705658)">
@@ -123,7 +123,7 @@
 </g>
 </g>
 <g id="PreppersAbandonedCache(Joplin):header">
-<text x="1351.25" y="1547.8125" font-size="11.875" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1351.25" dy="0em">Preppers</tspan><tspan x="1351.25" dy="1em">Abandoned</tspan><tspan x="1351.25" dy="1em">Cache</tspan><tspan x="1351.25" dy="1em">(Joplin)</tspan></text>
+<text x="1351.25" y="1547.8125" font-size="11.875" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1351.25" dy="0em">Preppers</tspan><tspan x="1351.25" dy="1em">Abandoned</tspan><tspan x="1351.25" dy="1em">Cache</tspan><tspan x="1351.25" dy="1em">(Joplin)</tspan></text>
 </g>
 </g>
 </g>
@@ -131,7 +131,7 @@
 <path d="M1421.25,1681.25 L1421.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PreppersAbandonedCache(Joplin):POI(PointOfDisagreement)">
 <g id="BASE:POI(PointOfDisagreement)">
-<rect x="1361.25" y="1701.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1361.25" y="1701.25" width="60.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(PointOfDisagreement):features">
 <g id="wolf:POI(PointOfDisagreement):0:0">
 <g id="import" transform="translate(1370.0, 1752.5) scale(0.1511772931705658)">
@@ -164,14 +164,14 @@
 </g>
 </g>
 <g id="POI(PointOfDisagreement):header">
-<text x="1391.25" y="1717.7884615384614" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1391.25" dy="0em">POI</tspan><tspan x="1391.25" dy="1em">(Point</tspan><tspan x="1391.25" dy="1em">Of</tspan><tspan x="1391.25" dy="1em">Disagreement)</tspan></text>
+<text x="1391.25" y="1717.7884615384614" font-size="6.0576923076923075" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1391.25" dy="0em">POI</tspan><tspan x="1391.25" dy="1em">(Point</tspan><tspan x="1391.25" dy="1em">Of</tspan><tspan x="1391.25" dy="1em">Disagreement)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1281.25,1541.25 L1281.25,1521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PreppersAbandonedCache(Joplin):HuntersBlind(Joplin)">
 <g id="BASE:HuntersBlind(Joplin)">
-<rect x="1221.25" y="1421.25" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1421.25" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="HuntersBlind(Joplin):features">
 <g id="ptarmigan:HuntersBlind(Joplin):0:0">
 <g id="import" transform="translate(1230.0, 1475.0) scale(0.041440641637057844)">
@@ -196,14 +196,14 @@
 </g>
 </g>
 <g id="HuntersBlind(Joplin):header">
-<text x="1251.25" y="1438.28125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1251.25" dy="0em">Hunters</tspan><tspan x="1251.25" dy="1em">Blind</tspan><tspan x="1251.25" dy="1em">(Joplin)</tspan></text>
+<text x="1251.25" y="1438.28125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1251.25" dy="0em">Hunters</tspan><tspan x="1251.25" dy="1em">Blind</tspan><tspan x="1251.25" dy="1em">(Joplin)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1421.25,1681.25 L1441.25,1681.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PreppersAbandonedCache(Joplin):Cave(MistyFalls)">
 <g id="BASE:Cave(MistyFalls)">
-<rect x="1441.25" y="1581.25" width="100.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1441.25" y="1581.25" width="100.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(MistyFalls):features">
 <g id="mine:Cave(MistyFalls):0:0">
 <g id="import" transform="translate(1447.5, 1635.0) scale(0.7559093211178387)">
@@ -243,7 +243,7 @@
 </g>
 </g>
 <g id="Cave(MistyFalls):header">
-<text x="1491.25" y="1590.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1491.25" dy="0em">Cave</tspan><tspan x="1491.25" dy="1em">(Misty</tspan><tspan x="1491.25" dy="1em">Falls)</tspan></text>
+<text x="1491.25" y="1590.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1491.25" dy="0em">Cave</tspan><tspan x="1491.25" dy="1em">(Misty</tspan><tspan x="1491.25" dy="1em">Falls)</tspan></text>
 </g>
 </g>
 </g>
@@ -251,7 +251,7 @@
 <path d="M1421.25,1821.25 L1421.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(PointOfDisagreement):Cave(DerelictCabins)">
 <g id="BASE:Cave(DerelictCabins)">
-<rect x="1381.25" y="1841.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1381.25" y="1841.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(DerelictCabins):features">
 <g id="ptarmigan:Cave(DerelictCabins):0:0">
 <g id="import" transform="translate(1391.25, 1895.0) scale(0.041440641637057844)">
@@ -268,14 +268,14 @@
 </g>
 </g>
 <g id="Cave(DerelictCabins):header">
-<text x="1401.25" y="1862.7083333333335" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1401.25" dy="0em">Cave</tspan><tspan x="1401.25" dy="1em">(Derelict</tspan><tspan x="1401.25" dy="1em">Cabins)</tspan></text>
+<text x="1401.25" y="1862.7083333333335" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1401.25" dy="0em">Cave</tspan><tspan x="1401.25" dy="1em">(Derelict</tspan><tspan x="1401.25" dy="1em">Cabins)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1361.25,1821.25 L1341.25,1821.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(PointOfDisagreement):SkeetersRidge">
 <g id="BASE:SkeetersRidge">
-<rect x="1281.25" y="1721.25" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1281.25" y="1721.25" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="SkeetersRidge:features">
 <g id="wolf:SkeetersRidge:0:0">
 <g id="import" transform="translate(1290.0, 1752.5) scale(0.1511772931705658)">
@@ -308,7 +308,7 @@
 </g>
 </g>
 <g id="SkeetersRidge:header">
-<text x="1311.25" y="1731.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1311.25" dy="0em">Skeeters</tspan><tspan x="1311.25" dy="1em">Ridge</tspan></text>
+<text x="1311.25" y="1731.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1311.25" dy="0em">Skeeters</tspan><tspan x="1311.25" dy="1em">Ridge</tspan></text>
 </g>
 </g>
 </g>
@@ -319,7 +319,7 @@
 <path d="M1381.25,1941.25 L1381.25,1961.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(DerelictCabins):Cave(UnnamedRiverBed)">
 <g id="BASE:Cave(UnnamedRiverBed)">
-<rect x="1381.25" y="1961.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1381.25" y="1961.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(UnnamedRiverBed):features">
 <g id="bed:Cave(UnnamedRiverBed):0:0">
 <g id="import" transform="translate(1391.25, 1977.5) scale(0.7697636825494574)">
@@ -332,14 +332,14 @@
 </g>
 </g>
 <g id="Cave(UnnamedRiverBed):header">
-<text x="1401.25" y="1966.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1401.25" dy="0em">Cave</tspan><tspan x="1401.25" dy="1em">(Unnamed</tspan><tspan x="1401.25" dy="1em">River</tspan><tspan x="1401.25" dy="1em">Bed)</tspan></text>
+<text x="1401.25" y="1966.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1401.25" dy="0em">Cave</tspan><tspan x="1401.25" dy="1em">(Unnamed</tspan><tspan x="1401.25" dy="1em">River</tspan><tspan x="1401.25" dy="1em">Bed)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1381.25,1841.25 L1361.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(DerelictCabins):Barn(Archery)">
 <g id="BASE:Barn(Archery)">
-<rect x="1201.25" y="1841.25" width="160.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1201.25" y="1841.25" width="160.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Barn(Archery):features">
 <g id="bear:Barn(Archery):0:0">
 <g id="import" transform="translate(1215.0, 1885.0) scale(0.13959461723155955)">
@@ -462,7 +462,7 @@
 </g>
 </g>
 <g id="Barn(Archery):header">
-<text x="1281.25" y="1852.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1281.25" dy="0em">Barn</tspan><tspan x="1281.25" dy="1em">(Archery)</tspan></text>
+<text x="1281.25" y="1852.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1281.25" dy="0em">Barn</tspan><tspan x="1281.25" dy="1em">(Archery)</tspan></text>
 </g>
 </g>
 </g>
@@ -473,7 +473,7 @@
 <path d="M1361.25,2021.25 L1361.25,2041.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Archery):ThomsonsCrossing">
 <g id="BASE:ThomsonsCrossing">
-<rect x="1361.25" y="2041.25" width="100.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1361.25" y="2041.25" width="100.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="ThomsonsCrossing:features">
 <g id="cache:ThomsonsCrossing:0:0">
 <g id="import" transform="translate(1367.5, 2067.5) scale(0.20151133501259447)">
@@ -537,14 +537,14 @@
 </g>
 </g>
 <g id="ThomsonsCrossing:header">
-<text x="1411.25" y="2048.125" font-size="12.5" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1411.25" dy="0em">Thomsons</tspan><tspan x="1411.25" dy="1em">Crossing</tspan></text>
+<text x="1411.25" y="2048.125" font-size="12.5" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1411.25" dy="0em">Thomsons</tspan><tspan x="1411.25" dy="1em">Crossing</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1201.25,2021.25 L1181.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Archery):ForestCave(PV)">
 <g id="BASE:ForestCave(PV)">
-<rect x="1141.25" y="2021.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1141.25" y="2021.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="ForestCave(PV):features">
 <g id="wolf:ForestCave(PV):0:0">
 <g id="import" transform="translate(1151.25, 2037.5) scale(0.1511772931705658)">
@@ -553,14 +553,14 @@
 </g>
 </g>
 <g id="ForestCave(PV):header">
-<text x="1161.25" y="2026.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1161.25" dy="0em">Forest</tspan><tspan x="1161.25" dy="1em">Cave</tspan><tspan x="1161.25" dy="1em">(PV)</tspan></text>
+<text x="1161.25" y="2026.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1161.25" dy="0em">Forest</tspan><tspan x="1161.25" dy="1em">Cave</tspan><tspan x="1161.25" dy="1em">(PV)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1201.25,1841.25 L1181.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Archery):PVFarmhouse">
 <g id="BASE:PVFarmhouse">
-<rect x="981.25" y="1841.25" width="200.0" height="282.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="981.25" y="1841.25" width="200.0" height="282.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="PVFarmhouse:features">
 <g id="deer:PVFarmhouse:0:0">
 <g id="import" transform="translate(992.5, 1897.5) scale(0.9460738385086963)">
@@ -807,14 +807,14 @@
 </g>
 </g>
 <g id="PVFarmhouse:header">
-<text x="1081.25" y="1855.625" font-size="27.5" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1081.25" dy="0em">PV</tspan><tspan x="1081.25" dy="1em">Farmhouse</tspan></text>
+<text x="1081.25" y="1855.625" font-size="27.5" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1081.25" dy="0em">PV</tspan><tspan x="1081.25" dy="1em">Farmhouse</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1201.25,1841.25 L1201.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Archery):Barn(NorthOfArchery)">
 <g id="BASE:Barn(NorthOfArchery)">
-<rect x="1161.25" y="1721.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1161.25" y="1721.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Barn(NorthOfArchery):features">
 <g id="deer:Barn(NorthOfArchery):0:0">
 <g id="import" transform="translate(1171.25, 1775.0) scale(0.9460738385086963)">
@@ -830,7 +830,7 @@
 </g>
 </g>
 <g id="Barn(NorthOfArchery):header">
-<text x="1181.25" y="1738.984375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1181.25" dy="0em">Barn</tspan><tspan x="1181.25" dy="1em">(North</tspan><tspan x="1181.25" dy="1em">Of</tspan><tspan x="1181.25" dy="1em">Archery)</tspan></text>
+<text x="1181.25" y="1738.984375" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1181.25" dy="0em">Barn</tspan><tspan x="1181.25" dy="1em">(North</tspan><tspan x="1181.25" dy="1em">Of</tspan><tspan x="1181.25" dy="1em">Archery)</tspan></text>
 </g>
 </g>
 </g>
@@ -838,7 +838,7 @@
 <path d="M1221.25,1421.25 L1221.25,1401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntersBlind(Joplin):CrashSite(PV)">
 <g id="BASE:CrashSite(PV)">
-<rect x="1141.25" y="1281.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1141.25" y="1281.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="CrashSite(PV):features">
 <g id="suitcase:CrashSite(PV):0:0">
 <g id="import" transform="translate(1148.75, 1340.5) scale(0.013100436681222707)">
@@ -889,7 +889,7 @@
 </g>
 </g>
 <g id="CrashSite(PV):header">
-<text x="1181.25" y="1290.2083333333335" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1181.25" dy="0em">Crash</tspan><tspan x="1181.25" dy="1em">Site</tspan><tspan x="1181.25" dy="1em">(PV)</tspan></text>
+<text x="1181.25" y="1290.2083333333335" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1181.25" dy="0em">Crash</tspan><tspan x="1181.25" dy="1em">Site</tspan><tspan x="1181.25" dy="1em">(PV)</tspan></text>
 </g>
 </g>
 </g>
@@ -897,7 +897,7 @@
 <path d="M1141.25,1281.25 L1121.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CrashSite(PV):Cave(BurnedRidge)">
 <g id="BASE:Cave(BurnedRidge)">
-<rect x="1081.25" y="1281.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1081.25" y="1281.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(BurnedRidge):features">
 <g id="bed:Cave(BurnedRidge):0:0">
 <g id="import" transform="translate(1091.25, 1335.0) scale(0.7697636825494574)">
@@ -915,7 +915,7 @@
 </g>
 </g>
 <g id="Cave(BurnedRidge):header">
-<text x="1101.25" y="1301.1607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1101.25" dy="0em">Cave</tspan><tspan x="1101.25" dy="1em">(Burned</tspan><tspan x="1101.25" dy="1em">Ridge)</tspan></text>
+<text x="1101.25" y="1301.1607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1101.25" dy="0em">Cave</tspan><tspan x="1101.25" dy="1em">(Burned</tspan><tspan x="1101.25" dy="1em">Ridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -926,7 +926,7 @@
 <path d="M1081.25,1281.25 L1061.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BurnedRidge):PrepperCache(PV)">
 <g id="BASE:PrepperCache(PV)">
-<rect x="1021.25" y="1281.25" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1021.25" y="1281.25" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="PrepperCache(PV):features">
 <g id="bed:PrepperCache(PV):0:0">
 <g id="import" transform="translate(1031.25, 1332.5) scale(0.7697636825494574)">
@@ -958,7 +958,7 @@
 </g>
 </g>
 <g id="PrepperCache(PV):header">
-<text x="1041.25" y="1299.9107142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1041.25" dy="0em">Prepper</tspan><tspan x="1041.25" dy="1em">Cache</tspan><tspan x="1041.25" dy="1em">(PV)</tspan></text>
+<text x="1041.25" y="1299.9107142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1041.25" dy="0em">Prepper</tspan><tspan x="1041.25" dy="1em">Cache</tspan><tspan x="1041.25" dy="1em">(PV)</tspan></text>
 </g>
 </g>
 </g>
@@ -967,7 +967,7 @@
 <path d="M1281.25,1821.25 L1281.25,1841.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SkeetersRidge:Climb(DDC-SR2)">
 <g id="BASE:Climb(DDC-SR2)">
-<rect x="1281.25" y="1841.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1281.25" y="1841.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(DDC-SR2):features">
 <g id="climb:Climb(DDC-SR2):0:0">
 <g id="import" transform="translate(1291.25, 1857.5) scale(0.21045321763345)">
@@ -976,14 +976,14 @@
 </g>
 </g>
 <g id="Climb(DDC-SR2):header">
-<text x="1301.25" y="1849.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1301.25" dy="0em">Climb</tspan><tspan x="1301.25" dy="1em">(DDC-SR2)</tspan></text>
+<text x="1301.25" y="1849.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1301.25" dy="0em">Climb</tspan><tspan x="1301.25" dy="1em">(DDC-SR2)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1281.25,1821.25 L1261.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SkeetersRidge:DraftDodgersCabin">
 <g id="BASE:DraftDodgersCabin">
-<rect x="1221.25" y="1781.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1781.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="DraftDodgersCabin:features">
 <g id="bed:DraftDodgersCabin:0:0">
 <g id="import" transform="translate(1231.25, 1797.5) scale(0.7697636825494574)">
@@ -996,7 +996,7 @@
 </g>
 </g>
 <g id="DraftDodgersCabin:header">
-<text x="1241.25" y="1786.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1241.25" dy="0em">Draft</tspan><tspan x="1241.25" dy="1em">Dodgers</tspan><tspan x="1241.25" dy="1em">Cabin</tspan></text>
+<text x="1241.25" y="1786.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1241.25" dy="0em">Draft</tspan><tspan x="1241.25" dy="1em">Dodgers</tspan><tspan x="1241.25" dy="1em">Cabin</tspan></text>
 </g>
 </g>
 </g>
@@ -1008,7 +1008,7 @@
 <path d="M1221.25,1781.25 L1221.25,1761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="DraftDodgersCabin:Climb(DDC-SR1)">
 <g id="BASE:Climb(DDC-SR1)">
-<rect x="1221.25" y="1721.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1721.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(DDC-SR1):features">
 <g id="climb:Climb(DDC-SR1):0:0">
 <g id="import" transform="translate(1231.25, 1737.5) scale(0.21045321763345)">
@@ -1017,7 +1017,7 @@
 </g>
 </g>
 <g id="Climb(DDC-SR1):header">
-<text x="1241.25" y="1729.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1241.25" dy="0em">Climb</tspan><tspan x="1241.25" dy="1em">(DDC-SR1)</tspan></text>
+<text x="1241.25" y="1729.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1241.25" dy="0em">Climb</tspan><tspan x="1241.25" dy="1em">(DDC-SR1)</tspan></text>
 </g>
 </g>
 </g>
@@ -1030,7 +1030,7 @@
 <path d="M981.25,2123.75 L961.25,2123.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PVFarmhouse:Barn(Mollys)">
 <g id="BASE:Barn(Mollys)">
-<rect x="901.25" y="1983.75" width="60.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="901.25" y="1983.75" width="60.0" height="140.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Barn(Mollys):features">
 <g id="bear:Barn(Mollys):0:0">
 <g id="import" transform="translate(910.0, 2010.0) scale(0.13959461723155955)">
@@ -1102,14 +1102,14 @@
 </g>
 </g>
 <g id="Barn(Mollys):header">
-<text x="931.25" y="1991.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="931.25" dy="0em">Barn</tspan><tspan x="931.25" dy="1em">(Mollys)</tspan></text>
+<text x="931.25" y="1991.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="931.25" dy="0em">Barn</tspan><tspan x="931.25" dy="1em">(Mollys)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M981.25,1841.25 L981.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PVFarmhouse:Barn(NorthOfPVFarm)">
 <g id="BASE:Barn(NorthOfPVFarm)">
-<rect x="981.25" y="1721.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="981.25" y="1721.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Barn(NorthOfPVFarm):features">
 <g id="wolf:Barn(NorthOfPVFarm):0:0">
 <g id="import" transform="translate(991.25, 1775.0) scale(0.1511772931705658)">
@@ -1126,14 +1126,14 @@
 </g>
 </g>
 <g id="Barn(NorthOfPVFarm):header">
-<text x="1001.25" y="1735.9375" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1001.25" dy="0em">Barn</tspan><tspan x="1001.25" dy="1em">(North</tspan><tspan x="1001.25" dy="1em">OfPV</tspan><tspan x="1001.25" dy="1em">Farm)</tspan></text>
+<text x="1001.25" y="1735.9375" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1001.25" dy="0em">Barn</tspan><tspan x="1001.25" dy="1em">(North</tspan><tspan x="1001.25" dy="1em">OfPV</tspan><tspan x="1001.25" dy="1em">Farm)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M901.25,1983.75 L901.25,1963.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Mollys):SignalHill">
 <g id="BASE:SignalHill">
-<rect x="741.25" y="1723.75" width="160.0" height="240.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="741.25" y="1723.75" width="160.0" height="240.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="SignalHill:features">
 <g id="rabbit:SignalHill:0:0">
 <g id="import" transform="translate(755.0, 1760.0) scale(1.021189738125593)">
@@ -1333,14 +1333,14 @@
 </g>
 </g>
 <g id="SignalHill:header">
-<text x="821.25" y="1747.59375" font-size="22.875" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">SignalHill</text>
+<text x="821.25" y="1747.59375" font-size="22.875" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#010003" text-anchor="middle">SignalHill</text>
 </g>
 </g>
 </g>
 <path d="M901.25,1983.75 L881.25,1983.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Mollys):HuntersBlind(HilltopCave)">
 <g id="BASE:HuntersBlind(HilltopCave)">
-<rect x="801.25" y="1983.75" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="801.25" y="1983.75" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="HuntersBlind(HilltopCave):features">
 <g id="deer:HuntersBlind(HilltopCave):0:0">
 <g id="import" transform="translate(808.75, 2037.5) scale(0.9460738385086963)">
@@ -1366,7 +1366,7 @@
 </g>
 </g>
 <g id="HuntersBlind(HilltopCave):header">
-<text x="841.25" y="1990.9375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="841.25" dy="0em">Hunters</tspan><tspan x="841.25" dy="1em">Blind</tspan><tspan x="841.25" dy="1em">(Hilltop</tspan><tspan x="841.25" dy="1em">Cave)</tspan></text>
+<text x="841.25" y="1990.9375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="841.25" dy="0em">Hunters</tspan><tspan x="841.25" dy="1em">Blind</tspan><tspan x="841.25" dy="1em">(Hilltop</tspan><tspan x="841.25" dy="1em">Cave)</tspan></text>
 </g>
 </g>
 </g>
@@ -1374,7 +1374,7 @@
 <path d="M901.25,2123.75 L901.25,2143.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(Mollys):Barn(LowerFalls)">
 <g id="BASE:Barn(LowerFalls)">
-<rect x="841.25" y="2143.75" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="841.25" y="2143.75" width="60.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Barn(LowerFalls):features">
 <g id="deer:Barn(LowerFalls):0:0">
 <g id="import" transform="translate(850.0, 2197.5) scale(0.9460738385086963)">
@@ -1393,14 +1393,14 @@
 </g>
 </g>
 <g id="Barn(LowerFalls):header">
-<text x="871.25" y="2157.5" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="871.25" dy="0em">Barn</tspan><tspan x="871.25" dy="1em">(Lower</tspan><tspan x="871.25" dy="1em">Falls)</tspan></text>
+<text x="871.25" y="2157.5" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="871.25" dy="0em">Barn</tspan><tspan x="871.25" dy="1em">(Lower</tspan><tspan x="871.25" dy="1em">Falls)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M901.25,1963.75 L921.25,1963.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalHill:Climb(LC-SH)">
 <g id="BASE:Climb(LC-SH)">
-<rect x="921.25" y="1923.75" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="921.25" y="1923.75" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(LC-SH):features">
 <g id="climb:Climb(LC-SH):0:0">
 <g id="import" transform="translate(931.25, 1940.0) scale(0.21045321763345)">
@@ -1409,14 +1409,14 @@
 </g>
 </g>
 <g id="Climb(LC-SH):header">
-<text x="941.25" y="1930.8928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="941.25" dy="0em">Climb</tspan><tspan x="941.25" dy="1em">(LC-SH)</tspan></text>
+<text x="941.25" y="1930.8928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="941.25" dy="0em">Climb</tspan><tspan x="941.25" dy="1em">(LC-SH)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M901.25,1963.75 L901.25,1983.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalHill:Climb(MB-SH)">
 <g id="BASE:Climb(MB-SH)">
-<rect x="901.25" y="1983.75" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="901.25" y="1983.75" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(MB-SH):features">
 <g id="climb:Climb(MB-SH):0:0">
 <g id="import" transform="translate(911.25, 2000.0) scale(0.21045321763345)">
@@ -1425,14 +1425,14 @@
 </g>
 </g>
 <g id="Climb(MB-SH):header">
-<text x="921.25" y="1990.8928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="921.25" dy="0em">Climb</tspan><tspan x="921.25" dy="1em">(MB-SH)</tspan></text>
+<text x="921.25" y="1990.8928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="921.25" dy="0em">Climb</tspan><tspan x="921.25" dy="1em">(MB-SH)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M741.25,1963.75 L741.25,1983.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalHill:HilltopCave">
 <g id="BASE:HilltopCave">
-<rect x="701.25" y="1983.75" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="701.25" y="1983.75" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="HilltopCave:features">
 <g id="deer:HilltopCave:0:0">
 <g id="import" transform="translate(711.25, 2012.5) scale(0.9460738385086963)">
@@ -1460,24 +1460,24 @@
 </g>
 </g>
 <g id="HilltopCave:header">
-<text x="721.25" y="1994.6428571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="721.25" dy="0em">Hilltop</tspan><tspan x="721.25" dy="1em">Cave</tspan></text>
+<text x="721.25" y="1994.6428571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="721.25" dy="0em">Hilltop</tspan><tspan x="721.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
 <path d="M901.25,1723.75 L901.25,1703.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalHill:Transition(PV~KP)">
 <g id="BASE:Transition(PV~KP)">
-<rect x="881.25" y="1683.75" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="881.25" y="1683.75" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(PV~KP):features"></g>
 <g id="Transition(PV~KP):header">
-<text x="891.25" y="1694.6875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="891.25" dy="0em">Transition</tspan><tspan x="891.25" dy="1em">(PV~KP)</tspan></text>
+<text x="891.25" y="1694.6875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="891.25" dy="0em">Transition</tspan><tspan x="891.25" dy="1em">(PV~KP)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M741.25,1723.75 L721.25,1723.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalHill:Cave(BelowHilltopCave)">
 <g id="BASE:Cave(BelowHilltopCave)">
-<rect x="681.25" y="1723.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="681.25" y="1723.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(BelowHilltopCave):features">
 <g id="research:Cave(BelowHilltopCave):0:0">
 <g id="import" transform="translate(691.25, 1740.0) scale(0.20486346060335836)">
@@ -1486,7 +1486,7 @@
 </g>
 </g>
 <g id="Cave(BelowHilltopCave):header">
-<text x="701.25" y="1728.75" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="701.25" dy="0em">Cave</tspan><tspan x="701.25" dy="1em">(Below</tspan><tspan x="701.25" dy="1em">Hilltop</tspan><tspan x="701.25" dy="1em">Cave)</tspan></text>
+<text x="701.25" y="1728.75" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="701.25" dy="0em">Cave</tspan><tspan x="701.25" dy="1em">(Below</tspan><tspan x="701.25" dy="1em">Hilltop</tspan><tspan x="701.25" dy="1em">Cave)</tspan></text>
 </g>
 </g>
 </g>
@@ -1495,7 +1495,7 @@
 <path d="M1141.25,2021.25 L1121.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ForestCave(PV):FishHut(PensivePond)">
 <g id="BASE:FishHut(PensivePond)">
-<rect x="1041.25" y="2021.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1041.25" y="2021.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="FishHut(PensivePond):features">
 <g id="fish:FishHut(PensivePond):0:0">
 <g id="import" transform="translate(1048.75, 2070.0) scale(0.9429958979678439)">
@@ -1534,7 +1534,7 @@
 </g>
 </g>
 <g id="FishHut(PensivePond):header">
-<text x="1081.25" y="2027.8125" font-size="11.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1081.25" dy="0em">Fish</tspan><tspan x="1081.25" dy="1em">Hut</tspan><tspan x="1081.25" dy="1em">(Pensive</tspan><tspan x="1081.25" dy="1em">Pond)</tspan></text>
+<text x="1081.25" y="2027.8125" font-size="11.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1081.25" dy="0em">Fish</tspan><tspan x="1081.25" dy="1em">Hut</tspan><tspan x="1081.25" dy="1em">(Pensive</tspan><tspan x="1081.25" dy="1em">Pond)</tspan></text>
 </g>
 </g>
 </g>
@@ -1545,7 +1545,7 @@
 <path d="M1461.25,2041.25 L1481.25,2041.25" stroke-width="2.5" stroke="#e0f3f1" stroke-dasharray="" fill="none" />
 <g id="ThomsonsCrossing:Transition(PV~CH)">
 <g id="BASE:Transition(PV~CH)">
-<rect x="1481.25" y="2041.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1481.25" y="2041.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(PV~CH):features">
 <g id="mine:Transition(PV~CH):0:0">
 <g id="import" transform="translate(1491.25, 2057.5) scale(0.7559093211178387)">
@@ -1560,14 +1560,14 @@
 </g>
 </g>
 <g id="Transition(PV~CH):header">
-<text x="1501.25" y="2049.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1501.25" dy="0em">Transition</tspan><tspan x="1501.25" dy="1em">(PV~CH)</tspan></text>
+<text x="1501.25" y="2049.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1501.25" dy="0em">Transition</tspan><tspan x="1501.25" dy="1em">(PV~CH)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1461.25,2041.25 L1461.25,2021.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="ThomsonsCrossing:CommunityHall">
 <g id="BASE:CommunityHall">
-<rect x="1461.25" y="1821.25" width="140.0" height="200.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1461.25" y="1821.25" width="140.0" height="200.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="CommunityHall:features">
 <g id="radio:CommunityHall:0:0">
 <g id="import" transform="translate(1476.25, 1862.5) scale(0.21052631578947367)">
@@ -1768,7 +1768,7 @@
 </g>
 </g>
 <g id="CommunityHall:header">
-<text x="1531.25" y="1831.875" font-size="20.0" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1531.25" dy="0em">Community</tspan><tspan x="1531.25" dy="1em">Hall</tspan></text>
+<text x="1531.25" y="1831.875" font-size="20.0" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1531.25" dy="0em">Community</tspan><tspan x="1531.25" dy="1em">Hall</tspan></text>
 </g>
 </g>
 </g>
@@ -1778,7 +1778,7 @@
 <path d="M1361.25,2181.25 L1361.25,2201.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ThomsonsCrossing:RuralStore">
 <g id="BASE:RuralStore">
-<rect x="1361.25" y="2201.25" width="80.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1361.25" y="2201.25" width="80.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="RuralStore:features">
 <g id="matches:RuralStore:0:0">
 <g id="import" transform="translate(1368.75, 2235.0) scale(0.2222222222222222)">
@@ -1820,14 +1820,14 @@
 </g>
 </g>
 <g id="RuralStore:header">
-<text x="1401.25" y="2210.0" font-size="16.25" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1401.25" dy="0em">Rural</tspan><tspan x="1401.25" dy="1em">Store</tspan></text>
+<text x="1401.25" y="2210.0" font-size="16.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1401.25" dy="0em">Rural</tspan><tspan x="1401.25" dy="1em">Store</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1461.25,2041.25 L1481.25,2041.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ThomsonsCrossing:PleasantValleyChurch">
 <g id="BASE:PleasantValleyChurch">
-<rect x="1481.25" y="2041.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1481.25" y="2041.25" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="PleasantValleyChurch:features">
 <g id="mementobox:PleasantValleyChurch:0:0">
 <g id="import" transform="translate(1491.25, 2095.0) scale(0.02617801047120419)">
@@ -1843,7 +1843,7 @@
 </g>
 </g>
 <g id="PleasantValleyChurch:header">
-<text x="1501.25" y="2062.03125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1501.25" dy="0em">Pleasant</tspan><tspan x="1501.25" dy="1em">Valley</tspan><tspan x="1501.25" dy="1em">Church</tspan></text>
+<text x="1501.25" y="2062.03125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1501.25" dy="0em">Pleasant</tspan><tspan x="1501.25" dy="1em">Valley</tspan><tspan x="1501.25" dy="1em">Church</tspan></text>
 </g>
 </g>
 </g>
@@ -1855,7 +1855,7 @@
 <path d="M1601.25,2021.25 L1621.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CommunityHall:Cave(EndOfTheRoad)">
 <g id="BASE:Cave(EndOfTheRoad)">
-<rect x="1621.25" y="1921.25" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1621.25" y="1921.25" width="60.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(EndOfTheRoad):features">
 <g id="prybar:Cave(EndOfTheRoad):0:0">
 <g id="import" transform="translate(1630.0, 1997.5) scale(0.20000199801996021)">
@@ -1869,7 +1869,7 @@
 </g>
 </g>
 <g id="Cave(EndOfTheRoad):header">
-<text x="1651.25" y="1929.375" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1651.25" dy="0em">Cave</tspan><tspan x="1651.25" dy="1em">(End</tspan><tspan x="1651.25" dy="1em">Of</tspan><tspan x="1651.25" dy="1em">The</tspan><tspan x="1651.25" dy="1em">Road)</tspan></text>
+<text x="1651.25" y="1929.375" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1651.25" dy="0em">Cave</tspan><tspan x="1651.25" dy="1em">(End</tspan><tspan x="1651.25" dy="1em">Of</tspan><tspan x="1651.25" dy="1em">The</tspan><tspan x="1651.25" dy="1em">Road)</tspan></text>
 </g>
 </g>
 </g>
@@ -1892,7 +1892,7 @@
 <path d="M1121.25,2161.25 L1121.25,2181.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="FishHut(PensivePond):Cave(WestOfUpperFalls)">
 <g id="BASE:Cave(WestOfUpperFalls)">
-<rect x="1121.25" y="2181.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1121.25" y="2181.25" width="80.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(WestOfUpperFalls):features">
 <g id="rabbit:Cave(WestOfUpperFalls):0:0">
 <g id="import" transform="translate(1128.75, 2255.0) scale(1.021189738125593)">
@@ -1919,14 +1919,14 @@
 </g>
 </g>
 <g id="Cave(WestOfUpperFalls):header">
-<text x="1161.25" y="2189.125" font-size="14.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1161.25" dy="0em">Cave</tspan><tspan x="1161.25" dy="1em">(West</tspan><tspan x="1161.25" dy="1em">Of</tspan><tspan x="1161.25" dy="1em">Upper</tspan><tspan x="1161.25" dy="1em">Falls)</tspan></text>
+<text x="1161.25" y="2189.125" font-size="14.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1161.25" dy="0em">Cave</tspan><tspan x="1161.25" dy="1em">(West</tspan><tspan x="1161.25" dy="1em">Of</tspan><tspan x="1161.25" dy="1em">Upper</tspan><tspan x="1161.25" dy="1em">Falls)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1041.25,2021.25 L1021.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="FishHut(PensivePond):Cave(PV~WR)">
 <g id="BASE:Cave(PV~WR)">
-<rect x="961.25" y="1941.25" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="961.25" y="1941.25" width="60.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(PV~WR):features">
 <g id="bear:Cave(PV~WR):0:0">
 <g id="import" transform="translate(970.0, 1975.0) scale(0.13959461723155955)">
@@ -1951,7 +1951,7 @@
 </g>
 </g>
 <g id="Cave(PV~WR):header">
-<text x="991.25" y="1952.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="991.25" dy="0em">Cave</tspan><tspan x="991.25" dy="1em">(PV~WR)</tspan></text>
+<text x="991.25" y="1952.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="991.25" dy="0em">Cave</tspan><tspan x="991.25" dy="1em">(PV~WR)</tspan></text>
 </g>
 </g>
 </g>
@@ -1962,10 +1962,10 @@
 <path d="M961.25,2021.25 L941.25,2021.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(PV~WR):Transition(PV~WR)">
 <g id="BASE:Transition(PV~WR)">
-<rect x="921.25" y="2001.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="921.25" y="2001.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(PV~WR):features"></g>
 <g id="Transition(PV~WR):header">
-<text x="931.25" y="2012.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="931.25" dy="0em">Transition</tspan><tspan x="931.25" dy="1em">(PV~WR)</tspan></text>
+<text x="931.25" y="2012.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="931.25" dy="0em">Transition</tspan><tspan x="931.25" dy="1em">(PV~WR)</tspan></text>
 </g>
 </g>
 </g>
@@ -1990,10 +1990,10 @@
 <path d="M901.25,1683.75 L901.25,1663.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Transition(PV~KP):Cave(NorthOfLongCurve)">
 <g id="BASE:Cave(NorthOfLongCurve)">
-<rect x="901.25" y="1643.75" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="901.25" y="1643.75" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(NorthOfLongCurve):features"></g>
 <g id="Cave(NorthOfLongCurve):header">
-<text x="911.25" y="1649.375" font-size="3.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="911.25" dy="0em">Cave</tspan><tspan x="911.25" dy="1em">(North</tspan><tspan x="911.25" dy="1em">Of</tspan><tspan x="911.25" dy="1em">Long</tspan><tspan x="911.25" dy="1em">Curve)</tspan></text>
+<text x="911.25" y="1649.375" font-size="3.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="911.25" dy="0em">Cave</tspan><tspan x="911.25" dy="1em">(North</tspan><tspan x="911.25" dy="1em">Of</tspan><tspan x="911.25" dy="1em">Long</tspan><tspan x="911.25" dy="1em">Curve)</tspan></text>
 </g>
 </g>
 </g>
@@ -2002,7 +2002,7 @@
 <path d="M921.25,1643.75 L921.25,1623.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(NorthOfLongCurve):BunkerBeta">
 <g id="BASE:BunkerBeta">
-<rect x="921.25" y="1523.75" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="921.25" y="1523.75" width="40.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="BunkerBeta:features">
 <g id="bed:BunkerBeta:0:0">
 <g id="import" transform="translate(931.25, 1555.0) scale(0.7697636825494574)">
@@ -2029,7 +2029,7 @@
 </g>
 </g>
 <g id="BunkerBeta:header">
-<text x="941.25" y="1535.3125" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="941.25" dy="0em">Bunker</tspan><tspan x="941.25" dy="1em">Beta</tspan></text>
+<text x="941.25" y="1535.3125" font-size="8.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="941.25" dy="0em">Bunker</tspan><tspan x="941.25" dy="1em">Beta</tspan></text>
 </g>
 </g>
 </g>
@@ -2037,7 +2037,7 @@
 <path d="M981.25,1721.25 L981.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Barn(NorthOfPVFarm):POI(ThreeStrikes)">
 <g id="BASE:POI(ThreeStrikes)">
-<rect x="981.25" y="1581.25" width="80.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="981.25" y="1581.25" width="80.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(ThreeStrikes):features">
 <g id="bear:POI(ThreeStrikes):0:0">
 <g id="import" transform="translate(988.75, 1632.5) scale(0.13959461723155955)">
@@ -2072,7 +2072,7 @@
 </g>
 </g>
 <g id="POI(ThreeStrikes):header">
-<text x="1021.25" y="1593.28125" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1021.25" dy="0em">POI</tspan><tspan x="1021.25" dy="1em">(Three</tspan><tspan x="1021.25" dy="1em">Strikes)</tspan></text>
+<text x="1021.25" y="1593.28125" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1021.25" dy="0em">POI</tspan><tspan x="1021.25" dy="1em">(Three</tspan><tspan x="1021.25" dy="1em">Strikes)</tspan></text>
 </g>
 </g>
 </g>
@@ -2112,7 +2112,7 @@
 <rect x="1081.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (PleasantValley):features"></g>
 <g id="to move from (PleasantValley):header">
-<text x="1091.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1091.25" dy="0em">to move from </tspan><tspan x="1091.25" dy="1em">(Pleasant</tspan><tspan x="1091.25" dy="1em">Valley)</tspan></text>
+<text x="1091.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1091.25" dy="0em">to move from </tspan><tspan x="1091.25" dy="1em">(Pleasant</tspan><tspan x="1091.25" dy="1em">Valley)</tspan></text>
 </g>
 </g>
 </g>
@@ -2121,7 +2121,7 @@
 <rect x="1081.25" y="121.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (PleasantValley):features"></g>
 <g id="to bring to (PleasantValley):header">
-<text x="1091.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1091.25" dy="0em">to bring to </tspan><tspan x="1091.25" dy="1em">(Pleasant</tspan><tspan x="1091.25" dy="1em">Valley)</tspan></text>
+<text x="1091.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1091.25" dy="0em">to bring to </tspan><tspan x="1091.25" dy="1em">(Pleasant</tspan><tspan x="1091.25" dy="1em">Valley)</tspan></text>
 </g>
 </g>
 </g>
@@ -2130,7 +2130,7 @@
 <rect x="1081.25" y="161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within PleasantValley:features"></g>
 <g id="move within PleasantValley:header">
-<text x="1091.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1091.25" dy="0em">move within </tspan><tspan x="1091.25" dy="1em">Pleasant</tspan><tspan x="1091.25" dy="1em">Valley</tspan></text>
+<text x="1091.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1091.25" dy="0em">move within </tspan><tspan x="1091.25" dy="1em">Pleasant</tspan><tspan x="1091.25" dy="1em">Valley</tspan></text>
 </g>
 </g>
 </g>
@@ -2139,7 +2139,7 @@
 <rect x="1081.25" y="201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for PleasantValley:features"></g>
 <g id="no source for PleasantValley:header">
-<text x="1091.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1091.25" dy="0em">no source for </tspan><tspan x="1091.25" dy="1em">Pleasant</tspan><tspan x="1091.25" dy="1em">Valley</tspan></text>
+<text x="1091.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1091.25" dy="0em">no source for </tspan><tspan x="1091.25" dy="1em">Pleasant</tspan><tspan x="1091.25" dy="1em">Valley</tspan></text>
 </g>
 </g>
 </g>

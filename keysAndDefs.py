@@ -76,7 +76,7 @@ BG = 'bg'
 OUTDOOR = 'outdoor'
 FIR = 'fir'
 CEDAR = 'cedar'
-UNEXPLORED = FIND
+UNEXPLORED = 'unexplored'
 PATH = 'path'
 
 REGIONS = 'regions'

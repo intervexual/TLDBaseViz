@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~BR):features"></g>
 <g id="Transition(FRBL~BR):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(FRBL~BR)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(FRBL~BR)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1481.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
@@ -19,7 +19,7 @@
 <rect x="1461.25" y="1501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(RailOffice):features"></g>
 <g id="POI(RailOffice):header">
-<text x="1471.25" y="1510.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">POI</tspan><tspan x="1471.25" dy="1em">(Rail</tspan><tspan x="1471.25" dy="1em">Office)</tspan></text>
+<text x="1471.25" y="1510.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">POI</tspan><tspan x="1471.25" dy="1em">(Rail</tspan><tspan x="1471.25" dy="1em">Office)</tspan></text>
 </g>
 </g>
 </g>
@@ -59,7 +59,7 @@
 </g>
 </g>
 <g id="TrainCar(SurfeitTrestle):header">
-<text x="1401.25" y="1508.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1401.25" dy="0em">Train</tspan><tspan x="1401.25" dy="1em">Car</tspan><tspan x="1401.25" dy="1em">(Surfeit</tspan><tspan x="1401.25" dy="1em">Trestle)</tspan></text>
+<text x="1401.25" y="1508.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1401.25" dy="0em">Train</tspan><tspan x="1401.25" dy="1em">Car</tspan><tspan x="1401.25" dy="1em">(Surfeit</tspan><tspan x="1401.25" dy="1em">Trestle)</tspan></text>
 </g>
 </g>
 </g>
@@ -92,7 +92,7 @@
 </g>
 </g>
 <g id="PlatelayersShortcut:header">
-<text x="1321.25" y="1514.659090909091" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Platelayers</tspan><tspan x="1321.25" dy="1em">Shortcut</tspan></text>
+<text x="1321.25" y="1514.659090909091" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Platelayers</tspan><tspan x="1321.25" dy="1em">Shortcut</tspan></text>
 </g>
 </g>
 </g>
@@ -108,7 +108,7 @@
 </g>
 </g>
 <g id="Climb(FRBL):header">
-<text x="1421.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1421.25" dy="0em">Climb</tspan><tspan x="1421.25" dy="1em">(FRBL)</tspan></text>
+<text x="1421.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1421.25" dy="0em">Climb</tspan><tspan x="1421.25" dy="1em">(FRBL)</tspan></text>
 </g>
 </g>
 </g>
@@ -169,7 +169,7 @@
 </g>
 </g>
 <g id="RemnantCave:header">
-<text x="1251.25" y="1510.0" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1251.25" dy="0em">Remnant</tspan><tspan x="1251.25" dy="1em">Cave</tspan></text>
+<text x="1251.25" y="1510.0" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1251.25" dy="0em">Remnant</tspan><tspan x="1251.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -181,7 +181,7 @@
 <rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(FRBL~TP):features"></g>
 <g id="Transition(FRBL~TP):header">
-<text x="1191.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1191.25" dy="0em">Transition</tspan><tspan x="1191.25" dy="1em">(FRBL~TP)</tspan></text>
+<text x="1191.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1191.25" dy="0em">Transition</tspan><tspan x="1191.25" dy="1em">(FRBL~TP)</tspan></text>
 </g>
 </g>
 </g>
@@ -199,7 +199,7 @@
 <rect x="421.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (FarRangeBranchLine):features"></g>
 <g id="to move from (FarRangeBranchLine):header">
-<text x="431.25" y="90.24038461538461" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="431.25" dy="0em">to move from </tspan><tspan x="431.25" dy="1em">(Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line)</tspan></text>
+<text x="431.25" y="90.24038461538461" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="431.25" dy="0em">to move from </tspan><tspan x="431.25" dy="1em">(Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line)</tspan></text>
 </g>
 </g>
 </g>
@@ -220,7 +220,7 @@
 </g>
 </g>
 <g id="to bring to (FarRangeBranchLine):header">
-<text x="451.25" y="125.875" font-size="3.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="451.25" dy="0em">to bring to </tspan><tspan x="451.25" dy="1em">(Far</tspan><tspan x="451.25" dy="1em">Range</tspan><tspan x="451.25" dy="1em">Branch</tspan><tspan x="451.25" dy="1em">Line)</tspan></text>
+<text x="451.25" y="125.875" font-size="3.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="451.25" dy="0em">to bring to </tspan><tspan x="451.25" dy="1em">(Far</tspan><tspan x="451.25" dy="1em">Range</tspan><tspan x="451.25" dy="1em">Branch</tspan><tspan x="451.25" dy="1em">Line)</tspan></text>
 </g>
 </g>
 </g>
@@ -229,7 +229,7 @@
 <rect x="421.25" y="181.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within FarRangeBranchLine:features"></g>
 <g id="move within FarRangeBranchLine:header">
-<text x="431.25" y="190.0" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="431.25" dy="0em">move within </tspan><tspan x="431.25" dy="1em">Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line</tspan></text>
+<text x="431.25" y="190.0" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="431.25" dy="0em">move within </tspan><tspan x="431.25" dy="1em">Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line</tspan></text>
 </g>
 </g>
 </g>
@@ -238,7 +238,7 @@
 <rect x="421.25" y="221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for FarRangeBranchLine:features"></g>
 <g id="no source for FarRangeBranchLine:header">
-<text x="431.25" y="230.44642857142856" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="431.25" dy="0em">no source for </tspan><tspan x="431.25" dy="1em">Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line</tspan></text>
+<text x="431.25" y="230.44642857142856" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="431.25" dy="0em">no source for </tspan><tspan x="431.25" dy="1em">Far</tspan><tspan x="431.25" dy="1em">Range</tspan><tspan x="431.25" dy="1em">Branch</tspan><tspan x="431.25" dy="1em">Line</tspan></text>
 </g>
 </g>
 </g>

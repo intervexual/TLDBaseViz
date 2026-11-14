@@ -111,7 +111,7 @@
 </g>
 </g>
 <g id="Cave(SP~ZOC~FA):header">
-<text x="1541.25" y="1509.4318181818182" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1541.25" dy="0em">Cave</tspan><tspan x="1541.25" dy="1em">(SP~ZOC~FA)</tspan></text>
+<text x="1541.25" y="1509.4318181818182" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1541.25" dy="0em">Cave</tspan><tspan x="1541.25" dy="1em">(SP~ZOC~FA)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
@@ -129,7 +129,7 @@
 </g>
 </g>
 <g id="POI(PerilousCrossing):header">
-<text x="1521.25" y="1446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">POI</tspan><tspan x="1521.25" dy="1em">(Perilous</tspan><tspan x="1521.25" dy="1em">Crossing)</tspan></text>
+<text x="1521.25" y="1446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">POI</tspan><tspan x="1521.25" dy="1em">(Perilous</tspan><tspan x="1521.25" dy="1em">Crossing)</tspan></text>
 </g>
 </g>
 </g>
@@ -145,7 +145,7 @@
 </g>
 </g>
 <g id="Climb(LLH-CC):header">
-<text x="1601.25" y="1668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Climb</tspan><tspan x="1601.25" dy="1em">(LLH-CC)</tspan></text>
+<text x="1601.25" y="1668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1601.25" dy="0em">Climb</tspan><tspan x="1601.25" dy="1em">(LLH-CC)</tspan></text>
 </g>
 </g>
 </g>
@@ -805,7 +805,7 @@
 </g>
 </g>
 <g id="LastLonelyHouse:header">
-<text x="1731.25" y="1753.4375" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">LastLonelyHouse</text>
+<text x="1731.25" y="1753.4375" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">LastLonelyHouse</text>
 </g>
 </g>
 </g>
@@ -816,7 +816,7 @@
 <rect x="1841.25" y="1681.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(RouteOneWaterfall):features"></g>
 <g id="POI(RouteOneWaterfall):header">
-<text x="1851.25" y="1690.3125" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1851.25" dy="0em">POI</tspan><tspan x="1851.25" dy="1em">(Route</tspan><tspan x="1851.25" dy="1em">One</tspan><tspan x="1851.25" dy="1em">Waterfall)</tspan></text>
+<text x="1851.25" y="1690.3125" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1851.25" dy="0em">POI</tspan><tspan x="1851.25" dy="1em">(Route</tspan><tspan x="1851.25" dy="1em">One</tspan><tspan x="1851.25" dy="1em">Waterfall)</tspan></text>
 </g>
 </g>
 </g>
@@ -847,7 +847,7 @@
 </g>
 </g>
 <g id="MiserableHaunt:header">
-<text x="1651.25" y="2215.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1651.25" dy="0em">Miserable</tspan><tspan x="1651.25" dy="1em">Haunt</tspan></text>
+<text x="1651.25" y="2215.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1651.25" dy="0em">Miserable</tspan><tspan x="1651.25" dy="1em">Haunt</tspan></text>
 </g>
 </g>
 </g>
@@ -870,7 +870,7 @@
 </g>
 </g>
 <g id="IdleHideout:header">
-<text x="1861.25" y="1628.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1861.25" dy="0em">Idle</tspan><tspan x="1861.25" dy="1em">Hideout</tspan></text>
+<text x="1861.25" y="1628.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1861.25" dy="0em">Idle</tspan><tspan x="1861.25" dy="1em">Hideout</tspan></text>
 </g>
 </g>
 </g>
@@ -892,7 +892,7 @@
 </g>
 </g>
 <g id="CascadingGap:header">
-<text x="1901.25" y="1689.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1901.25" dy="0em">Cascading</tspan><tspan x="1901.25" dy="1em">Gap</tspan></text>
+<text x="1901.25" y="1689.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1901.25" dy="0em">Cascading</tspan><tspan x="1901.25" dy="1em">Gap</tspan></text>
 </g>
 </g>
 </g>
@@ -934,7 +934,7 @@
 </g>
 </g>
 <g id="LottesRest:header">
-<text x="1951.25" y="1751.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1951.25" dy="0em">Lottes</tspan><tspan x="1951.25" dy="1em">Rest</tspan></text>
+<text x="1951.25" y="1751.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1951.25" dy="0em">Lottes</tspan><tspan x="1951.25" dy="1em">Rest</tspan></text>
 </g>
 </g>
 </g>
@@ -972,7 +972,7 @@
 </g>
 </g>
 <g id="PlacidNotch:header">
-<text x="1891.25" y="1591.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1891.25" dy="0em">Placid</tspan><tspan x="1891.25" dy="1em">Notch</tspan></text>
+<text x="1891.25" y="1591.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1891.25" dy="0em">Placid</tspan><tspan x="1891.25" dy="1em">Notch</tspan></text>
 </g>
 </g>
 </g>
@@ -999,7 +999,7 @@
 </g>
 </g>
 <g id="PrayerfulWindow:header">
-<text x="1971.25" y="1635.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1971.25" dy="0em">Prayerful</tspan><tspan x="1971.25" dy="1em">Window</tspan></text>
+<text x="1971.25" y="1635.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1971.25" dy="0em">Prayerful</tspan><tspan x="1971.25" dy="1em">Window</tspan></text>
 </g>
 </g>
 </g>
@@ -1060,7 +1060,7 @@
 </g>
 </g>
 <g id="Basement(RudigersHideout):header">
-<text x="1881.25" y="1476.0416666666665" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1881.25" dy="0em">Basement</tspan><tspan x="1881.25" dy="1em">(Rudigers</tspan><tspan x="1881.25" dy="1em">Hideout)</tspan></text>
+<text x="1881.25" y="1476.0416666666665" font-size="12.083333333333332" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1881.25" dy="0em">Basement</tspan><tspan x="1881.25" dy="1em">(Rudigers</tspan><tspan x="1881.25" dy="1em">Hideout)</tspan></text>
 </g>
 </g>
 </g>
@@ -1099,7 +1099,7 @@
 </g>
 </g>
 <g id="BoltChoppersHaven:header">
-<text x="1811.25" y="1358.28125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1811.25" dy="0em">Bolt</tspan><tspan x="1811.25" dy="1em">Choppers</tspan><tspan x="1811.25" dy="1em">Haven</tspan></text>
+<text x="1811.25" y="1358.28125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1811.25" dy="0em">Bolt</tspan><tspan x="1811.25" dy="1em">Choppers</tspan><tspan x="1811.25" dy="1em">Haven</tspan></text>
 </g>
 </g>
 </g>
@@ -1406,7 +1406,7 @@
 </g>
 </g>
 <g id="Cabin(SnowedIn):header">
-<text x="2021.25" y="1364.4375" font-size="15.25" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cabin(SnowedIn)</text>
+<text x="2021.25" y="1364.4375" font-size="15.25" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cabin(SnowedIn)</text>
 </g>
 </g>
 </g>
@@ -1566,7 +1566,7 @@
 </g>
 </g>
 <g id="AbandonedMine(SP):header">
-<text x="1761.25" y="1148.9583333333335" font-size="14.166666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1761.25" dy="0em">Abandoned</tspan><tspan x="1761.25" dy="1em">Mine</tspan><tspan x="1761.25" dy="1em">(SP)</tspan></text>
+<text x="1761.25" y="1148.9583333333335" font-size="14.166666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1761.25" dy="0em">Abandoned</tspan><tspan x="1761.25" dy="1em">Mine</tspan><tspan x="1761.25" dy="1em">(SP)</tspan></text>
 </g>
 </g>
 </g>
@@ -1583,7 +1583,7 @@
 </g>
 </g>
 <g id="Climb(AbandonedMine):header">
-<text x="1641.25" y="1147.0" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Climb</tspan><tspan x="1641.25" dy="1em">(Abandoned</tspan><tspan x="1641.25" dy="1em">Mine)</tspan></text>
+<text x="1641.25" y="1147.0" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Climb</tspan><tspan x="1641.25" dy="1em">(Abandoned</tspan><tspan x="1641.25" dy="1em">Mine)</tspan></text>
 </g>
 </g>
 </g>
@@ -1603,14 +1603,14 @@
 </g>
 </g>
 <g id="POI(TreeBridgeSouthOfMine):header">
-<text x="1641.25" y="1205.625" font-size="2.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">POI</tspan><tspan x="1641.25" dy="1em">(Tree</tspan><tspan x="1641.25" dy="1em">Bridge</tspan><tspan x="1641.25" dy="1em">South</tspan><tspan x="1641.25" dy="1em">Of</tspan><tspan x="1641.25" dy="1em">Mine)</tspan></text>
+<text x="1641.25" y="1205.625" font-size="2.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">POI</tspan><tspan x="1641.25" dy="1em">(Tree</tspan><tspan x="1641.25" dy="1em">Bridge</tspan><tspan x="1641.25" dy="1em">South</tspan><tspan x="1641.25" dy="1em">Of</tspan><tspan x="1641.25" dy="1em">Mine)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1621.25,1141.25 L1601.25,1141.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(AbandonedMine):CrashSite(SP)">
 <g id="BASE:CrashSite(SP)">
-<rect x="1541.25" y="1141.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1541.25" y="1141.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="CrashSite(SP):features">
 <g id="wolf:CrashSite(SP):0:0">
 <g id="import" transform="translate(1550.0, 1177.5) scale(0.1511772931705658)">
@@ -1627,7 +1627,7 @@
 </g>
 </g>
 <g id="CrashSite(SP):header">
-<text x="1571.25" y="1147.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1571.25" dy="0em">Crash</tspan><tspan x="1571.25" dy="1em">Site</tspan><tspan x="1571.25" dy="1em">(SP)</tspan></text>
+<text x="1571.25" y="1147.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1571.25" dy="0em">Crash</tspan><tspan x="1571.25" dy="1em">Site</tspan><tspan x="1571.25" dy="1em">(SP)</tspan></text>
 </g>
 </g>
 </g>
@@ -1644,7 +1644,7 @@
 </g>
 </g>
 <g id="Climb(SP-WC):header">
-<text x="1641.25" y="1268.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Climb</tspan><tspan x="1641.25" dy="1em">(SP-WC)</tspan></text>
+<text x="1641.25" y="1268.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1641.25" dy="0em">Climb</tspan><tspan x="1641.25" dy="1em">(SP-WC)</tspan></text>
 </g>
 </g>
 </g>
@@ -1877,7 +1877,7 @@
 </g>
 </g>
 <g id="Garage(WeatherStation):header">
-<text x="1711.25" y="1342.315340909091" font-size="11.761363636363637" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Garage(WeatherStation)</text>
+<text x="1711.25" y="1342.315340909091" font-size="11.761363636363637" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Garage(WeatherStation)</text>
 </g>
 </g>
 </g>
@@ -1888,7 +1888,7 @@
 <rect x="1821.25" y="1581.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Truck(WeatherStationBridge):features"></g>
 <g id="Truck(WeatherStationBridge):header">
-<text x="1831.25" y="1589.609375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1831.25" dy="0em">Truck</tspan><tspan x="1831.25" dy="1em">(Weather</tspan><tspan x="1831.25" dy="1em">Station</tspan><tspan x="1831.25" dy="1em">Bridge)</tspan></text>
+<text x="1831.25" y="1589.609375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1831.25" dy="0em">Truck</tspan><tspan x="1831.25" dy="1em">(Weather</tspan><tspan x="1831.25" dy="1em">Station</tspan><tspan x="1831.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -1910,7 +1910,7 @@
 </g>
 </g>
 <g id="OpenCave(OgresTeardrop):header">
-<text x="1481.25" y="1386.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1481.25" dy="0em">Open</tspan><tspan x="1481.25" dy="1em">Cave</tspan><tspan x="1481.25" dy="1em">(Ogres</tspan><tspan x="1481.25" dy="1em">Teardrop)</tspan></text>
+<text x="1481.25" y="1386.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1481.25" dy="0em">Open</tspan><tspan x="1481.25" dy="1em">Cave</tspan><tspan x="1481.25" dy="1em">(Ogres</tspan><tspan x="1481.25" dy="1em">Teardrop)</tspan></text>
 </g>
 </g>
 </g>
@@ -1928,7 +1928,7 @@
 </g>
 </g>
 <g id="RadarBuilding:header">
-<text x="1841.25" y="1328.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1841.25" dy="0em">Radar</tspan><tspan x="1841.25" dy="1em">Building</tspan></text>
+<text x="1841.25" y="1328.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1841.25" dy="0em">Radar</tspan><tspan x="1841.25" dy="1em">Building</tspan></text>
 </g>
 </g>
 </g>
@@ -1969,7 +1969,7 @@
 </g>
 </g>
 <g id="StationBunkhouse:header">
-<text x="1831.25" y="1595.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1831.25" dy="0em">Station</tspan><tspan x="1831.25" dy="1em">Bunkhouse</tspan></text>
+<text x="1831.25" y="1595.0" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1831.25" dy="0em">Station</tspan><tspan x="1831.25" dy="1em">Bunkhouse</tspan></text>
 </g>
 </g>
 </g>
@@ -1999,7 +1999,7 @@
 </g>
 </g>
 <g id="FishHut(SP):header">
-<text x="2151.25" y="1287.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2151.25" dy="0em">Fish</tspan><tspan x="2151.25" dy="1em">Hut</tspan><tspan x="2151.25" dy="1em">(SP)</tspan></text>
+<text x="2151.25" y="1287.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2151.25" dy="0em">Fish</tspan><tspan x="2151.25" dy="1em">Hut</tspan><tspan x="2151.25" dy="1em">(SP)</tspan></text>
 </g>
 </g>
 </g>
@@ -2016,7 +2016,7 @@
 </g>
 </g>
 <g id="Climb(AL-RC):header">
-<text x="2221.25" y="1288.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2221.25" dy="0em">Climb</tspan><tspan x="2221.25" dy="1em">(AL-RC)</tspan></text>
+<text x="2221.25" y="1288.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2221.25" dy="0em">Climb</tspan><tspan x="2221.25" dy="1em">(AL-RC)</tspan></text>
 </g>
 </g>
 </g>
@@ -2059,7 +2059,7 @@
 </g>
 </g>
 <g id="FinalRefuge:header">
-<text x="2071.25" y="1211.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2071.25" dy="0em">Final</tspan><tspan x="2071.25" dy="1em">Refuge</tspan></text>
+<text x="2071.25" y="1211.5625" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2071.25" dy="0em">Final</tspan><tspan x="2071.25" dy="1em">Refuge</tspan></text>
 </g>
 </g>
 </g>
@@ -2077,7 +2077,7 @@
 </g>
 </g>
 <g id="Climb(LLH-BB):header">
-<text x="1881.25" y="1788.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1881.25" dy="0em">Climb</tspan><tspan x="1881.25" dy="1em">(LLH-BB)</tspan></text>
+<text x="1881.25" y="1788.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1881.25" dy="0em">Climb</tspan><tspan x="1881.25" dy="1em">(LLH-BB)</tspan></text>
 </g>
 </g>
 </g>
@@ -2087,7 +2087,7 @@
 <rect x="1921.25" y="1841.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(SP~TP):features"></g>
 <g id="Transition(SP~TP):header">
-<text x="1931.25" y="1852.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1931.25" dy="0em">Transition</tspan><tspan x="1931.25" dy="1em">(SP~TP)</tspan></text>
+<text x="1931.25" y="1852.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1931.25" dy="0em">Transition</tspan><tspan x="1931.25" dy="1em">(SP~TP)</tspan></text>
 </g>
 </g>
 </g>
@@ -2125,7 +2125,7 @@
 </g>
 </g>
 <g id="RoamersCave:header">
-<text x="2291.25" y="1292.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2291.25" dy="0em">Roamers</tspan><tspan x="2291.25" dy="1em">Cave</tspan></text>
+<text x="2291.25" y="1292.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2291.25" dy="0em">Roamers</tspan><tspan x="2291.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -2142,7 +2142,7 @@
 </g>
 </g>
 <g id="Climb(RC-HPP1):header">
-<text x="2281.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP1)</tspan></text>
+<text x="2281.25" y="1389.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP1)</tspan></text>
 </g>
 </g>
 </g>
@@ -2164,7 +2164,7 @@
 </g>
 </g>
 <g id="Climb(RC-HPP2):header">
-<text x="2281.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP2)</tspan></text>
+<text x="2281.25" y="1449.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP2)</tspan></text>
 </g>
 </g>
 </g>
@@ -2181,7 +2181,7 @@
 </g>
 </g>
 <g id="Climb(RC-HPP3):header">
-<text x="2281.25" y="1509.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP3)</tspan></text>
+<text x="2281.25" y="1509.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2281.25" dy="0em">Climb</tspan><tspan x="2281.25" dy="1em">(RC-HPP3)</tspan></text>
 </g>
 </g>
 </g>
@@ -2207,7 +2207,7 @@
 </g>
 </g>
 <g id="Cave(LastHorizon):header">
-<text x="2291.25" y="1569.53125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2291.25" dy="0em">Cave</tspan><tspan x="2291.25" dy="1em">(Last</tspan><tspan x="2291.25" dy="1em">Horizon)</tspan></text>
+<text x="2291.25" y="1569.53125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2291.25" dy="0em">Cave</tspan><tspan x="2291.25" dy="1em">(Last</tspan><tspan x="2291.25" dy="1em">Horizon)</tspan></text>
 </g>
 </g>
 </g>
@@ -2245,7 +2245,7 @@
 </g>
 </g>
 <g id="POI(HighPeakPlateau):header">
-<text x="2231.25" y="1654.609375" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2231.25" dy="0em">POI</tspan><tspan x="2231.25" dy="1em">(High</tspan><tspan x="2231.25" dy="1em">Peak</tspan><tspan x="2231.25" dy="1em">Plateau)</tspan></text>
+<text x="2231.25" y="1654.609375" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2231.25" dy="0em">POI</tspan><tspan x="2231.25" dy="1em">(High</tspan><tspan x="2231.25" dy="1em">Peak</tspan><tspan x="2231.25" dy="1em">Plateau)</tspan></text>
 </g>
 </g>
 </g>
@@ -2262,7 +2262,7 @@
 </g>
 </g>
 <g id="Climb(RC-HPP4):header">
-<text x="2161.25" y="1649.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2161.25" dy="0em">Climb</tspan><tspan x="2161.25" dy="1em">(RC-HPP4)</tspan></text>
+<text x="2161.25" y="1649.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2161.25" dy="0em">Climb</tspan><tspan x="2161.25" dy="1em">(RC-HPP4)</tspan></text>
 </g>
 </g>
 </g>
@@ -2285,7 +2285,7 @@
 </g>
 </g>
 <g id="POI(DeadEnd):header">
-<text x="2101.25" y="1646.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2101.25" dy="0em">POI</tspan><tspan x="2101.25" dy="1em">(Dead</tspan><tspan x="2101.25" dy="1em">End)</tspan></text>
+<text x="2101.25" y="1646.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="2101.25" dy="0em">POI</tspan><tspan x="2101.25" dy="1em">(Dead</tspan><tspan x="2101.25" dy="1em">End)</tspan></text>
 </g>
 </g>
 </g>
@@ -2305,7 +2305,7 @@
 <rect x="941.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (SunderedPass):features"></g>
 <g id="to move from (SunderedPass):header">
-<text x="951.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="951.25" dy="0em">to move from </tspan><tspan x="951.25" dy="1em">(Sundered</tspan><tspan x="951.25" dy="1em">Pass)</tspan></text>
+<text x="951.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="951.25" dy="0em">to move from </tspan><tspan x="951.25" dy="1em">(Sundered</tspan><tspan x="951.25" dy="1em">Pass)</tspan></text>
 </g>
 </g>
 </g>
@@ -2463,7 +2463,7 @@
 </g>
 </g>
 <g id="to bring to (SunderedPass):header">
-<text x="1071.25" y="139.2668269230769" font-size="14.567307692307693" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#a62f5f" text-anchor="middle">to bring to (SunderedPass)</text>
+<text x="1071.25" y="139.2668269230769" font-size="14.567307692307693" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#a62f5f" text-anchor="middle">to bring to (SunderedPass)</text>
 </g>
 </g>
 </g>
@@ -2601,7 +2601,7 @@
 </g>
 </g>
 <g id="move within SunderedPass:header">
-<text x="1071.25" y="273.125" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">move within SunderedPass</text>
+<text x="1071.25" y="273.125" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">move within SunderedPass</text>
 </g>
 </g>
 </g>
@@ -2610,7 +2610,7 @@
 <rect x="941.25" y="321.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for SunderedPass:features"></g>
 <g id="no source for SunderedPass:header">
-<text x="951.25" y="331.7857142857143" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="951.25" dy="0em">no source for </tspan><tspan x="951.25" dy="1em">Sundered</tspan><tspan x="951.25" dy="1em">Pass</tspan></text>
+<text x="951.25" y="331.7857142857143" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="951.25" dy="0em">no source for </tspan><tspan x="951.25" dy="1em">Sundered</tspan><tspan x="951.25" dy="1em">Pass</tspan></text>
 </g>
 </g>
 </g>

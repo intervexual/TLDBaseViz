@@ -16,7 +16,7 @@
 </g>
 </g>
 <g id="Transition(R~CH):header">
-<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(R~CH)</tspan></text>
+<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(R~CH)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
@@ -31,7 +31,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineEast):header">
-<text x="1481.25" y="1446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1481.25" dy="0em">Tunnel</tspan><tspan x="1481.25" dy="1em">(Ravine</tspan><tspan x="1481.25" dy="1em">East)</tspan></text>
+<text x="1481.25" y="1446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1481.25" dy="0em">Tunnel</tspan><tspan x="1481.25" dy="1em">(Ravine</tspan><tspan x="1481.25" dy="1em">East)</tspan></text>
 </g>
 </g>
 </g>
@@ -48,7 +48,7 @@
 </g>
 </g>
 <g id="Tunnel(RavineWest):header">
-<text x="1441.25" y="1386.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1441.25" dy="0em">Tunnel</tspan><tspan x="1441.25" dy="1em">(Ravine</tspan><tspan x="1441.25" dy="1em">West)</tspan></text>
+<text x="1441.25" y="1386.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1441.25" dy="0em">Tunnel</tspan><tspan x="1441.25" dy="1em">(Ravine</tspan><tspan x="1441.25" dy="1em">West)</tspan></text>
 </g>
 </g>
 </g>
@@ -259,7 +259,7 @@
 </g>
 </g>
 <g id="Cave(EastRavine):header">
-<text x="1301.25" y="1270.13671875" font-size="18.046875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(EastRavine)</text>
+<text x="1301.25" y="1270.13671875" font-size="18.046875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(EastRavine)</text>
 </g>
 </g>
 </g>
@@ -275,7 +275,7 @@
 </g>
 </g>
 <g id="Goating(Ravine):header">
-<text x="1401.25" y="1448.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1401.25" dy="0em">Goating</tspan><tspan x="1401.25" dy="1em">(Ravine)</tspan></text>
+<text x="1401.25" y="1448.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1401.25" dy="0em">Goating</tspan><tspan x="1401.25" dy="1em">(Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -286,7 +286,7 @@
 <rect x="1161.25" y="1221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="TrainCar(Ravine):features"></g>
 <g id="TrainCar(Ravine):header">
-<text x="1171.25" y="1230.78125" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1171.25" dy="0em">Train</tspan><tspan x="1171.25" dy="1em">Car</tspan><tspan x="1171.25" dy="1em">(Ravine)</tspan></text>
+<text x="1171.25" y="1230.78125" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1171.25" dy="0em">Train</tspan><tspan x="1171.25" dy="1em">Car</tspan><tspan x="1171.25" dy="1em">(Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -296,7 +296,7 @@
 <rect x="1161.25" y="1381.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(TreeBridge):features"></g>
 <g id="POI(TreeBridge):header">
-<text x="1171.25" y="1390.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1171.25" dy="0em">POI</tspan><tspan x="1171.25" dy="1em">(Tree</tspan><tspan x="1171.25" dy="1em">Bridge)</tspan></text>
+<text x="1171.25" y="1390.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1171.25" dy="0em">POI</tspan><tspan x="1171.25" dy="1em">(Tree</tspan><tspan x="1171.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -511,7 +511,7 @@
 </g>
 </g>
 <g id="Cave(WestRavine):header">
-<text x="1051.25" y="1267.16796875" font-size="16.171875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(WestRavine)</text>
+<text x="1051.25" y="1267.16796875" font-size="16.171875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(WestRavine)</text>
 </g>
 </g>
 </g>
@@ -528,7 +528,7 @@
 <rect x="941.25" y="1201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(R~ML):features"></g>
 <g id="Transition(R~ML):header">
-<text x="951.25" y="1212.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="951.25" dy="0em">Transition</tspan><tspan x="951.25" dy="1em">(R~ML)</tspan></text>
+<text x="951.25" y="1212.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="951.25" dy="0em">Transition</tspan><tspan x="951.25" dy="1em">(R~ML)</tspan></text>
 </g>
 </g>
 </g>
@@ -550,7 +550,7 @@
 </g>
 </g>
 <g id="Climb(Ravine):header">
-<text x="991.25" y="1454.453125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="991.25" dy="0em">Climb</tspan><tspan x="991.25" dy="1em">(Ravine)</tspan></text>
+<text x="991.25" y="1454.453125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="991.25" dy="0em">Climb</tspan><tspan x="991.25" dy="1em">(Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -569,7 +569,7 @@
 <rect x="1041.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="TrainCar(RavineBasin):features"></g>
 <g id="TrainCar(RavineBasin):header">
-<text x="1051.25" y="1509.1071428571427" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1051.25" dy="0em">Train</tspan><tspan x="1051.25" dy="1em">Car</tspan><tspan x="1051.25" dy="1em">(Ravine</tspan><tspan x="1051.25" dy="1em">Basin)</tspan></text>
+<text x="1051.25" y="1509.1071428571427" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1051.25" dy="0em">Train</tspan><tspan x="1051.25" dy="1em">Car</tspan><tspan x="1051.25" dy="1em">(Ravine</tspan><tspan x="1051.25" dy="1em">Basin)</tspan></text>
 </g>
 </g>
 </g>
@@ -677,7 +677,7 @@
 </g>
 </g>
 <g id="Cave(SouthRavine):header">
-<text x="1191.25" y="1532.8125" font-size="18.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(SouthRavine)</text>
+<text x="1191.25" y="1532.8125" font-size="18.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Cave(SouthRavine)</text>
 </g>
 </g>
 </g>
@@ -688,7 +688,7 @@
 <rect x="1081.25" y="1621.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(R~BI):features"></g>
 <g id="Transition(R~BI):header">
-<text x="1091.25" y="1632.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1091.25" dy="0em">Transition</tspan><tspan x="1091.25" dy="1em">(R~BI)</tspan></text>
+<text x="1091.25" y="1632.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1091.25" dy="0em">Transition</tspan><tspan x="1091.25" dy="1em">(R~BI)</tspan></text>
 </g>
 </g>
 </g>
@@ -799,7 +799,7 @@
 </g>
 </g>
 <g id="to move from (Ravine):header">
-<text x="751.25" y="91.875" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="751.25" dy="0em">to move from </tspan><tspan x="751.25" dy="1em">(Ravine)</tspan></text>
+<text x="751.25" y="91.875" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="751.25" dy="0em">to move from </tspan><tspan x="751.25" dy="1em">(Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -822,7 +822,7 @@
 </g>
 </g>
 <g id="to bring to (Ravine):header">
-<text x="711.25" y="208.59375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">to bring to </tspan><tspan x="711.25" dy="1em">(Ravine)</tspan></text>
+<text x="711.25" y="208.59375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="711.25" dy="0em">to bring to </tspan><tspan x="711.25" dy="1em">(Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -847,7 +847,7 @@
 </g>
 </g>
 <g id="move within Ravine:header">
-<text x="711.25" y="268.59375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">move within </tspan><tspan x="711.25" dy="1em">Ravine</tspan></text>
+<text x="711.25" y="268.59375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="711.25" dy="0em">move within </tspan><tspan x="711.25" dy="1em">Ravine</tspan></text>
 </g>
 </g>
 </g>
@@ -856,7 +856,7 @@
 <rect x="681.25" y="321.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for Ravine:features"></g>
 <g id="no source for Ravine:header">
-<text x="691.25" y="332.4553571428571" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="691.25" dy="0em">no source for </tspan><tspan x="691.25" dy="1em">Ravine</tspan></text>
+<text x="691.25" y="332.4553571428571" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="691.25" dy="0em">no source for </tspan><tspan x="691.25" dy="1em">Ravine</tspan></text>
 </g>
 </g>
 </g>

@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(ML~R):features"></g>
 <g id="Transition(ML~R):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(ML~R)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(ML~R)</tspan></text>
 </g>
 </g>
 <path d="M1521.25,1501.25 L1521.25,1481.25" stroke-width="2.5" stroke="#00a883" stroke-dasharray="2,1" fill="none" />
@@ -77,7 +77,7 @@
 </g>
 </g>
 <g id="Trailer(DamEast):header">
-<text x="1451.25" y="1390.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1451.25" dy="0em">Trailer</tspan><tspan x="1451.25" dy="1em">(Dam</tspan><tspan x="1451.25" dy="1em">East)</tspan></text>
+<text x="1451.25" y="1390.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1451.25" dy="0em">Trailer</tspan><tspan x="1451.25" dy="1em">(Dam</tspan><tspan x="1451.25" dy="1em">East)</tspan></text>
 </g>
 </g>
 </g>
@@ -146,7 +146,7 @@
 </g>
 </g>
 <g id="Trailer(DamWest):header">
-<text x="1291.25" y="1390.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1291.25" dy="0em">Trailer</tspan><tspan x="1291.25" dy="1em">(Dam</tspan><tspan x="1291.25" dy="1em">West)</tspan></text>
+<text x="1291.25" y="1390.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1291.25" dy="0em">Trailer</tspan><tspan x="1291.25" dy="1em">(Dam</tspan><tspan x="1291.25" dy="1em">West)</tspan></text>
 </g>
 </g>
 </g>
@@ -959,7 +959,7 @@
 </g>
 </g>
 <g id="UpperDam:header">
-<text x="1331.25" y="880.625" font-size="25.0" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">UpperDam</text>
+<text x="1331.25" y="880.625" font-size="25.0" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">UpperDam</text>
 </g>
 </g>
 </g>
@@ -987,7 +987,7 @@
 </g>
 </g>
 <g id="POI(RiverNorthernAccess):header">
-<text x="1181.25" y="1508.984375" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">POI</tspan><tspan x="1181.25" dy="1em">(River</tspan><tspan x="1181.25" dy="1em">Northern</tspan><tspan x="1181.25" dy="1em">Access)</tspan></text>
+<text x="1181.25" y="1508.984375" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">POI</tspan><tspan x="1181.25" dy="1em">(River</tspan><tspan x="1181.25" dy="1em">Northern</tspan><tspan x="1181.25" dy="1em">Access)</tspan></text>
 </g>
 </g>
 </g>
@@ -1003,7 +1003,7 @@
 </g>
 </g>
 <g id="TrainCar(TrainLoading):header">
-<text x="1181.25" y="1386.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">Train</tspan><tspan x="1181.25" dy="1em">Car</tspan><tspan x="1181.25" dy="1em">(Train</tspan><tspan x="1181.25" dy="1em">Loading)</tspan></text>
+<text x="1181.25" y="1386.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">Train</tspan><tspan x="1181.25" dy="1em">Car</tspan><tspan x="1181.25" dy="1em">(Train</tspan><tspan x="1181.25" dy="1em">Loading)</tspan></text>
 </g>
 </g>
 </g>
@@ -1014,7 +1014,7 @@
 <rect x="1461.25" y="1341.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(ML~WR):features"></g>
 <g id="Transition(ML~WR):header">
-<text x="1471.25" y="1352.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Transition</tspan><tspan x="1471.25" dy="1em">(ML~WR)</tspan></text>
+<text x="1471.25" y="1352.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Transition</tspan><tspan x="1471.25" dy="1em">(ML~WR)</tspan></text>
 </g>
 </g>
 </g>
@@ -1032,7 +1032,7 @@
 </g>
 </g>
 <g id="TrainCar(Derailment):header">
-<text x="1121.25" y="1387.8125" font-size="4.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1121.25" dy="0em">Train</tspan><tspan x="1121.25" dy="1em">Car</tspan><tspan x="1121.25" dy="1em">(Derailment)</tspan></text>
+<text x="1121.25" y="1387.8125" font-size="4.0625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1121.25" dy="0em">Train</tspan><tspan x="1121.25" dy="1em">Car</tspan><tspan x="1121.25" dy="1em">(Derailment)</tspan></text>
 </g>
 </g>
 </g>
@@ -1080,7 +1080,7 @@
 </g>
 </g>
 <g id="Trailers(LoggingCamp):header">
-<text x="1161.25" y="1274.53125" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1161.25" dy="0em">Trailers</tspan><tspan x="1161.25" dy="1em">(Logging</tspan><tspan x="1161.25" dy="1em">Camp)</tspan></text>
+<text x="1161.25" y="1274.53125" font-size="13.59375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1161.25" dy="0em">Trailers</tspan><tspan x="1161.25" dy="1em">(Logging</tspan><tspan x="1161.25" dy="1em">Camp)</tspan></text>
 </g>
 </g>
 </g>
@@ -1140,7 +1140,7 @@
 </g>
 </g>
 <g id="ForestryLookout:header">
-<text x="1071.25" y="1171.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">Forestry</tspan><tspan x="1071.25" dy="1em">Lookout</tspan></text>
+<text x="1071.25" y="1171.953125" font-size="9.84375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">Forestry</tspan><tspan x="1071.25" dy="1em">Lookout</tspan></text>
 </g>
 </g>
 </g>
@@ -1156,7 +1156,7 @@
 </g>
 </g>
 <g id="POI(FrozenCreek):header">
-<text x="1061.25" y="1106.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1061.25" dy="0em">POI</tspan><tspan x="1061.25" dy="1em">(Frozen</tspan><tspan x="1061.25" dy="1em">Creek)</tspan></text>
+<text x="1061.25" y="1106.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1061.25" dy="0em">POI</tspan><tspan x="1061.25" dy="1em">(Frozen</tspan><tspan x="1061.25" dy="1em">Creek)</tspan></text>
 </g>
 </g>
 </g>
@@ -1172,7 +1172,7 @@
 </g>
 </g>
 <g id="PlaneCrash(ML):header">
-<text x="1061.25" y="1286.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1061.25" dy="0em">Plane</tspan><tspan x="1061.25" dy="1em">Crash</tspan><tspan x="1061.25" dy="1em">(ML)</tspan></text>
+<text x="1061.25" y="1286.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1061.25" dy="0em">Plane</tspan><tspan x="1061.25" dy="1em">Crash</tspan><tspan x="1061.25" dy="1em">(ML)</tspan></text>
 </g>
 </g>
 </g>
@@ -1180,7 +1180,7 @@
 <path d="M1041.25,1101.25 L1041.25,1081.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(FrozenCreek):Climb(FC-DL)">
 <g id="BASE:Climb(FC-DL)">
-<rect x="1041.25" y="1021.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1041.25" y="1021.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(FC-DL):features">
 <g id="climb:Climb(FC-DL):0:0">
 <g id="import" transform="translate(1048.75, 1035.0) scale(0.21045321763345)">
@@ -1209,7 +1209,7 @@
 </g>
 </g>
 <g id="Climb(FC-DL):header">
-<text x="1081.25" y="1030.390625" font-size="9.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">Climb(FC-DL)</text>
+<text x="1081.25" y="1030.390625" font-size="9.0625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#010003" text-anchor="middle">Climb(FC-DL)</text>
 </g>
 </g>
 </g>
@@ -1234,7 +1234,7 @@
 </g>
 </g>
 <g id="POI(DestroyedLookout):header">
-<text x="1071.25" y="951.5" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">POI</tspan><tspan x="1071.25" dy="1em">(Destroyed</tspan><tspan x="1071.25" dy="1em">Lookout)</tspan></text>
+<text x="1071.25" y="951.5" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">POI</tspan><tspan x="1071.25" dy="1em">(Destroyed</tspan><tspan x="1071.25" dy="1em">Lookout)</tspan></text>
 </g>
 </g>
 </g>
@@ -1246,7 +1246,7 @@
 <rect x="1041.25" y="901.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(Clearcut):features"></g>
 <g id="POI(Clearcut):header">
-<text x="1051.25" y="912.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1051.25" dy="0em">POI</tspan><tspan x="1051.25" dy="1em">(Clearcut)</tspan></text>
+<text x="1051.25" y="912.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1051.25" dy="0em">POI</tspan><tspan x="1051.25" dy="1em">(Clearcut)</tspan></text>
 </g>
 </g>
 </g>
@@ -1312,7 +1312,7 @@
 </g>
 </g>
 <g id="Cabin(UnnamedPond):header">
-<text x="971.25" y="790.2083333333333" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="971.25" dy="0em">Cabin</tspan><tspan x="971.25" dy="1em">(Unnamed</tspan><tspan x="971.25" dy="1em">Pond)</tspan></text>
+<text x="971.25" y="790.2083333333333" font-size="16.666666666666668" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="971.25" dy="0em">Cabin</tspan><tspan x="971.25" dy="1em">(Unnamed</tspan><tspan x="971.25" dy="1em">Pond)</tspan></text>
 </g>
 </g>
 </g>
@@ -1345,7 +1345,7 @@
 </g>
 </g>
 <g id="HuntersBlind(UnnamedPond):header">
-<text x="861.25" y="789.2125000000001" font-size="4.35" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">HuntersBlind(UnnamedPond)</text>
+<text x="861.25" y="789.2125000000001" font-size="4.35" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">HuntersBlind(UnnamedPond)</text>
 </g>
 </g>
 </g>
@@ -2641,7 +2641,7 @@
 </g>
 </g>
 <g id="TrappersHomestead:header">
-<text x="661.25" y="805.3860294117646" font-size="24.044117647058826" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">TrappersHomestead</text>
+<text x="661.25" y="805.3860294117646" font-size="24.044117647058826" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">TrappersHomestead</text>
 </g>
 </g>
 </g>
@@ -2680,7 +2680,7 @@
 </g>
 </g>
 <g id="POI(DeadfallArea):header">
-<text x="841.25" y="881.4583333333333" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="841.25" dy="0em">POI</tspan><tspan x="841.25" dy="1em">(Deadfall</tspan><tspan x="841.25" dy="1em">Area)</tspan></text>
+<text x="841.25" y="881.4583333333333" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="841.25" dy="0em">POI</tspan><tspan x="841.25" dy="1em">(Deadfall</tspan><tspan x="841.25" dy="1em">Area)</tspan></text>
 </g>
 </g>
 </g>
@@ -2738,7 +2738,7 @@
 </g>
 </g>
 <g id="Transition(ML~FM):header">
-<text x="561.25" y="1411.4375" font-size="10.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="561.25" dy="0em">Transition</tspan><tspan x="561.25" dy="1em">(ML~FM)</tspan></text>
+<text x="561.25" y="1411.4375" font-size="10.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="561.25" dy="0em">Transition</tspan><tspan x="561.25" dy="1em">(ML~FM)</tspan></text>
 </g>
 </g>
 </g>
@@ -2760,7 +2760,7 @@
 </g>
 </g>
 <g id="Cave(ML~MT):header">
-<text x="481.25" y="788.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="481.25" dy="0em">Cave</tspan><tspan x="481.25" dy="1em">(ML~MT)</tspan></text>
+<text x="481.25" y="788.3928571428571" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="481.25" dy="0em">Cave</tspan><tspan x="481.25" dy="1em">(ML~MT)</tspan></text>
 </g>
 </g>
 </g>
@@ -2785,7 +2785,7 @@
 </g>
 </g>
 <g id="HuntersBlind(AlansCave):header">
-<text x="1201.25" y="1606.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1201.25" dy="0em">Hunters</tspan><tspan x="1201.25" dy="1em">Blind</tspan><tspan x="1201.25" dy="1em">(Alans</tspan><tspan x="1201.25" dy="1em">Cave)</tspan></text>
+<text x="1201.25" y="1606.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1201.25" dy="0em">Hunters</tspan><tspan x="1201.25" dy="1em">Blind</tspan><tspan x="1201.25" dy="1em">(Alans</tspan><tspan x="1201.25" dy="1em">Cave)</tspan></text>
 </g>
 </g>
 </g>
@@ -2906,7 +2906,7 @@
 </g>
 </g>
 <g id="Cave(LakeOverlook):header">
-<text x="1071.25" y="1508.9583333333335" font-size="14.166666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">Cave</tspan><tspan x="1071.25" dy="1em">(Lake</tspan><tspan x="1071.25" dy="1em">Overlook)</tspan></text>
+<text x="1071.25" y="1508.9583333333335" font-size="14.166666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1071.25" dy="0em">Cave</tspan><tspan x="1071.25" dy="1em">(Lake</tspan><tspan x="1071.25" dy="1em">Overlook)</tspan></text>
 </g>
 </g>
 </g>
@@ -2914,7 +2914,7 @@
 <path d="M1121.25,1681.25 L1121.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(LakeOverlook):Climb(ML-LO2)">
 <g id="BASE:Climb(ML-LO2)">
-<rect x="1081.25" y="1701.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1081.25" y="1701.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(ML-LO2):features">
 <g id="climb:Climb(ML-LO2):0:0">
 <g id="import" transform="translate(1091.25, 1717.5) scale(0.21045321763345)">
@@ -2923,7 +2923,7 @@
 </g>
 </g>
 <g id="Climb(ML-LO2):header">
-<text x="1101.25" y="1708.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1101.25" dy="0em">Climb</tspan><tspan x="1101.25" dy="1em">(ML-LO2)</tspan></text>
+<text x="1101.25" y="1708.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1101.25" dy="0em">Climb</tspan><tspan x="1101.25" dy="1em">(ML-LO2)</tspan></text>
 </g>
 </g>
 </g>
@@ -2944,7 +2944,7 @@
 </g>
 </g>
 <g id="POI(CentralMLRail):header">
-<text x="971.25" y="1451.5" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="971.25" dy="0em">POI</tspan><tspan x="971.25" dy="1em">(CentralML</tspan><tspan x="971.25" dy="1em">Rail)</tspan></text>
+<text x="971.25" y="1451.5" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="971.25" dy="0em">POI</tspan><tspan x="971.25" dy="1em">(CentralML</tspan><tspan x="971.25" dy="1em">Rail)</tspan></text>
 </g>
 </g>
 </g>
@@ -2952,7 +2952,7 @@
 <path d="M1121.25,1741.25 L1121.25,1761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(ML-LO2):Climb(ML-LO1)">
 <g id="BASE:Climb(ML-LO1)">
-<rect x="1081.25" y="1761.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1081.25" y="1761.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(ML-LO1):features">
 <g id="climb:Climb(ML-LO1):0:0">
 <g id="import" transform="translate(1091.25, 1777.5) scale(0.21045321763345)">
@@ -2961,7 +2961,7 @@
 </g>
 </g>
 <g id="Climb(ML-LO1):header">
-<text x="1101.25" y="1768.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1101.25" dy="0em">Climb</tspan><tspan x="1101.25" dy="1em">(ML-LO1)</tspan></text>
+<text x="1101.25" y="1768.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1101.25" dy="0em">Climb</tspan><tspan x="1101.25" dy="1em">(ML-LO1)</tspan></text>
 </g>
 </g>
 </g>
@@ -2978,7 +2978,7 @@
 </g>
 </g>
 <g id="POI(MidRailArea):header">
-<text x="641.25" y="1406.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="641.25" dy="0em">POI</tspan><tspan x="641.25" dy="1em">(Mid</tspan><tspan x="641.25" dy="1em">Rail</tspan><tspan x="641.25" dy="1em">Area)</tspan></text>
+<text x="641.25" y="1406.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="641.25" dy="0em">POI</tspan><tspan x="641.25" dy="1em">(Mid</tspan><tspan x="641.25" dy="1em">Rail</tspan><tspan x="641.25" dy="1em">Area)</tspan></text>
 </g>
 </g>
 </g>
@@ -2994,7 +2994,7 @@
 </g>
 </g>
 <g id="Cave(PrepperCache):header">
-<text x="541.25" y="1526.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="541.25" dy="0em">Cave</tspan><tspan x="541.25" dy="1em">(Prepper</tspan><tspan x="541.25" dy="1em">Cache)</tspan></text>
+<text x="541.25" y="1526.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="541.25" dy="0em">Cave</tspan><tspan x="541.25" dy="1em">(Prepper</tspan><tspan x="541.25" dy="1em">Cache)</tspan></text>
 </g>
 </g>
 </g>
@@ -3471,7 +3471,7 @@
 </g>
 </g>
 <g id="CampOffice:header">
-<text x="851.25" y="1512.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="851.25" dy="0em">Camp</tspan><tspan x="851.25" dy="1em">Office</tspan></text>
+<text x="851.25" y="1512.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="851.25" dy="0em">Camp</tspan><tspan x="851.25" dy="1em">Office</tspan></text>
 </g>
 </g>
 </g>
@@ -3504,7 +3504,7 @@
 </g>
 </g>
 <g id="FishHuts(ML):header">
-<text x="821.25" y="1887.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="821.25" dy="0em">Fish</tspan><tspan x="821.25" dy="1em">Huts</tspan><tspan x="821.25" dy="1em">(ML)</tspan></text>
+<text x="821.25" y="1887.7083333333335" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="821.25" dy="0em">Fish</tspan><tspan x="821.25" dy="1em">Huts</tspan><tspan x="821.25" dy="1em">(ML)</tspan></text>
 </g>
 </g>
 </g>
@@ -3514,7 +3514,7 @@
 <rect x="741.25" y="1841.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(DavesQuietClearing):features"></g>
 <g id="POI(DavesQuietClearing):header">
-<text x="751.25" y="1850.0" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="751.25" dy="0em">POI</tspan><tspan x="751.25" dy="1em">(Daves</tspan><tspan x="751.25" dy="1em">Quiet</tspan><tspan x="751.25" dy="1em">Clearing)</tspan></text>
+<text x="751.25" y="1850.0" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="751.25" dy="0em">POI</tspan><tspan x="751.25" dy="1em">(Daves</tspan><tspan x="751.25" dy="1em">Quiet</tspan><tspan x="751.25" dy="1em">Clearing)</tspan></text>
 </g>
 </g>
 </g>
@@ -3540,7 +3540,7 @@
 </g>
 </g>
 <g id="PrepperCache(ML):header">
-<text x="601.25" y="1526.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="601.25" dy="0em">Prepper</tspan><tspan x="601.25" dy="1em">Cache</tspan><tspan x="601.25" dy="1em">(ML)</tspan></text>
+<text x="601.25" y="1526.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="601.25" dy="0em">Prepper</tspan><tspan x="601.25" dy="1em">Cache</tspan><tspan x="601.25" dy="1em">(ML)</tspan></text>
 </g>
 </g>
 </g>
@@ -3552,7 +3552,7 @@
 <path d="M581.25,1561.25 L581.25,1581.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PrepperCache(ML):Climb(ML-PC)">
 <g id="BASE:Climb(ML-PC)">
-<rect x="581.25" y="1581.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="581.25" y="1581.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(ML-PC):features">
 <g id="climb:Climb(ML-PC):0:0">
 <g id="import" transform="translate(591.25, 1597.5) scale(0.21045321763345)">
@@ -3561,7 +3561,7 @@
 </g>
 </g>
 <g id="Climb(ML-PC):header">
-<text x="601.25" y="1588.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="601.25" dy="0em">Climb</tspan><tspan x="601.25" dy="1em">(ML-PC)</tspan></text>
+<text x="601.25" y="1588.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="601.25" dy="0em">Climb</tspan><tspan x="601.25" dy="1em">(ML-PC)</tspan></text>
 </g>
 </g>
 </g>
@@ -3569,10 +3569,10 @@
 <path d="M581.25,1621.25 L581.25,1641.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(ML-PC):Cave(WesternLakeCabins)">
 <g id="BASE:Cave(WesternLakeCabins)">
-<rect x="581.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="581.25" y="1641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(WesternLakeCabins):features"></g>
 <g id="Cave(WesternLakeCabins):header">
-<text x="591.25" y="1649.609375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="591.25" dy="0em">Cave</tspan><tspan x="591.25" dy="1em">(Western</tspan><tspan x="591.25" dy="1em">Lake</tspan><tspan x="591.25" dy="1em">Cabins)</tspan></text>
+<text x="591.25" y="1649.609375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="591.25" dy="0em">Cave</tspan><tspan x="591.25" dy="1em">(Western</tspan><tspan x="591.25" dy="1em">Lake</tspan><tspan x="591.25" dy="1em">Cabins)</tspan></text>
 </g>
 </g>
 </g>
@@ -3595,7 +3595,7 @@
 </g>
 </g>
 <g id="Cabins(MiddleLake):header">
-<text x="801.25" y="1966.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="801.25" dy="0em">Cabins</tspan><tspan x="801.25" dy="1em">(Middle</tspan><tspan x="801.25" dy="1em">Lake)</tspan></text>
+<text x="801.25" y="1966.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="801.25" dy="0em">Cabins</tspan><tspan x="801.25" dy="1em">(Middle</tspan><tspan x="801.25" dy="1em">Lake)</tspan></text>
 </g>
 </g>
 </g>
@@ -3622,7 +3622,7 @@
 </g>
 </g>
 <g id="Cabin(LoneLake):header">
-<text x="861.25" y="1966.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="861.25" dy="0em">Cabin</tspan><tspan x="861.25" dy="1em">(Lone</tspan><tspan x="861.25" dy="1em">Lake)</tspan></text>
+<text x="861.25" y="1966.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="861.25" dy="0em">Cabin</tspan><tspan x="861.25" dy="1em">(Lone</tspan><tspan x="861.25" dy="1em">Lake)</tspan></text>
 </g>
 </g>
 </g>
@@ -3642,7 +3642,7 @@
 </g>
 </g>
 <g id="Cabins(Lake):header">
-<text x="741.25" y="1968.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="741.25" dy="0em">Cabins</tspan><tspan x="741.25" dy="1em">(Lake)</tspan></text>
+<text x="741.25" y="1968.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="741.25" dy="0em">Cabins</tspan><tspan x="741.25" dy="1em">(Lake)</tspan></text>
 </g>
 </g>
 </g>
@@ -4369,7 +4369,7 @@
 </g>
 </g>
 <g id="to move from (MysteryLake):header">
-<text x="1351.25" y="102.82451923076923" font-size="23.798076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">to move from (MysteryLake)</text>
+<text x="1351.25" y="102.82451923076923" font-size="23.798076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">to move from (MysteryLake)</text>
 </g>
 </g>
 </g>
@@ -4480,7 +4480,7 @@
 </g>
 </g>
 <g id="to bring to (MysteryLake):header">
-<text x="1181.25" y="387.70833333333337" font-size="6.666666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1181.25" dy="0em">to bring to </tspan><tspan x="1181.25" dy="1em">(Mystery</tspan><tspan x="1181.25" dy="1em">Lake)</tspan></text>
+<text x="1181.25" y="387.70833333333337" font-size="6.666666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1181.25" dy="0em">to bring to </tspan><tspan x="1181.25" dy="1em">(Mystery</tspan><tspan x="1181.25" dy="1em">Lake)</tspan></text>
 </g>
 </g>
 </g>
@@ -4518,7 +4518,7 @@
 </g>
 </g>
 <g id="move within MysteryLake:header">
-<text x="1181.25" y="586.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1181.25" dy="0em">move within </tspan><tspan x="1181.25" dy="1em">Mystery</tspan><tspan x="1181.25" dy="1em">Lake</tspan></text>
+<text x="1181.25" y="586.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="1181.25" dy="0em">move within </tspan><tspan x="1181.25" dy="1em">Mystery</tspan><tspan x="1181.25" dy="1em">Lake</tspan></text>
 </g>
 </g>
 </g>
@@ -4527,7 +4527,7 @@
 <rect x="1141.25" y="641.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for MysteryLake:features"></g>
 <g id="no source for MysteryLake:header">
-<text x="1151.25" y="651.7857142857142" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1151.25" dy="0em">no source for </tspan><tspan x="1151.25" dy="1em">Mystery</tspan><tspan x="1151.25" dy="1em">Lake</tspan></text>
+<text x="1151.25" y="651.7857142857142" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="1151.25" dy="0em">no source for </tspan><tspan x="1151.25" dy="1em">Mystery</tspan><tspan x="1151.25" dy="1em">Lake</tspan></text>
 </g>
 </g>
 </g>

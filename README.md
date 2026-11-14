@@ -497,3 +497,6 @@ Needs serious rethink
 ## Acknowledgments
 * See image credits!
 * [TLD Interactive Map](https://elektronixx.github.io/TLD-Interactive-Map/) for helping me visualize how the regions connect
+
+## Contributions
+I welcome contributions! My apologies for the spaghetti code (it is, at least, artisinally hand-crafted).

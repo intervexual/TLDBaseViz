@@ -10,7 +10,7 @@
 <rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(TP~FRBL):features"></g>
 <g id="Transition(TP~FRBL):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(TP~FRBL)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(TP~FRBL)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
@@ -48,7 +48,7 @@
 </g>
 </g>
 <g id="FeedwaterCave:header">
-<text x="1471.25" y="1413.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Feedwater</tspan><tspan x="1471.25" dy="1em">Cave</tspan></text>
+<text x="1471.25" y="1413.75" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Feedwater</tspan><tspan x="1471.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -1228,7 +1228,7 @@
 </g>
 </g>
 <g id="VacantDepot:header">
-<text x="1641.25" y="786.25" font-size="32.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">VacantDepot</text>
+<text x="1641.25" y="786.25" font-size="32.5" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">VacantDepot</text>
 </g>
 </g>
 </g>
@@ -1239,7 +1239,7 @@
 <rect x="1801.25" y="761.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(TP~ZOC):features"></g>
 <g id="Transition(TP~ZOC):header">
-<text x="1811.25" y="772.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1811.25" dy="0em">Transition</tspan><tspan x="1811.25" dy="1em">(TP~ZOC)</tspan></text>
+<text x="1811.25" y="772.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1811.25" dy="0em">Transition</tspan><tspan x="1811.25" dy="1em">(TP~ZOC)</tspan></text>
 </g>
 </g>
 </g>
@@ -1249,7 +1249,7 @@
 <rect x="1461.25" y="761.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(TP~FA):features"></g>
 <g id="Transition(TP~FA):header">
-<text x="1471.25" y="772.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Transition</tspan><tspan x="1471.25" dy="1em">(TP~FA)</tspan></text>
+<text x="1471.25" y="772.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Transition</tspan><tspan x="1471.25" dy="1em">(TP~FA)</tspan></text>
 </g>
 </g>
 </g>
@@ -1324,7 +1324,7 @@
 </g>
 </g>
 <g id="Climb(TP-SP):header">
-<text x="1701.25" y="682.890625" font-size="19.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Climb(TP-SP)</text>
+<text x="1701.25" y="682.890625" font-size="19.0625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Climb(TP-SP)</text>
 </g>
 </g>
 </g>
@@ -1348,7 +1348,7 @@
 </g>
 </g>
 <g id="POI(OakGrove):header">
-<text x="1651.25" y="587.7083333333333" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1651.25" dy="0em">POI</tspan><tspan x="1651.25" dy="1em">(Oak</tspan><tspan x="1651.25" dy="1em">Grove)</tspan></text>
+<text x="1651.25" y="587.7083333333333" font-size="11.666666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1651.25" dy="0em">POI</tspan><tspan x="1651.25" dy="1em">(Oak</tspan><tspan x="1651.25" dy="1em">Grove)</tspan></text>
 </g>
 </g>
 </g>
@@ -1359,7 +1359,7 @@
 <rect x="1621.25" y="541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="Transition(TP~SP):features"></g>
 <g id="Transition(TP~SP):header">
-<text x="1631.25" y="552.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1631.25" dy="0em">Transition</tspan><tspan x="1631.25" dy="1em">(TP~SP)</tspan></text>
+<text x="1631.25" y="552.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1631.25" dy="0em">Transition</tspan><tspan x="1631.25" dy="1em">(TP~SP)</tspan></text>
 </g>
 </g>
 </g>
@@ -1690,7 +1690,7 @@
 </g>
 </g>
 <g id="to move from (TransferPass):header">
-<text x="591.25" y="95.38194444444444" font-size="14.027777777777777" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">to move from (TransferPass)</text>
+<text x="591.25" y="95.38194444444444" font-size="14.027777777777777" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#0090a2" text-anchor="middle">to move from (TransferPass)</text>
 </g>
 </g>
 </g>
@@ -1769,7 +1769,7 @@
 </g>
 </g>
 <g id="to bring to (TransferPass):header">
-<text x="501.25" y="290.3125" font-size="9.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="501.25" dy="0em">to bring to </tspan><tspan x="501.25" dy="1em">(Transfer</tspan><tspan x="501.25" dy="1em">Pass)</tspan></text>
+<text x="501.25" y="290.3125" font-size="9.0625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="501.25" dy="0em">to bring to </tspan><tspan x="501.25" dy="1em">(Transfer</tspan><tspan x="501.25" dy="1em">Pass)</tspan></text>
 </g>
 </g>
 </g>
@@ -1778,7 +1778,7 @@
 <rect x="461.25" y="401.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within TransferPass:features"></g>
 <g id="move within TransferPass:header">
-<text x="471.25" y="411.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="471.25" dy="0em">move within </tspan><tspan x="471.25" dy="1em">Transfer</tspan><tspan x="471.25" dy="1em">Pass</tspan></text>
+<text x="471.25" y="411.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="471.25" dy="0em">move within </tspan><tspan x="471.25" dy="1em">Transfer</tspan><tspan x="471.25" dy="1em">Pass</tspan></text>
 </g>
 </g>
 </g>
@@ -1816,7 +1816,7 @@
 </g>
 </g>
 <g id="no source for TransferPass:header">
-<text x="501.25" y="446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="501.25" dy="0em">no source for </tspan><tspan x="501.25" dy="1em">Transfer</tspan><tspan x="501.25" dy="1em">Pass</tspan></text>
+<text x="501.25" y="446.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="501.25" dy="0em">no source for </tspan><tspan x="501.25" dy="1em">Transfer</tspan><tspan x="501.25" dy="1em">Pass</tspan></text>
 </g>
 </g>
 </g>

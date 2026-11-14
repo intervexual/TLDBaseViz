@@ -6826,7 +6826,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bed,?hammer,?sewing","?reclaimed,?brake"]
+				"features": ["rabbit","bed,?hammer,?sewing","?reclaimed,?brake"]
 			},
 			"RedWarehouse": {
 				"region": "PortRemnant",
@@ -6878,7 +6878,7 @@
 				"indoors": true,
 				"explored":false,
 				"features": ["bed,grill",
-					"?matches,?canopener",
+					"?matches,?canopener,?blueflare/0.5",
 					"?chest,?box,?drawer","?festive:2,?rug:2,?deermount,?crate:2"]
 			},
 			"Gate(OT:N)": {
@@ -6966,11 +6966,11 @@
 				"region": "PortRemnant",
 				"coords": [1230,540],
 				"customizable": true,
-				"loading": true,
+				"loading": false,
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["bed,grill","?matches,?box"]
+				"features": ["bed,grill","?matches/0.5,?reclaimed:2", "?box,?buildout"]
 			},
 			"Cabin(LootedGrotto)": {
 				"region": "PortRemnant",
@@ -7146,7 +7146,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["watertank,wolf"]
+				"features": ["watertank,grill,?box"]
 			},
 			"Switch(A5:WT:W)": {
 				"region": "AnnaIsland5",
@@ -7196,7 +7196,7 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["plastic,rabbit"]
+				"features": ["rabbit","plastic,?box/0.5,?cedar"]
 			},
 			"POI(Path)": {
 				"region": "AnnaIsland5",
@@ -7206,7 +7206,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["?stick"]
+				"features": ["deer"]
 			},
 			"Cave(A5)": {
 				"region": "AnnaIsland5",
@@ -7216,7 +7216,7 @@
 				"cabinfeverrisk":false,
 				"indoors": true,
 				"explored":false,
-				"features": ["deer"]
+				"features": ["deer,?box/0.5"]
 			},
 			"Switch(A5:OT:E)": {
 				"region": "AnnaIsland5",
@@ -7296,7 +7296,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["?reclaimed"]
+				"features": ["?stick"]
 			},
 			"Transition(A5~A4)": {
 				"region": "AnnaIsland5",
@@ -8149,7 +8149,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["tunnel"]
+				"features": ["bridge"]
 			},
 			"POI(Junction)": {
 				"region": "AnnaIsland6",
@@ -8169,7 +8169,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["?reclaimed"]
+				"features": ["?bag,?reclaimed"]
 			},
 
 			"TrainShelter": {
@@ -8180,7 +8180,9 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["grill,?train,?wax"]
+				"features": ["?train,grill,?box:2",
+					"?wax,?reclaimed:2,?scrap:4"
+				]
 			},
 			"TrainShelterOffice": {
 				"region": "AnnaIsland6",
@@ -8190,7 +8192,10 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["potbelly,bed,?wax"]
+				"features": ["potbelly,bed",
+					"?matches/0.5,?hammer/0.5,?food",
+					"?wax,?reclaimed",
+				"?cupboard,?drawer:5"]
 			}
 		},
 		"CurrentInventory": {
@@ -9039,14 +9044,14 @@
 		["Switch(A5:OT:S)", "southwestsquigup", "bottom,right", "Bypass(A5:OT)", "top,left","rail" ],
 		["Switch(A5:OT:E)", "southwestsquigdown tall", "bottom,left", "Bypass(A5:OT)", "top,right", "rail"],
 		["Switch(A5:WT:W)", "southeastsquigdown", "bottom,right", "Bypass(A5:WT)", "top,left", "rail"],
-		["Switch(A5:WT:E)", "southwestsquigdown", "bottom,left", "Bypass(A5:WT)", "top,right", "rail"],
+		["Switch(A5:WT:E)", "southwestsquigdown tallwide", "bottom,left", "Bypass(A5:WT)", "top,right", "rail"],
 		["Switch(A5:RY:W)", "northeast squigdown", "top,right", "Bypass(A5:RY)", "bottom,left", "rail"],
 		["Switch(A5:RY:E)", "northwest squigdown tall", "top,left", "Bypass(A5:RY)", "bottom,right", "rail"],
 		"-----Anna6------",
 		["Transition(A5~A6)", "west", "top,left", "Transition(A6~A5)", "top,right", "default"],
 		["Transition(A6~A5)", "north", "top,left","POI(Junction)", "bottom,right", "default"],
-		["POI(Junction)", "east wide", "top,right", "TrainShelter", "top,left", "rail"],
-		["TrainShelter", "east", "top,right", "TrainShelterOffice", "top,left", "default"],
+		["POI(Junction)", "east wide", "top,right", "TrainShelter", "bottom,left", "rail"],
+		["TrainShelter", "east", "bottom,right", "TrainShelterOffice", "bottom,left", "default"],
 		["POI(Junction)", "west", "top,left", "Transition(A6~A4)", "top,right", "rail"],
 		"-----Anna4------",
 		["Transition(A5~A4)", "west", "top,left", "Transition(A4~A5)", "top,right", "rail"],

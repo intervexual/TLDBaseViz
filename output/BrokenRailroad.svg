@@ -112,7 +112,7 @@
 </g>
 </g>
 <g id="Transition(BR~FM):header">
-<text x="1581.25" y="1509.375" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Transition</tspan><tspan x="1581.25" dy="1em">(BR~FM)</tspan></text>
+<text x="1581.25" y="1509.375" font-size="15.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1581.25" dy="0em">Transition</tspan><tspan x="1581.25" dy="1em">(BR~FM)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1481.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
@@ -127,7 +127,7 @@
 </g>
 </g>
 <g id="POI(LocomotiveEngine):header">
-<text x="1461.25" y="1507.443181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1461.25" dy="0em">POI</tspan><tspan x="1461.25" dy="1em">(Locomotive</tspan><tspan x="1461.25" dy="1em">Engine)</tspan></text>
+<text x="1461.25" y="1507.443181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1461.25" dy="0em">POI</tspan><tspan x="1461.25" dy="1em">(Locomotive</tspan><tspan x="1461.25" dy="1em">Engine)</tspan></text>
 </g>
 </g>
 </g>
@@ -268,7 +268,7 @@
 </g>
 </g>
 <g id="MaintenanceYard:header">
-<text x="1351.25" y="1517.6875" font-size="13.25" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">MaintenanceYard</text>
+<text x="1351.25" y="1517.6875" font-size="13.25" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">MaintenanceYard</text>
 </g>
 </g>
 </g>
@@ -285,7 +285,7 @@
 </g>
 </g>
 <g id="TrainCar(BrokenBridge):header">
-<text x="1241.25" y="1506.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1241.25" dy="0em">Train</tspan><tspan x="1241.25" dy="1em">Car</tspan><tspan x="1241.25" dy="1em">(Broken</tspan><tspan x="1241.25" dy="1em">Bridge)</tspan></text>
+<text x="1241.25" y="1506.25" font-size="3.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1241.25" dy="0em">Train</tspan><tspan x="1241.25" dy="1em">Car</tspan><tspan x="1241.25" dy="1em">(Broken</tspan><tspan x="1241.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -1562,7 +1562,7 @@
 </g>
 </g>
 <g id="MaintenanceShed:header">
-<text x="1321.25" y="1661.4375" font-size="23.25" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">MaintenanceShed</text>
+<text x="1321.25" y="1661.4375" font-size="23.25" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">MaintenanceShed</text>
 </g>
 </g>
 </g>
@@ -1591,7 +1591,7 @@
 </g>
 </g>
 <g id="Cave(BRHuntersBlind):header">
-<text x="1321.25" y="1408.75" font-size="13.75" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Cave</tspan><tspan x="1321.25" dy="1em">(BR</tspan><tspan x="1321.25" dy="1em">Hunters</tspan><tspan x="1321.25" dy="1em">Blind)</tspan></text>
+<text x="1321.25" y="1408.75" font-size="13.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Cave</tspan><tspan x="1321.25" dy="1em">(BR</tspan><tspan x="1321.25" dy="1em">Hunters</tspan><tspan x="1321.25" dy="1em">Blind)</tspan></text>
 </g>
 </g>
 </g>
@@ -1607,7 +1607,7 @@
 </g>
 </g>
 <g id="Climb(RFB):header">
-<text x="1441.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1441.25" dy="0em">Climb</tspan><tspan x="1441.25" dy="1em">(RFB)</tspan></text>
+<text x="1441.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1441.25" dy="0em">Climb</tspan><tspan x="1441.25" dy="1em">(RFB)</tspan></text>
 </g>
 </g>
 </g>
@@ -1639,7 +1639,7 @@
 </g>
 </g>
 <g id="Climb(HB-HL):header">
-<text x="1321.25" y="1331.6071428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Climb</tspan><tspan x="1321.25" dy="1em">(HB-HL)</tspan></text>
+<text x="1321.25" y="1331.6071428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1321.25" dy="0em">Climb</tspan><tspan x="1321.25" dy="1em">(HB-HL)</tspan></text>
 </g>
 </g>
 </g>
@@ -1655,7 +1655,7 @@
 </g>
 </g>
 <g id="Climb(BRRavine):header">
-<text x="1241.25" y="1406.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1241.25" dy="0em">Climb</tspan><tspan x="1241.25" dy="1em">(BR</tspan><tspan x="1241.25" dy="1em">Ravine)</tspan></text>
+<text x="1241.25" y="1406.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1241.25" dy="0em">Climb</tspan><tspan x="1241.25" dy="1em">(BR</tspan><tspan x="1241.25" dy="1em">Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -1894,7 +1894,7 @@
 </g>
 </g>
 <g id="HuntingLodge:header">
-<text x="1351.25" y="1070.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1351.25" dy="0em">Hunting</tspan><tspan x="1351.25" dy="1em">Lodge</tspan></text>
+<text x="1351.25" y="1070.625" font-size="17.5" font-family="Arial" font-weight="bold" stroke="#2f5136" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1351.25" dy="0em">Hunting</tspan><tspan x="1351.25" dy="1em">Lodge</tspan></text>
 </g>
 </g>
 </g>
@@ -1916,7 +1916,7 @@
 </g>
 </g>
 <g id="Cave(NorthernBR):header">
-<text x="1471.25" y="1076.09375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Cave</tspan><tspan x="1471.25" dy="1em">(NorthernBR)</tspan></text>
+<text x="1471.25" y="1076.09375" font-size="6.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1471.25" dy="0em">Cave</tspan><tspan x="1471.25" dy="1em">(NorthernBR)</tspan></text>
 </g>
 </g>
 </g>
@@ -1931,7 +1931,7 @@
 <rect x="1181.25" y="1381.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#2f5136" />
 <g id="POI(BRRavine):features"></g>
 <g id="POI(BRRavine):header">
-<text x="1191.25" y="1390.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1191.25" dy="0em">POI</tspan><tspan x="1191.25" dy="1em">(BR</tspan><tspan x="1191.25" dy="1em">Ravine)</tspan></text>
+<text x="1191.25" y="1390.4464285714284" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1191.25" dy="0em">POI</tspan><tspan x="1191.25" dy="1em">(BR</tspan><tspan x="1191.25" dy="1em">Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -1956,7 +1956,7 @@
 </g>
 </g>
 <g id="Truck(BrokenBridge):header">
-<text x="1181.25" y="1521.1607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">Truck</tspan><tspan x="1181.25" dy="1em">(Broken</tspan><tspan x="1181.25" dy="1em">Bridge)</tspan></text>
+<text x="1181.25" y="1521.1607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1181.25" dy="0em">Truck</tspan><tspan x="1181.25" dy="1em">(Broken</tspan><tspan x="1181.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -1973,7 +1973,7 @@
 </g>
 </g>
 <g id="Transition(BR~FRBL):header">
-<text x="1121.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1121.25" dy="0em">Transition</tspan><tspan x="1121.25" dy="1em">(BR~FRBL)</tspan></text>
+<text x="1121.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1121.25" dy="0em">Transition</tspan><tspan x="1121.25" dy="1em">(BR~FRBL)</tspan></text>
 </g>
 </g>
 </g>
@@ -2243,7 +2243,7 @@
 </g>
 </g>
 <g id="to move from (BrokenRailroad):header">
-<text x="731.25" y="88.95833333333334" font-size="9.166666666666666" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="731.25" dy="0em">to move from </tspan><tspan x="731.25" dy="1em">(Broken</tspan><tspan x="731.25" dy="1em">Railroad)</tspan></text>
+<text x="731.25" y="88.95833333333334" font-size="9.166666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="731.25" dy="0em">to move from </tspan><tspan x="731.25" dy="1em">(Broken</tspan><tspan x="731.25" dy="1em">Railroad)</tspan></text>
 </g>
 </g>
 </g>
@@ -2295,7 +2295,7 @@
 </g>
 </g>
 <g id="to bring to (BrokenRailroad):header">
-<text x="691.25" y="409.36383928571433" font-size="4.955357142857142" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#a62f5f" text-anchor="middle">to bring to (BrokenRailroad)</text>
+<text x="691.25" y="409.36383928571433" font-size="4.955357142857142" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#a62f5f" text-anchor="middle">to bring to (BrokenRailroad)</text>
 </g>
 </g>
 </g>
@@ -2329,7 +2329,7 @@
 </g>
 </g>
 <g id="move within BrokenRailroad:header">
-<text x="681.25" y="486.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="681.25" dy="0em">move within </tspan><tspan x="681.25" dy="1em">Broken</tspan><tspan x="681.25" dy="1em">Railroad</tspan></text>
+<text x="681.25" y="486.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="681.25" dy="0em">move within </tspan><tspan x="681.25" dy="1em">Broken</tspan><tspan x="681.25" dy="1em">Railroad</tspan></text>
 </g>
 </g>
 </g>
@@ -2338,7 +2338,7 @@
 <rect x="641.25" y="541.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for BrokenRailroad:features"></g>
 <g id="no source for BrokenRailroad:header">
-<text x="651.25" y="551.7857142857142" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="651.25" dy="0em">no source for </tspan><tspan x="651.25" dy="1em">Broken</tspan><tspan x="651.25" dy="1em">Railroad</tspan></text>
+<text x="651.25" y="551.7857142857142" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="651.25" dy="0em">no source for </tspan><tspan x="651.25" dy="1em">Broken</tspan><tspan x="651.25" dy="1em">Railroad</tspan></text>
 </g>
 </g>
 </g>

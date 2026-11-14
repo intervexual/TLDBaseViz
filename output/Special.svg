@@ -761,7 +761,7 @@
 </g>
 </g>
 <g id="CurrentInventory:header">
-<text x="1881.25" y="1528.125" font-size="35.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">CurrentInventory</text>
+<text x="1881.25" y="1528.125" font-size="35.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">CurrentInventory</text>
 </g>
 </g>
 <path d="M1501.25,1741.25 L1501.25,1761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
@@ -859,7 +859,7 @@
 </g>
 </g>
 <g id="UsedUp:header">
-<text x="1581.25" y="1782.5" font-size="27.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">UsedUp</text>
+<text x="1581.25" y="1782.5" font-size="27.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">UsedUp</text>
 </g>
 </g>
 </g>
@@ -982,7 +982,7 @@
 </g>
 </g>
 <g id="Uncertainty:header">
-<text x="2301.25" y="1776.846590909091" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Uncertainty</text>
+<text x="2301.25" y="1776.846590909091" font-size="9.886363636363637" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#2f5136" text-anchor="middle">Uncertainty</text>
 </g>
 </g>
 </g>
@@ -999,7 +999,7 @@
 </g>
 </g>
 <g id="PrototypeTrain:header">
-<text x="1521.25" y="1509.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Prototype</tspan><tspan x="1521.25" dy="1em">Train</tspan></text>
+<text x="1521.25" y="1509.1666666666667" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#2f5136" text-anchor="middle"><tspan x="1521.25" dy="0em">Prototype</tspan><tspan x="1521.25" dy="1em">Train</tspan></text>
 </g>
 </g>
 <g id="Uncertainty:CurrentInventory"></g>

@@ -7,16 +7,16 @@
 <g transform="translate(-1041.25,-958.75)">
 <g id="bases">
 <g id="BASE:Transition(BR~FM)">
-<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1501.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(BR~FM):features"></g>
 <g id="Transition(BR~FM):header">
-<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(BR~FM)</tspan></text>
+<text x="1511.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1511.25" dy="0em">Transition</tspan><tspan x="1511.25" dy="1em">(BR~FM)</tspan></text>
 </g>
 </g>
 <path d="M1501.25,1501.25 L1481.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Transition(BR~FM):POI(LocomotiveEngine)">
 <g id="BASE:POI(LocomotiveEngine)">
-<rect x="1441.25" y="1501.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1441.25" y="1501.25" width="40.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(LocomotiveEngine):features">
 <g id="wolf:POI(LocomotiveEngine):0:0">
 <g id="import" transform="translate(1451.25, 1555.0) scale(0.1511772931705658)">
@@ -30,7 +30,7 @@
 </g>
 </g>
 <g id="POI(LocomotiveEngine):header">
-<text x="1461.25" y="1523.693181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1461.25" dy="0em">POI</tspan><tspan x="1461.25" dy="1em">(Locomotive</tspan><tspan x="1461.25" dy="1em">Engine)</tspan></text>
+<text x="1461.25" y="1523.693181818182" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1461.25" dy="0em">POI</tspan><tspan x="1461.25" dy="1em">(Locomotive</tspan><tspan x="1461.25" dy="1em">Engine)</tspan></text>
 </g>
 </g>
 </g>
@@ -38,7 +38,7 @@
 <path d="M1441.25,1501.25 L1421.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="POI(LocomotiveEngine):MaintenanceYard">
 <g id="BASE:MaintenanceYard">
-<rect x="1221.25" y="1501.25" width="200.0" height="220.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1501.25" width="200.0" height="220.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="MaintenanceYard:features">
 <g id="wolf:MaintenanceYard:0:0">
 <g id="import" transform="translate(1232.5, 1540.0) scale(0.1511772931705658)">
@@ -253,7 +253,7 @@
 </g>
 </g>
 <g id="MaintenanceYard:header">
-<text x="1321.25" y="1525.4375" font-size="19.25" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="auto" fill="#6741ca" text-anchor="middle">MaintenanceYard</text>
+<text x="1321.25" y="1525.4375" font-size="19.25" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="auto" fill="#010003" text-anchor="middle">MaintenanceYard</text>
 </g>
 </g>
 </g>
@@ -261,17 +261,17 @@
 <path d="M1221.25,1501.25 L1201.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="MaintenanceYard:TrainCar(BrokenBridge)">
 <g id="BASE:TrainCar(BrokenBridge)">
-<rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1181.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="TrainCar(BrokenBridge):features"></g>
 <g id="TrainCar(BrokenBridge):header">
-<text x="1191.25" y="1509.1071428571427" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1191.25" dy="0em">Train</tspan><tspan x="1191.25" dy="1em">Car</tspan><tspan x="1191.25" dy="1em">(Broken</tspan><tspan x="1191.25" dy="1em">Bridge)</tspan></text>
+<text x="1191.25" y="1509.1071428571427" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1191.25" dy="0em">Train</tspan><tspan x="1191.25" dy="1em">Car</tspan><tspan x="1191.25" dy="1em">(Broken</tspan><tspan x="1191.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1421.25,1721.25 L1441.25,1721.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="MaintenanceYard:MaintenanceShed">
 <g id="BASE:MaintenanceShed">
-<rect x="1261.25" y="1721.25" width="180.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1261.25" y="1721.25" width="180.0" height="180.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="MaintenanceShed:features">
 <g id="wolf:MaintenanceShed:0:0">
 <g id="import" transform="translate(1273.75, 1765.0) scale(0.1511772931705658)">
@@ -370,14 +370,14 @@
 </g>
 </g>
 <g id="MaintenanceShed:header">
-<text x="1351.25" y="1732.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1351.25" dy="0em">Maintenance</tspan><tspan x="1351.25" dy="1em">Shed</tspan></text>
+<text x="1351.25" y="1732.5" font-size="21.25" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1351.25" dy="0em">Maintenance</tspan><tspan x="1351.25" dy="1em">Shed</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1221.25,1501.25 L1221.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="MaintenanceYard:Cave(BRHuntersBlind)">
 <g id="BASE:Cave(BRHuntersBlind)">
-<rect x="1221.25" y="1381.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1381.25" width="80.0" height="100.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(BRHuntersBlind):features">
 <g id="bear:Cave(BRHuntersBlind):0:0">
 <g id="import" transform="translate(1228.75, 1435.0) scale(0.13959461723155955)">
@@ -404,14 +404,14 @@
 </g>
 </g>
 <g id="Cave(BRHuntersBlind):header">
-<text x="1261.25" y="1388.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1261.25" dy="0em">Cave</tspan><tspan x="1261.25" dy="1em">(BR</tspan><tspan x="1261.25" dy="1em">Hunters</tspan><tspan x="1261.25" dy="1em">Blind)</tspan></text>
+<text x="1261.25" y="1388.4375" font-size="13.125" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1261.25" dy="0em">Cave</tspan><tspan x="1261.25" dy="1em">(BR</tspan><tspan x="1261.25" dy="1em">Hunters</tspan><tspan x="1261.25" dy="1em">Blind)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1421.25,1501.25 L1421.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="MaintenanceYard:Climb(RFB)">
 <g id="BASE:Climb(RFB)">
-<rect x="1421.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1421.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(RFB):features">
 <g id="climb:Climb(RFB):0:0">
 <g id="import" transform="translate(1431.25, 1457.5) scale(0.21045321763345)">
@@ -420,7 +420,7 @@
 </g>
 </g>
 <g id="Climb(RFB):header">
-<text x="1441.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1441.25" dy="0em">Climb</tspan><tspan x="1441.25" dy="1em">(RFB)</tspan></text>
+<text x="1441.25" y="1448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1441.25" dy="0em">Climb</tspan><tspan x="1441.25" dy="1em">(RFB)</tspan></text>
 </g>
 </g>
 </g>
@@ -428,7 +428,7 @@
 <path d="M1221.25,1381.25 L1221.25,1361.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BRHuntersBlind):Climb(HB-HL)">
 <g id="BASE:Climb(HB-HL)">
-<rect x="1221.25" y="1301.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="1301.25" width="80.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(HB-HL):features">
 <g id="harvestcedar:Climb(HB-HL):0:0">
 <g id="import" transform="translate(1228.75, 1345.5) scale(0.2490866873357416)">
@@ -452,14 +452,14 @@
 </g>
 </g>
 <g id="Climb(HB-HL):header">
-<text x="1261.25" y="1311.6071428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1261.25" dy="0em">Climb</tspan><tspan x="1261.25" dy="1em">(HB-HL)</tspan></text>
+<text x="1261.25" y="1311.6071428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1261.25" dy="0em">Climb</tspan><tspan x="1261.25" dy="1em">(HB-HL)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1221.25,1381.25 L1201.25,1381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(BRHuntersBlind):Climb(BRRavine)">
 <g id="BASE:Climb(BRRavine)">
-<rect x="1161.25" y="1381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1161.25" y="1381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Climb(BRRavine):features">
 <g id="climb:Climb(BRRavine):0:0">
 <g id="import" transform="translate(1171.25, 1397.5) scale(0.21045321763345)">
@@ -468,7 +468,7 @@
 </g>
 </g>
 <g id="Climb(BRRavine):header">
-<text x="1181.25" y="1386.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1181.25" dy="0em">Climb</tspan><tspan x="1181.25" dy="1em">(BR</tspan><tspan x="1181.25" dy="1em">Ravine)</tspan></text>
+<text x="1181.25" y="1386.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1181.25" dy="0em">Climb</tspan><tspan x="1181.25" dy="1em">(BR</tspan><tspan x="1181.25" dy="1em">Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -476,7 +476,7 @@
 <path d="M1221.25,1301.25 L1221.25,1281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(HB-HL):HuntingLodge">
 <g id="BASE:HuntingLodge">
-<rect x="1221.25" y="998.75" width="200.0" height="282.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1221.25" y="998.75" width="200.0" height="282.5" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="HuntingLodge:features">
 <g id="wolf:HuntingLodge:0:0">
 <g id="import" transform="translate(1232.5, 1055.0) scale(0.1511772931705658)">
@@ -791,7 +791,7 @@
 </g>
 </g>
 <g id="HuntingLodge:header">
-<text x="1321.25" y="1013.125" font-size="27.5" font-family="Arial" font-weight="bold" stroke="#6741ca" font-style="" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1321.25" dy="0em">Hunting</tspan><tspan x="1321.25" dy="1em">Lodge</tspan></text>
+<text x="1321.25" y="1013.125" font-size="27.5" font-family="Arial" font-weight="bold" stroke="#010003" stroke-width="1.0" font-style="" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1321.25" dy="0em">Hunting</tspan><tspan x="1321.25" dy="1em">Lodge</tspan></text>
 </g>
 </g>
 </g>
@@ -799,7 +799,7 @@
 <path d="M1421.25,998.75 L1441.25,998.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntingLodge:Cave(NorthernBR)">
 <g id="BASE:Cave(NorthernBR)">
-<rect x="1441.25" y="998.75" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1441.25" y="998.75" width="40.0" height="120.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Cave(NorthernBR):features">
 <g id="rabbit:Cave(NorthernBR):0:0">
 <g id="import" transform="translate(1451.25, 1027.5) scale(1.021189738125593)">
@@ -828,7 +828,7 @@
 </g>
 </g>
 <g id="Cave(NorthernBR):header">
-<text x="1461.25" y="1011.09375" font-size="4.0625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1461.25" dy="0em">Cave</tspan><tspan x="1461.25" dy="1em">(NorthernBR)</tspan></text>
+<text x="1461.25" y="1011.09375" font-size="4.0625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1461.25" dy="0em">Cave</tspan><tspan x="1461.25" dy="1em">(NorthernBR)</tspan></text>
 </g>
 </g>
 </g>
@@ -840,7 +840,7 @@
 <path d="M1161.25,1381.25 L1141.25,1381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Climb(BRRavine):POI(BRRavine)">
 <g id="BASE:POI(BRRavine)">
-<rect x="1101.25" y="1241.25" width="40.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1101.25" y="1241.25" width="40.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="POI(BRRavine):features">
 <g id="supplybin:POI(BRRavine):0:0">
 <g id="import" transform="translate(1111.25, 1290.0) scale(0.2631578947368421)">
@@ -866,7 +866,7 @@
 </g>
 </g>
 <g id="POI(BRRavine):header">
-<text x="1121.25" y="1258.6607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1121.25" dy="0em">POI</tspan><tspan x="1121.25" dy="1em">(BR</tspan><tspan x="1121.25" dy="1em">Ravine)</tspan></text>
+<text x="1121.25" y="1258.6607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1121.25" dy="0em">POI</tspan><tspan x="1121.25" dy="1em">(BR</tspan><tspan x="1121.25" dy="1em">Ravine)</tspan></text>
 </g>
 </g>
 </g>
@@ -877,7 +877,7 @@
 <path d="M1181.25,1501.25 L1161.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="TrainCar(BrokenBridge):Truck(BrokenBridge)">
 <g id="BASE:Truck(BrokenBridge)">
-<rect x="1121.25" y="1501.25" width="40.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1121.25" y="1501.25" width="40.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Truck(BrokenBridge):features">
 <g id="wolf:Truck(BrokenBridge):0:0">
 <g id="import" transform="translate(1131.25, 1550.0) scale(0.1511772931705658)">
@@ -905,7 +905,7 @@
 </g>
 </g>
 <g id="Truck(BrokenBridge):header">
-<text x="1141.25" y="1518.6607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1141.25" dy="0em">Truck</tspan><tspan x="1141.25" dy="1em">(Broken</tspan><tspan x="1141.25" dy="1em">Bridge)</tspan></text>
+<text x="1141.25" y="1518.6607142857142" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1141.25" dy="0em">Truck</tspan><tspan x="1141.25" dy="1em">(Broken</tspan><tspan x="1141.25" dy="1em">Bridge)</tspan></text>
 </g>
 </g>
 </g>
@@ -913,10 +913,10 @@
 <path d="M1121.25,1501.25 L1101.25,1501.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Truck(BrokenBridge):Transition(BR~FRBL)">
 <g id="BASE:Transition(BR~FRBL)">
-<rect x="1081.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#6741ca" />
+<rect x="1081.25" y="1501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#010003" />
 <g id="Transition(BR~FRBL):features"></g>
 <g id="Transition(BR~FRBL):header">
-<text x="1091.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#6741ca" text-anchor="middle"><tspan x="1091.25" dy="0em">Transition</tspan><tspan x="1091.25" dy="1em">(BR~FRBL)</tspan></text>
+<text x="1091.25" y="1512.1875" font-size="1.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#010003" text-anchor="middle"><tspan x="1091.25" dy="0em">Transition</tspan><tspan x="1091.25" dy="1em">(BR~FRBL)</tspan></text>
 </g>
 </g>
 </g>
@@ -935,7 +935,7 @@
 <rect x="521.25" y="81.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="to move from (BrokenRailroad):features"></g>
 <g id="to move from (BrokenRailroad):header">
-<text x="531.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="531.25" dy="0em">to move from </tspan><tspan x="531.25" dy="1em">(Broken</tspan><tspan x="531.25" dy="1em">Railroad)</tspan></text>
+<text x="531.25" y="91.6826923076923" font-size="1.4423076923076923" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="531.25" dy="0em">to move from </tspan><tspan x="531.25" dy="1em">(Broken</tspan><tspan x="531.25" dy="1em">Railroad)</tspan></text>
 </g>
 </g>
 </g>
@@ -944,7 +944,7 @@
 <rect x="521.25" y="121.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="to bring to (BrokenRailroad):features"></g>
 <g id="to bring to (BrokenRailroad):header">
-<text x="531.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="531.25" dy="0em">to bring to </tspan><tspan x="531.25" dy="1em">(Broken</tspan><tspan x="531.25" dy="1em">Railroad)</tspan></text>
+<text x="531.25" y="131.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="531.25" dy="0em">to bring to </tspan><tspan x="531.25" dy="1em">(Broken</tspan><tspan x="531.25" dy="1em">Railroad)</tspan></text>
 </g>
 </g>
 </g>
@@ -953,7 +953,7 @@
 <rect x="521.25" y="161.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#0090a2" />
 <g id="move within BrokenRailroad:features"></g>
 <g id="move within BrokenRailroad:header">
-<text x="531.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="531.25" dy="0em">move within </tspan><tspan x="531.25" dy="1em">Broken</tspan><tspan x="531.25" dy="1em">Railroad</tspan></text>
+<text x="531.25" y="171.5625" font-size="1.5625" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#0090a2" text-anchor="middle"><tspan x="531.25" dy="0em">move within </tspan><tspan x="531.25" dy="1em">Broken</tspan><tspan x="531.25" dy="1em">Railroad</tspan></text>
 </g>
 </g>
 </g>
@@ -962,7 +962,7 @@
 <rect x="521.25" y="201.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#a62f5f" />
 <g id="no source for BrokenRailroad:features"></g>
 <g id="no source for BrokenRailroad:header">
-<text x="531.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="531.25" dy="0em">no source for </tspan><tspan x="531.25" dy="1em">Broken</tspan><tspan x="531.25" dy="1em">Railroad</tspan></text>
+<text x="531.25" y="211.78571428571428" font-size="1.3392857142857144" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#a62f5f" text-anchor="middle"><tspan x="531.25" dy="0em">no source for </tspan><tspan x="531.25" dy="1em">Broken</tspan><tspan x="531.25" dy="1em">Railroad</tspan></text>
 </g>
 </g>
 </g>
