@@ -210,10 +210,10 @@
 <path d="M1441.25,1541.25 L1441.25,1561.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(EasternFMRailroad):AbandonedCamp(NE)">
 <g id="BASE:AbandonedCamp(NE)">
-<rect x="1441.25" y="1561.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1441.25" y="1561.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="AbandonedCamp(NE):features"></g>
 <g id="AbandonedCamp(NE):header">
-<text x="1451.25" y="1571.0416666666665" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1451.25" dy="0em">Abandoned</tspan><tspan x="1451.25" dy="1em">Camp</tspan><tspan x="1451.25" dy="1em">(NE)</tspan></text>
+<text x="1451.25" y="1571.0416666666665" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1451.25" dy="0em">Abandoned</tspan><tspan x="1451.25" dy="1em">Camp</tspan><tspan x="1451.25" dy="1em">(NE)</tspan></text>
 </g>
 </g>
 </g>
@@ -237,10 +237,10 @@
 <path d="M1201.25,1641.25 L1201.25,1661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="PoachersCamp:POI(IslandsSouthOfPoacher)">
 <g id="BASE:POI(IslandsSouthOfPoacher)">
-<rect x="1201.25" y="1661.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1201.25" y="1661.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(IslandsSouthOfPoacher):features"></g>
 <g id="POI(IslandsSouthOfPoacher):header">
-<text x="1211.25" y="1668.4375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1211.25" dy="0em">POI</tspan><tspan x="1211.25" dy="1em">(Islands</tspan><tspan x="1211.25" dy="1em">South</tspan><tspan x="1211.25" dy="1em">Of</tspan><tspan x="1211.25" dy="1em">Poacher)</tspan></text>
+<text x="1211.25" y="1668.4375" font-size="2.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1211.25" dy="0em">POI</tspan><tspan x="1211.25" dy="1em">(Islands</tspan><tspan x="1211.25" dy="1em">South</tspan><tspan x="1211.25" dy="1em">Of</tspan><tspan x="1211.25" dy="1em">Poacher)</tspan></text>
 </g>
 </g>
 </g>
@@ -293,10 +293,10 @@
 <path d="M1201.25,1681.25 L1201.25,1701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(IslandsSouthOfPoacher):AbandonedCamp(SE)">
 <g id="BASE:AbandonedCamp(SE)">
-<rect x="1181.25" y="1701.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1181.25" y="1701.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="AbandonedCamp(SE):features"></g>
 <g id="AbandonedCamp(SE):header">
-<text x="1191.25" y="1711.0416666666665" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1191.25" dy="0em">Abandoned</tspan><tspan x="1191.25" dy="1em">Camp</tspan><tspan x="1191.25" dy="1em">(SE)</tspan></text>
+<text x="1191.25" y="1711.0416666666665" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1191.25" dy="0em">Abandoned</tspan><tspan x="1191.25" dy="1em">Camp</tspan><tspan x="1191.25" dy="1em">(SE)</tspan></text>
 </g>
 </g>
 </g>

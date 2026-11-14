@@ -7,7 +7,7 @@
 <g transform="translate(-1461.25,-1321.25)">
 <g id="bases">
 <g id="BASE:Transition(A6~A4)">
-<rect x="1501.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1501.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Transition(A6~A4):features">
 <g id="bridge:Transition(A6~A4):0:0">
 <g id="import" transform="translate(1511.25, 1517.5) scale(0.20903883286177832)">
@@ -16,13 +16,13 @@
 </g>
 </g>
 <g id="Transition(A6~A4):header">
-<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(A6~A4)</tspan></text>
+<text x="1521.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1521.25" dy="0em">Transition</tspan><tspan x="1521.25" dy="1em">(A6~A4)</tspan></text>
 </g>
 </g>
 <path d="M1541.25,1501.25 L1561.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="Transition(A6~A4):POI(Junction)">
 <g id="BASE:POI(Junction)">
-<rect x="1561.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1561.25" y="1501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(Junction):features">
 <g id="gate:POI(Junction):0:0">
 <g id="import" transform="translate(1571.25, 1517.5) scale(0.2499156534669549)">
@@ -31,14 +31,14 @@
 </g>
 </g>
 <g id="POI(Junction):header">
-<text x="1581.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1581.25" dy="0em">POI</tspan><tspan x="1581.25" dy="1em">(Junction)</tspan></text>
+<text x="1581.25" y="1509.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1581.25" dy="0em">POI</tspan><tspan x="1581.25" dy="1em">(Junction)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1601.25,1541.25 L1601.25,1561.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(Junction):Transition(A6~A5)">
 <g id="BASE:Transition(A6~A5)">
-<rect x="1601.25" y="1561.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1601.25" y="1561.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Transition(A6~A5):features">
 <g id="bag:Transition(A6~A5):0:0">
 <g id="import" transform="translate(1610.0, 1597.5) scale(0.22827141992287667)">
@@ -52,14 +52,14 @@
 </g>
 </g>
 <g id="Transition(A6~A5):header">
-<text x="1631.25" y="1575.4375" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1631.25" dy="0em">Transition</tspan><tspan x="1631.25" dy="1em">(A6~A5)</tspan></text>
+<text x="1631.25" y="1575.4375" font-size="7.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1631.25" dy="0em">Transition</tspan><tspan x="1631.25" dy="1em">(A6~A5)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1601.25,1501.25 L1641.25,1501.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="POI(Junction):TrainShelter">
 <g id="BASE:TrainShelter">
-<rect x="1641.25" y="1421.25" width="80.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1641.25" y="1421.25" width="80.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="TrainShelter:features">
 <g id="train:TrainShelter:0:0">
 <g id="import" transform="translate(1648.75, 1455.0) scale(0.2222222222222222)">
@@ -118,7 +118,7 @@
 </g>
 </g>
 <g id="TrainShelter:header">
-<text x="1681.25" y="1430.3571428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1681.25" dy="0em">Train</tspan><tspan x="1681.25" dy="1em">Shelter</tspan></text>
+<text x="1681.25" y="1430.3571428571427" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1681.25" dy="0em">Train</tspan><tspan x="1681.25" dy="1em">Shelter</tspan></text>
 </g>
 </g>
 </g>
@@ -128,7 +128,7 @@
 <path d="M1721.25,1501.25 L1741.25,1501.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="TrainShelter:TrainShelterOffice">
 <g id="BASE:TrainShelterOffice">
-<rect x="1741.25" y="1361.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1741.25" y="1361.25" width="80.0" height="140.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="TrainShelterOffice:features">
 <g id="potbelly:TrainShelterOffice:0:0">
 <g id="import" transform="translate(1748.75, 1410.0) scale(1.7179178835251676)">
@@ -199,7 +199,7 @@
 </g>
 </g>
 <g id="TrainShelterOffice:header">
-<text x="1781.25" y="1370.0892857142858" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1781.25" dy="0em">Train</tspan><tspan x="1781.25" dy="1em">Shelter</tspan><tspan x="1781.25" dy="1em">Office</tspan></text>
+<text x="1781.25" y="1370.0892857142858" font-size="15.535714285714286" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1781.25" dy="0em">Train</tspan><tspan x="1781.25" dy="1em">Shelter</tspan><tspan x="1781.25" dy="1em">Office</tspan></text>
 </g>
 </g>
 </g>

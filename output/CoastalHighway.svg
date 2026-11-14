@@ -3590,7 +3590,7 @@
 <path d="M1821.25,1681.25 L1821.25,1701.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
 <g id="AbandonedLookout:Climb(C-AL2)">
 <g id="BASE:Climb(C-AL2)">
-<rect x="1781.25" y="1701.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1781.25" y="1701.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(C-AL2):features">
 <g id="climb:Climb(C-AL2):0:0">
 <g id="import" transform="translate(1791.25, 1717.5) scale(0.21045321763345)">
@@ -3599,7 +3599,7 @@
 </g>
 </g>
 <g id="Climb(C-AL2):header">
-<text x="1801.25" y="1708.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1801.25" dy="0em">Climb</tspan><tspan x="1801.25" dy="1em">(C-AL2)</tspan></text>
+<text x="1801.25" y="1708.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1801.25" dy="0em">Climb</tspan><tspan x="1801.25" dy="1em">(C-AL2)</tspan></text>
 </g>
 </g>
 </g>
@@ -5028,7 +5028,7 @@
 <path d="M1721.25,1701.25 L1721.25,1681.25" stroke-width="2.5" stroke="#ee1300" stroke-dasharray="1,1" fill="none" />
 <g id="Cabins(SouthOfLookout):Climb(C-AL1)">
 <g id="BASE:Climb(C-AL1)">
-<rect x="1681.25" y="1641.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1681.25" y="1641.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(C-AL1):features">
 <g id="climb:Climb(C-AL1):0:0">
 <g id="import" transform="translate(1691.25, 1657.5) scale(0.21045321763345)">
@@ -5037,7 +5037,7 @@
 </g>
 </g>
 <g id="Climb(C-AL1):header">
-<text x="1701.25" y="1648.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1701.25" dy="0em">Climb</tspan><tspan x="1701.25" dy="1em">(C-AL1)</tspan></text>
+<text x="1701.25" y="1648.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1701.25" dy="0em">Climb</tspan><tspan x="1701.25" dy="1em">(C-AL1)</tspan></text>
 </g>
 </g>
 </g>
@@ -5047,7 +5047,7 @@
 <path d="M1861.25,1841.25 L1861.25,1821.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Trailer(NearSilentClearing):Climb(SC-AL)">
 <g id="BASE:Climb(SC-AL)">
-<rect x="1821.25" y="1781.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1821.25" y="1781.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(SC-AL):features">
 <g id="climb:Climb(SC-AL):0:0">
 <g id="import" transform="translate(1831.25, 1797.5) scale(0.21045321763345)">
@@ -5056,7 +5056,7 @@
 </g>
 </g>
 <g id="Climb(SC-AL):header">
-<text x="1841.25" y="1788.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1841.25" dy="0em">Climb</tspan><tspan x="1841.25" dy="1em">(SC-AL)</tspan></text>
+<text x="1841.25" y="1788.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1841.25" dy="0em">Climb</tspan><tspan x="1841.25" dy="1em">(SC-AL)</tspan></text>
 </g>
 </g>
 </g>

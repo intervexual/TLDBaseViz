@@ -178,7 +178,7 @@
 <path d="M1521.25,1241.25 L1521.25,1221.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(ZOC~FA~SP):Climb(ZOC)">
 <g id="BASE:Climb(ZOC)">
-<rect x="1521.25" y="1181.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1521.25" y="1181.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(ZOC):features">
 <g id="climb:Climb(ZOC):0:0">
 <g id="import" transform="translate(1531.25, 1197.5) scale(0.21045321763345)">
@@ -187,7 +187,7 @@
 </g>
 </g>
 <g id="Climb(ZOC):header">
-<text x="1541.25" y="1188.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1541.25" dy="0em">Climb</tspan><tspan x="1541.25" dy="1em">(ZOC)</tspan></text>
+<text x="1541.25" y="1188.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1541.25" dy="0em">Climb</tspan><tspan x="1541.25" dy="1em">(ZOC)</tspan></text>
 </g>
 </g>
 </g>
@@ -1462,7 +1462,7 @@
 <path d="M1861.25,1321.25 L1861.25,1341.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="Concentrator:PumpHouse">
 <g id="BASE:PumpHouse">
-<rect x="1761.25" y="1341.25" width="100.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1761.25" y="1341.25" width="100.0" height="80.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="1" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="PumpHouse:features">
 <g id="grill:PumpHouse:0:0">
 <g id="import" transform="translate(1767.5, 1375.0) scale(0.2428481139377296)">
@@ -1526,7 +1526,7 @@
 </g>
 </g>
 <g id="PumpHouse:header">
-<text x="1811.25" y="1350.0" font-size="16.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1811.25" dy="0em">Pump</tspan><tspan x="1811.25" dy="1em">House</tspan></text>
+<text x="1811.25" y="1350.0" font-size="16.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1811.25" dy="0em">Pump</tspan><tspan x="1811.25" dy="1em">House</tspan></text>
 </g>
 </g>
 </g>
@@ -2447,7 +2447,7 @@
 <path d="M1701.25,901.25 L1701.25,881.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="MinersFootpath:SmokersCave">
 <g id="BASE:SmokersCave">
-<rect x="1641.25" y="821.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1641.25" y="821.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="SmokersCave:features">
 <g id="bear:SmokersCave:0:0">
 <g id="import" transform="translate(1650.0, 857.5) scale(0.13959461723155955)">
@@ -2461,7 +2461,7 @@
 </g>
 </g>
 <g id="SmokersCave:header">
-<text x="1671.25" y="833.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1671.25" dy="0em">Smokers</tspan><tspan x="1671.25" dy="1em">Cave</tspan></text>
+<text x="1671.25" y="833.75" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1671.25" dy="0em">Smokers</tspan><tspan x="1671.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>

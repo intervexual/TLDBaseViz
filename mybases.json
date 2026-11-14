@@ -6901,7 +6901,7 @@
 				"explored":false,
 				"features": ["grill,?prybar",
 					"?wax,?oilcan:11,?brake:2",
-					"?simple?,scrap:2,?reclaimed:3"]
+					"?simple?,?scrap:2,?reclaimed:3"]
 			},
 			"Gate(OT:W)": {
 				"region": "PortRemnant",

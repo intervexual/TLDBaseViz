@@ -447,7 +447,7 @@
 <path d="M1401.25,1761.25 L1401.25,1801.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="OilTank(A4):Pond(A4)">
 <g id="BASE:Pond(A4)">
-<rect x="1401.25" y="1801.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1401.25" y="1801.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Pond(A4):features">
 <g id="bridge:Pond(A4):0:0">
 <g id="import" transform="translate(1411.25, 1817.5) scale(0.20903883286177832)">
@@ -456,7 +456,7 @@
 </g>
 </g>
 <g id="Pond(A4):header">
-<text x="1421.25" y="1808.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1421.25" dy="0em">Pond</tspan><tspan x="1421.25" dy="1em">(A4)</tspan></text>
+<text x="1421.25" y="1808.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1421.25" dy="0em">Pond</tspan><tspan x="1421.25" dy="1em">(A4)</tspan></text>
 </g>
 </g>
 </g>
@@ -528,7 +528,7 @@
 <path d="M1341.25,1361.25 L1341.25,1341.25" stroke-width="2.5" stroke="#2a5fb7" stroke-dasharray="9,2" fill="none" />
 <g id="POI(CampsiteByRedBridge):RedBridge(FutureTransition)">
 <g id="BASE:RedBridge(FutureTransition)">
-<rect x="1341.25" y="1221.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1341.25" y="1221.25" width="40.0" height="120.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="RedBridge(FutureTransition):features">
 <g id="bridge:RedBridge(FutureTransition):0:0">
 <g id="import" transform="translate(1351.25, 1272.5) scale(0.20903883286177832)">
@@ -553,7 +553,7 @@
 </g>
 </g>
 <g id="RedBridge(FutureTransition):header">
-<text x="1361.25" y="1240.2272727272727" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1361.25" dy="0em">Red</tspan><tspan x="1361.25" dy="1em">Bridge</tspan><tspan x="1361.25" dy="1em">(Future</tspan><tspan x="1361.25" dy="1em">Transition)</tspan></text>
+<text x="1361.25" y="1240.2272727272727" font-size="4.431818181818182" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1361.25" dy="0em">Red</tspan><tspan x="1361.25" dy="1em">Bridge</tspan><tspan x="1361.25" dy="1em">(Future</tspan><tspan x="1361.25" dy="1em">Transition)</tspan></text>
 </g>
 </g>
 </g>

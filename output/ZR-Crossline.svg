@@ -1656,7 +1656,7 @@
 <path d="M3781.25,3261.25 L3781.25,3281.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="CanneryWorkerResidences:FishHut(EastBI)">
 <g id="BASE:FishHut(EastBI)">
-<rect x="3681.25" y="3281.25" width="100.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3681.25" y="3281.25" width="100.0" height="100.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="FishHut(EastBI):features">
 <g id="potbelly:FishHut(EastBI):0:0">
 <g id="import" transform="translate(3687.5, 3335.0) scale(1.7179178835251676)">
@@ -1697,7 +1697,7 @@
 </g>
 </g>
 <g id="FishHut(EastBI):header">
-<text x="3731.25" y="3290.78125" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3731.25" dy="0em">Fish</tspan><tspan x="3731.25" dy="1em">Hut</tspan><tspan x="3731.25" dy="1em">(EastBI)</tspan></text>
+<text x="3731.25" y="3290.78125" font-size="17.34375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3731.25" dy="0em">Fish</tspan><tspan x="3731.25" dy="1em">Hut</tspan><tspan x="3731.25" dy="1em">(EastBI)</tspan></text>
 </g>
 </g>
 </g>
@@ -2369,7 +2369,7 @@
 <path d="M3121.25,2721.25 L3121.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(NorthBI)">
 <g id="BASE:HuntersBlind(NorthBI)">
-<rect x="3121.25" y="2661.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3121.25" y="2661.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="HuntersBlind(NorthBI):features">
 <g id="harvestbirch:HuntersBlind(NorthBI):0:0">
 <g id="import" transform="translate(3131.25, 2677.5) scale(0.24883668538536483)">
@@ -2379,14 +2379,14 @@
 </g>
 </g>
 <g id="HuntersBlind(NorthBI):header">
-<text x="3141.25" y="2666.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3141.25" dy="0em">Hunters</tspan><tspan x="3141.25" dy="1em">Blind</tspan><tspan x="3141.25" dy="1em">(NorthBI)</tspan></text>
+<text x="3141.25" y="2666.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3141.25" dy="0em">Hunters</tspan><tspan x="3141.25" dy="1em">Blind</tspan><tspan x="3141.25" dy="1em">(NorthBI)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M3121.25,2721.25 L3101.25,2721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(SouthBI)">
 <g id="BASE:HuntersBlind(SouthBI)">
-<rect x="3041.25" y="2721.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3041.25" y="2721.25" width="60.0" height="60.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="HuntersBlind(SouthBI):features">
 <g id="bear:HuntersBlind(SouthBI):0:0">
 <g id="import" transform="translate(3050.0, 2757.5) scale(0.13959461723155955)">
@@ -2402,7 +2402,7 @@
 </g>
 </g>
 <g id="HuntersBlind(SouthBI):header">
-<text x="3071.25" y="2730.625" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3071.25" dy="0em">Hunters</tspan><tspan x="3071.25" dy="1em">Blind</tspan><tspan x="3071.25" dy="1em">(SouthBI)</tspan></text>
+<text x="3071.25" y="2730.625" font-size="8.75" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3071.25" dy="0em">Hunters</tspan><tspan x="3071.25" dy="1em">Blind</tspan><tspan x="3071.25" dy="1em">(SouthBI)</tspan></text>
 </g>
 </g>
 </g>
@@ -2410,7 +2410,7 @@
 <path d="M3221.25,2721.25 L3221.25,2701.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="WashedOutTrailer:HuntersBlind(FrozenDelta)">
 <g id="BASE:HuntersBlind(FrozenDelta)">
-<rect x="3161.25" y="2621.25" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3161.25" y="2621.25" width="60.0" height="80.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="HuntersBlind(FrozenDelta):features">
 <g id="rabbit:HuntersBlind(FrozenDelta):0:0">
 <g id="import" transform="translate(3170.0, 2677.5) scale(1.021189738125593)">
@@ -2429,7 +2429,7 @@
 </g>
 </g>
 <g id="HuntersBlind(FrozenDelta):header">
-<text x="3191.25" y="2632.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3191.25" dy="0em">Hunters</tspan><tspan x="3191.25" dy="1em">Blind</tspan><tspan x="3191.25" dy="1em">(Frozen</tspan><tspan x="3191.25" dy="1em">Delta)</tspan></text>
+<text x="3191.25" y="2632.5" font-size="11.25" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3191.25" dy="0em">Hunters</tspan><tspan x="3191.25" dy="1em">Blind</tspan><tspan x="3191.25" dy="1em">(Frozen</tspan><tspan x="3191.25" dy="1em">Delta)</tspan></text>
 </g>
 </g>
 </g>
@@ -2727,7 +2727,7 @@
 <path d="M3121.25,2661.25 L3101.25,2661.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="HuntersBlind(NorthBI):Cave(EastBI)">
 <g id="BASE:Cave(EastBI)">
-<rect x="3061.25" y="2661.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3061.25" y="2661.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Cave(EastBI):features">
 <g id="bed:Cave(EastBI):0:0">
 <g id="import" transform="translate(3071.25, 2677.5) scale(0.7697636825494574)">
@@ -2740,7 +2740,7 @@
 </g>
 </g>
 <g id="Cave(EastBI):header">
-<text x="3081.25" y="2668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3081.25" dy="0em">Cave</tspan><tspan x="3081.25" dy="1em">(EastBI)</tspan></text>
+<text x="3081.25" y="2668.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3081.25" dy="0em">Cave</tspan><tspan x="3081.25" dy="1em">(EastBI)</tspan></text>
 </g>
 </g>
 </g>
@@ -3402,7 +3402,7 @@
 <path d="M1001.25,1741.25 L1001.25,1721.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Transition(MT~FM):HermitsCabin">
 <g id="BASE:HermitsCabin">
-<rect x="961.25" y="1681.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="961.25" y="1681.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="HermitsCabin:features">
 <g id="wolf:HermitsCabin:0:0">
 <g id="import" transform="translate(971.25, 1697.5) scale(0.1511772931705658)">
@@ -3411,7 +3411,7 @@
 </g>
 </g>
 <g id="HermitsCabin:header">
-<text x="981.25" y="1688.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="981.25" dy="0em">Hermits</tspan><tspan x="981.25" dy="1em">Cabin</tspan></text>
+<text x="981.25" y="1688.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="981.25" dy="0em">Hermits</tspan><tspan x="981.25" dy="1em">Cabin</tspan></text>
 </g>
 </g>
 </g>
@@ -5469,10 +5469,10 @@
 <path d="M1261.25,781.25 L1261.25,761.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(RadioTower):Cave(OutOfTheWay)">
 <g id="BASE:Cave(OutOfTheWay)">
-<rect x="1241.25" y="741.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1241.25" y="741.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Cave(OutOfTheWay):features"></g>
 <g id="Cave(OutOfTheWay):header">
-<text x="1251.25" y="746.125" font-size="3.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1251.25" dy="0em">Cave</tspan><tspan x="1251.25" dy="1em">(Out</tspan><tspan x="1251.25" dy="1em">Of</tspan><tspan x="1251.25" dy="1em">The</tspan><tspan x="1251.25" dy="1em">Way)</tspan></text>
+<text x="1251.25" y="746.125" font-size="3.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1251.25" dy="0em">Cave</tspan><tspan x="1251.25" dy="1em">(Out</tspan><tspan x="1251.25" dy="1em">Of</tspan><tspan x="1251.25" dy="1em">The</tspan><tspan x="1251.25" dy="1em">Way)</tspan></text>
 </g>
 </g>
 </g>
@@ -6342,10 +6342,10 @@
 <path d="M1221.25,401.25 L1241.25,401.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="IceCave(SketchySouth):SignalFire(South)">
 <g id="BASE:SignalFire(South)">
-<rect x="1241.25" y="401.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1241.25" y="401.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="SignalFire(South):features"></g>
 <g id="SignalFire(South):header">
-<text x="1251.25" y="410.44642857142856" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1251.25" dy="0em">Signal</tspan><tspan x="1251.25" dy="1em">Fire</tspan><tspan x="1251.25" dy="1em">(South)</tspan></text>
+<text x="1251.25" y="410.44642857142856" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1251.25" dy="0em">Signal</tspan><tspan x="1251.25" dy="1em">Fire</tspan><tspan x="1251.25" dy="1em">(South)</tspan></text>
 </g>
 </g>
 </g>
@@ -6408,7 +6408,7 @@
 <path d="M1161.25,261.25 L1141.25,261.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="IceCave(SketchyValleyViewPoint):POI(CampAboveValleyViewPoint)">
 <g id="BASE:POI(CampAboveValleyViewPoint)">
-<rect x="1101.25" y="261.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1101.25" y="261.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(CampAboveValleyViewPoint):features">
 <g id="polaroid:POI(CampAboveValleyViewPoint):0:0">
 <g id="import" transform="translate(1111.25, 285.5) scale(0.12618296795337472)">
@@ -6421,7 +6421,7 @@
 </g>
 </g>
 <g id="POI(CampAboveValleyViewPoint):header">
-<text x="1121.25" y="265.625" font-size="2.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1121.25" dy="0em">POI</tspan><tspan x="1121.25" dy="1em">(Camp</tspan><tspan x="1121.25" dy="1em">Above</tspan><tspan x="1121.25" dy="1em">Valley</tspan><tspan x="1121.25" dy="1em">View</tspan><tspan x="1121.25" dy="1em">Point)</tspan></text>
+<text x="1121.25" y="265.625" font-size="2.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1121.25" dy="0em">POI</tspan><tspan x="1121.25" dy="1em">(Camp</tspan><tspan x="1121.25" dy="1em">Above</tspan><tspan x="1121.25" dy="1em">Valley</tspan><tspan x="1121.25" dy="1em">View</tspan><tspan x="1121.25" dy="1em">Point)</tspan></text>
 </g>
 </g>
 </g>
@@ -6459,10 +6459,10 @@
 <path d="M1141.25,261.25 L1141.25,241.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(EastOfStairsteps):SnowShelter(ValleyViewPoint)">
 <g id="BASE:SnowShelter(ValleyViewPoint)">
-<rect x="1141.25" y="221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1141.25" y="221.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="SnowShelter(ValleyViewPoint):features"></g>
 <g id="SnowShelter(ValleyViewPoint):header">
-<text x="1151.25" y="227.76785714285714" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1151.25" dy="0em">Snow</tspan><tspan x="1151.25" dy="1em">Shelter</tspan><tspan x="1151.25" dy="1em">(Valley</tspan><tspan x="1151.25" dy="1em">View</tspan><tspan x="1151.25" dy="1em">Point)</tspan></text>
+<text x="1151.25" y="227.76785714285714" font-size="2.678571428571429" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1151.25" dy="0em">Snow</tspan><tspan x="1151.25" dy="1em">Shelter</tspan><tspan x="1151.25" dy="1em">(Valley</tspan><tspan x="1151.25" dy="1em">View</tspan><tspan x="1151.25" dy="1em">Point)</tspan></text>
 </g>
 </g>
 </g>
@@ -6540,7 +6540,7 @@
 <path d="M861.25,221.25 L881.25,221.25" stroke-width="2.5" stroke="#6496b9" stroke-dasharray="" fill="none" />
 <g id="IceCave(ReclusiveFalls):Cave(HushedRiver)">
 <g id="BASE:Cave(HushedRiver)">
-<rect x="881.25" y="181.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="881.25" y="181.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Cave(HushedRiver):features">
 <g id="mine:Cave(HushedRiver):0:0">
 <g id="import" transform="translate(891.25, 197.5) scale(0.7559093211178387)">
@@ -6555,7 +6555,7 @@
 </g>
 </g>
 <g id="Cave(HushedRiver):header">
-<text x="901.25" y="186.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="901.25" dy="0em">Cave</tspan><tspan x="901.25" dy="1em">(Hushed</tspan><tspan x="901.25" dy="1em">River)</tspan></text>
+<text x="901.25" y="186.875" font-size="5.0" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="901.25" dy="0em">Cave</tspan><tspan x="901.25" dy="1em">(Hushed</tspan><tspan x="901.25" dy="1em">River)</tspan></text>
 </g>
 </g>
 </g>
@@ -6622,7 +6622,7 @@
 <path d="M881.25,-38.75 L881.25,-58.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="IceCave(MammothFalls):LakeCave">
 <g id="BASE:LakeCave">
-<rect x="881.25" y="-98.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="881.25" y="-98.75" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="LakeCave:features">
 <g id="mine:LakeCave:0:0">
 <g id="import" transform="translate(891.25, -82.5) scale(0.7559093211178387)">
@@ -6637,7 +6637,7 @@
 </g>
 </g>
 <g id="LakeCave:header">
-<text x="901.25" y="-91.875" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="901.25" dy="0em">Lake</tspan><tspan x="901.25" dy="1em">Cave</tspan></text>
+<text x="901.25" y="-91.875" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="901.25" dy="0em">Lake</tspan><tspan x="901.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -6647,7 +6647,7 @@
 <path d="M881.25,181.25 L881.25,161.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(HushedRiver):Climb(HR-NWA)">
 <g id="BASE:Climb(HR-NWA)">
-<rect x="841.25" y="121.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="841.25" y="121.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(HR-NWA):features">
 <g id="climb:Climb(HR-NWA):0:0">
 <g id="import" transform="translate(851.25, 137.5) scale(0.21045321763345)">
@@ -6656,7 +6656,7 @@
 </g>
 </g>
 <g id="Climb(HR-NWA):header">
-<text x="861.25" y="128.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="861.25" dy="0em">Climb</tspan><tspan x="861.25" dy="1em">(HR-NWA)</tspan></text>
+<text x="861.25" y="128.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="861.25" dy="0em">Climb</tspan><tspan x="861.25" dy="1em">(HR-NWA)</tspan></text>
 </g>
 </g>
 </g>
@@ -6666,7 +6666,7 @@
 <path d="M921.25,-38.75 L941.25,-38.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalFire(North):Cave(PensiveVista)">
 <g id="BASE:Cave(PensiveVista)">
-<rect x="941.25" y="-38.75" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="941.25" y="-38.75" width="80.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Cave(PensiveVista):features">
 <g id="mementokey:Cave(PensiveVista):0:0">
 <g id="import" transform="translate(948.75, -25.0) scale(0.04415157332255093)">
@@ -6689,7 +6689,7 @@
 </g>
 </g>
 <g id="Cave(PensiveVista):header">
-<text x="981.25" y="-30.364583333333336" font-size="6.041666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#420097" text-anchor="middle">Cave(PensiveVista)</text>
+<text x="981.25" y="-30.364583333333336" font-size="6.041666666666666" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="auto" fill="#4e1ca8" text-anchor="middle">Cave(PensiveVista)</text>
 </g>
 </g>
 </g>
@@ -6697,7 +6697,7 @@
 <path d="M1241.25,401.25 L1241.25,381.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="SignalFire(South):Climb(MFV-SMSF)">
 <g id="BASE:Climb(MFV-SMSF)">
-<rect x="1201.25" y="341.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1201.25" y="341.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(MFV-SMSF):features">
 <g id="climb:Climb(MFV-SMSF):0:0">
 <g id="import" transform="translate(1211.25, 357.5) scale(0.21045321763345)">
@@ -6706,21 +6706,21 @@
 </g>
 </g>
 <g id="Climb(MFV-SMSF):header">
-<text x="1221.25" y="349.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1221.25" dy="0em">Climb</tspan><tspan x="1221.25" dy="1em">(MFV-SMSF)</tspan></text>
+<text x="1221.25" y="349.4375" font-size="4.875" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1221.25" dy="0em">Climb</tspan><tspan x="1221.25" dy="1em">(MFV-SMSF)</tspan></text>
 </g>
 </g>
 </g>
 <g id="BASE:POI(MooseOverlook)">
-<rect x="4001.25" y="2501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="4001.25" y="2501.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(MooseOverlook):features"></g>
 <g id="POI(MooseOverlook):header">
-<text x="4011.25" y="2511.041666666667" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="4011.25" dy="0em">POI</tspan><tspan x="4011.25" dy="1em">(Moose</tspan><tspan x="4011.25" dy="1em">Overlook)</tspan></text>
+<text x="4011.25" y="2511.041666666667" font-size="2.083333333333333" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="4011.25" dy="0em">POI</tspan><tspan x="4011.25" dy="1em">(Moose</tspan><tspan x="4011.25" dy="1em">Overlook)</tspan></text>
 </g>
 </g>
 <path d="M4001.25,2501.25 L4001.25,2481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(MooseOverlook):ValleyCave">
 <g id="BASE:ValleyCave">
-<rect x="3961.25" y="2441.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3961.25" y="2441.25" width="40.0" height="40.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="ValleyCave:features">
 <g id="mine:ValleyCave:0:0">
 <g id="import" transform="translate(3971.25, 2457.5) scale(0.7559093211178387)">
@@ -6735,14 +6735,14 @@
 </g>
 </g>
 <g id="ValleyCave:header">
-<text x="3981.25" y="2448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3981.25" dy="0em">Valley</tspan><tspan x="3981.25" dy="1em">Cave</tspan></text>
+<text x="3981.25" y="2448.125" font-size="7.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3981.25" dy="0em">Valley</tspan><tspan x="3981.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
 <path d="M4021.25,2521.25 L4021.25,2541.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="POI(MooseOverlook):Climb(VC-MFV)">
 <g id="BASE:Climb(VC-MFV)">
-<rect x="4021.25" y="2541.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="4021.25" y="2541.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(VC-MFV):features">
 <g id="climb:Climb(VC-MFV):0:0">
 <g id="import" transform="translate(4031.25, 2557.5) scale(0.21045321763345)">
@@ -6751,14 +6751,14 @@
 </g>
 </g>
 <g id="Climb(VC-MFV):header">
-<text x="4041.25" y="2548.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="4041.25" dy="0em">Climb</tspan><tspan x="4041.25" dy="1em">(VC-MFV)</tspan></text>
+<text x="4041.25" y="2548.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="4041.25" dy="0em">Climb</tspan><tspan x="4041.25" dy="1em">(VC-MFV)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M4001.25,2441.25 L4001.25,2421.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ValleyCave:Climb(VC-PV1)">
 <g id="BASE:Climb(VC-PV1)">
-<rect x="3961.25" y="2381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="3961.25" y="2381.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(VC-PV1):features">
 <g id="climb:Climb(VC-PV1):0:0">
 <g id="import" transform="translate(3971.25, 2397.5) scale(0.21045321763345)">
@@ -6767,17 +6767,17 @@
 </g>
 </g>
 <g id="Climb(VC-PV1):header">
-<text x="3981.25" y="2388.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="3981.25" dy="0em">Climb</tspan><tspan x="3981.25" dy="1em">(VC-PV1)</tspan></text>
+<text x="3981.25" y="2388.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="3981.25" dy="0em">Climb</tspan><tspan x="3981.25" dy="1em">(VC-PV1)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M4001.25,2441.25 L4021.25,2441.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="ValleyCave:POI(Landslide)">
 <g id="BASE:POI(Landslide)">
-<rect x="4021.25" y="2441.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="4021.25" y="2441.25" width="20.0" height="20.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="POI(Landslide):features"></g>
 <g id="POI(Landslide):header">
-<text x="4031.25" y="2452.272727272727" font-size="1.7045454545454546" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="4031.25" dy="0em">POI</tspan><tspan x="4031.25" dy="1em">(Landslide)</tspan></text>
+<text x="4031.25" y="2452.272727272727" font-size="1.7045454545454546" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="4031.25" dy="0em">POI</tspan><tspan x="4031.25" dy="1em">(Landslide)</tspan></text>
 </g>
 </g>
 </g>
@@ -6786,7 +6786,7 @@
 <path d="M1021.25,21.25 L1021.25,41.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(PensiveVista):Climb(VC-PV2)">
 <g id="BASE:Climb(VC-PV2)">
-<rect x="981.25" y="41.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="981.25" y="41.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(VC-PV2):features">
 <g id="climb:Climb(VC-PV2):0:0">
 <g id="import" transform="translate(991.25, 57.5) scale(0.21045321763345)">
@@ -6795,14 +6795,14 @@
 </g>
 </g>
 <g id="Climb(VC-PV2):header">
-<text x="1001.25" y="48.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1001.25" dy="0em">Climb</tspan><tspan x="1001.25" dy="1em">(VC-PV2)</tspan></text>
+<text x="1001.25" y="48.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1001.25" dy="0em">Climb</tspan><tspan x="1001.25" dy="1em">(VC-PV2)</tspan></text>
 </g>
 </g>
 </g>
 <path d="M1021.25,-38.75 L1021.25,-58.75" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(PensiveVista):PeakCave">
 <g id="BASE:PeakCave">
-<rect x="961.25" y="-118.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="961.25" y="-118.75" width="60.0" height="60.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="PeakCave:features">
 <g id="mementobox:PeakCave:0:0">
 <g id="import" transform="translate(970.0, -82.5) scale(0.02617801047120419)">
@@ -6816,7 +6816,7 @@
 </g>
 </g>
 <g id="PeakCave:header">
-<text x="991.25" y="-109.375" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="991.25" dy="0em">Peak</tspan><tspan x="991.25" dy="1em">Cave</tspan></text>
+<text x="991.25" y="-109.375" font-size="17.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="991.25" dy="0em">Peak</tspan><tspan x="991.25" dy="1em">Cave</tspan></text>
 </g>
 </g>
 </g>
@@ -6831,7 +6831,7 @@
 <g id="SnowShelter(ReclusiveFalls):BunkerGamma"></g>
 <g id="SnowShelter(ValleyViewPoint):Cave(EastOfStairsteps)"></g>
 <g id="BASE:Climb(SL-SMSF)">
-<rect x="4001.25" y="2501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="4001.25" y="2501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(SL-SMSF):features">
 <g id="climb:Climb(SL-SMSF):0:0">
 <g id="import" transform="translate(4011.25, 2517.5) scale(0.21045321763345)">
@@ -6840,7 +6840,7 @@
 </g>
 </g>
 <g id="Climb(SL-SMSF):header">
-<text x="4021.25" y="2509.1666666666665" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="4021.25" dy="0em">Climb</tspan><tspan x="4021.25" dy="1em">(SL-SMSF)</tspan></text>
+<text x="4021.25" y="2509.1666666666665" font-size="5.416666666666667" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="4021.25" dy="0em">Climb</tspan><tspan x="4021.25" dy="1em">(SL-SMSF)</tspan></text>
 </g>
 </g>
 <g id="Climb(MFV-SMSF):Climb(VC-MFV)">
@@ -6856,7 +6856,7 @@
 <g id="Climb(VC-PV2):Cave(PensiveVista)"></g>
 <g id="Climb(VC-PV2):Climb(VC-PV1)"></g>
 <g id="BASE:Climb(NWA-MF)">
-<rect x="4001.25" y="2501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="4001.25" y="2501.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Climb(NWA-MF):features">
 <g id="climb:Climb(NWA-MF):0:0">
 <g id="import" transform="translate(4011.25, 2517.5) scale(0.21045321763345)">
@@ -6865,7 +6865,7 @@
 </g>
 </g>
 <g id="Climb(NWA-MF):header">
-<text x="4021.25" y="2508.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="4021.25" dy="0em">Climb</tspan><tspan x="4021.25" dy="1em">(NWA-MF)</tspan></text>
+<text x="4021.25" y="2508.828125" font-size="6.09375" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="4021.25" dy="0em">Climb</tspan><tspan x="4021.25" dy="1em">(NWA-MF)</tspan></text>
 </g>
 </g>
 <g id="Climb(HR-NWA):Cave(HushedRiver)"></g>

@@ -10584,6 +10584,16 @@
                     "switch"
                 ]
             },
+			"POI(UpwardPath)": {
+				"region": "AnnaIsland1",
+				"coords": [1834,365],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": false,
+				"explored":false,
+				"features": ["?snowshelter,?cedar,?cookpot"]
+			},
             "Cabin(Huts)": {
                 "region": "AnnaIsland1",
                 "coords": [
@@ -18204,6 +18214,7 @@
             "bottom,left",
             "rail"
         ],
+        ["Switch(A1:MT:N)", "west", "bottom,left", "POI(UpwardPath)", "bottom,right", "default"],
         [
             "Switch(A1:MT:N)",
             "southwestsquigdown ",

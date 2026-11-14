@@ -16,7 +16,7 @@
 <path d="M1501.25,1501.25 L1501.25,1481.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Transition(MT~FM):HermitsCabin">
 <g id="BASE:HermitsCabin">
-<rect x="1461.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1461.25" y="1441.25" width="40.0" height="40.0" rx="20" ry="20" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="HermitsCabin:features">
 <g id="wolf:HermitsCabin:0:0">
 <g id="import" transform="translate(1471.25, 1457.5) scale(0.1511772931705658)">
@@ -25,7 +25,7 @@
 </g>
 </g>
 <g id="HermitsCabin:header">
-<text x="1481.25" y="1448.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1481.25" dy="0em">Hermits</tspan><tspan x="1481.25" dy="1em">Cabin</tspan></text>
+<text x="1481.25" y="1448.3928571428573" font-size="6.964285714285715" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1481.25" dy="0em">Hermits</tspan><tspan x="1481.25" dy="1em">Cabin</tspan></text>
 </g>
 </g>
 </g>
@@ -2082,10 +2082,10 @@
 <path d="M1761.25,541.25 L1761.25,521.25" stroke-width="2.5" stroke="#16524f" stroke-dasharray="2,3" fill="none" />
 <g id="Cave(RadioTower):Cave(OutOfTheWay)">
 <g id="BASE:Cave(OutOfTheWay)">
-<rect x="1741.25" y="501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#420097" />
+<rect x="1741.25" y="501.25" width="20.0" height="20.0" rx="0" ry="0" stroke-dasharray="" stroke-opacity="0.25" fill="#f5fff6" stroke-width="2.5" stroke="#4e1ca8" />
 <g id="Cave(OutOfTheWay):features"></g>
 <g id="Cave(OutOfTheWay):header">
-<text x="1751.25" y="506.125" font-size="3.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#420097" text-anchor="middle"><tspan x="1751.25" dy="0em">Cave</tspan><tspan x="1751.25" dy="1em">(Out</tspan><tspan x="1751.25" dy="1em">Of</tspan><tspan x="1751.25" dy="1em">The</tspan><tspan x="1751.25" dy="1em">Way)</tspan></text>
+<text x="1751.25" y="506.125" font-size="3.5" font-family="Arial" font-weight="bold" stroke="none" stroke-width="0" font-style="italic" dominant-baseline="middle" fill="#4e1ca8" text-anchor="middle"><tspan x="1751.25" dy="0em">Cave</tspan><tspan x="1751.25" dy="1em">(Out</tspan><tspan x="1751.25" dy="1em">Of</tspan><tspan x="1751.25" dy="1em">The</tspan><tspan x="1751.25" dy="1em">Way)</tspan></text>
 </g>
 </g>
 </g>
