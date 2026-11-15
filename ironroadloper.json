@@ -10355,7 +10355,7 @@
                 "shortform": "ClimbA5",
                 "explored": true,
                 "features": [
-                    "climb,-reishi:4>A4RS,-water>A4RS,-stick>A4RS"
+                    "climb,rabbit"
                 ]
             },
             "Transition(A5~A6)": {
@@ -11574,8 +11574,8 @@
                     "rug:3,bed",
                     "mat,cookedmeat:4",
                     "locker,book,head:11,paper:2",
-                    "locker,cattail:5,reishi:2,rosehip:8,water:5",
-                    "locker,charcoal:2,can,scrap,torch,oilcan",
+                    "locker,cattail:5,reishi:9,rosehip:98,water:4",
+                    "locker,brake:3,charcoal:2,can,scrap:11,torch,oilcan:5",
                     "locker,harvestcloth,harvestleather",
                     "locker:2,box,firstaid",
                     "potbelly"
@@ -11626,9 +11626,9 @@
                 "indoors": false,
                 "cabinfeverrisk": false,
                 "shortform": "Pond(A4)",
-                "explored": false,
+                "explored": true,
                 "features": [
-                    "bridge,!cattail"
+                    "bridge,rabbit"
                 ]
             },
             "Canyon(A4)": {
@@ -11660,7 +11660,7 @@
                 "shortform": "Switch(A4:A6)",
                 "explored": true,
                 "features": [
-                    "switch"
+                    "switch,deer,wolf"
                 ]
             },
             "Transition(A4~A6)": {
@@ -11692,7 +11692,7 @@
                 "shortform": "Transition(A4~A5)",
                 "explored": true,
                 "features": [
-                    "tunnel"
+                    "wolf,harvestfir"
                 ]
             },
             "POI(CampsiteByRedBridge)": {
@@ -11744,7 +11744,7 @@
                 "shortform": "Transition(A6~A4)",
                 "explored": true,
                 "features": [
-                    "bridge"
+                    "bridge,box,rabbit"
                 ]
             },
             "POI(Junction)": {
@@ -11760,7 +11760,7 @@
                 "shortform": "POI(Junction)",
                 "explored": true,
                 "features": [
-                    "gate"
+                    "gate,deer,harvestcedar"
                 ]
             },
             "Transition(A6~A5)": {
@@ -11792,8 +11792,8 @@
                 "shortform": "TrainShelter",
                 "explored": true,
                 "features": [
-                    "grill,box",
-                    "?wax"
+                    "grill,box:2",
+                    "harvestcedar,rabbit"
                 ]
             },
             "TrainShelterOffice": {
@@ -11842,12 +11842,13 @@
 			"explored":true,
 			"features": [
                 "potbelly,cookpot",
-                "oven,coal:15,stick:20",
+                "oven,coal:15,stick:20,-head:13>PREC",
                 "contd,reishi:4",
-                "contd,cattail:4,shaker,cookedmeat:4,water",
+                "contd,cattail:14,shaker,cookedmeat:4,water",
                 "contd,arrowhead,charcoal:5,hacksaw,hammer,fuel,blueflare,heater,prybar",
                 "contd,sewing,arrow,simple,paint,stone,torch:5,oilcan",
-                "contd,brake:5,cloth:6,feather:7,gut:4,reishi:7,rosehip:90,scrap:16"
+                "contd,brake:2,cloth:6,feather:7,gut:4,scrap:6",
+                "contd,-crate:4>PREC"
 			]
 		},
 		"UsedUp": {
