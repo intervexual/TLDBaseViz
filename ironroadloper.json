@@ -10128,9 +10128,9 @@
                 "indoors": false,
                 "cabinfeverrisk": false,
                 "shortform": "WaterTank(A5)",
-                "explored": false,
+                "explored": true,
                 "features": [
-                    "wolf,watertank,?grill,?box"
+                    "wolf,watertank,grill"
                 ]
             },
             "Switch(A5:WT:W)": {
@@ -10144,7 +10144,7 @@
                 "indoors": false,
                 "cabinfeverrisk": false,
                 "shortform": "Switch(A5:WT:W)",
-                "explored": false,
+                "explored": true,
                 "features": [
                     "switch"
                 ]
@@ -10211,23 +10211,9 @@
                 "explored": true,
                 "features": [
                     "rabbit",
-                    "plastic,head,can,tinder,-canopener>Train,antiseptic"
-                ]
-            },
-            "POI(Path)": {
-                "region": "AnnaIsland5",
-                "coords": [
-                    -20,
-                    430
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "POI(Path)",
-                "explored": false,
-                "features": [
-                    "deer"
+                    "plastic,cattail:10,scrap:2,stick:15,tinder,water",
+                    "contd,head:43,charcoal:3,can:2,reishi:7,rosehip:24",
+                    "floor,antiseptic,oilcan"
                 ]
             },
             "Cave(A5)": {
@@ -10246,6 +10232,23 @@
                     "deer"
                 ]
             },
+            "POI(Path)": {
+                "region": "AnnaIsland5",
+                "coords": [
+                    -20,
+                    430
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "POI(Path)",
+                "explored": true,
+                "features": [
+                    "deer"
+                ]
+            },
+
             "Switch(A5:OT:E)": {
                 "region": "AnnaIsland5",
                 "coords": [
@@ -10259,7 +10262,7 @@
                 "shortform": "Switch(A5:OT:E)",
                 "explored": true,
                 "features": [
-                    "switch"
+                    "switch","harvestfir:2"
                 ]
             },
             "OilTank(A5)": {
@@ -10275,7 +10278,7 @@
                 "shortform": "OilTank(A5)",
                 "explored": true,
                 "features": [
-                    "wolf,oiltank"
+                    "wolf,box,oiltank"
                 ]
             },
             "Switch(A5:OT:W)": {
@@ -10305,7 +10308,7 @@
                 "indoors": false,
                 "cabinfeverrisk": false,
                 "shortform": "Bypass(A5:OT)",
-                "explored": false,
+                "explored": true,
                 "features": [
                     "wolf"
                 ]
@@ -17795,7 +17798,7 @@
             "Switch(A5:RY:W)",
             "west wide",
             "top,left",
-            "POI(Path)",
+            "Cave(A5)",
             "top,right",
             "rail"
         ],
@@ -17808,15 +17811,15 @@
             "rail"
         ],
         [
-            "POI(Path)",
+            "Cave(A5)",
             "west wide",
             "top,left",
-            "Cave(A5)",
+            "POI(Path)",
             "top,right",
             "rail"
         ],
         [
-            "Cave(A5)",
+            "POI(Path)",
             "west ",
             "top,left",
             "Switch(A5:OT:E)",

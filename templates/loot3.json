@@ -9584,7 +9584,8 @@
                     "?painting:5",
                     "?food",
                     "?firelog:2",
-                    "?scrap"
+                    "?scrap:2",
+                    "?underwear"
                 ]
             },
             "POI(RikenLike)": {
@@ -9860,7 +9861,6 @@
                 "features": [
                     "bed,?grill",
                     "?box",
-                    "buildout",
                     "?matches",
                     "?reclaimed:2"
                 ]
@@ -10229,22 +10229,6 @@
                     "?cedar"
                 ]
             },
-            "POI(Path)": {
-                "region": "AnnaIsland5",
-                "coords": [
-                    -20,
-                    430
-                ],
-                "customizable": false,
-                "loading": false,
-                "indoors": false,
-                "cabinfeverrisk": false,
-                "shortform": "POI(Path)",
-                "explored": false,
-                "features": [
-                    "deer"
-                ]
-            },
             "Cave(A5)": {
                 "region": "AnnaIsland5",
                 "coords": [
@@ -10262,6 +10246,22 @@
                     "?box"
                 ]
             },
+            "POI(Path)": {
+                "region": "AnnaIsland5",
+                "coords": [
+                    -20,
+                    430
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "POI(Path)",
+                "explored": false,
+                "features": [
+                    "deer"
+                ]
+            },
             "Switch(A5:OT:E)": {
                 "region": "AnnaIsland5",
                 "coords": [
@@ -10275,7 +10275,7 @@
                 "shortform": "Switch(A5:OT:E)",
                 "explored": false,
                 "features": [
-                    "switch"
+                    "harvestfir:2,switch"
                 ]
             },
             "OilTank(A5)": {
@@ -10291,7 +10291,9 @@
                 "shortform": "OilTank(A5)",
                 "explored": false,
                 "features": [
-                    "wolf,oiltank"
+                    "wolf,oiltank",
+                    "?box",
+                    "?cedar"
                 ]
             },
             "Switch(A5:OT:W)": {
@@ -10355,7 +10357,23 @@
                 "shortform": "Stop(A5)",
                 "explored": false,
                 "features": [
-                    "bufferstop"
+                    "flatbed,bufferstop"
+                ]
+            },
+            "TwoWaterfallPond": {
+                "region": "AnnaIsland5",
+                "coords": [
+                    -290,
+                    425
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "TwoWaterfallPond",
+                "explored": false,
+                "features": [
+                    "rabbit,harvestfir:2"
                 ]
             },
             "Climb(A5)": {
@@ -10388,6 +10406,22 @@
                 "explored": false,
                 "features": [
                     "?stick"
+                ]
+            },
+            "Campsite(A5)": {
+                "region": "AnnaIsland5",
+                "coords": [
+                    -290,
+                    425
+                ],
+                "customizable": false,
+                "loading": false,
+                "indoors": false,
+                "cabinfeverrisk": false,
+                "shortform": "Campsite(A5)",
+                "explored": false,
+                "features": [
+                    "?can,?canopener"
                 ]
             },
             "Transition(A5~A4)": {
@@ -11737,7 +11771,7 @@
                 "shortform": "Switch(A4:A6)",
                 "explored": false,
                 "features": [
-                    "switch"
+                    "deer,wolf,switch"
                 ]
             },
             "Transition(A4~A6)": {
@@ -11769,7 +11803,7 @@
                 "shortform": "Transition(A4~A5)",
                 "explored": false,
                 "features": [
-                    "tunnel"
+                    "wolf,harvestfir"
                 ]
             },
             "POI(CampsiteByRedBridge)": {
@@ -11823,7 +11857,8 @@
                 "shortform": "Transition(A6~A4)",
                 "explored": false,
                 "features": [
-                    "bridge"
+                    "rabbit,bridge",
+                    "?box"
                 ]
             },
             "POI(Junction)": {
@@ -11839,7 +11874,7 @@
                 "shortform": "POI(Junction)",
                 "explored": false,
                 "features": [
-                    "!gate"
+                    "deer,harvestcedar,!gate"
                 ]
             },
             "Transition(A6~A5)": {
@@ -17801,8 +17836,8 @@
         ],
         [
             "Switch(A5:WT:E)",
-            "southwestsquigdown tallwide",
-            "bottom,left",
+            "southwestsquigdown verytallwide",
+            "top,left",
             "Bypass(A5:WT)",
             "top,right",
             "rail"
@@ -17826,16 +17861,16 @@
         [
             "Switch(A5:WT:W)",
             "southeastsquigdown ",
-            "bottom,right",
+            "top,right",
             "Bypass(A5:WT)",
             "top,left",
             "rail"
         ],
         [
             "Switch(A5:RY:W)",
-            "west wide",
+            "west ",
             "top,left",
-            "POI(Path)",
+            "Cave(A5)",
             "top,right",
             "rail"
         ],
@@ -17848,15 +17883,15 @@
             "rail"
         ],
         [
-            "POI(Path)",
-            "west wide",
-            "top,left",
             "Cave(A5)",
+            "west ",
+            "top,left",
+            "POI(Path)",
             "top,right",
             "rail"
         ],
         [
-            "Cave(A5)",
+            "POI(Path)",
             "west ",
             "top,left",
             "Switch(A5:OT:E)",
@@ -17873,8 +17908,8 @@
         ],
         [
             "Switch(A5:OT:E)",
-            "southwestsquigdown tall",
-            "bottom,left",
+            "southwestsquigdown verytall",
+            "top,left",
             "Bypass(A5:OT)",
             "top,right",
             "rail"
@@ -17905,7 +17940,7 @@
         ],
         [
             "Switch(A5:OT:S)",
-            "west ",
+            "southwest wide",
             "top,left",
             "Transition(A5~A4)",
             "top,right",
@@ -17914,10 +17949,18 @@
         [
             "Switch(A5:OT:S)",
             "southwestsquigup ",
-            "bottom,right",
+            "top,right",
             "Bypass(A5:OT)",
             "top,left",
             "rail"
+        ],
+        [
+            "Transition(A5~A4)",
+            "north ",
+            "top,right",
+            "Campsite(A5)",
+            "bottom,right",
+            "default"
         ],
         [
             "Transition(A5~A4)",
@@ -17937,10 +17980,26 @@
         ],
         [
             "Stop(A5)",
-            "north ",
+            "northwest ",
+            "top,left",
+            "TwoWaterfallPond",
+            "bottom,right",
+            "default"
+        ],
+        [
+            "TwoWaterfallPond",
+            "west ",
             "top,left",
             "Climb(A5)",
-            "bottom,left",
+            "top,right",
+            "default"
+        ],
+        [
+            "TwoWaterfallPond",
+            "south ",
+            "bottom,right",
+            "Campsite(A5)",
+            "top,right",
             "default"
         ],
         [
@@ -17962,7 +18021,7 @@
         [
             "Transition(A6~A5)",
             "north ",
-            "top,left",
+            "top,right",
             "POI(Junction)",
             "bottom,right",
             "default"
@@ -17970,7 +18029,7 @@
         [
             "POI(Junction)",
             "east wide",
-            "top,right",
+            "bottom,right",
             "TrainShelter",
             "bottom,left",
             "rail"
@@ -17978,9 +18037,9 @@
         [
             "POI(Junction)",
             "west ",
-            "top,left",
+            "bottom,left",
             "Transition(A6~A4)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
@@ -17994,9 +18053,9 @@
         [
             "Transition(A6~A4)",
             "west ",
-            "top,left",
+            "bottom,left",
             "Transition(A4~A6)",
-            "top,right",
+            "bottom,right",
             "rail"
         ],
         [
@@ -18004,13 +18063,13 @@
             "northwestdown tall",
             "top,left",
             "Switch(A4:A6)",
-            "bottom,left",
+            "bottom,right",
             "rail"
         ],
         [
             "Switch(A4:A6)",
-            "north tall",
-            "top,left",
+            "north ",
+            "top,right",
             "Canyon(A4)",
             "bottom,left",
             "rail"
@@ -18018,9 +18077,9 @@
         [
             "Switch(A4:A6)",
             "southeastup ",
-            "bottom,left",
+            "bottom,right",
             "Transition(A4~A6)",
-            "top,left",
+            "bottom,left",
             "rail"
         ],
         [
@@ -18033,7 +18092,7 @@
         ],
         [
             "Pond(A4)",
-            "north tall",
+            "north ",
             "top,left",
             "OilTank(A4)",
             "bottom,left",

@@ -2167,7 +2167,7 @@
 <rect x="761.25" y="751.25" width="10" height="10" fill="#6741ca" />
 <text x="772.5" y="758.125" font-size="10" font-family="Arial" fill="default connection">to search for here (unexplored)</text>
 <rect x="761.25" y="762.5" width="10" height="10" fill="#007835" />
-<text x="772.5" y="769.375" font-size="10" font-family="Arial" fill="default connection">to unlock</text>
+<text x="772.5" y="769.375" font-size="10" font-family="Arial" fill="default connection">to harvest or unlock</text>
 <path d="M761.25,779.375 L771.25,779.375" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="772.5" y="780.625" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M761.25,790.625 L771.25,790.625" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />

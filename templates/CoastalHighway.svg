@@ -2477,7 +2477,7 @@
 <rect x="1001.25" y="762.5" width="10" height="10" fill="#7db138" />
 <text x="1012.5" y="769.375" font-size="10" font-family="Arial" fill="default connection">to make from other materials</text>
 <rect x="1001.25" y="773.75" width="10" height="10" fill="#007835" />
-<text x="1012.5" y="780.625" font-size="10" font-family="Arial" fill="default connection">to unlock</text>
+<text x="1012.5" y="780.625" font-size="10" font-family="Arial" fill="default connection">to harvest or unlock</text>
 <path d="M1001.25,790.625 L1011.25,790.625" stroke="#6496b9" stroke-width="1.25" stroke-dasharray="" />
 <text x="1012.5" y="791.875" font-size="10" font-family="Arial" fill="default connection">road other provided path</text>
 <path d="M1001.25,801.875 L1011.25,801.875" stroke="#ee1300" stroke-width="1.25" stroke-dasharray="1,1" />

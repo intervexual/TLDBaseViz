@@ -7154,7 +7154,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["watertank,grill,?box"]
+				"features": ["watertank,grill,?box/0.5"]
 			},
 			"Switch(A5:WT:W)": {
 				"region": "AnnaIsland5",
@@ -7204,7 +7204,17 @@
 				"cabinfeverrisk":true,
 				"indoors": true,
 				"explored":false,
-				"features": ["rabbit","plastic,?box/0.5,?cedar"]
+				"features": ["rabbit,!cattail","plastic,?box/0.5,?cedar"]
+			},
+			"Cave(A5)": {
+				"region": "AnnaIsland5",
+				"coords": [-80,435],
+				"customizable": false,
+				"loading": false,
+				"cabinfeverrisk":false,
+				"indoors": true,
+				"explored":false,
+				"features": ["deer","?box/0.5"]
 			},
 			"POI(Path)": {
 				"region": "AnnaIsland5",
@@ -7216,16 +7226,6 @@
 				"explored":false,
 				"features": ["deer"]
 			},
-			"Cave(A5)": {
-				"region": "AnnaIsland5",
-				"coords": [-80,435],
-				"customizable": false,
-				"loading": false,
-				"cabinfeverrisk":false,
-				"indoors": true,
-				"explored":false,
-				"features": ["deer,?box/0.5"]
-			},
 			"Switch(A5:OT:E)": {
 				"region": "AnnaIsland5",
 				"coords": [-195,425],
@@ -7234,7 +7234,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["switch"]
+				"features": ["switch","harvestfir:2"]
 			},
 			"OilTank(A5)": {
 				"region": "AnnaIsland5",
@@ -7244,7 +7244,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["oiltank,wolf"]
+				"features": ["oiltank,?box,?cedar,wolf"]
 			},
 			"Switch(A5:OT:W)": {
 				"region": "AnnaIsland5",
@@ -7284,7 +7284,7 @@
 				"cabinfeverrisk":false,
 				"indoors": false,
 				"explored":false,
-				"features": ["bufferstop"]
+				"features": ["bufferstop,flatbed"]
 			},
 			"TwoWaterfallPond": {
 				"region": "AnnaIsland5",
@@ -9102,13 +9102,13 @@
 		["Switch(A5:WT:E)", "west", "top,left", "WaterTank(A5)", "top,right", "rail"],
 		["WaterTank(A5)", "west", "top,left", "Switch(A5:WT:W)", "top,right", "rail"],
 		["Switch(A5:WT:W)", "west", "top,left", "Switch(A5:RY:W)", "top,right", "rail"],
-		["Switch(A5:RY:W)", "west wide", "top,left", "POI(Path)", "top,right", "rail"],
-		["POI(Path)", "west wide", "top,left", "Cave(A5)", "top,right", "rail"],
-		["Cave(A5)", "west", "top,left", "Switch(A5:OT:E)", "top,right", "rail"],
+		["Switch(A5:RY:W)", "west", "top,left", "Cave(A5)", "top,right", "rail"],
+		["Cave(A5)", "west", "top,left", "POI(Path)", "top,right", "rail"],
+		["POI(Path)", "west", "top,left", "Switch(A5:OT:E)", "top,right", "rail"],
 		["Switch(A5:OT:E)", "west", "top,left", "OilTank(A5)", "top,right", "rail"],
 		["OilTank(A5)", "west", "top,left", "Switch(A5:OT:W)", "bottom,right", "rail"],
 		["Switch(A5:OT:W)", "west", "bottom,left", "Switch(A5:OT:S)", "top,right", "rail"],
-		["Switch(A5:OT:S)", "southwest", "top,left", "Transition(A5~A4)", "top,right", "rail"],
+		["Switch(A5:OT:S)", "southwest wide", "top,left", "Transition(A5~A4)", "top,right", "rail"],
 		["Bypass(A5:RY)", "north", "top,left", "Cabin(A5)", "bottom,right", "default"],
 		["Switch(A5:OT:W)", "northwestdown", "bottom,left", "Stop(A5)", "bottom,right", "rail"],
 		["Stop(A5)", "northwest", "top,left", "TwoWaterfallPond", "bottom,right", "default"],
@@ -9118,8 +9118,8 @@
 		["Climb(A5)", "west", "top,left", "Transition(A5~A6)", "top,right", "default"],
 		["Switch(A5:OT:S)", "southwestsquigup", "top,right", "Bypass(A5:OT)", "top,left","rail" ],
 		["Switch(A5:OT:E)", "southwestsquigdown verytall", "top,left", "Bypass(A5:OT)", "top,right", "rail"],
-		["Switch(A5:WT:W)", "southeastsquigdown", "bottom,right", "Bypass(A5:WT)", "top,left", "rail"],
-		["Switch(A5:WT:E)", "southwestsquigdown tallwide", "bottom,left", "Bypass(A5:WT)", "top,right", "rail"],
+		["Switch(A5:WT:W)", "southeastsquigdown", "top,right", "Bypass(A5:WT)", "top,left", "rail"],
+		["Switch(A5:WT:E)", "southwestsquigdown verytallwide", "top,left", "Bypass(A5:WT)", "top,right", "rail"],
 		["Switch(A5:RY:W)", "northeast squigdown", "top,right", "Bypass(A5:RY)", "bottom,left", "rail"],
 		["Switch(A5:RY:E)", "northwest squigdown tall", "top,left", "Bypass(A5:RY)", "bottom,right", "rail"],
 		"-----Anna6------",
